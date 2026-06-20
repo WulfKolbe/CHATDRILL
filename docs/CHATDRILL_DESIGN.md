@@ -113,7 +113,7 @@ pass00_acquire               url           → normalized RawChat  (host adapter
                                               shortcut: read straight from webui.db)
    ▼  ── STAGE 1: chatmodel (build) ───────────────────────────────────────────
 pass01_loadAndNormalize      source        → RawChat (message tree)
-pass02_linearizeAndBranch    RawChat       → TurnTree (current path + branches[])
+pass02_linearizeAndBranch    RawChat       → Exchange[] + forgottenBranches  (tree reduced)
 pass03_segmentContent        TurnTree      → Turns w/ segments (prose|code|url|quote)
 pass04_detectArtifacts       segments      → CodeBlock / Url / Upload / Error nodes
 pass05_extractEntities       turns         → Entity mentions (concepts, papers, libs…)
@@ -161,8 +161,10 @@ validate: every parentId resolves; exactly one root (parentId==null);
 ```
 
 **pass02_linearizeAndBranch** — *purpose:* split the tree into the canonical path plus
-abandoned branches, **and pair turns into `Exchange`s** (the Q&A unit every downstream
-pass consumes). *in→out:* `RawChat → TurnTree + Exchange[]`. *logic:*
+abandoned branches, **and reduce the tree to the canonical `Exchange[]`** (the Q&A unit
+every downstream pass consumes). The `TurnTree` is a transient here; the model keeps
+`Exchange[]` + `forgottenBranches`, not the tree. *in→out:* `RawChat → Exchange[] +
+forgottenBranches`. *logic:*
 ```
 current = path(root → history.currentId)         # ordered Turns
 branches = []
@@ -293,9 +295,10 @@ interface ForgottenBranch {
   reason?: "regenerate" | "edit" | "manual_switch";
 }
 
-// The Q&A PAIR — the unit the semantic compiler actually consumes. pass02 emits
-// these from the turn tree. Everything past `query` is OPTIONAL enrichment: it
-// varies wildly by source (Appendix C) and is treated as a bonus, never assumed.
+// The Q&A PAIR — the CANONICAL internal unit (decided 2026-06-20). pass02 reduces
+// the source tree to Exchange[] (the current-path spine) + a forgotten-branch list;
+// off-path forks survive only as `regenCount` + ForgottenBranch entries. Everything
+// past `query` is OPTIONAL enrichment that varies by source (Appendix C), never assumed.
 interface Exchange {
   id: Id; index: number;                    // position on its path
   query: Turn;                              // the user turn (always present)
@@ -402,8 +405,9 @@ interface FrustrationMetrics {              // §3 — per chat AND per model
 // ── the unified model that flows through every pass ──────────────────────────
 interface ChatModel {
   meta: { id: Id; title: string; source: string; models: string[]; createdAt: number };
-  turns: Turn[];                            // ALL turns (current + branches)
-  tree: TurnTree;
+  exchanges: Exchange[];                    // CANONICAL spine — Q&A pairs on the current path
+  forgottenBranches: ForgottenBranch[];     // off-path subtrees reduced from the source tree
+  turns: Turn[];                            // raw turns, kept only as provenance for segments/affect
   states: SemanticState[];
   transitions: StateTransition[];
   loops: Loop[];

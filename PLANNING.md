@@ -74,3 +74,7 @@ citation enrichment). Each extra field has one job (latency→frustration, model
   browser extension (hard for Western providers; Chinese give JSON). For the compiler
   phase, shortcut via `webui.db` (`chatdrill load --db <chat-id>`).
 - Chat code fragments → `Code` tiddlers + blobs under `.chatdrill/code/`.
+- **Canonical internal unit = `Exchange` (Q&A pair)** (decided 2026-06-20). Source message
+  trees (OpenWebUI, ChatGPT) are reduced at pass02 to `Exchange[]` (current-path spine) +
+  a `forgottenBranches` list + per-exchange `regenCount`. Matches Perplexity natively;
+  keeps the algorithm simple. The full tree is not the canonical IR.
