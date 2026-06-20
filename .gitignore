@@ -1,0 +1,13 @@
+# Scratch space — never commit
+tmp/
+!tmp/.gitkeep
+
+# Legacy reference copy from nopi — not tracked, will be deleted later
+oldstuff/perplexport/
+
+# TiddlyWiki build/runtime output
+output/
+*.html.bak
+
+# Local CodeGraph index (machine-specific)
+.codegraph/
