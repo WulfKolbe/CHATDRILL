@@ -50,3 +50,15 @@ exportable to TiddlyWiki. Full design: [docs/CHATDRILL_DESIGN.md](docs/CHATDRILL
 - Mirror PDFDRILL conventions: config-ordered passes, `.chatdrill.json` sidecar,
   flat prose CLI, `commands.yaml` SSOT, Python+Pydantic live path / Bun only for the bridge.
 - Offline-safe by construction: only LLM passes need keys; they degrade to heuristics.
+- **Reverse-time principle (core):** value extraction reads the chat newest→oldest. The
+  user's view is a *results/reuse surface* (latest canonical version of each code file /
+  answer / conclusion, deduped by identity, older drafts collapsed as `superseded`), NOT a
+  chronological transcript. Implemented as `pass14_reverseTimeFold → ResultsView`.
+- **Storage/state machine = PDFDRILL's sidecar+planner verbatim:** cumulative `facts` set +
+  `evidence` + blob `layers` + transition log; declarative `requires`/`done_when` so
+  layer-by-layer reruns skip satisfied passes (idempotency is structural). Only offline
+  prerequisites auto-run via `--ensure`; acquisition/LLM passes never auto-run.
+- **Acquisition (`pass00`) is pluggable and out of core:** URL → host-specific adapters /
+  browser extension (hard for Western providers; Chinese give JSON). For the compiler
+  phase, shortcut via `webui.db` (`chatdrill load --db <chat-id>`).
+- Chat code fragments → `Code` tiddlers + blobs under `.chatdrill/code/`.

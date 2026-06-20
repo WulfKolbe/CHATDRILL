@@ -65,6 +65,39 @@ normalized `RawChat` (§2).
 
 ---
 
+## 0.5 The hostile environment & the reverse-time principle
+
+> *"A chat is the most hostile environment for a semantic compiler."*
+
+It is — for two reasons a document never has:
+
+1. **No authority of order.** A PDF is written once, front-to-back, by one mind that
+   already knew the conclusion. A chat is groped out *forward in time* by two parties who
+   did **not** know the conclusion — full of dead ends, contradictions later retracted,
+   and the same artifact rewritten five times.
+2. **The value is at the end, not the start.** A document's thesis is up front; a chat's
+   payoff (the working code, the answer that stuck, the settled conclusion) is wherever it
+   finally clicked — usually late, and usually preceded by broken drafts of the same thing.
+
+**Consequence — read the chat backwards.** A document compiler linearizes front→back.
+CHATDRILL's load order *for value extraction* is the inverse: **newest turn first.** The
+user does not want a transcript; they want a **results view** — the latest/best version of
+each artifact, ready to reuse, with the messy history collapsed behind it. The user's view
+is explicitly **not chronological**; it is a reuse surface.
+
+Concretely, the **reverse-time fold** (pass14) walks turns newest→oldest and, per
+*artifact identity* (a code file by name/lineage, a question's final answer, a concept's
+settled state), keeps the **first occurrence seen = the latest in time** as canonical and
+files every earlier occurrence as `superseded` history. Five drafts of `parser.py` across a
+chat collapse to one canonical `parser.py` (the last working one) with a four-deep
+evolution chain you can still inspect. This inversion *is* the user's reuse view, and it is
+why CHATDRILL is not merely "PDFDRILL for chats."
+
+Chronological order is still computed (it is how trajectory, loops and frustration are
+derived); reverse order is the **presentation & dedup** principle layered on top.
+
+---
+
 ## 1. High-level compiler pipeline
 
 Two stages, both **config-ordered** (a JSON array of `{title, path, type}` descriptors,
@@ -75,6 +108,9 @@ any other value disables it silently). Stage 1 **builds** the `ChatModel`; Stage
 ```
 SOURCE (url | chat-id | json | openwebui-db)
    │
+   ▼  ── STAGE 0: acquire (optional, never auto-run) ───────────────────────────
+pass00_acquire               url           → normalized RawChat  (host adapters; OR
+                                              shortcut: read straight from webui.db)
    ▼  ── STAGE 1: chatmodel (build) ───────────────────────────────────────────
 pass01_loadAndNormalize      source        → RawChat (message tree)
 pass02_linearizeAndBranch    RawChat       → TurnTree (current path + branches[])
@@ -89,12 +125,14 @@ pass10_detectLoops           trajectory    → Loop[] (repeated Q/A cycles)
 pass11_computeMetrics        all           → FrustrationMetrics + ChannelMetrics
 pass12_scoreInsights         all           → InsightCandidate[] (novelty/consistency/refs)
 pass13_buildHypergraph       all           → Hypergraph (nodes + hyperedges)
+pass14_reverseTimeFold       all           → ResultsView (newest-first, deduped by identity)
    │
    ▼  ── STAGE 2: chatops (project) ────────────────────────────────────────────
 projA_emitModelJson          ChatModel     → <id>.chatmodel.json   (full IR)
 projB_emitGraphJson          Hypergraph    → <id>.graph.json + <id>.trajectory.json
 projC_emitTiddlers           ChatModel     → <id>.tiddlers.json     (TiddlyWiki import)
 projD_emitMetricsReport      metrics       → <id>.report.{md,html}
+projE_emitResultsView        ResultsView   → <id>.results.json + code blobs in .chatdrill/code/
 ```
 
 Design rules carried over from PDFDRILL:
@@ -183,6 +221,24 @@ fallback uses reference presence + novelty + non-repetition. *out:* ranked insig
 Question, Url, CodeBlock, Error, Hypothesis, Insight, Model) and hyperedges
 (supports, contradicts, corrects, extends, references, answers, raised_by). *out:*
 `Hypergraph`.
+
+**pass14_reverseTimeFold** — *purpose:* build the **ResultsView**, the user's reuse
+surface (§0.5). *in→out:* `ChatModel → ResultsView`. *logic:*
+```
+seen = {}                                  # identity → CanonicalArtifact
+for turn in reversed(all_turns_by_timestamp):     # NEWEST first
+    for art in artifacts_of(turn):         # code files, settled answers, conclusions
+        key = identity(art)                # filename | normalized-question | concept key
+        if key not in seen:                # first seen == latest in time == canonical
+            seen[key] = canonical(art, latestTurnId=turn.id)
+        else:
+            seen[key].superseded.append(turn.id)   # older draft → evolution chain
+unresolved = [q for q in questions if not answered_on_current_path(q)]
+emit ResultsView{ artifacts: newest-first(seen.values()), unresolved }
+```
+Reusability is set from validation signals (user confirmation, "it worked", an `Error`
+the next code block resolved). This pass owns nothing new — it re-presents prior passes in
+reverse, deduped by identity.
 
 ---
 
@@ -300,6 +356,22 @@ interface InsightCandidate {                // §4
   score: number;                            // combined (see §4)
 }
 
+// ── Reverse-time results view (pass14) — the user's REUSE surface (§0.5) ──────
+interface CanonicalArtifact {
+  id: Id;
+  kind: "CodeFile" | "Answer" | "Conclusion" | "Command" | "Config";
+  identity: string;                 // filename | normalized question | concept key
+  latestTurnId: Id;                 // where the canonical (latest) version lives
+  content: string; lang?: string;
+  superseded: Id[];                 // earlier turn ids, newest→oldest = evolution chain
+  reusable: boolean;                // confirmed / "worked" / resolved an Error
+}
+interface ResultsView {             // reverse-chronological, deduped by identity
+  artifacts: CanonicalArtifact[];   // newest canonical first
+  unresolved: Id[];                 // questions never answered on the current path
+  generatedAt: number;
+}
+
 interface FrustrationMetrics {              // §3 — per chat AND per model
   interruptionRate: number; loopCount: number;
   qDensity: number; bangDensity: number;
@@ -319,6 +391,7 @@ interface ChatModel {
   graph: Hypergraph;
   metrics: { perChat: FrustrationMetrics; perModel: Record<string, FrustrationMetrics> };
   insights: InsightCandidate[];
+  resultsView: ResultsView;                 // pass14 — the reverse-time reuse surface
 }
 ```
 
@@ -413,6 +486,12 @@ convention):
    per first-class node, plus per-state and per-insight tiddlers. Importable straight
    into the project's TiddlyWiki (served from the repo root) or OpenWebUI KB.
 4. **`<id>.report.{md,html}`** — human-readable metrics + trajectory narrative.
+5. **`<id>.results.json`** — the reverse-time **ResultsView** (§0.5): the canonical
+   (latest) version of every code file / answer / conclusion, deduped by identity,
+   newest-first, each with its `superseded` evolution chain and a `reusable` flag. This is
+   the user's reuse surface. A chat often carries **multiple source files and fragments**;
+   each canonical code body is also written as an individual blob under
+   `.chatdrill/code/<identity>` and surfaced as a `Code` tiddler (below).
 
 **Tiddler schema** (mirrors PDFDRILL's `TiddlyWikiProjector`, `KEY_<type>_<id>` naming):
 
@@ -430,7 +509,12 @@ convention):
   { "title": "<chatkey>_State_0003",
     "tags": "chatdrill state [[<chatkey>]]",
     "fields": { "certainty": "0.4", "frustration": "0.7" },
-    "text": "Frame: debugging the importer. Concepts: {{...}}. Transition in: misunderstanding." }
+    "text": "Frame: debugging the importer. Concepts: {{...}}. Transition in: misunderstanding." },
+  { "title": "<chatkey>_Code_parser_py",
+    "tags": "chatdrill code canonical reusable [[<chatkey>]] python",
+    "fields": { "lang": "python", "latest_turn": "t_9c1", "superseded": "4", "reusable": "yes" },
+    "type": "text/vnd.tiddlywiki",
+    "text": "Canonical (latest) `parser.py`; 4 earlier drafts collapsed (see `superseded`).\n\n```python\n# … final working code …\n```" }
 ]
 ```
 
@@ -507,6 +591,113 @@ non-linear neighborhoods. Ship as `chatdrill corpus-fingerprint --umap`, writing
 
 ---
 
+## 8. Storage & state machine (grounded in PDFDRILL's `sidecar.py` + `planner.py`)
+
+Persistence is two artifacts per source — copied verbatim from PDFDRILL:
+
+```
+<source>.chatdrill.json     ← SIDECAR: state, the single source of truth
+<source>.chatdrill/         ← BLOB DIR: heavy content (chatmodel.json, tiddlers,
+                              reports, results.json, code/<file>)
+```
+
+**Sidecar shape** (mirrors `class Sidecar`): every command **reads on entry, appends,
+writes on exit**.
+- `facts: list[str]` — a **cumulative set** of milestones, *not* a linear sequence
+  ("states are facts that accumulate"). e.g. `LOADED`, `SEGMENTED`, `STATES_BUILT`,
+  `GRAPH_BUILT`, `RESULTS_FOLDED`, `TIDDLERS_BUILT`.
+- `evidence: dict` — small structured counts/pointers (`turn_count`, `branch_count`,
+  `state_count`, `graph_nodes`, …).
+- `layers: dict[name → meta]` — **references** to blobs in the `.chatdrill/` dir
+  (relative path + meta), never the blob bytes.
+- `transitions: list` — append-only log of `{ts, node, from, to, cost_ms, detail}` for
+  every pass that ran. (`log_transition`)
+- Helpers to copy: `add_fact/has/remove_fact`, `set_evidence/get_evidence`,
+  `set_layer/get_layer`, `write_blob/read_blob`.
+
+**The state machine = declarative prerequisites + done detectors** (mirrors `planner.py`
++ `commands.yaml`, the SSOT). This is exactly the "shallow, layer-by-layer processing
+that reruns without repeating work":
+- each command declares `requires: [...]` and a `done_when:` spec.
+- `done_when` detector kinds (extend for CHATDRILL): `model` (the chatmodel artifact
+  exists), `fact:NAME` (the sidecar carries the fact), `file:<name>` (an artifact exists).
+- `plan(target)` = the **ordered set of unsatisfied transitive prerequisites,
+  deepest-first, then the target itself** (cycle-safe `add()` walk).
+- `chatdrill steps <cmd> <source>` prints the chain (done vs would-run);
+  `chatdrill <cmd> <source> --ensure` runs the missing **offline** prerequisites first.
+- **Idempotency is structural, not incidental:** a pass whose `done_when` already holds is
+  skipped; `--force` clears the fact to redo it. A second `chatdrill analyze <id>` does
+  nothing if nothing changed.
+- **Safety rule carried over:** only offline, idempotent steps are auto-inserted.
+  Acquisition / LLM passes (`pass00`, `pass06`, `pass12`) are **never** auto-run — they
+  cost money or hit the network. The target the user named always runs; only its missing
+  *offline* prerequisites are inserted.
+
+CHATDRILL fact ladder — the rerun-skip checkpoints, one per layer:
+```
+LOADED → SEGMENTED → ARTIFACTS → ENTITIES → SPEECH_ACTS? → STATES_BUILT
+       → TRAJECTORY → LOOPS → METRICS → INSIGHTS? → GRAPH_BUILT
+       → RESULTS_FOLDED → TIDDLERS_BUILT
+```
+(`?` = LLM-assisted; without keys, degrade to a heuristic stub and record a `*_HEURISTIC`
+fact so the gap is visible and re-doable when keys appear.)
+
+---
+
+## 9. drillui REPL — grounded in the real three-file pattern
+
+CHATDRILL reuses PDFDRILL's exact `drillui` trio (`tools/drillui_{chat.py,bridge.ts,
+term.html}`); only the subprocess it drives changes (`chatdrill`, not `pdfdrill`).
+
+- **`drillui_chat.py` — the brain (Python, stdlib-only, NEVER imports chatdrill).** A
+  subprocess client. Per typed line it classifies: quit / help / `commands` /
+  `add <source>` / a **known chatdrill command name (or `!cmd`)** → run on the open chat /
+  **anything else** → a grounded question. For a question it: `chatdrill retrieve <source>
+  "<q>" --json` (top-k grounded units + a citing prompt) → `claude -p … --output-format
+  json` → `chatdrill chatlog …` to store the Q&A back as a graph node. A rolling ~2000-char
+  history gives continuity. The command table is loaded once from `chatdrill skill --json`,
+  so the REPL auto-knows every subcommand and whether to auto-fill the source positional.
+  Works standalone in a terminal; no browser required.
+- **`drillui_bridge.ts` — the bridge (Bun, plumbing only).** A browser can't spawn a
+  process, so the bridge spawns **one brain per WebSocket** and pipes stdin/stdout. It
+  knows a turn finished by watching stdout for the REPL's exact prompt tail `"\n? "` (with
+  a ~20 ms debounce, so an answer that itself contains `"\n? "` isn't mistaken for the
+  prompt), then emits `{output}` + `{ready}`. It also serves the HTML page, serves blob
+  artifacts at `/artifact?path=…` **under-root only (no path traversal)**, and can open a
+  file/URL in the host browser at `/open`. No business logic lives here.
+- **`drillui_term.html` — the UI (browser, xterm.js).** Terminal with bash-style editing +
+  history, a retrieval rail (cited unit ids), an Outputs panel. **The browser decides local
+  commands first** (`open <url|file>`, `lhelp`, `^L`) and only forwards the rest to Python —
+  so `open <url>` opens a window and is *never* an LLM call.
+
+The web version *is* the terminal version over a socket — zero logic duplicated. That
+split is the whole point: the terminal REPL is the product; the web page is a transport.
+
+---
+
+## 10. Acquisition layer (`pass00`) — getting the chat in the first place
+
+The "normal" entry is a **single chat URL**, and turning that URL into a clean transcript
+is itself adversarial:
+- **Chinese providers** (DeepSeek, Qwen, Kimi, …) typically expose a chat as a **JSON
+  export/endpoint** — fetch and you're essentially done.
+- **Western providers** (OpenAI, Claude, Gemini, …) hide the transcript behind auth,
+  lazy-loaded virtual scroll, and shifting DOM — so acquisition needs a **library of
+  host-specific tricks**: per-host adapters, a headless/automated browser, and where
+  necessary a **browser extension** that scrapes the live DOM and emits the normalized tree.
+
+This layer is **pluggable and outside the compiler core**: `src/adapters/<host>.py` (+ an
+optional extension under `tools/`), selected by URL host / schema sniff, all emitting one
+normalized `RawChat`. The compiler never sees provider HTML.
+
+**Sanctioned shortcut for the semantic-compiler phase:** we are focused on the *compiler*,
+not on scraping. So bypass acquisition entirely and read from **`~/myopenwebui/webui.db`**
+(`OPENWEBUI_DB` in `.env`): `chatdrill load --db <chat-id>` pulls the already-normalized
+tree straight out of SQLite. `pass00_acquire` stays optional and never auto-run — the
+corpus is already in hand.
+
+---
+
 ## Appendix A — mapping to PDFDRILL
 
 | PDFDRILL | CHATDRILL | Note |
@@ -520,6 +711,9 @@ non-linear neighborhoods. Ship as `chatdrill corpus-fingerprint --umap`, writing
 | `TiddlyWikiProjector` | projC tiddlers | `KEY_<type>_<id>`, transclusion |
 | `drillui_{chat.py,bridge.ts,term.html}` | same three pieces | terminal brain + Bun bridge + xterm |
 | flat prose CLI + `commands.yaml` SSOT | same | `chatdrill <cmd> <source>` |
+| `.drill.json` facts + `done_when`/`--ensure` planner | same | idempotent layer-by-layer rerun; skip satisfied facts |
+| *(no document analog — a doc is read front→back)* | `pass14` reverse-time fold → `ResultsView` | a chat's value is latest-first; dedup artifacts by identity |
+| `retrieve` + `chatlog` grounding | same | drillui brain stays a subprocess client |
 
 ## Appendix B — open questions for the implementer
 
