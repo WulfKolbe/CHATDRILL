@@ -61,9 +61,12 @@ def cmd_list(ctx: Ctx) -> str:
     chats = openwebui.list_chats(db=ctx.db, limit=ctx.limit)
     if not chats:
         return "no chats found in webui.db."
-    lines = [f"{len(chats)} chat(s) (most recent first):"]
+    # Print the FULL id (copy-pasteable). Any unique prefix also works, e.g. the
+    # first 8 chars: `chatdrill model <prefix>`.
+    lines = [f"{len(chats)} chat(s) (most recent first) — id is copy-pasteable; "
+             f"a unique prefix also works:"]
     for c in chats:
-        lines.append(f"  {c['id'][:12]}…  msgs={c['messages']:>3}  {c['title']!r}")
+        lines.append(f"  {c['id']}  msgs={c['messages']:>3}  {c['title']!r}")
     return "\n".join(lines)
 
 
