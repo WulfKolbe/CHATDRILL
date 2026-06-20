@@ -23,3 +23,4 @@ __pycache__/
 
 # Per-chat build artifacts (sidecars + blobs)
 drills/
+tiddlers/*_[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]*.tid

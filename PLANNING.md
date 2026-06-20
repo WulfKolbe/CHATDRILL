@@ -57,9 +57,12 @@ citation enrichment). Each extra field has one job (latency→frustration, model
 - [x] `pass04` artifacts (code/url/error) with sha1 for code lineage.
 - [x] `segment`/`artifacts` commands gated by SEGMENTED/ARTIFACTS facts; chain
       `model → segment → artifacts` via planner + `--ensure`.
+- [x] TiddlyWiki projector (projC) → `tiddlers/`: chat overview + exchange + Code
+      tiddlers (code re-fenced even when source fences were stripped); `<id>.tiddlers.json`
+      import blob in the drill dir. Chain: `model → segment → artifacts → tiddlers`.
+      Generated `.tid` files gitignored (data, not source).
 - [ ] `pass05` entity extraction (regex always-on); `pass07` affect markers (deterministic).
-- [ ] TiddlyWiki projector (projC) → `tiddlers/` (Code tiddlers from artifacts).
-- [ ] `pass14` reverse-time fold → ResultsView (canonical code/answer per identity).
+- [ ] `pass14` reverse-time fold → ResultsView (dedup code by sha1, canonical latest).
 
 ### Later
 - [ ] LLM-assisted passes (06 speech-acts, 12 insights) with heuristic fallbacks.

@@ -11,10 +11,15 @@ import time
 from dataclasses import dataclass
 from typing import Optional
 
+import json
+import os
+from pathlib import Path
+
 from .models import ChatModel
 from .passes.artifacts import extract_artifacts
 from .passes.linearize import linearize
 from .passes.segment import segment_model
+from .passes.tiddlers import build_tiddlers, to_tid_text, _safe_filename
 from .sidecar import Sidecar, resolve_local_id
 from .sources import openwebui
 
@@ -28,6 +33,7 @@ class Ctx:
     as_json: bool = False
     limit: int = 50
     target: Optional[str] = None      # for `steps`
+    out: Optional[str] = None         # tiddlers output dir
 
 
 # -- views -------------------------------------------------------------------
@@ -173,6 +179,49 @@ def cmd_artifacts(ctx: Ctx) -> str:
     return _artifacts_report(model, prefix=f"extracted in {cost_ms:.0f} ms")
 
 
+def _tiddlers_dir(ctx: Ctx) -> Path:
+    return Path(ctx.out or os.environ.get("CHATDRILL_TIDDLERS") or "tiddlers")
+
+
+def cmd_tiddlers(ctx: Ctx) -> str:
+    """projC — write chat/exchange/code tiddlers (requires: artifacts)."""
+    sc = _sidecar_for_persisted(ctx)
+    out_dir = _tiddlers_dir(ctx)
+    if sc.has("TIDDLERS_BUILT") and not ctx.force:
+        n = sc.get_evidence("tiddler_count", "?")
+        return (f"already exported ({n} tiddlers) — skipped. --force to redo. "
+                f"(tiddlers/ dir: {out_dir})")
+    t0 = time.perf_counter()
+    model = _load_persisted(sc)
+    tids = build_tiddlers(model)
+
+    # 1) canonical import blob in the drill dir
+    sc.write_blob("tiddlers.json", json.dumps(tids, indent=2, ensure_ascii=False))
+    # 2) individual .tid files into the live wiki folder
+    out_dir.mkdir(parents=True, exist_ok=True)
+    for t in tids:
+        (out_dir / _safe_filename(t["title"])).write_text(
+            to_tid_text(t), encoding="utf-8")
+    cost_ms = (time.perf_counter() - t0) * 1000
+
+    kinds = {"chat": 0, "exchange": 0, "code": 0}
+    for t in tids:
+        for k in kinds:
+            if t["tags"].startswith(f"chatdrill {k}"):
+                kinds[k] += 1
+    sc.set_evidence("tiddler_count", len(tids))
+    sc.set_layer("tiddlers", {"path": "tiddlers.json", "format": "tiddlywiki/json"})
+    sc.add_fact("TIDDLERS_BUILT")
+    sc.log_transition("tiddlers", "ARTIFACTS", "TIDDLERS_BUILT", cost_ms,
+                      f"{len(tids)} tiddlers {kinds}")
+    sc.save()
+    return (f"exported {len(tids)} tiddlers for {model.id[:12]}… "
+            f"({kinds['chat']} chat, {kinds['exchange']} exchange, "
+            f"{kinds['code']} code) in {cost_ms:.0f} ms\n"
+            f"  → .tid files in {out_dir}/  (live in the TiddlyWiki server)\n"
+            f"  → import blob: {sc.blob_path('tiddlers.json')}")
+
+
 def _counts(model: ChatModel) -> dict:
     by = {"code": 0, "url": 0, "error": 0}
     for a in model.artifacts:
@@ -245,6 +294,7 @@ HANDLERS = {
     "model": cmd_model,
     "segment": cmd_segment,
     "artifacts": cmd_artifacts,
+    "tiddlers": cmd_tiddlers,
     "summary": cmd_summary,
     "status": cmd_status,
     "steps": cmd_steps,

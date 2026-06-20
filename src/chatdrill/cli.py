@@ -31,6 +31,7 @@ def _ctx(args) -> Ctx:
         as_json=getattr(args, "json", False),
         limit=getattr(args, "limit", 50),
         target=getattr(args, "target", None),
+        out=getattr(args, "out", None),
     )
 
 
@@ -70,6 +71,13 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--ensure", action="store_true", help="auto-run missing prerequisites")
     p.add_argument("--force", action="store_true", help="re-extract even if ARTIFACTS")
     p.set_defaults(cmd="artifacts")
+
+    p = sub.add_parser("tiddlers", help="projC — export tiddlers into tiddlers/")
+    p.add_argument("chat_id"); db_arg(p); work_arg(p)
+    p.add_argument("--out", help="tiddlers output dir (default: $CHATDRILL_TIDDLERS or ./tiddlers)")
+    p.add_argument("--ensure", action="store_true", help="auto-run missing prerequisites")
+    p.add_argument("--force", action="store_true", help="re-export even if TIDDLERS_BUILT")
+    p.set_defaults(cmd="tiddlers")
 
     p = sub.add_parser("summary", help="summary from the persisted ChatModel")
     p.add_argument("chat_id"); db_arg(p); work_arg(p)
