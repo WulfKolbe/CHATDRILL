@@ -43,12 +43,16 @@ citation enrichment). Each extra field has one job (latency→frustration, model
 
 ## Tasks
 ### Now
-- [ ] Scaffold `src/` layout per RFC Appendix A (chatmodel / chatops / adapters / features).
-- [ ] Implement `pass01_loadAndNormalize` over the OpenWebUI tree + a `RawChat` model.
-- [ ] `chatdrill load <chat-id>` returning a prose tree summary.
+- [x] Scaffold `src/chatdrill/` (models, sources/openwebui, passes/linearize, cli).
+- [x] `pass01` — load OpenWebUI chat from `webui.db` (read-only SQLite) → `RawChat`.
+- [x] `pass02` — reduce tree → canonical `Exchange[]` + forgotten branches.
+- [x] `chatdrill list` / `chatdrill load <id> [--json]` prose Q&A-pair summary.
+- [x] Tests (synthetic trees) + full-corpus smoke test: 1327 chats, 5482 exchanges, 0 errors.
 
 ### Next
-- [ ] Stage-1 passes 02–05 (linearize/branch, segment, artifacts, entities).
+- [ ] `pass03` segment content (prose/code/url) + `pass04` artifacts (CodeBlock/Url/Error).
+- [ ] `pass05` entity extraction (regex always-on); `pass07` affect markers (deterministic).
+- [ ] Sidecar (`<id>.chatdrill.json`) + facts/`done_when` planner for idempotent rerun.
 - [ ] TiddlyWiki projector (projC) → `tiddlers/`.
 
 ### Later
