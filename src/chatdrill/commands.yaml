@@ -21,6 +21,16 @@ commands:
     summary: Build the ChatModel (pass01 load + pass02 linearize) and persist it.
     done_when: fact:MODEL_BUILT
 
+  - name: segment
+    summary: pass03 — segment each turn into prose/code blocks.
+    requires: [model]
+    done_when: fact:SEGMENTED
+
+  - name: artifacts
+    summary: pass04 — lift code/url/error artifacts from the segmented model.
+    requires: [segment]
+    done_when: fact:ARTIFACTS
+
   - name: summary
     summary: Print the Q&A-pair summary from the persisted ChatModel.
     requires: [model]

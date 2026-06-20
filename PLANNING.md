@@ -53,9 +53,13 @@ citation enrichment). Each extra field has one job (latency→frustration, model
 - [x] Sidecar (`drills/<id>.chatdrill.json` + blob dir) + facts/evidence/layers/transitions.
 - [x] `commands.yaml` SSOT + planner (`requires`/`done_when`, `steps`, `--ensure`).
 - [x] `model` (idempotent build+persist), `summary` (reads persisted), `status`, `steps`.
-- [ ] `pass03` segment content (prose/code/url) + `pass04` artifacts (CodeBlock/Url/Error).
+- [x] `pass03` segment (prose/code; fenced + stripped-fence language-token recovery).
+- [x] `pass04` artifacts (code/url/error) with sha1 for code lineage.
+- [x] `segment`/`artifacts` commands gated by SEGMENTED/ARTIFACTS facts; chain
+      `model → segment → artifacts` via planner + `--ensure`.
 - [ ] `pass05` entity extraction (regex always-on); `pass07` affect markers (deterministic).
-- [ ] TiddlyWiki projector (projC) → `tiddlers/`.
+- [ ] TiddlyWiki projector (projC) → `tiddlers/` (Code tiddlers from artifacts).
+- [ ] `pass14` reverse-time fold → ResultsView (canonical code/answer per identity).
 
 ### Later
 - [ ] LLM-assisted passes (06 speech-acts, 12 insights) with heuristic fallbacks.

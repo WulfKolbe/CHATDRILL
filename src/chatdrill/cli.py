@@ -59,6 +59,18 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--force", action="store_true", help="rebuild even if MODEL_BUILT")
     p.set_defaults(cmd="model")
 
+    p = sub.add_parser("segment", help="pass03 — segment turns into prose/code")
+    p.add_argument("chat_id"); db_arg(p); work_arg(p)
+    p.add_argument("--ensure", action="store_true", help="auto-run missing prerequisites")
+    p.add_argument("--force", action="store_true", help="re-segment even if SEGMENTED")
+    p.set_defaults(cmd="segment")
+
+    p = sub.add_parser("artifacts", help="pass04 — lift code/url/error artifacts")
+    p.add_argument("chat_id"); db_arg(p); work_arg(p)
+    p.add_argument("--ensure", action="store_true", help="auto-run missing prerequisites")
+    p.add_argument("--force", action="store_true", help="re-extract even if ARTIFACTS")
+    p.set_defaults(cmd="artifacts")
+
     p = sub.add_parser("summary", help="summary from the persisted ChatModel")
     p.add_argument("chat_id"); db_arg(p); work_arg(p)
     p.add_argument("--ensure", action="store_true", help="auto-run missing prerequisites")

@@ -12,8 +12,10 @@ from dataclasses import dataclass
 from typing import Optional
 
 from .models import ChatModel
+from .passes.artifacts import extract_artifacts
 from .passes.linearize import linearize
-from .sidecar import Sidecar
+from .passes.segment import segment_model
+from .sidecar import Sidecar, resolve_local_id
 from .sources import openwebui
 
 
@@ -120,10 +122,88 @@ def _load_persisted(sc: Sidecar) -> ChatModel:
     return ChatModel.model_validate_json(blob)
 
 
+def _persist(sc: Sidecar, model: ChatModel) -> None:
+    sc.write_blob("chatmodel.json", model.model_dump_json(indent=2))
+
+
+def _sidecar_for_persisted(ctx: Ctx) -> Sidecar:
+    """Sidecar for a chat that should already be built — DB-free prefix resolve."""
+    return Sidecar(resolve_local_id(ctx.chat_id, ctx.work), work=ctx.work)
+
+
+def cmd_segment(ctx: Ctx) -> str:
+    """pass03 — segment turns into prose/code; rewrite the model (requires: model)."""
+    sc = _sidecar_for_persisted(ctx)
+    if sc.has("SEGMENTED") and not ctx.force:
+        seg = sc.get_evidence("segment_code_blocks", "?")
+        return f"already segmented ({seg} code blocks) — skipped. --force to redo."
+    t0 = time.perf_counter()
+    model = segment_model(_load_persisted(sc))
+    _persist(sc, model)
+    cost_ms = (time.perf_counter() - t0) * 1000
+    code = sum(1 for ex in model.exchanges for t in (ex.query, ex.answer)
+               if t for s in t.segments if s.kind == "code")
+    fenced = sum(1 for ex in model.exchanges for t in (ex.query, ex.answer)
+                 if t for s in t.segments if s.kind == "code" and s.fenced)
+    sc.set_evidence("segment_code_blocks", code)
+    sc.add_fact("SEGMENTED")
+    sc.log_transition("segment", "MODEL_BUILT", "SEGMENTED", cost_ms,
+                      f"{code} code blocks ({fenced} fenced, {code - fenced} recovered)")
+    sc.save()
+    return (f"segmented {sc.chat_id[:12]}…: {code} code blocks "
+            f"({fenced} fenced, {code - fenced} recovered from stripped fences) "
+            f"in {cost_ms:.0f} ms")
+
+
+def cmd_artifacts(ctx: Ctx) -> str:
+    """pass04 — lift code/url/error artifacts (requires: segment)."""
+    sc = _sidecar_for_persisted(ctx)
+    if sc.has("ARTIFACTS") and not ctx.force:
+        return _artifacts_report(_load_persisted(sc), prefix="already extracted")
+    t0 = time.perf_counter()
+    model = extract_artifacts(_load_persisted(sc))
+    _persist(sc, model)
+    cost_ms = (time.perf_counter() - t0) * 1000
+    by = _counts(model)
+    sc.set_evidence("artifact_counts", by)
+    sc.add_fact("ARTIFACTS")
+    sc.log_transition("artifacts", "SEGMENTED", "ARTIFACTS", cost_ms,
+                      f"{sum(by.values())} artifacts {by}")
+    sc.save()
+    return _artifacts_report(model, prefix=f"extracted in {cost_ms:.0f} ms")
+
+
+def _counts(model: ChatModel) -> dict:
+    by = {"code": 0, "url": 0, "error": 0}
+    for a in model.artifacts:
+        by[a.kind] += 1
+    return by
+
+
+def _artifacts_report(model: ChatModel, prefix: str) -> str:
+    by = _counts(model)
+    lines = [f"{prefix}: {by['code']} code, {by['url']} url, {by['error']} error "
+             f"for {model.id[:12]}…"]
+    code = [a for a in model.artifacts if a.kind == "code"]
+    if code:
+        lines.append("  code blocks:")
+        for a in code[:8]:
+            first = next((ln for ln in a.content.splitlines() if ln.strip()), "")
+            tag = "fence" if a.fenced else "recov"
+            lines.append(f"    [{a.exchange_index}] {a.lang or '?':<10} "
+                         f"{a.line_count:>3} lines  {tag}  {first.strip()[:48]!r}")
+    urls = [a for a in model.artifacts if a.kind == "url"]
+    if urls:
+        uniq = sorted({a.content for a in urls})
+        lines.append(f"  urls ({len(uniq)} unique):")
+        for u in uniq[:8]:
+            lines.append(f"    {u[:78]}")
+    return "\n".join(lines)
+
+
 def cmd_summary(ctx: Ctx) -> str:
     """Print the Q&A summary from the PERSISTED ChatModel (requires: model)."""
-    full_id = openwebui.resolve_id(ctx.chat_id, db=ctx.db)
-    sc = Sidecar(full_id, work=ctx.work)
+    sc = _sidecar_for_persisted(ctx)
     model = _load_persisted(sc)
     return model.model_dump_json(indent=2) if ctx.as_json else _summary(model)
 
@@ -163,6 +243,8 @@ HANDLERS = {
     "list": cmd_list,
     "load": cmd_load,
     "model": cmd_model,
+    "segment": cmd_segment,
+    "artifacts": cmd_artifacts,
     "summary": cmd_summary,
     "status": cmd_status,
     "steps": cmd_steps,

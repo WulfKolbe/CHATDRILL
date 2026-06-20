@@ -39,6 +39,14 @@ class RawChat(BaseModel):
     current_id: Optional[str] = None          # leaf of the canonical path
 
 
+class Segment(BaseModel):
+    """A block of a turn's content: prose or code (pass03)."""
+    kind: Literal["prose", "code"]
+    text: str
+    lang: Optional[str] = None
+    fenced: bool = True          # True ⇒ ```fence```; False ⇒ recovered language-token block
+
+
 class Turn(BaseModel):
     """A single message lifted onto a path, with its index."""
     id: str
@@ -48,6 +56,7 @@ class Turn(BaseModel):
     timestamp: Optional[int] = None
     model_name: Optional[str] = None
     on_current_path: bool = True
+    segments: list[Segment] = Field(default_factory=list)   # pass03
 
 
 class Exchange(BaseModel):
@@ -81,8 +90,23 @@ class ForgottenBranch(BaseModel):
     reason: Optional[Literal["regenerate", "edit", "manual_switch"]] = None
 
 
+class Artifact(BaseModel):
+    """A first-class node lifted from an exchange (pass04): code / url / error."""
+    id: str
+    kind: Literal["code", "url", "error"]
+    exchange_index: int
+    turn_id: str
+    role: Role                                # which side it came from
+    content: str                              # code body | the url | the error text
+    lang: Optional[str] = None                # code only
+    fenced: Optional[bool] = None             # code only — ```fence``` vs recovered
+    line_count: Optional[int] = None          # code only
+    sha1: Optional[str] = None                # code only — for dedup / lineage
+
+
 class ChatModel(BaseModel):
-    """The model that flows through the passes. Today: exchanges + branches."""
+    """The model that flows through the passes. Today: exchanges + branches +
+    (pass03) per-turn segments + (pass04) artifacts."""
     id: str
     title: str = ""
     source: str = ""
@@ -90,3 +114,4 @@ class ChatModel(BaseModel):
     created_at: Optional[int] = None
     exchanges: list[Exchange] = Field(default_factory=list)
     forgotten_branches: list[ForgottenBranch] = Field(default_factory=list)
+    artifacts: list[Artifact] = Field(default_factory=list)   # pass04
