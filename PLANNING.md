@@ -7,14 +7,26 @@ pipeline that recovers latent semantic states and transitions, computes frustrat
 personality metrics, and emits a queryable **hypergraph** + **trajectory graph**,
 exportable to TiddlyWiki. Full design: [docs/CHATDRILL_DESIGN.md](docs/CHATDRILL_DESIGN.md).
 
-## Inputs (start phase)
-- Chat histories converted to **OpenWebUI JSON**, in `~/myopenwebui/webui.db`
-  (`chat` table, 1327 chats). Messages are a **tree** (`history.messages` keyed by id,
-  `parentId`/`childrenIds`, `history.currentId` = leaf of the canonical path).
-  Branches off the current path = "forgotten branches" — first-class signal.
-- Later: control via a **REPL-like UI** in two versions — a terminal version and a web
-  HTML version that calls the terminal version over a WebSocket (PDFDRILL `drillui`
-  pattern: `drillui_chat.py` brain + `drillui_bridge.ts` + `drillui_term.html`).
+## Inputs (start phase) — surveyed real corpora, see RFC Appendix C
+- **OpenWebUI** `~/myopenwebui/webui.db` (`chat` JSON, 1327): message **tree**
+  (`history.messages`, `parentId`/`childrenIds`, `currentId`). No token counts here.
+  → start by extracting chats from here (`chatdrill load --db <chat-id>`).
+- **Perplexity JSON** `oldstuff/perplexport/perplexports/*.json`: flat `entries[]` =
+  Q&A blocks (`query_str`, `blocks[]`, `display_model`, `mode`, ISO timestamps).
+- **Perplexity MD/URLs** `~/perplexport/perplexports/*.md` (689) + `urllist.txt` (688).
+- **ChatGPT export** `~/Downloads/conversations.old.json` (625): `mapping` **tree**,
+  `metadata.model_slug` (gpt-4o…gpt-5-2-thinking), citations/attachments; the bulk
+  "download conversion" with all chats in one file → split by separate tools.
+- Reality: only **two shapes** (tree | flat Q&A list); **tokens usually absent**;
+  **model + timestamps almost always present**. Adapters normalize all to `Exchange[]`.
+- Later: control via a **REPL-like UI** in two versions — terminal + web HTML over a
+  WebSocket (PDFDRILL `drillui` trio: `drillui_chat.py` + `drillui_bridge.ts` + `_term.html`).
+
+## Current focus
+The **semantic-compiling algorithm at the Exchange layer** (RFC §11): assume access is
+solved; operate on a normalized `Exchange[]` (Q&A pairs + optional model/time/token/
+citation enrichment). Each extra field has one job (latency→frustration, model→escalation
++ fingerprint + provenance, citations→insight refs, etc.); consumers degrade when absent.
 
 ## Status
 - Project scaffolded: folders (`tiddlers/`, `oldstuff/`, `tmp/`), `tiddlywiki.info`,

@@ -161,7 +161,8 @@ validate: every parentId resolves; exactly one root (parentId==null);
 ```
 
 **pass02_linearizeAndBranch** — *purpose:* split the tree into the canonical path plus
-abandoned branches. *in→out:* `RawChat → TurnTree`. *logic:*
+abandoned branches, **and pair turns into `Exchange`s** (the Q&A unit every downstream
+pass consumes). *in→out:* `RawChat → TurnTree + Exchange[]`. *logic:*
 ```
 current = path(root → history.currentId)         # ordered Turns
 branches = []
@@ -290,6 +291,24 @@ interface ForgottenBranch {
   rootTurnId: Id; turns: Turn[];
   resolved: boolean;                        // did the user ever return to its topic?
   reason?: "regenerate" | "edit" | "manual_switch";
+}
+
+// The Q&A PAIR — the unit the semantic compiler actually consumes. pass02 emits
+// these from the turn tree. Everything past `query` is OPTIONAL enrichment: it
+// varies wildly by source (Appendix C) and is treated as a bonus, never assumed.
+interface Exchange {
+  id: Id; index: number;                    // position on its path
+  query: Turn;                              // the user turn (always present)
+  answer?: Turn;                            // assistant turn (absent ⇒ unanswered)
+  onCurrentPath: boolean;                   // false ⇒ inside a forgotten branch
+  // ---- enrichment (source-dependent, frequently partial) ----
+  model?: string;                           // answering model: modelName | model_slug | display_model
+  askedAt?: number; answeredAt?: number;    // unix seconds; latencyMs = answeredAt − askedAt
+  tokensIn?: number; tokensOut?: number;    // USUALLY ABSENT — never a key, only a metric
+  mode?: string;                            // perplexity CONCISE/search_focus; chatgpt thinking; …
+  citations?: Url[];                        // perplexity blocks / chatgpt content_references
+  attachments?: Upload[];                   // files referenced in the pair
+  regenCount?: number;                      // sibling answers at this branch point (contested)
 }
 
 interface SpeechAct {
@@ -698,6 +717,60 @@ corpus is already in hand.
 
 ---
 
+## 11. The semantic compiling algorithm at the Exchange layer
+
+This is the layer the project now focuses on: **assume acquisition is solved** — adapters
+have delivered a normalized **`Exchange[]`** (a chronological list of Q&A pairs, each with
+the optional enrichment above) plus the branch structure. Everything here runs *after* we
+have the chat in hand. It is passes 05–14 restated concretely in Exchange terms, with each
+piece of "additional data" wired into the exact place it earns its keep.
+
+**Input contract.** `Exchange[]` in chronological order. Each Exchange = `(query, answer?,
+model?, askedAt?, answeredAt?, tokens?, citations?, attachments?, mode?, regenCount?)`.
+Only `query` is guaranteed; **every consumer degrades gracefully** when a field is missing
+(Appendix C shows how often each is, in the real corpora).
+
+**Step 1 — per-Exchange features (cheap, deterministic, no LLM).** For each Exchange
+compute the columns the rest of the algorithm reads:
+- `queryAct` — speech-act of the *question* (question / correction / instruction / …).
+- `affect` — `?`/`!`/caps/ellipsis/single-word markers (§3) on the query.
+- `answered` (is there an answer turn), `answerLen`, code-density, citation-count.
+- `latencyMs = answeredAt − askedAt` (when both present); `tokensOut` (when present).
+
+**Step 2 — link Exchanges into the trajectory.** Walk consecutive pairs `E_i → E_{i+1}`
+and type the edge from `E_{i+1}`'s *query act* + affect:
+- query corrects/contradicts `E_i`'s answer ⇒ `correction` (+ a `contradicts` graph edge);
+- query re-asks `E_i` (high similarity) ⇒ `loop`;
+- query narrows it ("ok but how do I…") ⇒ `clarification`;
+- query confirms and moves on ⇒ `resolution`; new entity-set ⇒ `sidetrack`.
+The **extra data sharpens the edge type**: a **model switch** to a stronger model between
+`E_i` and `E_{i+1}` implies `E_i`'s answer failed (escalation); a long **`latencyMs`**
+before a short, high-affect query is a frustration cue; **`regenCount > 1`** flags a
+contested answer.
+
+**Step 3 — segment into semantic states (frames).** Coalesce consecutive Exchanges that
+share a goal / entity-set into a `SemanticState`; boundary = entity-Jaccard drop or a new
+top-level question. Roll affect / novelty / certainty up to the state.
+
+**Step 4 — loops, metrics, insights** (§3/§4) read straight off the Exchange table:
+loop detection on query-similarity; frustration metrics from affect + latency +
+model-switches; insight scoring favours answers carrying `citations` / runnable code that
+a later Exchange confirmed.
+
+**Step 5 — reverse-time fold (pass14).** Walk Exchanges newest→oldest; per artifact
+identity keep the latest as canonical, older as `superseded`. The canonical Exchange's
+`model` + `answeredAt` become **provenance** on the result ("final answer:
+gpt-5-1-thinking, 2026-02-10").
+
+**The framing in one line:** the additional data is not decoration — *each field has one
+job.* times → latency/frustration + reverse-time ordering; model → escalation signal +
+per-model fingerprint + result provenance; citations → insight `references` + `Url` nodes;
+mode → expected-verbosity baseline; regenCount → contested-answer weight; tokens →
+verbosity/cost metrics *when present*. Where a field is absent, its consumer simply omits
+that signal — the compiler never blocks on missing enrichment.
+
+---
+
 ## Appendix A — mapping to PDFDRILL
 
 | PDFDRILL | CHATDRILL | Note |
@@ -723,4 +796,31 @@ corpus is already in hand.
 3. Corpus identity resolution: how aggressively to merge near-synonym concepts.
 4. Timestamp units across providers (OpenWebUI is seconds; some exports ms) — normalize
    in the adapter, not the compiler.
+
+## Appendix C — Real input survey (what actually arrives)
+
+A scan of the on-disk corpora (2026-06-20) — this is the evidence the `Exchange` contract
+is built from, not a guess:
+
+| Source | Store | Native unit | Structure | Time | Model | Tokens | Notable extras |
+|---|---|---|---|---|---|---|---|
+| **OpenWebUI** | `~/myopenwebui/webui.db` `chat` JSON (1327) | message | **tree** (`history.messages` by id, `parentId`/`childrenIds`, `currentId`) | `timestamp` (s) per msg | `modelName`,`model`,`modelIdx`,`models[]` | ✗ (absent here) | `done`, branch siblings |
+| **Perplexity JSON** | `oldstuff/perplexport/perplexports/*.json` | **entry = Q&A block** | **flat `entries[]`** per thread | `updated_datetime`, `entry_updated_datetime` (ISO) | `display_model`,`user_selected_model`,`gpt4` | ✗ | `query_str`, `blocks[]`(intended_usage + markdown), `mode`(CONCISE), `search_focus`, `related_queries`, `social_info` |
+| **Perplexity MD** | `~/perplexport/perplexports/*.md` (689) | thread | markdown prose | ✗ | ✗ | ✗ | first line = source URL |
+| **Perplexity URLs** | `~/perplexport/urllist.txt` (688) | url | one per line | ✗ | ✗ | ✗ | re-fetch handles |
+| **ChatGPT export** | `~/Downloads/conversations.old.json` (625) | message | **tree** (`mapping`, parent/children) | `create_time`/`update_time` (s, float) | `metadata.model_slug` (gpt-4o … gpt-5-2-thinking) | sometimes via `finish_details` | citations, attachments, `content_references`, canvas, dalle, `is_error` |
+| **ChatGPT partial** | `~/Downloads/conversations*.json` (381/…) | message | `mapping` tree, many **null** message nodes | partial | partial | ✗ | older/sparser dumps |
+
+Findings baked into the design:
+1. **Only two shapes exist:** a *tree* (OpenWebUI, ChatGPT) or a *flat Q&A list*
+   (Perplexity). Adapters normalize both to `Exchange[]` + branch info; the compiler sees
+   only the normalized form.
+2. **Tokens are usually absent.** `tokensIn/Out` is optional enrichment, never required —
+   token-cost metrics are best-effort.
+3. **Model + timestamps are almost always present**, so latency, model-escalation,
+   reverse-time ordering and per-model fingerprints are reliably computable.
+4. **Citations/attachments live in the richest sources** (Perplexity `blocks`, ChatGPT
+   `metadata`) and feed insight `references` + `Url`/`Upload` nodes.
+5. The same chat may exist as **JSON, markdown, and a URL** at once — the markdown/URL
+   forms are low-fidelity fallbacks when the JSON isn't available.
 ```
