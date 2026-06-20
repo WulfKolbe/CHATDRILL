@@ -1,0 +1,32 @@
+# CHATDRILL command manifest — the single source of truth for the CLI surface.
+# Each command declares optional `requires:` (prerequisite commands) and a
+# `done_when:` detector so the planner can compute, from the sidecar/artifact
+# state, what must run before a target. Mirrors PDFDRILL's commands.yaml.
+#
+# done_when detector kinds:
+#   fact:NAME        the sidecar carries that fact
+#   model            the chatmodel.json artifact exists in the blob dir
+#   artifact:REL     a blob at REL exists in the blob dir
+#
+# SAFETY: only offline, idempotent prerequisites are ever auto-run by --ensure.
+version: 1
+commands:
+  - name: list
+    summary: List chats in webui.db.
+
+  - name: load
+    summary: Load a chat and print an ephemeral Q&A-pair summary (no persistence).
+
+  - name: model
+    summary: Build the ChatModel (pass01 load + pass02 linearize) and persist it.
+    done_when: fact:MODEL_BUILT
+
+  - name: summary
+    summary: Print the Q&A-pair summary from the persisted ChatModel.
+    requires: [model]
+
+  - name: status
+    summary: Show the sidecar state (facts, evidence, transitions).
+
+  - name: steps
+    summary: Show the prerequisite chain for a command on a chat.

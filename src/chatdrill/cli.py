@@ -1,63 +1,37 @@
 """chatdrill CLI — flat, prose-returning (PDFDRILL convention).
 
-Today's commands (the pass01→pass02 slice):
+Commands (pass01→pass02 slice + the state machine):
 
-  chatdrill list [--db PATH] [--limit N]      list chats in webui.db
-  chatdrill load <chat-id> [--db PATH] [--json]   load + reduce to Exchange[], summarize
+  chatdrill list [--db PATH] [--limit N]
+  chatdrill load   <id> [--db PATH] [--json]      # ephemeral summary (no persistence)
+  chatdrill model  <id> [--db PATH] [--force]     # build + persist ChatModel (idempotent)
+  chatdrill summary <id> [--ensure] [--json]      # summary from the persisted model
+  chatdrill status <id>                           # sidecar facts/evidence/transitions
+  chatdrill steps  <cmd> <id>                     # show the prerequisite chain
 
-`load` runs pass01 (openwebui source) → pass02 (linearize) and prints a Q&A-pair
-summary, or the full ChatModel as JSON with --json.
+Idempotency is structural: `model` records the MODEL_BUILT fact and skips on
+re-run; `summary` requires `model` and, with `--ensure`, auto-builds it first.
 """
 from __future__ import annotations
 
 import argparse
 import sys
 
-from .passes.linearize import linearize
-from .sources import openwebui
+from . import planner
+from .commands import HANDLERS, Ctx
+from .sidecar import Sidecar
 
 
-def _do_list(args) -> str:
-    chats = openwebui.list_chats(db=args.db, limit=args.limit)
-    if not chats:
-        return "no chats found in webui.db."
-    lines = [f"{len(chats)} chat(s) (most recent first):"]
-    for c in chats:
-        lines.append(f"  {c['id'][:12]}…  msgs={c['messages']:>3}  {c['title']!r}")
-    return "\n".join(lines)
-
-
-def _summary(model) -> str:
-    exs = model.exchanges
-    answered = sum(1 for e in exs if e.answered)
-    models = sorted({e.model for e in exs if e.model})
-    lines = [
-        f"chat {model.id}",
-        f"  title:      {model.title!r}",
-        f"  source:     {model.source}",
-        f"  exchanges:  {len(exs)} ({answered} answered, "
-        f"{len(exs) - answered} unanswered)",
-        f"  branches:   {len(model.forgotten_branches)} forgotten",
-        f"  models:     {', '.join(models) or '(none recorded)'}",
-        "",
-        "  Q&A pairs:",
-    ]
-    for e in exs:
-        q = " ".join(e.query.content.split())[:72]
-        a = " ".join(e.answer.content.split())[:72] if e.answer else "(no answer)"
-        lat = f" {e.latency_ms // 1000}s" if e.latency_ms is not None else ""
-        regen = f" x{e.regen_count}" if e.regen_count > 1 else ""
-        lines.append(f"  [{e.index:>2}] Q: {q}")
-        lines.append(f"       A: {a}  ⟨{e.model or '?'}{lat}{regen}⟩")
-    return "\n".join(lines)
-
-
-def _do_load(args) -> str:
-    raw = openwebui.load_chat(args.chat_id, db=args.db)
-    model = linearize(raw)
-    if args.json:
-        return model.model_dump_json(indent=2)
-    return _summary(model)
+def _ctx(args) -> Ctx:
+    return Ctx(
+        chat_id=getattr(args, "chat_id", None),
+        db=getattr(args, "db", None),
+        work=getattr(args, "work", None),
+        force=getattr(args, "force", False),
+        as_json=getattr(args, "json", False),
+        limit=getattr(args, "limit", 50),
+        target=getattr(args, "target", None),
+    )
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -65,20 +39,52 @@ def main(argv: list[str] | None = None) -> int:
                                  description="Semantic compiler for chat histories.")
     sub = ap.add_subparsers(dest="cmd", required=True)
 
-    p_list = sub.add_parser("list", help="list chats in webui.db")
-    p_list.add_argument("--db", help="path to webui.db (default: $OPENWEBUI_DB)")
-    p_list.add_argument("--limit", type=int, default=50)
-    p_list.set_defaults(fn=_do_list)
+    def db_arg(p):
+        p.add_argument("--db", help="path to webui.db (default: $OPENWEBUI_DB)")
 
-    p_load = sub.add_parser("load", help="load a chat and reduce to Exchange[]")
-    p_load.add_argument("chat_id", help="chat id or unique prefix")
-    p_load.add_argument("--db", help="path to webui.db (default: $OPENWEBUI_DB)")
-    p_load.add_argument("--json", action="store_true", help="emit the full ChatModel JSON")
-    p_load.set_defaults(fn=_do_load)
+    def work_arg(p):
+        p.add_argument("--work", help="artifact root (default: $CHATDRILL_WORK or ./drills)")
+
+    p = sub.add_parser("list", help="list chats in webui.db")
+    db_arg(p); p.add_argument("--limit", type=int, default=50)
+    p.set_defaults(cmd="list")
+
+    p = sub.add_parser("load", help="load a chat, print an ephemeral summary")
+    p.add_argument("chat_id"); db_arg(p)
+    p.add_argument("--json", action="store_true")
+    p.set_defaults(cmd="load")
+
+    p = sub.add_parser("model", help="build + persist the ChatModel (idempotent)")
+    p.add_argument("chat_id"); db_arg(p); work_arg(p)
+    p.add_argument("--force", action="store_true", help="rebuild even if MODEL_BUILT")
+    p.set_defaults(cmd="model")
+
+    p = sub.add_parser("summary", help="summary from the persisted ChatModel")
+    p.add_argument("chat_id"); db_arg(p); work_arg(p)
+    p.add_argument("--ensure", action="store_true", help="auto-run missing prerequisites")
+    p.add_argument("--json", action="store_true")
+    p.set_defaults(cmd="summary")
+
+    p = sub.add_parser("status", help="show the sidecar state")
+    p.add_argument("chat_id"); work_arg(p)
+    p.set_defaults(cmd="status")
+
+    p = sub.add_parser("steps", help="show the prerequisite chain for a command")
+    p.add_argument("target", help="the command to plan for (e.g. summary)")
+    p.add_argument("chat_id"); work_arg(p)
+    p.set_defaults(cmd="steps")
 
     args = ap.parse_args(argv)
+    ctx = _ctx(args)
+
     try:
-        print(args.fn(args))
+        # --ensure: run missing offline prerequisites before the target.
+        if getattr(args, "ensure", False):
+            from .sources import openwebui
+            ctx.chat_id = openwebui.resolve_id(ctx.chat_id, db=ctx.db)  # canonical id
+            sc = Sidecar(ctx.chat_id, work=ctx.work)
+            planner.ensure(args.cmd, sc, HANDLERS, ctx)
+        print(HANDLERS[args.cmd](ctx))
         return 0
     except (FileNotFoundError, KeyError, ValueError) as e:
         print(f"error: {e}", file=sys.stderr)

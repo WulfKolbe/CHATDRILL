@@ -83,24 +83,29 @@ def _raw_chat_from_blob(cid: str, title: str, d: dict) -> RawChat:
     )
 
 
+def resolve_id(chat_id: str, db: Optional[str] = None) -> str:
+    """The canonical full id for an exact id or a unique prefix. Cheap (id only)."""
+    with _connect(db) as con:
+        row = con.execute("SELECT id FROM chat WHERE id = ?", (chat_id,)).fetchone()
+        if row is not None:
+            return row["id"]
+        cands = con.execute(
+            "SELECT id FROM chat WHERE id LIKE ?", (chat_id + "%",)).fetchall()
+        if len(cands) == 1:
+            return cands[0]["id"]
+        if len(cands) > 1:
+            raise ValueError(
+                f"chat id prefix {chat_id!r} is ambiguous "
+                f"({len(cands)} matches) — give more characters.")
+        raise KeyError(f"no chat with id (or prefix) {chat_id!r}")
+
+
 def load_chat(chat_id: str, db: Optional[str] = None) -> RawChat:
     """Load one chat by id (full id or unique prefix) into a RawChat."""
+    full = resolve_id(chat_id, db)
     with _connect(db) as con:
         row = con.execute(
-            "SELECT id, title, chat FROM chat WHERE id = ?", (chat_id,)
-        ).fetchone()
-        if row is None:                       # try a unique prefix match
-            cands = con.execute(
-                "SELECT id, title, chat FROM chat WHERE id LIKE ?",
-                (chat_id + "%",)).fetchall()
-            if len(cands) == 1:
-                row = cands[0]
-            elif len(cands) > 1:
-                raise ValueError(
-                    f"chat id prefix {chat_id!r} is ambiguous "
-                    f"({len(cands)} matches) — give more characters.")
-            else:
-                raise KeyError(f"no chat with id (or prefix) {chat_id!r}")
+            "SELECT id, title, chat FROM chat WHERE id = ?", (full,)).fetchone()
         d = json.loads(row["chat"])
         return _raw_chat_from_blob(row["id"], row["title"], d)
 

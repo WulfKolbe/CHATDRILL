@@ -50,9 +50,11 @@ citation enrichment). Each extra field has one job (latency→frustration, model
 - [x] Tests (synthetic trees) + full-corpus smoke test: 1327 chats, 5482 exchanges, 0 errors.
 
 ### Next
+- [x] Sidecar (`drills/<id>.chatdrill.json` + blob dir) + facts/evidence/layers/transitions.
+- [x] `commands.yaml` SSOT + planner (`requires`/`done_when`, `steps`, `--ensure`).
+- [x] `model` (idempotent build+persist), `summary` (reads persisted), `status`, `steps`.
 - [ ] `pass03` segment content (prose/code/url) + `pass04` artifacts (CodeBlock/Url/Error).
 - [ ] `pass05` entity extraction (regex always-on); `pass07` affect markers (deterministic).
-- [ ] Sidecar (`<id>.chatdrill.json`) + facts/`done_when` planner for idempotent rerun.
 - [ ] TiddlyWiki projector (projC) → `tiddlers/`.
 
 ### Later
