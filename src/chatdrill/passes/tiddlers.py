@@ -17,7 +17,8 @@ from __future__ import annotations
 
 import re
 
-from ..models import ChatModel, Turn
+from ..models import ChatModel
+from .segment import render_turn as _render_turn
 
 
 def slugify(s: str, n: int = 40) -> str:
@@ -27,19 +28,6 @@ def slugify(s: str, n: int = 40) -> str:
 
 def chat_key(model: ChatModel) -> str:
     return f"{slugify(model.title)}_{model.id[:8]}"
-
-
-def _render_turn(turn: Turn) -> str:
-    """Reconstruct a turn's text, re-fencing code segments for TW rendering."""
-    if not turn.segments:
-        return turn.content
-    parts: list[str] = []
-    for s in turn.segments:
-        if s.kind == "code":
-            parts.append(f"```{s.lang or ''}\n{s.text}\n```")
-        else:
-            parts.append(s.text)
-    return "\n\n".join(p for p in parts if p.strip())
 
 
 def _tid(title: str, tags: str, text: str, **fields) -> dict:

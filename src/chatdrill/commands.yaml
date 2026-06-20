@@ -17,6 +17,9 @@ commands:
   - name: load
     summary: Load a chat and print an ephemeral Q&A-pair summary (no persistence).
 
+  - name: md
+    summary: Render the whole chat as one Markdown doc (stdout + a .md file) to copy into an LLM.
+
   - name: model
     summary: Build the ChatModel (pass01 load + pass02 linearize) and persist it.
     done_when: fact:MODEL_BUILT

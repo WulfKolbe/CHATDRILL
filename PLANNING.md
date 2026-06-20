@@ -47,6 +47,8 @@ citation enrichment). Each extra field has one job (latency→frustration, model
 - [x] `pass01` — load OpenWebUI chat from `webui.db` (read-only SQLite) → `RawChat`.
 - [x] `pass02` — reduce tree → canonical `Exchange[]` + forgotten branches.
 - [x] `chatdrill list` / `chatdrill load <id> [--json]` prose Q&A-pair summary.
+- [x] `chatdrill md <id> [--out F]` — whole chat as one Markdown doc (stdout pure +
+      .md file; code re-fenced) to open/copy into an LLM, like PDFDRILL's `md`.
 - [x] Tests (synthetic trees) + full-corpus smoke test: 1327 chats, 5482 exchanges, 0 errors.
 
 ### Next

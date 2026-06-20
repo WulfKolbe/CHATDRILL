@@ -55,6 +55,11 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--json", action="store_true")
     p.set_defaults(cmd="load")
 
+    p = sub.add_parser("md", help="render the whole chat as Markdown (copy into an LLM)")
+    p.add_argument("chat_id"); db_arg(p); work_arg(p)
+    p.add_argument("--out", help="write the .md here (default: the chat's drill dir)")
+    p.set_defaults(cmd="md")
+
     p = sub.add_parser("model", help="build + persist the ChatModel (idempotent)")
     p.add_argument("chat_id"); db_arg(p); work_arg(p)
     p.add_argument("--force", action="store_true", help="rebuild even if MODEL_BUILT")

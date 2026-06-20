@@ -117,6 +117,21 @@ def segment_text(content: str) -> list[Segment]:
     return segs
 
 
+def render_turn(turn: Turn) -> str:
+    """Reconstruct a turn's text with code segments re-fenced (```lang```), so
+    stripped-fence code renders correctly. Falls back to raw content if the turn
+    hasn't been segmented yet."""
+    if not turn.segments:
+        return turn.content
+    parts: list[str] = []
+    for s in turn.segments:
+        if s.kind == "code":
+            parts.append(f"```{s.lang or ''}\n{s.text}\n```")
+        else:
+            parts.append(s.text)
+    return "\n\n".join(p for p in parts if p.strip())
+
+
 def _segment_turn(turn: Turn) -> None:
     turn.segments = segment_text(turn.content)
 

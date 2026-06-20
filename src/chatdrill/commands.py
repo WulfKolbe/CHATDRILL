@@ -13,11 +13,13 @@ from typing import Optional
 
 import json
 import os
+import sys
 from pathlib import Path
 
 from .models import ChatModel
 from .passes.artifacts import extract_artifacts
 from .passes.linearize import linearize
+from .passes.markdown import render_chat_markdown
 from .passes.segment import segment_model
 from .passes.tiddlers import build_tiddlers, to_tid_text, _safe_filename
 from .sidecar import Sidecar, resolve_local_id
@@ -83,6 +85,27 @@ def cmd_load(ctx: Ctx) -> str:
     raw = openwebui.load_chat(ctx.chat_id, db=ctx.db)
     model = linearize(raw)
     return model.model_dump_json(indent=2) if ctx.as_json else _summary(model)
+
+
+def cmd_md(ctx: Ctx) -> str:
+    """Render the whole chat as one Markdown doc (like PDFDRILL's `md`).
+
+    Self-contained (pass01→02→03 in memory, no pipeline needed). Prints the
+    Markdown to stdout — pure, so you can pipe/copy it — and also writes a .md
+    file you can open, reporting its path on STDERR so it never pollutes stdout.
+    """
+    raw = openwebui.load_chat(ctx.chat_id, db=ctx.db)
+    model = segment_model(linearize(raw))     # segment so code re-fences cleanly
+    md = render_chat_markdown(model)
+    if ctx.out:
+        path = Path(ctx.out)
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(md, encoding="utf-8")
+        path = str(path)
+    else:                                     # default: a stable file in the drill dir
+        path = Sidecar(raw.id, work=ctx.work).write_blob("chat.md", md)
+    print(f"wrote {path}", file=sys.stderr)
+    return md
 
 
 def cmd_model(ctx: Ctx) -> str:
@@ -291,6 +314,7 @@ def cmd_steps(ctx: Ctx) -> str:
 HANDLERS = {
     "list": cmd_list,
     "load": cmd_load,
+    "md": cmd_md,
     "model": cmd_model,
     "segment": cmd_segment,
     "artifacts": cmd_artifacts,
