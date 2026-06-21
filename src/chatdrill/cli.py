@@ -77,6 +77,12 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--force", action="store_true", help="re-extract even if ARTIFACTS")
     p.set_defaults(cmd="artifacts")
 
+    p = sub.add_parser("results", help="pass14 — reverse-time fold → ResultsView")
+    p.add_argument("chat_id"); db_arg(p); work_arg(p)
+    p.add_argument("--ensure", action="store_true", help="auto-run missing prerequisites")
+    p.add_argument("--force", action="store_true", help="re-fold even if RESULTS_FOLDED")
+    p.set_defaults(cmd="results")
+
     p = sub.add_parser("tiddlers", help="projC — export tiddlers into tiddlers/")
     p.add_argument("chat_id"); db_arg(p); work_arg(p)
     p.add_argument("--out", help="tiddlers output dir (default: $CHATDRILL_TIDDLERS or ./tiddlers)")

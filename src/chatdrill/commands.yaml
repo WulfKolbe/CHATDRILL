@@ -34,6 +34,11 @@ commands:
     requires: [segment]
     done_when: fact:ARTIFACTS
 
+  - name: results
+    summary: pass14 — reverse-time fold → ResultsView (canonical artifacts + unresolved).
+    requires: [artifacts]
+    done_when: fact:RESULTS_FOLDED
+
   - name: tiddlers
     summary: projC — export chat/exchange/code tiddlers into tiddlers/.
     requires: [artifacts]

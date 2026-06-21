@@ -63,8 +63,12 @@ citation enrichment). Each extra field has one job (latency→frustration, model
       tiddlers (code re-fenced even when source fences were stripped); `<id>.tiddlers.json`
       import blob in the drill dir. Chain: `model → segment → artifacts → tiddlers`.
       Generated `.tid` files gitignored (data, not source).
+- [x] `pass14` reverse-time fold → ResultsView: collapse code drafts by identity
+      (filename > top-level-symbol signature > sha1) to the canonical latest +
+      `superseded` lineage; list unresolved questions. `results` cmd + `results.json`.
+      Verified: "Json to Gawk" chat folds 74 code blocks → 26 canonical (48 collapsed).
 - [ ] `pass05` entity extraction (regex always-on); `pass07` affect markers (deterministic).
-- [ ] `pass14` reverse-time fold → ResultsView (dedup code by sha1, canonical latest).
+- [ ] Surface ResultsView in tiddlers (canonical Code tiddlers + Unresolved tiddler).
 
 ### Later
 - [ ] LLM-assisted passes (06 speech-acts, 12 insights) with heuristic fallbacks.

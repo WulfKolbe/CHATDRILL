@@ -104,9 +104,39 @@ class Artifact(BaseModel):
     sha1: Optional[str] = None                # code only — for dedup / lineage
 
 
+class CanonicalArtifact(BaseModel):
+    """The latest version of an artifact, with older drafts collapsed (pass14)."""
+    id: str
+    kind: Literal["code"] = "code"            # extensible (Answer/Config/… later)
+    identity: str                             # file:<name> | sig:<lang>:<symbols> | sha1:<h>
+    lang: Optional[str] = None
+    latest_turn_id: str                       # where the canonical version lives
+    exchange_index: int
+    content: str
+    line_count: Optional[int] = None
+    sha1: Optional[str] = None
+    superseded: list[str] = Field(default_factory=list)   # earlier turn ids, newest→oldest
+    revisions: int = 1                        # total versions seen (1 + len(superseded))
+    reusable: bool = True
+
+
+class UnresolvedQuestion(BaseModel):
+    """A question never answered on the current path (pass14)."""
+    turn_id: str
+    exchange_index: int
+    text: str
+
+
+class ResultsView(BaseModel):
+    """The reverse-time reuse surface: canonical artifacts (newest first) +
+    unresolved questions. The 'here's the deliverable' view (pass14)."""
+    artifacts: list[CanonicalArtifact] = Field(default_factory=list)
+    unresolved: list[UnresolvedQuestion] = Field(default_factory=list)
+
+
 class ChatModel(BaseModel):
     """The model that flows through the passes. Today: exchanges + branches +
-    (pass03) per-turn segments + (pass04) artifacts."""
+    (pass03) per-turn segments + (pass04) artifacts + (pass14) results."""
     id: str
     title: str = ""
     source: str = ""
@@ -115,3 +145,4 @@ class ChatModel(BaseModel):
     exchanges: list[Exchange] = Field(default_factory=list)
     forgotten_branches: list[ForgottenBranch] = Field(default_factory=list)
     artifacts: list[Artifact] = Field(default_factory=list)   # pass04
+    results: Optional[ResultsView] = None                     # pass14

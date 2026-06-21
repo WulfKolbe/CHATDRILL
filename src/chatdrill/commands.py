@@ -20,6 +20,7 @@ from .models import ChatModel
 from .passes.artifacts import extract_artifacts
 from .passes.linearize import linearize
 from .passes.markdown import render_chat_markdown
+from .passes.reverse_time import fold
 from .passes.segment import segment_model
 from .passes.tiddlers import build_tiddlers, to_tid_text, _safe_filename
 from .sidecar import Sidecar, resolve_local_id
@@ -202,6 +203,49 @@ def cmd_artifacts(ctx: Ctx) -> str:
     return _artifacts_report(model, prefix=f"extracted in {cost_ms:.0f} ms")
 
 
+def cmd_results(ctx: Ctx) -> str:
+    """pass14 — reverse-time fold → ResultsView (requires: artifacts)."""
+    sc = _sidecar_for_persisted(ctx)
+    if sc.has("RESULTS_FOLDED") and not ctx.force:
+        return _results_report(_load_persisted(sc), prefix="already folded")
+    t0 = time.perf_counter()
+    model = fold(_load_persisted(sc))
+    _persist(sc, model)
+    sc.write_blob("results.json", model.results.model_dump_json(indent=2))
+    cost_ms = (time.perf_counter() - t0) * 1000
+    rv = model.results
+    collapsed = sum(len(a.superseded) for a in rv.artifacts)
+    sc.set_evidence("canonical_artifacts", len(rv.artifacts))
+    sc.set_evidence("superseded_drafts", collapsed)
+    sc.set_evidence("unresolved_questions", len(rv.unresolved))
+    sc.set_layer("results", {"path": "results.json", "format": "ResultsView/json"})
+    sc.add_fact("RESULTS_FOLDED")
+    sc.log_transition("results", "ARTIFACTS", "RESULTS_FOLDED", cost_ms,
+                      f"{len(rv.artifacts)} canonical, {collapsed} collapsed, "
+                      f"{len(rv.unresolved)} unresolved")
+    sc.save()
+    return _results_report(model, prefix=f"folded in {cost_ms:.0f} ms")
+
+
+def _results_report(model: ChatModel, prefix: str) -> str:
+    rv = model.results
+    collapsed = sum(len(a.superseded) for a in rv.artifacts)
+    lines = [f"{prefix}: {len(rv.artifacts)} canonical artifact(s) "
+             f"({collapsed} older draft(s) collapsed), "
+             f"{len(rv.unresolved)} unresolved question(s) — newest first:"]
+    for a in rv.artifacts:
+        first = next((ln for ln in a.content.splitlines() if ln.strip()), "")
+        rev = f" ({a.revisions}× revised)" if a.revisions > 1 else ""
+        lines.append(f"  • [{a.lang or '?'}] {a.line_count} lines{rev}  "
+                     f"ex {a.exchange_index}  id={a.identity[:40]}")
+        lines.append(f"      {first.strip()[:64]!r}")
+    if rv.unresolved:
+        lines.append("  unresolved questions:")
+        for u in rv.unresolved:
+            lines.append(f"    [ex {u.exchange_index}] {u.text}")
+    return "\n".join(lines)
+
+
 def _tiddlers_dir(ctx: Ctx) -> Path:
     return Path(ctx.out or os.environ.get("CHATDRILL_TIDDLERS") or "tiddlers")
 
@@ -318,6 +362,7 @@ HANDLERS = {
     "model": cmd_model,
     "segment": cmd_segment,
     "artifacts": cmd_artifacts,
+    "results": cmd_results,
     "tiddlers": cmd_tiddlers,
     "summary": cmd_summary,
     "status": cmd_status,
