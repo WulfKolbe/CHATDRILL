@@ -84,7 +84,7 @@ def _bibtag(key: str) -> str:
 def _templates() -> list[dict]:
     def tpl(title, text):
         return {"title": title, "tags": "$:/tags/chatdrill/template",
-                "type": "text/vnd.tiddlywiki", "text": text}
+                "type": "text/markdown", "text": text}
     return [
         tpl("CODE", "<$codeblock code={{!!code}} language={{!!lang}}/>"),
         tpl("FO", "<$latex text={{!!latex}} displayMode=false/>"),

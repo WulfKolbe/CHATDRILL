@@ -58,17 +58,17 @@ def test_templates_and_preamble_present():
 
 
 def test_markdown_is_the_default_type():
-    tids = {t["title"]: t for t in build_tiddlers(_model())}
+    tids = build_tiddlers(_model())
     bk = bibkey(_model())
-    # content tiddlers are text/markdown (renderWikiText keeps transclusions working)
-    assert tids[bk]["type"] == "text/markdown"               # chat root
-    assert tids[f"{bk}_EX0000"]["type"] == "text/markdown"   # exchange
-    assert tids[f"{bk}_preamble"]["type"] == "text/markdown"
-    # the 5 transclusion templates stay wikitext widgets
+    by = {t["title"]: t for t in tids}
+    # EVERY generated tiddler is text/markdown — content, preamble, and the 5
+    # transclusion templates (widgets render via renderWikiText=true).
+    assert {t["type"] for t in tids} == {"text/markdown"}
+    assert by[bk]["type"] == "text/markdown"                 # chat root
     for tpl in ("CODE", "FO", "EQ", "URL", "CIT"):
-        assert tids[tpl]["type"] == "text/vnd.tiddlywiki"
+        assert by[tpl]["type"] == "text/markdown"
     # markdown headings (not wikitext !!)
-    assert tids[f"{bk}_EX0000"]["text"].startswith("## Question")
+    assert by[f"{bk}_EX0000"]["text"].startswith("## Question")
 
 
 def test_integrity_no_dangling():
