@@ -59,14 +59,20 @@ Acquisition (pass00) is **provider-specific and pluggable**; the semantic compil
 only ever sees a normalized `RawChat`. A registry selects the encoder by reference
 (URL host, file schema, or local db). One encoder per provider:
 
-| Provider | Selector | Native shape (Appendix C) | Status |
-|----------|----------|---------------------------|--------|
+| Provider | URL link structure | Native shape | Status |
+|----------|--------------------|--------------|--------|
 | **OpenWebUI** | local `webui.db` / chat-id | message **tree** (`history.messages`) | `DONE` — `sources/openwebui.py` |
-| **Perplexity** | `perplexity.ai` host / `*.json` export | flat `entries[]` Q&A blocks | `DATA` — send a link |
-| **ChatGPT** | `chatgpt.com` / `conversations*.json` | `mapping` tree | `DATA` — send a link |
-| **DeepSeek** | `chat.deepseek.com` | JSON export (instant) | `DATA` — send a link |
-| **Qwen / Tongyi** | `tongyi`/`qwen` host | JSON export | `DATA` — send a link |
-| **Gemini** | `gemini.google.com` | DOM/scrape | `DATA` — send a link |
+| **ChatGPT** | `chatgpt.com/c/<id>` | `mapping` tree (export `conversations.json`) | `DONE` — `sources/chatgpt.py`, `chatdrill ingest` |
+| **DeepSeek** | `chat.deepseek.com/a/chat/s/<id>` | JSON export | `DATA` — URL parses; need a sample export |
+| **Kimi** | `www.kimi.com/chat/<id>` | JSON export | `DATA` — URL parses; need a sample export |
+| **Z.ai (GLM)** | `chat.z.ai/c/<id>` | GLM JSON export | `DATA` — URL parses; need a sample export |
+| **Perplexity** | `perplexity.ai/search/<slug-id>` | flat `entries[]` Q&A blocks | `DATA` — URL parses; have the JSON shape |
+| **Gemini** | `gemini.google.com/app/<id>` | DOM scrape | `DATA` — URL parses; need a sample export |
+
+`chatdrill source <url>` parses any of these to (provider, chat-id) + how to ingest;
+`chatdrill ingest <export.json>` builds the model for export-backed providers
+(ChatGPT today). The auth-gated URLs can't be fetched server-side — ingest the
+exported JSON (or, later, a browser-extension capture).
 
 Each encoder implements the `Source` interface (`matches(ref)` + `load(ref) ->
 RawChat`). The registry (`sources/registry.py`) maps host→encoder and reports which

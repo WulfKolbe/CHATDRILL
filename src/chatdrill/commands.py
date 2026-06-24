@@ -38,6 +38,8 @@ class Ctx:
     limit: int = 50
     target: Optional[str] = None      # for `steps`
     out: Optional[str] = None         # tiddlers output dir
+    export: Optional[str] = None      # export file for `ingest`
+    provider: Optional[str] = None    # provider override for `ingest`
 
 
 # -- views -------------------------------------------------------------------
@@ -82,10 +84,27 @@ def cmd_list(ctx: Ctx) -> str:
     return "\n".join(lines)
 
 
+def _view_model(ctx: Ctx, segment: bool = False) -> tuple[ChatModel, Sidecar]:
+    """A model for a read-only view (load/md), source-agnostic: use the persisted
+    model if one exists (any provider, incl. ingested exports), else build it
+    ephemerally from the local webui.db. Returns (model, its sidecar)."""
+    local = resolve_local_id(ctx.chat_id, ctx.work)
+    sc = Sidecar(local, work=ctx.work)
+    if sc.has_blob("chatmodel.json"):
+        model = _load_persisted(sc)
+    else:
+        raw = openwebui.load_chat(ctx.chat_id, db=ctx.db)
+        sc = Sidecar(raw.id, work=ctx.work)
+        model = linearize(raw)
+    if segment:
+        segment_model(model)
+    return model, sc
+
+
 def cmd_load(ctx: Ctx) -> str:
-    """Ephemeral: pass01+pass02 in memory, no persistence."""
-    raw = openwebui.load_chat(ctx.chat_id, db=ctx.db)
-    model = linearize(raw)
+    """Read-only Q&A summary. Uses the persisted model if present, else builds it
+    ephemerally from webui.db."""
+    model, _ = _view_model(ctx)
     return model.model_dump_json(indent=2) if ctx.as_json else _summary(model)
 
 
@@ -96,8 +115,7 @@ def cmd_md(ctx: Ctx) -> str:
     Markdown to stdout — pure, so you can pipe/copy it — and also writes a .md
     file you can open, reporting its path on STDERR so it never pollutes stdout.
     """
-    raw = openwebui.load_chat(ctx.chat_id, db=ctx.db)
-    model = segment_model(linearize(raw))     # segment so code re-fences cleanly
+    model, sc = _view_model(ctx, segment=True)   # segment so code re-fences cleanly
     md = render_chat_markdown(model)
     if ctx.out:
         path = Path(ctx.out)
@@ -105,31 +123,28 @@ def cmd_md(ctx: Ctx) -> str:
         path.write_text(md, encoding="utf-8")
         path = str(path)
     else:                                     # default: a stable file in the drill dir
-        path = Sidecar(raw.id, work=ctx.work).write_blob("chat.md", md)
+        path = sc.write_blob("chat.md", md)
     print(f"wrote {path}", file=sys.stderr)
     return md
 
 
-def cmd_model(ctx: Ctx) -> str:
-    """Build + persist the ChatModel. Idempotent: skip if MODEL_BUILT + artifact
-    present, unless --force."""
-    # resolve the prefix to the canonical id FIRST, so the sidecar is keyed
-    # consistently (otherwise a prefix would create a second, empty sidecar).
-    full_id = openwebui.resolve_id(ctx.chat_id, db=ctx.db)
-    sc = Sidecar(full_id, work=ctx.work)
+def _build_persist(raw, ctx: Ctx) -> str:
+    """Build + persist a ChatModel from a RawChat (any provider). Idempotent:
+    skip if MODEL_BUILT + artifact present, unless --force. Sidecar keyed by the
+    canonical chat id, so providers and prefixes stay consistent."""
+    sc = Sidecar(raw.id, work=ctx.work)
     if sc.has("MODEL_BUILT") and sc.has_blob("chatmodel.json") and not ctx.force:
         n = sc.get_evidence("exchange_count", "?")
         return (f"model already built for {sc.chat_id[:12]}… "
                 f"({n} exchanges) — skipped. Use --force to rebuild.")
-
     t0 = time.perf_counter()
-    raw = openwebui.load_chat(full_id, db=ctx.db)
     model = linearize(raw)
     sc.write_blob("chatmodel.json", model.model_dump_json(indent=2))
     cost_ms = (time.perf_counter() - t0) * 1000
 
     answered = sum(1 for e in model.exchanges if e.answered)
     sc.set_layer("chatmodel", {"path": "chatmodel.json", "format": "ChatModel/json"})
+    sc.set_evidence("source", raw.source)
     sc.set_evidence("exchange_count", len(model.exchanges))
     sc.set_evidence("answered_count", answered)
     sc.set_evidence("branch_count", len(model.forgotten_branches))
@@ -137,11 +152,53 @@ def cmd_model(ctx: Ctx) -> str:
     was = "INIT" if not sc.facts else ",".join(sorted(sc.facts))
     sc.add_fact("MODEL_BUILT")
     sc.log_transition("model", was, "MODEL_BUILT", cost_ms,
-                      f"{len(model.exchanges)} exchanges")
+                      f"{len(model.exchanges)} exchanges [{raw.source}]")
     sc.save()
-    return (f"built model for {sc.chat_id[:12]}…: {len(model.exchanges)} exchanges "
-            f"({answered} answered, {len(model.forgotten_branches)} branches) "
-            f"in {cost_ms:.0f} ms → {sc.blob_path('chatmodel.json')}")
+    return (f"built model for {sc.chat_id[:12]}… ({raw.source}): "
+            f"{len(model.exchanges)} exchanges ({answered} answered, "
+            f"{len(model.forgotten_branches)} branches) in {cost_ms:.0f} ms")
+
+
+def cmd_model(ctx: Ctx) -> str:
+    """Build + persist the ChatModel from the local webui.db (idempotent)."""
+    full_id = openwebui.resolve_id(ctx.chat_id, db=ctx.db)
+    return _build_persist(openwebui.load_chat(full_id, db=ctx.db), ctx)
+
+
+def cmd_source(ctx: Ctx) -> str:
+    """Resolve a provider URL (or local ref) → provider + chat id + how to ingest."""
+    from .sources import registry
+    ref = ctx.chat_id
+    if ref.startswith(("http://", "https://")):
+        prov, cid = registry.parse_url(ref)        # ValueError → cli error
+        how = {
+            "db": "local webui.db",
+            "export": f"export the conversation as JSON, then: "
+                      f"chatdrill ingest <export.json> --id {cid[:12]}",
+            "awaiting": f"send a sample {prov.name} export — I'll build sources/{prov.name}.py",
+        }[prov.status]
+        return (f"provider: {prov.name}\n  chat id: {cid}\n  shape:   {prov.shape}\n"
+                f"  status:  {prov.status}\n  ingest:  {how}")
+    src = registry.for_ref(ref)                    # local chat-id → openwebui
+    return f"provider: {src.name} (local) — ref {ref!r} is directly loadable."
+
+
+def cmd_ingest(ctx: Ctx) -> str:
+    """Ingest a provider export file → build + persist the ChatModel."""
+    from .sources import chatgpt
+    path = ctx.export
+    if not Path(path).exists():
+        raise FileNotFoundError(f"export file not found: {path}")
+    prov = ctx.provider
+    if prov is None:
+        prov = "chatgpt" if chatgpt.is_chatgpt_export(path) else None
+    if prov != "chatgpt":
+        raise ValueError(f"unsupported/undetected export format for {path}. "
+                         f"Supported today: chatgpt. Use --provider to force.")
+    raw = chatgpt.load_export(path, chat_id=ctx.chat_id)
+    msg = _build_persist(raw, ctx)
+    return (msg + f"\n  chat id: {raw.id}\n  next: chatdrill files {raw.id[:12]} --ensure "
+            f"· chatdrill md {raw.id[:12]}")
 
 
 def _load_persisted(sc: Sidecar) -> ChatModel:
@@ -415,6 +472,8 @@ HANDLERS = {
     "list": cmd_list,
     "load": cmd_load,
     "md": cmd_md,
+    "source": cmd_source,
+    "ingest": cmd_ingest,
     "model": cmd_model,
     "segment": cmd_segment,
     "artifacts": cmd_artifacts,

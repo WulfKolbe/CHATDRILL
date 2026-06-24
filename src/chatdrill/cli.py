@@ -32,7 +32,20 @@ def _ctx(args) -> Ctx:
         limit=getattr(args, "limit", 50),
         target=getattr(args, "target", None),
         out=getattr(args, "out", None),
+        export=getattr(args, "export", None),
+        provider=getattr(args, "provider", None),
     )
+
+
+def _resolve_for_ensure(ctx: Ctx) -> str:
+    """Canonical id for --ensure: prefer an existing local sidecar (works for any
+    provider, incl. ingested exports), else resolve against the local webui.db."""
+    from .sidecar import resolve_local_id, work_root
+    local = resolve_local_id(ctx.chat_id, ctx.work)
+    if (work_root(ctx.work) / f"{local}.chatdrill.json").exists():
+        return local
+    from .sources import openwebui
+    return openwebui.resolve_id(ctx.chat_id, db=ctx.db)
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -59,6 +72,18 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("chat_id"); db_arg(p); work_arg(p)
     p.add_argument("--out", help="write the .md here (default: the chat's drill dir)")
     p.set_defaults(cmd="md")
+
+    p = sub.add_parser("source", help="resolve a provider URL → provider + chat id + how to ingest")
+    p.add_argument("chat_id", metavar="url-or-ref")
+    p.set_defaults(cmd="source")
+
+    p = sub.add_parser("ingest", help="ingest a provider export file → build the ChatModel")
+    p.add_argument("export", help="path to an export JSON (e.g. ChatGPT conversations.json)")
+    p.add_argument("--id", dest="chat_id", help="conversation id/prefix (if the file has many)")
+    p.add_argument("--provider", help="force provider (default: auto-detect)")
+    work_arg(p)
+    p.add_argument("--force", action="store_true")
+    p.set_defaults(cmd="ingest")
 
     p = sub.add_parser("model", help="build + persist the ChatModel (idempotent)")
     p.add_argument("chat_id"); db_arg(p); work_arg(p)
@@ -117,8 +142,7 @@ def main(argv: list[str] | None = None) -> int:
     try:
         # --ensure: run missing offline prerequisites before the target.
         if getattr(args, "ensure", False):
-            from .sources import openwebui
-            ctx.chat_id = openwebui.resolve_id(ctx.chat_id, db=ctx.db)  # canonical id
+            ctx.chat_id = _resolve_for_ensure(ctx)     # local sidecar or webui.db
             sc = Sidecar(ctx.chat_id, work=ctx.work)
             planner.ensure(args.cmd, sc, HANDLERS, ctx)
         print(HANDLERS[args.cmd](ctx))

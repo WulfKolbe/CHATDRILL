@@ -61,7 +61,25 @@ def test_registry_known_and_awaiting():
         assert False, "should have raised"
     except NotImplementedError as e:
         assert "perplexity" in str(e)
-    assert "perplexity" in registry.awaiting() and "chatgpt" in registry.awaiting()
+    # chatgpt is export-implemented now; perplexity/kimi/zai still await samples
+    assert "chatgpt" not in registry.awaiting()
+    assert {"perplexity", "kimi", "zai", "deepseek"} <= set(registry.awaiting())
+
+
+def test_parse_url_link_structures():
+    cases = {
+        "https://chatgpt.com/c/6a3b8a1f-0f30-83eb-b19d-a4fecf9ddb05":
+            ("chatgpt", "6a3b8a1f-0f30-83eb-b19d-a4fecf9ddb05"),
+        "https://www.kimi.com/chat/19eeffa8-9422-87d1-8000-094978712354?x=1":
+            ("kimi", "19eeffa8-9422-87d1-8000-094978712354"),
+        "https://chat.z.ai/c/cbbfe8d3-3dcb-4557-86a8-e516deef0f0e":
+            ("zai", "cbbfe8d3-3dcb-4557-86a8-e516deef0f0e"),
+        "https://chat.deepseek.com/a/chat/s/acebc758-b3a9-4f40-979d-9636de61bc1f":
+            ("deepseek", "acebc758-b3a9-4f40-979d-9636de61bc1f"),
+    }
+    for url, (prov, cid) in cases.items():
+        p, c = registry.parse_url(url)
+        assert p.name == prov and c == cid, (url, p.name, c)
 
 
 def _run():
