@@ -39,6 +39,11 @@ commands:
     requires: [artifacts]
     done_when: fact:RESULTS_FOLDED
 
+  - name: files
+    summary: Reconstruct explo `!!! path/file` virtual files (latest per path) to disk.
+    requires: [model]
+    done_when: fact:FILES_BUILT
+
   - name: tiddlers
     summary: projC — export chat/exchange/code tiddlers into tiddlers/.
     requires: [artifacts]

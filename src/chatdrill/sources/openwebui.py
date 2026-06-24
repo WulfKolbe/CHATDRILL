@@ -120,3 +120,32 @@ def iter_chats(db: Optional[str] = None) -> Iterator[RawChat]:
             except (json.JSONDecodeError, TypeError):
                 continue
             yield _raw_chat_from_blob(r["id"], r["title"], d)
+
+
+# -- Source interface --------------------------------------------------------
+# Thin wrapper so OpenWebUI plugs into the provider registry. The module-level
+# functions above stay the working API; this just adapts them.
+from .base import Source                          # noqa: E402  (avoid import cycle)
+import re as _re                                  # noqa: E402
+
+_CHATID = _re.compile(r"^[0-9a-fA-F-]{6,}$")       # a chat-id or hex prefix
+
+
+class OpenWebUISource(Source):
+    name = "openwebui"
+
+    def __init__(self, db: Optional[str] = None):
+        self.db = db
+
+    def matches(self, ref: str) -> bool:
+        # a local webui.db path, or a bare chat-id / hex prefix
+        return ref.endswith(".db") or bool(_CHATID.match(ref))
+
+    def load(self, ref: str) -> RawChat:
+        return load_chat(ref, db=self.db)
+
+    def list_chats(self, limit: int = 50) -> list[dict]:
+        return list_chats(db=self.db, limit=limit)
+
+    def iter_chats(self) -> Iterator[RawChat]:
+        return iter_chats(db=self.db)

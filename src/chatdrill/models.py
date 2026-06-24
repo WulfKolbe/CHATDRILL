@@ -134,9 +134,25 @@ class ResultsView(BaseModel):
     unresolved: list[UnresolvedQuestion] = Field(default_factory=list)
 
 
+class VirtualFile(BaseModel):
+    """A file synthesized from the chat (Layer 4). Today: the explicit case —
+    an explo `!!! path/file` header gives the path directly; the latest version
+    on the path is canonical, older ones collapse into `superseded`."""
+    path: str
+    lang: Optional[str] = None
+    content: str
+    latest_turn_id: str
+    exchange_index: int
+    sha1: Optional[str] = None
+    revisions: int = 1
+    superseded: list[str] = Field(default_factory=list)
+    explicit: bool = True            # True ⇒ header-given (not reconstructed)
+
+
 class ChatModel(BaseModel):
     """The model that flows through the passes. Today: exchanges + branches +
-    (pass03) per-turn segments + (pass04) artifacts + (pass14) results."""
+    (pass03) per-turn segments + (pass04) artifacts + (pass14) results +
+    virtual files (explo)."""
     id: str
     title: str = ""
     source: str = ""
@@ -146,3 +162,4 @@ class ChatModel(BaseModel):
     forgotten_branches: list[ForgottenBranch] = Field(default_factory=list)
     artifacts: list[Artifact] = Field(default_factory=list)   # pass04
     results: Optional[ResultsView] = None                     # pass14
+    virtual_files: list[VirtualFile] = Field(default_factory=list)   # explo / Layer 4

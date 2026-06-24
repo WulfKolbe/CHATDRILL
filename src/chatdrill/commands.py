@@ -18,6 +18,7 @@ from pathlib import Path
 
 from .models import ChatModel
 from .passes.artifacts import extract_artifacts
+from .passes.codefiles import extract_virtual_files
 from .passes.linearize import linearize
 from .passes.markdown import render_chat_markdown
 from .passes.reverse_time import fold
@@ -246,6 +247,61 @@ def _results_report(model: ChatModel, prefix: str) -> str:
     return "\n".join(lines)
 
 
+def _safe_relpath(path: str) -> str | None:
+    """A path safe to write under the blob dir — no absolute/.. traversal."""
+    p = path.lstrip("/")
+    if not p or ".." in Path(p).parts:
+        return None
+    return p
+
+
+def cmd_files(ctx: Ctx) -> str:
+    """Reconstruct explo `!!! path/file` virtual files to disk (requires: model)."""
+    sc = _sidecar_for_persisted(ctx)
+    if sc.has("FILES_BUILT") and not ctx.force:
+        return _files_report(_load_persisted(sc), sc, prefix="already reconstructed")
+    t0 = time.perf_counter()
+    model = extract_virtual_files(_load_persisted(sc))
+    _persist(sc, model)
+    # write each reconstructed (latest) file under <id>.chatdrill/files/<path>
+    base = sc.blob_dir / "files"
+    written = 0
+    for vf in model.virtual_files:
+        rel = _safe_relpath(vf.path)
+        if rel is None:
+            continue
+        dest = base / rel
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        dest.write_text(vf.content, encoding="utf-8")
+        written += 1
+    cost_ms = (time.perf_counter() - t0) * 1000
+    collapsed = sum(len(v.superseded) for v in model.virtual_files)
+    sc.set_evidence("virtual_files", len(model.virtual_files))
+    sc.set_evidence("virtual_file_revisions_collapsed", collapsed)
+    sc.set_layer("files", {"path": "files/", "count": written})
+    sc.add_fact("FILES_BUILT")
+    sc.log_transition("files", "MODEL_BUILT", "FILES_BUILT", cost_ms,
+                      f"{len(model.virtual_files)} files, {collapsed} drafts collapsed")
+    sc.save()
+    return _files_report(model, sc, prefix=f"reconstructed {written} file(s) in {cost_ms:.0f} ms")
+
+
+def _files_report(model: ChatModel, sc: Sidecar, prefix: str) -> str:
+    vfs = model.virtual_files
+    if not vfs:
+        return (f"no explo `!!! path/file` files found in {model.id[:12]}… "
+                f"(this chat doesn't use that format).")
+    collapsed = sum(len(v.superseded) for v in vfs)
+    lines = [f"{prefix}: {len(vfs)} virtual file(s) "
+             f"({collapsed} older draft(s) collapsed) for {model.id[:12]}…",
+             f"  → files in {sc.blob_dir / 'files'}/"]
+    for vf in sorted(vfs, key=lambda v: v.path):
+        rev = f"  ({vf.revisions}× revised)" if vf.revisions > 1 else ""
+        lines.append(f"    {vf.path:<40} [{vf.lang or '?':<10}] "
+                     f"{len(vf.content.splitlines()):>4} lines{rev}")
+    return "\n".join(lines)
+
+
 def _tiddlers_dir(ctx: Ctx) -> Path:
     return Path(ctx.out or os.environ.get("CHATDRILL_TIDDLERS") or "tiddlers")
 
@@ -363,6 +419,7 @@ HANDLERS = {
     "segment": cmd_segment,
     "artifacts": cmd_artifacts,
     "results": cmd_results,
+    "files": cmd_files,
     "tiddlers": cmd_tiddlers,
     "summary": cmd_summary,
     "status": cmd_status,

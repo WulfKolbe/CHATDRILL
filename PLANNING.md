@@ -67,8 +67,19 @@ citation enrichment). Each extra field has one job (latency→frustration, model
       (filename > top-level-symbol signature > sha1) to the canonical latest +
       `superseded` lineage; list unresolved questions. `results` cmd + `results.json`.
       Verified: "Json to Gawk" chat folds 74 code blocks → 26 canonical (48 collapsed).
-- [ ] `pass05` entity extraction (regex always-on); `pass07` affect markers (deterministic).
-- [ ] Surface ResultsView in tiddlers (canonical Code tiddlers + Unresolved tiddler).
+- [x] Code-reconstruction plan ([docs/CODE_RECONSTRUCTION.md](docs/CODE_RECONSTRUCTION.md)):
+      12-layer model (compiler/LSP/git/genome-assembly) mapped onto CHATDRILL passes.
+- [x] Provider input-encoder layer: `sources/base.py` (Source interface) +
+      `sources/registry.py` (host→encoder, awaiting list). OpenWebUI implemented;
+      perplexity/chatgpt/deepseek/qwen/gemini declared, awaiting test links.
+- [x] Explo `!!! path/file` virtual-file splitter (Layer 0+4 header case): `files`
+      command reconstructs latest-per-path files to `<id>.chatdrill/files/`.
+      Corpus: 29 explo chats → 519 files, 764 drafts collapsed.
+- [ ] **Awaiting**: per-provider test links → build each `sources/<provider>.py` encoder.
+- [ ] Code layers next (deterministic-first): L1 symbol extractor + L7 signature
+      fingerprints → L5 symbol/call graph → L6 patch detector → L3/L4 unification.
+- [ ] `pass05` entity extraction; `pass07` affect markers.
+- [ ] Surface ResultsView + virtual files in tiddlers ($virtual_file/$symbol).
 
 ### Later
 - [ ] LLM-assisted passes (06 speech-acts, 12 insights) with heuristic fallbacks.
