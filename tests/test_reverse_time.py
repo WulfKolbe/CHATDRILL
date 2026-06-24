@@ -63,6 +63,24 @@ def test_distinct_oneoffs_stay_separate_and_newest_first():
     assert arts[0].exchange_index == 1 and arts[1].exchange_index == 0   # newest first
 
 
+def test_hostname_is_not_a_filename_identity():
+    # two DISTINCT curl commands hitting the same host must NOT merge (a domain
+    # like sensorcloud.ddns.net is not a filename — regression for over-collapsing)
+    a = "```bash\n# call sensorcloud.ddns.net\ncurl http://sensorcloud.ddns.net/a\n```"
+    b = "```bash\n# call sensorcloud.ddns.net\ncurl http://sensorcloud.ddns.net/b\n```"
+    m = _build([_ex(0, "x", a), _ex(1, "y", b)])
+    fold(m)
+    assert len(m.results.artifacts) == 2                  # kept distinct, not merged
+    assert all(c.identity.startswith("sha1:") for c in m.results.artifacts)
+    # but a REAL filename still groups
+    f1 = "```python\n# loader.py\nx = 1\n```"
+    f2 = "```python\n# loader.py\nx = 2\n```"
+    m2 = _build([_ex(0, "v1", f1), _ex(1, "v2", f2)])
+    fold(m2)
+    assert len(m2.results.artifacts) == 1
+    assert m2.results.artifacts[0].identity == "file:loader.py"
+
+
 def test_unresolved_questions_collected():
     m = _build([_ex(0, "answered?", "```py\nok\n```"), _ex(1, "dangling question?")])
     fold(m)

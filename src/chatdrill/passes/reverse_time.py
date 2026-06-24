@@ -20,9 +20,12 @@ import re
 
 from ..models import (Artifact, CanonicalArtifact, ChatModel, ResultsView,
                       UnresolvedQuestion)
+from .codefiles import LANG_BY_EXT
 
+# A real filename, not a hostname/URL: known CODE extension, optional path.
+_CODE_EXTS = set(LANG_BY_EXT)
 _FILENAME = re.compile(
-    r"(?:#|//|/\*|\*|<!--|--|;)\s*([A-Za-z0-9_.\-/]+\.[A-Za-z]{1,5})\b")
+    r"(?:#|//|/\*|\*|<!--|--|;)\s*([A-Za-z0-9_.\-/]+\.([A-Za-z][A-Za-z0-9]{0,5}))\b")
 _DEF = re.compile(
     r"\b(?:def|class|interface|type|function|func|fn|enum|struct|const|let|var)\s+"
     r"([A-Za-z_]\w*)")
@@ -30,9 +33,11 @@ _DEF = re.compile(
 
 def _filename(content: str) -> str | None:
     for line in content.splitlines()[:4]:
+        if "://" in line or "@" in line:              # a URL / email, not a file
+            continue
         m = _FILENAME.search(line)
-        if m:
-            return m.group(1).rsplit("/", 1)[-1]      # basename
+        if m and m.group(2).lower() in _CODE_EXTS:    # `.net`/`.com`/`.ddns` rejected
+            return m.group(1).rsplit("/", 1)[-1]       # basename
     return None
 
 
