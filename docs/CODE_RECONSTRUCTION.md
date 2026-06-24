@@ -66,7 +66,7 @@ only ever sees a normalized `RawChat`. A registry selects the encoder by referen
 | **DeepSeek** | `chat.deepseek.com/a/chat/s/<id>` | JSON export | `DATA` — URL parses; need a sample export |
 | **Kimi** | `www.kimi.com/chat/<id>` | JSON export | `DATA` — URL parses; need a sample export |
 | **Z.ai (GLM)** | `chat.z.ai/c/<id>` | GLM JSON export | `DATA` — URL parses; need a sample export |
-| **Perplexity** | `perplexity.ai/search/<slug-id>` | flat `entries[]` Q&A blocks | `DATA` — URL parses; have the JSON shape |
+| **Perplexity** | `perplexity.ai/search/<slug-id>` | flat `entries[]` Q&A blocks | `DONE` — `sources/perplexity.py` (bodies dump → linear chat) |
 | **Gemini** | `gemini.google.com/app/<id>` | DOM scrape | `DATA` — URL parses; need a sample export |
 
 `chatdrill source <url>` parses any of these to (provider, chat-id) + how to ingest;

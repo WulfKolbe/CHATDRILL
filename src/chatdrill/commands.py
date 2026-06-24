@@ -185,17 +185,21 @@ def cmd_source(ctx: Ctx) -> str:
 
 def cmd_ingest(ctx: Ctx) -> str:
     """Ingest a provider export file → build + persist the ChatModel."""
-    from .sources import chatgpt
+    from .sources import chatgpt, perplexity
     path = ctx.export
     if not Path(path).exists():
         raise FileNotFoundError(f"export file not found: {path}")
     prov = ctx.provider
-    if prov is None:
-        prov = "chatgpt" if chatgpt.is_chatgpt_export(path) else None
-    if prov != "chatgpt":
+    if prov is None:                              # auto-detect
+        if chatgpt.is_chatgpt_export(path):
+            prov = "chatgpt"
+        elif perplexity.is_perplexity_export(path):
+            prov = "perplexity"
+    loaders = {"chatgpt": chatgpt.load_export, "perplexity": perplexity.load_export}
+    if prov not in loaders:
         raise ValueError(f"unsupported/undetected export format for {path}. "
-                         f"Supported today: chatgpt. Use --provider to force.")
-    raw = chatgpt.load_export(path, chat_id=ctx.chat_id)
+                         f"Supported: {', '.join(loaders)}. Use --provider to force.")
+    raw = loaders[prov](path, chat_id=ctx.chat_id)
     msg = _build_persist(raw, ctx)
     return (msg + f"\n  chat id: {raw.id}\n  next: chatdrill files {raw.id[:12]} --ensure "
             f"· chatdrill md {raw.id[:12]}")

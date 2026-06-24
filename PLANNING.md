@@ -75,7 +75,11 @@ citation enrichment). Each extra field has one job (latency→frustration, model
 - [x] Explo `!!! path/file` virtual-file splitter (Layer 0+4 header case): `files`
       command reconstructs latest-per-path files to `<id>.chatdrill/files/`.
       Corpus: 29 explo chats → 519 files, 764 drafts collapsed.
-- [ ] **Awaiting**: per-provider test links → build each `sources/<provider>.py` encoder.
+- [x] Provider URL parsing (`source`) + `ingest` for export-backed providers.
+- [x] `sources/chatgpt.py` (conversations.json mapping tree) — verified on ~/Downloads.
+- [x] `sources/perplexity.py` (bodies dump → linear chat) — all 1053 threads clean,
+      3967 exchanges (matches pplx2tw.py's 3967 tiddlers), 4905 code, 36340 urls.
+- [ ] **Awaiting samples**: kimi, zai (GLM), deepseek, gemini → build each encoder.
 - [ ] Code layers next (deterministic-first): L1 symbol extractor + L7 signature
       fingerprints → L5 symbol/call graph → L6 patch detector → L3/L4 unification.
 - [ ] `pass05` entity extraction; `pass07` affect markers.

@@ -44,7 +44,7 @@ PROVIDERS: list[ProviderInfo] = [
     ProviderInfo("zai", ("chat.z.ai", "z.ai"),
                  r"/c/([0-9A-Za-z-]{8,})", "GLM JSON export", "awaiting"),
     ProviderInfo("perplexity", ("perplexity.ai", "www.perplexity.ai"),
-                 r"/search/([\w-]+)", "entries[] Q&A blocks", "awaiting"),
+                 r"/search/([\w-]+)", "entries[] Q&A blocks", "export"),
     ProviderInfo("gemini", ("gemini.google.com",),
                  r"/app/(\w+)", "DOM scrape", "awaiting"),
 ]
