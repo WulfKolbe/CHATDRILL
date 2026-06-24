@@ -113,8 +113,10 @@ class _Builder:
         return f"{self.bibkey}_{code}{i:0{width}d}"
 
     def _tid(self, title: str, text: str, type_tag: str, **fields) -> str:
+        # text/markdown is the default for all content tiddlers; embedded
+        # transclusions/widgets/math still render (renderWikiText=true + katex).
         t = {"title": title, "tags": f"{type_tag} {self.suffix}",
-             "type": "text/vnd.tiddlywiki", "text": text}
+             "type": "text/markdown", "text": text}
         t.update({k: str(v) for k, v in fields.items() if v is not None})
         self.out.append(t)
         return title
@@ -218,7 +220,7 @@ def build_tiddlers(model: ChatModel) -> list[dict]:
 
     # preamble (per provider)
     out.append({"title": f"{b.bibkey}_preamble",
-                "tags": f"preamble {b.suffix}", "type": "text/vnd.tiddlywiki",
+                "tags": f"preamble {b.suffix}", "type": "text/markdown",
                 "text": b.prov.preamble})
 
     ex_links, code_links = [], []
@@ -239,7 +241,7 @@ def build_tiddlers(model: ChatModel) -> list[dict]:
         lat = f" · {ex.latency_ms // 1000}s" if ex.latency_ms is not None else ""
         ex_title = b._tid(
             f"{b.bibkey}_EX{ex.index:04d}",
-            f"!! Question\n\n{q_text}\n\n!! Answer ⟨{ex.model or '?'}{lat}⟩\n\n{a_text}",
+            f"## Question\n\n{q_text}\n\n## Answer ⟨{ex.model or '?'}{lat}⟩\n\n{a_text}",
             "exchange", index=ex.index, model=ex.model or "",
             answered=str(ex.answered).lower(),
             **({"latency_s": ex.latency_ms // 1000} if ex.latency_ms is not None else {}))
@@ -255,7 +257,7 @@ def build_tiddlers(model: ChatModel) -> list[dict]:
 
     # chat root — provider-specific structure
     answered = sum(1 for e in model.exchanges if e.answered)
-    body = [f"!! {chat_title(model)}", "",
+    body = [f"# {chat_title(model)}", "",
             f"Provider: {b.prov.label} · Models: {', '.join(model.models) or '—'} · "
             f"{len(model.exchanges)} exchanges ({answered} answered) · "
             f"see {{{{{b.bibkey}_preamble}}}}", ""]
@@ -269,11 +271,11 @@ def build_tiddlers(model: ChatModel) -> list[dict]:
     for sec in b.prov.sections:
         items = structure.get(sec)
         if items:
-            body += [f"!! {sec}", *items, ""]
+            body += [f"## {sec}", *items, ""]
 
     out.insert(len(_templates()) + 1,
                {"title": b.bibkey, "tags": f"chat {b.suffix}",
-                "type": "text/vnd.tiddlywiki", "text": "\n".join(body),
+                "type": "text/markdown", "text": "\n".join(body),
                 "source": model.source, "chat_id": model.id,
                 "provider": b.prov.label, "models": ", ".join(model.models),
                 "exchanges": str(len(model.exchanges))})
