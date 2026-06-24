@@ -212,12 +212,16 @@ def _maybe_unzip(path: str) -> str:
 def cmd_split(ctx: Ctx) -> str:
     """Split a bulk export (.json or .zip) into per-chat files under
     raw/<provider>/ — each then ingestable on its own with `chatdrill ingest`."""
-    from .sources import chatgpt, claude, perplexity
+    from .sources import chatgpt, claude, deepseek, perplexity
     if not Path(ctx.export).exists():
         raise FileNotFoundError(f"export file not found: {ctx.export}")
     path = _maybe_unzip(ctx.export)
     data = json.loads(Path(path).read_text(encoding="utf-8"))
-    if chatgpt.is_chatgpt_export(path):
+    if deepseek.is_deepseek_export(path):        # before chatgpt: both use `mapping`
+        prov = "deepseek"
+        items = [(c.get("id") or str(i), c)
+                 for i, c in enumerate(data if isinstance(data, list) else [data])]
+    elif chatgpt.is_chatgpt_export(path):
         prov = "chatgpt"
         items = [(c.get("id") or c.get("conversation_id") or str(i), c)
                  for i, c in enumerate(data if isinstance(data, list) else [data])]
@@ -245,20 +249,22 @@ def cmd_split(ctx: Ctx) -> str:
 
 def cmd_ingest(ctx: Ctx) -> str:
     """Ingest a provider export file (.json or .zip) → build + persist the ChatModel."""
-    from .sources import chatgpt, claude, perplexity
+    from .sources import chatgpt, claude, deepseek, perplexity
     if not Path(ctx.export).exists():
         raise FileNotFoundError(f"export file not found: {ctx.export}")
     path = _maybe_unzip(ctx.export)
     prov = ctx.provider
     if prov is None:                              # auto-detect
-        if chatgpt.is_chatgpt_export(path):
+        if deepseek.is_deepseek_export(path):     # before chatgpt: both use `mapping`
+            prov = "deepseek"
+        elif chatgpt.is_chatgpt_export(path):
             prov = "chatgpt"
         elif claude.is_claude_export(path):
             prov = "claude"
         elif perplexity.is_perplexity_export(path):
             prov = "perplexity"
     loaders = {"chatgpt": chatgpt.load_export, "claude": claude.load_export,
-               "perplexity": perplexity.load_export}
+               "deepseek": deepseek.load_export, "perplexity": perplexity.load_export}
     if prov not in loaders:
         raise ValueError(f"unsupported/undetected export format for {path}. "
                          f"Supported: {', '.join(loaders)}. Use --provider to force.")

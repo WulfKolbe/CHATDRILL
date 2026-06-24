@@ -61,9 +61,9 @@ def test_registry_known_and_awaiting():
         assert False, "should have raised"
     except NotImplementedError as e:
         assert "perplexity" in str(e)
-    # chatgpt + perplexity are export-implemented; kimi/zai/deepseek await samples
-    assert {"chatgpt", "perplexity"} & set(registry.awaiting()) == set()
-    assert {"kimi", "zai", "deepseek"} <= set(registry.awaiting())
+    # chatgpt/claude/deepseek/perplexity are implemented; kimi/zai/gemini await samples
+    assert {"chatgpt", "claude", "deepseek", "perplexity"} & set(registry.awaiting()) == set()
+    assert {"kimi", "zai", "gemini"} <= set(registry.awaiting())
 
 
 def test_parse_url_link_structures():
