@@ -1,5 +1,0 @@
-title: Pplx20260623_DueYouKnow_preamble
-tags: preamble perplexity Pplx20260623_DueYouKnow
-type: text/vnd.tiddlywiki
-
-Perplexity export. Answers cite sources as `[n]`; these map to the Sources list and become CIT transclusions. Math uses `\(…\)`. Math is transcluded through the FO (inline) / EQ (display) templates and rendered by TiddlyWiki's `<$latex>` (KaTeX). Code blocks become CODE tiddlers, URLs become URL tiddlers; every reference is a templated transclusion (a title rendered through a template).

@@ -186,6 +186,36 @@ def cmd_source(ctx: Ctx) -> str:
     return f"provider: {src.name} (local) — ref {ref!r} is directly loadable."
 
 
+def cmd_split(ctx: Ctx) -> str:
+    """Split a bulk export into per-chat files under raw/<provider>/ (the input
+    stratum). Each file is then ingestable on its own with `chatdrill ingest`."""
+    from .sources import chatgpt, perplexity
+    path = ctx.export
+    if not Path(path).exists():
+        raise FileNotFoundError(f"export file not found: {path}")
+    data = json.loads(Path(path).read_text(encoding="utf-8"))
+    if chatgpt.is_chatgpt_export(path):
+        prov = "chatgpt"
+        items = [(c.get("id") or c.get("conversation_id") or str(i), c)
+                 for i, c in enumerate(data if isinstance(data, list) else [data])]
+    elif perplexity.is_perplexity_export(path):
+        prov = "perplexity"
+        src = data.items() if isinstance(data, dict) else \
+            ((b.get("id", str(i)), b) for i, b in enumerate(data))
+        items = [(slug, {slug: body}) for slug, body in src]   # keep dump shape
+    else:
+        raise ValueError(f"unrecognized bulk export {path}. Supported: chatgpt, perplexity.")
+
+    out_dir = _raw_dir(ctx) / prov
+    out_dir.mkdir(parents=True, exist_ok=True)
+    for cid, obj in items:
+        safe = _safe_relpath(str(cid)) or "chat"
+        (out_dir / f"{safe.replace('/', '_')}.json").write_text(
+            json.dumps(obj, ensure_ascii=False), encoding="utf-8")
+    return (f"split {len(items)} {prov} chat(s) → {out_dir}/\n"
+            f"  ingest one with:  chatdrill ingest {out_dir}/<id>.json")
+
+
 def cmd_ingest(ctx: Ctx) -> str:
     """Ingest a provider export file → build + persist the ChatModel."""
     from .sources import chatgpt, perplexity
@@ -393,7 +423,11 @@ def cmd_docmodel(ctx: Ctx) -> str:
 
 
 def _tiddlers_dir(ctx: Ctx) -> Path:
-    return Path(ctx.out or os.environ.get("CHATDRILL_TIDDLERS") or "tiddlers")
+    return Path(ctx.out or os.environ.get("CHATDRILL_TIDDLERS") or "wiki/tiddlers")
+
+
+def _raw_dir(ctx: Ctx) -> Path:
+    return Path(ctx.out or os.environ.get("CHATDRILL_RAW") or "raw")
 
 
 def cmd_tiddlers(ctx: Ctx) -> str:
@@ -511,6 +545,7 @@ HANDLERS = {
     "load": cmd_load,
     "md": cmd_md,
     "source": cmd_source,
+    "split": cmd_split,
     "ingest": cmd_ingest,
     "model": cmd_model,
     "segment": cmd_segment,

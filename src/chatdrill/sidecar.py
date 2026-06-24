@@ -22,8 +22,8 @@ VERSION = "0.1.0"
 
 
 def work_root(work: Optional[str] = None) -> Path:
-    """Resolve the artifact root: explicit arg > $CHATDRILL_WORK > ./drills."""
-    p = work or os.environ.get("CHATDRILL_WORK") or "drills"
+    """Resolve the docmodel artifact root: explicit arg > $CHATDRILL_WORK > ./drill."""
+    p = work or os.environ.get("CHATDRILL_WORK") or "drill"
     return Path(p).expanduser()
 
 

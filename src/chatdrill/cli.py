@@ -77,8 +77,13 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("chat_id", metavar="url-or-ref")
     p.set_defaults(cmd="source")
 
+    p = sub.add_parser("split", help="split a bulk export into per-chat files under raw/")
+    p.add_argument("export", help="a bulk export (ChatGPT conversations.json / pplx bodies)")
+    p.add_argument("--out", help="raw root (default: $CHATDRILL_RAW or ./raw)")
+    p.set_defaults(cmd="split")
+
     p = sub.add_parser("ingest", help="ingest a provider export file → build the ChatModel")
-    p.add_argument("export", help="path to an export JSON (e.g. ChatGPT conversations.json)")
+    p.add_argument("export", help="path to an export JSON (e.g. raw/chatgpt/<id>.json)")
     p.add_argument("--id", dest="chat_id", help="conversation id/prefix (if the file has many)")
     p.add_argument("--provider", help="force provider (default: auto-detect)")
     work_arg(p)
