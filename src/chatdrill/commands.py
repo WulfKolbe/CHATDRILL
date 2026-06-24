@@ -14,7 +14,9 @@ from typing import Optional
 
 import json
 import os
+import shutil
 import sys
+import zipfile
 from pathlib import Path
 
 from .models import ChatModel
@@ -186,25 +188,50 @@ def cmd_source(ctx: Ctx) -> str:
     return f"provider: {src.name} (local) — ref {ref!r} is directly loadable."
 
 
+def _maybe_unzip(path: str) -> str:
+    """A provider export may arrive as a .zip (ChatGPT 'Export data'). Extract the
+    conversations.json (else the largest .json) to ./tmp and return its path."""
+    if not path.lower().endswith(".zip"):
+        return path
+    with zipfile.ZipFile(path) as z:
+        names = z.namelist()
+        target = next((n for n in names if n.endswith("conversations.json")), None)
+        if target is None:
+            jsons = [(z.getinfo(n).file_size, n) for n in names if n.endswith(".json")]
+            if not jsons:
+                raise ValueError(f"no .json inside {path}")
+            target = max(jsons)[1]
+        out = Path("tmp") / f"{Path(path).stem}__{Path(target).name}"
+        out.parent.mkdir(parents=True, exist_ok=True)
+        with z.open(target) as src, open(out, "wb") as dst:
+            shutil.copyfileobj(src, dst)
+        print(f"unzipped {target} → {out}", file=sys.stderr)
+        return str(out)
+
+
 def cmd_split(ctx: Ctx) -> str:
-    """Split a bulk export into per-chat files under raw/<provider>/ (the input
-    stratum). Each file is then ingestable on its own with `chatdrill ingest`."""
-    from .sources import chatgpt, perplexity
-    path = ctx.export
-    if not Path(path).exists():
-        raise FileNotFoundError(f"export file not found: {path}")
+    """Split a bulk export (.json or .zip) into per-chat files under
+    raw/<provider>/ — each then ingestable on its own with `chatdrill ingest`."""
+    from .sources import chatgpt, claude, perplexity
+    if not Path(ctx.export).exists():
+        raise FileNotFoundError(f"export file not found: {ctx.export}")
+    path = _maybe_unzip(ctx.export)
     data = json.loads(Path(path).read_text(encoding="utf-8"))
     if chatgpt.is_chatgpt_export(path):
         prov = "chatgpt"
         items = [(c.get("id") or c.get("conversation_id") or str(i), c)
                  for i, c in enumerate(data if isinstance(data, list) else [data])]
+    elif claude.is_claude_export(path):
+        prov = "claude"
+        items = [(c.get("uuid") or str(i), c) for i, c in enumerate(data)]
     elif perplexity.is_perplexity_export(path):
         prov = "perplexity"
         src = data.items() if isinstance(data, dict) else \
             ((b.get("id", str(i)), b) for i, b in enumerate(data))
         items = [(slug, {slug: body}) for slug, body in src]   # keep dump shape
     else:
-        raise ValueError(f"unrecognized bulk export {path}. Supported: chatgpt, perplexity.")
+        raise ValueError(f"unrecognized bulk export {path}. "
+                         f"Supported: chatgpt, claude, perplexity.")
 
     out_dir = _raw_dir(ctx) / prov
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -217,18 +244,21 @@ def cmd_split(ctx: Ctx) -> str:
 
 
 def cmd_ingest(ctx: Ctx) -> str:
-    """Ingest a provider export file → build + persist the ChatModel."""
-    from .sources import chatgpt, perplexity
-    path = ctx.export
-    if not Path(path).exists():
-        raise FileNotFoundError(f"export file not found: {path}")
+    """Ingest a provider export file (.json or .zip) → build + persist the ChatModel."""
+    from .sources import chatgpt, claude, perplexity
+    if not Path(ctx.export).exists():
+        raise FileNotFoundError(f"export file not found: {ctx.export}")
+    path = _maybe_unzip(ctx.export)
     prov = ctx.provider
     if prov is None:                              # auto-detect
         if chatgpt.is_chatgpt_export(path):
             prov = "chatgpt"
+        elif claude.is_claude_export(path):
+            prov = "claude"
         elif perplexity.is_perplexity_export(path):
             prov = "perplexity"
-    loaders = {"chatgpt": chatgpt.load_export, "perplexity": perplexity.load_export}
+    loaders = {"chatgpt": chatgpt.load_export, "claude": claude.load_export,
+               "perplexity": perplexity.load_export}
     if prov not in loaders:
         raise ValueError(f"unsupported/undetected export format for {path}. "
                          f"Supported: {', '.join(loaders)}. Use --provider to force.")

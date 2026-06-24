@@ -77,8 +77,8 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("chat_id", metavar="url-or-ref")
     p.set_defaults(cmd="source")
 
-    p = sub.add_parser("split", help="split a bulk export into per-chat files under raw/")
-    p.add_argument("export", help="a bulk export (ChatGPT conversations.json / pplx bodies)")
+    p = sub.add_parser("split", help="split a bulk export (.json or .zip) into raw/")
+    p.add_argument("export", help="a bulk export: ChatGPT .zip / conversations.json / pplx bodies")
     p.add_argument("--out", help="raw root (default: $CHATDRILL_RAW or ./raw)")
     p.set_defaults(cmd="split")
 

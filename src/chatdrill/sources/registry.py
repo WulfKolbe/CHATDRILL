@@ -37,6 +37,8 @@ PROVIDERS: list[ProviderInfo] = [
     ProviderInfo("openwebui", (), None, "local webui.db message tree", "db"),
     ProviderInfo("chatgpt", ("chatgpt.com", "chat.openai.com"),
                  r"/c/([0-9A-Za-z-]{8,})", "mapping tree", "export"),
+    ProviderInfo("claude", ("claude.ai",),
+                 r"/chat/([0-9A-Za-z-]{8,})", "chat_messages list", "export"),
     ProviderInfo("deepseek", ("chat.deepseek.com", "deepseek.com"),
                  r"/a/chat/s/([0-9A-Za-z-]{8,})", "JSON export", "awaiting"),
     ProviderInfo("kimi", ("kimi.com", "www.kimi.com"),

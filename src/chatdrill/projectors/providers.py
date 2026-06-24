@@ -39,6 +39,10 @@ PROVIDERS: dict[str, Provider] = {
         "chatgpt", "Gpt", "chatgpt", _DELIMS_DOLLAR, False,
         ("Exchanges", "Code", "Files", "Links"),
         "ChatGPT export (mapping tree). Math uses `$…$`/`$$…$$`. " + _COMMON),
+    "claude": Provider(
+        "claude", "Cla", "claude", _DELIMS_DOLLAR, False,
+        ("Exchanges", "Code", "Files", "Links"),
+        "Claude.ai export (chat_messages). Math uses `$…$`/`$$…$$`. " + _COMMON),
     "perplexity": Provider(
         "perplexity", "Pplx", "perplexity", _DELIMS_BRACKET, True,
         ("Exchanges", "Code", "Links", "Sources"),
