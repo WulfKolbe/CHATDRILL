@@ -19,6 +19,7 @@ from pathlib import Path
 from .models import ChatModel
 from .passes.artifacts import extract_artifacts
 from .passes.codefiles import extract_virtual_files
+from .passes.docmodel_export import object_counts, to_document
 from .passes.linearize import linearize
 from .passes.markdown import render_chat_markdown
 from .passes.reverse_time import fold
@@ -363,6 +364,32 @@ def _files_report(model: ChatModel, sc: Sidecar, prefix: str) -> str:
     return "\n".join(lines)
 
 
+def cmd_docmodel(ctx: Ctx) -> str:
+    """Export the chat as a PDFDRILL-compatible docmodel (requires: artifacts)."""
+    sc = _sidecar_for_persisted(ctx)
+    if sc.has("DOCMODEL_BUILT") and not ctx.force:
+        return (f"already exported docmodel for {sc.chat_id[:12]}… "
+                f"→ {sc.blob_path('docmodel.json')}")
+    t0 = time.perf_counter()
+    doc = to_document(_load_persisted(sc))
+    sc.write_blob("docmodel.json", json.dumps(doc, indent=2, ensure_ascii=False))
+    cost_ms = (time.perf_counter() - t0) * 1000
+    counts = object_counts(doc)
+    sc.set_evidence("docmodel_objects", counts)
+    sc.set_evidence("docmodel_alignments", len(doc["alignments"]))
+    sc.set_layer("docmodel", {"path": "docmodel.json", "format": "pdfdrill/docmodel"})
+    sc.add_fact("DOCMODEL_BUILT")
+    sc.log_transition("docmodel", "ARTIFACTS", "DOCMODEL_BUILT", cost_ms,
+                      f"{sum(counts.values())} objects, {len(doc['alignments'])} alignments")
+    sc.save()
+    obj_str = ", ".join(f"{k}={v}" for k, v in sorted(counts.items()))
+    return (f"exported docmodel for {sc.chat_id[:12]}… in {cost_ms:.0f} ms\n"
+            f"  streams: turns ({len(doc['streams']['turns']['anchors'])} anchors)\n"
+            f"  objects: {obj_str}\n"
+            f"  alignments: {len(doc['alignments'])} (supersedes …)\n"
+            f"  → {sc.blob_path('docmodel.json')}")
+
+
 def _tiddlers_dir(ctx: Ctx) -> Path:
     return Path(ctx.out or os.environ.get("CHATDRILL_TIDDLERS") or "tiddlers")
 
@@ -483,6 +510,7 @@ HANDLERS = {
     "artifacts": cmd_artifacts,
     "results": cmd_results,
     "files": cmd_files,
+    "docmodel": cmd_docmodel,
     "tiddlers": cmd_tiddlers,
     "summary": cmd_summary,
     "status": cmd_status,

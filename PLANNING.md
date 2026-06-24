@@ -80,10 +80,23 @@ citation enrichment). Each extra field has one job (latency→frustration, model
 - [x] `sources/perplexity.py` (bodies dump → linear chat) — all 1053 threads clean,
       3967 exchanges (matches pplx2tw.py's 3967 tiddlers), 4905 code, 36340 urls.
 - [ ] **Awaiting samples**: kimi, zai (GLM), deepseek, gemini → build each encoder.
-- [ ] Code layers next (deterministic-first): L1 symbol extractor + L7 signature
-      fingerprints → L5 symbol/call graph → L6 patch detector → L3/L4 unification.
-- [ ] `pass05` entity extraction; `pass07` affect markers.
-- [ ] Surface ResultsView + virtual files in tiddlers ($virtual_file/$symbol).
+- [x] **docmodel alignment** ([docs/DOCMODEL_ALIGNMENT.md](docs/DOCMODEL_ALIGNMENT.md)):
+      tiddlers/md/latex are PROJECTIONS; the canonical IR is PDFDRILL's docmodel
+      (meta/streams/objects/alignments). `docmodel` command exports
+      `<id>.docmodel.json`; **verified it loads in PDFDRILL's real `Document.from_dict`**
+      and round-trips. "Json to Gawk" → 102 objects (Exchange/CodeBlock/Url) + 48
+      supersedes alignments (the evolution chain). Chain: model→segment→artifacts→
+      results→files→docmodel.
+- [ ] Semantic Compiler (LLM, on the docmodel): per-section `SemanticUnit` objects
+      (purpose/inputs/outputs/objects/transformations/constraints/invariants/…) +
+      8 global passes (object graph, transformation graph, invariants, architecture,
+      category structures, cross-domain, implementation view, research) — all as
+      docmodel objects/alignments citing evidence by anchor range.
+- [ ] Code layers (deterministic-first): L1 symbol extractor + L7 signature
+      fingerprints → L5 symbol/call graph → L6 patch detector → L3/L4 unification —
+      all as docmodel objects (Symbol/Patch) + alignments (defines/supersedes).
+- [ ] docpack: reuse PDFDRILL's `docpack.py` for `<id>.docpack.json` (shared format).
+- [ ] Migrate projectors (tiddlers/md) to read the docmodel Document directly.
 
 ### Later
 - [ ] LLM-assisted passes (06 speech-acts, 12 insights) with heuristic fallbacks.

@@ -44,6 +44,11 @@ commands:
     requires: [model]
     done_when: fact:FILES_BUILT
 
+  - name: docmodel
+    summary: Export to a PDFDRILL-compatible docmodel Document (<id>.docmodel.json).
+    requires: [results, files]
+    done_when: fact:DOCMODEL_BUILT
+
   - name: tiddlers
     summary: projC — export chat/exchange/code tiddlers into tiddlers/.
     requires: [artifacts]

@@ -114,6 +114,12 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--force", action="store_true", help="re-reconstruct even if FILES_BUILT")
     p.set_defaults(cmd="files")
 
+    p = sub.add_parser("docmodel", help="export a PDFDRILL-compatible docmodel Document")
+    p.add_argument("chat_id"); db_arg(p); work_arg(p)
+    p.add_argument("--ensure", action="store_true", help="auto-run missing prerequisites")
+    p.add_argument("--force", action="store_true", help="re-export even if DOCMODEL_BUILT")
+    p.set_defaults(cmd="docmodel")
+
     p = sub.add_parser("tiddlers", help="projC — export tiddlers into tiddlers/")
     p.add_argument("chat_id"); db_arg(p); work_arg(p)
     p.add_argument("--out", help="tiddlers output dir (default: $CHATDRILL_TIDDLERS or ./tiddlers)")
