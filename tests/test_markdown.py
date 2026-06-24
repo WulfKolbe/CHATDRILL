@@ -7,7 +7,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
 from chatdrill.models import ChatModel, Exchange, Turn          # noqa: E402
-from chatdrill.passes.markdown import render_chat_markdown      # noqa: E402
+from chatdrill.projectors.markdown import render_chat_markdown      # noqa: E402
 from chatdrill.passes.segment import segment_model              # noqa: E402
 
 

@@ -8,6 +8,7 @@ skips unless ``--force``.
 from __future__ import annotations
 
 import time
+from collections import defaultdict
 from dataclasses import dataclass
 from typing import Optional
 
@@ -21,10 +22,11 @@ from .passes.artifacts import extract_artifacts
 from .passes.codefiles import extract_virtual_files
 from .passes.docmodel_export import object_counts, to_document
 from .passes.linearize import linearize
-from .passes.markdown import render_chat_markdown
 from .passes.reverse_time import fold
 from .passes.segment import segment_model
-from .passes.tiddlers import build_tiddlers, to_tid_text, _safe_filename
+from .projectors.markdown import render_chat_markdown
+from .projectors.tiddlywiki import (bibkey, build_tiddlers, to_tid_text,
+                                    tiddler_integrity, _safe_filename)
 from .sidecar import Sidecar, resolve_local_id
 from .sources import openwebui
 
@@ -415,20 +417,25 @@ def cmd_tiddlers(ctx: Ctx) -> str:
             to_tid_text(t), encoding="utf-8")
     cost_ms = (time.perf_counter() - t0) * 1000
 
-    kinds = {"chat": 0, "exchange": 0, "code": 0}
+    kinds: dict[str, int] = defaultdict(int)
     for t in tids:
-        for k in kinds:
-            if t["tags"].startswith(f"chatdrill {k}"):
-                kinds[k] += 1
+        kinds[t["tags"].split(maxsplit=1)[0]] += 1     # first tag = the type
+    integ = tiddler_integrity(tids)
     sc.set_evidence("tiddler_count", len(tids))
+    sc.set_evidence("tiddler_kinds", dict(kinds))
+    sc.set_evidence("transclusions", integ["transclusions"])
+    sc.set_evidence("dangling_transclusions", integ["dangling"])
     sc.set_layer("tiddlers", {"path": "tiddlers.json", "format": "tiddlywiki/json"})
     sc.add_fact("TIDDLERS_BUILT")
     sc.log_transition("tiddlers", "ARTIFACTS", "TIDDLERS_BUILT", cost_ms,
-                      f"{len(tids)} tiddlers {kinds}")
+                      f"{len(tids)} tiddlers, {integ['transclusions']} transclusions")
     sc.save()
-    return (f"exported {len(tids)} tiddlers for {model.id[:12]}… "
-            f"({kinds['chat']} chat, {kinds['exchange']} exchange, "
-            f"{kinds['code']} code) in {cost_ms:.0f} ms\n"
+    kind_str = ", ".join(f"{v} {k}" for k, v in sorted(kinds.items()))
+    integ_str = ("all transclusions resolve ✓" if not integ["dangling"]
+                 else f"DANGLING: {integ['dangling'][:5]}")
+    return (f"exported {len(tids)} tiddlers for {bibkey(model)} in {cost_ms:.0f} ms\n"
+            f"  kinds: {kind_str}\n"
+            f"  transclusions: {integ['transclusions']} ({integ_str})\n"
             f"  → .tid files in {out_dir}/  (live in the TiddlyWiki server)\n"
             f"  → import blob: {sc.blob_path('tiddlers.json')}")
 

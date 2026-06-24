@@ -7,7 +7,7 @@ pass03 segments) so stripped-fence code comes back as proper ```blocks```.
 from __future__ import annotations
 
 from ..models import ChatModel
-from .segment import render_turn
+from ..passes.segment import render_turn
 
 
 def render_chat_markdown(model: ChatModel) -> str:

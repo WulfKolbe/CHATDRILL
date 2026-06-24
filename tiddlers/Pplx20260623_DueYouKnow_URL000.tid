@@ -1,0 +1,7 @@
+title: Pplx20260623_DueYouKnow_URL000
+tags: url perplexity Pplx20260623_DueYouKnow
+type: text/vnd.tiddlywiki
+url: https://www.perplexity.ai/search/
+caption: https://www.perplexity.ai/search/
+
+<a class="tc-tiddlylink-external" target="_blank" href={{!!url}}>{{!!caption}}</a>

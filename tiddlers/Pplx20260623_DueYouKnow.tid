@@ -1,0 +1,122 @@
+title: Pplx20260623_DueYouKnow
+tags: chat perplexity Pplx20260623_DueYouKnow
+type: text/vnd.tiddlywiki
+source: perplexity:export
+chat_id: 12424f18-0fd6-442a-a7f1-5c4a2f321d3b
+provider: perplexity
+models: kimik26instant
+exchanges: 4
+
+!! Due you know and can you search the best possible Python based web page reader.
+I need to download "chat histories" with all sources, link and LaTeX components including a great sanitizer fight againts Google Unic Code math expressions. 
+
+Search deep and check what is possible
+
+Provider: perplexity · Models: kimik26instant · 4 exchanges (4 answered) · see {{Pplx20260623_DueYouKnow_preamble}}
+
+!! Exchanges
+* {{Pplx20260623_DueYouKnow_EX0000}}
+* {{Pplx20260623_DueYouKnow_EX0001}}
+* {{Pplx20260623_DueYouKnow_EX0002}}
+* {{Pplx20260623_DueYouKnow_EX0003}}
+
+!! Links
+* {{Pplx20260623_DueYouKnow_URL000||URL}}
+* {{Pplx20260623_DueYouKnow_URL001||URL}}
+* {{Pplx20260623_DueYouKnow_URL002||URL}}
+
+!! Sources
+* https://stackoverflow.com/questions/55618370/how-to-extract-mathjax-code-from-the-web-page
+* https://github.com/matthewwithanm/python-markdownify
+* https://pypi.org/project/html-to-markdown/1.9.1/
+* https://greasyfork.org/en/scripts/561507-copy-md-latex
+* https://greasyfork.org/en/scripts/561507-copy-md-latex-self-contained-katex-mathjax-v2-5-0
+* https://github.com/phfaist/pylatexenc
+* https://stackoverflow.com/questions/65607397/how-do-i-display-the-multiplication-and-division-symbol-using-pytexit
+* https://pylatexenc.readthedocs.io
+* https://github.com/phfaist/pylatexenc/issues/55
+* https://www.chatgptexporter.com/zh-TW/blog/how-to-export-chatgpt-to-markdown
+* https://github.com/Trampeltier/chatgpt_conversations_to_markdown
+* https://gist.github.com/paulclip/c8cbb96a6d4aa2b8b16fe76f0484fe83
+* https://greasyfork.org/en/scripts/554652-chatgpt-export-markdown/code
+* https://pypi.org/project/pylatexenc/
+* https://groups.google.com/g/sphinx-users/c/kUeROyCyX9w
+* https://stackoverflow.com/questions/71901370/how-to-save-latex-math-equations-as-image-in-python
+* https://math.chapman.edu/~jipsen/unicodemath/
+* https://addons.mozilla.org/es-MX/firefox/addon/copytex/
+* https://gist.github.com/cryptospectrum/5996164
+* https://pylatexenc.readthedocs.io/en/latest/latexencode/
+* https://typora.io
+* https://github.com/google/latexify_py/blob/main/docs/getting_started.md
+* https://github.com/mennucc/unicode2latex
+* https://gist.github.com/jomigo96/6a040d4e4ad384bccd81c9a65e5cd210
+* https://md-reader.github.io
+* http://www.practicallyefficient.com/2016/12/04/pandoc-and-python.html
+* https://library-it.com/wp-content/uploads/2020/10/web-scraping-with-python.pdf
+* https://gist.github.com/r41d/36d59b591a3f2060f650
+* https://github.com/pkgw/worklog-tools/blob/master/unicode_to_latex.py
+* https://gist.github.com/andrewchilds/dd0145165c80eb31a6b8507e493fb720
+* https://texdoc.org/serve/unicode-math/0
+* https://pypi.org/project/unicode_tex/
+* https://pypi.org/project/python-markdown-math/
+* https://stackoverflow.com/questions/73021806/how-to-write-unicode-characters-to-latex-document-via-pylatex
+* https://pypi.org/project/latex2markdown/
+* https://github.com/mayoff/python-markdown-mathjax
+* https://github.com/zauberzeug/nicegui/discussions/696
+* https://github.com/phfaist/pylatexenc/releases
+* https://www.geeksforgeeks.org/python/how-to-convert-html-to-markdown-in-python/
+* https://docs.mathjax.org/en/latest/input/tex/html.html
+* https://libraries.io/pypi/claude-chat-extractor
+* https://pypi.org/project/claude-conversation-extractor/1.0.0/
+* https://github.com/jimmc414/cctrace
+* https://github.com/davidteren/claude_desktop_export_browser
+* https://greasyfork.org/de/scripts/540933-claude-chat-exporter/code
+* https://github.com/bottskass/anthropic-openai-exports-converter
+* https://clawhub.ai/youngbeauty/export-conversation-summary
+* https://github.com/ryanschiang/claude-export
+* https://www.ai-toolbox.co/export-claude-conversations
+* https://trafilatura.readthedocs.io/en/latest/quickstart.html
+* https://stackoverflow.com/questions/78926475/extract-table-from-html-webpage-by-using-python-and-transform-it-into-latex-lang
+* https://codesignal.com/learn/courses/introduction-to-beautifulsoup-for-web-scraping/lessons/mastering-html-parsing-with-beautifulsoup-in-python
+* https://medium.com/@smrati.katiyar/convert-markdown-to-html-with-maths-equation-and-code-snippet-highlighting-1c3144455e4d
+* https://stackoverflow.com/questions/41436354/extract-data-from-static-html-file-using-python-3-5
+* https://brightdata.com/faqs/beautifulsoup/extract-text-from-html
+* https://trafilatura.readthedocs.io/en/latest/usage-python.html
+* https://www.w3resource.com/python-exercises/BeautifulSoup/python-beautifulsoup-exercise-12.php
+* https://dokk.org/documentation/trafilatura/v1.4.1/usage-python/
+* http://2017.compciv.org/guide/topics/python-nonstandard-libraries/beautifulsoup.html
+* https://trafilatura.readthedocs.io/en/latest/corefunctions.html
+* https://pypi.org/project/trafilatura/1.5.0/
+* https://github.com/matthewwithanm/python-markdownify/blob/develop/markdownify/main.py
+* https://github.com/adbar/trafilatura
+* https://www.alibaba.com/product-insights/how-to-export-and-archive-your-entire-chatgpt-conversation-history-before-api-changes-wipe-it.html
+* https://www.linkedin.com/posts/nevzatcirak_as-a-power-user-of-chatgpt-for-complex-workflows-activity-7426924985211994112-eiKe
+* https://community.openai.com/t/chatgpt-typing-lag-in-long-chats-needs-virtual-scroll-like-yesterday/1273495
+* https://github.com/sarthakg04/chatgpt-site-optimizer
+* https://www.firecrawl.dev/glossary/web-scraping-apis/scrape-content-after-scroll-or-interaction
+* https://chromewebstore.google.com/detail/gpt-cleaner/oojellchbfmphfonifddnjoemfncmohh
+* https://github.com/anthropics/claude-code/issues/24146
+* https://stackoverflow.com/questions/63387458/swift-infinite-scrolling-for-loading-previous-chat-history
+* https://community.openai.com/t/chatgpt-feedback-for-improvement/1054424?page=2
+* https://www.linkedin.com/posts/arrit-gashi_free-ux-feedback-for-openai-chatgpt-activity-7369769044339527681-QBfW
+* https://community.openai.com/t/chat-interface-with-lazy-loading/1281596
+* https://github.com/open-webui/open-webui/issues/2078
+* https://thetoolstrunk.com/chatgpt-wont-let-me-scroll-down/
+* https://www.reddit.com/r/ChatGPT/comments/1fyxb4x/i_cannot_scroll_in_our_chats/
+* https://stackoverflow.com/questions/61097977/scrape-data-from-lazy-loading-page
+* https://www.youtube.com/watch?v=X8Pgs9PLz0c
+* https://www.youtube.com/watch?v=Sca7gW9Hq58
+* https://greasyfork.org/en/scripts/518844-perplexity-ai-chat-exporter
+* https://github.com/Hugo-COLLIN/SaveMyPhind-conversation-exporter
+* https://www.reddit.com/r/perplexity_ai/comments/16n2g3d/i_made_an_extension_to_export_perplexity_threads/
+* https://github.com/leonid-shevtsov/perplexport
+* https://www.reddit.com/r/perplexity_ai/comments/1rcoeic/hitting_perplexitys_unlimited_limits_heres_a/
+* https://oxylabs.io/blog/perplexity-web-scraping
+* https://www.scrapeless.com/en/blog/web-scraping-using-perplexit
+* https://github.com/simwai/perplexity-ai-export
+* https://www.youtube.com/watch?v=savyF40t69U
+* https://chromewebstore.google.com/detail/perplexity-to-pdf-export/imicnaojoabefckkfhailgkllodbnjjf?hl=en-GB
+* https://github.com/ScraperHub/web-scraper-with-Perplexity-ai
+* https://apify.com/searchapi/perplexity-search-links-scraper/api/python
+* https://gist.github.com/knbknb/2dfe96c58ab455fea1fe45f2e7dc8cf3
+
