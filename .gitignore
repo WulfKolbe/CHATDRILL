@@ -36,3 +36,6 @@ wiki/tiddlers/CIT.tid
 # raw input conversation files (large; not tracked)
 raw/
 !raw/.gitkeep
+
+# TW build output
+wiki/output/
