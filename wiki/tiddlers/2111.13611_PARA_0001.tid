@@ -1,0 +1,26 @@
+created: 20260625093527300
+modified: 20260625093527300
+page: 000
+tags: paragraph 2111.13611
+title: 2111.13611_PARA_0001
+type: text/vnd.tiddlywiki
+
+\makeatletter
+\newcommand{\problemtitle}[1]{\gdef\@problemtitle{#1}}
+\newcommand{\probleminput}[1]{\gdef\@probleminput{#1}}
+\newcommand{\problemquestion}[1]{\gdef\@problemquestion{#1}}
+\newcommand{\problemoutput}[1]{\gdef\@problemoutput{#1}}
+\NewEnviron{problem}{
+ \problemtitle{}\probleminput{}\problemquestion{}
+ \BODY
+ \par\addvspace{.5\baselineskip}
+ \noindent
+ \begin{tabularx}{\linewidth}{@{\hspace{\parindent}} lX}
+ \multicolumn{2}{@{\hspace{\parindent}}l}{\@problemtitle} \% Title
+ Input: & \@probleminput \% Input
+ Question: & \@problemquestion \% Question 
+ Output: & \@problemoutput \% Output 
+ \end{tabularx}
+ \par\addvspace{.5\baselineskip}
+}
+\makeatother

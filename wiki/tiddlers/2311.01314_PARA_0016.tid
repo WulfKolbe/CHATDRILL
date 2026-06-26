@@ -1,0 +1,15 @@
+created: 20260625093057255
+modified: 20260625093057255
+page: 000
+parent_section: 2311.01314_H1
+tags: paragraph 2311.01314
+title: 2311.01314_PARA_0016
+type: text/vnd.tiddlywiki
+
+\vspace{0.1cm}
+\noindent{\bf Approach:}
+We devise a light-weight framework, called {\bf CUP}, for constructing {{2311.01314_FO0001||FO}}oncise
+{{2311.01314_FO0002||FO}}ser {{2311.01314_FO0003||FO}}rofiles
+and encoding them in a recommender system.
+We adopt a two-tower transformer-based architecture that supports end-to-end learning of item and user encodings,
+making use of a (small) language model (LM).

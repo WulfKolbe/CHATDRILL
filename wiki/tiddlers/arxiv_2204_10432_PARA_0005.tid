@@ -1,0 +1,11 @@
+created: 20260625080929320
+modified: 20260625080929320
+page: 000
+parent_section: arxiv_2204_10432_H1
+tags: paragraph arxiv_2204_10432
+title: arxiv_2204_10432_PARA_0005
+type: text/vnd.tiddlywiki
+
+Grounding depression detection in a trusted diagnostic tool produces several benefits.
+From the perspective of mental health professionals, the output of such model is inherently more reliable than a black-box model, because classification decisions are based on the presence of specific symptoms in specific posts that can be inspected in order to assess the quality of evidence for a diagnosis.
+Further, we find this improves the model's ability to generalize, which may be due to limiting its ability to use spurious shortcuts.

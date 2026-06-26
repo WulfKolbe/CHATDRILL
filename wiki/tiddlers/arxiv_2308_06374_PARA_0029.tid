@@ -1,0 +1,9 @@
+created: 20260625080831230
+modified: 20260625080831230
+page: 000
+parent_section: arxiv_2308_06374_H5
+tags: paragraph arxiv_2308_06374
+title: arxiv_2308_06374_PARA_0029
+type: text/vnd.tiddlywiki
+
+Concluding, entity alignment and matching are necessary pre-processing steps for full-fledged knowledge reasoning. The combination of general entity linking approaches with embedding-based ones, as well as the leveraging of LLM-driven rule and labeled data construction, can lead to better integration of LLMs with knowledge reasoning [hu2022empowering]. The latter integration of LLMs and knowledge reasoning can also boost performance, thus enabling the interpretability and explainability of the model's output and filling the gap between symbolic and statistical AI.

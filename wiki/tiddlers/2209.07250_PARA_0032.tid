@@ -1,0 +1,12 @@
+created: 20260625093341705
+modified: 20260625093341705
+page: 000
+parent_section: 2209.07250_H2
+tags: paragraph 2209.07250
+title: 2209.07250_PARA_0032
+type: text/vnd.tiddlywiki
+
+but is incomplete in indicating whether these written for the Beatles or otherwise.
+In the KB-QA domain, systems like QAnswer developed by [diefenbach2019qanswer] tackle count queries
+by aggregating instances using the SPARQL count modifier. This is liable to incorrect answers, when instance relations are incomplete.
+Attempts have also been made to improve recall by hybrid QA over text and KB, yet without specific consideration of counts [lu2019answering,xu2016hybrid].

@@ -1,0 +1,9 @@
+created: 20260625093027647
+modified: 20260625093027647
+page: 000
+parent_section: 2411.04920_H9
+tags: paragraph 2411.04920
+title: 2411.04920_PARA_0060
+type: text/vnd.tiddlywiki
+
+The most frequent properties in the whole KB are instance\_of (3.1M) and features (2M) with similarly generic properties following at the entity level (see Figure (ref)). At the class level, we find more specific properties, for instance, the most frequent properties in the class Person are instance\_of (299K), occupation (191K), known\_for (176K), nationality (166K), and in the class film, the properties character (399K), starring (134K) and genre (99K) are the most frequent, shown in Figures (ref) and (ref), respectively.

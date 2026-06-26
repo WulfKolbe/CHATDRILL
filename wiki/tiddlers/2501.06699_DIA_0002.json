@@ -1,0 +1,14 @@
+[
+    {
+        "title": "2501.06699_DIA_0002",
+        "text": "<$image source={{!!canonical_uri}} width={{!!width}} height={{!!height}}/>",
+        "type": "text/vnd.tiddlywiki",
+        "tags": "diagram tikz 2501.06699",
+        "created": "20260625092952539",
+        "modified": "20260625092952539",
+        "page": "000",
+        "latex_code": "\\begin{tikzpicture}\n\t\t\t\\node[iri] (mb) {\\sf Manuel Blum};\n\t\t\t\n\t\t\t\\node[iri,right=1.2cm of mb] (tanf) {\\sf TA1995}\n\t\t\tedge[arrin] node[above] {\\sf won} (mb);\n\t\t\t\n\t\t\t\\node[iri,right=1.5cm of tanf] (ta) {\\sf Turing Award}\n\t\t\tedge[arrin] node[above] {\\sf type} (tanf);\n\t\t\t\n\t\t\t\\node[lit,above=0.3cm of ta] (nf) {\\dtype{1995}{year}}\n\t\t\tedge[arrin,bend right=15] node[above] {\\sf year} (tanf);\n\t\t\t\n\t\t\t\\node[lit,below=0.3cm of ta] (acc) {\\dtype{true}{boolean}}\n\t\t\tedge[arrin,bend left=15] node[below] {\\sf accepted} (tanf);\n\t\t\t\n\t\t\t\\node[iri,below=1.5cm of mb] (car) {\\sf Caracas}\n\t\t\tedge[arrin] node[auto] {\\sf born in} (mb);\n\t\t\t\n\t\t\t\\node[iri,right=1.2cm of car] (ven) {\\sf Venezuela}\n\t\t\tedge[arrin] node[above] {\\sf part of} (car)\n\t\t\tedge[arrin] node[right,xshift=0.1cm] {\\sf citizenship} (mb);\n\t\t\t\n\t\t\t\\node[iri,right=1.2cm of ven] (la) {\\sf Latin America}\n\t\t\tedge[arrin] node[above] {\\sf part of} (ven);\n\t\t\\end{tikzpicture}",
+        "latex_original": "\\begin{tikzpicture}\n\t\t\t\\node[iri] (mb) {\\sf Manuel Blum};\n\t\t\t\n\t\t\t\\node[iri,right=1.2cm of mb] (tanf) {\\sf TA1995}\n\t\t\tedge[arrin] node[above] {\\sf won} (mb);\n\t\t\t\n\t\t\t\\node[iri,right=1.5cm of tanf] (ta) {\\sf Turing Award}\n\t\t\tedge[arrin] node[above] {\\sf type} (tanf);\n\t\t\t\n\t\t\t\\node[lit,above=0.3cm of ta] (nf) {\\dtype{1995}{year}}\n\t\t\tedge[arrin,bend right=15] node[above] {\\sf year} (tanf);\n\t\t\t\n\t\t\t\\node[lit,below=0.3cm of ta] (acc) {\\dtype{true}{boolean}}\n\t\t\tedge[arrin,bend left=15] node[below] {\\sf accepted} (tanf);\n\t\t\t\n\t\t\t\\node[iri,below=1.5cm of mb] (car) {\\sf Caracas}\n\t\t\tedge[arrin] node[auto] {\\sf born in} (mb);\n\t\t\t\n\t\t\t\\node[iri,right=1.2cm of car] (ven) {\\sf Venezuela}\n\t\t\tedge[arrin] node[above] {\\sf part of} (car)\n\t\t\tedge[arrin] node[right,xshift=0.1cm] {\\sf citizenship} (mb);\n\t\t\t\n\t\t\t\\node[iri,right=1.2cm of ven] (la) {\\sf Latin America}\n\t\t\tedge[arrin] node[above] {\\sf part of} (ven);\n\t\t\\end{tikzpicture}",
+        "caption": "Knowledge graph describing Manuel Blum \\label{fig:kg}"
+    }
+]

@@ -1,0 +1,25 @@
+created: 20260625080922312
+format: fractal_xref
+modified: 20260625080922312
+tags: toc arxiv_2208_09292
+title: arxiv_2208_09292_TOC
+type: text/vnd.tiddlywiki
+
+** 1.1 [[Introduction|arxiv_2208_09292_H1]]
+** 1.2 [[Problem and Design Space|arxiv_2208_09292_H2]]
+** 1.3 [[The UnCommonSense Framework|arxiv_2208_09292_H3]]
+*** 1.3.1 [[Identifying Comparable Concepts|arxiv_2208_09292_H4]]
+*** 1.3.2 [[Candidate Negation Inference|arxiv_2208_09292_H5]]
+*** 1.3.3 [[Scrutinizing Candidates|arxiv_2208_09292_H6]]
+*** 1.3.4 [[Quantifying Informativeness|arxiv_2208_09292_H7]]
+** 1.4 [[Experiments|arxiv_2208_09292_H8]]
+*** 1.4.1 [[Setup|arxiv_2208_09292_H9]]
+*** 1.4.2 [[Intrinsic Evaluation|arxiv_2208_09292_H10]]
+*** 1.4.3 [[Extrinsic Evaluation I: Negative Trivia|arxiv_2208_09292_H11]]
+*** 1.4.4 [[Extrinsic Evaluation II: KB Completion|arxiv_2208_09292_H12]]
+*** 1.4.5 [[Extrinsic Evaluation III: Multiple-choice Question Answering|arxiv_2208_09292_H13]]
+*** 1.4.6 [[Extrinsic Evaluation IV: Trivia-quiz|arxiv_2208_09292_H14]]
+** 1.5 [[Analysis|arxiv_2208_09292_H15]]
+** 1.6 [[Related Work|arxiv_2208_09292_H16]]
+** 1.7 [[Resources|arxiv_2208_09292_H17]]
+** 1.8 [[Conclusion|arxiv_2208_09292_H18]]

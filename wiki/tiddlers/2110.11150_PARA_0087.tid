@@ -1,0 +1,18 @@
+created: 20260626094813420
+modified: 20260626094813420
+page: 000
+parent_section: 2110.11150_H22
+tags: paragraph 2110.11150
+title: 2110.11150_PARA_0087
+type: text/vnd.tiddlywiki
+
+Next, we briefly explain the main ideas that lead to this result.
+The main difference of our situations in comparison with {{2110.11150_REF_pensia2020optimal||CIT}} is that we additionally create neurons of the form {{2110.11150_FO0251||FO}} to represent nonzero biases. 
+Let {{2110.11150_FO0252||FO}} be our target neuron, where {{2110.11150_FO0253||FO}} is either {{2110.11150_FO0254||FO}} or {{2110.11150_FO0255||FO}} depending on which neuron we want to represent. 
+Note that we can construct multiple candidates for a neuron {{2110.11150_FO0252||FO}} by pruning neurons in layer {{2110.11150_FO0122||FO}}. 
+We achieve that by setting all weights that do not lead to {{2110.11150_FO0253||FO}} in the previous layer and the bias term of a neuron to zero or, if {{2110.11150_FO0255||FO}}, we set all weights to zero and keep the nonzero bias term if the bias is positive.
+Let the index set of the such pruned neurons corresponding to {{2110.11150_FO0253||FO}} be {{2110.11150_FO0256||FO}}. 
+This leaves us with neurons of the form {{2110.11150_FO0257||FO}} with {{2110.11150_FO0258||FO}} and {{2110.11150_FO0259||FO}} for {{2110.11150_FO0260||FO}}. 
+For the probability distribution of {{2110.11150_FO0261||FO}}, Cor. 2 of {{2110.11150_REF_pensia2020optimal||CIT}} states that it contains a uniform distribution.
+It follow that the subset sum problem has a solution. 
+Thus, for any parameter {{2110.11150_FO0262||FO}} there exists a subset {{2110.11150_FO0263||FO}} so that with probability at least {{2110.11150_FO0242||FO}}

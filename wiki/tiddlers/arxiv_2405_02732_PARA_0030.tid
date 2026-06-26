@@ -1,0 +1,14 @@
+created: 20260625080827137
+modified: 20260625080827137
+page: 000
+parent_section: arxiv_2405_02732_H5
+tags: paragraph arxiv_2405_02732
+title: arxiv_2405_02732_PARA_0030
+type: text/vnd.tiddlywiki
+
+{\em selecting support passages and re-ranking
+ passages by pseudo-relevance feedback.}
+ After extracting object lists from the initially selected passages, we assess the passage quality based on
+ the no. 
+ of objects they yield. The best passages, termed {\em support passages}, 
+ are assumed to provide good cues about predicate P in surface form. Following the rationale of pseudo-relevance feedback [DBLP:journals/ftir/Zhai08], these support passages are fed back to the retriever for refined scoring, based on embedding similarity between the candidate pool and the support passages.

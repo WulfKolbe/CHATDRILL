@@ -1,0 +1,16 @@
+created: 20260625080831231
+modified: 20260625080831231
+page: 000
+parent_section: arxiv_2308_06374_H9
+tags: paragraph arxiv_2308_06374
+title: arxiv_2308_06374_PARA_0108
+type: text/vnd.tiddlywiki
+
+Accuracy.
+Some demonstrations of LLMs have showcased impressive capabilities. 
+Nevertheless, there have also been documented instances where LLMs have made mistakes or exhibited erratic behavior. 
+In the Digital Healthcare sector, where patient safety is of utmost importance, it is crucial for healthcare organizations to comprehend the potential risks associated with LLM usage.
+When utilized to diagnose hypothetical patient cases, LLMs have exhibited accuracy at a level comparable to that of a third- or fourth-year medical student, albeit not reaching a professional's proficiency. 
+Despite this high level of performance, LLMs have also been known to generate false information, invent sources, commit logical errors, and provide answers that are inappropriate or unethical. 
+The integration of KGs would definitely enhance the capabilities of LLMs given the possibility of injecting domain-specific knowledge able to mitigate the issues mentioned above.
+Avoiding hallucinations and preserving ethics are definitely the two major aspects to which LLMs+KG may contribute in a significant manner.

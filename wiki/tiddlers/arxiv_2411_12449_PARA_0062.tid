@@ -1,0 +1,9 @@
+created: 20260625080805467
+modified: 20260625080805467
+page: 000
+parent_section: arxiv_2411_12449_H7
+tags: paragraph arxiv_2411_12449
+title: arxiv_2411_12449_PARA_0062
+type: text/vnd.tiddlywiki
+
+Interestingly, the ratings for helpfulness and relevance, both human and automated, exhibited a high correlation (>0.8). This is likely because a highly relevant response---one that accurately reflects the query's specific time frame---almost always leads to a helpful response. The reverse however is not always true, as a helpful response may not strictly adhere to temporal relevance.

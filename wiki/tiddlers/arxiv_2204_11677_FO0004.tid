@@ -1,0 +1,11 @@
+caption: q^1
+created: 20260625080929033
+displayMode: false
+latex: q^1
+latex_original: q^1
+modified: 20260625080929033
+tags: formula arxiv_2204_11677
+title: arxiv_2204_11677_FO0004
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

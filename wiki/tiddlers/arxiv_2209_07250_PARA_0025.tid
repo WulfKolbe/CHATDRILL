@@ -1,0 +1,9 @@
+created: 20260625080859569
+modified: 20260625080859569
+page: 000
+parent_section: arxiv_2209_07250_H1
+tags: paragraph arxiv_2209_07250
+title: arxiv_2209_07250_PARA_0025
+type: text/vnd.tiddlywiki
+
+This paper presents {\mysystem}, \underline{Co}unt \underline{Q}uestion answering with \underline{Ex}planatory evidence, which answers count queries via three components: i) answer inference ii) answer contextualization and, iii) answer explanation.

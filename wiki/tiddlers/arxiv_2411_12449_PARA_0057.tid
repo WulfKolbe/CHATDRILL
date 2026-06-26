@@ -1,0 +1,9 @@
+created: 20260625080805467
+modified: 20260625080805467
+page: 000
+parent_section: arxiv_2411_12449_H7
+tags: paragraph arxiv_2411_12449
+title: arxiv_2411_12449_PARA_0057
+type: text/vnd.tiddlywiki
+
+Overall, these results demonstrate that Neon---augmented with in-context examples---is capable of rivaling the performance of a live web-scale search engine for temporal entity-centric QA. Additionally, the individual strengths of the different approaches suggest a hybrid system that can leverage them jointly for even better performance; we leave such explorations to future work.

@@ -1,0 +1,10 @@
+created: 20260625095716233
+modified: 20260625095716233
+page: 000
+parent_section: 2208.09292_H6
+tags: paragraph 2208.09292
+title: 2208.09292_PARA_0038
+type: text/vnd.tiddlywiki
+
+\noindent
+Quality checks. To avoid vague or opinionated negations such as \texttt{{{2208.09292_FO0024||FO}}(classroom, is bigger)} or \texttt{{{2208.09292_FO0025||FO}}(basketball, is important)}, and address C2, we identify frequent statements that are highly uninformative. Inspired by the notion of term-weighting in IR [manning] (in our case, phrase-weighting), we value phrases of medium-frequency, namely ones that are neither too generic nor too rare. While we ensure that rare statements are lower ranked via the pipeline's final step, we tackle too generic statements follows: A statement is generic if it holds for {{2208.09292_FO0026||FO}} {{2208.09292_FO0027||FO}} of the concepts in the KB.

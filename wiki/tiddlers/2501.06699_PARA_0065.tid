@@ -1,0 +1,15 @@
+created: 20260625092952539
+modified: 20260625092952539
+page: 000
+parent_section: 2501.06699_H8
+tags: paragraph 2501.06699
+title: 2501.06699_PARA_0065
+type: text/vnd.tiddlywiki
+
+The augmentation phase considers 
+ a primary technology that is augmented by the other two. These are natural extensions of the research topics already discussed.
+ For example, in the context of SE for KG: Knowledge Refinement, one could 
+ pursue the idea of
+ extending this to SE + LLM for KG whereby LLMs are used to help extract knowledge from sources judiciously retrieved by the SE in order to extend or refine the KG.
+ Likewise, LLM for KG: Knowledge Generation could be extended into LLM + SE for KG by using RAG for knowledge generation.
+ These two directions could actually unify the broader theme of knowledge acquisition and generation.

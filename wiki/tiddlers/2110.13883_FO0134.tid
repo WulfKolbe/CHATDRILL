@@ -1,0 +1,11 @@
+caption: I(\ensuremath{\tilde{\bm{X}}}\xspace;\ensuremath{\tilde{\bm{Y}}}\xspace)
+created: 20260625110956923
+displayMode: false
+latex: I(\ensuremath{\tilde{\bm{X}}}\xspace;\ensuremath{\tilde{\bm{Y}}}\xspace)
+latex_original: I(\Xt;\Yt)
+modified: 20260625110956923
+tags: formula 2110.13883
+title: 2110.13883_FO0134
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

@@ -1,0 +1,12 @@
+created: 20260625080931150
+modified: 20260625080931150
+page: 000
+parent_section: arxiv_2110_13883_H7
+tags: paragraph arxiv_2110_13883
+title: arxiv_2110_13883_PARA_0048
+type: text/vnd.tiddlywiki
+
+The term Geodesic Forest (GF) has been introduced by Madhyastha et al. [madhyastha:20:gf] and describes an unsupervised version of sparse projection oblique randomer forests [tomita:20:sporf]. In a nutshell, each node of a tree in a GF is split based on a sparse linear projection of each data point onto a one-dimensional feature.
+Classical splitting criteria allow to compute binary splits of the projected samples in this 1D space efficiently.
+For a collection of trees, the relative geodesic similarity of two data points {{arxiv_2110_13883_FO0202||FO}} is estimated by the fraction of leaves they occur in together,
+which has been proven successful to estimate geodesic distances even in the presence of many noise dimensions [madhyastha:20:gf].

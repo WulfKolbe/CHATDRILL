@@ -1,0 +1,15 @@
+created: 20260625080929032
+modified: 20260625080929032
+page: 000
+parent_section: arxiv_2204_11677_H6
+tags: paragraph arxiv_2204_11677
+title: arxiv_2204_11677_PARA_0116
+type: text/vnd.tiddlywiki
+
+Given the top-{{arxiv_2204_11677_FO0063||FO}} relevant evidences per question, we make use of a state-of-the-art fusion-in-decoder [izacard2021leveraging] (FiD) model.
+Different from the typical span prediction in the retrieve-and-read paradigm [chen2017reading],
+FiD generates the answer, following a sequence-to-sequence approach.
+FiD first pairs every evidence with the question, which is the SR in our case,
+and encodes these pairs, leveraging cross-attention to identify relevant information.
+The concatenation of these encodings is then fed into
+a decoder, which generates the answer autoregressively.

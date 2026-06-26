@@ -1,0 +1,11 @@
+caption: \rangle
+created: 20260625080853252
+displayMode: false
+latex: \rangle
+latex_original: \rangle
+modified: 20260625080853252
+tags: formula arxiv_2306_17472
+title: arxiv_2306_17472_FO0008
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

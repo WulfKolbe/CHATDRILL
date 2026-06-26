@@ -1,0 +1,11 @@
+caption: \mathbb{V}\left(h^{(l)}_i \mid \bm{x^{(l-1)}}\right) = \sum_j \left(x^{(l-1)}_j\right)^2 \mathbb{V}\left(w^{(l)}_{ij}\right) + \mathbb{V}\left(b^{(l)}_{i}\right) = \sigma^2_{w,l} ||\bm{x^{(l-1)}}||^2 + \sigma^2_{b,l}
+created: 20260626094813421
+displayMode: false
+latex: \mathbb{V}\left(h^{(l)}_i \mid \bm{x^{(l-1)}}\right) = \sum_j \left(x^{(l-1)}_j\right)^2 \mathbb{V}\left(w^{(l)}_{ij}\right) + \mathbb{V}\left(b^{(l)}_{i}\right) = \sigma^2_{w,l} ||\bm{x^{(l-1)}}||^2 + \sigma^2_{b,l}
+latex_original: \mathbb{V}\left(h^{(l)}_i \mid \bm{x^{(l-1)}}\right) = \sum_j \left(x^{(l-1)}_j\right)^2 \mathbb{V}\left(w^{(l)}_{ij}\right) + \mathbb{V}\left(b^{(l)}_{i}\right) = \sigma^2_{w,l} ||\bm{x^{(l-1)}}||^2 + \sigma^2_{b,l}
+modified: 20260626094813421
+tags: formula 2110.11150
+title: 2110.11150_FO0210
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

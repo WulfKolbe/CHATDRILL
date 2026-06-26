@@ -1,0 +1,9 @@
+created: 20260625080827137
+modified: 20260625080827137
+page: 000
+parent_section: arxiv_2405_02732_H10
+tags: paragraph arxiv_2405_02732
+title: arxiv_2405_02732_PARA_0047
+type: text/vnd.tiddlywiki
+
+As a baseline without support passages, the O candidates for a given SP are ranked using {{arxiv_2405_02732_FO0027||FO}}. We accept those that fall within the {{arxiv_2405_02732_FO0028||FO}} quantile (e.g., {{arxiv_2405_02732_FO0029||FO}}) of the cumulative score distribution.

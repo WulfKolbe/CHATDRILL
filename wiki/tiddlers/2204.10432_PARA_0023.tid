@@ -1,0 +1,12 @@
+created: 20260625093505869
+modified: 20260625093505869
+page: 000
+parent_section: 2204.10432_H5
+tags: paragraph 2204.10432
+title: 2204.10432_PARA_0023
+type: text/vnd.tiddlywiki
+
+\paragraphHd{Depression model.}
+The depression model predicts whether a user is depressed based on the questionnaire model's output for each post. The questionnaire model's output can be either the final question scores (i.e., symptom scores) or the hidden layers (i.e., symptom vectors) of the {{2204.10432_FO0008||FO}} sub-models.
+The former represents each post with a single vector of size {{2204.10432_FO0009||FO}}, which is compact but less informative, while the latter is a larger matrix of size {{2204.10432_FO0010||FO}} that preserves more information.
+Any classification architecture could be used for this depression model. For simplicity, we use a linear classifier on top of features extracted by CNN kernels of various sizes. CNN kernels help summarize symptoms within a sliding window of consecutive posts sorted by timestamp and therefore are a relaxation of the two-week windows considered by the PHQ9 instrument. This relaxation allows more posts to be considered by each CNN kernel, which mitigates the data sparsity problem of the hard two-week window approach.

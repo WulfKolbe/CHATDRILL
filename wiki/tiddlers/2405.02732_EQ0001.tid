@@ -1,0 +1,16 @@
+created: 20260625093047342
+displayMode: true
+equation_number: 
+kind: Equation
+latex: \texttt{score}(O) = \sum_{\text{batch}_i} \exp{(\text{score}_{\text{LLM}}(L_i))} \times \textbf{I}_i(O)
+latex_original: \texttt{score}(O) = \sum_{\text{batch}_i} \exp{(\text{score}_{\text{LLM}}(L_i))} \times \textbf{I}_i(O)
+latex_tex: \texttt{score}(O) = \sum_{\text{batch}_i} \exp{(\text{score}_{\text{LLM}}(L_i))} \times \textbf{I}_i(O)
+modified: 20260625093047342
+page: 000
+refnum: 
+score_tex: 1.0
+tags: equation 2405.02732
+title: 2405.02732_EQ0001
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode=true />

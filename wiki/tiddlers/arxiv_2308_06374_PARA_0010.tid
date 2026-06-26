@@ -1,0 +1,10 @@
+created: 20260625080831230
+modified: 20260625080831230
+page: 000
+parent_section: arxiv_2308_06374_H2
+tags: paragraph arxiv_2308_06374
+title: arxiv_2308_06374_PARA_0010
+type: text/vnd.tiddlywiki
+
+Numerical Values: It is widely recognized that LLMs grapple with handling numerical values. 
+Even straightforward arithmetic tasks can be a struggle for LMs, as highlighted in a study by Big-bench [srivastava2022beyond]. This shortcoming also extends to KG completion tasks [kalo2022kamel]. Multiple LLMs have been evaluated on their ability to complete KGs using numerical facts from Wikidata [wikidata], such as individuals' birth and death years. However, none of the tested models accurately predicted even a single year. This raises questions about the capability of current LLMs to correctly memorize numbers during pre-training in a way that enables them for subsequent use in KG completion. While LLMs like PaLM [srivastava2022beyond] demonstrate some proficiency in dealing with numbers, more commonly used smaller models seem ill-equipped for this task. The complexity escalates when considering the intricacies of metrics and diverse numbering formats and types. Currently, modifying LLMs to handle numerical values remains unresolved, making their utilization for numerical KG completion seem far from practical.

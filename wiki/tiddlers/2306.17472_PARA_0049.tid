@@ -1,0 +1,21 @@
+created: 20260625093156716
+modified: 20260625093156716
+page: 000
+parent_section: 2306.17472_H10
+tags: paragraph 2306.17472
+title: 2306.17472_PARA_0049
+type: text/vnd.tiddlywiki
+
+Context-Free experiments evaluate the capabilities of LMs to generate facts by only using prompt queries. We
+consider the following baselines. \\
+Cloze: As prior methods, this baseline uses a cloze-style prompt to query masked LMs (the first frame in Figure (ref)). 
+Here, two types of LMs are compared in this experiment. Left-to-Right LMs predict the upcoming words based on a sequence of words, and GPT-1 [radford2018improving] and Transformer-xl [dai2019transformer] are used. 
+Masked LMs aim to predict masked text pieces based on the surrounding context, and BERT-base and BERT-large [devlin2019bert] are used. 
+To enable BERT to handle multi-token facts, we also introduce the decoding strategy proposed in X-FACTR [jiang2020x] for comparison.
+\\
+ED: Because the Cloze-style prompt cannot generate multi-token facts directly, we propose to use Language Models with Entity Disambiguators as knowledge bases, i.e., LMED-as-KB.
+As shown in Figure (ref), 
+we can design such a prompt \textit{``the person Lhasa de Sela collaborated with [ENT] this person [ENT].''}, where the mention is surrounded by special tokens [ENT] and [ENT]. 
+After we use the prompt to query the generative disambiguation model, and it is able to disambiguate the mention ``this person'' and output the correct canonicalized entity ``Bratsch (band)'', although the mention is not ``this band''. 
+The core benefit of introducing LMED is that it can output disambiguated entity names with multiple tokens.
+Here, we use the Encoder-Decoder entity disambiguation model GENRE [de2020autoregressive], which is fine-tuned on BLINK [wu2020scalable] and AIDA [hoffart2011robust].

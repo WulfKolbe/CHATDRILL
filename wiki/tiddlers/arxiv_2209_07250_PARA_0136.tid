@@ -1,0 +1,9 @@
+created: 20260625080859570
+modified: 20260625080859570
+page: 000
+parent_section: arxiv_2209_07250_H26
+tags: paragraph arxiv_2209_07250
+title: arxiv_2209_07250_PARA_0136
+type: text/vnd.tiddlywiki
+
+While the Subgroups may benefit at lower {{arxiv_2209_07250_FO0045||FO}} values when CNPs with counts a bit further away from the predicted count are correctly classified as Synonyms, at higher {{arxiv_2209_07250_FO0046||FO}} the CNPs with very low counts are still mis-classified as Subgroups if they have a high semantic similarity to the representative CNP.

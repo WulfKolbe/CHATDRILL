@@ -1,0 +1,9 @@
+created: 20260625080853980
+modified: 20260625080853980
+page: 000
+parent_section: arxiv_2303_11082_H15
+tags: paragraph arxiv_2303_11082
+title: arxiv_2303_11082_PARA_0044
+type: text/vnd.tiddlywiki
+
+To provide human annotators with reasonable predictions, we set a relation-specific prediction threshold to ensure the prediction quality and use the best possible model for predictions based on results in Table (ref). Given these best models, the threshold is the prediction probability at {{arxiv_2303_11082_FO0038||FO}} of each relation to respect the relation-specific precision and recall trade-offs. We keep only those missing facts, i.e. subject-relation pairs, whose predictions have a probability over the threshold. These are our high accuracy predictions.

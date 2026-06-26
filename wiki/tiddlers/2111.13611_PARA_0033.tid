@@ -1,0 +1,9 @@
+created: 20260625093527300
+modified: 20260625093527300
+page: 000
+parent_section: 2111.13611_H4
+tags: paragraph 2111.13611
+title: 2111.13611_PARA_0033
+type: text/vnd.tiddlywiki
+
+Coverage was computed on a per entity-relation-document basis using Equation (ref). Even though real-valued coverage values are computed while constructing the dataset, it is often not possible to give nuanced predictions at test time. Consider the text ``... Musk is a co-founder of Tesla ...''. The term co-founder clearly indicates the presence of multiple founders; however, the context does not provide any clue on the total number of co-founders. For example, there could be one other co-founder (coverage {{2111.13611_FO0036||FO}}) or {{2111.13611_FO0037||FO}} other co-founders (coverage {{2111.13611_FO0038||FO}}).

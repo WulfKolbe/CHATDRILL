@@ -1,0 +1,12 @@
+created: 20260625080929033
+modified: 20260625080929033
+page: 000
+parent_section: arxiv_2204_11677_H16
+tags: paragraph arxiv_2204_11677
+title: arxiv_2204_11677_PARA_0202
+type: text/vnd.tiddlywiki
+
+1, 2, 3, or 4
+evidences (among the top-{{arxiv_2204_11677_FO0127||FO}}) containing the gold answer in the output of the ERS stage.
+The P@1 improves steadily as the answer can be found several times, i.e. as information becomes redundant, being {{arxiv_2204_11677_FO0128||FO}} for one, 
+{{arxiv_2204_11677_FO0129||FO}} for two, {{arxiv_2204_11677_FO0130||FO}} for three, and {{arxiv_2204_11677_FO0131||FO}} across instances with four answering evidences.

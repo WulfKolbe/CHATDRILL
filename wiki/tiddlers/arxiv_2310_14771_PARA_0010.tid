@@ -1,0 +1,9 @@
+created: 20260625080830877
+modified: 20260625080830877
+page: 000
+parent_section: arxiv_2310_14771_H2
+tags: paragraph arxiv_2310_14771
+title: arxiv_2310_14771_PARA_0010
+type: text/vnd.tiddlywiki
+
+An inherent design decision in KBC is the P/R trade-off -- academic projects are often open to trade these freely (e.g., via F-1 scores), yet production environments are often critically concerned with precision, e.g., Wikidata generally discouraging statistical inferences,

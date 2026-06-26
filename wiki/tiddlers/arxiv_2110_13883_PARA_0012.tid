@@ -1,0 +1,11 @@
+created: 20260625080931150
+modified: 20260625080931150
+page: 000
+parent_section: arxiv_2110_13883_H1
+tags: paragraph arxiv_2110_13883
+title: arxiv_2110_13883_PARA_0012
+type: text/vnd.tiddlywiki
+
+To estimate MI on high-dimensional data, we build upon the manifold assumption [cayton:05:manifold-learning-algorithms]. This common assumption in machine learning states that high-dimensional data resides on a low-dimensional manifold embedded in the ambient space. Under this assumption, we propose \ourmethod, which instantiates the \ksg estimator by determining the nearest neighbors via geodesic distances, i.e. the shortest path between two points on the manifold they reside on. To estimate geodesic distances, we make use of and extend a recent proposal for manifold learning, called Geodesic Forests [madhyastha:20:gf], which is an unsupervised random forest based on sparse linear projections.
+As such, our method is well suited to estimate local densities and therewith mutual information on high-dimensional data implementing the manifold assumption.
+Our main contributions are, we

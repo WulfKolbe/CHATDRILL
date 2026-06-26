@@ -1,0 +1,10 @@
+created: 20260625080853721
+modified: 20260625080853721
+page: 000
+parent_section: arxiv_2305_05403_H11
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0091
+type: text/vnd.tiddlywiki
+
+In this section, we tackle the problem of identifying cardinality assertions from the KB and text, illustrated in Figure (ref). We look into methods that identify predicates that store cardinality assertions explicitly, for instance, \fact{s}{numberOfChildren}{n}, and statements that ground the cardinality into objects, such as, \fact{s}{hasChild}{{{arxiv_2305_05403_FO0094||FO}}}, {{arxiv_2305_05403_FO0095||FO}}. 
+From now on, we call the predicates that store cardinality explicitly counting predicates, {{arxiv_2305_05403_FO0096||FO}}, and the predicates that store cardinality grounding objects enumerating predicates, {{arxiv_2305_05403_FO0097||FO}}.

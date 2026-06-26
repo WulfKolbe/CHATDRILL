@@ -1,0 +1,13 @@
+[
+    {
+        "title": "2210.07763_TAB_018",
+        "text": "",
+        "type": "text/vnd.tiddlywiki",
+        "tags": "table 2210.07763",
+        "created": "20260625093308066",
+        "modified": "20260625093308066",
+        "page": "000",
+        "latex_code": "\\begin{tabular}{lcccc}\n\\toprule\n\\multirow{2}{*}{\\textbf{Facet}} & \\multirow{2}{*}{{\\begin{tabular}[c]{@{}c@{}}\\textbf{\\#Ques-} \\\\ \\textbf{tions}\\end{tabular}}} & \\multicolumn{3}{c}{\\textbf{Precision (\\%)}} \\\\\n\\cmidrule(lr){3-5}\n& & \\textbf{No cont.} & \\textbf{GPT cont.} & \\textbf{\\textsc{Candle}{} cont.} \\\\\n\\midrule\n\\textbf{Food/Drinks} & 88 & \\textbf{92.05} & \\textbf{94.32} & \\textbf{93.18} \\\\\n\\textbf{Behaviors} & 125 & 60.80 & 57.60 & \\textbf{63.20} \\\\\n\\textbf{Rituals} & 135 & 87.41 & 85.93 & \\textbf{92.59} \\\\\n\\textbf{Traditions} & 152 & 72.37 & 69.74 & \\textbf{79.61} \\\\\n\\midrule\n\\textbf{All} & 500 & 77.00 & 75.40 & \\textbf{81.40} \\\\\n\\bottomrule\n\\end{tabular}",
+        "latex_original": "\\begin{tabular}{lcccc}\n\\toprule\n\\multirow{2}{*}{\\textbf{Facet}} & \\multirow{2}{*}{{\\begin{tabular}[c]{@{}c@{}}\\textbf{\\#Ques-} \\\\ \\textbf{tions}\\end{tabular}}} & \\multicolumn{3}{c}{\\textbf{Precision (\\%)}} \\\\\n\\cmidrule(lr){3-5}\n& & \\textbf{No cont.} & \\textbf{GPT cont.} & \\textbf{\\systemname{} cont.} \\\\\n\\midrule\n\\textbf{Food/Drinks} & 88 & \\textbf{92.05} & \\textbf{94.32} & \\textbf{93.18} \\\\\n\\textbf{Behaviors} & 125 & 60.80 & 57.60 & \\textbf{63.20} \\\\\n\\textbf{Rituals} & 135 & 87.41 & 85.93 & \\textbf{92.59} \\\\\n\\textbf{Traditions} & 152 & 72.37 & 69.74 & \\textbf{79.61} \\\\\n\\midrule\n\\textbf{All} & 500 & 77.00 & 75.40 & \\textbf{81.40} \\\\\n\\bottomrule\n\\end{tabular}"
+    }
+]

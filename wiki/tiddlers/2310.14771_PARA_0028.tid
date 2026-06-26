@@ -1,0 +1,10 @@
+created: 20260625093105364
+modified: 20260625093105364
+page: 000
+parent_section: 2310.14771_H4
+tags: paragraph 2310.14771
+title: 2310.14771_PARA_0028
+type: text/vnd.tiddlywiki
+
+Previous works have estimated the cost of KB statement construction at 1 ct.\ (highly automated infobox scraping) to \$2 (manual curation) [paulheim]. Based on our prompt size (avg. 174 tokens), the cost of one query is about 0.35 ct., with filtering increasing the cost per retained statement to about 0.7 ct.
+So LM prompting is monetarily competitive to previous infobox scraping works, though with much higher recall potential.

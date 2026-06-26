@@ -1,0 +1,11 @@
+created: 20260625093156716
+modified: 20260625093156716
+page: 000
+parent_section: 2306.17472_H1
+tags: paragraph 2306.17472
+title: 2306.17472_PARA_0015
+type: text/vnd.tiddlywiki
+
+\item experimental comparisons with baselines, using the MALT data.
+\squishend
+Our code and data are available on both GitHub\footnote{\url{https://github.com/tigerchen52/long_tail_kbc}} and mpi-inf.mpg.de\footnote{\url{https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/knowledge-base-recall/lm4kbc}}.

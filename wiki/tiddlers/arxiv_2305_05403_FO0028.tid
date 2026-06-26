@@ -1,0 +1,11 @@
+caption: \ensuremath{\langle{}*, \textit{birthPlace}, \textit{Warsaw}\rangle}
+created: 20260625080853723
+displayMode: false
+latex: \ensuremath{\langle{}*, \textit{birthPlace}, \textit{Warsaw}\rangle}
+latex_original: \mfact{*}{\textit{birthPlace}}{\textit{Warsaw}}
+modified: 20260625080853723
+tags: formula arxiv_2305_05403
+title: arxiv_2305_05403_FO0028
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

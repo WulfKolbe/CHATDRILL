@@ -1,0 +1,11 @@
+created: 20260625080931150
+modified: 20260625080931150
+page: 000
+parent_section: arxiv_2110_13883_H7
+tags: paragraph arxiv_2110_13883
+title: arxiv_2110_13883_PARA_0052
+type: text/vnd.tiddlywiki
+
+The general Bayesian Information Coefficient (BIC) for a model {{arxiv_2110_13883_FO0219||FO}} with parameter vector {{arxiv_2110_13883_FO0220||FO}} of length {{arxiv_2110_13883_FO0221||FO}} can be written as {{arxiv_2110_13883_FO0222||FO}}
+where {{arxiv_2110_13883_FO0223||FO}} is the empirical log-likelihood of the data given model {{arxiv_2110_13883_FO0224||FO}}. In our case, the model consists of five parameters, the cluster assignment and the parameters {{arxiv_2110_13883_FO0225||FO}} and {{arxiv_2110_13883_FO0226||FO}}, for {{arxiv_2110_13883_FO0227||FO}}, which parameterize the assumed Gaussian distribution for cluster {{arxiv_2110_13883_FO0228||FO}}.
+Accordingly, the empirical negative log likelihood is defined as

@@ -1,0 +1,10 @@
+created: 20260625093119694
+modified: 20260625093119694
+page: 000
+parent_section: 2308.06374_H6
+tags: paragraph 2308.06374
+title: 2308.06374_PARA_0048
+type: text/vnd.tiddlywiki
+
+Beyond the described approaches that construct and leverage embeddings for link prediction, LLMs may also be directly used in a prompting setting to find suitable links between entities, with existing methods described in detail in the following Section (ref). 
+As with the previous approaches that purely use LLMs, prompt-based approaches are directly applicable for ILP and are commonly evaluated in this setting [bosselut-etal-2019-comet,jiang2020can,petroniLAMA2019,shinAutoPrompt2020,zhong2021factual].

@@ -1,0 +1,10 @@
+created: 20260625110956922
+modified: 20260625110956922
+page: 000
+parent_section: 2110.13883_H7
+tags: paragraph 2110.13883
+title: 2110.13883_PARA_0051
+type: text/vnd.tiddlywiki
+
+To find a cut-point in a one-dimensional vector, the authors of GF [madhyastha:20:gf] introduce fast-BIC,
+which is a regularized version of the classical two-means criterium [dasgupta:08:random-proj-trees]. Both criteria induce a hard cluster assignment to either the left or right cluster.

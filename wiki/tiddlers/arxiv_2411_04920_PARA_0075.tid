@@ -1,0 +1,9 @@
+created: 20260625080816564
+modified: 20260625080816564
+page: 000
+parent_section: arxiv_2411_04920_H12
+tags: paragraph arxiv_2411_04920
+title: arxiv_2411_04920_PARA_0075
+type: text/vnd.tiddlywiki
+
+Some applications are especially interested in newly emerging entities, and these are a long-standing challenge for traditional KBC [knowledge-awakens]. Web-scraped KBs like Yago and DBpedia could in principle re-run their scrapers periodically, while text-extracted KBs like Nell and ReVerb would require re-runs on new web crawls. Our approach could proceed analogous, re-running the materialization on a newer version of the utilized LLM. If one were to know which entities are affected by updates, one could also perform retrieval-augmented generation, however, knowing where updates occured essentially requires an oracle, and none of the existing KBs successfully employed selective updating.

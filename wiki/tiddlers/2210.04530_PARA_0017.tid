@@ -1,0 +1,9 @@
+created: 20260625093324945
+modified: 20260625093324945
+page: 000
+parent_section: 2210.04530_H4
+tags: paragraph 2210.04530
+title: 2210.04530_PARA_0017
+type: text/vnd.tiddlywiki
+
+We then used 1,600 CSK triples from Quasimodo [quasimodo], human-rated as very typical (score [1,2[), or typical (score [2,3[), or plausible (score [3,4[) as targets. For each of these triples, we masked the objects, and used the fine-tuned BERT model to predict token likelihoods for the mask.

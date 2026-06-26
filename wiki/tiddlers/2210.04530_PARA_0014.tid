@@ -1,0 +1,10 @@
+created: 20260625093324945
+modified: 20260625093324945
+page: 000
+parent_section: 2210.04530_H4
+tags: paragraph 2210.04530
+title: 2210.04530_PARA_0014
+type: text/vnd.tiddlywiki
+
+To further explore the relation of text simplicity and CSK density, we grouped C4 documents into buckets based on their FRE.
+For a sample of 10k documents per bucket, Figure (ref) reports the per-word frequencies of CSK assertions, considering all spotted CSK assertions (blue) or only distinct ones (red). The results are shown in Figure (ref). As one can see, CSK density increases significantly with easier readability, and only the most simple documents suffer from a lack of diversity (decrease in blue line).

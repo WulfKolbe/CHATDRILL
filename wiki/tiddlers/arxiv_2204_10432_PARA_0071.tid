@@ -1,0 +1,9 @@
+created: 20260625080929321
+modified: 20260625080929321
+page: 000
+parent_section: arxiv_2204_10432_H19
+tags: paragraph arxiv_2204_10432
+title: arxiv_2204_10432_PARA_0071
+type: text/vnd.tiddlywiki
+
+All models proposed in this research were trained on social media data. Thus, they are likely to fail on data coming from other sources (e.g., clinical notes), and there are no accuracy guarantees even within social media data. Our models are not intended to replace clinicians. Instead, we envision the approaches we describe being used as assistive tools by mental health professionals.

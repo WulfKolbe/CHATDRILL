@@ -1,0 +1,9 @@
+created: 20260625080853980
+modified: 20260625080853980
+page: 000
+parent_section: arxiv_2303_11082_H10
+tags: paragraph arxiv_2303_11082
+title: arxiv_2303_11082_PARA_0028
+type: text/vnd.tiddlywiki
+
+Existing-fact prediction describes the prediction of an object for a subject-relation pair for which the ground truth object already exists in a KB. We will analyse the prediction ability of BERT given existing facts from Wikidata in an automated evaluation, focusing on the recall achieved at 90% precision ({{arxiv_2303_11082_FO0009||FO}}).

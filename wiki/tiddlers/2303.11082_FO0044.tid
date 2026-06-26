@@ -1,0 +1,11 @@
+caption: 7,871,085 \cdot 0.86=6,769,133
+created: 20260625093242024
+displayMode: false
+latex: 7,871,085 \cdot 0.86=6,769,133
+latex_original: 7,871,085 \cdot 0.86=6,769,133
+modified: 20260625093242024
+tags: formula 2303.11082
+title: 2303.11082_FO0044
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

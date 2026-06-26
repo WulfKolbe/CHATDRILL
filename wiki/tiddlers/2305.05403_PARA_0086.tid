@@ -1,0 +1,9 @@
+created: 20260625093231914
+modified: 20260625093231914
+page: 000
+parent_section: 2305.05403_H9
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0086
+type: text/vnd.tiddlywiki
+
+Experiments across 5 predicates show that the approach works better on paragraphs than on sentences, because in many cases, the objects are enumerated across several sentences. The F1-values are 45%-75%.

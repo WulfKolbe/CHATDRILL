@@ -1,0 +1,13 @@
+created: 20260625093047341
+modified: 20260625093047341
+page: 000
+parent_section: 2405.02732_H2
+tags: paragraph 2405.02732
+title: 2405.02732_PARA_0015
+type: text/vnd.tiddlywiki
+
+\paragraph{Retrieval-Augmented Generation.}
+For better LLM generations, relevant text snippets can be retrieved and fed into in-context prompts, through the popularly known RAG paradigm
+[NEURIPS2020_6b493230, realm]. 
+The surveys [DBLP:conf/sigir/0002WL022,asai-etal-2023-retrieval-tutorial,DBLP:journals/corr/abs-2310-07521,DBLP:journals/corr/abs-2312-10997]
+discuss RAG architectures for improving overall task accuracy.

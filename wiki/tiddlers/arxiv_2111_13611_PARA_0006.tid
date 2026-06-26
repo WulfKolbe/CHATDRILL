@@ -1,0 +1,10 @@
+created: 20260625080930846
+modified: 20260625080930846
+page: 000
+parent_section: arxiv_2111_13611_H1
+tags: paragraph arxiv_2111_13611
+title: arxiv_2111_13611_PARA_0006
+type: text/vnd.tiddlywiki
+
+This problem would be easy if we could first run a neural RE system on each document and then assess the yield, either by comparison to withheld labeled data or by sampling followed by human inspection. However, this is exactly the computational bottleneck that we must avoid. 
+The challenge is to estimate document coverage, for a given entity and relation of interest, with inexpensive and lightweight techniques for document processing.

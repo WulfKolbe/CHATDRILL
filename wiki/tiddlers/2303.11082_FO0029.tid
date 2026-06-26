@@ -1,0 +1,11 @@
+caption: FT_{vocab}
+created: 20260625093242024
+displayMode: false
+latex: FT_{vocab}
+latex_original: FT_{vocab}
+modified: 20260625093242024
+tags: formula 2303.11082
+title: 2303.11082_FO0029
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

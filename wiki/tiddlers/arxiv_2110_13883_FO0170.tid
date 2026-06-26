@@ -1,0 +1,11 @@
+caption: \ensuremath{\tilde{\bm{X}}}\xspace \mathop{\perp\!\!\!\perp}\nolimits \ensuremath{\bm{E}_X}\xspace
+created: 20260625080931151
+displayMode: false
+latex: \ensuremath{\tilde{\bm{X}}}\xspace \mathop{\perp\!\!\!\perp}\nolimits \ensuremath{\bm{E}_X}\xspace
+latex_original: \Xt \Indep \Xn
+modified: 20260625080931151
+tags: formula arxiv_2110_13883
+title: arxiv_2110_13883_FO0170
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

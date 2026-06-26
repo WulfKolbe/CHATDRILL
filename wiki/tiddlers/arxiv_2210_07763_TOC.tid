@@ -1,0 +1,32 @@
+created: 20260625080858064
+format: fractal_xref
+modified: 20260625080858064
+tags: toc arxiv_2210_07763
+title: arxiv_2210_07763_TOC
+type: text/vnd.tiddlywiki
+
+** 1.1 [[Introduction|arxiv_2210_07763_H1]]
+** 1.2 [[Related work|arxiv_2210_07763_H2]]
+** 1.3 [[CCSK Representation|arxiv_2210_07763_H3]]
+** 1.4 [[Methodology|arxiv_2210_07763_H4]]
+*** 1.4.1 [[Subject detection|arxiv_2210_07763_H5]]
+*** 1.4.2 [[Generic assertion filtering|arxiv_2210_07763_H6]]
+*** 1.4.3 [[Cultural facet classification|arxiv_2210_07763_H7]]
+*** 1.4.4 [[Assertion clustering|arxiv_2210_07763_H8]]
+*** 1.4.5 [[Concept extraction|arxiv_2210_07763_H9]]
+*** 1.4.6 [[Cluster ranking and post-filtering|arxiv_2210_07763_H10]]
+** 1.5 [[Implementation|arxiv_2210_07763_H11]]
+** 1.6 [[Evaluation|arxiv_2210_07763_H12]]
+*** 1.6.1 [[Comparison with other resources|arxiv_2210_07763_H13]]
+*** 1.6.2 [[Comparison with direct LM extraction|arxiv_2210_07763_H14]]
+*** 1.6.3 [[Extrinsic evaluation|arxiv_2210_07763_H15]]
+** 1.7 [[Conclusion|arxiv_2210_07763_H16]]
+*** 1.7.1 [[Ethics statement|arxiv_2210_07763_H17]]
+** 1.8 [[System summary|arxiv_2210_07763_H18]]
+** 1.9 [[Generic filtering rules|arxiv_2210_07763_H19]]
+** 1.10 [[Hyperparameter settings|arxiv_2210_07763_H20]]
+** 1.11 [[Intrinsic evaluation|arxiv_2210_07763_H21]]
+*** 1.11.1 [[Per-domain quality|arxiv_2210_07763_H22]]
+*** 1.11.2 [[Per-facet quality|arxiv_2210_07763_H23]]
+** 1.12 [[Details of Annotation Task for Assertion Evaluation|arxiv_2210_07763_H24]]
+** 1.13 [[GPT-3 prompting|arxiv_2210_07763_H25]]

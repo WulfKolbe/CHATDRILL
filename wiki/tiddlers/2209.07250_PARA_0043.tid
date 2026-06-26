@@ -1,0 +1,9 @@
+created: 20260625093341705
+modified: 20260625093341705
+page: 000
+parent_section: 2209.07250_H3
+tags: paragraph 2209.07250
+title: 2209.07250_PARA_0043
+type: text/vnd.tiddlywiki
+
+Figure (ref) gives the overview of {\mysystem}. We consider as input a query that asks for the count of named entities that stand in relation with a subject, for instance full queries like ``How many songs did John Lennon write for the Beatles'', or a keyword query like ``songs by lennon''.

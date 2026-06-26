@@ -1,0 +1,9 @@
+created: 20260625080859570
+modified: 20260625080859570
+page: 000
+parent_section: arxiv_2209_07250_H19
+tags: paragraph arxiv_2209_07250
+title: arxiv_2209_07250_PARA_0115
+type: text/vnd.tiddlywiki
+
+When we look into the top-2 SPARQL queries we find that only about 3% of the queries provide equivalent answers. These however, cannot be considered Synonyms by definition since they are always query equivalent reformulations. Typical relations are spouse and sibling such that the reformulations {{arxiv_2209_07250_FO0036||FO}} and {{arxiv_2209_07250_FO0037||FO}} are symmetric and the answer sets are identical but no additional semantic context is obtained.

@@ -1,0 +1,9 @@
+created: 20260625080805467
+modified: 20260625080805467
+page: 000
+parent_section: arxiv_2411_12449_H4
+tags: paragraph arxiv_2411_12449
+title: arxiv_2411_12449_PARA_0040
+type: text/vnd.tiddlywiki
+
+To ensure temporal relevancy while retrieving content for answering each user query {{arxiv_2411_12449_FO0105||FO}}, we reformulate the queries to explicitly mention the normalized timestamp {{arxiv_2411_12449_FO0106||FO}}, where {{arxiv_2411_12449_FO0107||FO}} is the query timestamp. We then experiment with the following two retrieval strategies:

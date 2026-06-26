@@ -1,0 +1,9 @@
+created: 20260625080930846
+modified: 20260625080930846
+page: 000
+parent_section: arxiv_2111_13611_H4
+tags: paragraph arxiv_2111_13611
+title: arxiv_2111_13611_PARA_0034
+type: text/vnd.tiddlywiki
+
+We binarized the coverage values to circumvent the above problem, splitting documents into two classes: informative and uninformative. The binarization method comprised of an absolute and a relative threshold: a document was labeled as informative or {{arxiv_2111_13611_FO0039||FO}} if its coverage was greater than {{arxiv_2111_13611_FO0040||FO}}, or greater than the coverage of at least {{arxiv_2111_13611_FO0041||FO}} of documents for the same {{arxiv_2111_13611_FO0042||FO}}; otherwise, it was labeled as uninformative or {{arxiv_2111_13611_FO0043||FO}}.

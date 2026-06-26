@@ -1,0 +1,23 @@
+created: 20260625093057255
+modified: 20260625093057255
+page: 000
+parent_section: 2311.01314_H1
+tags: paragraph 2311.01314
+title: 2311.01314_PARA_0015
+type: text/vnd.tiddlywiki
+
+Our approach constructs {\em concise user profiles} from rich but noisy reviews, and feeds these into the training of a two-tower transformer-based recommender system. 
+This comes with three main challenges:
+{{\em 1) Long-tail Users:}}
+Unlike for long-tail items, there is no way for transferring knowledge from dense-interaction {\em users} to users in the long tail. The sparseness and the high diversity of user interests and tastes pose unique challenges.
+{{\em 2) Noisy Reviews:}}
+User reviews express a mix of aspects:
+personal background, 
+interesting traits of the reviewed item, and
+sentiment expressions.
+Figure (ref) depicts an example review with a mix of informative and uninformative signals.
+The challenge lies in identifying the 
+scarce parts of a review that convey information about the {\em item itself} and {\em why} the user likes (or dislikes) it.
+{{\em 3) Low-resource Computation:}}
+LLMs can handle large inputs, but the computational and energy cost increases with the number of input tokens. 
+The challenge is to get high mileage while keeping the footprint and computation low.

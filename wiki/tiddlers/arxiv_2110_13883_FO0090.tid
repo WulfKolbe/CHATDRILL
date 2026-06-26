@@ -1,0 +1,11 @@
+caption: n_{\ensuremath{\bm{x}}\xspace,i}+1 \ge k
+created: 20260625080931151
+displayMode: false
+latex: n_{\ensuremath{\bm{x}}\xspace,i}+1 \ge k
+latex_original: n_{\xg,i}+1 \ge k
+modified: 20260625080931151
+tags: formula arxiv_2110_13883
+title: arxiv_2110_13883_FO0090
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

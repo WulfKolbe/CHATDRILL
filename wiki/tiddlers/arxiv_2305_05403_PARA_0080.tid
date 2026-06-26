@@ -1,0 +1,10 @@
+created: 20260625080853721
+modified: 20260625080853721
+page: 000
+parent_section: arxiv_2305_05403_H9
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0080
+type: text/vnd.tiddlywiki
+
+A first hint on missing objects comes from obligatory attributes. An obligatory attribute of a given class is a predicate that all instances of the class must have in the real world at the current point in time. For example, birth\-Date is an obligatory attribute for humans, while hasSpouse is not. If we knew the obligatory attributes, we could use them to solve parts of the Missing Object Problem: if an instance of a class has no object for an obligatory attribute, then it is necessarily incomplete on that attribute. It turns out that the obligatory attributes of a class can be determined automatically from the incomplete KB [lajus2018all]. For this purpose, we look at the ratio of instances of the class that have the predicate in the KB. For example, we can look at the ratio of women who are married (Fig. (ref)). We then check if this ratio changes when we go into subclasses of the target class, or into intersections of the target class with other classes. In our example, we can go into the subclass of Actresses, or into the intersecting class of Royal Consorts. If the ratio changes, then a theorem 
+tells us (under a number of assumptions) that the predicate cannot be obligatory. In our example, the ratio of married women changes when we go into the subclass of Royal Consorts. Hence, married cannot be an obligatory attribute. If we assume that the other predicates are all obligatory, we can then spot places in the KB where objects must be missing.

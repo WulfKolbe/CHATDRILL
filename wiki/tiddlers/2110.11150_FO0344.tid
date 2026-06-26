@@ -1,0 +1,11 @@
+caption: ||f-f_{\epsilon}||_{\infty} \leq \epsilon
+created: 20260625151931664
+displayMode: false
+latex: ||f-f_{\epsilon}||_{\infty} \leq \epsilon
+latex_original: ||f-f_{\epsilon}||_{\infty} \leq \epsilon
+modified: 20260625151931664
+tags: formula 2110.11150
+title: 2110.11150_FO0344
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

@@ -1,0 +1,10 @@
+created: 20260625093007936
+modified: 20260625093007936
+page: 000
+parent_section: 2411.12449_H6
+tags: paragraph 2411.12449
+title: 2411.12449_PARA_0048
+type: text/vnd.tiddlywiki
+
+News Articles.
+To construct Neon, we collected news streams from 500 distinct sources, with a median of 200 articles per source and a maximum of 9,000 articles. Articles varied in length and were preprocessed to create metadata information, including disambiguated named entity mentions (e.g., persons, orgs., and locations), their surface forms, and article timestamps. The metadata helps in mapping target subject entities to their corresponding news articles. We also identified duplicate content across articles and publication dates; for temporal relevance, we retained unique content mapped to all associated sources and dates to construct a more complete Neon graph. Table (ref) gives the final dataset statistics. The counts of head/tail entities are based on {{2411.12449_FO0130||FO}} pth of the total article count.

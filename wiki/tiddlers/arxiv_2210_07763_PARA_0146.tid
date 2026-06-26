@@ -1,0 +1,9 @@
+created: 20260625080858063
+modified: 20260625080858063
+page: 000
+parent_section: arxiv_2210_07763_H15
+tags: paragraph arxiv_2210_07763
+title: arxiv_2210_07763_PARA_0146
+type: text/vnd.tiddlywiki
+
+in Table (ref). It can be seen that the player got significantly more correct answers when given assertions from \systemname{} than from GPT-resource (i.e., assertions written by the player itself!). This confirms that assertions in \systemname{} are more informative.

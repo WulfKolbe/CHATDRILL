@@ -1,0 +1,12 @@
+created: 20260625080853722
+modified: 20260625080853722
+page: 000
+parent_section: arxiv_2305_05403_H15
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0152
+type: text/vnd.tiddlywiki
+
+Knowledge bases store by and large positive knowledge, and very little to no negative statements.
+\begin{revision}
+This happens for principled reasons, as the set of possible negations is vast and possibly infinite (depending on whether one assumes a finite or infinite set of constants). Adding complete sets of negative statements is therefore hardly a goal. Many standard AI applications, such as question answering and dialogue systems, would often benefit from statements about popular entities, i.e., explicit negations for salient cases. For instance, a cooking chatbot should be aware that certain ethnic food are not meant to be heated, e.g., Hummus and Gazpacho, and a general-purpose search engine must be confident about common factual mistakes, such as famous people not winning certain awards in their domains, e.g. Stephen Hawking and The Nobel Prize in Physics. Completeness statements enable the inference of negations, yet are themselves hard to come by. Furthermore, even though negative statements are in principle much more numerous than positive statements, only few of them are interesting.
+In this section, we approach the problem of negation materialization therefore not with the goal of completeness, but with the goal of a high recall among salient negations.

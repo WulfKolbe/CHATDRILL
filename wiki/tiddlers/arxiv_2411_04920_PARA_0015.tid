@@ -1,0 +1,14 @@
+created: 20260625080816563
+modified: 20260625080816563
+page: 000
+parent_section: arxiv_2411_04920_H5
+tags: paragraph arxiv_2411_04920
+title: arxiv_2411_04920_PARA_0015
+type: text/vnd.tiddlywiki
+
+The knowledge elicitation phase 
+returns
+a huge degree of redundancy and variance.
+Feeding a large amount of existing entities or taxonomy into the knowledge elicitation prompt could mitigate this problem.
+However, that would also increase costs significantly, and even be infeasible once we have generated millions of entities and triples.
+Instead, we introduce several steps to consolidate LLMs output post-hoc.

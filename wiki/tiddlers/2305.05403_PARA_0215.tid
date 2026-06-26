@@ -1,0 +1,11 @@
+created: 20260625093231915
+modified: 20260625093231915
+page: 000
+parent_section: 2305.05403_H23
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0215
+type: text/vnd.tiddlywiki
+
+Each of the mentioned comparisons serves a different purpose: Evaluating KB recall relative to other KBs should definitely be attempted whenever similar-domain KBs are available, since data integration from structured sources is a comparatively simple task, with considerable potential for improving recall.
+Evaluating KB recall relative to text can serve two purposes: Towards improving KB recall, for text-extracted KBs, recall evaluation relative to text can serve as a guidance on how much information is lost in the text extraction process. This can serve as a guidance on where to improve the process. On the other hand, such an evaluation can also help to understand a KB's potential and limitation for downstream use cases (e.g., Wikidata is generally suited for computing statistics about age/gender/profession statistics about US senators, but bad for judging the quality of their governance). This is especially relevant when KBs are one of several options to power a downstream use case, as is, for example, often the case for question answering (see also Section (ref)).
+KB recall relative to human associations is the most intrinsic dimension.

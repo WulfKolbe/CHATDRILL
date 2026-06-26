@@ -1,0 +1,10 @@
+created: 20260625080859570
+modified: 20260625080859570
+page: 000
+parent_section: arxiv_2209_07250_H13
+tags: paragraph arxiv_2209_07250
+title: arxiv_2209_07250_PARA_0096
+type: text/vnd.tiddlywiki
+
+For fairness to QAnswer, which specifically deals with count queries by aggregating on top of the SPARQL query, we queried the system\footnote{QAnswer API at \url{https://qanswer-core1.univ-st-etienne.fr/swagger-ui.html}} twice - the original count query (for the count answer) and a modified variant as in Section (ref), i.e., replacing ``how many'' with ``which''. We then
+post-processed the results to extract count and instances.

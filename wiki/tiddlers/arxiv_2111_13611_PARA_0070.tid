@@ -1,0 +1,9 @@
+created: 20260625080930847
+modified: 20260625080930847
+page: 000
+parent_section: arxiv_2111_13611_H10
+tags: paragraph arxiv_2111_13611
+title: arxiv_2111_13611_PARA_0070
+type: text/vnd.tiddlywiki
+
+To demonstrate the importance of coverage prediction, we evaluated its utility in two use cases, knowledge base construction and claim refutation. For the former, we discuss the importance of ranking documents by RE coverage (Section (ref)) and a practically relevant setting where RE is constrained by resource budgets (Section (ref)).

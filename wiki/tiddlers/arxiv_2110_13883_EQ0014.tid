@@ -1,0 +1,14 @@
+created: 20260625080931153
+displayMode: true
+equation_number: 
+kind: Equation
+latex: \ensuremath{d_G}\xspace(\ensuremath{\bm{x}}\xspace_i,\ensuremath{\bm{x}}\xspace_j) = \begin{cases} d_F(\ensuremath{\bm{x}}\xspace_i, \ensuremath{\bm{x}}\xspace_j) & \text{if $d_F(\ensuremath{\bm{x}}\xspace_i, \ensuremath{\bm{x}}\xspace_j) > 0$,} \\ \frac{d_2(\ensuremath{\bm{x}}\xspace_i, \ensuremath{\bm{x}}\xspace_j)}{c (T + \epsilon)} & \text{otherwise.} \end{cases}
+latex_original: \dgf(\xg_i,\xg_j) = \begin{cases} d_F(\xg_i, \xg_j) & \text{if $d_F(\xg_i, \xg_j) > 0$,} \\ \frac{d_2(\xg_i, \xg_j)}{c (T + \epsilon)} & \text{otherwise.} \end{cases}
+modified: 20260625080931153
+page: 000
+refnum: 
+tags: equation arxiv_2110_13883
+title: arxiv_2110_13883_EQ0014
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode=true />

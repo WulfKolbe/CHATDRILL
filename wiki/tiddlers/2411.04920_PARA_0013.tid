@@ -1,0 +1,9 @@
+created: 20260625093027647
+modified: 20260625093027647
+page: 000
+parent_section: 2411.04920_H4
+tags: paragraph 2411.04920
+title: 2411.04920_PARA_0013
+type: text/vnd.tiddlywiki
+
+A major challenge is to elicit as much knowledge as possible, but at the same time, not encourage hallucinations. We found that without guidelines on the expected number of triples, LLMs showed too little variance in the number of triples per subject, while we would expect them to return many more triples for Einstein than for other entities. We solve this via indications that are defined in relation to the entity's popularity. In difference to the proposal [cohen-etal-2023-crawling], we also drop the separate relation elicitation, and relation-specific knowledge extraction, as these do not scale. To structure the knowledge, we also request that at least one instance\_of triple should be returned. Output parsing is eased by using the structured outputs feature of OpenAI's API. In turn, this also reduces hallucinations, e.g., additional qualifiers, textual descriptions, or similar. The full prompt is in Figure (ref) in the Appendix.

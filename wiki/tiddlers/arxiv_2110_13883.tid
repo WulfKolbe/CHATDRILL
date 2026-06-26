@@ -1,0 +1,20 @@
+caption: arxiv_2110_13883
+created: 20260625080931153
+modified: 20260625080931153
+tags: document bibtex arxiv_2110_13883
+title: arxiv_2110_13883
+type: text/vnd.tiddlywiki
+
+! arxiv_2110_13883
+
+* Total Pages: 0
+* Total Sections: 19
+* Total Paragraphs: 102
+* Total Equations: 21
+* Total Formulas: 392
+
+!! Top-level Sections
+
+<$list filter="[tag[section]arxiv_2110_13883]!has[parent_section]] [tag[section]parent_section[arxiv_2110_13883]]" variable="sec">
+  * <$link to=<<sec>>><<sec>></$link>
+</$list>

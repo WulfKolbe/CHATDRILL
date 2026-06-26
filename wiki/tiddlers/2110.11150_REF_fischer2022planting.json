@@ -1,0 +1,17 @@
+[
+    {
+        "title": "2110.11150_REF_fischer2022planting",
+        "text": "{{||CIT}} J. Fischer and R. Burkholz. Plant 'n' seek: Can you find the winning ticket? In International Conference on Learning Representations, 2022.",
+        "type": "text/markdown",
+        "tags": "reference bibentry bibtex 2110.11150",
+        "created": "20260626111149172",
+        "modified": "20260626111149172",
+        "kind": "reference",
+        "citekey": "fischer2022planting",
+        "year": "2022",
+        "authors": "Jonas Fischer and\n               Rebekka Burkholz",
+        "entry_type": "inproceedings",
+        "titlefield": "Plant 'n' Seek: Can You Find the Winning Ticket?",
+        "bibtex": "@inproceedings{fischer2022planting,\n  author    = {Jonas Fischer and\n               Rebekka Burkholz},\n  title     = {Plant 'n' Seek: Can You Find the Winning Ticket?},\n  booktitle = {International Conference on Learning Representations},\n  year      = {2022}\n}"
+    }
+]

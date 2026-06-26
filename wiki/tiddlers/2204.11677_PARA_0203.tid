@@ -1,0 +1,14 @@
+created: 20260625093448815
+modified: 20260625093448815
+page: 000
+parent_section: 2204.11677_H16
+tags: paragraph 2204.11677
+title: 2204.11677_PARA_0203
+type: text/vnd.tiddlywiki
+
+\myparagraph{\convinse excels in realistic setup with predicted answers}
+The experiments so far are conducted assuming the gold answers for the previous turns in the conversation to be given.
+However, in a realistic setup, the ConvQA system would not know these answers.
+Therefore, we conducted an additional experiment, in which we used the predicted answers by the system for the previous turns, when generating the outputs of the QU phase.
+The results of this experiment are shown in Table (ref).
+\convinse outperforms all methods significantly on conversations of length both five and ten, even though it has never seen such 10-length conversations during training.

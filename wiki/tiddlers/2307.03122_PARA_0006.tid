@@ -1,0 +1,10 @@
+created: 20260625093145739
+modified: 20260625093145739
+page: 000
+parent_section: 2307.03122_H2
+tags: paragraph 2307.03122
+title: 2307.03122_PARA_0006
+type: text/vnd.tiddlywiki
+
+The idea of knowledge extraction using LMs representations was put forward by [Radford2019LanguageMA, petroni-etal-2019-language], and has since received much attention. Several approaches [Bouraoui2019InducingRK, goswami-etal-2020-unsupervised-relation, KnowPrompt] use relational metadata and textual corpora to tune the LM using knowledge-enriched representations and efficiently extract knowledge. [jiang-etal-2020-x, kassner-etal-2021-multilingual] focus on multilingual knowledge extraction, while [dhingra-etal-2022-time] looks at extracting temporal knowledge from LMs.
+Current methods usually sample from correct objects for a given subject-relation pair by employing the hits@k metric and do not enforce deliberate accept/reject decisions on the outputs.

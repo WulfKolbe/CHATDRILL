@@ -1,0 +1,11 @@
+created: 20260625093231913
+modified: 20260625093231913
+page: 000
+parent_section: 2305.05403_H1
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0010
+type: text/vnd.tiddlywiki
+
+Several comprehensive surveys discuss KBs at large, in particular their construction, storage, querying, and applications [hogan2021knowledge,machine-knowledge-survey,ji2021survey]. Focused works on KB quality discuss how recall can be increased, and how quality can be measured by assessing accuracy and provenance [paulheim2017knowledge,zaveri2016quality,ben2018rdf,farber2018linked]. 
+Recent years have also seen new 
+formalisms for describing recall and negative knowledge [darari2013completeness,ARNAOUT2021100661,mirza2018enriching], as well as the rise of statistical and text-based methods for estimating recall [galarraga2017predicting,hopkinson2018demand,lajus2018all,luggen2019non,razniewski2019coverage,soulet2018representativeness,karagiannis2019mining,balaraman2018recoin] and deriving negative statements [karagiannis2019mining,arnaout020enriching,safavi-etal-2021-negater,arnaoutcikm2022], with some of them collected in a systematic literature review [issa2021]. The goal of this survey is to systematize, present and analyze this topic.

@@ -1,0 +1,10 @@
+created: 20260625093156716
+modified: 20260625093156716
+page: 000
+parent_section: 2306.17472_H7
+tags: paragraph 2306.17472
+title: 2306.17472_PARA_0044
+type: text/vnd.tiddlywiki
+
+In the second stage, our method harnesses an LM pre-trained for entity disambiguation. Therefore, our methodology, in its current form, cannot predict objects that are not already known to that LM
+and its underlying KB.

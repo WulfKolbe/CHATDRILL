@@ -1,0 +1,10 @@
+created: 20260625080930847
+modified: 20260625080930847
+page: 000
+parent_section: arxiv_2111_13611_H9
+tags: paragraph arxiv_2111_13611
+title: arxiv_2111_13611_PARA_0069
+type: text/vnd.tiddlywiki
+
+This quadratic complexity of full-fledged neural RE has inherent reasons (as stated in [Yao:ACL2019]). Document-level relation extraction generally requires computations for all possible pairs of entity mentions.
+The neural RE methods need to have the positions of candidate entity pairs as input, which necessitates considering all pairs of mentions.

@@ -1,0 +1,14 @@
+created: 20260625080827349
+modified: 20260625080827349
+page: 000
+parent_section: arxiv_2311_01314_H2
+tags: paragraph arxiv_2311_01314
+title: arxiv_2311_01314_PARA_0029
+type: text/vnd.tiddlywiki
+
+A represenative of the first line is P5 [DBLP:conf/recsys/Geng0FGZ22],
+which
+employs prompt templates for the T5 language model.
+We include an 
+{enhanced}
+variant of the P5 method in our experiments.

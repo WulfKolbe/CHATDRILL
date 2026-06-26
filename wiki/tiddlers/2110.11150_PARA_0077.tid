@@ -1,0 +1,13 @@
+created: 20260626094813420
+modified: 20260626094813420
+page: 000
+parent_section: 2110.11150_H21
+tags: paragraph 2110.11150
+title: 2110.11150_PARA_0077
+type: text/vnd.tiddlywiki
+
+!! Error propagation: Proof of Lemma (ref)
+
+\begin{theorem*}
+Assume {{2110.11150_FO0033||FO}} and let the target network {{2110.11150_FO0016||FO}} and its approximation {{2110.11150_FO0020||FO}} have the same architecture.
+If every parameter {{2110.11150_FO0097||FO}} of {{2110.11150_FO0016||FO}} and corresponding {{2110.11150_FO0096||FO}} of {{2110.11150_FO0020||FO}} in layer {{2110.11150_FO0013||FO}} fulfils {{2110.11150_FO0098||FO}} for

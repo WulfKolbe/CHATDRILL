@@ -1,0 +1,9 @@
+created: 20260625093007936
+modified: 20260625093007936
+page: 000
+parent_section: 2411.12449_H6
+tags: paragraph 2411.12449
+title: 2411.12449_PARA_0047
+type: text/vnd.tiddlywiki
+
+Spiking dates were identified through short-term trends in query volume. Specifically, we calculated a 3-day rolling sum of daily query counts, flagging significant spikes as dates where the rolling sum exceeded one standard deviation above the mean. This threshold effectively identifies periods of elevated user interest, often triggered by shifts in attention or external events impacting the entity. Furthermore, to preserve user privacy, we filtered queries requested by fewer than five distinct individuals, yielding nearly 3000 temporal user queries. Table (ref) provides a few examples of representative queries from each category and entity popularity.

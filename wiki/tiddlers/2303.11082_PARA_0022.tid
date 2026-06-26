@@ -1,0 +1,9 @@
+created: 20260625093242023
+modified: 20260625093242023
+page: 000
+parent_section: 2303.11082_H6
+tags: paragraph 2303.11082
+title: 2303.11082_PARA_0022
+type: text/vnd.tiddlywiki
+
+In the second analysis part, we produce high accuracy predictions for missing facts in Wikidata given the previously extracted threshold and evaluate the model's predictions using human annotations. Given the human evaluation, we will provide estimations about the amount of addable new facts to Wikidata. In Figure (ref) we show an overview of our systematic analysis.

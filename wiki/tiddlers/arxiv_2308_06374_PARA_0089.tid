@@ -1,0 +1,9 @@
+created: 20260625080831230
+modified: 20260625080831230
+page: 000
+parent_section: arxiv_2308_06374_H8
+tags: paragraph arxiv_2308_06374
+title: arxiv_2308_06374_PARA_0089
+type: text/vnd.tiddlywiki
+
+In Sections 4.1 to 4.3, we discussed on three different aspects on using LLMs for KGs. In this section, we look into the other direction, i.e., using KGs for LLMs. There are a few dimensions here. Firstly, KGs can be used as training data for LLMs. Secondly, triples in KGs can be used for prompt construction. Last but not least, KGs can be used as external knowledge in retrieval augmented language models.

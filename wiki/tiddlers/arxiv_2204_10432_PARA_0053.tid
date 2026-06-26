@@ -1,0 +1,9 @@
+created: 20260625080929321
+modified: 20260625080929321
+page: 000
+parent_section: arxiv_2204_10432_H11
+tags: paragraph arxiv_2204_10432
+title: arxiv_2204_10432_PARA_0053
+type: text/vnd.tiddlywiki
+
+In terms of F1 and AUC, our two PHQ9 variants generalize better than BERT with only {{arxiv_2204_10432_FO0017||FO}} ``Loss'' at most over {{arxiv_2204_10432_FO0018||FO}} dataset-transfer settings, and the number of ``Win'' always dominates. Compared to BERT, our PHQ9 (vectors) obtains {{arxiv_2204_10432_FO0019||FO}} ``Win'', {{arxiv_2204_10432_FO0020||FO}} ``Draw'', and no ``Loss'' in terms of F1. Regarding AUC, we only observe 1 ``Loss'' replacing a ``Win''. The method using PHQ9 scores generalizes slightly worse than the one using vectors but still performs better than the unconstrained models. For example, when trained on TRT and tested on RSDD, our PHQ9 (scores) method improves over BERT by roughly 59% F1 score and 18% AUC. This behavior may reflect the unusual selection of control users in TRT, where control users are sampled from ``r/AskReddit''. This may introduce shortcuts (e.g., specific topics or styles) that make BERT vulnerable to the change of testing environment. Our classifier-constrained methods with scores and vectors are designed to avoid the spurious shortcuts present in this setting.

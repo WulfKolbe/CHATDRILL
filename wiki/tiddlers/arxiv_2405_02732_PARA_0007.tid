@@ -1,0 +1,9 @@
+created: 20260625080827136
+modified: 20260625080827136
+page: 000
+parent_section: arxiv_2405_02732_H1
+tags: paragraph arxiv_2405_02732
+title: arxiv_2405_02732_PARA_0007
+type: text/vnd.tiddlywiki
+
+\noindent {\bf Stage 2: Precision-oriented Scrutinization}. Given a high-recall list of object candidates from Stage 1, the second stage uses conservative techniques to corroborate or prune objects. We employ novel techniques to identify high-confidence objects and their best support passages, and use them to re-assess lower-confidence candidates.

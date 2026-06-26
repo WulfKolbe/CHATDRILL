@@ -1,0 +1,17 @@
+[
+    {
+        "title": "2110.11150_REF_snipit",
+        "text": "{{||CIT}} S. Verdenius, M. Stol, and P. Forré. Pruning via iterative ranking of sensitivity statistics, 2020.",
+        "type": "text/markdown",
+        "tags": "reference bibentry bibtex 2110.11150",
+        "created": "20260626111149173",
+        "modified": "20260626111149173",
+        "kind": "reference",
+        "citekey": "snipit",
+        "year": "2020",
+        "authors": "Stijn Verdenius and Maarten Stol and Patrick Forré",
+        "entry_type": "misc",
+        "titlefield": "Pruning via Iterative Ranking of Sensitivity Statistics",
+        "bibtex": "@misc{snipit,\n      title={Pruning via Iterative Ranking of Sensitivity Statistics}, \n      author={Stijn Verdenius and Maarten Stol and Patrick Forré},\n      year={2020},\n      eprint={2006.00896},\n      archivePrefix={arXiv},\n      primaryClass={cs.LG}\n}"
+    }
+]

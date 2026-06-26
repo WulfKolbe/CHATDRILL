@@ -1,0 +1,9 @@
+created: 20260625093231914
+modified: 20260625093231914
+page: 000
+parent_section: 2305.05403_H10
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0087
+type: text/vnd.tiddlywiki
+
+The recall of a KB can be estimated for entities and for statements. Different approaches have been developed for both cases (Table (ref)), with promising results. However, the approaches for entities suffer from a small ground truth: in only few cases the total number of instances of a class is known. This makes the experiments difficult to judge.

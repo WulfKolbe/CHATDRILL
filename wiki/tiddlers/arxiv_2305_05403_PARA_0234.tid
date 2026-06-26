@@ -1,0 +1,9 @@
+created: 20260625080853723
+modified: 20260625080853723
+page: 000
+parent_section: arxiv_2305_05403_H27
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0234
+type: text/vnd.tiddlywiki
+
+For completeness and recall information that is text-extracted, a reasonable baseline is to consider the extraction time as the latest validity time. Finer-grained annotations are possible, for instance, by considering document creation time metadata, or temporal expressions in the actual text, for estimating the latest (certain) validity time [heideltime].

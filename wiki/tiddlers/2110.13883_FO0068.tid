@@ -1,0 +1,11 @@
+caption: d(\ensuremath{\bm{z}}\xspace_i,\ensuremath{\bm{z}}\xspace_j)_{\max}
+created: 20260625110956923
+displayMode: false
+latex: d(\ensuremath{\bm{z}}\xspace_i,\ensuremath{\bm{z}}\xspace_j)_{\max}
+latex_original: d(\zg_i,\zg_j)_{\max}
+modified: 20260625110956923
+tags: formula 2110.13883
+title: 2110.13883_FO0068
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

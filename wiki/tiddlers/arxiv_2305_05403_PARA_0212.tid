@@ -1,0 +1,10 @@
+created: 20260625080853723
+modified: 20260625080853723
+page: 000
+parent_section: arxiv_2305_05403_H23
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0212
+type: text/vnd.tiddlywiki
+
+Besides other KBs and texts, an interesting resource for relative recall assessments are humans directly. How well do KBs recall statements that humans spontaneously associate with concepts? This framing of recall has been prominent in recent commonsense knowledge base construction (KBC) projects [romero2019commonsense,nguyen2021materialized,ascentpp].
+While the former project directly queried human crowdworkers (``What comes to your mind when you think of lions?''), the latter two projects relied on the CSLB property norm corpus [devereux2014centre], a large dataset of concept associations collected in the context of a psychology project. Evaluations following this scheme typically use embedding-based heuristic matching techniques to judge whether a test KB contains a reference statement subject to possible minor wording differences. Recall is typically found to be in the order of 5%-13%, showing that there is still a substantial gap in how well current commonsense KB

@@ -1,0 +1,11 @@
+caption: \hat{\mu}_i
+created: 20260625110956924
+displayMode: false
+latex: \hat{\mu}_i
+latex_original: \hat{\mu}_i
+modified: 20260625110956924
+tags: formula 2110.13883
+title: 2110.13883_FO0225
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

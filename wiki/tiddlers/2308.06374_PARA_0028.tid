@@ -1,0 +1,9 @@
+created: 20260625093119694
+modified: 20260625093119694
+page: 000
+parent_section: 2308.06374_H5
+tags: paragraph 2308.06374
+title: 2308.06374_PARA_0028
+type: text/vnd.tiddlywiki
+
+Also, LLMs can help build solid corpora of entity matching rules, modulo the fact that a declarative formalism with a logical language {{2308.06374_FO0001||FO}} is defined in the graph setting. Training data for this logical language should be provided as input to LLMs, similarly to SQL statements that are readily available for consumption in text corpora. However, prompt engineering is needed in order to produce meaningful rule corpora for real-world large-scale KGs, such as DBpedia [auer2007dbpedia] and Wikidata [wikidata]. Entity matching rule logs can be envisioned for these real-world large-scale KGs in a similar fashion as query logs for these KGs [BonifatiMT19,BonifatiMT20].

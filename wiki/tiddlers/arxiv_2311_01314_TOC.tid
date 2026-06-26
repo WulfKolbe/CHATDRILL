@@ -1,0 +1,22 @@
+created: 20260625080827351
+format: fractal_xref
+modified: 20260625080827351
+tags: toc arxiv_2311_01314
+title: arxiv_2311_01314_TOC
+type: text/vnd.tiddlywiki
+
+** 1.1 [[Introduction|arxiv_2311_01314_H1]]
+** 1.2 [[Related Work|arxiv_2311_01314_H2]]
+** 1.3 [[Methodology|arxiv_2311_01314_H3]]
+*** 1.3.1 [[System Architecture|arxiv_2311_01314_H4]]
+*** 1.3.2 [[Training|arxiv_2311_01314_H5]]
+*** 1.3.3 [[Inference|arxiv_2311_01314_H6]]
+*** 1.3.4 [[Coping with Long and Noisy Texts|arxiv_2311_01314_H7]]
+*** 1.3.5 [[Coping with Unlabeled Data|arxiv_2311_01314_H8]]
+** 1.4 [[Experimental Design|arxiv_2311_01314_H9]]
+** 1.5 [[Experimental Results|arxiv_2311_01314_H10]]
+*** 1.5.1 [[Comparison of CUP against Baselines|arxiv_2311_01314_H11]]
+*** 1.5.2 [[Efficiency of CUP|arxiv_2311_01314_H12]]
+*** 1.5.3 [[Comparison of CUP Configurations|arxiv_2311_01314_H13]]
+** 1.6 [[Analysis of User Profiles|arxiv_2311_01314_H14]]
+** 1.7 [[Conclusion|arxiv_2311_01314_H15]]

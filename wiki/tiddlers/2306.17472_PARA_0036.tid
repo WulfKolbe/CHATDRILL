@@ -1,0 +1,15 @@
+created: 20260625093156716
+modified: 20260625093156716
+page: 000
+parent_section: 2306.17472_H5
+tags: paragraph 2306.17472
+title: 2306.17472_PARA_0036
+type: text/vnd.tiddlywiki
+
+We compare to the following baselines:
+\squishlist
+\item NER + RC (CNN) uses TNER [ushio2022t] to recognize entity mentions in context sentences, followed by a CNN-based relation classifier [nguyen2015relation]. The RC component is trained on REBEL [cabot2021rebel]. 
+\item REBEL [cabot2021rebel] is an end-to-end relation extraction for more than 200 different relation types in Wikidata.
+\item KnowGL [knowgl-aaai_2023_demo] is an open-source system that can convert text into a set of Wikidata statements. 
+\item GenIE [josifoski-etal-2022-genie] is an end-to-end closed triplet extraction model, which is trained on REBEL dataset [cabot2021rebel]. GenIE uses Wikidata as the target KB and can extract 5,891,959 entities and 857 relations. 
+\squishend

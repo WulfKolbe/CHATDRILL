@@ -1,0 +1,12 @@
+created: 20260625093448814
+modified: 20260625093448814
+page: 000
+parent_section: 2204.11677_H4
+tags: paragraph 2204.11677
+title: 2204.11677_PARA_0082
+type: text/vnd.tiddlywiki
+
+The context entity and question entity
+can consist of multiple such mentions.
+This is required for questions such as \phrase{Where did Dany and Jon first meet?},
+with the gold SR being {{2204.11677_FO0047||FO}} \struct{\textcolor{gray}{GoT} | \textcolor{red}{Dany and Jon Snow} | \textcolor{blue}{first meet} | \textcolor{cyan}{location}} {{2204.11677_FO0048||FO}}.

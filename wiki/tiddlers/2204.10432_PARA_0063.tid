@@ -1,0 +1,9 @@
+created: 20260625093505870
+modified: 20260625093505870
+page: 000
+parent_section: 2204.10432_H15
+tags: paragraph 2204.10432
+title: 2204.10432_PARA_0063
+type: text/vnd.tiddlywiki
+
+To measure the contribution of a symptom to detecting depression, we remove the corresponding symptom from the model and observe the drop in the F1 score. The results are reported in Table (ref). On average, we could see that ``self-harm'', ``fatigue'', and ``anhedonia'' are the strongest indicators of depression. Removing them causes a 0.13-0.17 drop in the F1 score. This is in line with the prior finding that suicidal ideation or self-harm is highly correlated with depression [braadvik2018suicide]. ``Mood'', ``psychomotor'', and ``self-esteem'' contribute moderately to depression detection, with roughly a 0.09 drop in F1 score for each. The remaining three symptoms, including concentration, eating, and sleep, play a less important role in detecting depression, with each contributing around 0.05 to the F1 score.

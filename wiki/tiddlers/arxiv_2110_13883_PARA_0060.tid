@@ -1,0 +1,9 @@
+created: 20260625080931150
+modified: 20260625080931150
+page: 000
+parent_section: arxiv_2110_13883_H8
+tags: paragraph arxiv_2110_13883
+title: arxiv_2110_13883_PARA_0060
+type: text/vnd.tiddlywiki
+
+As a result, {{arxiv_2110_13883_FO0278||FO}} satisfies reflexivity, non-negativity and symmetry, and in addition, satisfies definiteness and locally (for those points, for which {{arxiv_2110_13883_FO0279||FO}}) also satisfies the triangle inequality. We argue that possible violations of the triangle inequality for data points, for which {{arxiv_2110_13883_FO0280||FO}}, are on average not relevant for {{arxiv_2110_13883_FO0281||FO}}NN estimation with small {{arxiv_2110_13883_FO0282||FO}} in a high-dimensional setting, which is our main use-case.

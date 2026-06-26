@@ -1,0 +1,11 @@
+created: 20260625093341705
+modified: 20260625093341705
+page: 000
+parent_section: 2209.07250_H10
+tags: paragraph 2209.07250
+title: 2209.07250_PARA_0080
+type: text/vnd.tiddlywiki
+
+Since all KG-answerable and snippet-answerable queries have ground truth counts, we focus on the CNPs and instances. 
+If we go by the conventional method of QA without any consolidation, and analyse the paths returned by KG answerable queries and the featured snippets, we find that 
+KG-answerable queries are usually simply related and have rare occurrences of any semantic qualifiers (equivalent to CNPs) with 0 occurrences in the CoQuAD annotated queries, featured snippets on the other hand contain CNPs in 61% of the cases. Instances come up in 90% of the KG-answerable count queries and in only 20% of the snippet-answerable count queries.

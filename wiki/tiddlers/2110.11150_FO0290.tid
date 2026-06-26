@@ -1,0 +1,11 @@
+caption: \mathcal{L}(x; w_+^*, w_-^*) =11.5e^{-1}- 12e^{-2} + 0.5e^2-6
+created: 20260625151931663
+displayMode: false
+latex: \mathcal{L}(x; w_+^*, w_-^*) =11.5e^{-1}- 12e^{-2} + 0.5e^2-6
+latex_original: \mathcal{L}(x; w_+^*, w_-^*) =11.5e^{-1}- 12e^{-2} + 0.5e^2-6
+modified: 20260625151931663
+tags: formula 2110.11150
+title: 2110.11150_FO0290
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

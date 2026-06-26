@@ -1,0 +1,11 @@
+caption: \frac{|\sigma(K)|}{n}
+created: 20260625093231916
+displayMode: false
+latex: \frac{|\sigma(K)|}{n}
+latex_original: \frac{|\sigma(K)|}{n}
+modified: 20260625093231916
+tags: formula 2305.05403
+title: 2305.05403_FO0055
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

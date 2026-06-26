@@ -1,0 +1,12 @@
+created: 20260625093057255
+modified: 20260625093057255
+page: 000
+parent_section: 2311.01314_H2
+tags: paragraph 2311.01314
+title: 2311.01314_PARA_0034
+type: text/vnd.tiddlywiki
+
+Support for long-tail items and users falls under the theme of cold-start and zero-shot recommendations (e.g., [DBLP:conf/www/CaoWHH20,DBLP:conf/aaai/LiJL00H19,DBLP:conf/kdd/LiuBXG022,DBLP:conf/cikm/LuoMXS23,DBLP:conf/recsys/Raziperchikolaei21,DBLP:journals/corr/abs-2108-03357]).
+State-of-the-art methods are reasonably successful on new items, by embedding the item features into the same space as warm items, thus learning relatedness between warm and cold items. This assumes that cold items come with tags and descriptions. For the user side, this assumption is not practical:
+users would not likely expose a rich profile when they are new to a community or merely occasional contributors.
+In this data-poor regime, the only option is to harness textual cues from a small number of reviews.

@@ -1,0 +1,13 @@
+created: 20260625093341705
+modified: 20260625093341705
+page: 000
+parent_section: 2209.07250_H2
+tags: paragraph 2209.07250
+title: 2209.07250_PARA_0034
+type: text/vnd.tiddlywiki
+
+to return either a single best answer [chen2017reading,wang2018evidence] or a ranked list of documents with the best answer per document [karpukhin2020dense].
+The DPR system by [karpukhin2020dense]\footnote{\url{http://qa.cs.washington.edu:2020}} returns 
+``approximately 180'' from its rank-1 text passage
+to both, the simple John Lennon query, and the refined variant with ``\dots for the Beatles''.
+The other top-10 snippets include false results such as ``five'' and contradictory information such as ``180 jointly credited''

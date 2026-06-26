@@ -1,0 +1,9 @@
+created: 20260625080804874
+modified: 20260625080804874
+page: 000
+parent_section: arxiv_2501_06699_H13
+tags: paragraph arxiv_2501_06699
+title: arxiv_2501_06699_PARA_0096
+type: text/vnd.tiddlywiki
+
+\parai{Refinement} involves the detection and resolution of issues affecting a KG's quality (i.e., fitness for purpose). While similar methods as used for completion can be adapted for refinement -- e.g., rules/ontologies can be used to identify logical inconsistencies in a KG, while embeddings can be used to identify edges with low plausibility -- dedicated methods also exist for refinement. A key such technique is to leverage shapes, which encode constraints applicable to the KG that can validate and improve its quality [DBLP:series/synthesis/2017Gayo]. A shape might define that nodes of type Turing Award must specify a value for year (passed by {\sf TA1995} in Figure (ref)), or that all winners of a Turing Award must have the occupation Computer Scientist (failed by {\sf Manuel Blum} in Figure (ref)).

@@ -1,0 +1,13 @@
+[
+    {
+        "title": "arxiv_2501_06699_TAB_013",
+        "text": "",
+        "type": "text/vnd.tiddlywiki",
+        "tags": "table arxiv_2501_06699",
+        "created": "20260625080804875",
+        "modified": "20260625080804875",
+        "page": "000",
+        "latex_code": "\\begin{tabular}{@{}c@{}}\n\t\t\\\\[-3.6ex] \n\t\t{\\sf #1}\\\\[-1ex] \n\t\t{\\sc \\scriptsize #2}\\\\[-1ex] \n\t\\end{tabular}",
+        "latex_original": "\\begin{tabular}{@{}c@{}}\n\t\t\\\\[-3.6ex] \n\t\t{\\sf #1}\\\\[-1ex] \n\t\t{\\sc \\scriptsize #2}\\\\[-1ex] \n\t\\end{tabular}"
+    }
+]

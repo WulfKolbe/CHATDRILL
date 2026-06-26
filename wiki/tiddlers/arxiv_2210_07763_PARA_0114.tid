@@ -1,0 +1,9 @@
+created: 20260625080858063
+modified: 20260625080858063
+page: 000
+parent_section: arxiv_2210_07763_H13
+tags: paragraph arxiv_2210_07763
+title: arxiv_2210_07763_PARA_0114
+type: text/vnd.tiddlywiki
+
+The OpenIE-based methods, Quasimodo and StereoKG, produce the shortest assertion (32 and 37 characters on average, respectively). The manually-constructed KG (Acharya et al.) has the longest assertions (102 characters). \systemname{}, having average assertion lengths (69 and 73), stands between those two approaches.

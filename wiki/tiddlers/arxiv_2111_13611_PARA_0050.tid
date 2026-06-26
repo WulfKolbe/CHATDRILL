@@ -1,0 +1,9 @@
+created: 20260625080930847
+modified: 20260625080930847
+page: 000
+parent_section: arxiv_2111_13611_H7
+tags: paragraph arxiv_2111_13611
+title: arxiv_2111_13611_PARA_0050
+type: text/vnd.tiddlywiki
+
+Feature based methods including topic modeling with LDA, TF-IDF and N-grams, were fed to a Logistic Regression classifier. In the LSTM architecture, we used {{arxiv_2111_13611_FO0076||FO}} dimensional GloVe embeddings with a vocabulary size of {{arxiv_2111_13611_FO0077||FO}}, and a {{arxiv_2111_13611_FO0078||FO}} dimensional hidden state for LSTM.

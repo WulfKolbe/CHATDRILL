@@ -1,0 +1,17 @@
+[
+    {
+        "title": "2110.11150_REF_supermask",
+        "text": "{{||CIT}} H. Zhou, J. Lan, R. Liu, and J. Yosinski. Deconstructing lottery tickets: Zeros, signs, and the supermask. In Advances in Neural Information Processing Systems, 2019.",
+        "type": "text/markdown",
+        "tags": "reference bibentry bibtex 2110.11150",
+        "created": "20260626111149173",
+        "modified": "20260626111149173",
+        "kind": "reference",
+        "citekey": "supermask",
+        "year": "2019",
+        "authors": "Zhou, Hattie and Lan, Janice and Liu, Rosanne and Yosinski, Jason",
+        "entry_type": "inproceedings",
+        "titlefield": "Advances in Neural Information Processing Systems",
+        "bibtex": "@inproceedings{supermask,\n author = {Zhou, Hattie and Lan, Janice and Liu, Rosanne and Yosinski, Jason},\n booktitle = {Advances in Neural Information Processing Systems},\n title = {Deconstructing Lottery Tickets: Zeros, Signs, and the Supermask},\n year = {2019}\n}"
+    }
+]

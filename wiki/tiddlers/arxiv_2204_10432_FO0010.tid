@@ -1,0 +1,11 @@
+caption: hidden\_size \times 9
+created: 20260625080929321
+displayMode: false
+latex: hidden\_size \times 9
+latex_original: hidden\_size \times 9
+modified: 20260625080929321
+tags: formula arxiv_2204_10432
+title: arxiv_2204_10432_FO0010
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

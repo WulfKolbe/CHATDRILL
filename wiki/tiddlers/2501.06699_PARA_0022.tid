@@ -1,0 +1,21 @@
+created: 20260625092952539
+modified: 20260625092952539
+page: 000
+parent_section: 2501.06699_H1
+tags: paragraph 2501.06699
+title: 2501.06699_PARA_0022
+type: text/vnd.tiddlywiki
+
+Some 
+ literature (e.g., Suri et al. [abs-2301-03980]) suggested, perhaps provocatively, 
+ that LLMs 
+ will render explicit KGs obsolete:
+ if machines can 
+ understand
+ all digital content on the Internet,
+ why should 
+ we put effort into structuring data and knowledge? 
+ From the previous examples, and as we will argue herein, this view is 
+ not justified. 
+ Rather the growing consensus -- and a growing body of research -- indicates that LLMs and KGs complement each other
+ [DBLP:journals/corr/abs-2306-08302,DBLP:journals/corr/abs-2306-11489,DBLP:journals/corr/abs-2308-10168,DBLP:journals/tgdk/PanRKSCDJO0LBMB23].

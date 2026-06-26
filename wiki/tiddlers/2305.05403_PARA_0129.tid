@@ -1,0 +1,9 @@
+created: 20260625093231914
+modified: 20260625093231914
+page: 000
+parent_section: 2305.05403_H13
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0129
+type: text/vnd.tiddlywiki
+
+Current state-of-the-art NLP pipelines have made cardinality detection in texts much easier\footnote{https://spacy.io/usage/linguistic-features}. Even though Open IE extractions contain cardinality assertions, extracting the correct count value and mapping to KB predicates is an open challenge. Next we discuss several approaches

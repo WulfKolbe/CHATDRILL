@@ -1,0 +1,9 @@
+created: 20260625093105364
+modified: 20260625093105364
+page: 000
+parent_section: 2310.14771_H1
+tags: paragraph 2310.14771
+title: 2310.14771_PARA_0004
+type: text/vnd.tiddlywiki
+
+Nonetheless, we observe a certain divide between these late-breaking investigations, and practical KB completion. While recent LM-based approaches often focus on simple methodologies that produce fast results, practical KBC so far is a highly precision-oriented, extremely laborious process, involving a very high degree of manual labour, either for manually creating statements [wikidata], or for building comprehensive scraping, cleaning, validation, and normalization pipelines [dbpedia,yago]. For example, part of Yago's success stems from its validated {{2310.14771_FO0001||FO}}95% accuracy, and according to [weikum-machine-knowledge], the Google Knowledge Vault was not deployed into production partly because it did not achieve 99% accuracy. Yet, many previous LM analyses balance precision and recall or report precision/hits@k values, implicitly tuning systems towards balanced recall scores resulting in impractical precision.

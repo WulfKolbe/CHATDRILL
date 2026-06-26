@@ -1,0 +1,10 @@
+created: 20260625095716233
+modified: 20260625095716233
+page: 000
+parent_section: 2208.09292_H10
+tags: paragraph 2208.09292
+title: 2208.09292_PARA_0069
+type: text/vnd.tiddlywiki
+
+\noindent
+Evaluation of provenance generation. To show the effect of extending negation with provenances, we conduct a crowdsourcing experiment to compare \uncommon{} against provenance-extended \uncommon{}. We call the latter \uncommon{}\textsuperscript{V}, as in verbose. For 200 concepts, for each variant we produce top-5 negations. The results are then judged by 3 annotators. We ask about the general informativeness of the negations and allow ``interesting'', ``slightly interesting'', and ``not interesting''. \uncommon{}\textsuperscript{V} outperforms \uncommon{} by 32% in informativeness, with 81% and 49% respectively. Examples are shown in Table (ref). The Fleiss' kappa inter-annotator agreement of this task is 0.44, i.e., moderate.

@@ -1,0 +1,10 @@
+created: 20260625093027647
+modified: 20260625093027647
+page: 000
+parent_section: 2411.04920_H12
+tags: paragraph 2411.04920
+title: 2411.04920_PARA_0077
+type: text/vnd.tiddlywiki
+
+The \ourkb\ approach deviates from traditional Wikimedia- and data-integration focused KB construction, and although its precision still needs improvement, it stands out with its potential for cost efficiency. In a back-of-the-envelope calculation,
+[paulheim2018much] estimated the cost per triple for existing manual KB construction projects at \$2-6, and for existing automated KB construction projects at \$0.01-0.15. In contrast, in our prototypical execution, the API cost is just \$0.0001 per correct triple (\$3.5K/33M), i.e., {{2411.04920_FO0008||FO}}100x less than with previous methods.

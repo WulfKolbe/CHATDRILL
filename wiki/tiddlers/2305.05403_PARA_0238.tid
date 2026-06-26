@@ -1,0 +1,9 @@
+created: 20260625093231915
+modified: 20260625093231915
+page: 000
+parent_section: 2305.05403_H28
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0238
+type: text/vnd.tiddlywiki
+
+LLMs support many steps in the KB construction pipeline, thereby enabling the construction of bigger KBs, that consequently have higher recall [alivanistos2022prompting,veseli2023evaluating]. In particular, LLMs can be used both for direct knowledge prediction, or in conjunction with retrieved text, where they improve over existing textual relation extraction methods [mallen2023not].

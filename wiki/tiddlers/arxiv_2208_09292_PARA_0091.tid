@@ -1,0 +1,9 @@
+created: 20260625080922310
+modified: 20260625080922310
+page: 000
+parent_section: arxiv_2208_09292_H17
+tags: paragraph arxiv_2208_09292
+title: arxiv_2208_09292_PARA_0091
+type: text/vnd.tiddlywiki
+
+We release a large dataset as a resource for further research: Up to\footnote{For some concepts, the final candidate set contains less than 1k candidates due to lack of enough siblings' positives and/or deletion during scrutiny steps} top-1k negations for all primary concepts from Ascent [ascentpp], containing 6.2m negations\footnote{\url{https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/yago-naga/commonsense/uncommonsense}}.

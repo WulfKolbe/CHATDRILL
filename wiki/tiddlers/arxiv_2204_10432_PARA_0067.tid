@@ -1,0 +1,11 @@
+created: 20260625080929321
+modified: 20260625080929321
+page: 000
+parent_section: arxiv_2204_10432_H17
+tags: paragraph arxiv_2204_10432
+title: arxiv_2204_10432_PARA_0067
+type: text/vnd.tiddlywiki
+
+The two most important posts for PHQ9Plus and BERT are more about daily life concerns or complaints, which may be less useful to explain a high depression score than the top posts used to explain the PHQ9 (scores) model.
+While these posts are relevant, they are more difficult to interpret than posts directly mentioning symptoms that are known to be relevant. 
+Furthermore, in the TRT training dataset, due to the biased selection of control users, those life concerns/complaints may form a shortcut that effectively differentiates depressed users from control users. However, in more realistic deployment scenarios (i.e. dataset-transfer settings), the fact that such shortcuts do not generalize makes PHQ9Plus and BERT more unreliable and fragile.

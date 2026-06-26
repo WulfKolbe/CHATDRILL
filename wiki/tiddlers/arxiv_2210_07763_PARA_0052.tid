@@ -1,0 +1,9 @@
+created: 20260625080858063
+modified: 20260625080858063
+page: 000
+parent_section: arxiv_2210_07763_H5
+tags: paragraph arxiv_2210_07763
+title: arxiv_2210_07763_PARA_0052
+type: text/vnd.tiddlywiki
+
+We start the extraction by searching for sentences that contain mentions of the given subjects. These will be the candidate sentences used in the subsequent modules. To achieve high recall, we utilize generous approaches such as string matching and named entity recognition (NER), and use more advanced filtering techniques in later modules, to ensure high precision.

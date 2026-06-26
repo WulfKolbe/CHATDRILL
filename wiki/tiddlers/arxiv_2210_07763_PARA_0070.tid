@@ -1,0 +1,11 @@
+created: 20260625080858063
+modified: 20260625080858063
+page: 000
+parent_section: arxiv_2210_07763_H8
+tags: paragraph arxiv_2210_07763
+title: arxiv_2210_07763_PARA_0070
+type: text/vnd.tiddlywiki
+
+The same assertion can be expressed in many ways in natural language.
+For example, \stmt{Fried rice is a popular Chinese dish} can also be written as \stmt{Fried rice is a famous dish from China} or \stmt{One of the most popular Chinese food is fried rice}.
+Clustering is used to group such assertions, which reduces redundancies, and allows to obtain frequency signals on assertions.

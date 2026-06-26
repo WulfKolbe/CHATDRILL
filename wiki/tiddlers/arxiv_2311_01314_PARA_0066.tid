@@ -1,0 +1,22 @@
+created: 20260625080827350
+modified: 20260625080827350
+page: 000
+parent_section: arxiv_2311_01314_H9
+tags: paragraph arxiv_2311_01314
+title: arxiv_2311_01314_PARA_0066
+type: text/vnd.tiddlywiki
+
+\item LLMRank: following [hou2023large], we use ChatGPT to rank the test items, given the user's reading history. The history is given by the sequence of titles of the 50 most recent books of the user, prefixed by the prompt ``I’ve read the following books in the past in order:''.
+ This prompt is completed by a list of titles of test-time candidate items, asking the LLM to rank them.
+ \item P5-profile:
+ prompting the T5 language model [raffel2020exploring], 
+ to provide a recommended item for a user, given their ids. Following [DBLP:conf/recsys/Geng0FGZ22], we train P5 using the prompts for direct recommendation 
+ to generate a ``yes'' or ``no'' answer. 
+ Pilot experiments show that the original method does not work well on sparse data.
+ Therefore, we extend P5 to leverage review texts and item descriptions. 
+ Instead of ids, the prompts include item descriptions and sentences from reviews 
+ with the highest idf scores (i.e., one of our own techniques).
+ \item BENEFICT[pugoy-kao-2020-bert]: uses a {frozen} BERT model to create representations for each user review, which are averaged and concatenated to the item vectors. Predictions are made by a feed-forward network on top.
+ Following the original paper, each review is truncated to its first 256 tokens.
+ \item BENEFICT-profile: our own variant of BENEFICT where the averaging over all user reviews is replaced by our idf-based selection of most informative sentences, with the total length limited to 128 tokens (for comparability CUP).
+\squishend

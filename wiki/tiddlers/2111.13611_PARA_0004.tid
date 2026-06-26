@@ -1,0 +1,12 @@
+created: 20260625093527300
+modified: 20260625093527300
+page: 000
+parent_section: 2111.13611_H1
+tags: paragraph 2111.13611
+title: 2111.13611_PARA_0004
+type: text/vnd.tiddlywiki
+
+Document coverage for RE highly varies.
+Consider the three text snippets about Tesla as shown in Figure (ref). 
+The first text contains all five founders of Tesla, while the second text contains only two of them, and the third has just one. 
+Analogously, for the entity Tesla and the relation founded-by, we see that text {{2111.13611_FO0001||FO}} has coverage {{2111.13611_FO0002||FO}}, text {{2111.13611_FO0003||FO}} has coverage {{2111.13611_FO0004||FO}}, and text {{2111.13611_FO0005||FO}} has coverage {{2111.13611_FO0006||FO}}.

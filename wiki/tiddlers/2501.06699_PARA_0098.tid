@@ -1,0 +1,13 @@
+created: 20260625092952539
+modified: 20260625092952539
+page: 000
+parent_section: 2501.06699_H13
+tags: paragraph 2501.06699
+title: 2501.06699_PARA_0098
+type: text/vnd.tiddlywiki
+
+} 
+ \end{center}
+ \noindent
+ will match paths of one ``born in'' edge followed by zero or many (indicated by ``{\Large *}'') ``part of`'' edges, returning {\sf Manuel Blum} from Figure (ref) as a result for the variable {\sf ?w}.
+ Queries over the structured KG provide {\em complete answer sets} with respect to that KG. For example, if the KG contains all ACM Fellows with their countries, a simple group-by query can return a list of countries or continents with the respective numbers of fellows. One challenge is that writing structured queries can be difficult for many users. Knowledge graph question answering (KGQA) is a task that focuses on resolving natural language questions over the KG, often by applying semantic parsing to convert the user question into a structured query.

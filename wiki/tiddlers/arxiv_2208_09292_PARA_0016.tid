@@ -1,0 +1,9 @@
+created: 20260625080922309
+modified: 20260625080922309
+page: 000
+parent_section: arxiv_2208_09292_H1
+tags: paragraph arxiv_2208_09292
+title: arxiv_2208_09292_PARA_0016
+type: text/vnd.tiddlywiki
+
+A recent method that targets the problem of discovering relevant commonsense negations is NegatER [safavi-etal-2021-negater,negaterworkshop]. Given a CSKB and a pre-trained language model (LM), e.g., BERT [BERT], in order to strengthen the LM's ability to classify true and false statements, the LM is first fine-tuned using the CSKB statements. In a second step, plausible negation candidates are generated using dense k-nearest-neighbors retrieval, by either replacing the subject or the object with a neighboring phrase.

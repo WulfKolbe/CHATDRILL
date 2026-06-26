@@ -1,0 +1,17 @@
+[
+    {
+        "title": "2110.11150_REF_ramanujan2019whats",
+        "text": "{{||CIT}} V. Ramanujan, M. Wortsman, A. Kembhavi, A. Farhadi, and M. Rastegari. What's hidden in a randomly weighted neural network? In Computer Vision and Pattern Recognition, pages 11893--11902, 2020b.",
+        "type": "text/markdown",
+        "tags": "reference bibentry bibtex 2110.11150",
+        "created": "20260626111149173",
+        "modified": "20260626111149173",
+        "kind": "reference",
+        "citekey": "ramanujan2019whats",
+        "year": "2020",
+        "authors": "Ramanujan, Vivek and Wortsman, Mitchell and Kembhavi, Aniruddha and Farhadi, Ali and Rastegari, Mohammad",
+        "entry_type": "inproceedings",
+        "titlefield": "What's Hidden in a Randomly Weighted Neural Network?",
+        "bibtex": "@inproceedings{ramanujan2019whats,\n  title={What's Hidden in a Randomly Weighted Neural Network?},\n  author={Ramanujan, Vivek and Wortsman, Mitchell and Kembhavi, Aniruddha and Farhadi, Ali and Rastegari, Mohammad},\n  booktitle={Computer Vision and Pattern Recognition},\n  pages={11893--11902},\n  year={2020}\n}"
+    }
+]

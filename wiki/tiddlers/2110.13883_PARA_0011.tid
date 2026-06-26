@@ -1,0 +1,12 @@
+created: 20260625110956922
+modified: 20260625110956922
+page: 000
+parent_section: 2110.13883_H1
+tags: paragraph 2110.13883
+title: 2110.13883_PARA_0011
+type: text/vnd.tiddlywiki
+
+This approach, i.e. estimating each of the entropy terms individually with the same {{2110.13883_FO0014||FO}}, was, however, shown to induce a bias since the volume-related correction terms do not cancel [kraskov:04:ksg].
+To correct for this bias, Kraskov, St{\"{o}}gbauer, and Grassberger (\ksg) [kraskov:04:ksg] suggested to determine the distance to the {{2110.13883_FO0015||FO}}th neighbor only on the joint space and retrospectively count the data points falling within this region in {{2110.13883_FO0016||FO}} and {{2110.13883_FO0017||FO}}. 
+Other approaches try to reduce this bias by using different geometries that more tightly enclose the {{2110.13883_FO0018||FO}}NNs to better model the local densities [gao:15:strongly-dependent,gao:16:kernelandnn,lord:18:gknn,lu:20:gknn-boosting].
+Yet, none of these approaches has been successfully applied to high-dimensional data, which is exactly the setting we are interested in.

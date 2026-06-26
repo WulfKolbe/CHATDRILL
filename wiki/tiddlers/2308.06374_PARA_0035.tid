@@ -1,0 +1,9 @@
+created: 20260625093119694
+modified: 20260625093119694
+page: 000
+parent_section: 2308.06374_H5
+tags: paragraph 2308.06374
+title: 2308.06374_PARA_0035
+type: text/vnd.tiddlywiki
+
+Furthermore, prompting LLMs has introduced new paradigms and possibilities in the field of NLP. LLMs can generate high-quality synthetic data, which can then be used to fine-tune smaller task-specific models. This approach, known as synthetic data generation, addresses the challenge of limited training data availability and enhances the performance of models [Josifoski2023ExploitingAF, Tang2023DoesSD]. Additionally, instruction tuning has emerged as a powerful technique where LLMs are trained on datasets described by explicit instructions, enabling more precise control and customization of their behavior for specific tasks [Wei2023ZeroShotIE, Wang2023InstructUIEMI]. Also, for constructing domain-specific KGs, the stakes are higher, and hence scrutinizing the generated text (by experts) is necessary. However, it is still a step forward since human annotation is less expensive than human text generation.

@@ -1,0 +1,9 @@
+created: 20260625093527300
+modified: 20260625093527300
+page: 000
+parent_section: 2111.13611_H7
+tags: paragraph 2111.13611
+title: 2111.13611_PARA_0047
+type: text/vnd.tiddlywiki
+
+We considered two automatic RE tools, Rosette and Diffbot, {{2111.13611_FO0064||FO}} (Rosette, Diffbot), and three ground truth variants: {{2111.13611_FO0065||FO}}. For each relation, we report on the combination of RE tool and GT variant that achieves the highest count of documents classified as high-coverage.

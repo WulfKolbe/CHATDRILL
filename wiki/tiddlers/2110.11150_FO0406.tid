@@ -1,0 +1,11 @@
+caption: \epsilon_l
+created: 20260625151931664
+displayMode: false
+latex: \epsilon_l
+latex_original: \epsilon_l
+modified: 20260625151931664
+tags: formula 2110.11150
+title: 2110.11150_FO0406
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

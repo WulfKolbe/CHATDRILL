@@ -1,0 +1,11 @@
+created: 20260625080804874
+modified: 20260625080804874
+page: 000
+parent_section: arxiv_2501_06699_H13
+tags: paragraph arxiv_2501_06699
+title: arxiv_2501_06699_PARA_0095
+type: text/vnd.tiddlywiki
+
+\parai{Completion} aims to ``fill in the gaps'' inevitably left in KGs by integrating data from diverse sources. We consider two paradigms for KG completion: deductive and inductive. Deductive reasoning enables automated inference of new edges in the knowledge graph when complemented by rules or ontologies.
+ For example, we may declare that the part-of relation is transitive, such that from Figure (ref) we can infer a new edge indicating that {\sf Caracas} is {\sf part of} {\sf Latin America}. We can further assert the property chain ``{{arxiv_2501_06699_FO0002||FO}}'', inferring two new edges indicating that {\sf Manuel Blum} was {\sf born in} {\sf Venezuela} and {\sf Latin America}. Assuming the base graph and the axioms encoded by the rules/ontologies to be correct, such inferences will be correct. On the other hand, inductive
+ reasoning does not require the specification of rules/ontologies, but rather learns abstract patterns from the KG and applies these patterns for completion. Knowledge graph embeddings [DBLP:journals/tkde/WangMWG17] learn tensor representations for nodes and edges in the graph that can be used for link prediction, e.g., to predict citizenships based on other available information in the knowledge graph (e.g., born in relations). Graph neural networks [DBLP:journals/tnn/WuPCLZY21] can be used to classify nodes, edges or graphs; for example, given a list of Turing Award laureates, such networks can be used to predict future winners. More recently, hybrid approaches that blend these deductive and inductive paradigms -- which fall into the broader neurosymbolic category -- have been proposed and explored in the literature [DBLP:journals/tgdk/PanRKSCDJO0LBMB23].

@@ -1,0 +1,12 @@
+created: 20260625093156716
+modified: 20260625093156716
+page: 000
+parent_section: 2306.17472_H10
+tags: paragraph 2306.17472
+title: 2306.17472_PARA_0048
+type: text/vnd.tiddlywiki
+
+In this section, we explain how we design the two-stage KBC method.
+Existing approaches use cloze-style prompts to query masked language models. 
+However, they cannot cope with multi-token facts well and suffer from the long-tail issue. 
+Therefore, we experiment with a series of prompts for querying LMs, and experiments can be categorized into two classes: Context-Free and Context-Based.

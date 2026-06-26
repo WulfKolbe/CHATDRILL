@@ -1,0 +1,11 @@
+caption: \phi\left(\pm x^{(l-1)}_j\right)
+created: 20260626094813422
+displayMode: false
+latex: \phi\left(\pm x^{(l-1)}_j\right)
+latex_original: \phi\left(\pm x^{(l-1)}_j\right)
+modified: 20260626094813422
+tags: formula 2110.11150
+title: 2110.11150_FO0250
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

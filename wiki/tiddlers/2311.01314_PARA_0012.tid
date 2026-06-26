@@ -1,0 +1,19 @@
+created: 20260625093057255
+modified: 20260625093057255
+page: 000
+parent_section: 2311.01314_H1
+tags: paragraph 2311.01314
+title: 2311.01314_PARA_0012
+type: text/vnd.tiddlywiki
+
+\vspace{0.1cm}
+\noindent{\bf State-of-the-Art Limitations:}
+Recent works integrated
+item descriptions and
+textual reviews into various kinds of recommender architectures, 
+including some 
+based on
+large language 
+models (LLMs) (e.g., [DongFangLauw:WSDM2025,DBLP:journals/corr/abs-2402-11143,DBLP:conf/www/LinCWXQDZTY024,DBLP:conf/acl/RamosRWFL24]).
+Our approach differs fundamentally, by making user profiles explicit and transparent, before feeding them into a recommender. This way, lay users can inspect, edit, extend or customize their profiles in a human-friendly manner,
+while personalizing the downstream application.

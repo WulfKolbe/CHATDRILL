@@ -1,0 +1,10 @@
+created: 20260625080816564
+modified: 20260625080816564
+page: 000
+parent_section: arxiv_2411_04920_H5
+tags: paragraph arxiv_2411_04920
+title: arxiv_2411_04920_PARA_0032
+type: text/vnd.tiddlywiki
+
+The prompts used for seed taxonomy generation, generality scoring, superclass identification, and taxonomy update are provided in Figure (ref) in Appendix (ref).
+Further LLM-based refinement in the style of [peng2024refining] could be considered.

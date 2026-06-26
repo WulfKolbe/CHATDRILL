@@ -1,0 +1,11 @@
+created: 20260625093341705
+modified: 20260625093341705
+page: 000
+parent_section: 2209.07250_H1
+tags: paragraph 2209.07250
+title: 2209.07250_PARA_0020
+type: text/vnd.tiddlywiki
+
+Count queries are frequent in search engine logs as well as QA benchmarks [rajpurkar2016squad,kwiatkowski2019natural,dubey2019lc,voorhees2001overview].
+If the required data is in a structured knowledge base (KB) such as Wikidata [vrandevcic2014wikidata], then answering is relatively straightforward.
+However, KBs are limited not only by their sparsity, but also by the lack of direct links between instances and explicit counts when both are present [ghosh2020uncovering].

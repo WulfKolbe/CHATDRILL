@@ -1,0 +1,11 @@
+caption: c = (X_{1...m}, E', t)
+created: 20260625093007937
+displayMode: false
+latex: c = (X_{1...m}, E', t)
+latex_original: c = (X_{1...m}, E', t)
+modified: 20260625093007937
+tags: formula 2411.12449
+title: 2411.12449_FO0067
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

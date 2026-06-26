@@ -1,0 +1,13 @@
+created: 20260625093505869
+modified: 20260625093505869
+page: 000
+parent_section: 2204.10432_H1
+tags: paragraph 2204.10432
+title: 2204.10432_PARA_0007
+type: text/vnd.tiddlywiki
+
+Our proposed approach consists of two simple yet effective models: a questionnaire model that detects symptoms from PHQ9 and a depression detection model.
+We instantiate both with a range of methods that are progressively less constrained.
+At one end of the spectrum, the questionnaire model uses only manually-defined patterns and the depression model makes classification decisions by counting how many times these patterns appear in a user's posts.
+At the opposite end of the spectrum, there is no explicit questionnaire model and BERT [devlin2019bert] serves as an unconstrained depression detection model.
+In between, we relax the questionnaire model by training BERT-based symptom classifiers using the manually-defined patterns, by considering symptom representations rather than counts, and by adding an extra trainable `other' symptom.

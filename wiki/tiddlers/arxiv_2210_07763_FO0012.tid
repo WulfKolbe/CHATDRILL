@@ -1,0 +1,11 @@
+caption: P[sent \in F]
+created: 20260625080858064
+displayMode: false
+latex: P[sent \in F]
+latex_original: P[sent \in F]
+modified: 20260625080858064
+tags: formula arxiv_2210_07763
+title: arxiv_2210_07763_FO0012
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

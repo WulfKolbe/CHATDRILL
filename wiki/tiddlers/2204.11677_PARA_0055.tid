@@ -1,0 +1,12 @@
+created: 20260625093448814
+modified: 20260625093448814
+page: 000
+parent_section: 2204.11677_H1
+tags: paragraph 2204.11677
+title: 2204.11677_PARA_0055
+type: text/vnd.tiddlywiki
+
+Another novel contribution is the construction of \convmix, the first benchmark for ConvQA over heterogeneous sources.
+\convmix is a crowdsourced dataset that 
+contains questions with answers emanating from the Wikidata KB, the full text of Wikipedia articles, and the collection of Wikipedia tables and infoboxes.
+\convmix contains {{2204.11677_FO0023||FO}} conversations with five turns ({{2204.11677_FO0024||FO}}k utterances), and {{2204.11677_FO0025||FO}} conversations with ten turns ({{2204.11677_FO0026||FO}}k utterances),

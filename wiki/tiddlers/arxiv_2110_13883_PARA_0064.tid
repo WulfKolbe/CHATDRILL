@@ -1,0 +1,15 @@
+created: 20260625080931150
+modified: 20260625080931150
+page: 000
+parent_section: arxiv_2110_13883_H9
+tags: paragraph arxiv_2110_13883
+title: arxiv_2110_13883_PARA_0064
+type: text/vnd.tiddlywiki
+
+We extensively evaluate \ourmethod against state-of-the-art MI estimators \ksg, \gknn, and \lnn [kraskov:04:ksg,lord:18:gknn,gao:17:lnn].
+\gknn uses ellipsoids computed from principal components to better fit the local data distribution, \lnn uses KDE with bandwidths automatically determined from the nearest neighbors. 
+In particular, we compare on standard synthetic benchmark data as well as two simulated manifolds with known baseline MI for varying sample sizes, dimensionality of the data, and neighborhood size for each estimator.
+For all experiments, we train geodesic forests with original parameters [madhyastha:20:gf], i.e. {{arxiv_2110_13883_FO0303||FO}} number of dimensions, {{arxiv_2110_13883_FO0304||FO}} trees, and {{arxiv_2110_13883_FO0305||FO}} minimum number of points to split a node.
+We use hyperparameters as suggested by the respective methods, details on which can be found in Supplementary Material (ref), and
+report the average across MI estimates of 20 repetitions for all experiments.
+For reproducibility, we make code and data publicly available.\!\footnote{\oururl}

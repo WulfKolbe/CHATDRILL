@@ -1,0 +1,9 @@
+created: 20260625080930847
+modified: 20260625080930847
+page: 000
+parent_section: arxiv_2111_13611_H9
+tags: paragraph arxiv_2111_13611
+title: arxiv_2111_13611_PARA_0066
+type: text/vnd.tiddlywiki
+
+We measured the run-time of HERB against a state-of-the-art neural model for document-level RE (DocRED) \hbox{ [Yao:ACL2019]}. Based on the DocRED leaderboard\footnote{\url{https://competitions.codalab.org/competitions/20717\#results}}, we selected the currently best open-source method: the Transformer-based Structured Self-Attention Network (SSAN) [Xu2021EntitySW].

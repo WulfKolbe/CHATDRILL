@@ -1,0 +1,17 @@
+[
+    {
+        "title": "2110.11150_REF_dong2017surgeon",
+        "text": "{{||CIT}} X. Dong, S. Chen, and S. J. Pan. Learning to prune deep neural networks via layer-wise optimal brain surgeon. In Advances in Neural Information Processing Systems, 2017.",
+        "type": "text/markdown",
+        "tags": "reference bibentry bibtex 2110.11150",
+        "created": "20260626111149172",
+        "modified": "20260626111149172",
+        "kind": "reference",
+        "citekey": "dong2017surgeon",
+        "year": "2017",
+        "authors": "Xin Dong and\n               Shangyu Chen and\n               Sinno Jialin Pan",
+        "entry_type": "inproceedings",
+        "titlefield": "Learning to Prune Deep Neural Networks via Layer-wise Optimal Brain\n               Surgeon",
+        "bibtex": "@inproceedings{dong2017surgeon,\n  author    = {Xin Dong and\n               Shangyu Chen and\n               Sinno Jialin Pan},\n  title     = {Learning to Prune Deep Neural Networks via Layer-wise Optimal Brain\n               Surgeon},\n  booktitle = {Advances in Neural Information Processing Systems},\n  year      = {2017}\n}"
+    }
+]

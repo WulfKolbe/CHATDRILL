@@ -1,0 +1,26 @@
+created: 20260625093448816
+format: fractal_xref
+modified: 20260625093448816
+tags: toc 2204.11677
+title: 2204.11677_TOC
+type: text/vnd.tiddlywiki
+
+** 1.1 [[Introduction|2204.11677_H1]]
+** 1.2 [[Concepts and notation|2204.11677_H2]]
+** 1.3 [[The \convinse Method|2204.11677_H3]]
+*** 1.3.1 [[Question understanding (QU)|2204.11677_H4]]
+*** 1.3.2 [[Evidence retrieval and scoring (ERS)|2204.11677_H5]]
+*** 1.3.3 [[Heterogeneous answering (HA)|2204.11677_H6]]
+*** 1.3.4 [[Distantly supervised labeling|2204.11677_H7]]
+*** 1.3.5 [[Training the \convinse framework|2204.11677_H8]]
+** 1.4 [[The \convmix benchmark|2204.11677_H9]]
+** 1.5 [[Experimental setup|2204.11677_H10]]
+*** 1.5.1 [[Heterogeneous sources|2204.11677_H11]]
+*** 1.5.2 [[Baselines|2204.11677_H12]]
+*** 1.5.3 [[Metrics|2204.11677_H13]]
+*** 1.5.4 [[Configurations|2204.11677_H14]]
+** 1.6 [[Results and insights|2204.11677_H15]]
+*** 1.6.1 [[Key findings|2204.11677_H16]]
+*** 1.6.2 [[In-depth analysis|2204.11677_H17]]
+** 1.7 [[Related Work|2204.11677_H18]]
+** 1.8 [[Conclusions and future work|2204.11677_H19]]

@@ -1,0 +1,17 @@
+created: 20260625092952539
+modified: 20260625092952539
+page: 000
+parent_section: 2501.06699_H8
+tags: paragraph 2501.06699
+title: 2501.06699_PARA_0067
+type: text/vnd.tiddlywiki
+
+Next, we can consider the
+ federation
+ of all three technologies, where, like with ensembles, user requests are routed to the best suited component, but additionally, all components can identify sub-tasks that are again shipped to other components as necessary.
+ Some of these {\em delegation} approaches are already being pursued, by allowing LLMs to make API calls to external tools like calendar, calculator etc.
+ (see, e.g., [DBLP:conf/nips/SchickDDRLHZCS23,DBLP:journals/corr/abs-2305-15334]).
+ KGs can also be part of such an ecosystem, to be invoked for fact-centric sub-tasks by an LLM or a SE.
+ Putting this federation paradigm into practice still requires more research. One of the key issues is learning when to make which API calls, how to infer the values for the calls' input parameters, and how to digest the output parameters, casting them into a format suitable for the calling technology.
+ When efficiency matters, additional optimization of ``execution plans'' are called for.
+ Another source of structured knowledge that can be used by such a federated system is a library of functions (such as Wikifunctions [DBLP:journals/cacm/Vrandecic21]) which can be used to compute the answers to a question, or the parts of an answer that can be used to assemble a complex answer.

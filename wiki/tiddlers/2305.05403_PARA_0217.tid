@@ -1,0 +1,10 @@
+created: 20260625093231915
+modified: 20260625093231915
+page: 000
+parent_section: 2305.05403_H24
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0217
+type: text/vnd.tiddlywiki
+
+Several papers investigate to which extent KBs allow answering questions from common QA datasets. Most prominently, this happens in scenarios where text-based QA systems and KB-based QA systems are compared. Two especially illustrative comparisons can be found in [oguz2020unik] and [pramanik2021uniqorn].
+The first work analyzes the performance of a state-of-the-art QA system on 4 popular benchmarks of general-world questions (NaturalQuestions, WebQuestions, TriviaQA, CuratedTREC). It finds that KB-based systems can correctly answer between 26% and 43% of these queries. It also provides a comparison of KB recall to text recall (see Section (ref)), by comparing the previous numbers with the performance of text-based QA systems (finding 45-62% recall). In other words, texts generally provide higher recall than KBs, although this needs to be weighed against other advantages of structured resources. The work of [pramanik2021uniqorn] analyzes complex queries in 6 QA benchmark datasets (LCQuad 1.0 and 2.0, WikiAnswers, Google Trends, QuALD, ComQA), finding that a state-of-the-art system can answer 10-19% of these queries by using only KBs, and 18-36% by only using text. Further variants of this kind of analysis exist, for example for conversational question answering [christmann2022conversational].

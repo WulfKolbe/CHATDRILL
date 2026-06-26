@@ -1,0 +1,9 @@
+created: 20260625093242023
+modified: 20260625093242023
+page: 000
+parent_section: 2303.11082_H14
+tags: paragraph 2303.11082
+title: 2303.11082_PARA_0042
+type: text/vnd.tiddlywiki
+
+In the following, we will obtain plausible missing facts from Wikidata, produce high accuracy predictions respective to {{2303.11082_FO0033||FO}}, and let annotators from Amazon Mechanical Turk (mturk) manually evaluate the predictions given a five-value scale true, plausible, unknown, implausible, false. The relations in focus are the same as in Table (ref), except for hasReligion, which appeared with too sparse information on the web.

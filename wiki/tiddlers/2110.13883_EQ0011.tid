@@ -1,0 +1,16 @@
+created: 20260625110956925
+displayMode: true
+equation_number: 
+kind: Equation
+latex: \begin{aligned} I^{\textsc{G-KSG}\xspace}(\ensuremath{\bm{X}}\xspace;\ensuremath{\bm{Y}}\xspace) &= \psi(k) {+} \psi(n) \\ &- \frac{1}{n} \sum_{i=1}^n \psi(n_{\ensuremath{\bm{x}}\xspace,i}^G{+}1) {+} \psi(n_{\ensuremath{\bm{y}}\xspace,i}^G{+}1) \, . \end{aligned}
+latex_original: \begin{aligned} I^{\ourmethod}(\Xg;\Yg) &= \psi(k) {+} \psi(n) \\ &- \frac{1}{n} \sum_{i=1}^n \psi(n_{\xg,i}^G{+}1) {+} \psi(n_{\yg,i}^G{+}1) \, . \end{aligned}
+latex_tex: \begin{aligned} I^{\textsc{G-KSG}\xspace}(\ensuremath{\bm{X}}\xspace;\ensuremath{\bm{Y}}\xspace) &= \psi(k) {+} \psi(n) \\ &- \frac{1}{n} \sum_{i=1}^n \psi(n_{\ensuremath{\bm{x}}\xspace,i}^G{+}1) {+} \psi(n_{\ensuremath{\bm{y}}\xspace,i}^G{+}1) \, . \end{aligned}
+modified: 20260625110956925
+page: 000
+refnum: 
+score_tex: 1.0
+tags: equation 2110.13883
+title: 2110.13883_EQ0011
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode=true />

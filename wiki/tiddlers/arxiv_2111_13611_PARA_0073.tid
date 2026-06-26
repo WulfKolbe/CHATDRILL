@@ -1,0 +1,9 @@
+created: 20260625080930847
+modified: 20260625080930847
+page: 000
+parent_section: arxiv_2111_13611_H11
+tags: paragraph arxiv_2111_13611
+title: arxiv_2111_13611_PARA_0073
+type: text/vnd.tiddlywiki
+
+The document coverage calculation is on a per ({{arxiv_2111_13611_FO0114||FO}}, {{arxiv_2111_13611_FO0115||FO}}) pair basis. In a single iteration, all the proposed methods are given a set of documents partitioned by ({{arxiv_2111_13611_FO0116||FO}}, {{arxiv_2111_13611_FO0117||FO}}) pairs. Each method uses its technique to rank the documents, and the top {{arxiv_2111_13611_FO0118||FO}} ranked documents are given to the RE API (Rosette or Diffbot) for obtaining the set of relational tuples.

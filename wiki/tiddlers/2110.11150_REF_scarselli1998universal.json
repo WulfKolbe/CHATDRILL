@@ -1,0 +1,17 @@
+[
+    {
+        "title": "2110.11150_REF_scarselli1998universal",
+        "text": "{{||CIT}} F. Scarselli and A. C. Tsoi. Universal approximation using feedforward neural networks: A survey of some existing methods, and some new results. Neural Netw., 11\\penalty0 (1):\\penalty0 15–37, Jan. 1998.",
+        "type": "text/markdown",
+        "tags": "reference bibentry bibtex 2110.11150",
+        "created": "20260626111149173",
+        "modified": "20260626111149173",
+        "kind": "reference",
+        "citekey": "scarselli1998universal",
+        "year": "1998",
+        "authors": "Scarselli, Franco and Tsoi, Ah Chung",
+        "entry_type": "article",
+        "titlefield": "Universal Approximation Using Feedforward Neural Networks: A Survey of Some Existing Methods, and Some New Results",
+        "bibtex": "@article{scarselli1998universal,\nauthor = {Scarselli, Franco and Tsoi, Ah Chung},\ntitle = {Universal Approximation Using Feedforward Neural Networks: A Survey of Some Existing Methods, and Some New Results},\nyear = {1998},\nvolume = {11},\nnumber = {1},\njournal = {Neural Netw.},\nmonth = jan,\npages = {15–37},\nnumpages = {23}\n}"
+    }
+]

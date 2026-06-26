@@ -1,0 +1,9 @@
+created: 20260625080827349
+modified: 20260625080827349
+page: 000
+parent_section: arxiv_2311_01314_H1
+tags: paragraph arxiv_2311_01314
+title: arxiv_2311_01314_PARA_0018
+type: text/vnd.tiddlywiki
+
+Our choice for the encoder is BERT; alternatives such as T5, GPT or Llama can be easily plugged in.

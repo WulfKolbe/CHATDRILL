@@ -1,0 +1,10 @@
+created: 20260625093105364
+modified: 20260625093105364
+page: 000
+parent_section: 2310.14771_H4
+tags: paragraph 2310.14771
+title: 2310.14771_PARA_0026
+type: text/vnd.tiddlywiki
+
+Generating millions of novel high-precision facts is a significant achievement, though the manually verified precision is still below what industrial KBs aim for. The wide variance in relative gains also shows that GPT only shines in selected areas.
+In line with previous results [veseli2023evaluating], we find that GPT can do well on relations that exhibit high surface correlations (person names often give away their nationality), otherwise the task remains hard.

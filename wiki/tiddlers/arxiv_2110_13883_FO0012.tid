@@ -1,0 +1,11 @@
+caption: \hat{h}(\ensuremath{\bm{X}}\xspace)
+created: 20260625080931151
+displayMode: false
+latex: \hat{h}(\ensuremath{\bm{X}}\xspace)
+latex_original: \hat{h}(\Xg)
+modified: 20260625080931151
+tags: formula arxiv_2110_13883
+title: arxiv_2110_13883_FO0012
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

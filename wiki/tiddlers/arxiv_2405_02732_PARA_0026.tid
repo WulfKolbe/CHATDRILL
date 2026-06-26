@@ -1,0 +1,13 @@
+created: 20260625080827137
+modified: 20260625080827137
+page: 000
+parent_section: arxiv_2405_02732_H4
+tags: paragraph arxiv_2405_02732
+title: arxiv_2405_02732_PARA_0026
+type: text/vnd.tiddlywiki
+
+On the large pool of 
+ enriched
+ passages, indexed for efficient retrieval, we experimented with several retrieval models,
+ including BM25 [bm25], Contriever [contriever], and techniques based on OpenAI embeddings. Among the best-performing, we selected
+ Contriever, a BERT-based dense neural IR method fine-tuned on MS-MARCO [contriever], with the added benefit of being open-source\footnote{\url{https://github.com/facebookresearch/contriever}} and deployable under our full control. For brevity, we report only experiments with Contriever.

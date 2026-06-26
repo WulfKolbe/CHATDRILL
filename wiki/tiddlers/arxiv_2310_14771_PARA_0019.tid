@@ -1,0 +1,10 @@
+created: 20260625080830877
+modified: 20260625080830877
+page: 000
+parent_section: arxiv_2310_14771_H3
+tags: paragraph arxiv_2310_14771
+title: arxiv_2310_14771_PARA_0019
+type: text/vnd.tiddlywiki
+
+Since automated evaluations are only possible for statements already in the KB, in a second step, we let human annotators evaluate the correctness of 800 samples of novel (out-of-KB) high-accuracy predictions. We hereby use a relation-specific threshold determined from the automated 75%-95% precision range. MTurk annotators could use Web search to verify the correctness of our predictions on a 5-point Likert scale (correct/likely/unknown/implausible/false).
+We counted predictions that were rated as correct or likely as true predictions, and all others as false.

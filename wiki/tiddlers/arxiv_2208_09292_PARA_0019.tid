@@ -1,0 +1,10 @@
+created: 20260625080922309
+modified: 20260625080922309
+page: 000
+parent_section: arxiv_2208_09292_H1
+tags: paragraph arxiv_2208_09292
+title: arxiv_2208_09292_PARA_0019
+type: text/vnd.tiddlywiki
+
+well-defined relations (e.g., CapableOf). This causes issues when triples are merely short phrases with no canonicalized relations (e.g., as in the Quasimodo CSKB); 
+(iii) The ranking based on the LM's negativeness prediction is not interpretable, and follows no clear trend.

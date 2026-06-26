@@ -1,0 +1,17 @@
+created: 20260625080827137
+modified: 20260625080827137
+page: 000
+parent_section: arxiv_2405_02732_H13
+tags: paragraph arxiv_2405_02732
+title: arxiv_2405_02732_PARA_0062
+type: text/vnd.tiddlywiki
+
+The best settings 
+were identified using withheld train/dev data.
+To this end, we split the entire dataset into three folds
+(30:20:50),
+through stratified sampling on books and SP pairs,
+ensuring equal representation of varying O-list lengths in both folds. 
+For each subject in train/dev, the 
+complete O list is taken from the ground truth, 
+to prevent information leakage into the test set.

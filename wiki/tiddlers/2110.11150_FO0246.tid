@@ -1,0 +1,11 @@
+caption: 1-\delta \geq 1 - \sum^L_{l=1} \delta_l m_{l,\text{max}}
+created: 20260626094813422
+displayMode: false
+latex: 1-\delta \geq 1 - \sum^L_{l=1} \delta_l m_{l,\text{max}}
+latex_original: 1-\delta \geq 1 - \sum^L_{l=1} \delta_l m_{l,\text{max}}
+modified: 20260626094813422
+tags: formula 2110.11150
+title: 2110.11150_FO0246
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

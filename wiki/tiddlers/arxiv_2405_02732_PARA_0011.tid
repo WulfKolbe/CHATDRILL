@@ -1,0 +1,15 @@
+created: 20260625080827136
+modified: 20260625080827136
+page: 000
+parent_section: arxiv_2405_02732_H2
+tags: paragraph arxiv_2405_02732
+title: arxiv_2405_02732_PARA_0011
+type: text/vnd.tiddlywiki
+
+\paragraph{Relation Extraction.}
+A common task in IE is to extract the relation P that holds between two given entities,
+subject (S) and object (O), where P comes from a 
+pre-specified set of possible predicates.
+State-of-the-art methods (e.g., [HanGLPYXLLZS20, DBLP:conf/emnlp/WangHCS20, DBLP:conf/emnlp/CabotN21, DBLP:conf/acl/XieSLM022, josifoski-etal-2022-genie, ma-etal-2023-dreeam]) 
+typically operate 
+on single passages, as input to a multi-label classifier or sequence tagger.

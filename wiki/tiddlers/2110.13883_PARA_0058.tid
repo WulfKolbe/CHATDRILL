@@ -1,0 +1,9 @@
+created: 20260625110956922
+modified: 20260625110956922
+page: 000
+parent_section: 2110.13883_H8
+tags: paragraph 2110.13883
+title: 2110.13883_PARA_0058
+type: text/vnd.tiddlywiki
+
+Hence, we propose an adjusted dissimilarity measure. The key idea of this adjusted measure builds upon the fact that locally a manifold resembles a Euclidean space, thus the geodesic distances locally become the {{2110.13883_FO0266||FO}}-norm. In our context, we assume that two points are close on the manifold, if {{2110.13883_FO0267||FO}}. Under this premise, we propose the distance measure {{2110.13883_FO0268||FO}}, i.e.

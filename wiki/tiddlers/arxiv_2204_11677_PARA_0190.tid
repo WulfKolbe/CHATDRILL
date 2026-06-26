@@ -1,0 +1,10 @@
+created: 20260625080929033
+modified: 20260625080929033
+page: 000
+parent_section: arxiv_2204_11677_H16
+tags: paragraph arxiv_2204_11677
+title: arxiv_2204_11677_PARA_0190
+type: text/vnd.tiddlywiki
+
+It is noteworthy that even the basic prepending baselines, despite generating fairly verbose question formulations ({{arxiv_2204_11677_FO0122||FO}} words, Table (ref)) have very good answer presence in the top-100 evidences. This is largely due to the \clocq entity-based retrieval module, which
+turned to be

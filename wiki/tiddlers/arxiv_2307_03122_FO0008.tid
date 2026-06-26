@@ -1,0 +1,11 @@
+caption: (p_{\texttt{\_yes}}-p_{ \texttt{\_no}} > \alpha)
+created: 20260625080847348
+displayMode: false
+latex: (p_{\texttt{\_yes}}-p_{ \texttt{\_no}} > \alpha)
+latex_original: (p_{\texttt{\_yes}}-p_{ \texttt{\_no}} > \alpha)
+modified: 20260625080847348
+tags: formula arxiv_2307_03122
+title: arxiv_2307_03122_FO0008
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

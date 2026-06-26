@@ -1,0 +1,11 @@
+created: 20260625080858063
+modified: 20260625080858063
+page: 000
+parent_section: arxiv_2210_07763_H7
+tags: paragraph arxiv_2210_07763
+title: arxiv_2210_07763_PARA_0060
+type: text/vnd.tiddlywiki
+
+often a critical bottleneck in large-scale settings.
+In \systemname{}, we aim to minimize the degree of human supervision by leveraging
+pre-trained models for zero-shot classification.

@@ -1,0 +1,18 @@
+created: 20260625093057255
+modified: 20260625093057255
+page: 000
+parent_section: 2311.01314_H1
+tags: paragraph 2311.01314
+title: 2311.01314_PARA_0009
+type: text/vnd.tiddlywiki
+
+\noindent{\bf Motivation:}
+
+Recommender-system 
+methods fall into two major families or hybrid combinations [DBLP:reference/sp/2022rsh]:
+i) {\em interaction-based} recommenders 
+that leverage binary signals 
+(e.g., membership in personal playlists or libraries) 
+or numeric ratings for user-item pairs, and
+ii) {\em content-based} recommenders that exploit item features and user-provided content, ranging
+from metadata attributes (e.g., item categories) all the way to review texts.

@@ -1,0 +1,12 @@
+created: 20260625093341705
+modified: 20260625093341705
+page: 000
+parent_section: 2209.07250_H6
+tags: paragraph 2209.07250
+title: 2209.07250_PARA_0056
+type: text/vnd.tiddlywiki
+
+\noindent
+We assign these categories based on (textual) semantic relatedness of the phrasal modifier, and numeric proximity of the count.
+For example, ``regional languages'' is likely a subgroup of ``700 languages'', especially if it occurs with counts {{2209.07250_FO0017||FO}}.
+``tongue'' is likely a synonym, especially if it occurs with counts {{2209.07250_FO0018||FO}}. ``Speakers'' is most likely incomparable, especially if it co-occurs with counts in the millions.

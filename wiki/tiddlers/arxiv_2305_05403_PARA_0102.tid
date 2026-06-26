@@ -1,0 +1,9 @@
+created: 20260625080853722
+modified: 20260625080853722
+page: 000
+parent_section: arxiv_2305_05403_H12
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0102
+type: text/vnd.tiddlywiki
+
+If the KB can also contain incorrect entries (more realistic than the naive correctness assumption that was brought forward in Chapter 2), one approach to automatically bound cardinalities is by mining significant maximum cardinalities of a predicate for a given class [giacometti2019mining].

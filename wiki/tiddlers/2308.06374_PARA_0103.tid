@@ -1,0 +1,10 @@
+created: 20260625093119694
+modified: 20260625093119694
+page: 000
+parent_section: 2308.06374_H9
+tags: paragraph 2308.06374
+title: 2308.06374_PARA_0103
+type: text/vnd.tiddlywiki
+
+Commonsense Knowledge from LLMs: The first study to investigate extracting knowledge from a language model to the best of our knowledge was indeed one that targeted commonsense knowledge [TandonDeMelo2010]. The authors mined commonsense triples such as hasProperty (apples, green) from the Google Web 1T n-gram data as well as from Microsoft's 
+Web-scale smoothed language models [MicrosoftWebLM]. This was later extended into a large-scale commonsense knowledge graph [TandonDeMeloWeikum2011] that covered a range of different relations and became a part of the WebChild KG [Tandon2014WebChildHA].

@@ -1,0 +1,11 @@
+caption: 100\times log_{10}(1+d^{-1})
+created: 20260625080853723
+displayMode: false
+latex: 100\times log_{10}(1+d^{-1})
+latex_original: 100\times log_{10}(1+d^{-1})
+modified: 20260625080853723
+tags: formula arxiv_2305_05403
+title: arxiv_2305_05403_FO0081
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

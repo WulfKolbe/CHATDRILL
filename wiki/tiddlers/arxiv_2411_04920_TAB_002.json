@@ -1,0 +1,13 @@
+[
+    {
+        "title": "arxiv_2411_04920_TAB_002",
+        "text": "",
+        "type": "text/vnd.tiddlywiki",
+        "tags": "table arxiv_2411_04920",
+        "created": "20260625080816564",
+        "modified": "20260625080816564",
+        "page": "000",
+        "latex_code": "\\begin{tabular}{@{}ll@{}}\n\\toprule\n\\textbf{Entities} & 2.9M \\\\\n\\textbf{Triples} & 101M \\\\\n\\textbf{Relations} & 567K (788K before canonicalization) \\\\\n\\textbf{Classes} & 4,715 (103K before canonicalization) \\\\\n\\textbf{Triple objects} & 37M entities, 64M literals \\\\\n\\textbf{Avg. triples/entity} & 35 \\\\\n\\textbf{Avg. label length} & 21.8 characters \\\\\n\\textbf{Avg. outlinks} & 4 \\\\\n\\textbf{Subject-precision*} & 74\\% Verifiable, 9\\% Plausible,\\\\\n & 17\\% Unverifiable \\\\\n\\textbf{Subjects in Wikidata*} & 37\\% in WD, 63\\% not in WD \\\\\n\\textbf{Triple-precision*} & 31\\% True, 61\\% Plausible, \\\\\n                         & 1\\% Implausible, 7\\% False \\\\ \n\\bottomrule\n\\multicolumn{2}{l}{\\@setsize\\@setsize\\@setsize\\@setsize\\@setsize\\@setsize\\@setsize\\@setsize\\small{10pt}\\ixpt\\@ixpt{10pt}\\ixpt\\@ixpt{10pt}\\ixpt\\@ixpt{10pt}\\ixpt\\@ixpt{10pt}\\ixpt\\@ixpt{10pt}\\ixpt\\@ixpt{10pt}\\ixpt\\@ixpt{10pt}\\ixpt\\@ixpt\\textbf{*} \\textit{as a weighted average across layers.}}\n\\end{tabular}",
+        "latex_original": "\\begin{tabular}{@{}ll@{}}\n\\toprule\n\\textbf{Entities} & 2.9M \\\\\n\\textbf{Triples} & 101M \\\\\n\\textbf{Relations} & 567K (788K before canonicalization) \\\\\n\\textbf{Classes} & 4,715 (103K before canonicalization) \\\\\n\\textbf{Triple objects} & 37M entities, 64M literals \\\\\n\\textbf{Avg. triples/entity} & 35 \\\\\n\\textbf{Avg. label length} & 21.8 characters \\\\\n\\textbf{Avg. outlinks} & 4 \\\\\n\\textbf{Subject-precision*} & 74\\% Verifiable, 9\\% Plausible,\\\\\n & 17\\% Unverifiable \\\\\n\\textbf{Subjects in Wikidata*} & 37\\% in WD, 63\\% not in WD \\\\\n\\textbf{Triple-precision*} & 31\\% True, 61\\% Plausible, \\\\\n                         & 1\\% Implausible, 7\\% False \\\\ \n\\bottomrule\n\\multicolumn{2}{l}{\\small\\textbf{*} \\textit{as a weighted average across layers.}}\n\\end{tabular}"
+    }
+]

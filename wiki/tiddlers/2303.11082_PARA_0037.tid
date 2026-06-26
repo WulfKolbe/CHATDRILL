@@ -1,0 +1,9 @@
+created: 20260625093242023
+modified: 20260625093242023
+page: 000
+parent_section: 2303.11082_H13
+tags: paragraph 2303.11082
+title: 2303.11082_PARA_0037
+type: text/vnd.tiddlywiki
+
+Input Optimization. AutoPrompt [autoprompt] introduced an automatic way of prompt generation given a specific task, such as fact retrieval. We generate our prompts as suggested by [autoprompt] on relation-specific training splits of \ourdataset{}. In Table (ref) the input optimization with AutoPrompts achieves notable improvements for {{2303.11082_FO0017||FO}}, e.g. hasReligion increased from {{2303.11082_FO0018||FO}} to {{2303.11082_FO0019||FO}}, citizenOf from {{2303.11082_FO0020||FO}} to {{2303.11082_FO0021||FO}}. There is no deterioration in any of the relations.

@@ -1,0 +1,12 @@
+created: 20260626111149172
+displayMode: true
+equation_number: 
+kind: Equation
+latex: |\theta - \sum_{i \in S} w_{1,i} w_{2,i}| \leq \epsilon_l.
+latex_original: |\theta - \sum_{i \in S} w_{1,i} w_{2,i}| \leq \epsilon_l.
+modified: 20260626111149172
+page: 000
+refnum: 
+tags: equation 2110.11150
+title: 2110.11150_EQ0028
+type: text/markdown

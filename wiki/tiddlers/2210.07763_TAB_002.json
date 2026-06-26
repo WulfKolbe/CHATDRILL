@@ -1,0 +1,13 @@
+[
+    {
+        "title": "2210.07763_TAB_002",
+        "text": "",
+        "type": "text/vnd.tiddlywiki",
+        "tags": "table 2210.07763",
+        "created": "20260625093308066",
+        "modified": "20260625093308066",
+        "page": "000",
+        "latex_code": "\\begin{tabular}{lrrrrrr}\n\\toprule\n\\multirow{2}{*}{\\textbf{Facet}} & \\multicolumn{2}{c}{\\textbf{Geography}} & \\multicolumn{2}{c}{\\textbf{Religions}} & \\multicolumn{2}{c}{\\textbf{Occupations}} \\\\\n \\cmidrule(lr){2-3} \\cmidrule(lr){4-5} \\cmidrule(lr){6-7}\n & \\textbf{\\#A} & \\textbf{\\#C} & \\textbf{\\#A} & \\textbf{\\#C} & \\textbf{\\#A} & \\textbf{\\#C} \\\\\n\\midrule\nFood & 240,459 & 12,981 & 9,750 & 680 & 9,837 & 511 \\\\\nDrinks & 95,394 & 5,923 & 3,079 & 218 & 3,321 & 227 \\\\\nClothing & 14,170 & 1,237 & 1,695 & 141 & 4,367 & 278 \\\\\nRituals & 116,839 & 8,007 & 74,651 & 3,026 & 22,581 & 1,253 \\\\\nTraditions & 214,931 & 13,606 & 68,202 & 2,798 & - & - \\\\\nBehaviors & - & - & - & - & 25,152 & 1,495 \\\\\nOther & - & - & 60,483 & 2,292 & 159,239 & 5,461 \\\\\n\\midrule\n\\rowcolor{gray!25}\n\\textbf{All} & 681,793 & 41,754 & 217,860 & 9,155 & 224,497 & 9,225 \\\\\n\n\\bottomrule\n\\end{tabular}",
+        "latex_original": "\\begin{tabular}{lrrrrrr}\n\\toprule\n\\multirow{2}{*}{\\textbf{Facet}} & \\multicolumn{2}{c}{\\textbf{Geography}} & \\multicolumn{2}{c}{\\textbf{Religions}} & \\multicolumn{2}{c}{\\textbf{Occupations}} \\\\\n \\cmidrule(lr){2-3} \\cmidrule(lr){4-5} \\cmidrule(lr){6-7}\n & \\textbf{\\#A} & \\textbf{\\#C} & \\textbf{\\#A} & \\textbf{\\#C} & \\textbf{\\#A} & \\textbf{\\#C} \\\\\n\\midrule\nFood & 240,459 & 12,981 & 9,750 & 680 & 9,837 & 511 \\\\\nDrinks & 95,394 & 5,923 & 3,079 & 218 & 3,321 & 227 \\\\\nClothing & 14,170 & 1,237 & 1,695 & 141 & 4,367 & 278 \\\\\nRituals & 116,839 & 8,007 & 74,651 & 3,026 & 22,581 & 1,253 \\\\\nTraditions & 214,931 & 13,606 & 68,202 & 2,798 & - & - \\\\\nBehaviors & - & - & - & - & 25,152 & 1,495 \\\\\nOther & - & - & 60,483 & 2,292 & 159,239 & 5,461 \\\\\n\\midrule\n\\rowcolor{gray!25}\n\\textbf{All} & 681,793 & 41,754 & 217,860 & 9,155 & 224,497 & 9,225 \\\\\n\n\\bottomrule\n\\end{tabular}"
+    }
+]

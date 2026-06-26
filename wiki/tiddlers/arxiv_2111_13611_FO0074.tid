@@ -1,0 +1,11 @@
+caption: 50\%
+created: 20260625080930847
+displayMode: false
+latex: 50\%
+latex_original: 50\%
+modified: 20260625080930847
+tags: formula arxiv_2111_13611
+title: arxiv_2111_13611_FO0074
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

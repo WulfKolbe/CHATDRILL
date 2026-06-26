@@ -1,0 +1,9 @@
+created: 20260625080929032
+modified: 20260625080929032
+page: 000
+parent_section: arxiv_2204_11677_H2
+tags: paragraph arxiv_2204_11677
+title: arxiv_2204_11677_PARA_0068
+type: text/vnd.tiddlywiki
+
+\myparagraph{Infobox} An infobox is a list of salient attribute-value pairs about an entity. A Wikipedia infobox appears on the top right corner of the entity's Wikipedia page. Infobox entries resemble KB-facts, but they are not necessarily clean in terms of entity linkage (e.g., a birthplace could be given as a string with city, country or other regional variations).

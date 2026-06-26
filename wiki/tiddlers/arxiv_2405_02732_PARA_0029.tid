@@ -1,0 +1,9 @@
+created: 20260625080827137
+modified: 20260625080827137
+page: 000
+parent_section: arxiv_2405_02732_H5
+tags: paragraph arxiv_2405_02732
+title: arxiv_2405_02732_PARA_0029
+type: text/vnd.tiddlywiki
+
+{\em re-ordering passages by frequency of named-entity mentions.} We detect mentions of entities (without disambiguation) of the proper type (usually person, place, or org) using spaCy and a hand-crafted dictionary of alias names for S and O, and paraphrases for P (incl. both nominal and verbal phrases). Top-{{arxiv_2405_02732_FO0006||FO}} passages with higher counts of mentions are prioritized, as they could potentially yield multiple O candidates.

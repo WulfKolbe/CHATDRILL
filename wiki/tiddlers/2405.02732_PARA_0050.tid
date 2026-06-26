@@ -1,0 +1,18 @@
+created: 20260625093047341
+modified: 20260625093047341
+page: 000
+parent_section: 2405.02732_H10
+tags: paragraph 2405.02732
+title: 2405.02732_PARA_0050
+type: text/vnd.tiddlywiki
+
+\squishlist
+ \item[1.] For each O, we retrieve top-{{2405.02732_FO0031||FO}} support passages, and encode them into embedding vectors.
+ \item[2.] We identify 
+ the top-ranked O values with {{2405.02732_FO0032||FO}} above a threshold {{2405.02732_FO0033||FO}}.
+ \item[3.] Using the top-ranked O, we combine the per-O passage vectors by a weighted sum, with {{2405.02732_FO0034||FO}} as weights, to obtain a single P-vector (classifier). 
+ \item[4.] Each SO pair under scrutiny (O below the threshold {{2405.02732_FO0035||FO}}) is tested by comparing the vector of the top-{{2405.02732_FO0036||FO}} support passages for this SPO candidate against the P-vector computed using steps 1 to 3. 
+ \item[5.] The classifier accepts a low-ranked SO if the cosine similarity between the embeddings is above a threshold {{2405.02732_FO0037||FO}}.
+ \squishend
+ \noindent We construct a {\em pred} classifier for each SP pair, in a completely self-supervised manner.
+ It has hyper-parameters {{2405.02732_FO0038||FO}}, {{2405.02732_FO0039||FO}} and {{2405.02732_FO0040||FO}}, though; these are tuned via withheld train/dev data with SPO ground-truth, but without any supervised passage labels.

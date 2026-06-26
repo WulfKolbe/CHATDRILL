@@ -1,0 +1,9 @@
+created: 20260625093308065
+modified: 20260625093308065
+page: 000
+parent_section: 2210.07763_H14
+tags: paragraph 2210.07763
+title: 2210.07763_PARA_0127
+type: text/vnd.tiddlywiki
+
+For each resource, we sample 100 assertions for each facet (hence, 500 assertions in total) and perform human evaluation on the 3 metrics - commonality (COM), plausibility (PLA) and distinctiveness (DIS).

@@ -1,0 +1,9 @@
+created: 20260625080853722
+modified: 20260625080853722
+page: 000
+parent_section: arxiv_2305_05403_H23
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0206
+type: text/vnd.tiddlywiki
+
+One way to compare KB recall is by comparing their size. Virtually every KB project compares itself with other resources in terms of size, typically counting the number of entities, classes, and statements (for one example, see Table 1 in the Knowledge Vault paper [knowledgevault]). A more fine-grained analysis was performed in [ringler2017one]. For 25 important classes, considerable variance was found, even on KBs derived from the same source, like DBpedia and YAGO. Variances were in part explained by different modelling approaches (e.g., Wikidata's low number of politicians explained by modelling a class via properties). However, size comparisons do not capture whether or to which degree content from one KB is contained in the other -- it may well be that resources have different foci, and that the larger ones still have limited recall w.r.t.\ smaller ones.

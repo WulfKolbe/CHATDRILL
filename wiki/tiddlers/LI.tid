@@ -1,0 +1,7 @@
+created: 20260626111149170
+modified: 20260626111149170
+tags: template
+title: LI
+type: text/vnd.tiddlywiki
+
+<li>{{!!text}}</li>

@@ -1,0 +1,10 @@
+created: 20260625080853722
+modified: 20260625080853722
+page: 000
+parent_section: arxiv_2305_05403_H14
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0149
+type: text/vnd.tiddlywiki
+
+The authors evaluate the recall-aware scores against standard scoring metrics and find that recall-aware scores highly correlate with rule quality scores in the setting of increasingly complete KBs. 
+Another line of work uses cardinality information as priors in neural link prediction [Muoz2019EmbeddingCC]. Similar to the work by Tanon et al. [pellissier2017completeness], they regularize the number of high probability predictions by penalizing the model when the number of predictions violate the cardinality bounds of a given relation type.

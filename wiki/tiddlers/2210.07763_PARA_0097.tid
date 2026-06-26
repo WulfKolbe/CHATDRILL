@@ -1,0 +1,9 @@
+created: 20260625093308065
+modified: 20260625093308065
+page: 000
+parent_section: 2210.07763_H11
+tags: paragraph 2210.07763
+title: 2210.07763_PARA_0097
+type: text/vnd.tiddlywiki
+
+After tuning the system's hyperparameters on small withheld data (see Appx. (ref)), we executed \systemname{} on a cluster of 6K CPU cores (AMD EPYC 7702) and 40 GPUs (a mix of NVIDIA RTX 8000, Tesla A100 and A40 GPUs).

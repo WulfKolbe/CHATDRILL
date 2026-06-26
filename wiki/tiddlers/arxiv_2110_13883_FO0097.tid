@@ -1,0 +1,11 @@
+caption: h^{\textsc{KSG}\xspace}(\ensuremath{\bm{X}}\xspace)
+created: 20260625080931151
+displayMode: false
+latex: h^{\textsc{KSG}\xspace}(\ensuremath{\bm{X}}\xspace)
+latex_original: h^{\ksg}(\Xg)
+modified: 20260625080931151
+tags: formula arxiv_2110_13883
+title: arxiv_2110_13883_FO0097
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

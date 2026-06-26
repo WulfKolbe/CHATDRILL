@@ -1,0 +1,14 @@
+created: 20260625080827137
+modified: 20260625080827137
+page: 000
+parent_section: arxiv_2405_02732_H12
+tags: paragraph arxiv_2405_02732
+title: arxiv_2405_02732_PARA_0059
+type: text/vnd.tiddlywiki
+
+To demonstrate the generalizability of L3X,
+we constructed a second dataset with partly similar and partly complementary characteristics. The data is derived from the large common crawl of web pages (C4 corpus) [dodge-etal-2021-documenting],
+and we aim to extract long object lists for three business/biography relations: CEOs of companies (incl. past ones), subsidiaries of companies, and organizations that a famous person is part of (e.g., companies, societies, charities, schools at different levels).
+The dataset has 100 subjects for each P,
+covering ca. 6400 entities appearing under ca. 24,000 alias names. 
+Table (ref) gives per-relation statistics.

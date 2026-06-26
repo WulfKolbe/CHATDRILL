@@ -1,0 +1,11 @@
+caption: w_{ij}, b_i \sim {U[-1,1]}
+created: 20260625151931664
+displayMode: false
+latex: w_{ij}, b_i \sim {U[-1,1]}
+latex_original: w_{ij}, b_i \sim {U[-1,1]}
+modified: 20260625151931664
+tags: formula 2110.11150
+title: 2110.11150_FO0378
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

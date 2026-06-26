@@ -1,0 +1,9 @@
+created: 20260625080853722
+modified: 20260625080853722
+page: 000
+parent_section: arxiv_2305_05403_H13
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0141
+type: text/vnd.tiddlywiki
+
+A fundamental transformation could be achieved in the second paradigm. As LLMs have seen huge amounts of text during pre-training, one can try to extract relations directly from these models, without further textual input at the extraction stage.

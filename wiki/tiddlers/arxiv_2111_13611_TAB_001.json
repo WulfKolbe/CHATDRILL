@@ -1,0 +1,13 @@
+[
+    {
+        "title": "arxiv_2111_13611_TAB_001",
+        "text": "",
+        "type": "text/vnd.tiddlywiki",
+        "tags": "table arxiv_2111_13611",
+        "created": "20260625080930848",
+        "modified": "20260625080930848",
+        "page": "000",
+        "latex_code": "\\begin{tabularx}{\\linewidth}{@{\\hspace{\\parindent}} lX}\n    \\multicolumn{2}{@{\\hspace{\\parindent}}l}{\\@problemtitle} \\\\% Title\n    \\textbf{Input:} & \\@probleminput \\\\% Input\n    \\textbf{Question:} & \\@problemquestion \\\\% Question \n    \\textbf{Output:} & \\@problemoutput \\\\% Output \n  \\end{tabularx}",
+        "latex_original": "\\begin{tabularx}{\\linewidth}{@{\\hspace{\\parindent}} lX}\n    \\multicolumn{2}{@{\\hspace{\\parindent}}l}{\\@problemtitle} \\\\% Title\n    \\textbf{Input:} & \\@probleminput \\\\% Input\n    \\textbf{Question:} & \\@problemquestion \\\\% Question \n    \\textbf{Output:} & \\@problemoutput \\\\% Output \n  \\end{tabularx}"
+    }
+]

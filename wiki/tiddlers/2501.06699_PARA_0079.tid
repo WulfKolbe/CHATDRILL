@@ -1,0 +1,11 @@
+created: 20260625092952539
+modified: 20260625092952539
+page: 000
+parent_section: 2501.06699_H11
+tags: paragraph 2501.06699
+title: 2501.06699_PARA_0079
+type: text/vnd.tiddlywiki
+
+\parai{Pre-training} is the backbone of all LLMs. To this end, the models are provided with huge corpora of human-written texts, covering Wikipedia, news articles, social media, book collections, and much more -- all at massive scale with trillions of tokens (see, e.g., [DBLP:journals/corr/abs-2407-21783]).
+ The usual training objective is to predict the next token in a text sequence, repeatedly in an auto-regressive manner. As the original text is available, the ground-truth is known and this entire training process is completely unsupervised (or self-supervised, as it is sometimes phrased).
+ Multimodal models additionally leverage huge collections of speech, images and videos, often in combination with transcribed text and user annotations or comments. These are out of scope for this article, though.

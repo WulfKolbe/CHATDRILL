@@ -1,0 +1,11 @@
+caption: h^{(l)}_{ij}(w^{(l)}_{0,ij}) = \sigma_l w^{(l)}_{0,ij}
+created: 20260625151931663
+displayMode: false
+latex: h^{(l)}_{ij}(w^{(l)}_{0,ij}) = \sigma_l w^{(l)}_{0,ij}
+latex_original: h^{(l)}_{ij}(w^{(l)}_{0,ij}) = \sigma_l w^{(l)}_{0,ij}
+modified: 20260625151931663
+tags: formula 2110.11150
+title: 2110.11150_FO0296
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

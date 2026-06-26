@@ -1,0 +1,18 @@
+created: 20260625080853252
+modified: 20260625080853252
+page: 000
+parent_section: arxiv_2306_17472_H10
+tags: paragraph arxiv_2306_17472
+title: arxiv_2306_17472_PARA_0050
+type: text/vnd.tiddlywiki
+
+In Context-based experiments, prompts are combined with additional context information to better retrieve facts from LMs, which has been demonstrated to substantially improve the cloze-style performance of LMs [petroni2020context]. 
+Apart from Cloze and ED baselines, we introduce another two methods. \\
+QA: Question-Answering models are able to extract answers to a question from a given document, and we adapt them to extract facts by designing question prompts. 
+As shown in the third frame of Figure (ref), given the input context and the question prompt ``the person Lhasa de Sela collaborated with which person?'', a QA model successfully outputs the correct answer. 
+For experiments, we use two LMs fine-tuned on the SQuAD 2.0 [rajpurkar2018know], RoBERTa-large [liu2019roberta] \footnote{\url{https://huggingface.co/deepset/roberta-large-squad2}} and SpanBERT-large [joshi2020spanbert] \footnote{\url{https://huggingface.co/mrm8488/spanbert-finetuned-squadv2}}. 
+Besides, we use GPT3 [brown2020language] as another QA baseline.
+\\
+TE: Textual Entailment models can judge whether a premise entails a hypothesis. 
+To adapt TE for extracting facts from context, we first use a Named Entity Recognition model and then apply a textual entailment model to this entity and sentence for judging the entailment relation. For example, given the context ``Lhasa de Sela also appeared as a guest of the French gypsy music group Bratsch'', the entity ``Bratsch'' is recognized and we use the prompt: \textit{context {{arxiv_2306_17472_FO0028||FO}} the person Lhasa de Sela collaborated with Bratsch}. If the premise entails the hypothesis, we can regard this as a correct tail entity. Here, we add type constraints for particular relations. Two LMs fine-tuned on TE datasets, RoBERTa-large [liu2019roberta]\footnote{\url{https://huggingface.co/ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli}} and DeBERTa-large [he2020deberta]\footnote{\url{https://huggingface.co/MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli}}, are used in this experiment.
+The NER model is TNER [ushio2022t].

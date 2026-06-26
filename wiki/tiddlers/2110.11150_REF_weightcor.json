@@ -1,0 +1,17 @@
+[
+    {
+        "title": "2110.11150_REF_weightcor",
+        "text": "{{||CIT}} N. Liu, G. Yuan, Z. Che, X. Shen, X. Ma, Q. Jin, J. Ren, J. Tang, S. Liu, and Y. Wang. Lottery ticket preserves weight correlation: Is it desirable or not? In International Conference on Machine Learning, 2021.",
+        "type": "text/markdown",
+        "tags": "reference bibentry bibtex 2110.11150",
+        "created": "20260626111149173",
+        "modified": "20260626111149173",
+        "kind": "reference",
+        "citekey": "weightcor",
+        "year": "2021",
+        "authors": "Liu, Ning and Yuan, Geng and Che, Zhengping and Shen, Xuan and Ma, Xiaolong and Jin, Qing and Ren, Jian and Tang, Jian and Liu, Sijia and Wang, Yanzhi",
+        "entry_type": "inproceedings",
+        "titlefield": "Lottery Ticket Preserves Weight Correlation: Is It Desirable or Not?",
+        "bibtex": "@InProceedings{weightcor,\n  title = \t {Lottery Ticket Preserves Weight Correlation: Is It Desirable or Not?},\n  author =       {Liu, Ning and Yuan, Geng and Che, Zhengping and Shen, Xuan and Ma, Xiaolong and Jin, Qing and Ren, Jian and Tang, Jian and Liu, Sijia and Wang, Yanzhi},\n  booktitle = \t {International Conference on Machine Learning},\n  year = \t {2021},\n}"
+    }
+]

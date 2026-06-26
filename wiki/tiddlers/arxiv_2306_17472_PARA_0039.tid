@@ -1,0 +1,17 @@
+created: 20260625080853251
+modified: 20260625080853251
+page: 000
+parent_section: arxiv_2306_17472_H5
+tags: paragraph arxiv_2306_17472
+title: arxiv_2306_17472_PARA_0039
+type: text/vnd.tiddlywiki
+
+\noindent
+{\bf Results.}
+Table (ref) shows
+the results from this experimental comparison.
+We observe that the GenIE baselines does well in terms of precision, but has very poor recall.
+In contrast, our two-stage method achieves both good precision and recall. Regarding precision, it is almost as good as GenIE (44% vs. 52%);
+regarding recall, it outperforms GenIE and the other baselines by a large margin (43% vs. 7%).
+Our method still leaves substantial room for further improvement, underlining the challenging nature of inferring facts for long-tail entities.
+We think of our method as a building block to aid a human curator by judicious suggestions for facts that would augment the KG.

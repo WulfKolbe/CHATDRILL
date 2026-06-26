@@ -1,0 +1,12 @@
+created: 20260625080804874
+modified: 20260625080804874
+page: 000
+parent_section: arxiv_2501_06699_H8
+tags: paragraph arxiv_2501_06699
+title: arxiv_2501_06699_PARA_0066
+type: text/vnd.tiddlywiki
+
+Moving away from augmenting a main technology, one can consider an ensemble approach, where KGs, LLMs and SEs are peers in the information infrastructure, and a user query is delegated to the technology best adapted to address the particular type of information need. 
+ Such an ensemble would likely have a natural language interface powered by an LLM, but underneath it could call KGs, LLMs or SEs. 
+ Referring to Table (ref), for example, multi-hop queries might be delegated to a KG, commonsense queries to an LLM, while queries about news events might be sent to an SE. 
+ The choice would be automated, and could also address non-functional dimensions, for example, boosting efficiency by shipping simple queries to low-cost components (e.g., fact lookups on a KG).

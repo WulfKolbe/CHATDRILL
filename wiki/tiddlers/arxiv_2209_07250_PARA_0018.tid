@@ -1,0 +1,11 @@
+created: 20260625080859569
+modified: 20260625080859569
+page: 000
+parent_section: arxiv_2209_07250_H1
+tags: paragraph arxiv_2209_07250
+title: arxiv_2209_07250_PARA_0018
+type: text/vnd.tiddlywiki
+
+and web search with telegraphic queries
+have been greatly advanced over the last decade [balog2018entity,diefenbach2018core,DBLP:journals/access/HuangXHWQFZPW20,DBLP:journals/semweb/UsbeckRHCHNDU19].
+Nevertheless, queries that can have multiple correct answers due to variance in semantic qualifiers (``top 10 albums'', ``singles albums'', ``remastered albums'') and alternative representations through instances remain underexplored and pose open challenges.

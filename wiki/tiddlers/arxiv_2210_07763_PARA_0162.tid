@@ -1,0 +1,11 @@
+created: 20260625080858063
+modified: 20260625080858063
+page: 000
+parent_section: arxiv_2210_07763_H22
+tags: paragraph arxiv_2210_07763
+title: arxiv_2210_07763_PARA_0162
+type: text/vnd.tiddlywiki
+
+\systemname{} contains 3 cultural domains - geography, religion and occupation. For each domain, we sample 100 assertions and perform crowdsourcing evaluation with the 3 metrics - PLA, COM and DIS (cf. SubSec. (ref)). 
+We present the evaluation results in Table (ref). 
+Besides the raw scores (0, 1, 2), we also binarize and denote them as acceptance rates, i.e., a score greater than zero means ``accept''.

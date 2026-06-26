@@ -1,0 +1,11 @@
+caption: \sim
+created: 20260625093145739
+displayMode: false
+latex: \sim
+latex_original: \sim
+modified: 20260625093145739
+tags: formula 2307.03122
+title: 2307.03122_FO0016
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

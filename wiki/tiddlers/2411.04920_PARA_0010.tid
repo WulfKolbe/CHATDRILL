@@ -1,0 +1,9 @@
+created: 20260625093027647
+modified: 20260625093027647
+page: 000
+parent_section: 2411.04920_H3
+tags: paragraph 2411.04920
+title: 2411.04920_PARA_0010
+type: text/vnd.tiddlywiki
+
+An overview of our approach is shown in Figure (ref). In the first phase, knowledge elicitation, we iteratively elicit LLM triples for a given subject, and enqueue newly encountered named entities for further triple elicitation. In the second phase, knowledge consolidation, we consolidate the resulting triple set by canonicalizing entities, relations and classes, and by constructing a coherent taxonomy.

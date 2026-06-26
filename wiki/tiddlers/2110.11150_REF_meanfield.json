@@ -1,0 +1,17 @@
+[
+    {
+        "title": "2110.11150_REF_meanfield",
+        "text": "{{||CIT}} S. S. Schoenholz, J. Gilmer, S. Ganguli, and J. Sohl-Dickstein. Deep information propagation. In International Conference on Learning Representations, 2017.",
+        "type": "text/markdown",
+        "tags": "reference bibentry bibtex 2110.11150",
+        "created": "20260626111149173",
+        "modified": "20260626111149173",
+        "kind": "reference",
+        "citekey": "meanfield",
+        "year": "2017",
+        "authors": "Samuel S. Schoenholz and\n               Justin Gilmer and\n               Surya Ganguli and\n               Jascha Sohl{-",
+        "entry_type": "inproceedings",
+        "titlefield": "Deep Information Propagation",
+        "bibtex": "@inproceedings{meanfield,\n  author    = {Samuel S. Schoenholz and\n               Justin Gilmer and\n               Surya Ganguli and\n               Jascha Sohl{-}Dickstein},\n  title     = {Deep Information Propagation},\n  booktitle = {International Conference on Learning Representations},\n  year      = {2017}\n}"
+    }
+]

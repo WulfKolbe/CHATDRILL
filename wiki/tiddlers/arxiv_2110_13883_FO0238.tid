@@ -1,0 +1,11 @@
+caption: x_i, \dots, x_j
+created: 20260625080931152
+displayMode: false
+latex: x_i, \dots, x_j
+latex_original: x_i, \dots, x_j
+modified: 20260625080931152
+tags: formula arxiv_2110_13883
+title: arxiv_2110_13883_FO0238
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

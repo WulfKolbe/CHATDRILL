@@ -1,0 +1,9 @@
+created: 20260625080853722
+modified: 20260625080853722
+page: 000
+parent_section: arxiv_2305_05403_H13
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0127
+type: text/vnd.tiddlywiki
+
+It extracts standardized quantity statements of the form {{arxiv_2305_05403_FO0117||FO}}. This approach works well, and can in principle be applied to cardinality assertions.

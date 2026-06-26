@@ -1,0 +1,11 @@
+created: 20260625093448814
+modified: 20260625093448814
+page: 000
+parent_section: 2204.11677_H4
+tags: paragraph 2204.11677
+title: 2204.11677_PARA_0079
+type: text/vnd.tiddlywiki
+
+\myparagraph{Context and question entities}
+As an example, consider the gold SR for {{2204.11677_FO0043||FO}} of the running example:
+{{2204.11677_FO0044||FO}} \struct{\textcolor{gray}{GoT} | \textcolor{red}{the dwarf} | \textcolor{blue}{who played} | \textcolor{cyan}{human}} {{2204.11677_FO0045||FO}}.

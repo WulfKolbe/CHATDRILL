@@ -1,0 +1,14 @@
+created: 20260626094813420
+modified: 20260626094813420
+page: 000
+parent_section: 2110.11150_H22
+tags: paragraph 2110.11150
+title: 2110.11150_PARA_0083
+type: text/vnd.tiddlywiki
+
+where {{2110.11150_FO0100||FO}} is defined in Eq. ((ref)), {{2110.11150_FO0231||FO}}, and the output is scaled by {{2110.11150_FO0117||FO}}.
+\end{theorem*}
+\begin{proof}
+Lemma (ref) simplifies the above parameter initialization to an equivalent setting, in which each parameter is distributed as {{2110.11150_FO0232||FO}}, while the overall output is scaled by the stated scaling factor {{2110.11150_FO0150||FO}}. 
+We assume that all parameters are bounded by {{2110.11150_FO0028||FO}} so that we can find them within the range {{2110.11150_FO0039||FO}}. 
+Otherwise, we would need to increase {{2110.11150_FO0233||FO}} by a factor that is proportional to the maximum parameter value {{2110.11150_FO0234||FO}}, which is integrated into our constant {{2110.11150_FO0032||FO}}.

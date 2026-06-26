@@ -1,0 +1,13 @@
+created: 20260625093047341
+modified: 20260625093047341
+page: 000
+parent_section: 2405.02732_H6
+tags: paragraph 2405.02732
+title: 2405.02732_PARA_0036
+type: text/vnd.tiddlywiki
+
+\squishend
+ For neo, we compute Jaccard similarity using min-hash sketches of named entities, while sim uses the OpenAI text-embedding model.
+ Both techniques process a priority queue of passages as follows: for each rank {{2405.02732_FO0012||FO}}
+ (starting with the highest rank, {{2405.02732_FO0013||FO}}=1), 
+ find the {{2405.02732_FO0014||FO}}-1 most related passages from lower ranks {{2405.02732_FO0015||FO}}>{{2405.02732_FO0016||FO}} to form a batch and prompt the LLM. Mark all the batch passages as ``done'' and proceed with the next lower rank {{2405.02732_FO0017||FO}}>{{2405.02732_FO0018||FO}}, which is not yet ``done''.

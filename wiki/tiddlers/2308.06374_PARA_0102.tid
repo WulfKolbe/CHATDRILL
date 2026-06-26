@@ -1,0 +1,11 @@
+created: 20260625093119694
+modified: 20260625093119694
+page: 000
+parent_section: 2308.06374_H9
+tags: paragraph 2308.06374
+title: 2308.06374_PARA_0102
+type: text/vnd.tiddlywiki
+
+The majority of KGs capture facts of the sort one might encounter in an encyclopedia or in a relational database.
+However, commonsense knowledge is another important form of world knowledge for AI systems. For instance, we may wish for a KG to not only capture that the Congo rainforest lies in Central Africa, but also that tropical rainforests have significant rainfall and lush green vegetation. ConceptNet is the most well-known commonsense knowledge graph, developed using manual crowdsourcing along with automated refinement techniques [ConceptNet].
+However, crowdsourcing is very labor-intensive and costly, so alternative means of harvesting such knowledge have long been sought.

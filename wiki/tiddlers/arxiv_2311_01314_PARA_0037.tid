@@ -1,0 +1,10 @@
+created: 20260625080827349
+modified: 20260625080827349
+page: 000
+parent_section: arxiv_2311_01314_H4
+tags: paragraph arxiv_2311_01314
+title: arxiv_2311_01314_PARA_0037
+type: text/vnd.tiddlywiki
+
+The CUP framework is based on a two-tower architecture for representation learning (one "tower" for users, the other for items, following the prevalent architecture in neural information retrieval with query and document/passage encodings). The two towers are jointly trained, coupled by the
+shared loss function.

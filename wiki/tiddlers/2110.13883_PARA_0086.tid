@@ -1,0 +1,9 @@
+created: 20260625110956922
+modified: 20260625110956922
+page: 000
+parent_section: 2110.13883_H17
+tags: paragraph 2110.13883
+title: 2110.13883_PARA_0086
+type: text/vnd.tiddlywiki
+
+Thus, it remains to compute the entropy for {{2110.13883_FO0350||FO}}, for which the density function can be computed as a convolution of {{2110.13883_FO0351||FO}} and {{2110.13883_FO0352||FO}}. Since {{2110.13883_FO0353||FO}} and {{2110.13883_FO0354||FO}} follow a uniform distribution, {{2110.13883_FO0355||FO}} is a trapezoid and it can be derived that {{2110.13883_FO0356||FO}} for {{2110.13883_FO0357||FO}} [cover:06:elements].

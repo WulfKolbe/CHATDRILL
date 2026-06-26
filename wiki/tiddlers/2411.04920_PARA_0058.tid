@@ -1,0 +1,9 @@
+created: 20260625093027647
+modified: 20260625093027647
+page: 000
+parent_section: 2411.04920_H9
+tags: paragraph 2411.04920
+title: 2411.04920_PARA_0058
+type: text/vnd.tiddlywiki
+
+The most frequent classes generated for entities are shown in Figure (ref), where we find that the class Person dominates the dataset with 281K instances. This is followed by the classes film (66K) and Company (56K), which are are an order of magnitude smaller. Classes denoting creative works, such as, video game (46K), album (43K) and song (30K), also make it to the top ten frequent classes.

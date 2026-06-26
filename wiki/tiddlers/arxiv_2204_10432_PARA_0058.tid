@@ -1,0 +1,9 @@
+created: 20260625080929321
+modified: 20260625080929321
+page: 000
+parent_section: arxiv_2204_10432_H12
+tags: paragraph arxiv_2204_10432
+title: arxiv_2204_10432_PARA_0058
+type: text/vnd.tiddlywiki
+
+The results of our symptom classifiers evaluated on the test sets are shown in Table (ref). Overall, our symptom classifiers perform well despite being trained on weak labels. The ``concentration'', ``eating'' and ``self-harm'' classifiers show strong performance, while a lower F1 is observed with the ``anhedonia'', ``mood'' and ``fatigue'' classifiers. Interestingly, we find that the F1 scores of symptom classifiers tend to positively correlate with the annotator's agreement (Pearson {{arxiv_2204_10432_FO0022||FO}}). This suggests the low F1 score in some symptom classifiers, such as ``anhedonia'' and ``fatigue'', might partly be due to the ambiguity of texts. For example, it is challenging to distinguish between an ordinary bad mood versus a depressive mood. Additionally, in our analysis, we find many wrong predictions where posts use symptom-like language in a more specific context, such as ``{I completely lost my interest in him}'' or ``{I can't concentrate on that movie}''. These alone might not indicate a symptom, but recurrence of them might be significant.

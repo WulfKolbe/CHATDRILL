@@ -1,0 +1,9 @@
+created: 20260625093231914
+modified: 20260625093231914
+page: 000
+parent_section: 2305.05403_H13
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0134
+type: text/vnd.tiddlywiki
+
+[Mirza2016ExpandingWP] proposes 30 manually-curated regular expression patterns for the hasChild predicate in Wikidata the extractions achieve more than 90% precision when compared with a small set of manually-labelled gold dataset and a larger KB available silver dataset. Cardinality assertions were extracted for 86.2k humans in Wikidata of which only 2.65% had complete hasChild statements.

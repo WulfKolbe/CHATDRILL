@@ -1,0 +1,9 @@
+created: 20260625080929321
+modified: 20260625080929321
+page: 000
+parent_section: arxiv_2204_10432_H23
+tags: paragraph arxiv_2204_10432
+title: arxiv_2204_10432_PARA_0085
+type: text/vnd.tiddlywiki
+
+\paragraphHdNospace{Negation.} Positive patterns may be negated, such as in ``haven't had a suicidal thought in ages.''. To handle this situation, we removed posts containing positive patterns preceded by a negation word, such as (``not'', ``never'', `rarely'', etc.).

@@ -1,0 +1,38 @@
+created: 20260625093231917
+format: fractal_xref
+modified: 20260625093231917
+tags: toc 2305.05403
+title: 2305.05403_TOC
+type: text/vnd.tiddlywiki
+
+** 1.1 [[Introduction|2305.05403_H1]]
+** 1.2 [[Foundations|2305.05403_H2]]
+*** 1.2.1 [[Knowledge Bases|2305.05403_H3]]
+*** 1.2.2 [[Incompleteness|2305.05403_H4]]
+*** 1.2.3 [[World Semantics|2305.05403_H5]]
+*** 1.2.4 [[Completeness and Cardinality Metadata|2305.05403_H6]]
+** 1.3 [[Predictive Recall Assessment|2305.05403_H7]]
+*** 1.3.1 [[Recall of Entities|2305.05403_H8]]
+*** 1.3.2 [[Recall of Statements|2305.05403_H9]]
+*** 1.3.3 [[Summary|2305.05403_H10]]
+** 1.4 [[Cardinalities from KBs and Text|2305.05403_H11]]
+*** 1.4.1 [[Cardinality Information in KBs|2305.05403_H12]]
+*** 1.4.2 [[Cardinality Information from Text|2305.05403_H13]]
+*** 1.4.3 [[Summary|2305.05403_H14]]
+** 1.5 [[Identifying Salient Negations|2305.05403_H15]]
+*** 1.5.1 [[Negation in existing KBs|2305.05403_H16]]
+*** 1.5.2 [[Salient Negations in Well-structured KBs|2305.05403_H17]]
+*** 1.5.3 [[Salient negations in Loosely-structured KBs|2305.05403_H18]]
+*** 1.5.4 [[Salient Negations in Text|2305.05403_H19]]
+*** 1.5.5 [[Summary|2305.05403_H20]]
+** 1.6 [[Relative Recall|2305.05403_H21]]
+*** 1.6.1 [[Entity Recall Relative to other Entities|2305.05403_H22]]
+*** 1.6.2 [[KB Recall Relative to other Resources|2305.05403_H23]]
+*** 1.6.3 [[KB Recall Relative to Question Answering Needs|2305.05403_H24]]
+*** 1.6.4 [[Summary|2305.05403_H25]]
+** 1.7 [[Discussion and Conclusion|2305.05403_H26]]
+*** 1.7.1 [[The Temporal Dimension of Completeness and Recall|2305.05403_H27]]
+*** 1.7.2 [[The Impact of Large Language Models|2305.05403_H28]]
+*** 1.7.3 [[Recommendations for KB Recall Assessment|2305.05403_H29]]
+*** 1.7.4 [[Take-home Lessons|2305.05403_H30]]
+*** 1.7.5 [[Challenges and Opportunities|2305.05403_H31]]

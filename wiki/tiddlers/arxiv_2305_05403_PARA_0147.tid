@@ -1,0 +1,9 @@
+created: 20260625080853722
+modified: 20260625080853722
+page: 000
+parent_section: arxiv_2305_05403_H14
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0147
+type: text/vnd.tiddlywiki
+
+Tanon et al. [pellissier2017completeness] use cardinality information to improve rule-mining. Rule mining is the task of finding interesting associations between entities in a KB, such as: if \fact{?x}{hasSpouse}{?y} and \fact{?y}{livesIn}{?z} then \fact{?x}{livesIn}{?z}. Such rules can then be used to predict the place of residence of someone.

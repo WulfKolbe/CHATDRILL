@@ -1,0 +1,10 @@
+created: 20260625080922310
+modified: 20260625080922310
+page: 000
+parent_section: arxiv_2208_09292_H15
+tags: paragraph arxiv_2208_09292
+title: arxiv_2208_09292_PARA_0087
+type: text/vnd.tiddlywiki
+
+\noindent
+Hyperparameters Tuning. Our methodology includes four main hyperparameters, namely {{arxiv_2208_09292_FO0118||FO}} (number of comparable concepts), {{arxiv_2208_09292_FO0119||FO}} (textual similarity threshold used in scrutinizing candidates and relaxed ranking), {{arxiv_2208_09292_FO0120||FO}} (rank threshold for LM), and {{arxiv_2208_09292_FO0121||FO}} (KB threshold for too-generic statements) . We experimented with different values for these parameters, and set them to their ideal values in Section (ref) as shown in Figure (ref), namely {{arxiv_2208_09292_FO0122||FO}} to 30, {{arxiv_2208_09292_FO0123||FO}} to 0.7, {{arxiv_2208_09292_FO0124||FO}} to 50, and {{arxiv_2208_09292_FO0125||FO}} to 0.05.

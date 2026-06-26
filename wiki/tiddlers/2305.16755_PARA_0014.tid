@@ -1,0 +1,12 @@
+created: 20260625093206653
+modified: 20260625093206653
+page: 000
+parent_section: 2305.16755_H2
+tags: paragraph 2305.16755
+title: 2305.16755_PARA_0014
+type: text/vnd.tiddlywiki
+
+\begin{framed}
+\textit{Write a list of \textit{\color{gray}{[n]}} salient factual negated statement about \color{gray}{[SUBJECT]}}.
+\end{framed}
+The goal is to inspect the model's interpretation of the notion of salient negation without any prior examples nor definitions.

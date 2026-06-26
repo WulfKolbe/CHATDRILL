@@ -1,0 +1,9 @@
+created: 20260625093527300
+modified: 20260625093527300
+page: 000
+parent_section: 2111.13611_H1
+tags: paragraph 2111.13611
+title: 2111.13611_PARA_0009
+type: text/vnd.tiddlywiki
+
+We evaluate our approach against a range of state-of-the-art baselines. Our results show that heuristic features like text length, entity mention frequency, language complexity, Alexa rank, or information retrieval scores have only moderate predictive power. However, in combination with pre-trained language models, the proposed classifier gives useful predictions of document coverage.

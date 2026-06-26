@@ -1,0 +1,17 @@
+[
+    {
+        "title": "2110.11150_REF_lecun1990optimal",
+        "text": "{{||CIT}} Y. LeCun, J. S. Denker, and S. A. Solla. Optimal brain damage. In Advances in neural information processing systems, pages 598--605, 1990.",
+        "type": "text/markdown",
+        "tags": "reference bibentry bibtex 2110.11150",
+        "created": "20260626111149172",
+        "modified": "20260626111149172",
+        "kind": "reference",
+        "citekey": "lecun1990optimal",
+        "year": "1990",
+        "authors": "LeCun, Yann and Denker, John S and Solla, Sara A",
+        "entry_type": "inproceedings",
+        "titlefield": "Optimal brain damage",
+        "bibtex": "@inproceedings{lecun1990optimal,\n  title={Optimal brain damage},\n  author={LeCun, Yann and Denker, John S and Solla, Sara A},\n  booktitle={Advances in neural information processing systems},\n  pages={598--605},\n  year={1990}\n}"
+    }
+]

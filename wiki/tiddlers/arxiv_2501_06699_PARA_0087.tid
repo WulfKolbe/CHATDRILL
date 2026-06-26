@@ -1,0 +1,16 @@
+created: 20260625080804874
+modified: 20260625080804874
+page: 000
+parent_section: arxiv_2501_06699_H12
+tags: paragraph arxiv_2501_06699
+title: arxiv_2501_06699_PARA_0087
+type: text/vnd.tiddlywiki
+
+\parai{Matching} involves locating occurrences of the user's keywords and short phrases as terms in the index, and retrieving all exact matches or possibly partial matches for subsequent ranking.
+ When users pose full-fledged questions or give other kinds of longer inputs, this matching paradigm does not make sense.
+ Instead, the query embedding vector (see above)
+ can be compared, via approximate nearest-neighbor search, against
+ the precomputed embeddings of the documents [DBLP:journals/ftir/FanXCCMLZG22]. This LLM-based encoding can be important as it captures the ordering and/or proximity of the query words.
+ Yet another variant for matching is when the SE recognizes entity names in the query and can map some of these onto a KG with high confidence. In this case, excerpts from the KG are fetched 
+ and later shown as a knowledge panel or combined with other results
+ [GoogleKG].

@@ -1,0 +1,9 @@
+created: 20260625080929321
+modified: 20260625080929321
+page: 000
+parent_section: arxiv_2204_10432_H20
+tags: paragraph arxiv_2204_10432
+title: arxiv_2204_10432_PARA_0077
+type: text/vnd.tiddlywiki
+
+In all experiments with pre-trained BERT, we used the BERT-base version [devlin2019bert]. We do not fine-tune BERT's parameters since in a pilot study, we found that fine-tuning BERT does not improve the generalization. All models were optimized using a cross-entropy loss with class weights of {{arxiv_2204_10432_FO0038||FO}} and {{arxiv_2204_10432_FO0039||FO}} for the control and depressed classes, respectively, a 1cycle learning rate scheduler (with a maximum of {{arxiv_2204_10432_FO0040||FO}}), batches of size 64, and early stopping after five epochs. When calculating F1, we set the decision threshold to {{arxiv_2204_10432_FO0041||FO}}, because it cannot be safely tuned in dataset-transfer experiments.

@@ -1,0 +1,9 @@
+created: 20260626094813420
+modified: 20260626094813420
+page: 000
+parent_section: 2110.11150_H24
+tags: paragraph 2110.11150
+title: 2110.11150_PARA_0093
+type: text/vnd.tiddlywiki
+
+Here, the {{2110.11150_FO0267||FO}} function returns a binary mask {{2110.11150_FO0268||FO}}, where the weights corresponding to the largest scores (according to the sparsity {{2110.11150_FO0023||FO}}) are retained in the mask.

@@ -1,0 +1,9 @@
+created: 20260625093341705
+modified: 20260625093341705
+page: 000
+parent_section: 2209.07250_H6
+tags: paragraph 2209.07250
+title: 2209.07250_PARA_0057
+type: text/vnd.tiddlywiki
+
+CNPs with embedding-cosine similarity [reimers2019sentencebert] less than zero are categorized as incomparable, while from the remainder, those with a count within {{2209.07250_FO0019||FO}} are considered synonyms, lower count CNPs are categorized as subgroups, and higher count CNPs as incomparable.

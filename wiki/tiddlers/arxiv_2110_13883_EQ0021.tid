@@ -1,0 +1,14 @@
+created: 20260625080931153
+displayMode: true
+equation_number: 
+kind: Equation
+latex: \begin{aligned} I( \bm{X}; \bm{Y}) &= h(Y_1,Y_2,Y_3') - h(Y_1,Y_2,Y_3' \mid X_1,X_2) \\ &= h(Y_3') + h(Y_2 \mid Y_3') + h(Y_1 \mid Y_2, Y_3') \\ &- h(Y_1,Y_2,Y_3' \mid X_1,X_2) \; , \end{aligned}
+latex_original: \begin{aligned} I( \bm{X}; \bm{Y}) &= h(Y_1,Y_2,Y_3') - h(Y_1,Y_2,Y_3' \mid X_1,X_2) \\ &= h(Y_3') + h(Y_2 \mid Y_3') + h(Y_1 \mid Y_2, Y_3') \\ &- h(Y_1,Y_2,Y_3' \mid X_1,X_2) \; , \end{aligned}
+modified: 20260625080931153
+page: 000
+refnum: 
+tags: equation arxiv_2110_13883
+title: arxiv_2110_13883_EQ0021
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode=true />

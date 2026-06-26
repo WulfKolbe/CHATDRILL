@@ -1,0 +1,14 @@
+created: 20260625080929031
+modified: 20260625080929031
+page: 000
+parent_section: arxiv_2204_11677_H1
+tags: paragraph arxiv_2204_11677
+title: arxiv_2204_11677_PARA_0036
+type: text/vnd.tiddlywiki
+
+try to deal with
+KBs, text, and tables.
+Their approach 
+is designed for simple questions, though,
+and cannot easily be extended to the challenging ConvQA setting [saharoy2021question].
+Finally, none of the prior works on ConvQA produce human-interpretable structures that could assist end users in case of erroneous system responses.

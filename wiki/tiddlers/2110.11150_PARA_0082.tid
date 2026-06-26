@@ -1,0 +1,13 @@
+created: 20260626094813420
+modified: 20260626094813420
+page: 000
+parent_section: 2110.11150_H22
+tags: paragraph 2110.11150
+title: 2110.11150_PARA_0082
+type: text/vnd.tiddlywiki
+
+!! Existence of lottery ticket: Proof of Theorem (ref)
+
+\begin{theorem*}
+Assume that {{2110.11150_FO0110||FO}} and a target network {{2110.11150_FO0016||FO}} with depth {{2110.11150_FO0004||FO}} and architecture {{2110.11150_FO0111||FO}} are given. 
+Each weight and bias of a larger deep neural network {{2110.11150_FO0112||FO}} with depth {{2110.11150_FO0090||FO}} and architecture {{2110.11150_FO0113||FO}} is initialized independently, uniformly at random according to {{2110.11150_FO0114||FO}} and {{2110.11150_FO0068||FO}}. Then, with probability at least {{2110.11150_FO0115||FO}}, {{2110.11150_FO0112||FO}} contains an approximation {{2110.11150_FO0022||FO}} so that {{2110.11150_FO0116||FO}} if for l = 1, ..., L

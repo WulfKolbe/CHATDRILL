@@ -1,0 +1,9 @@
+created: 20260625080859570
+modified: 20260625080859570
+page: 000
+parent_section: arxiv_2209_07250_H9
+tags: paragraph arxiv_2209_07250
+title: arxiv_2209_07250_PARA_0066
+type: text/vnd.tiddlywiki
+
+Existing QA datasets only incidentally contain count queries; we leverage search engine autocomplete suggestions to automatically compile count queries that reflect real user queries [how-google-autocomplete-predictions-work]. We provide the Google search engine with iterative query prefixes of the form \textit{``How many X''}, where {{arxiv_2209_07250_FO0028||FO}}, similar to the candidate generation from patterns used in [romero2019commonsense], and collect all autocomplete suggestions via SERP API\footnote{\url{https://serpapi.com}}. We keep those with at least one named-entity (to avoid too general queries).

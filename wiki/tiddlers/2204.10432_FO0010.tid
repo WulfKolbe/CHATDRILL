@@ -1,0 +1,11 @@
+caption: hidden\_size \times 9
+created: 20260625093505870
+displayMode: false
+latex: hidden\_size \times 9
+latex_original: hidden\_size \times 9
+modified: 20260625093505870
+tags: formula 2204.10432
+title: 2204.10432_FO0010
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

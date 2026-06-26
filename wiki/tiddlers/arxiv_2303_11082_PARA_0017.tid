@@ -1,0 +1,9 @@
+created: 20260625080853980
+modified: 20260625080853980
+page: 000
+parent_section: arxiv_2303_11082_H4
+tags: paragraph arxiv_2303_11082
+title: arxiv_2303_11082_PARA_0017
+type: text/vnd.tiddlywiki
+
+We will refer to facts that are present in a KB as existing facts and existing-fact prediction describes predicting the object for a subject-relation pair for which the object value already exists in the KB. Similarly, we refer to facts that are missing in a KB as missing facts and missing-fact prediction describes predicting the object for a subject-relation pair with no object value yet.

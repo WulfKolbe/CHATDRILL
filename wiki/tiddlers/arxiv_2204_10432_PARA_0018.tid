@@ -1,0 +1,9 @@
+created: 20260625080929321
+modified: 20260625080929321
+page: 000
+parent_section: arxiv_2204_10432_H2
+tags: paragraph arxiv_2204_10432
+title: arxiv_2204_10432_PARA_0018
+type: text/vnd.tiddlywiki
+
+The most recent eRisk shared task [losada2019overview] relies on the Beck Depression Inventory (BDI), a 21-item questionnaire that assesses level of depression based on the presence of feelings like sadness, pessimism, etc. Models are built to estimate the user-level BDI score at given time frames. Our approach differs in that we use PHQ9 and evaluate item scores at the post level, which grounds predictions in the presence of clinically-relevant symptoms. In eRisk, a sum of BDI scores is the modeled outcome (corresponding to our baseline pattern-based (threshold) classifier). We use user-level labels for evaluating depression status and evaluate how constraining on PHQ9 symptoms affects the user-level classification performance.

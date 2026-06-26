@@ -1,0 +1,11 @@
+caption: \not\in K
+created: 20260625093231916
+displayMode: false
+latex: \not\in K
+latex_original: \not\in K
+modified: 20260625093231916
+tags: formula 2305.05403
+title: 2305.05403_FO0087
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

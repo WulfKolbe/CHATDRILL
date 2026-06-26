@@ -1,0 +1,17 @@
+[
+    {
+        "title": "2110.11150_REF_elasticLTH",
+        "text": "{{||CIT}} X. Chen, Y. Cheng, S. Wang, Z. Gan, J. Liu, and Z. Wang. The elastic lottery ticket hypothesis. In Advances in Neural Information Processing Systems, 2021.",
+        "type": "text/markdown",
+        "tags": "reference bibentry bibtex 2110.11150",
+        "created": "20260626111149172",
+        "modified": "20260626111149172",
+        "kind": "reference",
+        "citekey": "elasticLTH",
+        "year": "2021",
+        "authors": "Xiaohan Chen and Yu Cheng and Shuohang Wang and Zhe Gan and Jingjing Liu and Zhangyang Wang",
+        "entry_type": "inproceedings",
+        "titlefield": "The Elastic Lottery Ticket Hypothesis",
+        "bibtex": "@inproceedings{elasticLTH,\ntitle={The Elastic Lottery Ticket Hypothesis},\nauthor={Xiaohan Chen and Yu Cheng and Shuohang Wang and Zhe Gan and Jingjing Liu and Zhangyang Wang},\nbooktitle={Advances in Neural Information Processing Systems},\nyear={2021}\n}"
+    }
+]

@@ -1,0 +1,19 @@
+created: 20260625080804874
+modified: 20260625080804874
+page: 000
+parent_section: arxiv_2501_06699_H7
+tags: paragraph arxiv_2501_06699
+title: arxiv_2501_06699_PARA_0060
+type: text/vnd.tiddlywiki
+
+The provocatively titled work ``Language Models as Knowledge Bases?'' [DBLP:conf/emnlp/PetroniRRLBWM19] initiated
+ a wave of research 
+ to investigate if and to what extent an
+ LLM can generate a full-fledged KG, based on advanced prompt engineering and few-shot in-context learning, and sometimes even with supervised fine-tuning.
+ Such techniques typically take as input a subject--predicate pair, such as Venezuela--capital, plus further prompting and context, and generate one or more objects that complete the desired fact. 
+ Results show that LLMs can indeed generate large volumes of facts, with decent accuracy, though still exhibiting some hallucinations. 
+ However, the size of these generated fact collections are three or more orders of magnitude smaller than what state-of-the-art KGs contain (e.g., 100 million entities, 1 billion facts in Wikidata), and the output correctness is substantially lower than the standard set by the best KGs (requiring 95% or even 99% correctness; see, e.g., [DBLP:journals/corr/abs-2407-13578]). There is then the danger that the hallucinations of LLMs could lead to polluting KGs, dragging down their correctness, and the quality of responses to factual queries (in particular).
+ Rather than trying to re-create KGs of this scale and quality, an interesting direction would be to identify gaps in the KG 
+ -- in terms of missing entities and facts about entities --
+ and use LLMs to strategically fill such gaps. 
+ In particular, less prominent entities in the long tail would call for extending KGs, but studies so far show that the LLM ability to generate facts rapidly degrades for long-tail entities that appear more rarely in the training corpus [DBLP:conf/icml/KandpalDRWR23,Veseli:EMNLP2023]. Conversely, the simple structure of KGs that make them a flexible solution for data integration scenarios inhibits their ability to represent more subtle aspects of knowledge. For this reason, KGs in practice often adorn the core graph abstraction with additional elements to capture such nuances; for example, Wikidata uses qualifiers, ranks and references to add additional context, priority and provenance to statements forming edges in the KG, allowing to succinctly but loosely capture, for example, that Bill Clinton was more prominent as a politician than a saxophonist. LLMs could help to enhance the ability of KGs to represent and capture more nuanced aspects of knowledge.

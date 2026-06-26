@@ -1,0 +1,10 @@
+created: 20260625080805467
+modified: 20260625080805467
+page: 000
+parent_section: arxiv_2411_12449_H1
+tags: paragraph arxiv_2411_12449
+title: arxiv_2411_12449_PARA_0013
+type: text/vnd.tiddlywiki
+
+In this work, we focus on generating reliable and temporally grounded responses to user queries, with a particular emphasis on entity-centric queries. Our choice is motivated by several factors: (i) users frequently inquire about entities during real-world events [10.1145/1571941.1571989, 10.1145/2187836.2187916], (ii) entity-centric information tuples of the form (subject, predicate, object) are highly valuable in Knowledge Base Question Answering (KBQA) tasks [10.1145/3459637.3482416, tempoqr], and (iii) user queries are often vague, ambiguous, and telegraphic, with implicit intent tied to the mentioned entities [Balog2018EntityOrientedS, 10.1145/2488388.2488484]. For example, Figure (ref) shows the Google trend line (\href{https://trends.google.com/trends/explore?cat=3&date=2023-08-01%202023-11-30&q=Doja%20Cat}{https://trends.google.com/trends})
+for the popular entity Doja Cat during the August-November, 2023 time frame, exhibiting peak search interest on specific dates, particularly around major events, e.g., on August 31 and September 15.

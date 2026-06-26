@@ -1,0 +1,14 @@
+created: 20260625080929033
+modified: 20260625080929033
+page: 000
+parent_section: arxiv_2204_11677_H17
+tags: paragraph arxiv_2204_11677
+title: arxiv_2204_11677_PARA_0215
+type: text/vnd.tiddlywiki
+
+\myparagraph{Error analysis}
+\convinse cannot answer the question correctly {{arxiv_2204_11677_FO0133||FO}}% of the time, arising from three error cases:
+i) the evidence retriever cannot retrieve any answering evidence ({{arxiv_2204_11677_FO0134||FO}}%), 
+which can be due to the QU phase missing important cues in the conversation,
+failures within the evidence retriever,
+or the information sources not containing necessary information for answering,

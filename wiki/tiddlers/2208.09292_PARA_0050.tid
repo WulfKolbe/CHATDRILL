@@ -1,0 +1,9 @@
+created: 20260625095716233
+modified: 20260625095716233
+page: 000
+parent_section: 2208.09292_H7
+tags: paragraph 2208.09292
+title: 2208.09292_PARA_0050
+type: text/vnd.tiddlywiki
+
+\example{Assume elephant has the hypernyms wild mammal and herbivorous animal. To build the provenance for top negation \texttt{{{2208.09292_FO0064||FO}}(elephant, can jump)} which holds for all siblings (by relaxed scoring) we compute: score(wild mammal, elephant, can jump, {{2208.09292_FO0065||FO}}tiger, horse, lion{{2208.09292_FO0066||FO}}) = {{2208.09292_FO0067||FO}}tiger, lion{{2208.09292_FO0068||FO}}/3 = 0.67, and score(herbivorous animal, elephant, can jump, {{2208.09292_FO0069||FO}}tiger, horse, lion{{2208.09292_FO0070||FO}}) = {{2208.09292_FO0071||FO}}horse{{2208.09292_FO0072||FO}}/3 = 0.33. The provenance-extended negation then reads: \texttt{{{2208.09292_FO0073||FO}}(elephant, can jump)} unlike other wild mammals, e.g., tiger, lion, and unlike other herbivorous animals, e.g., horse.

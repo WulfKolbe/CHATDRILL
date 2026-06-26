@@ -1,0 +1,9 @@
+created: 20260625080930847
+modified: 20260625080930847
+page: 000
+parent_section: arxiv_2111_13611_H7
+tags: paragraph arxiv_2111_13611
+title: arxiv_2111_13611_PARA_0052
+type: text/vnd.tiddlywiki
+
+We constructed mini-batches of size {{arxiv_2111_13611_FO0080||FO}}, used the Adam optimizer initialized with a constant learning rate of {{arxiv_2111_13611_FO0081||FO}}-{{arxiv_2111_13611_FO0082||FO}} and {{arxiv_2111_13611_FO0083||FO}}-{{arxiv_2111_13611_FO0084||FO}} epsilon value, and trained for {{arxiv_2111_13611_FO0085||FO}} epochs. Since our dataset is imbalanced, we monitored validation precision to save the best model, and report optimal F1-scores [Lipton2014OptimalTO] to compare results.

@@ -1,0 +1,9 @@
+created: 20260625093341705
+modified: 20260625093341705
+page: 000
+parent_section: 2209.07250_H10
+tags: paragraph 2209.07250
+title: 2209.07250_PARA_0076
+type: text/vnd.tiddlywiki
+
+The majority of the ground truth labels, (54% of all CoQuAD queries), are extracted from the top snippet. These snippets rank at the top of the search results, identified as featured snippets and are accompanied by an answer span, highlighted within the text or as a heading of the snippet. We refer to such queries as snippet-answerable, and provide two examples in Figure (ref).

@@ -1,0 +1,11 @@
+caption: \ensuremath{\mathit{cs}}\xspace_i = \sum_1^i x_i
+created: 20260625080931152
+displayMode: false
+latex: \ensuremath{\mathit{cs}}\xspace_i = \sum_1^i x_i
+latex_original: \CS_i = \sum_1^i x_i
+modified: 20260625080931152
+tags: formula arxiv_2110_13883
+title: arxiv_2110_13883_FO0240
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

@@ -1,0 +1,11 @@
+created: 20260625093119694
+modified: 20260625093119694
+page: 000
+parent_section: 2308.06374_H6
+tags: paragraph 2308.06374
+title: 2308.06374_PARA_0046
+type: text/vnd.tiddlywiki
+
+KG-BERT [yao2019kgbert] optimizes the BERT model on KGs, followed by KG-GPT2 [biswas2021contextual] that fine-tunes GPT-2 model. MTL-KGC [kim-etal-2020-mtl-kgc] enhances the effectiveness of KG-BERT by combining prediction and relevance ranking tasks. PKGC evaluates triple validity by translating it into natural language sentences, while LLMs process these sentences for binary classification. Masked Language Model (MLM) is introduced to encode KG text, with MEMKGC [choi2021mem]
+predicting masked entities using the MEM classification model. Open world KGC [choi2023knowledge] expands MEMKGC with modules Entity Description Prediction (EDP) and Incomplete Triple Prediction (ITP), focusing on predicting entities with given textual descriptions. 
+StAR [wang2021structure] uses Siamese-style textual encoders for text and a scoring module, while SimKGC [wangSimKGCSimpleContrastive2022a] leverages a Siamese textual encoder. LP-BERT [li2022lp] is a hybrid KG completion method that combines MLM encoding for pre-training with LLM and separated encoding for fine-tuning, using a contrastive learning strategy.

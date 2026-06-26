@@ -1,0 +1,9 @@
+created: 20260625093047340
+modified: 20260625093047340
+page: 000
+parent_section: 2405.02732_H1
+tags: paragraph 2405.02732
+title: 2405.02732_PARA_0003
+type: text/vnd.tiddlywiki
+
+This work addresses the underexplored and unsolved problem that IE faces with two ``longs'': extracting a long list of object entities that stand in a certain relation to a subject, appearing in long text, such as entire books or websites with many pages. Examples for this open challenge would be extracting a complete list of (nearly) all acquisitions and subsidiaries of Alphabet Inc., identifying all artists who have covered Bob Dylan songs, or finding all friends of Harry Potter in the Harry Potter book series. Figure (ref) illustrates this task.

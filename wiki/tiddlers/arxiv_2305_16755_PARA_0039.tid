@@ -1,0 +1,9 @@
+created: 20260625080853495
+modified: 20260625080853495
+page: 000
+parent_section: arxiv_2305_16755_H6
+tags: paragraph arxiv_2305_16755
+title: arxiv_2305_16755_PARA_0039
+type: text/vnd.tiddlywiki
+
+We recompute the quality of negatives (@5) over two levels of subject-popularity, namely prominent and long tail. Figure (ref) indicates a significant decrease in both salience and correctness for long tail subjects, for the text-based method; dropping to only 1% on salience. Using query logs as the corpus, users query prominent/trendy subjects much more frequently than long tail ones. We find the human-written statements for both popularity-levels comparable, with a slight advantage for prominent subjects. Similarly, the KG inferences model shows comparable results with a slight advantage of prominent subjects in correctness, and of long tail subjects in salience. Finally, we find an unexpected improvement, for all LLM variants, of long tail subjects over prominent ones, in both metrics. One interpretation could be the large amount of noisy web sources (main data source for training LLMs), about famous entities. For example, tabbouleh (long tail) is a specific instance of salad (prominent). While negatives about the former are more clear-cut, e.g., tabbouleh isn't made with rice but bulgur, negatives about the latter seem more unfocused, e.g., salad isn't always a healthy choice.

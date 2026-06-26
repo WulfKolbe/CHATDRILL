@@ -1,0 +1,11 @@
+caption: \neg
+created: 20260625080853724
+displayMode: false
+latex: \neg
+latex_original: \neg
+modified: 20260625080853724
+tags: formula arxiv_2305_05403
+title: arxiv_2305_05403_FO0133
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

@@ -1,0 +1,9 @@
+created: 20260625080853722
+modified: 20260625080853722
+page: 000
+parent_section: arxiv_2305_05403_H13
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0120
+type: text/vnd.tiddlywiki
+
+In such cases, we can turn to textual data, i.e., we can tap into textual sources for retrieving cardinality information. For example, if a text says ``Marie Curie advised 7 students'', we want to extract the number 7 for the predicate advised. More formally:

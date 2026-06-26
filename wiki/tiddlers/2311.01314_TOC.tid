@@ -1,0 +1,22 @@
+created: 20260625093057257
+format: fractal_xref
+modified: 20260625093057257
+tags: toc 2311.01314
+title: 2311.01314_TOC
+type: text/vnd.tiddlywiki
+
+** 1.1 [[Introduction|2311.01314_H1]]
+** 1.2 [[Related Work|2311.01314_H2]]
+** 1.3 [[Methodology|2311.01314_H3]]
+*** 1.3.1 [[System Architecture|2311.01314_H4]]
+*** 1.3.2 [[Training|2311.01314_H5]]
+*** 1.3.3 [[Inference|2311.01314_H6]]
+*** 1.3.4 [[Coping with Long and Noisy Texts|2311.01314_H7]]
+*** 1.3.5 [[Coping with Unlabeled Data|2311.01314_H8]]
+** 1.4 [[Experimental Design|2311.01314_H9]]
+** 1.5 [[Experimental Results|2311.01314_H10]]
+*** 1.5.1 [[Comparison of CUP against Baselines|2311.01314_H11]]
+*** 1.5.2 [[Efficiency of CUP|2311.01314_H12]]
+*** 1.5.3 [[Comparison of CUP Configurations|2311.01314_H13]]
+** 1.6 [[Analysis of User Profiles|2311.01314_H14]]
+** 1.7 [[Conclusion|2311.01314_H15]]

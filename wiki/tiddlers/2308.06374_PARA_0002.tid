@@ -1,0 +1,9 @@
+created: 20260625093119693
+modified: 20260625093119693
+page: 000
+parent_section: 2308.06374_H1
+tags: paragraph 2308.06374
+title: 2308.06374_PARA_0002
+type: text/vnd.tiddlywiki
+
+Large Language Models (LLMs) have taken Knowledge Representation (KR)---and the world---by storm, as they have demonstrated human-level performance on a vast spectrum of natural language tasks, including some tasks requiring human knowledge. Following this, people are gradually starting to accept the possibility of having knowledge represented in the parameters of some language models. The arrival of LLMs announces the era of Knowledge Computing, in which the notion of reasoning within KR is broadened to many computation tasks based on various knowledge representations.

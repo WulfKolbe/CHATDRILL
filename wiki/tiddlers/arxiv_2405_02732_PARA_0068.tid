@@ -1,0 +1,13 @@
+created: 20260625080827137
+modified: 20260625080827137
+page: 000
+parent_section: arxiv_2405_02732_H15
+tags: paragraph arxiv_2405_02732
+title: arxiv_2405_02732_PARA_0068
+type: text/vnd.tiddlywiki
+
+Table (ref) reports macro-averaged results for different configs of LLM-only 
+and L3X-RAG generations.
+The table shows both Stage 1 and Stage 2 results, but for Stage 2 all methods employ the
+basic {\em thr} classifier with default 
+hyper-parameter {{arxiv_2405_02732_FO0054||FO}}=0.8.

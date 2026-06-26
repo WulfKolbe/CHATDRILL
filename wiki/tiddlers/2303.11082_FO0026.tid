@@ -1,0 +1,11 @@
+caption: BERT_{large}
+created: 20260625093242023
+displayMode: false
+latex: BERT_{large}
+latex_original: BERT_{large}
+modified: 20260625093242023
+tags: formula 2303.11082
+title: 2303.11082_FO0026
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

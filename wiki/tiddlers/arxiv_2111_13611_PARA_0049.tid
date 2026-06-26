@@ -1,0 +1,9 @@
+created: 20260625080930847
+modified: 20260625080930847
+page: 000
+parent_section: arxiv_2111_13611_H7
+tags: paragraph arxiv_2111_13611
+title: arxiv_2111_13611_PARA_0049
+type: text/vnd.tiddlywiki
+
+Each proposed heuristic was turned into a classifier by first ranking documents according to the heuristic, and then labelling the top {{arxiv_2111_13611_FO0074||FO}} documents as class {{arxiv_2111_13611_FO0075||FO}} or informative. We used the Okapi BM25\footnote{\url{https://pypi.org/project/rank-bm25/}} and monoT5\footnote{\url{https://github.com/castorini/pygaggle}} open-source implementations for IR ranking. The monoT5 model is generally used for passage ranking, and as DoCo documents are much longer with multiple passages, we used the MaxP algorithm [Dai2019DeeperTU] to compute the document ranking. Since the difference in performance between T5 and BM25 models is negligible, we chose the simpler yet equally effective BM25 model as IR-relevance signal for HERB.

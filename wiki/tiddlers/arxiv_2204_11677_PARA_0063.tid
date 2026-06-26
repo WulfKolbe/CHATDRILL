@@ -1,0 +1,9 @@
+created: 20260625080929032
+modified: 20260625080929032
+page: 000
+parent_section: arxiv_2204_11677_H2
+tags: paragraph arxiv_2204_11677
+title: arxiv_2204_11677_PARA_0063
+type: text/vnd.tiddlywiki
+
+\myparagraph{Conversation} A conversation {{arxiv_2204_11677_FO0032||FO}} consists of a sequence of questions ({{arxiv_2204_11677_FO0033||FO}}) and corresponding answers ({{arxiv_2204_11677_FO0034||FO}}) (see Sec. (ref) for an example). The first question {{arxiv_2204_11677_FO0035||FO}} in {{arxiv_2204_11677_FO0036||FO}} is complete, while follow-up questions are usually incomplete.

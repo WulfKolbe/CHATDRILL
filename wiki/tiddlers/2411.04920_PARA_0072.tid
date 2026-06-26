@@ -1,0 +1,12 @@
+created: 20260625093027647
+modified: 20260625093027647
+page: 000
+parent_section: 2411.04920_H11
+tags: paragraph 2411.04920
+title: 2411.04920_PARA_0072
+type: text/vnd.tiddlywiki
+
+Our materialized resource enables a range of analyses about factual LLM knowledge, which for space reasons we only skim here: 1) Accuracy: See Sec. (ref) and paragraph above. 2) LLM bias: See Sec. (ref). 
+3) Timeliness: Exemplarily, we collect the most frequently mentioned years, and observe that there is sharp drop after 2023, which matches the knowledge cutoff of the LLM (see plot in Appendix (ref)).
+4) Subject-wise consistency: Our KB still contains many duplicates, e.g., The Elbe River, River Elbe, Elbe River, river Elbe, Elbe. Studying their triples gives insights into consistency, e.g., we observe a significant semantic overlap, but also frequent different wordings (e.g., wildlife - various fish species / fish species), and minor factual deviations (e.g., length 3x 1094km, 2x 1091km).
+5) Structural consistency: An interesting observation concerns the difficulty that LLMs have with inverse relations [reversalcurse]. We can observe this too, for instance, out of 318K spouse triples, only 8K are symmetric, and out of 61K parent\_company triples, only 6K are mirrored in subsidiary triples.

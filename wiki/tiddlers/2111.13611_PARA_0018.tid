@@ -1,0 +1,10 @@
+created: 20260625093527300
+modified: 20260625093527300
+page: 000
+parent_section: 2111.13611_H2
+tags: paragraph 2111.13611
+title: 2111.13611_PARA_0018
+type: text/vnd.tiddlywiki
+
+Information retrieval (IR) ranks documents by relevance to a query with keywords or telegraphic phrases. Relevance judgments are based on the perception of informativeness concerning the query and its underlying user intent. Standard metrics for assessment, like precision, recall and nDCG [Jrvelin2002CumulatedGE], are not applicable to 
+our setting. The notion of coverage pursued in this paper refers to the yield of structured outputs by RE systems rather than document relevance. For example, a query-topic-wise highly relevant document that contains few extractable facts about named entities would still have low RE coverage.

@@ -1,0 +1,1 @@
+<$latex text={{!!latex}} displayMode=true />

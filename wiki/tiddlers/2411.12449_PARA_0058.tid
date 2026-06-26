@@ -1,0 +1,10 @@
+created: 20260625093007936
+modified: 20260625093007936
+page: 000
+parent_section: 2411.12449_H7
+tags: paragraph 2411.12449
+title: 2411.12449_PARA_0058
+type: text/vnd.tiddlywiki
+
+Varying Context Length.
+The news chunks in NewsRAG typically contain 5-6 sentences, WebRAG uses 2-3 sentence web snippets, and Neon variants are single-sentence entries. To ensure comparable prompt context lengths across the methods, the no. of top-k documents is method-specific. Therefore, in Tables (ref) and (ref), NewsRAG and WebRAG each retrieve the top-5 documents, while Neon variants use top-10 documents. This creates a trade-off between detail and diversity, each of which may benefit a certain kind of query or response. To investigate this, we compare and present the performance with varying {{2411.12449_FO0136||FO}}, as illustrated in Figure (ref). The order in performance for the studied models is relatively stable with the increase of {{2411.12449_FO0137||FO}}, with {WebRAG} leading Neon on helpfulness and relevance, most likely because of the capabilities of Bing to operate over a much larger search space. Meanwhile Neon remains the most faithful, but we notice a substantial drop for all models when doubling of supporting passages from 5 to 10, which appears to be more acute when passages are longer (NewsRAG and WebRAG).

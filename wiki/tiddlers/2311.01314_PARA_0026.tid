@@ -1,0 +1,23 @@
+created: 20260625093057255
+modified: 20260625093057255
+page: 000
+parent_section: 2311.01314_H2
+tags: paragraph 2311.01314
+title: 2311.01314_PARA_0026
+type: text/vnd.tiddlywiki
+
+\noindent{\bf Exploiting User Reviews:}
+Incorporating user-provided reviews into recommenders
+has been pursued with deep neural networks 
+[DBLP:conf/www/ChenZLM18,DBLP:conf/kdd/LiuLDCG19,wu2019neural,DBLP:journals/corr/abs-2104-13030,DBLP:conf/cikm/ZhangACC17,10.1145/3018661.3018665]
+and latent-factor models [DBLP:conf/www/HuZY19,DBLP:conf/recsys/PenaOTHDSL20,DBLP:conf/recsys/ShalomUK19].
+Some works augment collaborative filtering (CF) models with user text, to mitigate data sparseness
+(e.g., [liu2020hybrid,lu2018coevolutionary,sar2018word]).
+[DBLP:conf/www/0012OM21] proposes to learn the 
+importance of review meta-data (age, length etc.), but textual content is disregarded.
+Other works like [DBLP:conf/sigir/ShuaiZWSHWL22] incorporate the similarity of user reviews and item descriptions into graph-based learning.
+Mostly pre-dating the advent of 
+large language models, these methods 
+have been 
+found to have only
+limited effects [DBLP:conf/sigir/SachdevaM20].

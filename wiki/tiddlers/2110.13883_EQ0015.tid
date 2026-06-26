@@ -1,0 +1,16 @@
+created: 20260625110956925
+displayMode: true
+equation_number: 
+kind: Equation
+latex: Y = X + Z \, ,
+latex_original: Y = X + Z \, ,
+latex_tex: Y = X + Z \, ,
+modified: 20260625110956925
+page: 000
+refnum: 
+score_tex: 1.0
+tags: equation 2110.13883
+title: 2110.13883_EQ0015
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode=true />

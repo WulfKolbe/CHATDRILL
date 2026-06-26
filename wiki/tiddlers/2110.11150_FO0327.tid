@@ -1,0 +1,11 @@
+caption: \delta_0
+created: 20260625151931664
+displayMode: false
+latex: \delta_0
+latex_original: \delta_0
+modified: 20260625151931664
+tags: formula 2110.11150
+title: 2110.11150_FO0327
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

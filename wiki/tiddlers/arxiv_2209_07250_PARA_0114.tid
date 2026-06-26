@@ -1,0 +1,9 @@
+created: 20260625080859570
+modified: 20260625080859570
+page: 000
+parent_section: arxiv_2209_07250_H19
+tags: paragraph arxiv_2209_07250
+title: arxiv_2209_07250_PARA_0114
+type: text/vnd.tiddlywiki
+
+The relations and answer types used in the top-k SPARQL queries can provide insights into existing contextualization in KB-QA as follows. If a subsequent query returns the same set of answers and has similar interpretation, then we have Synonyms and when a subsequent query returns an overlapping set of answers such that one query returns subset of the other, we have Subgroups.

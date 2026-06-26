@@ -1,0 +1,11 @@
+caption: _{kwGPT}
+created: 20260625080827351
+displayMode: false
+latex: _{kwGPT}
+latex_original: _{kwGPT}
+modified: 20260625080827351
+tags: formula arxiv_2311_01314
+title: arxiv_2311_01314_FO0042
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

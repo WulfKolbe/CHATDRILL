@@ -1,0 +1,9 @@
+created: 20260625080859570
+modified: 20260625080859570
+page: 000
+parent_section: arxiv_2209_07250_H10
+tags: paragraph arxiv_2209_07250
+title: arxiv_2209_07250_PARA_0075
+type: text/vnd.tiddlywiki
+
+When we automate the ground truth extraction process, we realize that there exists structure to the results provided by the search engines as illustrated in Figure (ref). Answers to a small minority of roughly 2% of the queries come from the internal KG. These KG-answerable queries have well-structured outputs. In the case of count queries the answers returned are counts and the path to the KG answer is also displayed to the user.

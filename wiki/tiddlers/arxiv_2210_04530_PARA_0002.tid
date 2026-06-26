@@ -1,0 +1,9 @@
+created: 20260625080858924
+modified: 20260625080858924
+page: 000
+parent_section: arxiv_2210_04530_H1
+tags: paragraph arxiv_2210_04530
+title: arxiv_2210_04530_PARA_0002
+type: text/vnd.tiddlywiki
+
+Compiling commonsense knowledge (CSK) is a long-standing problem in AI [lenat1995cyc]. Automated text-extraction-based approaches to CSK compilation, like Knext [DBLP:conf/aaai/GordonDS10], TupleKB [tuplekb], Quasimodo [quasimodo], COMET [hwang2020comet] or Ascent [ascent] typically struggle with reporting bias [reportingbias,mehrabi2021lawyers], in particular an under-reporting of basic commonsense assertions. This is a crux of commonsense: If knowledge is assumed to be commonplace, such as that rain is wet or cars have wheels, there is little need to utter it explicitly. In contrast, statements that contradict commonsense are more frequently reported, leading to inappropriate images of the real world, e.g., that fires are more often cold than hot (e.g., 238 vs.\ 173 literal occurrences in the English Wikipedia).

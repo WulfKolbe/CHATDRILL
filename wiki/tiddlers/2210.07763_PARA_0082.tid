@@ -1,0 +1,11 @@
+created: 20260625093308064
+modified: 20260625093308064
+page: 000
+parent_section: 2210.07763_H10
+tags: paragraph 2210.07763
+title: 2210.07763_PARA_0082
+type: text/vnd.tiddlywiki
+
+Ranking commonsense assertions is a crucial task.
+Unlike encyclopedic knowledge, which is normally either true or false, precision of CSK is usually not a binary concept, as it generalizes over many groups.
+With \systemname{}, we aim to pull out the most interesting assertions for each subject, and avoid overly generic assertions such as \stmt{Chinese food is good} or \stmt{Firefighters work hard}, which are very common in the texts.

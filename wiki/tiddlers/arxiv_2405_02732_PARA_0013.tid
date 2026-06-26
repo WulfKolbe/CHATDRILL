@@ -1,0 +1,14 @@
+created: 20260625080827136
+modified: 20260625080827136
+page: 000
+parent_section: arxiv_2405_02732_H2
+tags: paragraph arxiv_2405_02732
+title: arxiv_2405_02732_PARA_0013
+type: text/vnd.tiddlywiki
+
+\paragraph{OpenIE.}
+OpenIE [DBLP:conf/ijcai/Mausam16,DBLP:conf/naacl/StanovskyMZD18,DBLP:conf/acl/KolluruMMCM22] is a variant where S, P and O are simply surface phrases without linkage to a knowledge base. 
+While OpenIE may provide broader coverage across different relations, it is unsuitable for populating lists of crisp object entities for a given relation.
+Even when powered by distant supervision with (S,O) pairs, it remains limited to extraction from single sentences or short passages
+(e.g., 
+[DBLP:journals/csur/SmirnovaC19]).

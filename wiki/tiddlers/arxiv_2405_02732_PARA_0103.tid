@@ -1,0 +1,13 @@
+created: 20260625080827137
+modified: 20260625080827137
+page: 000
+parent_section: arxiv_2405_02732_H21
+tags: paragraph arxiv_2405_02732
+title: arxiv_2405_02732_PARA_0103
+type: text/vnd.tiddlywiki
+
+This work is based on Llama3.1-70B. 
+We also ran Stage 1 studies using other LLMs.
+With a 10x smaller Llama-8B model, recall fell below 50% (compared to ca. 80% with the 70B model).
+With GPT-3.5, preliminary experiments showed results similar to Llama-70B. 
+Still, a broader comparison of different LLMs for our task would be desirable.

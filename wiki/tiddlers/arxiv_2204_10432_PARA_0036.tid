@@ -1,0 +1,9 @@
+created: 20260625080929321
+modified: 20260625080929321
+page: 000
+parent_section: arxiv_2204_10432_H9
+tags: paragraph arxiv_2204_10432
+title: arxiv_2204_10432_PARA_0036
+type: text/vnd.tiddlywiki
+
+Each pattern set is then matched against a post collection crawled from 127 mental-health subreddits\footnote{\url{https://files.pushshift.io/reddit/}}. In addition, we also include posts from the SMHD dataset [cohan2018smhd], which excludes posts from mental-health subreddits, to diversify the training data.

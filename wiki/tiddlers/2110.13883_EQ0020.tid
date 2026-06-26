@@ -1,0 +1,16 @@
+created: 20260625110956925
+displayMode: true
+equation_number: 
+kind: Equation
+latex: \begin{aligned} Y_1 =& \cos(X_1) \cos(X_2) R + N_1 \,,\\ Y_2 =& \cos(X_1) \sin(X_2) R + N_2 \,,\\ Y_3 =& \sin(X_2) R + N_3 \,. \end{aligned}
+latex_original: \begin{aligned} Y_1 =& \cos(X_1) \cos(X_2) R + N_1 \,,\\ Y_2 =& \cos(X_1) \sin(X_2) R + N_2 \,,\\ Y_3 =& \sin(X_2) R + N_3 \,. \end{aligned}
+latex_tex: \begin{aligned} Y_1 =& \cos(X_1) \cos(X_2) R + N_1 \,,\\ Y_2 =& \cos(X_1) \sin(X_2) R + N_2 \,,\\ Y_3 =& \sin(X_2) R + N_3 \,. \end{aligned}
+modified: 20260625110956925
+page: 000
+refnum: 
+score_tex: 1.0
+tags: equation 2110.13883
+title: 2110.13883_EQ0020
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode=true />

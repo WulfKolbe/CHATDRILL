@@ -1,0 +1,24 @@
+created: 20260625080827349
+modified: 20260625080827349
+page: 000
+parent_section: arxiv_2311_01314_H7
+tags: paragraph arxiv_2311_01314
+title: arxiv_2311_01314_PARA_0050
+type: text/vnd.tiddlywiki
+
+Our techniques for selecting the most informative parts of user reviews 
+into a concise user profile
+are as follows:
+\squishlist
+\item {\bf Weighted Phrases:} selected words
+or 3-grams, ordered by descending tf-idf weights, where tf 
+is the frequency {of the phrase} in all of the user's reviews,
+and idf is pre-computed on Google books n-grams
+to capture informativeness. 
+\item {\bf Weighted Sentences:} 
+selected sentences, ordered by descending idf weights,
+where
+a sentence's total weight is the sum of the per-word idf weights normalized by sentence length.
+\item {\bf Similar Sentences:} selected sentences, ordered by descending similarity scores computed via Sentence-BERT [DBLP:conf/emnlp/ReimersG19] for comparing the {user-review} 
+sentences against 
+{the description of the corresponding item.}

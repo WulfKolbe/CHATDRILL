@@ -1,0 +1,9 @@
+created: 20260625080853979
+modified: 20260625080853979
+page: 000
+parent_section: arxiv_2303_11082_H1
+tags: paragraph arxiv_2303_11082
+title: arxiv_2303_11082_PARA_0006
+type: text/vnd.tiddlywiki
+
+Recently, pre-trained language models have been purported as a promising source for structured knowledge. Starting from the seminal LAMA paper [petroni], a throve of works have explored how to better probe, train, or fine-tune these LMs [liu2021pre]. Nonetheless, we observe a certain divide between these late-breaking investigations, and practical knowledge base completion (KBC). While the recent LM-based approaches often focus on attractive and clean methodologies that produce fast results, practical KBC is a highly precision-oriented, extremely laborious process, involving a very high degree of manual labor, either for manually creating statements [wikidata], or for building comprehensive scraping, cleaning, validation, and normalization pipelines [dbpedia,yago]. We believe previous works fall short in three aspects:

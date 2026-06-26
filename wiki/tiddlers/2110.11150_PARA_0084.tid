@@ -1,0 +1,13 @@
+created: 20260626094813420
+modified: 20260626094813420
+page: 000
+parent_section: 2110.11150_H22
+tags: paragraph 2110.11150
+title: 2110.11150_PARA_0084
+type: text/vnd.tiddlywiki
+
+Every layer {{2110.11150_FO0013||FO}} of {{2110.11150_FO0016||FO}} corresponds in our construction to two layers of {{2110.11150_FO0021||FO}}, i.e., layers {{2110.11150_FO0122||FO}} and {{2110.11150_FO0123||FO}}.
+The neurons in layer {{2110.11150_FO0123||FO}} correspond directly to the output neurons in layer {{2110.11150_FO0013||FO}} of {{2110.11150_FO0016||FO}}.
+Thus, we only need width {{2110.11150_FO0235||FO}} in {{2110.11150_FO0021||FO}}. 
+Layer {{2110.11150_FO0122||FO}} serves the construction of intermediary neurons of in-degree {{2110.11150_FO0028||FO}}.
+Using the identity {{2110.11150_FO0236||FO}}, we see that all neurons in layer {{2110.11150_FO0013||FO}} of {{2110.11150_FO0016||FO}} can indeed be represented by a two-layer neural network consisting of {{2110.11150_FO0237||FO}} intermediary neurons of degree {{2110.11150_FO0028||FO}}, as

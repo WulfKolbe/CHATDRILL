@@ -1,0 +1,15 @@
+created: 20260625080831231
+modified: 20260625080831231
+page: 000
+parent_section: arxiv_2308_06374_H9
+tags: paragraph arxiv_2308_06374
+title: arxiv_2308_06374_PARA_0109
+type: text/vnd.tiddlywiki
+
+Privacy.
+One major concern with LLMs is that employing any third-party application necessitates the transmission of data to that party. 
+When data, including protected health information (PHI), is managed by a covered entity like a hospital, it becomes subject to the regulations of the jurisdiction where the entity is located (e.g., GDPR). 
+Furthermore, by sending PHI to additional third parties, organizations lose control over how that data will be handled. 
+For instance, healthcare organizations are unable to determine the exact storage location of their data, whether it will be mixed with data from other organizations and utilized to train future language models, or what security measures are in place to safeguard the data. 
+Healthcare organizations employing LLMs must recognize that their data are potentially more susceptible to breaches or misuse.
+The role of preserving private information may be played by KGs through the modeling of axioms defining which data may be shared and with who and how personal knowledge may be anonymized in order to be transmitted to possible external systems.

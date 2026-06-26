@@ -1,0 +1,13 @@
+created: 20260625080827350
+modified: 20260625080827350
+page: 000
+parent_section: arxiv_2311_01314_H9
+tags: paragraph arxiv_2311_01314
+title: arxiv_2311_01314_PARA_0069
+type: text/vnd.tiddlywiki
+
+\vspace{0.1cm}
+\noindent{\bf Configurations:}
+In the experiments, all CUP variants use an input budget of 128 tokens
+as a stress test, emphasizing our goal of limiting the computational and energy costs.
+The following CUP configurations cover different ways of user profile creation (see Subsection (ref)):

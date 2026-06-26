@@ -1,0 +1,10 @@
+created: 20260625110956922
+modified: 20260625110956922
+page: 000
+parent_section: 2110.13883_H15
+tags: paragraph 2110.13883
+title: 2110.13883_PARA_0078
+type: text/vnd.tiddlywiki
+
+\bibliographystyle{IEEEtranS}
+\bibliography{bib/abbrev,bib/bib-jilles,bib/bib-paper}

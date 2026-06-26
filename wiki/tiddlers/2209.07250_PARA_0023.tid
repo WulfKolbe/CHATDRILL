@@ -1,0 +1,10 @@
+created: 20260625093341705
+modified: 20260625093341705
+page: 000
+parent_section: 2209.07250_H1
+tags: paragraph 2209.07250
+title: 2209.07250_PARA_0023
+type: text/vnd.tiddlywiki
+
+Search engines are the commercial state-of-the-art that are exposed to real-life user queries. They handle popular cases reasonably well, but also
+fail on semantically refined requests (e.g., ``for the Beatles''), merely returning either a number without explanatory evidence or multiple candidate answers with high variance (Figure (ref)). We also see incorrect spans being highlighted ``22 songs'' in the fourth snippet, which is actually a count of songs written by George Harrison.

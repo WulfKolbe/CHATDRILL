@@ -1,0 +1,10 @@
+created: 20260625080853252
+modified: 20260625080853252
+page: 000
+parent_section: arxiv_2306_17472_H10
+tags: paragraph arxiv_2306_17472
+title: arxiv_2306_17472_PARA_0051
+type: text/vnd.tiddlywiki
+
+Technically speaking, QA and TE are not LM-as-KB methods because they cannot generate facts without the help of context. 
+However, these two methods have a unified pattern with Cloze and ED under the context-based setting, we, therefore, include them for comparison.

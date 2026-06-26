@@ -1,0 +1,9 @@
+created: 20260625080922309
+modified: 20260625080922309
+page: 000
+parent_section: arxiv_2208_09292_H6
+tags: paragraph arxiv_2208_09292
+title: arxiv_2208_09292_PARA_0039
+type: text/vnd.tiddlywiki
+
+\example{With {{arxiv_2208_09292_FO0028||FO}} = 0.05, \texttt{{{arxiv_2208_09292_FO0029||FO}}(elephant, is amazing)} is dropped from the candidate set as it holds for 16% ({{arxiv_2208_09292_FO0030||FO}} 5%) of all the concepts in Ascent.}

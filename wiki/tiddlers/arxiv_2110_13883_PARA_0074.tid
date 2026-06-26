@@ -1,0 +1,13 @@
+created: 20260625080931150
+modified: 20260625080931150
+page: 000
+parent_section: arxiv_2110_13883_H14
+tags: paragraph arxiv_2110_13883
+title: arxiv_2110_13883_PARA_0074
+type: text/vnd.tiddlywiki
+
+To tackle this problem, we combined ideas from classical MI estimation and manifold learning.
+In particular, we proposed to use geodesic distances to estimate local densities on the manifold rather than in the ambient space.
+We leveraged the recently proposed Geodesic Forests, which can estimate relative geodesic distances even for high-dimensional data with many independent or noise dimensions.
+To be able to scale to our setting, we further proposed a faster algorithm to compute the splitting criterion for individual nodes.
+Based on computed geodesic distances, we then extended the state-of-the-art \ksg MI estimator to operate on these distances, leading to the \ourmethod estimator.

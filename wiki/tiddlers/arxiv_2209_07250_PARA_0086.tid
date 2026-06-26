@@ -1,0 +1,9 @@
+created: 20260625080859570
+modified: 20260625080859570
+page: 000
+parent_section: arxiv_2209_07250_H10
+tags: paragraph arxiv_2209_07250
+title: arxiv_2209_07250_PARA_0086
+type: text/vnd.tiddlywiki
+
+We identify different query components, namely the named entities, the relation, the type of the entities being counted (conventionally referred to as the type of the answer entity), and remaining context as a bag of words. As discussed in the methodology (Section (ref)), we use the types for checking compatibility of the instances as answer explanations. We apply basic natural language processing\footnote{We use SpaCy's en\_core\_web\_sm model.} to get the components.

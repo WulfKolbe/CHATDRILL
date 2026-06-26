@@ -1,0 +1,9 @@
+created: 20260625080859570
+modified: 20260625080859570
+page: 000
+parent_section: arxiv_2209_07250_H17
+tags: paragraph arxiv_2209_07250
+title: arxiv_2209_07250_PARA_0101
+type: text/vnd.tiddlywiki
+
+refined count extractor and also report the performance on a new dataset. The RP-Coverage trade-off metric highlights the advantages provided by {\mysystem}.

@@ -1,0 +1,12 @@
+created: 20260626094813420
+modified: 20260626094813420
+page: 000
+parent_section: 2110.11150_H22
+tags: paragraph 2110.11150
+title: 2110.11150_PARA_0089
+type: text/vnd.tiddlywiki
+
+Note that the same result also holds for normally distributed {{2110.11150_FO0265||FO}}, {{2110.11150_FO0266||FO}}, as their product contains a uniform distribution.
+This follows from the fact that the normal distribution contains a uniform distribution {{2110.11150_REF_pensia2020optimal||CIT}}.
+Thus, the product of two normal distributions contains a product of two uniform distributions and this product of uniform distributions contains a uniform distribution as stated by Cor. 2 of {{2110.11150_REF_pensia2020optimal||CIT}}.
+\end{proof}

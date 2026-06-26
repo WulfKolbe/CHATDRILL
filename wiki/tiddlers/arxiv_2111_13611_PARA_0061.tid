@@ -1,0 +1,9 @@
+created: 20260625080930847
+modified: 20260625080930847
+page: 000
+parent_section: arxiv_2111_13611_H9
+tags: paragraph arxiv_2111_13611
+title: arxiv_2111_13611_PARA_0061
+type: text/vnd.tiddlywiki
+
+The performance of RE methods significantly impacts the quality of {{arxiv_2111_13611_FO0100||FO}} as well as the RE coverage of documents. Although we used state-of-the-art commercial APIs, these nonetheless struggle on open web documents. To illustrate this, we randomly sampled {{arxiv_2111_13611_FO0101||FO}} documents from DoCo and compared the count of RE tuples returned by Diffbot/Rosette against the count by a human relation extractor. Diffbot returned {{arxiv_2111_13611_FO0102||FO}} fewer relational tuples, and Rosette returned {{arxiv_2111_13611_FO0103||FO}} fewer, suggesting the need for further improvement of RE methods.

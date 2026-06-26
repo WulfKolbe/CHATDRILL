@@ -1,0 +1,9 @@
+created: 20260625080804874
+modified: 20260625080804874
+page: 000
+parent_section: arxiv_2501_06699_H2
+tags: paragraph arxiv_2501_06699
+title: arxiv_2501_06699_PARA_0033
+type: text/vnd.tiddlywiki
+
+\parai{Coherency} refers to the ability to produce logically-consistent responses across repetitions of the same request or invocations of logically-related requests over the same base corpus. Repeating the same request to SEs and KGs will typically yield deterministic results, with changes in output linked to changes in the input corpus (though in the case of SEs, ranking methods may show high variance for small changes). Conversely, LLMs are often (and SEs are sometimes) made non-deterministic by design, which enables more diverse -- but less reproducible -- responses. While LLMs can be configured to be more or less deterministic, the responses may not be coherent for seemingly equivalent requests. For example, we cannot know statically (looking just at the requests) whether or not an LLM will return coherent responses for ``countries that are islands'' and ``islands that are countries'' [DBLP:journals/tacl/JiangXAN20] even though both requests are semantically equivalent. For an analogous request over KGs and SEs, we can prove query equivalence, i.e., we can assert that two requests will return the same response over any dataset, even if, for example, conjuncts (like island/country) are reordered (though in the case of SEs, rankings may vary). We can also, for example, prove query containment for KGs and SEs, such that the responses for ``countries that are islands'' are contained in the responses for ``countries'' or for ``islands'', which is not feasible for LLMs.

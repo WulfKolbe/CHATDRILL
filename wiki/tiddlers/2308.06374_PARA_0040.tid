@@ -1,0 +1,14 @@
+created: 20260625093119694
+modified: 20260625093119694
+page: 000
+parent_section: 2308.06374_H6
+tags: paragraph 2308.06374
+title: 2308.06374_PARA_0040
+type: text/vnd.tiddlywiki
+
+KG link prediction methods have mostly been studied for static snapshots of a KG.
+Many approaches, in fact, assume a training phase in which the current state of the KG is used to learn embeddings and other model parameters.
+Subsequently, many such models can only operate on entities for which an embedding was learned in the training phase.
+This leaves them incapable of predicting links for any previously unseen entities, such as newly added people or products.
+Inductive link prediction (ILP), in contrast, focuses on techniques that can predict links to new entities not originally contained in a KG. 
+Furthermore, existing KG embedding-based KG completion approaches frequently fail to leverage textual information and other literal information [gesese2021survey].

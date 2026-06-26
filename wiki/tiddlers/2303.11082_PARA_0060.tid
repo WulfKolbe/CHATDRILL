@@ -1,0 +1,9 @@
+created: 20260625093242023
+modified: 20260625093242023
+page: 000
+parent_section: 2303.11082_H17
+tags: paragraph 2303.11082
+title: 2303.11082_PARA_0060
+type: text/vnd.tiddlywiki
+
+A promising direction for future work could be the construction of LMs specifically for KBs, which goes beyond fine-tuning. This could include defining specific vocabularies that are optimized for fact prediction.

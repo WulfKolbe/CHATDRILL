@@ -1,0 +1,15 @@
+created: 20260625092952539
+modified: 20260625092952539
+page: 000
+parent_section: 2501.06699_H1
+tags: paragraph 2501.06699
+title: 2501.06699_PARA_0015
+type: text/vnd.tiddlywiki
+
+Generative AI has led to heated debate on the opportunities, limitations and risks of such technology, and the precedent it sets for the future.
+ These AI models and tools are often
+ powered by Large Language Models (LLMs) 
+ with many billions of parameters trained on vast corpora of natural language sourced 
+ from the Web. 
+ State-of-the-art LLMs are mostly based on the Transformer architecture [DBLP:conf/nips/VaswaniSPUJGKP17] for neural networks, trained to predict the next word or token of characters for a given input text, which can be an incomplete sentence, a question or a task description, such as asking for travel advice, solving a puzzle, or writing code for a programming exercise. The models operate in an ``auto-regressive'' way, generating entire output sequences token by token. LLMs trained on broad corpora and for a wide spectrum of tasks are sometimes
+ called foundational models [DBLP:journals/corr/abs-2108-07258] as they show proficiency across domains and tasks: from mass-user chatbots to co-pilots for software developers.

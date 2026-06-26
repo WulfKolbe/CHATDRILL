@@ -1,0 +1,14 @@
+created: 20260625080931153
+displayMode: true
+equation_number: 
+kind: Equation
+latex: - \log \hat{L} = \sum_{i=1}^2 \frac{n_i}{2} \left( 2 \log w_i - \log 2 \pi \hat{\sigma}_i^2 \right) \, ,
+latex_original: - \log \hat{L} = \sum_{i=1}^2 \frac{n_i}{2} \left( 2 \log w_i - \log 2 \pi \hat{\sigma}_i^2 \right) \, ,
+modified: 20260625080931153
+page: 000
+refnum: 
+tags: equation arxiv_2110_13883
+title: arxiv_2110_13883_EQ0012
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode=true />

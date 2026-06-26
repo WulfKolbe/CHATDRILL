@@ -1,0 +1,17 @@
+[
+    {
+        "title": "2110.11150_REF_sanity2",
+        "text": "{{||CIT}} X. Ma, G. Yuan, X. Shen, T. Chen, X. Chen, X. Chen, N. Liu, M. Qin, S. Liu, Z. Wang, and Y. Wang. Sanity checks for lottery tickets: Does your winning ticket really win the jackpot? In Advances in Neural Information Processing Systems, 2021.",
+        "type": "text/markdown",
+        "tags": "reference bibentry bibtex 2110.11150",
+        "created": "20260626111149173",
+        "modified": "20260626111149173",
+        "kind": "reference",
+        "citekey": "sanity2",
+        "year": "2021",
+        "authors": "Xiaolong Ma and Geng Yuan and Xuan Shen and Tianlong Chen and Xuxi Chen and Xiaohan Chen and Ning Liu and Minghai Qin and Sijia Liu and Zhangyang Wang and Yanzhi Wang",
+        "entry_type": "inproceedings",
+        "titlefield": "Sanity Checks for Lottery Tickets: Does Your Winning Ticket Really Win the Jackpot?",
+        "bibtex": "@inproceedings{sanity2,\ntitle={Sanity Checks for Lottery Tickets: Does Your Winning Ticket Really Win the Jackpot?},\nauthor={Xiaolong Ma and Geng Yuan and Xuan Shen and Tianlong Chen and Xuxi Chen and Xiaohan Chen and Ning Liu and Minghai Qin and Sijia Liu and Zhangyang Wang and Yanzhi Wang},\nbooktitle={Advances in Neural Information Processing Systems},\nyear={2021}\n}"
+    }
+]

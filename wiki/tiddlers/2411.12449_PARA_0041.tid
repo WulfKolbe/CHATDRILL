@@ -1,0 +1,12 @@
+created: 20260625093007936
+modified: 20260625093007936
+page: 000
+parent_section: 2411.12449_H4
+tags: paragraph 2411.12449
+title: 2411.12449_PARA_0041
+type: text/vnd.tiddlywiki
+
+\squishlist
+\item[1.] Temporal Retrieval: Retrieve the top-{{2411.12449_FO0108||FO}} tuples from {{2411.12449_FO0109||FO}} using {{2411.12449_FO0110||FO}}, where the tuples timestamp {{2411.12449_FO0111||FO}} exactly matches the query timestamp {{2411.12449_FO0112||FO}}. If fewer than {{2411.12449_FO0113||FO}} tuples match {{2411.12449_FO0114||FO}}, we retrieve additional tuples within a {{2411.12449_FO0115||FO}} day range of {{2411.12449_FO0116||FO}} to complete the top-{{2411.12449_FO0117||FO}} results, with {{2411.12449_FO0118||FO}} being a hyperparameter.
+\item[2.] Generic Retrieval: Retrieve the top-{{2411.12449_FO0119||FO}} tuples solely based on semantic similarity between {{2411.12449_FO0120||FO}} and each document in {{2411.12449_FO0121||FO}}.
+\squishend

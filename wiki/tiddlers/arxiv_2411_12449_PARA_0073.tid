@@ -1,0 +1,9 @@
+created: 20260625080805467
+modified: 20260625080805467
+page: 000
+parent_section: arxiv_2411_12449_H10
+tags: paragraph arxiv_2411_12449
+title: arxiv_2411_12449_PARA_0073
+type: text/vnd.tiddlywiki
+
+Neon presents a novel approach to enhancing QA systems by leveraging entity-interactions extracted from news streams. By constructing an entity-focused time-stamped graph and integrating its information into LLM prompts, Neon addresses the limitations of existing QA methods in handling temporal and entity-specific queries. Our experimental results demonstrate the effectiveness of Neon in generating relevant and reliable answers, making it a valuable addition to the QA landscape.

@@ -1,0 +1,15 @@
+created: 20260625080853722
+modified: 20260625080853722
+page: 000
+parent_section: arxiv_2305_05403_H20
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0193
+type: text/vnd.tiddlywiki
+
+\begin{revision}
+ Very recent studies examined the ability of large language models (LLMs), such as chatGPT [chatgpt], to generate salient negative statements [hiba-llms-negation,chen-etal-2023-say].
+Findings in [chen-etal-2023-say] are that contradictions exist in the LLM's belief, when comparing results of different tasks targeting the same piece of knowledge.
+For instance, LLMs generate the sentence ``Lions live in the ocean'', but answer ``No'' when asked ``Do lions live in the ocean?''. 
+Lessons from [hiba-llms-negation] include the importance of prompt engineering in this task. Prompts with expressions ``negative statements'', ``negated statements'', and ``negation statements'' return very different types of responses.
+Moreover, LLMs struggle with the true negativity of the statements returned, often generating statements with negative keywords but a positive meaning, e.g., ``a coffee table is not only used indoors''. 
+\end{revision}

@@ -1,0 +1,9 @@
+created: 20260625092952539
+modified: 20260625092952539
+page: 000
+parent_section: 2501.06699_H3
+tags: paragraph 2501.06699
+title: 2501.06699_PARA_0041
+type: text/vnd.tiddlywiki
+
+The previous section provides some general insights into the pros and cons of SEs, KGs and LLMs with respect to several key issues. The question we now ask is: how do these factors affect the end user? The answer to this question clearly depends on what information need the user is trying to satisfy. In some cases, the user's need may be satisfied with SEs; in other cases an LLM may suffice; in yet other situations a KG may be useful; finally, there are also cases where none of these technologies currently suffices. Towards a more meaningful answer to this question, we first draft a conceptual list of user needs. Some such categories have been identified, for example in the creation of benchmarks [abs-2406-04744], but previous categorizations tend to focus purely on factual questions, whereas our categorization covers a broader range of typical user questions. This list can then be compared against the capabilities (and limitations) of SEs, KG and LLMs. Table (ref) presents a categorization of common user needs along these lines that we now discuss.

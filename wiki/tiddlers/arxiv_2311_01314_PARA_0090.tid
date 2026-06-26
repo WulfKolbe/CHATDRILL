@@ -1,0 +1,10 @@
+created: 20260625080827350
+modified: 20260625080827350
+page: 000
+parent_section: arxiv_2311_01314_H13
+tags: paragraph arxiv_2311_01314
+title: arxiv_2311_01314_PARA_0090
+type: text/vnd.tiddlywiki
+
+\item The CUP{{arxiv_2311_01314_FO0042||FO}} variant achieves its highest gains for the richer item/user groups: seen items and regular or bibliophilic users (GR dataset). This provides ChatGPT with longer and more informative texts. A similar effect, but to a lesser and noisier extent, can be observed for T5-based CUP{{arxiv_2311_01314_FO0043||FO}}. Conversely, these methods perform substantially worse on the sporadic-unseen group. 
+ \squishend

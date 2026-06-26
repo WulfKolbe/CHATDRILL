@@ -1,0 +1,11 @@
+created: 20260625080827350
+modified: 20260625080827350
+page: 000
+parent_section: arxiv_2311_01314_H12
+tags: paragraph arxiv_2311_01314
+title: arxiv_2311_01314_PARA_0084
+type: text/vnd.tiddlywiki
+
+The other extreme, allowing all BERT parameters to be altered,
+performs best after enough training epochs. 
+However, it takes almost twice as much time per epoch. From the benefit/cost perspective, our design choice hits a sweet spot in the spectrum of model configurations.

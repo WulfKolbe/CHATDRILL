@@ -1,0 +1,9 @@
+created: 20260625093527300
+modified: 20260625093527300
+page: 000
+parent_section: 2111.13611_H11
+tags: paragraph 2111.13611
+title: 2111.13611_PARA_0074
+type: text/vnd.tiddlywiki
+
+Figure (ref) (top) compares the total RE tuples obtained by the proposed methods, averaged across test dataset entities and {{2111.13611_FO0119||FO}} chosen relations. Notably, BM25 doesn't perform much better than random, while coverage prediction is not far behind the perfect ranking defined by the coverage oracle. Ordering documents by coverage prediction instead of IR-relevance gives 50% more extractions from the top-{{2111.13611_FO0120||FO}} documents.

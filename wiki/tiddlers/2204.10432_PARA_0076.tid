@@ -1,0 +1,9 @@
+created: 20260625093505870
+modified: 20260625093505870
+page: 000
+parent_section: 2204.10432_H20
+tags: paragraph 2204.10432
+title: 2204.10432_PARA_0076
+type: text/vnd.tiddlywiki
+
+All of these variations, except for the first one, use a CNN classifier on top of different inputs ranging from BERT embedding to pattern scores. The CNN used here has ({{2204.10432_FO0033||FO}}, {{2204.10432_FO0034||FO}}), and {{2204.10432_FO0035||FO}} for k-max pooling. The threshold for the first variation was tuned on from {{2204.10432_FO0036||FO}} to {{2204.10432_FO0037||FO}}.

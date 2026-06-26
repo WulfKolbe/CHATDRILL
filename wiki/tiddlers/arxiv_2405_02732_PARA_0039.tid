@@ -1,0 +1,10 @@
+created: 20260625080827137
+modified: 20260625080827137
+page: 000
+parent_section: arxiv_2405_02732_H7
+tags: paragraph arxiv_2405_02732
+title: arxiv_2405_02732_PARA_0039
+type: text/vnd.tiddlywiki
+
+In {\bf single-prompt} mode, the LLM uses only the best of these formulations (i.e., considered most natural by humans). In {\bf ensemble} mode, for each relation, we manually prepare five prompt templates for direct prompting, and five retriever query templates for L3X-RAG, and repeat all LLM-based extraction tasks with all templates. 
+ The final O is the union of the O values generated across all runs.

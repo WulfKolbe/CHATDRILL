@@ -1,0 +1,10 @@
+created: 20260625093206653
+modified: 20260625093206653
+page: 000
+parent_section: 2305.16755_H3
+tags: paragraph 2305.16755
+title: 2305.16755_PARA_0024
+type: text/vnd.tiddlywiki
+
+\noindent
+Data. We consider 50 subjects, 25 encyclopedic entities such as elon musk, and 25 commonsense concepts, such as jogging (Full list in Appendix (ref)). Our intuition behind these choices is diversity: (i) in types, e.g., activities, occupations, people; and (ii) in popularity, e.g., tom cruise (a famous hollywood actor) and peri gilpin (a less known tv actor).

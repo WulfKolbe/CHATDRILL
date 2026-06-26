@@ -1,0 +1,16 @@
+created: 20260625093527301
+displayMode: true
+equation_number: 
+kind: Equation
+latex: \mathrm{coverage}_{extr}(d,e,r) = \frac{\mid extr(d,e,r) \cap GT \mid }{\mid GT \mid}
+latex_original: \mathrm{coverage}_{extr}(d,e,r) = \frac{\mid extr(d,e,r) \cap GT \mid }{\mid GT \mid}
+latex_tex: \mathrm{coverage}_{extr}(d,e,r) = \frac{\mid extr(d,e,r) \cap GT \mid }{\mid GT \mid}
+modified: 20260625093527301
+page: 000
+refnum: 
+score_tex: 1.0
+tags: equation 2111.13611
+title: 2111.13611_EQ0001
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode=true />

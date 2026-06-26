@@ -1,0 +1,11 @@
+caption: \langle \textit{value}, \textit{units}, \textit{change}\rangle
+created: 20260625080853724
+displayMode: false
+latex: \langle \textit{value}, \textit{units}, \textit{change}\rangle
+latex_original: \langle \textit{value}, \textit{units}, \textit{change}\rangle
+modified: 20260625080853724
+tags: formula arxiv_2305_05403
+title: arxiv_2305_05403_FO0117
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

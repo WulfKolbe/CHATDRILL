@@ -1,0 +1,16 @@
+created: 20260625110956922
+modified: 20260625110956922
+page: 000
+parent_section: 2110.13883_H13
+tags: paragraph 2110.13883
+title: 2110.13883_PARA_0072
+type: text/vnd.tiddlywiki
+
+Next, we consider a simulation using the Sphere data, a simple dataset which, however, shows to be an astonishingly hard challenge for the state-of-the-art MI estimators.
+We show the results in Fig. (ref) bottom right.
+Overall, we observe similar trends as for Helix, giving further evidence that classical MI estimates are not able to capture manifolds within data with a large number of independent or noise dimensions.
+As before, \ksg quickly deteriorates to estimate {{2110.13883_FO0347||FO}} mutual information.
+Similarly, \lnn shows a steep, near linear dependence between predicted MI and independent dimensions, which has little to do with the true MI.
+Again, \gknn shows to perform poorly on the original task without added dimensions and fails to compute a result due to numerical issues on data of more than a handful of dimensions.
+On this dataset, \ourmethod consistently predicts MI close to the ground truth, regardless dimensions.
+Even for hundreds of added dimensions, \ourmethod remains stable estimates, whereas all other methods fail to do so (see Supplementary Material (ref)).

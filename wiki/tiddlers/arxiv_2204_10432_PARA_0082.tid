@@ -1,0 +1,10 @@
+created: 20260625080929321
+modified: 20260625080929321
+page: 000
+parent_section: arxiv_2204_10432_H23
+tags: paragraph arxiv_2204_10432
+title: arxiv_2204_10432_PARA_0082
+type: text/vnd.tiddlywiki
+
+\paragraphHd{Positive sentiment.}
+Some posts contain positive patterns but do not show depressive signal; for example, ``Friends and I stayed up all night playing a game'' contains the positive pattern ``stayed up all night'', but it shows excitement about the game rather than a sleep issue. As a solution, we removed all posts containing positive sentiment with the help of Allen NLP's sentiment model [Gardner2017ADS].

@@ -1,0 +1,11 @@
+created: 20260625093119694
+modified: 20260625093119694
+page: 000
+parent_section: 2308.06374_H8
+tags: paragraph 2308.06374
+title: 2308.06374_PARA_0098
+type: text/vnd.tiddlywiki
+
+One idea to deal with the above lack of (updated) knowledge is to edit the knowledge in LLMs. A obvious strategy is to retrain and fine-tune the model based on the modified data. 
+However, apart from being costly, retraining cannot guarantee that erroneous data will be corrected. Another Strategy is to develop hyper-network to learn a parameter shift for the base model. De Cao et al.
+[de-cao-etal-2021-editing] trained a hyper-network, KnowledgeEditor, to modify a fact and used Kullback-Leibler (KL) divergence-constrained optimization to alleviate the side effect on other data/knowledge that should not be changed. However, this method does not perform well when editing multiple edits, as it uses the same strategy to process multiple edits and ignore the relation between different edit gradients, resulting in a ``zero-sum'' phenomenon, where the inter-gradient conflict will inevitably cause some data modifications to fail. Han et al. [HLLP2023] design explicit and implicit multi-editor models to learn diverse editing strategies in terms of dynamic structure and dynamic parameters respectively, allowing to deal with the conflict data in an efficient end-to-end manner.

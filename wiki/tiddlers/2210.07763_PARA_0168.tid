@@ -1,0 +1,11 @@
+created: 20260625093308065
+modified: 20260625093308065
+page: 000
+parent_section: 2210.07763_H24
+tags: paragraph 2210.07763
+title: 2210.07763_PARA_0168
+type: text/vnd.tiddlywiki
+
+The evaluations of assertion quality (Tables (ref), (ref), (ref) and (ref)) are conducted on Amazon MTurk (AMT). We present CCSK assertions to annotators in the form of natural-language sentences (triples from Quasimodo [quasimodo] and Acharya et al. [acharya2020towards] were verbalized using crafted rules).
+We evaluate each assertion along 3-4 dimensions on a 3-point Liker scale - negation (0), ambiguity (1) and affirmation (2). 
+Each AMT task consists of 5 assertions evaluated by 3 different annotators. Workers are compensated \$0.50 per task. We select Master workers with lifetime's acceptance rate more than 99%. We obtain fair inter-annotator agreements given by Fleiss' kappa [fleiss1973equivalence]: 25.0 for DOM, 25.7 for PLA and 25.4 for DIS. This number for COM (13.4) is lower than others because it is an objective question (has the annotator heard of the assertion?).

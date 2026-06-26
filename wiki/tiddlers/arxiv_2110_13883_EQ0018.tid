@@ -1,0 +1,14 @@
+created: 20260625080931153
+displayMode: true
+equation_number: 
+kind: Equation
+latex: \begin{aligned} I(P; \{ X',Y',Z' \}) &= h(X',Y',Z') - h(X',Y',Z' \mid P) \\ &= h(X',Y',Z') - h(N_1,N_2,N_3) \\ &= h(X') + h(Y' \mid X') + h(Z' \mid X',Y') \\ &- h(N_1,N_2,N3) \, , \end{aligned}
+latex_original: \begin{aligned} I(P; \{ X',Y',Z' \}) &= h(X',Y',Z') - h(X',Y',Z' \mid P) \\ &= h(X',Y',Z') - h(N_1,N_2,N_3) \\ &= h(X') + h(Y' \mid X') + h(Z' \mid X',Y') \\ &- h(N_1,N_2,N3) \, , \end{aligned}
+modified: 20260625080931153
+page: 000
+refnum: 
+tags: equation arxiv_2110_13883
+title: arxiv_2110_13883_EQ0018
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode=true />

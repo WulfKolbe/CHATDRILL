@@ -1,0 +1,12 @@
+created: 20260625080858063
+modified: 20260625080858063
+page: 000
+parent_section: arxiv_2210_07763_H6
+tags: paragraph arxiv_2210_07763
+title: arxiv_2210_07763_PARA_0056
+type: text/vnd.tiddlywiki
+
+GenericsKB [bhakthavatsalam2020genericskb] is arguably the most popular work on automatically identifying generic sentences in texts and it uses a set of 27 hand-crafted lexico-syntactic rules.
+\systemname{} adopts those rules in this module. 
+However, for each domain and facet, we adaptively drop some of the rules if they would reject valuable assertions. 
+More details on the adaptations can be found in Appx. (ref).

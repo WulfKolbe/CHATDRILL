@@ -1,0 +1,15 @@
+created: 20260626094813420
+modified: 20260626094813420
+page: 000
+parent_section: 2110.11150_H22
+tags: paragraph 2110.11150
+title: 2110.11150_PARA_0085
+type: text/vnd.tiddlywiki
+
+According to Lemma (ref), we need to approximate each {{2110.11150_FO0238||FO}} and {{2110.11150_FO0239||FO}} up to error {{2110.11150_FO0240||FO}} and {{2110.11150_FO0241||FO}} up to error {{2110.11150_FO0100||FO}} to guarantee our overall approximation objective. 
+Since we have to do this for every parameter, our overall approximation can only be successful with probability {{2110.11150_FO0115||FO}} if we increase our success probability for each parameter, {{2110.11150_FO0242||FO}}, accordingly.
+In total, we have {{2110.11150_FO0243||FO}} of such nonzero parameters in layer {{2110.11150_FO0013||FO}} with {{2110.11150_FO0244||FO}}. 
+(To be precise, {{2110.11150_FO0243||FO}} denotes the number of parameters that are bigger than {{2110.11150_FO0100||FO}}).
+The successes of finding different parameters are not necessarily independent but we can identify a sufficient {{2110.11150_FO0245||FO}} with the help of a union bound. 
+Accordingly, {{2110.11150_FO0246||FO}} is fulfilled for {{2110.11150_FO0247||FO}}. 
+Note that we later integrate the factor {{2110.11150_FO0248||FO}} in the constant related to the layer width.

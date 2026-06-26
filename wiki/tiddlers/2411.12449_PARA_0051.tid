@@ -1,0 +1,10 @@
+created: 20260625093007936
+modified: 20260625093007936
+page: 000
+parent_section: 2411.12449_H6
+tags: paragraph 2411.12449
+title: 2411.12449_PARA_0051
+type: text/vnd.tiddlywiki
+
+Notably, work by [dettmers2023qlora] observed that the order and detail of attribute ratings can influence evaluation outcomes. To mitigate potential bias, we prompt the LLM separately for each attribute, tripling the number of LLM calls but reducing the risk of cross-attribute contamination. To further ensure robustness in our evaluation, we perform few-shot evaluation using human annotated in-context examples
+on the same attributes. The actual prompt templates are provided in Table (ref).

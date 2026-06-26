@@ -1,0 +1,12 @@
+created: 20260625080827137
+modified: 20260625080827137
+page: 000
+parent_section: arxiv_2405_02732_H15
+tags: paragraph arxiv_2405_02732
+title: arxiv_2405_02732_PARA_0073
+type: text/vnd.tiddlywiki
+
+\noindent{\bf Best L3X Config at Stage 2.}
+The strong AUC of {\em amp} is a strong
+starting point for the {\em thr}
+classifier at Stage 2, where it achieves the best R@P values, with almost 50% for R@P50---with a large margin over the second-best method.

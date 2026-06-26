@@ -1,0 +1,14 @@
+created: 20260625093308064
+modified: 20260625093308064
+page: 000
+parent_section: 2210.07763_H1
+tags: paragraph 2210.07763
+title: 2210.07763_PARA_0019
+type: text/vnd.tiddlywiki
+
+First and second, we identify candidate assertions using simple techniques for subject detection (named entity recognition - NER, and string matching), and generic rule-based filtering.
+Third, we classify assertions into specific cultural facets, which is challenging because we have several combinations of cultural groups and cultural facets, making it very expensive to create specialized training data.
+Instead, we creatively leverage LMs pre-trained on the Natural Language Inference (NLI) task to perform zero-shot classification on our data, with judicious techniques to enhance the accuracy.
+Fourth we use state-of-the-art techniques for assertion clustering, and fifth a simple but effective method to extract concepts in assertions.
+Lastly, we combine several features to score the interestingness of assertions, such as frequency, specificity, distinctiveness.
+This way, we

@@ -1,0 +1,19 @@
+created: 20260625080804874
+modified: 20260625080804874
+page: 000
+parent_section: arxiv_2501_06699_H2
+tags: paragraph arxiv_2501_06699
+title: arxiv_2501_06699_PARA_0037
+type: text/vnd.tiddlywiki
+
+\parai{Expressivity} refers to the ability to express and respond to potentially complex requests.
+ KGs support expressive query languages that can join data across relations, group entities by categories such as geo-regions, compute aggregates (e.g., averaging) over groups, and much more
+ [DBLP:journals/csur/AnglesABHRV17].
+ LLMs and SEs can process arbitrary requests in natural language (with varying success). 
+ For SEs, these are traditionally in the form of keywords, but telegraphic queries and full-fledged questions are equally supported today. However, the input length is tightly limited.
+ LLMs, on the other hand, accept fairly long user text (e.g., 50K tokens and increasing), which allows natural conversations and even working with user-provided data such as spreadsheets.
+ But operating over text has pros and cons.
+ LLMs 
+ can capture nuanced expressions that are difficult to model in KGs.
+ On the other hand, KGs feature formal types and logical operators, with unambiguous interpretations not possible for text.
+ For example, negating a statement can be very subtle and tricky to understand in language, whereas it is explicit and clear in logic.

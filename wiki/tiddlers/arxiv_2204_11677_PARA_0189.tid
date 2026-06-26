@@ -1,0 +1,17 @@
+created: 20260625080929033
+modified: 20260625080929033
+page: 000
+parent_section: arxiv_2204_11677_H16
+tags: paragraph arxiv_2204_11677
+title: arxiv_2204_11677_PARA_0189
+type: text/vnd.tiddlywiki
+
+\convinse and most of the baselines
+consistently reach {{arxiv_2204_11677_FO0117||FO}}-{{arxiv_2204_11677_FO0118||FO}} on answer presence
+in their evidence pools after QU and ERS,
+with \convinse leading with {{arxiv_2204_11677_FO0119||FO}}
+(see Table (ref)). 
+These numbers set the upper bounds for
+end-to-end QA after the answering phase,
+which are in the ballpark of {{arxiv_2204_11677_FO0120||FO}}-{{arxiv_2204_11677_FO0121||FO}}
+(see Table (ref)).

@@ -1,0 +1,11 @@
+caption: \mathcal{H} = 0.95
+created: 20260625080816564
+displayMode: false
+latex: \mathcal{H} = 0.95
+latex_original: \mathcal{H} = 0.95
+modified: 20260625080816564
+tags: formula arxiv_2411_04920
+title: arxiv_2411_04920_FO0006
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

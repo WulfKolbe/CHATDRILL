@@ -1,0 +1,9 @@
+created: 20260625110956922
+modified: 20260625110956922
+page: 000
+parent_section: 2110.13883_H7
+tags: paragraph 2110.13883
+title: 2110.13883_PARA_0049
+type: text/vnd.tiddlywiki
+
+More formally, given a sample {{2110.13883_FO0203||FO}} of a {{2110.13883_FO0204||FO}}-dimensional random vector {{2110.13883_FO0205||FO}}, GF builds a set of {{2110.13883_FO0206||FO}} trees. Each tree {{2110.13883_FO0207||FO}} is trained on a bootstrapped sub-sample of size {{2110.13883_FO0208||FO}}, as typical for learning random forests [breiman:01:rf]. To grow a tree, we recursively split each parent node into its two child nodes until a certain stopping criterium is met. The two critical features, in which Geodesic Forests are different from classical random forests are the node splitting and the stopping criterium, which we describe in more detail below.

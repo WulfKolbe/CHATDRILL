@@ -1,0 +1,14 @@
+created: 20260625093448815
+modified: 20260625093448815
+page: 000
+parent_section: 2204.11677_H16
+tags: paragraph 2204.11677
+title: 2204.11677_PARA_0195
+type: text/vnd.tiddlywiki
+
+The expressivity in the SRs helps achieve the highest answer presence
+after QU and ERS ({{2204.11677_FO0125||FO}} in Table (ref)),
+outperforming all baselines by substantial margins.
+This advantage is carried forward to the answering stage
+and results in the best end-to-end QA performance
+({{2204.11677_FO0126||FO}} in Table (ref)).

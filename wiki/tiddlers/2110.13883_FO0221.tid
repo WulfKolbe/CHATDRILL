@@ -1,0 +1,11 @@
+caption: | \theta_M |
+created: 20260625110956924
+displayMode: false
+latex: | \theta_M |
+latex_original: | \theta_M |
+modified: 20260625110956924
+tags: formula 2110.13883
+title: 2110.13883_FO0221
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

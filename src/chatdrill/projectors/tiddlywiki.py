@@ -33,11 +33,6 @@ from .providers import for_source
 _STOP = {"the", "a", "an", "of", "for", "to", "in", "on", "and", "or", "with",
          "is", "are", "how", "what", "why", "do", "i", "my", "me", "please"}
 _GENERIC = {"", "new chat", "untitled", "(untitled)", "chat"}
-_URL_RE = re.compile(r"https?://[^\s)>\]\"'`]+")
-_SPOKEN_RE = re.compile(
-    r"\bthe (code|script|function|snippet|example) (above|below|earlier|"
-    r"shown (?:above|earlier)|i (?:gave|showed|wrote)(?: (?:above|earlier))?)\b",
-    re.IGNORECASE)
 
 
 def _camel(s: str, words: int = 3) -> str:
@@ -80,19 +75,9 @@ def _bibtag(key: str) -> str:
     return f"[[{key}]]" if " " in key else key
 
 
-# ---- template tiddlers (shared; one set, transcluded by every instance) ------
-def _templates() -> list[dict]:
-    def tpl(title, text):
-        return {"title": title, "tags": "$:/tags/chatdrill/template",
-                "type": "text/markdown", "text": text}
-    return [
-        tpl("CODE", "<$codeblock code={{!!code}} language={{!!lang}}/>"),
-        tpl("FO", "<$latex text={{!!latex}} displayMode=false/>"),
-        tpl("EQ", "<$latex text={{!!latex}} displayMode=true/>"),
-        tpl("URL", '<a class="tc-tiddlylink-external" rel="noopener" '
-                   'target="_blank" href={{!!url}}>{{!!caption}}</a>'),
-        tpl("CIT", '<a class="tc-tiddlylink-external" href={{!!url}}>[{{!!n}}]</a>'),
-    ]
+# Math: normalize TeX delimiters to $/$$ so markdown-it-katex renders them inline.
+_MATH_INLINE = re.compile(r"\\\((.+?)\\\)", re.S)     # \( … \)  → $ … $
+_MATH_DISPLAY = re.compile(r"\\\[(.+?)\\\]", re.S)    # \[ … \]  → $$ … $$
 
 
 class _Builder:
@@ -103,103 +88,53 @@ class _Builder:
         self.suffix = f"{self.prov.label} {_bibtag(self.bibkey)}"
         self.out: list[dict] = []
         self.n: dict[str, int] = defaultdict(int)
-        self.code_titles: list[str] = []          # for spoken-ref resolution
-        self.url_titles: list[str] = []
+        self.code_titles: list[str] = []          # code tiddlers, for the chat-root index
         self.source_urls: list[str] = []          # provider Sources section
 
     # -- low level --
-    def _title(self, code: str, width: int = 4) -> str:
-        i = self.n[code]; self.n[code] += 1
-        return f"{self.bibkey}_{code}{i:0{width}d}"
-
     def _tid(self, title: str, text: str, type_tag: str, **fields) -> str:
-        # text/markdown is the default for all content tiddlers; embedded
-        # transclusions/widgets/math still render (renderWikiText=true + katex).
+        # Everything is native text/markdown — code as ```fences```, math as
+        # $…$/$$…$$, links as [text](url). No widgets, no field references, so
+        # multi-line content and `}}` inside code are safe.
         t = {"title": title, "tags": f"{type_tag} {self.suffix}",
              "type": "text/markdown", "text": text}
         t.update({k: str(v) for k, v in fields.items() if v is not None})
         self.out.append(t)
         return title
 
-    # -- instance tiddlers (each transcluded via its template) --
     def add_code(self, code: str, lang: str | None) -> str:
-        title = self._tid(self._title("CODE", 3),
-                          "<$codeblock code={{!!code}} language={{!!lang}}/>",
-                          "code", code=code, lang=lang or "")
-        self.code_titles.append(title)
+        """A standalone code tiddler — a native markdown fenced block (the code
+        body lives in the TEXT, never a field, so newlines and `}}` are fine)."""
+        title = f"{self.bibkey}_CODE{self.n['CODE']:03d}"; self.n["CODE"] += 1
+        self._tid(title, f"```{lang or ''}\n{code}\n```", "code", lang=lang or "")
+        self.code_titles.append((title, lang or "?", len(code.splitlines())))
         return title
 
-    def add_formula(self, latex: str, display: bool) -> tuple[str, str]:
-        tpl = "EQ" if display else "FO"
-        title = self._tid(self._title(tpl),
-                          f"<$latex text={{{{!!latex}}}} displayMode={str(display).lower()}/>",
-                          "formula", latex=latex, caption=latex,
-                          displayMode=str(display).lower())
-        return title, tpl
-
-    def add_url(self, url: str, caption: str = "") -> str:
-        title = self._tid(self._title("URL", 3),
-                          '<a class="tc-tiddlylink-external" target="_blank" '
-                          'href={{!!url}}>{{!!caption}}</a>',
-                          "url", url=url, caption=caption or url)
-        self.url_titles.append(title)
-        return title
-
-    def add_citation(self, n: str, url: str) -> str:
-        return self._tid(self._title("CIT", 3),
-                         '<a class="tc-tiddlylink-external" href={{!!url}}>[{{!!n}}]</a>',
-                         "citation", n=n, url=url)
-
-    # -- reference substitutions over prose --
-    def _sub_math(self, text: str) -> str:
-        for open_d, close_d in self.prov.math:
-            display = open_d in ("$$", r"\[")
-            pat = re.compile(re.escape(open_d) + r"(.+?)" + re.escape(close_d), re.S)
-
-            def repl(m, display=display):
-                inner = m.group(1).strip()
-                if not inner or (open_d == "$" and not re.search(r"[\\^_{}]", inner)):
-                    return m.group(0)             # skip "$5" style non-math
-                title, tpl = self.add_formula(inner, display)
-                return f"{{{{{title}||{tpl}}}}}"
-            text = pat.sub(repl, text)
-        return text
-
-    def _sub_urls(self, text: str) -> str:
-        def repl(m):
-            title = self.add_url(m.group(0).rstrip(".,;:)]"))
-            return f"{{{{{title}||URL}}}}"
-        return _URL_RE.sub(repl, text)
+    # -- markdown rendering of a turn --
+    def _normalize_math(self, text: str) -> str:
+        text = _MATH_DISPLAY.sub(lambda m: f"$${m.group(1).strip()}$$", text)
+        return _MATH_INLINE.sub(lambda m: f"${m.group(1).strip()}$", text)
 
     def _sub_citations(self, text: str, sources: list[str]) -> str:
+        """`[n]` → a markdown link to source n (Perplexity)."""
         if not self.prov.citation or not sources:
             return text
         def repl(m):
             k = int(m.group(1))
-            if 1 <= k <= len(sources):
-                title = self.add_citation(str(k), sources[k - 1])
-                return f"{{{{{title}||CIT}}}}"
-            return m.group(0)
+            return f"[\\[{k}\\]]({sources[k - 1]})" if 1 <= k <= len(sources) else m.group(0)
         return re.sub(r"\[(\d{1,3})\]", repl, text)
 
-    def _sub_spoken(self, text: str) -> str:
-        if not self.code_titles:
-            return text
-        def repl(m):
-            return f"{m.group(0)} {{{{{self.code_titles[-1]}||CODE}}}}"
-        return _SPOKEN_RE.sub(repl, text)
-
     def render_segments(self, segments, sources: list[str]) -> str:
-        """Segments with every reference turned into a transclusion."""
+        """Render a turn as native markdown: code segments become fenced blocks
+        transcluded from their own tiddler ({{title}}); prose gets math/citation
+        normalization. No `||TPL` templates, no field references."""
         parts: list[str] = []
         for seg in segments:
             if seg.kind == "code":
-                parts.append(f"{{{{{self.add_code(seg.text, seg.lang)}||CODE}}}}")
+                parts.append(f"{{{{{self.add_code(seg.text, seg.lang)}}}}}")
             else:
-                t = self._sub_math(seg.text)
+                t = self._normalize_math(seg.text)
                 t = self._sub_citations(t, sources)
-                t = self._sub_urls(t)
-                t = self._sub_spoken(t)
                 parts.append(t)
         return "\n\n".join(p for p in parts if p.strip())
 
@@ -216,19 +151,18 @@ class _Builder:
 def build_tiddlers(model: ChatModel) -> list[dict]:
     b = _Builder(model)
     out = b.out
-    out.extend(_templates())
 
     # preamble (per provider)
     out.append({"title": f"{b.bibkey}_preamble",
                 "tags": f"preamble {b.suffix}", "type": "text/markdown",
                 "text": b.prov.preamble})
 
-    ex_links, code_links = [], []
+    ex_links = []
     for ex in model.exchanges:
-        # answer: strip the Sources block (perplexity) → CIT mapping + Sources section
+        # answer: strip the Sources block (perplexity) → citation links + Sources section
         sources: list[str] = []
         if ex.answer is None:
-            a_text = "//(no answer)//"
+            a_text = "_(no answer)_"
         else:
             content = ex.answer.content
             if b.prov.citation:
@@ -247,33 +181,37 @@ def build_tiddlers(model: ChatModel) -> list[dict]:
             **({"latency_s": ex.latency_ms // 1000} if ex.latency_ms is not None else {}))
         ex_links.append(f"* {{{{{ex_title}}}}}")
 
+    # code tiddlers (created during rendering) and virtual-file tiddlers → index links
+    code_links = [f"* [[{t}]] — `{lang}`, {lines} lines"
+                  for t, lang, lines in b.code_titles]
+    file_links = []
     for vf in model.virtual_files:
-        title = b._tid(f"{b.bibkey}_FILE{b.n['FILE']:03d}",
-                       "<$codeblock code={{!!code}} language={{!!lang}}/>",
-                       "file", code=vf.content, lang=vf.lang or "", path=vf.path,
-                       revisions=vf.revisions)
-        b.n["FILE"] += 1
-        code_links.append(f"* [[{vf.path}|{title}]] — `{vf.lang or '?'}` ({vf.revisions}×)")
+        title = f"{b.bibkey}_FILE{b.n['FILE']:03d}"; b.n["FILE"] += 1
+        b._tid(title, f"```{vf.lang or ''}\n{vf.content}\n```", "file",
+               path=vf.path, lang=vf.lang or "", revisions=vf.revisions)
+        file_links.append(f"* [[{vf.path}|{title}]] — `{vf.lang or '?'}` ({vf.revisions}×)")
 
-    # chat root — provider-specific structure
+    urls = sorted({a.content for a in model.artifacts if a.kind == "url"})
+
+    # chat root — provider-specific structure (markdown links + exchange transclusions)
     answered = sum(1 for e in model.exchanges if e.answered)
     body = [f"# {chat_title(model)}", "",
             f"Provider: {b.prov.label} · Models: {', '.join(model.models) or '—'} · "
             f"{len(model.exchanges)} exchanges ({answered} answered) · "
-            f"see {{{{{b.bibkey}_preamble}}}}", ""]
+            f"see [[{b.bibkey}_preamble]]", ""]
     structure = {
         "Exchanges": ex_links,
         "Code": code_links,
-        "Files": code_links,
-        "Links": sorted({f"* {{{{{t}||URL}}}}" for t in b.url_titles}),
-        "Sources": [f"* {u}" for u in dict.fromkeys(b.source_urls)],
+        "Files": file_links,
+        "Links": [f"* <{u}>" for u in urls],
+        "Sources": [f"* <{u}>" for u in dict.fromkeys(b.source_urls)],
     }
     for sec in b.prov.sections:
         items = structure.get(sec)
         if items:
             body += [f"## {sec}", *items, ""]
 
-    out.insert(len(_templates()) + 1,
+    out.insert(0,
                {"title": b.bibkey, "tags": f"chat {b.suffix}",
                 "type": "text/markdown", "text": "\n".join(body),
                 "source": model.source, "chat_id": model.id,

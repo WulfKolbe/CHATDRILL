@@ -1,0 +1,11 @@
+caption: g\left(x^{(l)}_i\right)
+created: 20260626094813421
+displayMode: false
+latex: g\left(x^{(l)}_i\right)
+latex_original: g\left(x^{(l)}_i\right)
+modified: 20260626094813421
+tags: formula 2110.11150
+title: 2110.11150_FO0201
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

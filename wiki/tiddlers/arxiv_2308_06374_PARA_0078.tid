@@ -1,0 +1,11 @@
+created: 20260625080831230
+modified: 20260625080831230
+page: 000
+parent_section: arxiv_2308_06374_H7
+tags: paragraph arxiv_2308_06374
+title: arxiv_2308_06374_PARA_0078
+type: text/vnd.tiddlywiki
+
+\noindentA Rule Mining Case with ChatGPT Let's have a look at the following real example asking ChatGPT to generate rules. 
+\begin{example}
+We ask ChatGPT ``Please list three rules that could help to infer one person's father. And output it in a first-order rule form.'' The following is the output we get:

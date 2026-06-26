@@ -1,0 +1,14 @@
+created: 20260625093007936
+modified: 20260625093007936
+page: 000
+parent_section: 2411.12449_H3
+tags: paragraph 2411.12449
+title: 2411.12449_PARA_0027
+type: text/vnd.tiddlywiki
+
+\squishlist
+\item[1.] Target Subjects: Begin with a target set of subjects {{2411.12449_FO0036||FO}}, s.t. {{2411.12449_FO0037||FO}}.
+\item[2.] Chunk Retrieval: For each subject {{2411.12449_FO0038||FO}}, retrieve all the news chunks {{2411.12449_FO0039||FO}} that contain mentions of {{2411.12449_FO0040||FO}}, i.e., {{2411.12449_FO0041||FO}}.
+\item[3.] Prompt Construction: Create a prompt by explicitly mentioning {{2411.12449_FO0042||FO}} and the corresponding news chunk {{2411.12449_FO0043||FO}} that employs the entity markup (``<e>'' and ``</e>'') in {{2411.12449_FO0044||FO}} to identify the entities {{2411.12449_FO0045||FO}} in the news chunk. Employ the prompt with LLM to generate a list of valid news entity-interactions {{2411.12449_FO0046||FO}}, where {{2411.12449_FO0047||FO}} is drawn by the LLM from the marked up entities, {{2411.12449_FO0048||FO}} is LLM's implicit verbalization function. Each news entity-interaction is assigned a timestamp, resulting in {{2411.12449_FO0049||FO}}, where {{2411.12449_FO0050||FO}} is derived from the timestamp of {{2411.12449_FO0051||FO}}.
+\item[4.] Iteration: Repeat this process for all subject-chunk pairs {{2411.12449_FO0052||FO}}, iteratively building the KB for each subject entity, {{2411.12449_FO0053||FO}}.
+\squishend

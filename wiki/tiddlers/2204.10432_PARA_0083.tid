@@ -1,0 +1,11 @@
+created: 20260625093505870
+modified: 20260625093505870
+page: 000
+parent_section: 2204.10432_H23
+tags: paragraph 2204.10432
+title: 2204.10432_PARA_0083
+type: text/vnd.tiddlywiki
+
+\paragraphHdNospace{Conditional clause.}
+Sometimes users hypothesize about their health conditions, such as ``If I lost my appetite for days at a time, that... wouldn't be sustainable for me.''.
+We remove these posts by using regular expressions to identify popular conditional clause formats.

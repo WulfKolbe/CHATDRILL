@@ -1,0 +1,10 @@
+created: 20260625080853722
+modified: 20260625080853722
+page: 000
+parent_section: arxiv_2305_05403_H22
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0202
+type: text/vnd.tiddlywiki
+
+Property ranking relates to the problem of statement ranking [relevance-facts-ziawasch,bast:relevance:scores:triples], though the absence of an object value makes the problem harder.
+The frequency-based ranking, like the one used in Recoin [balaraman2018recoin], provides a reasonable baseline, yet frequencies are only a proxy for relevance. For example, the most frequent properties typically concern generic biographic statements like place of birth, date of birth, while interesting aspects like scientific discoveries, awards, or political affiliations are expressed less frequently.

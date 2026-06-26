@@ -1,0 +1,17 @@
+[
+    {
+        "title": "2110.11150_REF_sanity",
+        "text": "{{||CIT}} J. Su, Y. Chen, T. Cai, T. Wu, R. Gao, L. Wang, and J. D. Lee. Sanity-checking pruning methods: Random tickets can win the jackpot. In Advances in Neural Information Processing Systems, 2020.",
+        "type": "text/markdown",
+        "tags": "reference bibentry bibtex 2110.11150",
+        "created": "20260626111149173",
+        "modified": "20260626111149173",
+        "kind": "reference",
+        "citekey": "sanity",
+        "year": "2020",
+        "authors": "Su, Jingtong and Chen, Yihang and Cai, Tianle and Wu, Tianhao and Gao, Ruiqi and Wang, Liwei and Lee, Jason D",
+        "entry_type": "inproceedings",
+        "titlefield": "Advances in Neural Information Processing Systems",
+        "bibtex": "@inproceedings{sanity,\n author = {Su, Jingtong and Chen, Yihang and Cai, Tianle and Wu, Tianhao and Gao, Ruiqi and Wang, Liwei and Lee, Jason D},\n booktitle = {Advances in Neural Information Processing Systems},\n title = {Sanity-Checking Pruning Methods: Random Tickets can Win the Jackpot},\n year = {2020}\n}"
+    }
+]

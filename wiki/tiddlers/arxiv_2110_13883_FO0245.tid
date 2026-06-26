@@ -1,0 +1,11 @@
+caption: \ensuremath{\mathit{cs}}\xspace
+created: 20260625080931152
+displayMode: false
+latex: \ensuremath{\mathit{cs}}\xspace
+latex_original: \CS
+modified: 20260625080931152
+tags: formula arxiv_2110_13883
+title: arxiv_2110_13883_FO0245
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

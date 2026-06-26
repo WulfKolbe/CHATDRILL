@@ -1,0 +1,11 @@
+created: 20260625080929321
+modified: 20260625080929321
+page: 000
+parent_section: arxiv_2204_10432_H5
+tags: paragraph arxiv_2204_10432
+title: arxiv_2204_10432_PARA_0022
+type: text/vnd.tiddlywiki
+
+\paragraphHd{Questionnaire model.}
+The questionnaire model receives BERT [devlin-etal-2019-bert] token embeddings of every post and is trained to predict the answer (positive or negative) for each of the questions in the PHQ9 instrument. This model consists of {{arxiv_2204_10432_FO0006||FO}} symptom classifiers, anhedonia, concentration, eating, fatigue, mood, psychomotor, self-esteem, self-harm and sleep, corresponding to the questionnaire's {{arxiv_2204_10432_FO0007||FO}} questions. Each symptom classifier is a CNN classifier with a linear layer on top. As illustrated in Figure (ref), all symptom classifiers were separately trained on weakly-labeled data, which we describe in Section (ref). The questionnaire model's ability to generalize to unseen patterns comes from two sources: BERT embeddings and weakly-labeled symptom data.
+First, BERT embeddings have been successfully used to transfer knowledge across domains in many NLP applications [rietzler2020adapt,peng2019transfer,houlsbyparameter]. Second, in weakly-labeled data, the background or contextual text around the matched patterns could provide relevant cues, which is a means of generalization. For example, in the text ``\textit{now \underline{I don't want to do anything}. I can't do more than sleep, eat, and watch tv.}'', background phrases, such as ``I can't do more...'', are as useful as the underlined pattern for identifying the symptom anhedonia.

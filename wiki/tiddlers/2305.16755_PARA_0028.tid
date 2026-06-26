@@ -1,0 +1,10 @@
+created: 20260625093206653
+modified: 20260625093206653
+page: 000
+parent_section: 2305.16755_H3
+tags: paragraph 2305.16755
+title: 2305.16755_PARA_0028
+type: text/vnd.tiddlywiki
+
+\noindent
+True Factuality and Negativity of Statements. Results for correctness are shown in Table (ref), and investigated further in Table (ref). The KG inferences model ranks first on correctness overall. This is due to the factuality of KG statements. KG triples, especially encyclopedic ones, are expressed using precise and well-defined relations, such as award received. Moreover, they have been curated using manual and automated techniques, and hence, their truthfulness is easy to verify. Moreover, both variants of ChatGPT's probes perform significantly better than variants of Alpaca on correctness in both domains, with an out-performance of up to 36% in correctness@1. We also notice that, for both Alpaca and ChatGPT, their few-shot probes perform better than the zero-shot probes, with an improvement of 16% for Alpaca and 5% for ChatGPT. Finally, we find that many of the generated statements by humans and LLMs were actually statements with negative keywords but a positive meaning, such as lebanon isn't devoid of historical sites, with up to 14% of generated statements for the former and 11% for the latter. More samples are in Appendix (ref).

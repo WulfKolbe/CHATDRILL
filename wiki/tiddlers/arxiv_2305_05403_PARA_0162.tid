@@ -1,0 +1,9 @@
+created: 20260625080853722
+modified: 20260625080853722
+page: 000
+parent_section: arxiv_2305_05403_H17
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0162
+type: text/vnd.tiddlywiki
+
+[arnaout020enriching] is one of the earliest approaches to solve this problem. It proposes deriving candidate salient negations about a KB entity from highly related entities, i.e., peers, then ranks them using relative statistical frequency. For example, Stephen Hawking, the famous physicist, has never won a {Nobel Prize in Physics}, nor has he received an {Academy Award}. However, highly related entities (other physicists who are Nobel Prize winners) suggest that not winning the Nobel Prize is more noteworthy for Hawking than not winning the Academy Award. The first step must thus be to identify the relevant peers for the input entity. The method of [arnaout020enriching] offers three similarity functions to collect peer entities for a given input entity: (i) class-based similarity [balaraman2018recoin]: This takes advantage of the type-system of the KB by considering two entities as peers if they share at least one type; (ii) graph-based similarity: This relies on the number of predicate-object pairs that two entities have in common; and (iii) embedding-based similarity: This captures latent similarity between entities by measuring the cosine similarity of their embeddings [wikipedia2vec].

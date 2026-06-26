@@ -1,0 +1,9 @@
+caption: b^{(l)}_{i} \sim \mathcal{N}\left(0, \prod^l_{m=1}\sigma_{w,m}\right)
+created: 20260626111149171
+displayMode: false
+latex: b^{(l)}_{i} \sim \mathcal{N}\left(0, \prod^l_{m=1}\sigma_{w,m}\right)
+latex_original: b^{(l)}_{i} \sim \mathcal{N}\left(0, \prod^l_{m=1}\sigma_{w,m}\right)
+modified: 20260626111149171
+tags: formula 2110.11150
+title: 2110.11150_FO0047
+type: text/markdown

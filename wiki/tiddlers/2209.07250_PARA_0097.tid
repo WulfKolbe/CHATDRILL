@@ -1,0 +1,9 @@
+created: 20260625093341705
+modified: 20260625093341705
+page: 000
+parent_section: 2209.07250_H13
+tags: paragraph 2209.07250
+title: 2209.07250_PARA_0097
+type: text/vnd.tiddlywiki
+
+For evaluating instances by GoogleSDA, we post-processed knowledge graph and featured snippet of the search engine result page, keeping items from list-like structures as instances ranked in their order of appearance.

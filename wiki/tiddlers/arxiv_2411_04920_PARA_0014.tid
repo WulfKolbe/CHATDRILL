@@ -1,0 +1,9 @@
+created: 20260625080816563
+modified: 20260625080816563
+page: 000
+parent_section: arxiv_2411_04920_H4
+tags: paragraph arxiv_2411_04920
+title: arxiv_2411_04920_PARA_0014
+type: text/vnd.tiddlywiki
+
+Our early attempts at graph exploration were plagued by topical runaway into linguistic knowledge, translations, etc., because LLM-generated objects cover a wide range of imprecisely delineated data types. We experimented with various ways to filter non-named entities from the expansion, but found that existing NER frameworks struggled with the context-free entity labels available from our crawl process (most NER models are trained on sentences). In the end, we used the LLM itself to identify named entities, processing multiple candidates at once. The full prompt is presented in Figure (ref) in the Appendix.

@@ -1,0 +1,19 @@
+created: 20260625080853251
+modified: 20260625080853251
+page: 000
+parent_section: arxiv_2306_17472_H3
+tags: paragraph arxiv_2306_17472
+title: arxiv_2306_17472_PARA_0028
+type: text/vnd.tiddlywiki
+
+\noindent (e.g., ``the song Anyone and Everyone is performed by [ENT] this person [ENT]''),
+contextualized with the sentence {{arxiv_2306_17472_FO0023||FO}}. 
+GENRE generates a list of answer entities
+{\small\tt E},
+taken from an underlying KG, like Wikidata,
+that is, no longer just surface names.
+If the candidate name ``O'' approximately matches
+a generated {\small\tt E} (considering alias names
+provided by the KG), then the entire fact, now properly canonicalized, is kept.
+Since we may still retain multiple facts for the same S-P input and cannot perfectly prevent false positives, the inferred facts are scored by
+an average of the scores from stage 1 and stage 2.

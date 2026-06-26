@@ -1,0 +1,14 @@
+created: 20260625093527300
+modified: 20260625093527300
+page: 000
+parent_section: 2111.13611_H1
+tags: paragraph 2111.13611
+title: 2111.13611_PARA_0003
+type: text/vnd.tiddlywiki
+
+\noindent{\bf Motivation and Problem}
+Relation extraction (RE) from text documents is an important NLP task with a range of downstream applications [Han2020].
+For these applications, it is vital to understand the quality of RE results.
+While extractors typically provide confidence (or precision) scores, this paper puts forward the notion of RE coverage (or recall). 
+Given an input document and an RE method, coverage measures the fraction of the extracted relations compared to the complete ground-truth that holds in reality. 
+We consider this on a per-subject and per-predicate basis, for example, all memberships of Bill Gates in organizations or all companies founded by Elon Musk.

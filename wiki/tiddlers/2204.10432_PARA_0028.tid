@@ -1,0 +1,10 @@
+created: 20260625093505869
+modified: 20260625093505869
+page: 000
+parent_section: 2204.10432_H7
+tags: paragraph 2204.10432
+title: 2204.10432_PARA_0028
+type: text/vnd.tiddlywiki
+
+We conduct experiments on three datasets; all consist of Reddit social media data but follow different construction methodologies (e.g., identifying depressed users based on a self-report statement vs. based on starting a thread in a support subreddit).
+In addition to evaluating methods on each dataset, dataset-transfer evaluation allows us to evaluate how well methods generalize to similar datasets with different construction methodologies.

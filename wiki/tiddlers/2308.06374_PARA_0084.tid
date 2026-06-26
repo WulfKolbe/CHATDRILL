@@ -1,0 +1,12 @@
+created: 20260625093119694
+modified: 20260625093119694
+page: 000
+parent_section: 2308.06374_H7
+tags: paragraph 2308.06374
+title: 2308.06374_PARA_0084
+type: text/vnd.tiddlywiki
+
+Ontology refinement includes quite a few topics like knowledge completion (e.g., subsumption prediction, complex concept learning and new concept placement), erroneous knowledge detection and repair (e.g., inconsistency checking) and knowledge canonicalization (e.g., entity renaming).
+Besides formally represented knowledge, real-world ontologies, such as the widely used medical ontology SNOMED CT\footnote{\url{https://www.snomed.org/}} and food ontology FoodOn\footnote{\url{https://foodon.org/}}, also include a lot of meta information defined by different annotation properties for usability, such as entity labels, synonyms and natural language definition.
+Taking the concept obo:FOODON\_00002809 in FoodOn as an example, it has not only formal knowledge such as named super concepts and logical restrictions, but also labels and synonyms (e.g., ``edamame''), definitions (e.g., ``Edamame is a preparation of immature soybean ...''), comments and so on. 
+These meta information, especially the natural language text, further motivates people to use LLMs for ontology refinement.

@@ -1,0 +1,9 @@
+created: 20260625093341705
+modified: 20260625093341705
+page: 000
+parent_section: 2209.07250_H18
+tags: paragraph 2209.07250
+title: 2209.07250_PARA_0109
+type: text/vnd.tiddlywiki
+
+We observe that the baselines achieve their best performance on KG-answerable queries. While QAnswer has a high coverage, the RP metric is quite low, even for KG-answerable queries. GoogleSDA has by design 100% precision in KG-answerable queries. While its coverage goes down drastically with increasing difficulty levels of the queries, barely above 5%, the RP remains respectable. {\mysystem} maintains a decent balance between coverage and RP values in all three scenarios.

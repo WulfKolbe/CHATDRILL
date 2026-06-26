@@ -1,0 +1,9 @@
+created: 20260625080853980
+modified: 20260625080853980
+page: 000
+parent_section: arxiv_2303_11082_H17
+tags: paragraph arxiv_2303_11082
+title: arxiv_2303_11082_PARA_0057
+type: text/vnd.tiddlywiki
+
+Our analysis showed that LMs are not able to obtain results at a high precision ({{arxiv_2303_11082_FO0046||FO}}) for all relations equally, but LM-based knowledge covers language-related and socio-demographic relations particularly well. Furthermore, we discovered that an LM's vocabulary can limit the capability of fact prediction and we achieved significant improvements with fine-tuning and vocabulary expansion.

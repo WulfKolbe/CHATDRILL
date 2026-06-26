@@ -1,0 +1,9 @@
+created: 20260625080853722
+modified: 20260625080853722
+page: 000
+parent_section: arxiv_2305_05403_H12
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0100
+type: text/vnd.tiddlywiki
+
+A first step for cardinality detection can be to bound the cardinality of the predicates. For example, if we know that there are 200 countries in our knowledge base, we know that a person cannot have more than 200 citizenships. This knowledge can then help us find counting predicates.

@@ -1,0 +1,9 @@
+created: 20260625095716233
+modified: 20260625095716233
+page: 000
+parent_section: 2208.09292_H6
+tags: paragraph 2208.09292
+title: 2208.09292_PARA_0035
+type: text/vnd.tiddlywiki
+
+The candidates with similarity greater than or equal a certain threshold {{2208.09292_FO0020||FO}} (in this example 0.7) are considered false negatives. In this case, we drop the candidate \texttt{{{2208.09292_FO0021||FO}}(elephant, is big animal)}.

@@ -1,0 +1,9 @@
+created: 20260625093527300
+modified: 20260625093527300
+page: 000
+parent_section: 2111.13611_H1
+tags: paragraph 2111.13611
+title: 2111.13611_PARA_0008
+type: text/vnd.tiddlywiki
+
+We employ a classifier architecture that we call HERB (for \underline{He}u\underline{r}istics with \underline{B}ERT), based on a document's lightweight features and additionally incorporates pretrained language models like BERT without any costly re-training and fine-tuning. The best configuration of this classifier achieves an F1-score of up to {{2111.13611_FO0010||FO}}. The classifier provides scores for its predictions and thus also supports ranking documents by their expected yield for the RE task at hand.

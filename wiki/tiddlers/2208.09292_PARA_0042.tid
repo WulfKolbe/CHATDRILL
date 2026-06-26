@@ -1,0 +1,9 @@
+created: 20260625095716233
+modified: 20260625095716233
+page: 000
+parent_section: 2208.09292_H7
+tags: paragraph 2208.09292
+title: 2208.09292_PARA_0042
+type: text/vnd.tiddlywiki
+
+\example{To score candidates, we compute: strict(elephant, has hoof, {{2208.09292_FO0035||FO}}tiger, lion, horse{{2208.09292_FO0036||FO}}) = {{2208.09292_FO0037||FO}}horse{{2208.09292_FO0038||FO}}/3 = 0.33, strict(ele\-phant, can jump, {{2208.09292_FO0039||FO}}tiger, lion, horse{{2208.09292_FO0040||FO}}) = {{2208.09292_FO0041||FO}}tiger, horse{{2208.09292_FO0042||FO}}/3 = 0.67, and strict(elephant, can leap, {{2208.09292_FO0043||FO}}tiger, lion, horse{{2208.09292_FO0044||FO}}) = {{2208.09292_FO0045||FO}}lion{{2208.09292_FO0046||FO}}/3 = 0.33. Therefore it is more noteworthy that elephants cannot jump, unlike all their siblings.}

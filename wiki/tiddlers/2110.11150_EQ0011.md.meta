@@ -1,0 +1,12 @@
+created: 20260626111149172
+displayMode: true
+equation_number: 
+kind: Equation
+latex: \begin{aligned} f_j^{(l+1)}(x) =& \sum_{i=1}^{n_{l+1}}\phi\left(f^{(l)}(x)\right)_i \bm{W}^{(l+1)}_{ji}\\ =& \sum_{i=1}^{n_{l+1}}\phi\left(\bm{W}^{(l)}_{+} \phi(x) + \bm{W}^{(l)}_{-}\phi(-x)\right)_i \bm{W}^{(l+1)}_{ji} \ \ (\text{induction hypothesis})\\ =& \begin{cases} \sum_{i=1}^{n_{l+1}}\phi\left(\bm{W}^{(l)}_{+} x\right)_i \bm{W}^{(l+1)}_{ji} ,& \text{if } x \geq 0\\ \sum_{i=1}^{n_{l+1}}\phi\left(-\bm{W}^{(l)}_{-}x\right)_i \bm{W}^{(l+1)}_{ji} ,& \text{otherwise} \end{cases} \\ =& \begin{cases} \sum_{i=1}^{n_{l+1}}\bm{W}^{(l)}_{+,i} \bm{W}^{(l+1)}_{ji} x ,~~~~~~~~~~~& \text{if } x \geq 0 \land \bm{W}_{+,i} > 0\\ \sum_{i=1}^{n_{l+1}}-\bm{W}^{(l)}_{-,i} \bm{W}^{(l+1)}_{ji} x ,&\text{if } x < 0 \land \bm{W}_{-,i} > 0 \\ 0 ,&\text{otherwise.} \end{cases} \end{aligned}
+latex_original: \begin{aligned} f_j^{(l+1)}(x) =& \sum_{i=1}^{n_{l+1}}\phi\left(f^{(l)}(x)\right)_i \bm{W}^{(l+1)}_{ji}\\ =& \sum_{i=1}^{n_{l+1}}\phi\left(\bm{W}^{(l)}_{+} \phi(x) + \bm{W}^{(l)}_{-}\phi(-x)\right)_i \bm{W}^{(l+1)}_{ji} \ \ (\text{induction hypothesis})\\ =& \begin{cases} \sum_{i=1}^{n_{l+1}}\phi\left(\bm{W}^{(l)}_{+} x\right)_i \bm{W}^{(l+1)}_{ji} ,& \text{if } x \geq 0\\ \sum_{i=1}^{n_{l+1}}\phi\left(-\bm{W}^{(l)}_{-}x\right)_i \bm{W}^{(l+1)}_{ji} ,& \text{otherwise} \end{cases} \\ =& \begin{cases} \sum_{i=1}^{n_{l+1}}\bm{W}^{(l)}_{+,i} \bm{W}^{(l+1)}_{ji} x ,~~~~~~~~~~~& \text{if } x \geq 0 \land \bm{W}_{+,i} > 0\\ \sum_{i=1}^{n_{l+1}}-\bm{W}^{(l)}_{-,i} \bm{W}^{(l+1)}_{ji} x ,&\text{if } x < 0 \land \bm{W}_{-,i} > 0 \\ 0 ,&\text{otherwise.} \end{cases} \end{aligned}
+modified: 20260626111149172
+page: 000
+refnum: 
+tags: equation 2110.11150
+title: 2110.11150_EQ0011
+type: text/markdown

@@ -1,0 +1,11 @@
+caption: R_{soC'} = \bigcup\limits_{t \in T'} (t, \texttt{NEI}(s, o))
+created: 20260625080805468
+displayMode: false
+latex: R_{soC'} = \bigcup\limits_{t \in T'} (t, \texttt{NEI}(s, o))
+latex_original: R_{soC'} = \bigcup\limits_{t \in T'} (t, \texttt{NEI}(s, o))
+modified: 20260625080805468
+tags: formula arxiv_2411_12449
+title: arxiv_2411_12449_FO0086
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

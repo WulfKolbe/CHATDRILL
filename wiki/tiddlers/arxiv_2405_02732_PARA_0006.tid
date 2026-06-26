@@ -1,0 +1,11 @@
+created: 20260625080827136
+modified: 20260625080827136
+page: 000
+parent_section: arxiv_2405_02732_H1
+tags: paragraph arxiv_2405_02732
+title: arxiv_2405_02732_PARA_0006
+type: text/vnd.tiddlywiki
+
+\noindent {\bf Stage 1: Recall-oriented Generation}. An LLM is prompted with the subject and relation at hand, and tasked to generate a full list of objects through various prompt formulations. 
+In addition, we use information retrieval (IR) methods to find promising candidate passages from long texts and feed them into the LLM prompts.
+In contrast to prior works on retrieval-augmented LLMs, we retrieve a large number of such passages (e.g., 500 for a given SP pair) and judiciously select the best ones for prompting. Moreover, our method iteratively re-ranks the passages and re-prompts the LLM, to improve recall of initial generation of objects.

@@ -1,0 +1,16 @@
+created: 20260625093231916
+displayMode: true
+equation_number: 
+kind: Equation
+latex: \sigma(K) = \sigma(K^i).
+latex_original: \sigma(K) = \sigma(K^i).
+latex_tex: \sigma(K) = \sigma(K^i).
+modified: 20260625093231916
+page: 000
+refnum: 
+score_tex: 1.0
+tags: equation 2305.05403
+title: 2305.05403_EQ0001
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode=true />

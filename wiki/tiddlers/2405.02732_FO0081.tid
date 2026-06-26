@@ -1,0 +1,11 @@
+caption: ~~~~~~~~~|\cup_{SP} \{\text{generated O for SP} ~|~ O \notin \text{book}\}|
+created: 20260625093047342
+displayMode: false
+latex: ~~~~~~~~~|\cup_{SP} \{\text{generated O for SP} ~|~ O \notin \text{book}\}|
+latex_original: ~~~~~~~~~|\cup_{SP} \{\text{generated O for SP} ~|~ O \notin \text{book}\}|
+modified: 20260625093047342
+tags: formula 2405.02732
+title: 2405.02732_FO0081
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

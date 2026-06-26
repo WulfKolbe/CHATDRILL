@@ -1,0 +1,10 @@
+created: 20260625093341705
+modified: 20260625093341705
+page: 000
+parent_section: 2209.07250_H19
+tags: paragraph 2209.07250
+title: 2209.07250_PARA_0113
+type: text/vnd.tiddlywiki
+
+Unlike the hybrid mode in GoogleSDA which returns results from both a KB and texts, QAnswer is fully KB-based, and SPARQL query understanding is challenging. 
+If we only consider the top-1 SPARQL query we get detailed interpretation of the natural language query but the result is homogeneous. For example in the query ``how many territories does canada have'', territories is interpreted as located in the administrative territorial entity and in the query ``how many poems did emily dickinson write'', write is interpreted as author.

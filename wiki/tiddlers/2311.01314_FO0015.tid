@@ -1,0 +1,11 @@
+caption: _{3gram}
+created: 20260625093057256
+displayMode: false
+latex: _{3gram}
+latex_original: _{3gram}
+modified: 20260625093057256
+tags: formula 2311.01314
+title: 2311.01314_FO0015
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

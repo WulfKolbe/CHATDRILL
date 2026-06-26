@@ -1,0 +1,11 @@
+caption: \langle Entity, spouse, ?x \rangle
+created: 20260625080859571
+displayMode: false
+latex: \langle Entity, spouse, ?x \rangle
+latex_original: \langle Entity, spouse, ?x \rangle
+modified: 20260625080859571
+tags: formula arxiv_2209_07250
+title: arxiv_2209_07250_FO0037
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

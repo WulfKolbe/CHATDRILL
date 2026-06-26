@@ -1,0 +1,9 @@
+created: 20260625080853723
+modified: 20260625080853723
+page: 000
+parent_section: arxiv_2305_05403_H29
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0252
+type: text/vnd.tiddlywiki
+
+We have aimed for a balanced coverage of approaches so far, which may leave practically-minded readers wondering how they could best approach a specific KB recall assessment problem. In the following, we give more concrete suggestions on how we think a sensible order of approaches to specific problems could be. We distinguish three settings: (i) open-ended ab-initio KB construction, where recall-awareness can be intertwined with construction efforts, (ii) use-case driven construction, where efforts can be directly matched with use case metrics, and (iii) KB curation, where an existing KB shall be evaluated.

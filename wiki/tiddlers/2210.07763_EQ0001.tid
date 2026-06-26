@@ -1,0 +1,16 @@
+created: 20260625093308066
+displayMode: true
+equation_number: 
+kind: Equation
+latex: \begin{cases} P[sent \in F] \ge \rho_+ \text{, and} \\ P[sent \in \tilde{F}] \le \rho_- \text{ for all counter-labels } \tilde{F} \end{cases}
+latex_original: \begin{cases} P[sent \in F] \ge \rho_+ \text{, and} \\ P[sent \in \tilde{F}] \le \rho_- \text{ for all counter-labels } \tilde{F} \end{cases}
+latex_tex: \begin{cases} P[sent \in F] \ge \rho_+ \text{, and} \\ P[sent \in \tilde{F}] \le \rho_- \text{ for all counter-labels } \tilde{F} \end{cases}
+modified: 20260625093308066
+page: 000
+refnum: 
+score_tex: 1.0
+tags: equation 2210.07763
+title: 2210.07763_EQ0001
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode=true />

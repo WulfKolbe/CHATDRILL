@@ -1,0 +1,13 @@
+created: 20260625080827350
+modified: 20260625080827350
+page: 000
+parent_section: arxiv_2311_01314_H8
+tags: paragraph arxiv_2311_01314
+title: arxiv_2311_01314_PARA_0056
+type: text/vnd.tiddlywiki
+
+Each originally unlabeled sample is cloned:
+one instance positive with weight
+proportional to its average relatedness to the
+user's explicitly positive points;
+the negative clone's weight is set to the complement.

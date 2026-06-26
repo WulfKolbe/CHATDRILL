@@ -1,0 +1,10 @@
+created: 20260625080816564
+modified: 20260625080816564
+page: 000
+parent_section: arxiv_2411_04920_H8
+tags: paragraph arxiv_2411_04920
+title: arxiv_2411_04920_PARA_0054
+type: text/vnd.tiddlywiki
+
+For verifying entities, we retrieved 5 search results from a web search API for the entity label, which are then used to decide whether the entity's existence could be verified, appears plausible, or could not be verified. Deciding on these labels based on textual context represents a task of textual entailment, a.k.a. natural language inference (NLI), a task generally considered solved for LLMs.\footnote{On LLM performance on textual entailment, the popular SNLI [bowman-etal-2015-large] is comparable, which was considered solved in 2020 by BERT architectures [bert-snli] at 92% accuracy, which is the ceiling, given dataset noise. This is also why the literature mentions no numbers for newer models like Llama on this task anymore.} We therefore use another LLM, Llama-3.1-70B-Instruct [llama31], for this task. The LLM hereby only judges textual entailment, it does not independently judge truth from its parameters.
+Based on 1,000 samples, average entity verifiability is 74%, and as shown in Figure (ref), we observe a continuous drop of verifiability over the layers, stabilizing at layer 10 at about 70%. The plot also includes Wikidata-existence, which paints a similar trend at lower levels. We generally observe a wide variance across classes, finding, for instance, that persons consistently have a higher verifiability than fictional characters, where many codes were made up (e.g., Officer K.I.T.T. XV and Officer K.I.T.T. XVI) or varying incorrect type numbers are added to real names continuously by the LLM (e.g., Agent 71 and Agent 72).

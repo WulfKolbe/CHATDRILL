@@ -1,0 +1,14 @@
+created: 20260625080827137
+modified: 20260625080827137
+page: 000
+parent_section: arxiv_2405_02732_H17
+tags: paragraph arxiv_2405_02732
+title: arxiv_2405_02732_PARA_0090
+type: text/vnd.tiddlywiki
+
+Table (ref) shows results for the Web dataset, with different stage-1 configurations, and default {\em thr80} for scrutinization.
+By and large, the results reconfirm our key findings with the Books data:
+LLM-only methods are far inferior;
+all L3X-RAG methods boost recall;
+the {\em amp} has the best AUC after Stage 1 and is the overall winner for R@P after Stage 2.
+The oracle-based upper bound here is 65% for recall from top-{{arxiv_2405_02732_FO0071||FO}}=500 passages.

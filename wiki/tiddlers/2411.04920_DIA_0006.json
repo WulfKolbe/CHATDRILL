@@ -1,0 +1,14 @@
+[
+    {
+        "title": "2411.04920_DIA_0006",
+        "text": "<$image source={{!!canonical_uri}} width={{!!width}} height={{!!height}}/>",
+        "type": "text/vnd.tiddlywiki",
+        "tags": "diagram tikz 2411.04920",
+        "created": "20260625093027648",
+        "modified": "20260625093027648",
+        "page": "000",
+        "latex_code": "\\begin{tikzpicture}\n    \\begin{axis}[\n        xlabel={Year},\n        ylabel={Count},\n        ymin=0, ymax=1000,\n        xmin=1970, xmax=2030,\n        xtick={1970,1980,1990,2000,2010,2020,2030},\n        xticklabel style={/pgf/number format/.cd,set thousands separator={}}, \n        ytick={0,250,500,750,1000},\n        grid=both,\n        width=10cm, height=6cm,\n    ]\n    \\addplot[\n        ultra thick,\n        color=gg-blue,\n    ] coordinates {\n    (1970, 154) (1971, 88) (1972, 86) (1973, 63) (1974, 140) (1975, 88) (1976, 84) (1977, 50) (1978, 69) (1979, 68) (1980, 140) (1981, 67) (1982, 64) (1983, 73) (1984, 86) (1985, 92) (1986, 86) (1987, 76) (1988, 75) (1989, 93) (1990, 163) (1991, 107) (1992, 122) (1993, 119) (1994, 140) (1995, 140) (1996, 157) (1997, 157) (1998, 141) (1999, 143) (2000, 324) (2001, 246) (2002, 186) (2003, 181) (2004, 219) (2005, 266) (2006, 293) (2007, 247) (2008, 287) (2009, 268) (2010, 421) (2011, 308) (2012, 381) (2013, 381) (2014, 445) (2015, 549) (2016, 519) (2017, 434) (2018, 593) (2019, 624) (2020, 801) (2021, 917) (2022, 470) (2023, 549) (2024, 75) (2025, 37) (2026, 21) (2027, 22)\n    };\n    \\end{axis}\n    \\end{tikzpicture}",
+        "latex_original": "\\begin{tikzpicture}\n    \\begin{axis}[\n        xlabel={Year},\n        ylabel={Count},\n        ymin=0, ymax=1000,\n        xmin=1970, xmax=2030,\n        xtick={1970,1980,1990,2000,2010,2020,2030},\n        xticklabel style={/pgf/number format/.cd,set thousands separator={}}, \n        ytick={0,250,500,750,1000},\n        grid=both,\n        width=10cm, height=6cm,\n    ]\n    \\addplot[\n        ultra thick,\n        color=gg-blue,\n    ] coordinates {\n    (1970, 154) (1971, 88) (1972, 86) (1973, 63) (1974, 140) (1975, 88) (1976, 84) (1977, 50) (1978, 69) (1979, 68) (1980, 140) (1981, 67) (1982, 64) (1983, 73) (1984, 86) (1985, 92) (1986, 86) (1987, 76) (1988, 75) (1989, 93) (1990, 163) (1991, 107) (1992, 122) (1993, 119) (1994, 140) (1995, 140) (1996, 157) (1997, 157) (1998, 141) (1999, 143) (2000, 324) (2001, 246) (2002, 186) (2003, 181) (2004, 219) (2005, 266) (2006, 293) (2007, 247) (2008, 287) (2009, 268) (2010, 421) (2011, 308) (2012, 381) (2013, 381) (2014, 445) (2015, 549) (2016, 519) (2017, 434) (2018, 593) (2019, 624) (2020, 801) (2021, 917) (2022, 470) (2023, 549) (2024, 75) (2025, 37) (2026, 21) (2027, 22)\n    };\n    \\end{axis}\n    \\end{tikzpicture}",
+        "caption": "Number of triples for the \\textit{year} property, per year. The sudden drop from 2023 to 2024 matches the self-declared 2023 knowledge cutoff of GPT-4o-mini."
+    }
+]

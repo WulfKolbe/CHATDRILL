@@ -1,0 +1,14 @@
+created: 20260625080804874
+modified: 20260625080804874
+page: 000
+parent_section: arxiv_2501_06699_H2
+tags: paragraph arxiv_2501_06699
+title: arxiv_2501_06699_PARA_0040
+type: text/vnd.tiddlywiki
+
+\parai{Personalization} speaks of the ability to adapt responses to better address the needs of a particular user in a particular context. LLMs are capable of 
+ in-context learning, which enables high degrees of personalization of responses, and interactivity, whereby previous prompts and responses shape future responses. SEs and KGs typically leverage more limited implicit forms of context, 
+ like spatio-temporal context, previous queries, etc., with limited personalizability.
+ However, more interactive UIs are being developed for KGs
+ and other structured data resources
+ [DBLP:journals/sigweb/LissandriniPHM20], while interfaces also continue to improve for SEs and LLMs.

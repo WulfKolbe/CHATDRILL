@@ -1,0 +1,9 @@
+created: 20260625080853721
+modified: 20260625080853721
+page: 000
+parent_section: arxiv_2305_05403_H6
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0056
+type: text/vnd.tiddlywiki
+
+Completeness and cardinality assertions are closely related: cardinality assertions allow to evaluate completeness, while completeness assertions establish cardinalities. If we know that Marie Curie advised 8 PhD students, we can infer that the KB in Fig. (ref) is complete. If we know that she held 3 different citizenships, we can infer the KB is incomplete. If we know that the KB is complete, we can infer that the true cardinality of PhD students she advised is 7. Completeness, in turn, enables establishing negation. If we know that the list of Marie Curie's advisees is complete, we can infer that she did not advise Jean Becquerel, Louis de Broglie, etc.

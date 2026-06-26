@@ -1,0 +1,9 @@
+created: 20260625080830877
+modified: 20260625080830877
+page: 000
+parent_section: arxiv_2310_14771_H4
+tags: paragraph arxiv_2310_14771
+title: arxiv_2310_14771_PARA_0031
+type: text/vnd.tiddlywiki
+
+Table (ref) (right) shows the results for prompting with context. Surprisingly, this consistenly made performance worse, with hardly any recall beyond 90% precision. This is contrary to earlier findings like [petronicontext] (for BERT) or [mallen2023not] (for QA), who found that context helps, especially in the long tail. Our analysis indicates that, in the high-precision bracket, misleading contexts cause more damage (lead to high confidence in incorrect answers), than what helpful contexts do good (boost correct answers).

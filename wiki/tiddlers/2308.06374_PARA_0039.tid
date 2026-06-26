@@ -1,0 +1,10 @@
+created: 20260625093119694
+modified: 20260625093119694
+page: 000
+parent_section: 2308.06374_H6
+tags: paragraph 2308.06374
+title: 2308.06374_PARA_0039
+type: text/vnd.tiddlywiki
+
+Link prediction is about predicting a missing element of a triple given the other two elements.
+It includes head entity prediction {{2308.06374_FO0002||FO}}, relation prediction {{2308.06374_FO0003||FO}}, and tail prediction {{2308.06374_FO0004||FO}}.

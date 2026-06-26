@@ -1,0 +1,21 @@
+created: 20260625093448815
+modified: 20260625093448815
+page: 000
+parent_section: 2204.11677_H13
+tags: paragraph 2204.11677
+title: 2204.11677_PARA_0178
+type: text/vnd.tiddlywiki
+
+\myparagraph{Measuring answering effectiveness} We use one of the standard metrics for factoid QA [saharoy2021question], precision@1 (P@1), since FiD generates a unique answer.
+FiD generates plain strings as answers:
+evaluation for such strings with exact match for computing P@1 can often be problematic [si2021whats],
+since the correct answer could be expressed in different ways (e.g. 
+\{\phrase{Eddard Stark}, \phrase{Ned Stark}\}, or
+\{\phrase{11 June 1969}, \phrase{11-06-1969}, \phrase{June 11, 1969}\}).
+Therefore, we try to normalize the answer to the KB, whenever possible, to allow for a fair comparison across systems.
+We search through {{2204.11677_FO0096||FO}}entity mention, KB-item{{2204.11677_FO0097||FO}} pairs coming from the evidence retrieval phase (Sec. (ref)).
+If there is a perfect match between the entity mention and the predicted answer string, we return the corresponding
+KB-item as the answer.
+If there is no such perfect match, we compute the Levenshtein distance [levenshtein1966binary] between
+the predicted answer and entity mentions from {{2204.11677_FO0098||FO}}entity mention, KB-item{{2204.11677_FO0099||FO}} pairs.
+The KB-item for the entity mention with the smallest edit distance is

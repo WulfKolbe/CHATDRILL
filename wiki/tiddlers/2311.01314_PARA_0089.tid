@@ -1,0 +1,13 @@
+created: 20260625093057256
+modified: 20260625093057256
+page: 000
+parent_section: 2311.01314_H13
+tags: paragraph 2311.01314
+title: 2311.01314_PARA_0089
+type: text/vnd.tiddlywiki
+
+We offer the following notable observations:
+ \squishlist
+\item 
+Across all groups
+, all CUP configurations are competitive. The overall differences between them are relatively small. The winner, by a small margin, is CUP{{2311.01314_FO0037||FO}} for AM and CUP{{2311.01314_FO0038||FO}} for GR datasets, closely followed by the default configuration CUP{{2311.01314_FO0039||FO}} and CUP{{2311.01314_FO0040||FO}} as well as CUP{{2311.01314_FO0041||FO}}. None of the methods is able to extract the ``perfect'' gist from the noisy review texts; but all of them do a decent job. Despite the fact that generated profiles are slightly ahead of the others, the bottom line is that a relatively simple configuration, like idf-selected sentences, is a good choice.

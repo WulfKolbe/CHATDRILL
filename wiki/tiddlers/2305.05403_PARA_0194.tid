@@ -1,0 +1,10 @@
+created: 20260625093231915
+modified: 20260625093231915
+page: 000
+parent_section: 2305.05403_H21
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0194
+type: text/vnd.tiddlywiki
+
+So far, the yardstick for recall/completeness has been the real world: How many of the entities (or predicates or statements) of the domain of interest have been captured? While this generally is a meaningful target, in some cases, the notion is not well-defined, or not informative. In the following, we look at alternative formulations, by relaxing the absolute yardstick into a relative one: Relative to other entities/resources/use cases, how much is the KB's recall? 
+We look at this problem in three variants: (i) recall within the same KB, relative to other entities, (ii) recall relative to other resources like KBs or texts, and (iii) recall relative to the extrinsic use case of question answering (see Figure (ref)).

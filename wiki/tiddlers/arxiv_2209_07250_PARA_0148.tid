@@ -1,0 +1,9 @@
+created: 20260625080859570
+modified: 20260625080859570
+page: 000
+parent_section: arxiv_2209_07250_H31
+tags: paragraph arxiv_2209_07250
+title: arxiv_2209_07250_PARA_0148
+type: text/vnd.tiddlywiki
+
+If we count the queries which contain at least on1 snippet with both counts and instance candidates we find that around 46.8% (151) queries satisfy this and even the number of queries where correct counts and relevant instances co-occur is only 3 (see table (ref)). The number of snippets per query containing co-occurring counts and instances is also less than 3.

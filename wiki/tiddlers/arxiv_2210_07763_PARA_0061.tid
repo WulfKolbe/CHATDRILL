@@ -1,0 +1,9 @@
+created: 20260625080858063
+modified: 20260625080858063
+page: 000
+parent_section: arxiv_2210_07763_H7
+tags: paragraph arxiv_2210_07763
+title: arxiv_2210_07763_PARA_0061
+type: text/vnd.tiddlywiki
+
+A family of pre-trained models that is suitable for our setting is {\em textual entailment} (a.k.a {\em natural language inference} - NLI): given two sentences, does one entail the other (or are they contradictory or unrelated)?

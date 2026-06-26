@@ -1,0 +1,10 @@
+created: 20260625080853722
+modified: 20260625080853722
+page: 000
+parent_section: arxiv_2305_05403_H13
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0137
+type: text/vnd.tiddlywiki
+
+to evaluate the precision of the automatically extracted cardinalities. For example, one can restrict the KB to popular entities, and one can exclude cardinalities 
+above the 90th percentile value, as these are most likely outliers. One must be selective,

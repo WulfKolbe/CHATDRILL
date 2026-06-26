@@ -1,0 +1,9 @@
+created: 20260625093341705
+modified: 20260625093341705
+page: 000
+parent_section: 2209.07250_H2
+tags: paragraph 2209.07250
+title: 2209.07250_PARA_0038
+type: text/vnd.tiddlywiki
+
+The evaluation metrics for reading-comprehension style benchmarks typically employ strict matching requirements, like measuring accuracy, F1-score and exact match [zeng2020survey]. On a question level, these metrics measure the token-level overlap, which does not transfer well to count queries, especially counts which do not have one authoritative answer and are an inference over multiple documents. We propose relaxed metrics for evaluation in Section (ref).

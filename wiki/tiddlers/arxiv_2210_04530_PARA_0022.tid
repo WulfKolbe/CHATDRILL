@@ -1,0 +1,9 @@
+created: 20260625080858924
+modified: 20260625080858924
+page: 000
+parent_section: arxiv_2210_04530_H5
+tags: paragraph arxiv_2210_04530
+title: arxiv_2210_04530_PARA_0022
+type: text/vnd.tiddlywiki
+
+We used the BERT-large model pretrained as is, or pre-trained on any of the children's text corpora, as in the previous section, to generate predictions for each of the masked probes. The resulting performances are reported in Table (ref). We report MRR and Hits@k for the PTLM's predictions in each case. While there are no improvements on the idiosyncratic ConceptNet data, pre-training on InfantBooks performs consistently at the top in the three other settings. CBT also shows consistent gains, while the broader C4-easy helps little. Examples are shown in Table (ref).

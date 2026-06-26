@@ -1,0 +1,13 @@
+created: 20260625093341705
+modified: 20260625093341705
+page: 000
+parent_section: 2209.07250_H5
+tags: paragraph 2209.07250
+title: 2209.07250_PARA_0046
+type: text/vnd.tiddlywiki
+
+In order to generate count candidates, we use the popular SpanBERT model from [joshi2020SpanBERT], trained on the CoQuAD train split.
+Span prediction models 
+return general text spans, which may contain worded answers (``five children'', {{2209.07250_FO0002||FO}}), modifier words and other context 
+(``17 regional languages'', {{2209.07250_FO0003||FO}}), where Conf is the confidence score of the model. 
+These answer spans have two components - the count itself and qualifiers, which we separate with the help of fixed rules and the CogComp Quantifier by [roy2015reasoning].

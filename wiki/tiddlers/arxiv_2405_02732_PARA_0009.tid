@@ -1,0 +1,18 @@
+created: 20260625080827136
+modified: 20260625080827136
+page: 000
+parent_section: arxiv_2405_02732_H1
+tags: paragraph arxiv_2405_02732
+title: arxiv_2405_02732_PARA_0009
+type: text/vnd.tiddlywiki
+
+Due to the inherent trade-off between precision and recall, neither metric alone is suitable for our task, and F1 would merely be a generic compromise.
+The task instead requires maximizing recall, for an effect on knowledge graph (KG) population, with sufficiently high precision to keep downstream curation efforts manageable. 
+Therefore, the metric that we aim to optimize
+is {\bf Recall@PrecisionX (R@P{{arxiv_2405_02732_FO0001||FO}})}, where {{arxiv_2405_02732_FO0002||FO}} is the minimum precision target
+to be achieved
+(e.g., {{arxiv_2405_02732_FO0003||FO}} being
+50% or, ideally, 80%).
+In experiments with Llama3.1-instruct-70B 
+[DBLP:journals/corr/abs-2407-21783]
+as underlying LLM, we reach 80-85% recall using our passage re-ranking and batching technique and ca. 50% R@P50 and 37% R@P80 through our scrutinization process.

@@ -1,0 +1,9 @@
+created: 20260625080922310
+modified: 20260625080922310
+page: 000
+parent_section: arxiv_2208_09292_H12
+tags: paragraph arxiv_2208_09292
+title: arxiv_2208_09292_PARA_0078
+type: text/vnd.tiddlywiki
+
+We use the code by [safavi-etal-2021-negater] to train a BERT-based KB completion based on each of the three training datasets (100 randomized runs), and report the mean accuracy on the unseen test-set. The results are shown in Table (ref). \uncommon{} shows a statistically significant improvement over all methods with {{arxiv_2208_09292_FO0112||FO}}.

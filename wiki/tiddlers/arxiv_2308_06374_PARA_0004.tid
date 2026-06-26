@@ -1,0 +1,10 @@
+created: 20260625080831230
+modified: 20260625080831230
+page: 000
+parent_section: arxiv_2308_06374_H1
+tags: paragraph arxiv_2308_06374
+title: arxiv_2308_06374_PARA_0004
+type: text/vnd.tiddlywiki
+
+This inflection point, with the arrival of LLMs, marks a paradigm shift from explicit knowledge representation to a renewed focus on the hybrid representation of both explicit knowledge and parametric knowledge. As a popular approach for explicit knowledge representation, KGs are now widely investigated for the combination with Transformer-based LLMs, including pre-trained masked language models (PLMs) like BERT [devlin2018bert] and RoBERTa [liu2019roberta], and more recent generative LLMs like the GPT series [brown2020language] and LLaMA [touvron2023llama].
+Some works use LLMs to augment KGs for, e.g., knowledge extraction, KG construction, and refinement, while others use KGs to augment LLMs for, e.g., training and prompt learning, or knowledge augmentation. In this paper, considering both directions, LLMs for KGs and KGs for LLMs, we present a better understanding of the shift from explicit knowledge representation to a renewed focus on the hybrid representation of both explicit knowledge and parametric knowledge.

@@ -1,0 +1,9 @@
+created: 20260625093047341
+modified: 20260625093047341
+page: 000
+parent_section: 2405.02732_H7
+tags: paragraph 2405.02732
+title: 2405.02732_PARA_0038
+type: text/vnd.tiddlywiki
+
+Prompts can optionally include a small set of demonstration examples for in-context inference. These examples explicitly mention SP appearing in books disjoint from the dataset, along with their complete O lists, aiding the instruction-tuned LLM in object list generation. We refer to this mode as {\bf few-shot} prompting, while the basic mode without examples is referred to as {\bf zero-shot}. Table (ref) shows an example for the few-shot prompt formulations.

@@ -1,0 +1,9 @@
+created: 20260625080830877
+modified: 20260625080830877
+page: 000
+parent_section: arxiv_2310_14771_H5
+tags: paragraph arxiv_2310_14771
+title: arxiv_2310_14771_PARA_0033
+type: text/vnd.tiddlywiki
+
+We provided the first analysis of the real KB completion potential of GPT. Our findings indicate that GPT-3 could add novel knowledge to Wikidata, at unprecedented scale and quality (27M statements at 90% precision). Compared with other approaches the estimated cost of \$168,000 is surprisingly cheap, and well within the reach of industrial players.

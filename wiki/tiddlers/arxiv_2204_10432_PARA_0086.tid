@@ -1,0 +1,10 @@
+created: 20260625080929321
+modified: 20260625080929321
+page: 000
+parent_section: arxiv_2204_10432_H24
+tags: paragraph arxiv_2204_10432
+title: arxiv_2204_10432_PARA_0086
+type: text/vnd.tiddlywiki
+
+Identifying hard negative samples is crucial for the quality of the trained classifiers.
+Models trained on negative examples that are too easy might be prone to over-fitting or perform only keyword matching. Therefore, we propose five heuristics for identifying and synthesizing negative examples.

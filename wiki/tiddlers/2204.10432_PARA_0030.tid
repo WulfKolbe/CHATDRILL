@@ -1,0 +1,9 @@
+created: 20260625093505869
+modified: 20260625093505869
+page: 000
+parent_section: 2204.10432_H8
+tags: paragraph 2204.10432
+title: 2204.10432_PARA_0030
+type: text/vnd.tiddlywiki
+
+eRisk2018 is a smaller dataset of {{2204.10432_FO0013||FO}} depressed users and {{2204.10432_FO0014||FO}} control users curated to evaluate the effectiveness of early risk detection on the Internet. Similar to RSDD, the depression group in eRisk2018 was collected based on user self-reports; Here, posts from mental health subreddits were not excluded like in RSDD. Due to the small size of the original training set, which makes the deep learning approaches unstable, we re-partitioned this dataset to allow more data for training.

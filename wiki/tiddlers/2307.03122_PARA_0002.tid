@@ -1,0 +1,10 @@
+created: 20260625093145739
+modified: 20260625093145739
+page: 000
+parent_section: 2307.03122_H1
+tags: paragraph 2307.03122
+title: 2307.03122_PARA_0002
+type: text/vnd.tiddlywiki
+
+[petroni-etal-2019-language] showcased the potential of relation-specific probes for extracting implicit knowledge from latent language representations. But the viability of materializing factual knowledge directly from LMs
+remain open problems [Razniewski2021LMsKBs, AlKhamissi2021LMsKBsSurvery].

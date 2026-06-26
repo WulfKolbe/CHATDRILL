@@ -1,0 +1,11 @@
+caption: \geq
+created: 20260625095716234
+displayMode: false
+latex: \geq
+latex_original: \geq
+modified: 20260625095716234
+tags: formula 2208.09292
+title: 2208.09292_FO0030
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

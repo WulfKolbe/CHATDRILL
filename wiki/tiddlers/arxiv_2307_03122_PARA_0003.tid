@@ -1,0 +1,12 @@
+created: 20260625080847348
+modified: 20260625080847348
+page: 000
+parent_section: arxiv_2307_03122_H1
+tags: paragraph arxiv_2307_03122
+title: arxiv_2307_03122_PARA_0003
+type: text/vnd.tiddlywiki
+
+Building upon the LAMA framework, where an LM 
+predicts an object in the slot for
+given a cloze-style prompt such as ``Dante was born in \mask'', several methods [jiang-etal-2020-know, shin-etal-2020-autoprompt, zhong-etal-2021-factual, qin-eisner-2021-learning] design effective prompts for factual information extraction. Importantly, however, all these methods implicitly assume the existence of a single correct object per (subject, relation)-pair and evaluate on precision at rank 1. In reality, many relations have multiple correct values
+as illustrated in Figure (ref).

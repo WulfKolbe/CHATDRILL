@@ -1,0 +1,9 @@
+created: 20260625093145739
+modified: 20260625093145739
+page: 000
+parent_section: 2307.03122_H6
+tags: paragraph 2307.03122
+title: 2307.03122_PARA_0022
+type: text/vnd.tiddlywiki
+
+The candidate lists generated for popular subjects tend to have higher precision and recall. For instance, F1 score for (state, borders) with top-{{2307.03122_FO0024||FO}} is the lowest due to the presence of long-tail subjects. Also for a large possible set of valid objects, e.g., in occupation, LM only generates common professions with a high probability and negatively impacts the F1 scores. This behavior, however, helps in language type relations. A similar difference in performance can be observed in [shin-etal-2020-autoprompt, zhong-etal-2021-factual].

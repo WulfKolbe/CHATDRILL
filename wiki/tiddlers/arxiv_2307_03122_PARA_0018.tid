@@ -1,0 +1,9 @@
+created: 20260625080847348
+modified: 20260625080847348
+page: 000
+parent_section: arxiv_2307_03122_H6
+tags: paragraph arxiv_2307_03122
+title: arxiv_2307_03122_PARA_0018
+type: text/vnd.tiddlywiki
+
+Although BERT was probed for {{arxiv_2307_03122_FO0018||FO}} objects when generating object lists, only {{arxiv_2307_03122_FO0019||FO}} objects were retained after post-processing. Objects with invalid types occur due to the zero-shot setting. Also, other eminent masked LMs, including BERT-base, RoBERTa-base, and RoBERTa-large, achieve 60.61%, 54.82%, and 58.90% max-F1 scores.

@@ -1,0 +1,11 @@
+caption: w^u_1 \dots w^u_b
+created: 20260625093057256
+displayMode: false
+latex: w^u_1 \dots w^u_b
+latex_original: w^u_1 \dots w^u_b
+modified: 20260625093057256
+tags: formula 2311.01314
+title: 2311.01314_FO0005
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

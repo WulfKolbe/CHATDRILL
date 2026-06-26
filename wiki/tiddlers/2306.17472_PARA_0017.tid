@@ -1,0 +1,9 @@
+created: 20260625093156716
+modified: 20260625093156716
+page: 000
+parent_section: 2306.17472_H2
+tags: paragraph 2306.17472
+title: 2306.17472_PARA_0017
+type: text/vnd.tiddlywiki
+
+However, the premise of inferring missing facts from the KG itself is a fundamental limitation. Indeed, several studies have found that many facts predicted via the above KBC techniques are fairly obvious and could also be derived by simple rules for transitivity, inverse relations etc. [DBLP:conf/sigmod/AkramiSZHL20,DBLP:conf/acl/SunVSTY20].

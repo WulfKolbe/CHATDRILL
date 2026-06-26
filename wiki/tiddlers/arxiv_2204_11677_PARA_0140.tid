@@ -1,0 +1,11 @@
+created: 20260625080929032
+modified: 20260625080929032
+page: 000
+parent_section: arxiv_2204_11677_H8
+tags: paragraph arxiv_2204_11677
+title: arxiv_2204_11677_PARA_0140
+type: text/vnd.tiddlywiki
+
+only one model is trained on the top-{{arxiv_2204_11677_FO0075||FO}} evidences after retrieval from all sources.
+To demonstrate the robustness of \convinse, this same model is subsequently used for all combinations of input sources, including
+inputs from single sources.

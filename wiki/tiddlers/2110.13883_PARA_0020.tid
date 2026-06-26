@@ -1,0 +1,9 @@
+created: 20260625110956922
+modified: 20260625110956922
+page: 000
+parent_section: 2110.13883_H3
+tags: paragraph 2110.13883
+title: 2110.13883_PARA_0020
+type: text/vnd.tiddlywiki
+
+To estimate the differential entropy {{2110.13883_FO0036||FO}} of a random variable {{2110.13883_FO0037||FO}}, {{2110.13883_FO0038||FO}}NN based estimators [frenzel:07:fp,kozachenko:87:firstnn] estimate the log-density locally around each point {{2110.13883_FO0039||FO}}, e.g. by computing the volume {{2110.13883_FO0040||FO}} of a ball enclosing all its {{2110.13883_FO0041||FO}}NNs [grassberger:85:pre-ksg,kozachenko:87:firstnn]. That is,

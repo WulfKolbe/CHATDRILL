@@ -1,0 +1,24 @@
+created: 20260625080827137
+modified: 20260625080827137
+page: 000
+parent_section: arxiv_2405_02732_H20
+tags: paragraph arxiv_2405_02732
+title: arxiv_2405_02732_PARA_0102
+type: text/vnd.tiddlywiki
+
+We introduced the task of extracting long lists of objects 
+from long documents,
+and developed the L3X methodology, comprising LLM prompting, retrieval augmentation, passage ranking and batching, and classifiers to scrutinize candidates and prune false positives.
+Extensive experiments with a range of L3X configurations over two datasets provide key insights.
+First, L3X greatly outperforms LLM-only extraction in recall and R@P.
+Second, one of our methods, {\em amp/pred} with pseudo-relevance feedback and a classifier with tuned hyper-parameters, achieves
+remarkable performance of ca. 85% recall and ca. 37% R@P80
+on full-length books.
+However, drill-down analyses by predicate and head-vs-tail entities
+show that for the hardest cases, 
+there is substantial room for improvement.
+Third, this underlines the biggest challenge of our 
+task:
+passages scattered across long books 
+give cues 
+to a smart human, but are still very hard to pinpoint and extract for AI systems (incl. LLMs).

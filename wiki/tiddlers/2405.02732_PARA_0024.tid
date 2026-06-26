@@ -1,0 +1,12 @@
+created: 20260625093047341
+modified: 20260625093047341
+page: 000
+parent_section: 2405.02732_H3
+tags: paragraph 2405.02732
+title: 2405.02732_PARA_0024
+type: text/vnd.tiddlywiki
+
+\noindent 
+ The first three steps are optional, enabling simpler configurations. Running only step 4 (without retrieved passages) results in an LLM-only/no-RAG variant, serving as a {\bf direct prompting} baseline. Running only steps 1 and 4 produces a simplified variant of L3X, referred to as {\bf def} (for default configuration), where passages are ranked by retriever scores and batched in the same order. Each of these steps is elaborated below.
+ As Figure (ref) shows, some of the steps can also be iterated;
+ Section (ref) discusses this for the {\em amp} technique.

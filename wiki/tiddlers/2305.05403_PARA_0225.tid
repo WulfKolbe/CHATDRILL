@@ -1,0 +1,9 @@
+created: 20260625093231915
+modified: 20260625093231915
+page: 000
+parent_section: 2305.05403_H25
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0225
+type: text/vnd.tiddlywiki
+
+Relative entity recall is arguably the easiest to analyze, and the quantification is comparatively easy, as matching predicates within a KB is simple. Thought is still required in the definition of the reference entities, e.g., comparing Einstein with other Physicists may give very different results, than comparing him with other violin players. Furthermore, relative entity recall is prone to systematic gaps in the KB, e.g., if the predicate known for is entirely absent from the KB, then there is no way to suggest it for Einstein either.

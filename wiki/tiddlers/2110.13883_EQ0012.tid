@@ -1,0 +1,16 @@
+created: 20260625110956925
+displayMode: true
+equation_number: 
+kind: Equation
+latex: - \log \hat{L} = \sum_{i=1}^2 \frac{n_i}{2} \left( 2 \log w_i - \log 2 \pi \hat{\sigma}_i^2 \right) \, ,
+latex_original: - \log \hat{L} = \sum_{i=1}^2 \frac{n_i}{2} \left( 2 \log w_i - \log 2 \pi \hat{\sigma}_i^2 \right) \, ,
+latex_tex: - \log \hat{L} = \sum_{i=1}^2 \frac{n_i}{2} \left( 2 \log w_i - \log 2 \pi \hat{\sigma}_i^2 \right) \, ,
+modified: 20260625110956925
+page: 000
+refnum: 
+score_tex: 1.0
+tags: equation 2110.13883
+title: 2110.13883_EQ0012
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode=true />

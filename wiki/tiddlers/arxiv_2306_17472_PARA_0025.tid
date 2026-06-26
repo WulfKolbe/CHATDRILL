@@ -1,0 +1,16 @@
+created: 20260625080853251
+modified: 20260625080853251
+page: 000
+parent_section: arxiv_2306_17472_H3
+tags: paragraph arxiv_2306_17472
+title: arxiv_2306_17472_PARA_0025
+type: text/vnd.tiddlywiki
+
+\noindent (e.g., ``the song {{arxiv_2306_17472_FO0013||FO}}S{{arxiv_2306_17472_FO0014||FO}} is performed by which person?'' for the predicate {\tt performer}).
+The S-type and O-type are easily available by the predicate type-signature from the KG schema.
+As additional context we feed a Wikipedia sentence from the S entity's article into the LM. 
+This is repeated for all sentences in the respective Wikipedia article. 
+Specifically, we employ the SpanBERT language model [joshi2020spanbert], which is fine-tuned on on the SQuAD 2.0 [rajpurkar2018know] \footnote{\url{https://huggingface.co/mrm8488/spanbert-large-finetuned-squadv2}}.
+Note that all of this is completely unsupervised:
+there is no need for any fine-tuning of the LM,
+and there is no prompt engineering.

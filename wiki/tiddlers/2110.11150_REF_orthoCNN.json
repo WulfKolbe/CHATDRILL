@@ -1,0 +1,17 @@
+[
+    {
+        "title": "2110.11150_REF_orthoCNN",
+        "text": "{{||CIT}} D. Balduzzi, M. Frean, L. Leary, J. P. Lewis, K. W.-D. Ma, and B. McWilliams. The shattered gradients problem: If resnets are the answer, then what is the question? In International Conference on Machine Learning, 2017.",
+        "type": "text/markdown",
+        "tags": "reference bibentry bibtex 2110.11150",
+        "created": "20260626111149172",
+        "modified": "20260626111149172",
+        "kind": "reference",
+        "citekey": "orthoCNN",
+        "year": "2017",
+        "authors": "David Balduzzi and Marcus Frean and Lennox Leary and J. P. Lewis and Kurt Wan-Duo Ma and Brian McWilliams",
+        "entry_type": "inproceedings",
+        "titlefield": "The Shattered Gradients Problem: If resnets are the answer, then what is the question?",
+        "bibtex": "@InProceedings{orthoCNN,\n  title = \t {The Shattered Gradients Problem: If resnets are the answer, then what is the question?},\n  author = \t {David Balduzzi and Marcus Frean and Lennox Leary and J. P. Lewis and Kurt Wan-Duo Ma and Brian McWilliams},\n  booktitle = {International Conference on Machine Learning},\n  year = \t {2017}\n}"
+    }
+]

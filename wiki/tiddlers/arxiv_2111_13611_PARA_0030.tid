@@ -1,0 +1,9 @@
+created: 20260625080930846
+modified: 20260625080930846
+page: 000
+parent_section: arxiv_2111_13611_H4
+tags: paragraph arxiv_2111_13611
+title: arxiv_2111_13611_PARA_0030
+type: text/vnd.tiddlywiki
+
+Each document in DoCo was processed by two relation extraction APIs, Rosette and Diffbot. To annotate each document with coverage, we focused only on the entity queried initially to obtain the document. For our experimental study, we selected the following frequently occurring relations: member-of, family, edu-at, and position-held, for PER, and partner-org, founded-by, ceo, and board-member, for ORG. For more accurate coverage calculation, the RE tuples were deduplicated, e.g., (Gates, member-of, Microsoft Corp.) would become (Bill Gates, member-of, Microsoft), via alignment to Wikidata identifiers returned by the APIs.

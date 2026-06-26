@@ -1,0 +1,16 @@
+created: 20260625110956925
+displayMode: true
+equation_number: 
+kind: Equation
+latex: \begin{aligned} \ensuremath{\tilde{\bm{X}}}\xspace &= \ensuremath{g}\xspace_{\ensuremath{\tilde{\bm{X}}}\xspace}\left(\ensuremath{\tilde{\bm{Z}}}\xspace \right)\qquad\quad\ensuremath{\tilde{\bm{Y}}}\xspace = \ensuremath{g}\xspace_{\ensuremath{\tilde{\bm{Y}}}\xspace}\left(\ensuremath{\tilde{\bm{Z}}}\xspace \right) \\ \ensuremath{\bm{X}}\xspace &= \ensuremath{g}\xspace_{\ensuremath{\bm{X}}\xspace} \left(\ensuremath{\tilde{\bm{X}}}\xspace, \ensuremath{\bm{E}_X}\xspace \right)\quad\ensuremath{\bm{Y}}\xspace = \ensuremath{g}\xspace_{\ensuremath{\bm{Y}}\xspace} \left(\ensuremath{\tilde{\bm{Y}}}\xspace, \ensuremath{\bm{E}_Y}\xspace \right) \, , \end{aligned}
+latex_original: \begin{aligned} \Xt &= \fung_{\Xt}\left(\Zt \right)\qquad\quad\Yt = \fung_{\Yt}\left(\Zt \right) \\ \Xg &= \fung_{\Xg} \left(\Xt, \Xn \right)\quad\Yg = \fung_{\Yg} \left(\Yt, \Yn \right) \, , \end{aligned}
+latex_tex: \begin{aligned} \ensuremath{\tilde{\bm{X}}}\xspace &= \ensuremath{g}\xspace_{\ensuremath{\tilde{\bm{X}}}\xspace}\left(\ensuremath{\tilde{\bm{Z}}}\xspace \right)\qquad\quad\ensuremath{\tilde{\bm{Y}}}\xspace = \ensuremath{g}\xspace_{\ensuremath{\tilde{\bm{Y}}}\xspace}\left(\ensuremath{\tilde{\bm{Z}}}\xspace \right) \\ \ensuremath{\bm{X}}\xspace &= \ensuremath{g}\xspace_{\ensuremath{\bm{X}}\xspace} \left(\ensuremath{\tilde{\bm{X}}}\xspace, \ensuremath{\bm{E}_X}\xspace \right)\quad\ensuremath{\bm{Y}}\xspace = \ensuremath{g}\xspace_{\ensuremath{\bm{Y}}\xspace} \left(\ensuremath{\tilde{\bm{Y}}}\xspace, \ensuremath{\bm{E}_Y}\xspace \right) \, , \end{aligned}
+modified: 20260625110956925
+page: 000
+refnum: 
+score_tex: 1.0
+tags: equation 2110.13883
+title: 2110.13883_EQ0008
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode=true />

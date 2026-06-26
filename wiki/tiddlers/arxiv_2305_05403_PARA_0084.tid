@@ -1,0 +1,9 @@
+created: 20260625080853721
+modified: 20260625080853721
+page: 000
+parent_section: arxiv_2305_05403_H9
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0084
+type: text/vnd.tiddlywiki
+
+Experiments with a crowd-sourced ground truth on YAGO and Wikidata show that some predicates are trivial to predict. These are obligatory attributes with only one or few objects per subject: bornIn, hasNationality, gender, etc. Here, the CWA and PCA work great. For the other relationships, the Popularity Assumption has a high precision, but low recall, i.e., misses that many more subjects than predicted are complete. The Star- and Class-Oracles also do well. The combined approach can achieve F1-values of 90%-100% for all 10 predicates that were tested, with the exception of has\-Spouse: it remains hard to predict whether someone has more spouses than are in the KB.

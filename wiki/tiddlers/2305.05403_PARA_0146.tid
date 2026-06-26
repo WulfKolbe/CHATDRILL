@@ -1,0 +1,9 @@
+created: 20260625093231914
+modified: 20260625093231914
+page: 000
+parent_section: 2305.05403_H14
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0146
+type: text/vnd.tiddlywiki
+
+returns the objects that satisfy \fact{s}{p}{*} and statements from top-5 aligned (counting) enumerating predicates if available. For instance, in DBpedia, if we look for the Royal Swedish Academy of Sciences, the enumerating predicate \textit{workplaces{{2305.05403_FO0125||FO}}} returns eight entities who work there, but {we} also learn that the aligned counting predicates academicStaff and administrativeStaff are unpopulated. Again in DBpedia, {we} learn that the enumerating predicate doctoralStudent has no corresponding counting predicate: For the subject Marie Curie and the predicate doctoralStudent, the system returns 7 entities who were her doctoral students but no aligned cardinality assertions.

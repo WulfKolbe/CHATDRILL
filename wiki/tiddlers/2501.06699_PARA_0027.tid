@@ -1,0 +1,9 @@
+created: 20260625092952539
+modified: 20260625092952539
+page: 000
+parent_section: 2501.06699_H2
+tags: paragraph 2501.06699
+title: 2501.06699_PARA_0027
+type: text/vnd.tiddlywiki
+
+\parai{Coverage} refers to the broadness and comprehensiveness of the content covered. With respect to the coverage of the raw information on which they are based, SEs index vast collections of documents crawled from the Web. LLMs are likewise often trained on vast collections of text, including the content of Web crawls, as well as selected complete corpora of particular human interest, such as Wikipedia, news archives, book collections, etc., but may not retain long-tail facts seen few times in the corpus. KGs, on the other hand, are repositories of curated data in a structured representation. They cover many millions of entities and billions of facts about them: this is very high coverage, but still only a tiny fraction of what is textually and noisily stated in the corpora of the largest SEs and LLMs. SEs and LLMs dominate in terms of the broadness of their coverage, which is delimited by the wider domain of information available in natural language, but there exist domain-specific KGs for verticals like finance, health, energy and more, which can be key assets for applications where data quality is crucial.

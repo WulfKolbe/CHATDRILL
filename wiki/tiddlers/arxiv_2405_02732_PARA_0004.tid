@@ -1,0 +1,11 @@
+created: 20260625080827136
+modified: 20260625080827136
+page: 000
+parent_section: arxiv_2405_02732_H1
+tags: paragraph arxiv_2405_02732
+title: arxiv_2405_02732_PARA_0004
+type: text/vnd.tiddlywiki
+
+The most challenging cases arise when a relation is expressed merely by soft cues in a few passages, scattered across an entire book. For instance, consider Harry's friend Neville: Figure (ref) shows a weak cue---very unwieldy for established IE methods. Additional similar weak cues are spread throughout the books, and only by aggregating all of them can we confidently infer this friendship. 
+This calls for novel methods regarding (i) retrieving informative passages, and
+(ii) performing inference over multiple passages.

@@ -1,0 +1,16 @@
+created: 20260625110956925
+displayMode: true
+equation_number: 
+kind: Equation
+latex: I(\ensuremath{\bm{X}}\xspace;\ensuremath{\bm{Y}}\xspace) = h(\ensuremath{\bm{X}}\xspace) + h(\ensuremath{\bm{Y}}\xspace) - h(\ensuremath{\bm{X}}\xspace,\ensuremath{\bm{Y}}\xspace)
+latex_original: I(\Xg;\Yg) = h(\Xg) + h(\Yg) - h(\Xg,\Yg)
+latex_tex: I(\ensuremath{\bm{X}}\xspace;\ensuremath{\bm{Y}}\xspace) = h(\ensuremath{\bm{X}}\xspace) + h(\ensuremath{\bm{Y}}\xspace) - h(\ensuremath{\bm{X}}\xspace,\ensuremath{\bm{Y}}\xspace)
+modified: 20260625110956925
+page: 000
+refnum: 
+score_tex: 1.0
+tags: equation 2110.13883
+title: 2110.13883_EQ0001
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode=true />

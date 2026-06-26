@@ -1,0 +1,11 @@
+caption: \underline{\rm C}
+created: 20260625080827351
+displayMode: false
+latex: \underline{\rm C}
+latex_original: \underline{\rm C}
+modified: 20260625080827351
+tags: formula arxiv_2311_01314
+title: arxiv_2311_01314_FO0001
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

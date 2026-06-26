@@ -1,0 +1,9 @@
+created: 20260625080853723
+modified: 20260625080853723
+page: 000
+parent_section: arxiv_2305_05403_H29
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0254
+type: text/vnd.tiddlywiki
+
+For KB construction driven by a specific use case, our suggestion is to organize the recall assessment via metrics derived from the use, as discussed in Section (ref). Initially, one should derive a profile of queries to be answered by the KB, e.g., by sampling from the use case. Where the sample's breadth is limited, interpolation should be used to derive a broader profile [hopkinson2018demand]. Efforts towards KB population can then be evaluated against this query profile, i.e., for each specific population technique or domain, one could compare cost and benefit, and prioritize accordingly.

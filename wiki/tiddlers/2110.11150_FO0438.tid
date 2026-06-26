@@ -1,0 +1,11 @@
+caption: \text{sign}(y) w_{1,i} \sim U[0,1]
+created: 20260625151931664
+displayMode: false
+latex: \text{sign}(y) w_{1,i} \sim U[0,1]
+latex_original: \text{sign}(y) w_{1,i} \sim U[0,1]
+modified: 20260625151931664
+tags: formula 2110.11150
+title: 2110.11150_FO0438
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

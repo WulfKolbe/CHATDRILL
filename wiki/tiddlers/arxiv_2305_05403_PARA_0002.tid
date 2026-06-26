@@ -1,0 +1,22 @@
+created: 20260625080853721
+modified: 20260625080853721
+page: 000
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0002
+type: text/vnd.tiddlywiki
+
+\author{Simon Razniewski}
+\email{simon.razniewski@de.bosch.com}
+\affiliation{\institution{Bosch Center for AI}\country{Germany}}
+\author{Hiba Arnaout}
+\email{harnaout@mpi-inf.mpg.de}
+\affiliation{\institution{Max Planck Institute for Informatics}\country{Germany}}
+\author{Shrestha Ghosh}
+\email{ghoshs@mpi-inf.mpg.de}
+\affiliation{\institution{Max Planck Institute for Informatics}\country{Germany}}
+\author{Fabian Suchanek}
+\affiliation{
+ \institution{Telecom Paris, Institut Polytechnique de Paris}
+ \country{France}
+}
+\email{suchanek@telecom-paris.fr}

@@ -1,0 +1,10 @@
+created: 20260625093231914
+modified: 20260625093231914
+page: 000
+parent_section: 2305.05403_H7
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0059
+type: text/vnd.tiddlywiki
+
+In this section, we deal with approaches that can automatically determine the recall of a KB, i.e., the proportion of the domain of interest of the real world that the KB covers. 
+We consider the recall of entities (Section (ref)) and the recall of statements (Section (ref)).

@@ -1,0 +1,10 @@
+created: 20260625093105364
+modified: 20260625093105364
+page: 000
+parent_section: 2310.14771_H2
+tags: paragraph 2310.14771
+title: 2310.14771_PARA_0015
+type: text/vnd.tiddlywiki
+
+Recently, GPT-4's capabilities for KBC and reasoning were examined [autokg2023]. This research compared GPT-3, ChatGPT, and GPT-4 on information extraction tasks, KBC, and KG-based question answering.
+However, these studies focus on popular statements from existing KBs, neglecting the challenge of introducing genuinely new knowledge in the long tail.

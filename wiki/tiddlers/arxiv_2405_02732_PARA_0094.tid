@@ -1,0 +1,13 @@
+created: 20260625080827137
+modified: 20260625080827137
+page: 000
+parent_section: arxiv_2405_02732_H18
+tags: paragraph arxiv_2405_02732
+title: arxiv_2405_02732_PARA_0094
+type: text/vnd.tiddlywiki
+
+We observe that increasing {{arxiv_2405_02732_FO0077||FO}} is very useful, but has diminishing returns beyond a certain value. Note that larger {{arxiv_2405_02732_FO0078||FO}} also increase the cost for invoking the LLM more often.
+For small {{arxiv_2405_02732_FO0079||FO}}, there is no benefit from larger batches, but this
+changes for large {{arxiv_2405_02732_FO0080||FO}}, where bigger batches keep improving recall.
+Note that this also increases LLM costs, as we pass more tokens into
+the inference.

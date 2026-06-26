@@ -1,0 +1,9 @@
+created: 20260625080805467
+modified: 20260625080805467
+page: 000
+parent_section: arxiv_2411_12449_H7
+tags: paragraph arxiv_2411_12449
+title: arxiv_2411_12449_PARA_0055
+type: text/vnd.tiddlywiki
+
+Beginning with Table (ref) we notice that in zero-shot setting WebRAG achieves the highest performance across all three attributes; this is unsurprising considering that it is achieved by the help of a full-fledged web-scale search engine. Meanwhile, Neon variants consistently outperform NewsRAG on both retrieval strategies for the helpfulness and faithfulness attributes, demonstrating that temporally relevant Neon KB entries improve generation reliability. Between Neon variants, both perform similarly on helpfulness and faithfulness, but \textsc{Neon({{arxiv_2411_12449_FO0132||FO}})} achieves a higher relevance scores.

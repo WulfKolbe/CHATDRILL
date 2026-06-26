@@ -1,0 +1,11 @@
+caption: P(a_{ij} = 1) = P(a_{ij} = -1) = \frac{\lambda}{2}
+created: 20260625080931152
+displayMode: false
+latex: P(a_{ij} = 1) = P(a_{ij} = -1) = \frac{\lambda}{2}
+latex_original: P(a_{ij} = 1) = P(a_{ij} = -1) = \frac{\lambda}{2}
+modified: 20260625080931152
+tags: formula arxiv_2110_13883
+title: arxiv_2110_13883_FO0213
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

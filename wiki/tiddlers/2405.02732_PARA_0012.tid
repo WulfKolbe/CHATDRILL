@@ -1,0 +1,29 @@
+created: 20260625093047341
+modified: 20260625093047341
+page: 000
+parent_section: 2405.02732_H2
+tags: paragraph 2405.02732
+title: 2405.02732_PARA_0012
+type: text/vnd.tiddlywiki
+
+Recent works
+ [DBLP:journals/csur/ZhaoDYWZCLSX24, DBLP:journals/fcsc/XuCPZXZWZWC24]
+have advanced the scope of the extractors' inputs under the theme of
+``long-distance IE'',
+going beyond single sentences/passages.
+However, techniques like 
+graph neural networks or LLM-powered generative IE 
+are geared for short news or chats, 
+and
+cannot cope with
+book-length texts.
+In the popular document-level benchmark DocRED [DBLP:conf/acl/YaoYLHLLLHZS19],
+inputs
+are single paragraphs from Wikipedia.
+Aggregating cues from many passages 
+(as required, e.g., for determining that Neville is Harry's friend) is out of scope.
+Moreover, these prior works assume texts for extraction are given upfront, or retrieved by matching S and O in proximity. 
+In contrast, our long-list task takes S and P as input and seeks to generate previously unseen
+O as output. 
+This changes the goal from high-precision classification to
+high-recall extraction.

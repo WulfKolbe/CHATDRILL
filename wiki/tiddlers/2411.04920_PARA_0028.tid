@@ -1,0 +1,9 @@
+created: 20260625093027647
+modified: 20260625093027647
+page: 000
+parent_section: 2411.04920_H5
+tags: paragraph 2411.04920
+title: 2411.04920_PARA_0028
+type: text/vnd.tiddlywiki
+
+In our experiment, both relation and class clustering uses SentenceTransformers [reimers-2019-sentence-bert] for embedding cosine similarity computation, with {{2411.04920_FO0005||FO}} and global highest threshold {{2411.04920_FO0006||FO}} chosen via manual inspection of small held-out sets. For tail predicates, to ensure clustering precision, we set lowest threshold {{2411.04920_FO0007||FO}}.

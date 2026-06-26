@@ -1,0 +1,9 @@
+created: 20260625080859570
+modified: 20260625080859570
+page: 000
+parent_section: arxiv_2209_07250_H32
+tags: paragraph arxiv_2209_07250
+title: arxiv_2209_07250_PARA_0157
+type: text/vnd.tiddlywiki
+
+The fourth query, ``how many osmund brothers are still alive'' is a query from the CoQuAD dataset, where instances in the snippets are more prevalent than counts. The CNPs ``9 siblings'' counts all brothers (8) and a sister, and ``7 brothers'' CNP belongs to snippet of the form ``Melvin Wayne Osmund has 7 brothers'', where the eighth brother is instantiated. CoQEx gets correct instances except for ``Marie'' who is the Osmund sister. Since all of the Osmund siblings were famous musicians, they pop up across relevant snippets.

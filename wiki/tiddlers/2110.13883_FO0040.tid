@@ -1,0 +1,11 @@
+caption: V_{\ensuremath{\bm{x}}\xspace_i}
+created: 20260625110956923
+displayMode: false
+latex: V_{\ensuremath{\bm{x}}\xspace_i}
+latex_original: V_{\xg_i}
+modified: 20260625110956923
+tags: formula 2110.13883
+title: 2110.13883_FO0040
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

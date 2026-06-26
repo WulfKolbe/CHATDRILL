@@ -1,0 +1,9 @@
+created: 20260625093027647
+modified: 20260625093027647
+page: 000
+parent_section: 2411.04920_H11
+tags: paragraph 2411.04920
+title: 2411.04920_PARA_0067
+type: text/vnd.tiddlywiki
+
+Scaling laws and storage capacity are intensively investigated [allen2024physics], but usually on synthetic data. Our experiments provide a lower bound on real data: As discussed in Section (ref), GPT-4o-mini likely has in the order of 8B parameters. Given the 101M triples that we obtained, that makes 79 parameters per triple.\footnote{From [allen2024physics], a theoretical lower bound of 4 parameters/triple can be deduced, based on Remark 4.4, and their synthetic dataset containing 6 triples per entity. However, the generalizability of results on that synthetic dataset is unclear.} We emphasize that this number captures only encyclopedic knowledge, yet that LLMs also possess other knowledge, e.g., linguistic knowledge, procedural knowledge.

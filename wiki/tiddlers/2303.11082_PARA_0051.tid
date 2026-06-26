@@ -1,0 +1,9 @@
+created: 20260625093242023
+modified: 20260625093242023
+page: 000
+parent_section: 2303.11082_H16
+tags: paragraph 2303.11082
+title: 2303.11082_PARA_0051
+type: text/vnd.tiddlywiki
+
+Generalization or Retrieval? To investigate this further, we computed the proportion of subjects with English Wikipedia articles per relation. This enables us to estimate whether facts were mentioned in corresponding Wikipedia articles and thus, were present in BERT's training set. It can be shown that the language-related and socio-demographic relations achieve high results despite their lower occurrence in Wikipedia. This means that BERT predicts never seen facts with a high accuracy for these relations, showing a high generalization capability. When given facts such as the headquarters of ``Universal de Televisión Peru``, the model correctly predicts ``Lima``.

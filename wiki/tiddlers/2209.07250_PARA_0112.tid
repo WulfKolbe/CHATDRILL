@@ -1,0 +1,9 @@
+created: 20260625093341705
+modified: 20260625093341705
+page: 000
+parent_section: 2209.07250_H19
+tags: paragraph 2209.07250
+title: 2209.07250_PARA_0112
+type: text/vnd.tiddlywiki
+
+Semantic qualifiers are still common in GoogleSDA featured snippets, coming up in 61% of queries. While semantic qualifiers can be expressed in KG answers (``volcanic islands in Hawaii''{{2209.07250_FO0033||FO}}islands{{2209.07250_FO0034||FO}}Hawaii{{2209.07250_FO0035||FO}}volcanoes), this rarely shows up in GoogleSDA for two reasons, i) KG answers are provided for short (single entity) and simple queries (relations with no semantic qualifiers) and ii) KG answers are provided for very popular queried entity and qualifier.

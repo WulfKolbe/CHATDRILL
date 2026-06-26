@@ -1,0 +1,11 @@
+caption: w_+^*=\frac{3}{4}
+created: 20260625151931663
+displayMode: false
+latex: w_+^*=\frac{3}{4}
+latex_original: w_+^*=\frac{3}{4}
+modified: 20260625151931663
+tags: formula 2110.11150
+title: 2110.11150_FO0279
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

@@ -1,0 +1,11 @@
+created: 20260625093448814
+modified: 20260625093448814
+page: 000
+parent_section: 2204.11677_H2
+tags: paragraph 2204.11677
+title: 2204.11677_PARA_0069
+type: text/vnd.tiddlywiki
+
+\myparagraph{Evidence} An evidence 
+is a unit of retrieval that can come from any of the heterogeneous sources above: a KB-fact, a text-sentence, a table-record (row), or an infobox-entry.
+Evidences form the sources of answer candidates.

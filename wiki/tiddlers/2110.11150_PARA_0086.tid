@@ -1,0 +1,12 @@
+created: 20260626094813420
+modified: 20260626094813420
+page: 000
+parent_section: 2110.11150_H22
+tags: paragraph 2110.11150
+title: 2110.11150_PARA_0086
+type: text/vnd.tiddlywiki
+
+With probability at least {{2110.11150_FO0242||FO}}, we can approximate each single parameter by solving the subset sum problem for the corresponding neuron. 
+As outlined in Cor. 2 by {{2110.11150_REF_pensia2020optimal||CIT}}, which is based on Cor. 3.3 by {{2110.11150_REF_subsetsum||CIT}}, we need {{2110.11150_FO0249||FO}}
+neurons in layer {{2110.11150_FO0122||FO}} per neuron of the form {{2110.11150_FO0250||FO}} or {{2110.11150_FO0251||FO}}.
+Since we have to represent {{2110.11150_FO0237||FO}} of these neurons, in total we require layer {{2110.11150_FO0122||FO}} of {{2110.11150_FO0021||FO}} to have width

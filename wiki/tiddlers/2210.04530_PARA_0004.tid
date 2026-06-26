@@ -1,0 +1,9 @@
+created: 20260625093324945
+modified: 20260625093324945
+page: 000
+parent_section: 2210.04530_H1
+tags: paragraph 2210.04530
+title: 2210.04530_PARA_0004
+type: text/vnd.tiddlywiki
+
+This paper investigates (i) whether children's texts are a promising source for CSK and (ii) whether small corpora can still boost knowledge extraction from large language models. Specifically, we analyze the density and typicality of CSK assertions in children's text corpora and show how fine-tuning existing language models on them can improve CSK compilation. Data and models, including a childBERT variant, can be found at \url{https://www.mpi-inf.mpg.de/children-texts-for-commonsense}.

@@ -1,0 +1,12 @@
+created: 20260625080853722
+modified: 20260625080853722
+page: 000
+parent_section: arxiv_2305_05403_H14
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0151
+type: text/vnd.tiddlywiki
+
+Experiments in probing older LLMs for numerical commonsense [lin2020birds] show that fine-tuning improves the model performance, though the models could not surpass humans. 
+The 2023 edition of the LM-KBC challenge [lm-kbc-challenge-2023], whose main focus is on constructing KB from an LLM, contains cardinality prediction for two relations, numberOfChildren of a person and numberOfEpisodes of a TV series. Even the best-performing system, that relied on GPT-4, achieved only 69% F1-score on both relations. It appears that more work is needed here before LLM outputs could reliably feed a knowledge base. 
+A common challenge to both tasks of extracting cardinality assertions and aligning counting with enumerating predicates is generating high-quality training and ground truth data. There is no single authoritative source on groundtruths: We have IMDB for movies\footnote{IMDB: \url{https://www.imdb.com/}}, cast and crew, and the GeoNames dataset for geographical locations\footnote{GeoNames\url{https://www.geonames.org/}}. These are great examples of high recall datasets, but the situation is not as rosy when we move to other topics, like scientists or monuments. Crowd-sourcing is an option, but it poses several challenges, most importantly data quality and scalability. The other option commonly used is to employ heuristics. As we saw for cardinality extraction from text [mirza2018enriching], distant supervision can be used to extract ground truth statements, with certain restrictions, such as relying on popular entities and KB statistics, such as the {{arxiv_2305_05403_FO0126||FO}} percentile predicate value to filter out possible outliers. 
+\end{revision}

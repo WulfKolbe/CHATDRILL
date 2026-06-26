@@ -1,0 +1,12 @@
+created: 20260626111149172
+displayMode: true
+equation_number: 
+kind: Equation
+latex: n_{2l-1,0} \geq C n_{l-1} \log\left(\frac{1}{\min\left(\delta_l, \epsilon_l\right)} \right).
+latex_original: n_{2l-1,0} \geq C n_{l-1} \log\left(\frac{1}{\min\left(\delta_l, \epsilon_l\right)} \right).
+modified: 20260626111149172
+page: 000
+refnum: 
+tags: equation 2110.11150
+title: 2110.11150_EQ0027
+type: text/markdown

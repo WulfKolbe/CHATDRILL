@@ -1,0 +1,12 @@
+created: 20260625080931150
+modified: 20260625080931150
+page: 000
+parent_section: arxiv_2110_13883_H11
+tags: paragraph arxiv_2110_13883
+title: arxiv_2110_13883_PARA_0070
+type: text/vnd.tiddlywiki
+
+To test our approach for more complex data, and in particular data distributions resembling a manifold, we consider two simulated data sets.
+The first dataset we study is a sphere, resembling e.g. a planet (see Fig. (ref) left). Data is distributed on the sphere, for which {{arxiv_2110_13883_FO0338||FO}} is given as longitude and latitude, and {{arxiv_2110_13883_FO0339||FO}} is given as the 3D coordinates.
+The second dataset is a helix (see Fig. (ref) right), for which {{arxiv_2110_13883_FO0340||FO}} specifies the distance along the helix (1D), and {{arxiv_2110_13883_FO0341||FO}} is given as the 3D coordinates, a typical problem from manifold learning.
+We give details on how these datasets are sampled and how to compute a lower bound on the ground truth MI in Supplementary Material (ref).

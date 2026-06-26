@@ -1,0 +1,10 @@
+created: 20260625093527300
+modified: 20260625093527300
+page: 000
+parent_section: 2111.13611_H2
+tags: paragraph 2111.13611
+title: 2111.13611_PARA_0017
+type: text/vnd.tiddlywiki
+
+The input is typically a set of documents, often assumed to be fixed and given upfront. This disregards the critical issue of benefit/cost trade-offs, which mandates identifying high-yield inputs for resource-bounded KBC.
+Identifying relevant, expressive and preferable sources for KBC is often referred to as source discovery. Source discovery can be performed via IR-style ranking of documents or can be based on heuristic estimators of the yield of relation extractors [wang2019midas,paramita-emnlp-2019]. The former work, in particular, approaches yield optimization as a set coverage maximization problem through shared properties of extracted entities. The latter uses textual features in a supervised SVM or LSTM model, a baseline with which we also compare in our experiments.

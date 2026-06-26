@@ -1,0 +1,11 @@
+caption: 7,871,085 \cdot 0.86=6,769,133
+created: 20260625080853980
+displayMode: false
+latex: 7,871,085 \cdot 0.86=6,769,133
+latex_original: 7,871,085 \cdot 0.86=6,769,133
+modified: 20260625080853980
+tags: formula arxiv_2303_11082
+title: arxiv_2303_11082_FO0044
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

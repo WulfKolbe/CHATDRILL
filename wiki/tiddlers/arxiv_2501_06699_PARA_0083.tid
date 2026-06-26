@@ -1,0 +1,13 @@
+created: 20260625080804874
+modified: 20260625080804874
+page: 000
+parent_section: arxiv_2501_06699_H12
+tags: paragraph arxiv_2501_06699
+title: arxiv_2501_06699_PARA_0083
+type: text/vnd.tiddlywiki
+
+Search Engines (SEs) help users to retrieve relevant information from potentially massive corpora, like the Web, including news feeds, social media streams and even structured datasets such as JSON files or CSV tables.
+ SEs are powered by Information Retrieval (IR) techniques [DBLP:books/aw/Baeza-YatesR2011], classically geared towards
+ matching keywords in documents, but the last decade has brought many innovations [DBLP:journals/sigir/MetzlerTBN21], improving user experience in finding answers.
+ SE technology comprises the following components
+ [DBLP:books/sp/23/L2023]:

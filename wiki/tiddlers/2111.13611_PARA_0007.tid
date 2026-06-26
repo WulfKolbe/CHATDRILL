@@ -1,0 +1,11 @@
+created: 20260625093527300
+modified: 20260625093527300
+page: 000
+parent_section: 2111.13611_H1
+tags: paragraph 2111.13611
+title: 2111.13611_PARA_0007
+type: text/vnd.tiddlywiki
+
+\vspace*{0.2cm}
+\noindent{\bf Approach and Contributions}
+This paper presents the first systematic approach for analyzing and predicting document coverage for relation extraction. To facilitate extensive experimental study on this novel task, we introduce a large \underline{Do}cument \underline{Co}verage (DoCo) dataset of {{2111.13611_FO0007||FO}} web documents for {{2111.13611_FO0008||FO}} distinct entities spanning {{2111.13611_FO0009||FO}} relations, along with automated extractions and coverage labels.

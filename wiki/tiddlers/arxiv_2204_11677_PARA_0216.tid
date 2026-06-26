@@ -1,0 +1,11 @@
+created: 20260625080929033
+modified: 20260625080929033
+page: 000
+parent_section: arxiv_2204_11677_H17
+tags: paragraph arxiv_2204_11677
+title: arxiv_2204_11677_PARA_0216
+type: text/vnd.tiddlywiki
+
+ii) the evidence retriever retrieves at least one answering evidence
+but none of these is among the top-{{arxiv_2204_11677_FO0135||FO}} after ERS ({{arxiv_2204_11677_FO0136||FO}}%), calling for more informed evidence-scoring mechanisms;
+or iii) FiD fails to detect the correct answer ({{arxiv_2204_11677_FO0137||FO}}%), which indicates that more sophisticated reasoning over the set of evidences might be required.

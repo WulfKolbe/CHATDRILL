@@ -1,0 +1,9 @@
+created: 20260625093448815
+modified: 20260625093448815
+page: 000
+parent_section: 2204.11677_H13
+tags: paragraph 2204.11677
+title: 2204.11677_PARA_0177
+type: text/vnd.tiddlywiki
+
+\myparagraph{Measuring retrieval effectiveness} To evaluate retrieval quality, we use answer presence as our metric. It is a binary measure of whether one of the gold answers is present in the top-{{2204.11677_FO0094||FO}} evidences ({{2204.11677_FO0095||FO}} in all experiments).

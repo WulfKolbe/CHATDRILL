@@ -1,0 +1,10 @@
+created: 20260625093145739
+modified: 20260625093145739
+page: 000
+parent_section: 2307.03122_H6
+tags: paragraph 2307.03122
+title: 2307.03122_PARA_0024
+type: text/vnd.tiddlywiki
+
+We probed larger LMs like T5 [t5model] and BART [lewis-etal-2020-bart], which can generate a list of tokens with likelihoods using Beam search decoding algorithm, similar to masked LMs. With top-{{2307.03122_FO0026||FO}} method, T5-large achieves 43.6% precision, 41.7% recall, and 40.3% F1 score. BART-large achieves an even lower 32.0% precision, 34.3% recall, and 30.8% F1 score. Table (ref) in Appendix gives all the scores. 
+These models tend to generate common objects and exhibit repetitive behavior. Also, the current trend is towards using autoregressive models like \mbox{(chat-)}GPT, like [kalo,geva] used to extract multi-valued relations. However, unlike in our method, with no control over the selection mechanism, the LM directly outputs one final list in both works. While internally autoregressive models also use token probabilities that could be used for our approach, once one generates a full list, previously generated list items conflate the probabilities of items.

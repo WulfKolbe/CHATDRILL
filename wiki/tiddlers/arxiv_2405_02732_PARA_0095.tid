@@ -1,0 +1,9 @@
+created: 20260625080827137
+modified: 20260625080827137
+page: 000
+parent_section: arxiv_2405_02732_H18
+tags: paragraph arxiv_2405_02732
+title: arxiv_2405_02732_PARA_0095
+type: text/vnd.tiddlywiki
+
+All L3X-RAG configs use five reformulations for retriever queries. Table (ref) presents the change in results with fewer query variants. Both recall and R@P values drop with less queries, showing the vital role of diversified formulations.

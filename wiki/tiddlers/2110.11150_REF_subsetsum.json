@@ -1,0 +1,17 @@
+[
+    {
+        "title": "2110.11150_REF_subsetsum",
+        "text": "{{||CIT}} G. S. Lueker. Exponentially small bounds on the expected optimum of the partition and subset sum problems. Random Structures \\& Algorithms, 12\\penalty0 (1):\\penalty0 51--62, 1998.",
+        "type": "text/markdown",
+        "tags": "reference bibentry bibtex 2110.11150",
+        "created": "20260626111149173",
+        "modified": "20260626111149173",
+        "kind": "reference",
+        "citekey": "subsetsum",
+        "year": "1998",
+        "authors": "Lueker, George S.",
+        "entry_type": "article",
+        "titlefield": "Exponentially small bounds on the expected optimum of the partition and subset sum problems",
+        "bibtex": "@article{subsetsum,\nauthor = {Lueker, George S.},\ntitle = {Exponentially small bounds on the expected optimum of the partition and subset sum problems},\njournal = {Random Structures \\& Algorithms},\nvolume = {12},\nnumber = {1},\npages = {51-62},\nyear = {1998}\n}"
+    }
+]

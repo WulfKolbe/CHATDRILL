@@ -1,0 +1,9 @@
+created: 20260625093242023
+modified: 20260625093242023
+page: 000
+parent_section: 2303.11082_H1
+tags: paragraph 2303.11082
+title: 2303.11082_PARA_0007
+type: text/vnd.tiddlywiki
+
+It is also important to keep in mind the scale of KBs: Wikidata, for instance, currently contains around 100 Million entities, and 1.2B statements. The cost of producing such KBs is massive, one estimate from 2018 sets the cost per triple at 2 USD for manually curated triples[paulheim], and 1 ct for automatically extracted ones.\footnote{Wikidata might broadly fall in between, as its aim is human-curated quality, but major portions are imported semi-automatically from other sources.} Thus, even small additions in relative terms, might correspond to massive gains in absolute numbers. For example, even by the lower estimate of 1 ct/triple, adding one triple to just 1% of Wikidata humans, would come at a cost of 100k USD.

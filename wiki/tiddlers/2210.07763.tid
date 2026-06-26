@@ -1,0 +1,20 @@
+caption: 2210.07763
+created: 20260625093308066
+modified: 20260625093308066
+tags: document bibtex 2210.07763
+title: 2210.07763
+type: text/vnd.tiddlywiki
+
+! 2210.07763
+
+* Total Pages: 0
+* Total Sections: 25
+* Total Paragraphs: 175
+* Total Equations: 3
+* Total Formulas: 31
+
+!! Top-level Sections
+
+<$list filter="[tag[section]2210.07763]!has[parent_section]] [tag[section]parent_section[2210.07763]]" variable="sec">
+  * <$link to=<<sec>>><<sec>></$link>
+</$list>

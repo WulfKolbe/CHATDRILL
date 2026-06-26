@@ -1,0 +1,11 @@
+caption: Y' = P + N_2
+created: 20260625080931152
+displayMode: false
+latex: Y' = P + N_2
+latex_original: Y' = P + N_2
+modified: 20260625080931152
+tags: formula arxiv_2110_13883
+title: arxiv_2110_13883_FO0365
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

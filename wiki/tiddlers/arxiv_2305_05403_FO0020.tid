@@ -1,0 +1,11 @@
+caption: \ensuremath{\langle{}s, p, o\rangle}
+created: 20260625080853723
+displayMode: false
+latex: \ensuremath{\langle{}s, p, o\rangle}
+latex_original: \mfact{s}{p}{o}
+modified: 20260625080853723
+tags: formula arxiv_2305_05403
+title: arxiv_2305_05403_FO0020
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

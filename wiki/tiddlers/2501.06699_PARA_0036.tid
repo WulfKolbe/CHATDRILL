@@ -1,0 +1,13 @@
+created: 20260625092952539
+modified: 20260625092952539
+page: 000
+parent_section: 2501.06699_H2
+tags: paragraph 2501.06699
+title: 2501.06699_PARA_0036
+type: text/vnd.tiddlywiki
+
+\parai{Usability} references the ease with which users can request the information they need. SEs and LLMs are based on natural language, which greatly boosts their usability; they ``speak'' our language. Conversely, to exploit the full power of KGs, users must write structured queries 
+ in a formal language: a high barrier for many.
+ Thus, while users often interact directly with SEs and LLMs, users most often interact indirectly with KGs via end-user 
+ applications.
+ On the positive side, natural language interfaces that map user questions (e.g., ``Which Turing Award winners were born in Latin America?'') into structured queries (e.g., Cypher, SPARQL, etc.) are being advanced to improve KG usability.

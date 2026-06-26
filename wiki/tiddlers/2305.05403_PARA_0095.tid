@@ -1,0 +1,10 @@
+created: 20260625093231914
+modified: 20260625093231914
+page: 000
+parent_section: 2305.05403_H12
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0095
+type: text/vnd.tiddlywiki
+
+For example, we find the predicates numberOfGoals (for the goals scored by football players) and totalHurricanes (for the number of hurricanes in a cyclone) in DBpedia and numberOfEpisodes (for a film/TV/radio series) in Wikidata as well as in YAGO.
+Unfortunately, the predicates of these cardinality assertions usually do not follow any naming scheme: some predicates have the prefix numberOf..., but others are specific to the class at hand, including staffSize, population, or member count. Furthermore,

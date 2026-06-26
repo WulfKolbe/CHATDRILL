@@ -1,0 +1,13 @@
+created: 20260625080929033
+modified: 20260625080929033
+page: 000
+parent_section: arxiv_2204_11677_H17
+tags: paragraph arxiv_2204_11677
+title: arxiv_2204_11677_PARA_0208
+type: text/vnd.tiddlywiki
+
+-- see Table (ref). 
+In contrast, as one would naturally expect, the baselines exhibit systematic degradation from turn to turn, as it becomes harder to capture implicit cues about the user intents with progressing conversation (this was the main reason for collecting \convmix-10T).
+This is most pronounced for the \phrase{Prepend all} model.
+Note, that different FiD models were trained for each method individually, which results in different performances even for the first turn.
+For most methods, there is a significant performance drop for the last three turns, indicating that further investigation of generalization to longer conversations might be worthwhile.

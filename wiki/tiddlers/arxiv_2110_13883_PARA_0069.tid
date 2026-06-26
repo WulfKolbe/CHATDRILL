@@ -1,0 +1,14 @@
+created: 20260625080931150
+modified: 20260625080931150
+page: 000
+parent_section: arxiv_2110_13883_H10
+tags: paragraph arxiv_2110_13883
+title: arxiv_2110_13883_PARA_0069
+type: text/vnd.tiddlywiki
+
+We generate synthetic data of Gaussian distributed random variables {{arxiv_2110_13883_FO0328||FO}} and {{arxiv_2110_13883_FO0329||FO}} with zero mean, unit variance and covariance of {{arxiv_2110_13883_FO0330||FO}}.
+Consequently, with correlation {{arxiv_2110_13883_FO0331||FO}} between {{arxiv_2110_13883_FO0332||FO}} and {{arxiv_2110_13883_FO0333||FO}} being {{arxiv_2110_13883_FO0334||FO}}, the true MI can be calculated as {{arxiv_2110_13883_FO0335||FO}}.
+For varying neighborhood sizes for density estimation, we report the results in Fig. (ref) (top left) for an increasing number of independent dimensions added to the original data. We observe that both \gknn as well as \lnn provide a decent estimate on the simple Gaussian data without additional dimensions, but then greatly overestimate the true MI for as few as {{arxiv_2110_13883_FO0336||FO}} independent or noise dimensions.
+\gknn does not yield meaningful MI estimates beyond {{arxiv_2110_13883_FO0337||FO}} additional dimensions.
+Classical \ksg provides a robust estimate on the simple Gaussian data, but quickly deteriorates with increasing dimensions, underestimating the true MI capturing almost zero mutual information.
+While \ourmethod also experiences the same effect, it does so much more slowly and consistently yields the lowest error in terms of the true MI.

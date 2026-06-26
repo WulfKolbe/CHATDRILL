@@ -1,0 +1,10 @@
+created: 20260625080929321
+modified: 20260625080929321
+page: 000
+parent_section: arxiv_2204_10432_H1
+tags: paragraph arxiv_2204_10432
+title: arxiv_2204_10432_PARA_0008
+type: text/vnd.tiddlywiki
+
+We find that our constrained models perform competitively compared to a standard unconstrained BERT classifier when trained and evaluated on the same dataset, while additionally providing a model whose behavior can be understood in terms of relevant symptoms in specific posts.
+However, dataset-transfer evaluations demonstrate substantial degradation in BERT's effectiveness. In this setting, our constrained models outperform the unconstrained BERT and show improved generalizability, even across similar datasets.

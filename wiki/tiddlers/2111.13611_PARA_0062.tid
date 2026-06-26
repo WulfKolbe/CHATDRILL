@@ -1,0 +1,9 @@
+created: 20260625093527300
+modified: 20260625093527300
+page: 000
+parent_section: 2111.13611_H9
+tags: paragraph 2111.13611
+title: 2111.13611_PARA_0062
+type: text/vnd.tiddlywiki
+
+We analyzed the incorrect predictions by HERB and categorized the errors. For each relation, we randomly sampled 10 incorrectly predicted documents, {{2111.13611_FO0104||FO}} false positives and {{2111.13611_FO0105||FO}} false negatives. Out of the total {{2111.13611_FO0106||FO}} samples, {{2111.13611_FO0107||FO}} of documents contained partial information for the chosen relation; on {{2111.13611_FO0108||FO}} of documents the IE methods failed to extract all the necessary RE tuples; the ground truth for {{2111.13611_FO0109||FO}} of documents had an incomplete set of objects; {{2111.13611_FO0110||FO}} documents had noisy content; and {{2111.13611_FO0111||FO}} documents had incomplete information due to failure of scraping methods on complex website layouts.

@@ -1,0 +1,12 @@
+created: 20260625080831230
+modified: 20260625080831230
+page: 000
+parent_section: arxiv_2308_06374_H2
+tags: paragraph arxiv_2308_06374
+title: arxiv_2308_06374_PARA_0015
+type: text/vnd.tiddlywiki
+
+Explainability and Interpretability:
+KGs are often preferred in scenarios where explainability and interpretability are crucial [CLPHC2018], as they explicitly represent relationships between entities and provide a structured knowledge representation. Skeptics of LLMs argue that these models lack transparency and interpretability, making it difficult to understand how they arrive at their answers or recommendations. Proponents of LLMs acknowledge the challenge of explainability but argue that recent research efforts [Arrieta2019ExplainableAI, Jain2019AttentionIN] are improving LLM's interpretability through techniques like attention mechanisms, model introspection.
+Some also argue that Chain-of-Thoughts (CoT) [Wei2022ChainOT] can also improve the explainability of LLMs, although question decomposition and precisely answering sub-questions with LLMs are still far from being solved. 
+Attribution evaluation and augmentation of LLMs with e.g., source paragraphs and sentences is another recent research topic for improving their explainability in question answering [bohnet2022attributed].

@@ -1,0 +1,13 @@
+created: 20260625093047340
+modified: 20260625093047340
+page: 000
+parent_section: 2405.02732_H1
+tags: paragraph 2405.02732
+title: 2405.02732_PARA_0005
+type: text/vnd.tiddlywiki
+
+\vspace{0.2cm}
+\noindent
+Approach and Contributions.
+We devise a novel methodology to address this 
+challenging task. Our method, called {\bf L3X} (LM-based Long List eXtraction), operates in two stages:

@@ -1,0 +1,17 @@
+created: 20260625093047341
+modified: 20260625093047341
+page: 000
+parent_section: 2405.02732_H19
+tags: paragraph 2405.02732
+title: 2405.02732_PARA_0099
+type: text/vnd.tiddlywiki
+
+To quantify, we compute a \#P{{2405.02732_FO0083||FO}}\#P
+confusion matrix, with counts of generated O for P when ground truth is Q.
+For our best method, {\em amp/pred(g)}, we observed a ratio of ca. 60:30:10 of accepted true positives (TP), predicate-confused TPs, and accepted false positives (FP).
+This suggests that merely extracting the right SO pairs is not the problem (only 10% completely FPs), but getting the predicate correct is the big issue here.
+The most salient predicate pairs of
+confusion are (Friend,Family) and (Friend,Opponent).
+This may be surprising on first glance, but it is the
+sophistication and subtlety of fictional literature that 
+makes this a daunting case.

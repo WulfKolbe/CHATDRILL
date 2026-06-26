@@ -1,0 +1,11 @@
+caption: S \subset I
+created: 20260625151931664
+displayMode: false
+latex: S \subset I
+latex_original: S \subset I
+modified: 20260625151931664
+tags: formula 2110.11150
+title: 2110.11150_FO0443
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

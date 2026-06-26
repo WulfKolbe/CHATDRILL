@@ -1,0 +1,12 @@
+created: 20260625093308064
+modified: 20260625093308064
+page: 000
+parent_section: 2210.07763_H2
+tags: paragraph 2210.07763
+title: 2210.07763_PARA_0030
+type: text/vnd.tiddlywiki
+
+Remarkable advances in NLP have been achieved with pre-trained language models (LMs) such as BERT [devlin2019bert] and GPT variants [radford2019language,GPT3].
+LAMA [petroni2019language] designs methodology and datasets to probe masked LMs in order to acquire CSK that the models implicitly store.
+COMET [bosselut2019comet] is a method that finetunes autoregressive LMs on CSK triples, and it can generate possible objects for a given pair of subject-predicate. However, the quality of the generated assertions is often considerably lower than that of the training data [nguyen-razniewski-2022-materialized]. 
+More recently, West et al. [west2021symbolic] introduce a prompting technique to collect CSK by feeding GPT-3 [GPT3] with a few human-verified CSK triples and ask it to generate new assertions. Although it was shown that the generated resource

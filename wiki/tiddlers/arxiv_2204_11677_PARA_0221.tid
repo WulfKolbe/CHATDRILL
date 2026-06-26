@@ -1,0 +1,13 @@
+created: 20260625080929033
+modified: 20260625080929033
+page: 000
+parent_section: arxiv_2204_11677_H18
+tags: paragraph arxiv_2204_11677
+title: arxiv_2204_11677_PARA_0221
+type: text/vnd.tiddlywiki
+
+neural reader
+for predicting the answer in the given passage. 
+While this works well in ConvQA over text, 
+the whole pipeline does not easily generalize to the heterogeneous setting,
+since this would require carefully designed mechanisms for representing inputs from different sources in a shared latent space.

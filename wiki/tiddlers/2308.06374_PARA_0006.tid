@@ -1,0 +1,9 @@
+created: 20260625093119693
+modified: 20260625093119693
+page: 000
+parent_section: 2308.06374_H1
+tags: paragraph 2308.06374
+title: 2308.06374_PARA_0006
+type: text/vnd.tiddlywiki
+
+Other works on the intersection of LLMs and KGs have a minor overlap with the topics covered in our paper; e.g., on studies using LLMs as KGs [alkhamissi2022review], on using KGs to augment LLMs [yang2023chatgpt], or on comparing GPT-4 with ChatGPT and SOTA fine-tuning methods on three knowledge-related tasks---entity, relation and event extraction, link prediction, and KG question answering [zhu2023llms]. Overall, none of these papers look into the implications of the inflection point with concrete applications. To this end, this paper summarises the common debate points within the community, introduces the state-of-the-art for a comprehensive set of topics where KGs and LLMs are integrated, and further presents opportunities and challenges.

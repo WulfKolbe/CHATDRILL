@@ -1,0 +1,13 @@
+[
+    {
+        "title": "arxiv_2204_11677_TAB_011",
+        "text": "",
+        "type": "text/vnd.tiddlywiki",
+        "tags": "table arxiv_2204_11677",
+        "created": "20260625080929034",
+        "modified": "20260625080929034",
+        "page": "000",
+        "latex_code": "\\begin{tabular}{l c c c c G}\n    \t\t\\toprule\n                \\textbf{Method}                             & \\textbf{Answer presence (ERS)}\t & \\textbf{P@1 (HA)} \\\\ \\toprule\n        \t    \\textbf{\\textsc{Convinse}\\xspace}                          & $0.559$                 & $\\textbf{0.371}$    \\\\ \\midrule\n        \t    \\textbf{w/o Context entity slot}\t        & $0.546$                 & $0.362$                 \\\\\n        \t    \\textbf{w/o Question entity slot}\t        & $0.078$                 & $0.054$                 \\\\\n        \t    \\textbf{w/o Predicate slot}\t                & $0.421$                 & $0.176$                 \\\\        \t    \n        \t    \\textbf{w/o Answer type slot}           \t& $\\textbf{0.572}$    & $0.350$                 \\\\\n        \t    \\textbf{w/o Ordering}\t                    & $0.560$                 &\t$0.361$                 \\\\        \t    \n    \t\t\\bottomrule\n    \t\\end{tabular}",
+        "latex_original": "\\begin{tabular}{l c c c c G}\n    \t\t\\toprule\n                \\textbf{Method}                             & \\textbf{Answer presence (ERS)}\t & \\textbf{P@1 (HA)} \\\\ \\toprule\n        \t    \\textbf{\\convinse}                          & $0.559$                 & $\\textbf{0.371}$    \\\\ \\midrule\n        \t    \\textbf{w/o Context entity slot}\t        & $0.546$                 & $0.362$                 \\\\\n        \t    \\textbf{w/o Question entity slot}\t        & $0.078$                 & $0.054$                 \\\\\n        \t    \\textbf{w/o Predicate slot}\t                & $0.421$                 & $0.176$                 \\\\        \t    \n        \t    \\textbf{w/o Answer type slot}           \t& $\\textbf{0.572}$    & $0.350$                 \\\\\n        \t    \\textbf{w/o Ordering}\t                    & $0.560$                 &\t$0.361$                 \\\\        \t    \n    \t\t\\bottomrule\n    \t\\end{tabular}"
+    }
+]

@@ -1,0 +1,9 @@
+created: 20260625093231915
+modified: 20260625093231915
+page: 000
+parent_section: 2305.05403_H23
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0211
+type: text/vnd.tiddlywiki
+
+In the temporal dimension, KB vs.\ text recall has been studied using the distant supervision assumption: Assuming that hyperlinked entities on Wikipedia pages are relevant to the page subject, how does their recall in Wikidata change over time? Wikidata's revision history allows to study this longitudinal, allowing to observe a generally steady increase in recall since from 2012 to 2020 [razniewski2020structured].

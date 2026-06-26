@@ -1,0 +1,11 @@
+created: 20260625080830877
+modified: 20260625080830877
+page: 000
+parent_section: arxiv_2310_14771_H2
+tags: paragraph arxiv_2310_14771
+title: arxiv_2310_14771_PARA_0014
+type: text/vnd.tiddlywiki
+
+Several works have analyzed the potential of larger LMs, specifically GPT-3 and GPT-4,. 
+They investigate few-shot prompting for extracting factual knowledge for KBC [alivanistos2023prompting] or for making the factual knowledge in a LM more explicit [cohen2023crawling].
+These models can aid in building a knowledge base on Wikidata or improving the interpretability of LMs. Despite the variance in the precision of extracted facts from GPT-3, it can peak at over 90% for some relations.

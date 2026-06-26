@@ -1,0 +1,9 @@
+created: 20260625093341705
+modified: 20260625093341705
+page: 000
+parent_section: 2209.07250_H22
+tags: paragraph 2209.07250
+title: 2209.07250_PARA_0124
+type: text/vnd.tiddlywiki
+
+We also validated the merit of explanations extrinsically. We took 5 queries with correct count results, 5 with incorrect results, and presented the system output under the 5 explanation settings to 500 users. The users' task was to judge the count as correct or not based on the explanations present. The measured precision scores are in Table (ref). All explanation had a positive effect on overall annotator precision, especially for incorrect counts.

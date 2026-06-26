@@ -1,0 +1,9 @@
+created: 20260625093105364
+modified: 20260625093105364
+page: 000
+parent_section: 2310.14771_H3
+tags: paragraph 2310.14771
+title: 2310.14771_PARA_0018
+type: text/vnd.tiddlywiki
+
+In the automated setting, we first use a retain-all setting, where we evaluate the most prominent GPT models (GPT-3 text-davinci-003, GPT-4, and ChatGPT gpt-3.5-turbo) by precision, recall, and F1. Table (ref) shows that none of the GPT models could achieve precision of >90%. In a second step, the precision-thresholding setting, we therefore sort predictions by confidence and evaluate by recall at precision 95% and 90% (R@P95 and R@P90). To do so, we sort the predictions for all subjects in a relation by the model's probability on the first generated token\footnote{This is a heuristic only, as unbiased probabilities are not easy to assign to multi-token generations in list answers [sneha-repl4nlp].}, then compute the precision at each point of this list, and return the maximal fraction of the list covered while maintaining precision greater than the desired value. We threshold only GPT-3, because only GPT-3's token probabilities are directly accessable in the API, and because the chat-aligned models do not outperform it in the retain-all setting. Approaches to estimate probabilities post-hoc can be found in [xiong2023can].

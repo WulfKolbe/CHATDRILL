@@ -1,0 +1,16 @@
+created: 20260625080931150
+modified: 20260625080931150
+page: 000
+parent_section: arxiv_2110_13883_H10
+tags: paragraph arxiv_2110_13883
+title: arxiv_2110_13883_PARA_0066
+type: text/vnd.tiddlywiki
+
+To measure how well MI can be estimated with respect to the sample size, we draw datasets of size 100 to 2000 of {{arxiv_2110_13883_FO0306||FO}} and {{arxiv_2110_13883_FO0307||FO}}, where {{arxiv_2110_13883_FO0308||FO}} is uniformly distributed between {{arxiv_2110_13883_FO0309||FO}} and {{arxiv_2110_13883_FO0310||FO}} and {{arxiv_2110_13883_FO0311||FO}} with {{arxiv_2110_13883_FO0312||FO}} and {{arxiv_2110_13883_FO0313||FO}}.
+The ground truth MI is given by {{arxiv_2110_13883_FO0314||FO}} [cover:06:elements].
+Note that no independent variables {{arxiv_2110_13883_FO0315||FO}} are added to the data, yet. 
+We observe that even without independent variables in the data, \ourmethod is able to more efficiently estimate the MI, with an order of magnitude lower mean squared error (MSE) than classical \ksg (see Fig. (ref)).
+We further see that \lnn greatly underestimates the true mutual information on this uniform data.
+While efficient even for as few as {{arxiv_2110_13883_FO0316||FO}} samples, \gknn constantly overestimates the true MI slightly, showing an order of magnitude larger mean squared error for {{arxiv_2110_13883_FO0317||FO}} samples compared to \ourmethod.
+Note that, despite its complexity, \ourmethod is only a factor {{arxiv_2110_13883_FO0318||FO}} slower than classical \ksg, regardless of samples size (see Supplementary Material (ref)).
+For the rest of the experiments, we will use {{arxiv_2110_13883_FO0319||FO}} samples, which is the largest sample size where the original KSG could keep up with \ourmethod.

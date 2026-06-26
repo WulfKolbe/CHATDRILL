@@ -1,0 +1,10 @@
+created: 20260625080853495
+modified: 20260625080853495
+page: 000
+parent_section: arxiv_2305_16755_H4
+tags: paragraph arxiv_2305_16755
+title: arxiv_2305_16755_PARA_0033
+type: text/vnd.tiddlywiki
+
+\noindent
+The Notion of Salient Negation. Assessing the truthfulness of statements is one thing, but assessing the salience of negatives is more challenging. Salience is a subjective metric. For instance, for a Basketball fan, the fact that jordan did not star in the film space jam 2 (the first was built around him), is a big deal. For others, the salience is not obvious. In addition of the expertise of the reader, their nature is also important. In other words, are these negations generated for a human-reader, or to equip machines with better negative knowledge? For instance, what might not appear salient to a human, can be important to improve the reasoning skills of a chat bot. In this study, we assume that the reader is a human, who usually has a higher standard for what is interesting than a machine. Generally, designing experiments should take into consideration downstream applications and information about the end-user.

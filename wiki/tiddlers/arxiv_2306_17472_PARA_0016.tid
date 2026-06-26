@@ -1,0 +1,14 @@
+created: 20260625080853251
+modified: 20260625080853251
+page: 000
+parent_section: arxiv_2306_17472_H2
+tags: paragraph arxiv_2306_17472
+title: arxiv_2306_17472_PARA_0016
+type: text/vnd.tiddlywiki
+
+{\bf Knowledge Base Completion.}
+This task, KBC for short, has mostly been tackled as a form of link prediction: given a head entity S and a relation P, predict the respective tail entity O,
+using the KG as sole input.
+A rich suite of methods have been developed for this
+task, typically based on latent embeddings computed via
+matrix or tensor factorization, neural auto-encoders, graph neural networks, and more (see, e.g., surveys [DBLP:journals/access/ChenWZCZD20,DBLP:journals/tnn/JiPCMY22] and original references given there).

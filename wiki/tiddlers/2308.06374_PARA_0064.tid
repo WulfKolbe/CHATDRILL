@@ -1,0 +1,9 @@
+created: 20260625093119694
+modified: 20260625093119694
+page: 000
+parent_section: 2308.06374_H6
+tags: paragraph 2308.06374
+title: 2308.06374_PARA_0064
+type: text/vnd.tiddlywiki
+
+To summarise, prior works have shown that relational knowledge is captured by LLMs to a certain extent. However, there is still insufficient understanding of how performance differs across different kinds of knowledge or relations, for instance, commonsense knowledge compared to entity-centric encyclopedic facts or transversal versus hierarchical relations. In addition, several studies raise questions about LLMs capacity to infer knowledge beyond already-seen statements.

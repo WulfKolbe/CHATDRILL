@@ -1,0 +1,16 @@
+created: 20260625093448814
+modified: 20260625093448814
+page: 000
+parent_section: 2204.11677_H5
+tags: paragraph 2204.11677
+title: 2204.11677_PARA_0115
+type: text/vnd.tiddlywiki
+
+\myparagraph{Evidence scoring}
+The set of evidences compiled by the previous stage can be quite large (several thousands),
+which can affect the efficiency and effectiveness of the answering phase.
+Therefore, we first reduce this set, keeping only the most relevant information.
+Since all evidences are verbalized at this stage, each individual evidence
+can be treated as a document, with the SR as the query.
+We then use the standard IR model BM25 [robertson2009probabilistic]
+for retrieving the top-{{2204.11677_FO0062||FO}} relevant pieces of information.

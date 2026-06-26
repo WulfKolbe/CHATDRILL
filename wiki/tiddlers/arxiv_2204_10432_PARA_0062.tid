@@ -1,0 +1,11 @@
+created: 20260625080929321
+modified: 20260625080929321
+page: 000
+parent_section: arxiv_2204_10432_H14
+tags: paragraph arxiv_2204_10432
+title: arxiv_2204_10432_PARA_0062
+type: text/vnd.tiddlywiki
+
+We further investigate the role of each method to remove FP matches in the positive class. For that purpose, we put filtered-out FP examples back into the training data and observe the variation of F1 score on the manually labeled test sets. In general, adding back FP examples filtered by our methods causes a total drop of nearly 0.12 in the averaged F1 score. Among them, instances with positive sentiment cause the highest decrease of roughly 0.04. Posts with third-person pronouns contribute around 0.03, while conditional clause and negation contribute modestly at around 0.02 F1.
+Similarly, we analyze the effectiveness of methods to weakly annotate the negative class by removing each of them from the training data and record the change in F1 score. We find that removing three methods, including keywords, pronouns, and other symptoms, causes a similar drop of roughly 0.06 each. Interestingly, eliminating data with positive sentiment from the negative class has a similar effect to adding them to the positive class, causing a drop of almost 0.04 F1. The method that changes positive examples to negative examples has the smallest impact on the F1 score (roughly 0.01).
+Overall, except for the data sources, no single labeling method has a superior impact on the quality of symptom classifiers than other methods.

@@ -1,0 +1,9 @@
+created: 20260625080853980
+modified: 20260625080853980
+page: 000
+parent_section: arxiv_2303_11082_H13
+tags: paragraph arxiv_2303_11082
+title: arxiv_2303_11082_PARA_0035
+type: text/vnd.tiddlywiki
+
+Looking at the baselines in Table (ref), we see that the majority baseline is quite solid with an average precision of 0.18. Access to the underlying distribution of relation-specific ground truth data has a noticeable impact on assigning objects to a subject-relation pair. Still, BERT achieving an average precision in a higher range ({{arxiv_2303_11082_FO0015||FO}}) shows that the prediction ability is based on more than predicting statistically common objects. The RE baseline is outperformed by BERT for two tested relations, while BERT and RE show lower results on facts aligned with webtexts than on facts aligned with Wikipedia pages.

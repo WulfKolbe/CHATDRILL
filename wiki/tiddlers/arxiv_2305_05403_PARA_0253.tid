@@ -1,0 +1,9 @@
+created: 20260625080853723
+modified: 20260625080853723
+page: 000
+parent_section: arxiv_2305_05403_H29
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0253
+type: text/vnd.tiddlywiki
+
+For open-ended ab-initio KB construction, i.e., the novel construction of a KB intended for broad use, our suggestion is to intertwine the data acquisition process with metadata acquisition. Concretely, if the KB content is text-extracted, we suggest to use the text recall estimation techniques from Section (ref), to annotate extractions with confidences in completeness. If the data is created by human authors, we suggest to augment the data authoring tools with fields for metadata collection, e.g., checkboxes that allow authors to note when they finished recording a topic, similar as in Cool-WD [prasojo2016managing].

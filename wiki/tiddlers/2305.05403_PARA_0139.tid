@@ -1,0 +1,10 @@
+created: 20260625093231914
+modified: 20260625093231914
+page: 000
+parent_section: 2305.05403_H13
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0139
+type: text/vnd.tiddlywiki
+
+\begin{revision}
+Given that LLMs have transformed a range of tasks, an obvious question is whether they can be useful for the extraction of cardinality assertions. This broad question comes in two variants: (i) Can LLMs help to extract cardinality assertions from a given text? (ii) Based on the text they have seen during pre-training, can LLMs directly output cardinality assertions?

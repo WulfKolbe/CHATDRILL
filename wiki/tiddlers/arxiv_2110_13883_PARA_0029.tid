@@ -1,0 +1,9 @@
+created: 20260625080931150
+modified: 20260625080931150
+page: 000
+parent_section: arxiv_2110_13883_H3
+tags: paragraph arxiv_2110_13883
+title: arxiv_2110_13883_PARA_0029
+type: text/vnd.tiddlywiki
+
+Although, it was shown that the \ksg estimator is consistent [gao:18:demystifying], its bias increases with the number of dimensions {{arxiv_2110_13883_FO0102||FO}} as {{arxiv_2110_13883_FO0103||FO}} [gao:18:demystifying], which is problematic for the high-dimensional setting where {{arxiv_2110_13883_FO0104||FO}}. In practice, we observe that the more dimensions we consider, the larger {{arxiv_2110_13883_FO0105||FO}} and {{arxiv_2110_13883_FO0106||FO}} become on average. This phenomenon occurs naturally, since we consider the maximum norm in the joint space. In extreme cases, {{arxiv_2110_13883_FO0107||FO}} is on average larger than {{arxiv_2110_13883_FO0108||FO}} and hence the estimate can be negative.

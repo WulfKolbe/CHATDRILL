@@ -1,0 +1,11 @@
+caption: w_i = n_i / n
+created: 20260625110956924
+displayMode: false
+latex: w_i = n_i / n
+latex_original: w_i = n_i / n
+modified: 20260625110956924
+tags: formula 2110.13883
+title: 2110.13883_FO0229
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

@@ -1,0 +1,9 @@
+created: 20260625080805467
+modified: 20260625080805467
+page: 000
+parent_section: arxiv_2411_12449_H9
+tags: paragraph arxiv_2411_12449
+title: arxiv_2411_12449_PARA_0070
+type: text/vnd.tiddlywiki
+
+To address these limitations, openIE enables entities and relations to be extracted as surface forms or phrases [kolluru-etal-2020-openie6]. Both RE and openIE are vital for constructing and enriching knowledge graphs [10.1162/tacl_a_00456, 10.1016/j.eswa.2018.07.017]. Recent advances explore LLMs as implicit KBs [petroni-etal-2019-language], leveraging their outputs for IE tasks via prompting[alkhamissi2022reviewlanguagemodelsknowledge, hao-etal-2023-bertnet, cohen-etal-2023-crawling]. Our work leverages LLMs for openIE-style lexicalized extraction on news chunks, capturing interactions such as emerging events and associations between entities.

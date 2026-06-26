@@ -1,0 +1,11 @@
+created: 20260625093448815
+modified: 20260625093448815
+page: 000
+parent_section: 2204.11677_H14
+tags: paragraph 2204.11677
+title: 2204.11677_PARA_0181
+type: text/vnd.tiddlywiki
+
+scripted
+using Python, making use of the popular PyTorch library\footnote{\url{https://pytorch.org}}.
+Whenever a neural model was used, code was run on a GPU (single GPU, NVIDIA Quadro RTX 8000, 48 GB GDDR6).

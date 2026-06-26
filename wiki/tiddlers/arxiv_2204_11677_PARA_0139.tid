@@ -1,0 +1,11 @@
+created: 20260625080929032
+modified: 20260625080929032
+page: 000
+parent_section: arxiv_2204_11677_H8
+tags: paragraph arxiv_2204_11677
+title: arxiv_2204_11677_PARA_0139
+type: text/vnd.tiddlywiki
+
+hallucinate at inference time [roller2021recipes].
+This way, the model is taught to predict the answer from the input.
+Since we would like to treat evidences from different sources in a unified way,

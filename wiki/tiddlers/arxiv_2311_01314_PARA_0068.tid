@@ -1,0 +1,17 @@
+created: 20260625080827350
+modified: 20260625080827350
+page: 000
+parent_section: arxiv_2311_01314_H9
+tags: paragraph arxiv_2311_01314
+title: arxiv_2311_01314_PARA_0068
+type: text/vnd.tiddlywiki
+
+\vspace{0.1cm}
+\noindent{\bf Evaluation Modes:}
+At test time, for each positive test item we sample 100 negative items from all unlabeled data. The system scores and ranks these 101 data points, creating a ranked list of items to be evaluated by the performance metrics introduced above.
+We evaluate all methods in two different modes with respect to the negative sampling strategy:
+\squishlist
+\item {\bf Standard:} sampling the 100 negative test points uniformly at random.
+\item {\bf Search-based:} given the positive test item, searching for the top-100 approximate matches to the item's description, 
+using the BM25 scoring model.
+\squishend

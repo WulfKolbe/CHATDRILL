@@ -1,0 +1,9 @@
+created: 20260625080847348
+modified: 20260625080847348
+page: 000
+parent_section: arxiv_2307_03122_H5
+tags: paragraph arxiv_2307_03122
+title: arxiv_2307_03122_PARA_0017
+type: text/vnd.tiddlywiki
+
+The candidate objects retained after applying a selection mechanism are compared against the ground-truth objects, and the results are shown in Table (ref). The top-{{arxiv_2307_03122_FO0017||FO}} method achieves the best overall F1 score, which is the macro-average of individual \srpexample{s}{r} tuple-specific F1 scores. The individual F1 scores and max-F1 (upper bound) have a large gap since the probabilities of predicted tokens are not calibrated enough to match the actual factuality of the \srotupleexample{s}{r}{o} triple. Table (ref) in Appendix gives the prompt templates and learned parameters of each selection mechanism.

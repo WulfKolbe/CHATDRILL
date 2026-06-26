@@ -1,0 +1,11 @@
+caption: d(\ensuremath{\bm{z}}\xspace_i,\ensuremath{\bm{z}}\xspace_j)_{\max}
+created: 20260625080931151
+displayMode: false
+latex: d(\ensuremath{\bm{z}}\xspace_i,\ensuremath{\bm{z}}\xspace_j)_{\max}
+latex_original: d(\zg_i,\zg_j)_{\max}
+modified: 20260625080931151
+tags: formula arxiv_2110_13883
+title: arxiv_2110_13883_FO0068
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

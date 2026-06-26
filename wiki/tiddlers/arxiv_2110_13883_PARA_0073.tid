@@ -1,0 +1,11 @@
+created: 20260625080931150
+modified: 20260625080931150
+page: 000
+parent_section: arxiv_2110_13883_H14
+tags: paragraph arxiv_2110_13883
+title: arxiv_2110_13883_PARA_0073
+type: text/vnd.tiddlywiki
+
+Mutual information, due to its non-parametric nature, captures non-linear dependencies and, hence, lends itself for measuring complex dependencies between random variables, and is routinely applied for challenging tasks such as gene network inference. 
+Yet, estimation of MI on high-dimensional data remains an open problem.
+In this work, we considered the problem of estimating MI for high-dimensional data under the manifold assumption, i.e. that the data has low intrinsic dimensionality.

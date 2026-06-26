@@ -1,0 +1,11 @@
+caption: q^1
+created: 20260625093448815
+displayMode: false
+latex: q^1
+latex_original: q^1
+modified: 20260625093448815
+tags: formula 2204.11677
+title: 2204.11677_FO0004
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

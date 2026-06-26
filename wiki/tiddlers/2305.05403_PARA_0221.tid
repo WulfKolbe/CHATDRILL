@@ -1,0 +1,9 @@
+created: 20260625093231915
+modified: 20260625093231915
+page: 000
+parent_section: 2305.05403_H24
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0221
+type: text/vnd.tiddlywiki
+
+An interesting twist to recall analysis is provided by Hopkinson et al.\ [hopkinson2018demand]: Instead of assuming a fixed KB and measuring recall, they define a desired query recall (95% of queries should be answered by the KB), and ask which content needs to go into the KB to achieve this. This is not an obvious question, because information needs may vary highly depending on the type of entity, and questions do not uniformly target entities and properties. The work originates in an industrial lab (Amazon Alexa), where such a business requirement is plausible. The QA service provider here has the potential to design automated extraction efforts accordingly, or to task paid KB curators to complete specific areas of the KB. Moreover, commercial service providers have access to user query logs, which underlie this technique. On a technical basis, the work represents entities via their class membership, extracts usage frequencies of properties per entity from the query log, and predicts predicate usage patterns on new entities using either a regression or a neural network model. Results indicate that this method can predict required properties with good accuracy. Furthermore, demand-weighted requirements can be lifted to the level of the whole KB, based on usage data about which entities are queried how often. For a non-representative set of entities in the Alexa KB, the authors find that 58% of the predicates needed to arrive at the 95% query-answerability goal are currently in the KB.

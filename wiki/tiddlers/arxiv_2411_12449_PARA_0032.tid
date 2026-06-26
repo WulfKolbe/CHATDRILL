@@ -1,0 +1,9 @@
+created: 20260625080805467
+modified: 20260625080805467
+page: 000
+parent_section: arxiv_2411_12449_H3
+tags: paragraph arxiv_2411_12449
+title: arxiv_2411_12449_PARA_0032
+type: text/vnd.tiddlywiki
+
+\item[2.] Chunk Retrieval: For each entity pair {{arxiv_2411_12449_FO0066||FO}}, retrieve all relevant news chunks {{arxiv_2411_12449_FO0067||FO}}, where {{arxiv_2411_12449_FO0068||FO}}.

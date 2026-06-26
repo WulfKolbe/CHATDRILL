@@ -1,0 +1,10 @@
+created: 20260625093231914
+modified: 20260625093231914
+page: 000
+parent_section: 2305.05403_H13
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0142
+type: text/vnd.tiddlywiki
+
+Although early works have found mixed results [lin2020birds], current LLMs like GPT-4 can quite reliably assert counts in the commonsense domain, e.g., counts of body parts (feet, wings, ...) of different animals. For extracting counts of named entities, similar observations hold: As long as the counts are frequently asserted in text, LLMs can return them. However, once the LLMs would need to aggregate themselves, they fall back to common numbers in the relation of interest [singhania2023extracting]. Although LLMs are becoming incrementally more powerful on benchmarks, it appears that Transformer-based architectures exhibit principled limitations, that make correctly solving count tasks over text difficult [helwe2021reasoning].
+\end{revision}

@@ -1,0 +1,14 @@
+created: 20260625080931153
+displayMode: true
+equation_number: 
+kind: Equation
+latex: \hat{\sigma}^2_{i,j} = \frac{1}{j{-}i{+}1} \left( \left( \ensuremath{\mathit{css}}\xspace_j {-} \ensuremath{\mathit{css}}\xspace_{i-1} \right) {-} \frac{1}{j{-}i{+}1} \left( \ensuremath{\mathit{cs}}\xspace_j {-} \ensuremath{\mathit{cs}}\xspace_{i-1} \right)^2 \right) \, ,
+latex_original: \hat{\sigma}^2_{i,j} = \frac{1}{j{-}i{+}1} \left( \left( \CSS_j {-} \CSS_{i-1} \right) {-} \frac{1}{j{-}i{+}1} \left( \CS_j {-} \CS_{i-1} \right)^2 \right) \, ,
+modified: 20260625080931153
+page: 000
+refnum: 
+tags: equation arxiv_2110_13883
+title: arxiv_2110_13883_EQ0013
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode=true />

@@ -1,0 +1,9 @@
+created: 20260625093527300
+modified: 20260625093527300
+page: 000
+parent_section: 2111.13611_H4
+tags: paragraph 2111.13611
+title: 2111.13611_PARA_0040
+type: text/vnd.tiddlywiki
+
+Table (ref) shows the observed averaged counts. We note that the human annotators extracted a substantial number of tuples for all {{2111.13611_FO0060||FO}} relations, indicating the richness and breadth of the DoCo documents. The two automatic extractors mostly yielded smaller numbers of tuples, with a few exceptions. These exceptions include spurious tuples, though. The ground-truth variants consistently suggest higher numbers, but except for the conservative {{2111.13611_FO0061||FO}}, these are usually overestimates due to spurious tuples. The {{2111.13611_FO0062||FO}} variants should thus be seen as upper bounds for the true RE coverage.

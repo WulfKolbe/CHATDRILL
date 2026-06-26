@@ -1,0 +1,9 @@
+created: 20260625093341705
+modified: 20260625093341705
+page: 000
+parent_section: 2209.07250_H18
+tags: paragraph 2209.07250
+title: 2209.07250_PARA_0110
+type: text/vnd.tiddlywiki
+
+Since, {\mysystem} considers only text, it loses to GoogleSDA in KG-answerable queries by a margin, but is still better than QAnswer. In snippet-answerable queries and queries with no direct answers, {\mysystem} provides a much better P/C trade-off than the baselines.

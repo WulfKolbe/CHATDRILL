@@ -1,0 +1,9 @@
+created: 20260625093341705
+modified: 20260625093341705
+page: 000
+parent_section: 2209.07250_H27
+tags: paragraph 2209.07250
+title: 2209.07250_PARA_0140
+type: text/vnd.tiddlywiki
+
+We can argue that the gradual drop in recall is because the model predicts less number of high confidence spans. The precision has a sharp increase initially when increasing the model confidence threshold from 0 to 0.2, because at threshold{{2209.07250_FO0049||FO}}0, we consider all predictions and this introduces a lot of noise. Whereas, the drop in precision at thresholds 0.8 and higher is probably due to the model being penalized for being too conservative and making sparse or no predictions. Choosing a model confidence threshold of {{2209.07250_FO0050||FO}}, creates a balance between precision and recall values.

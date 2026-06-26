@@ -1,0 +1,16 @@
+created: 20260625093119694
+modified: 20260625093119694
+page: 000
+parent_section: 2308.06374_H8
+tags: paragraph 2308.06374
+title: 2308.06374_PARA_0093
+type: text/vnd.tiddlywiki
+
+The attention received by the integration of KGs and LLMs has grown recently.
+On the one hand, there is the explored direction of prompting LLMs for collecting and distilling knowledge in order to make it available to the end-users.
+On the other hand, there is the less explored research direction where KGs are used in synergy with prompts in order to enhance LLMs with capabilities making them more effective and, at the same time, trustworthy.
+A number of studies have leveraged KGs to enrich and fine-tune prompt creation resulting in a significant increase in prompt quantity, quality, and diversity compared to manual approaches. 
+KGs have been employed in single and in multi-turn scaffolding prompts at scale, powered by numerous traversal paths over KGs with low authoring cost while considering the meaningful learning patterns [10.1145/3491102.3502087]. 
+Other studies have investigated how incorporating explicit knowledge from external sources like KGs can help prompt engineering, especially by giving additional contexts (e.g., attributes, K-hop neighbors) of the entities in order to help the LLMs to generate better predictions [brate2022improving].
+Approaches like KnowPrompt [chen2022knowprompt] use KGs to incorporate semantic and prior knowledge among relation labels into prompt-tuning for relation extraction, enhancing the prompt construction process and optimizing their representation with structured constraints.
+Certain studies have utilized LLMs and prompts in the task of reasoning over KGs [choudhary2023complex], e.g., LARK uses entities and relations in queries to find pertinent sub-graph contexts within abstract KGs, and then, performs chain reasoning over these contexts using LLM prompts of decomposed logical queries outperforming previous state-of-the-art approaches by a significant margin.\\

@@ -1,0 +1,15 @@
+created: 20260625093047341
+modified: 20260625093047341
+page: 000
+parent_section: 2405.02732_H10
+tags: paragraph 2405.02732
+title: 2405.02732_PARA_0048
+type: text/vnd.tiddlywiki
+
+We prompt the LLM again to assess its confidence in the generated O values.
+ For each {\em SPO}, 
+ top-{{2405.02732_FO0030||FO}} support passages in their enriched form (with all named entities incl. S and O) are included into the LLM prompt for in-context inference:
+ ``Given this information, is {\em SPO} a correct statement?''.
+ The {\em conf} classifier accepts an O candidate if the LLM gives a ``yes'' reply.
+ This approach differs from the passage-based extraction of the recall-oriented stage,
+ as the support passages are retrieved individually for each O-candidate.

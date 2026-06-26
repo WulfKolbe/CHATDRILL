@@ -1,0 +1,11 @@
+caption: \{150_{0.9}, 160_{0.8}, 180_{0.4},\allowbreak 180_{0.4}, 210_{0.3}\}
+created: 20260625080859571
+displayMode: false
+latex: \{150_{0.9}, 160_{0.8}, 180_{0.4},\allowbreak 180_{0.4}, 210_{0.3}\}
+latex_original: \{150_{0.9}, 160_{0.8}, 180_{0.4},\allowbreak 180_{0.4}, 210_{0.3}\}
+modified: 20260625080859571
+tags: formula arxiv_2209_07250
+title: arxiv_2209_07250_FO0013
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

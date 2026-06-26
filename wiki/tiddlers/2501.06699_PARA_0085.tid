@@ -1,0 +1,10 @@
+created: 20260625092952539
+modified: 20260625092952539
+page: 000
+parent_section: 2501.06699_H12
+tags: paragraph 2501.06699
+title: 2501.06699_PARA_0085
+type: text/vnd.tiddlywiki
+
+\parai{Indexing} organizes tokens, words and phrases of documents into inverted-index lists: highly optimized data structures that enable efficiently retrieving documents that match a search request. In addition to indexing surface tokens, the SE also prepares for similarity search, aka
+ soft matching, by computing an embedding vector for each document (or part of a document). This is done by running the text through a lightweight LLM such as BERT [GoogleBERT], possibly restricted to popular web sources if cost is of concern.

@@ -1,0 +1,18 @@
+created: 20260625080827137
+modified: 20260625080827137
+page: 000
+parent_section: arxiv_2405_02732_H13
+tags: paragraph arxiv_2405_02732
+title: arxiv_2405_02732_PARA_0065
+type: text/vnd.tiddlywiki
+
+All reported numbers are
+{\em macro-averaged percentage} scores, computed as follows:
+\squishlist
+\item[1.] For each SP pair, we consider the resulting O list and compute the list's precision and recall.
+\item[2.] We average the numbers over SP pairs for P.
+\item[3.] We average the numbers over predicates P.
+\squishend
+Note that there is only a mild imbalance between different predicates and our calculation is based on the respective number of SP pairs rather than total O counts.
+As a secondary metric we also compute {\em micro-averages} over all 
+SP pairs and their O lists, regardless of the predicate, and report the findings.

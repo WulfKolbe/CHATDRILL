@@ -1,0 +1,14 @@
+created: 20260625092952539
+modified: 20260625092952539
+page: 000
+parent_section: 2501.06699_H9
+tags: paragraph 2501.06699
+title: 2501.06699_PARA_0072
+type: text/vnd.tiddlywiki
+
+Regarding users' information needs, KGs excel on complex factual queries, but do not cope well with non-factual categories.
+ SEs provide support for factual and non-factual categories, but are effective only on simple queries and are inconvenient for questions whose answers do not lie in a single document; similar limitations arise also when structured data needs to be aggregated. LLMs also partially cover both factual and non-factual needs, but 
+ are prone to hallucinations and bias, 
+ have no formal 
+ operators for analytical queries, 
+ and can be trapped by false premises in questions.

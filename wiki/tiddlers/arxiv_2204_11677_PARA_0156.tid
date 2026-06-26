@@ -1,0 +1,13 @@
+created: 20260625080929032
+modified: 20260625080929032
+page: 000
+parent_section: arxiv_2204_11677_H9
+tags: paragraph arxiv_2204_11677
+title: arxiv_2204_11677_PARA_0156
+type: text/vnd.tiddlywiki
+
+\myparagraph{Collected fields} We collected the following annotations
+from crowdworkers:
+i) conversational questions, ii) intent-explicit versions of follow-up questions,
+iii) gold answers
+as plain texts and Wikidata URLs,

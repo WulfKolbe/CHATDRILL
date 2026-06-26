@@ -1,0 +1,11 @@
+caption: (s,F,\textit{sent})
+created: 20260625080858064
+displayMode: false
+latex: (s,F,\textit{sent})
+latex_original: (s,F,\textit{sent})
+modified: 20260625080858064
+tags: formula arxiv_2210_07763
+title: arxiv_2210_07763_FO0003
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

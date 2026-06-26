@@ -1,0 +1,17 @@
+created: 20260625093057256
+modified: 20260625093057256
+page: 000
+parent_section: 2311.01314_H14
+tags: paragraph 2311.01314
+title: 2311.01314_PARA_0093
+type: text/vnd.tiddlywiki
+
+Desiderata for an ideal profile are
+i) {\em high utility}: leading to strong recommender performance,
+ii) {\em easy interpretability:} supporting humans in understanding the gist of somebody's interests, and
+iii) {\em sound faithfulness:} capturing the user's style in writing reviews.
+Clearly, there are trade-offs between these dimensions.
+In terms of utility, our experiments show that several kinds of profiles are roughly on par, with some simple ones being slightly ahead. On the other hand, the most interpretable profiles are the generative ones using an LM.
+Finally, the extractive profiles, like salient sentences from reviews, 
+appear most faithful.
+For illustration, Table (ref) provides examples of different kinds of profiles.

@@ -1,0 +1,9 @@
+created: 20260625093308064
+modified: 20260625093308064
+page: 000
+parent_section: 2210.07763_H5
+tags: paragraph 2210.07763
+title: 2210.07763_PARA_0054
+type: text/vnd.tiddlywiki
+
+For the occupation domain, we simply use exact-phrase matching to detect candidates. Each occupation subject is enriched with its alternate names and its plural form to enhance coverage.

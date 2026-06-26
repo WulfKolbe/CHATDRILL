@@ -1,0 +1,9 @@
+created: 20260625093105364
+modified: 20260625093105364
+page: 000
+parent_section: 2310.14771_H2
+tags: paragraph 2310.14771
+title: 2310.14771_PARA_0016
+type: text/vnd.tiddlywiki
+
+In [veseli2023evaluating], we analyzed to which degree BERT can complete the Wikidata KB, i.e., provide novel statements. Together with the focus on high precision, this is also the main difference of the present work to the works cited above, which evaluate on knowledge already existing in the KB, and do not estimate how much they could add.

@@ -1,0 +1,10 @@
+created: 20260625080827136
+modified: 20260625080827136
+page: 000
+parent_section: arxiv_2405_02732_H3
+tags: paragraph arxiv_2405_02732
+title: arxiv_2405_02732_PARA_0019
+type: text/vnd.tiddlywiki
+
+\squishlist
+ \item[1.] {\bf Retrieval} of a large pool of passages from the long text, using a dense retriever by searching with S and a set of paraphrases of P.

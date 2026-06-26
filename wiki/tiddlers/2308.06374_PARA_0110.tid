@@ -1,0 +1,12 @@
+created: 20260625093119694
+modified: 20260625093119694
+page: 000
+parent_section: 2308.06374_H9
+tags: paragraph 2308.06374
+title: 2308.06374_PARA_0110
+type: text/vnd.tiddlywiki
+
+An alternative approach, prioritizing privacy, involves running an open-source LLM within the infrastructure of a healthcare organization. 
+This way, it would be possible to directly work on the parameters of LLMs given the possibility of having control of the injected knowledge and, at the same time, ensuring that data are never shared with a third party. 
+However, these open-source models are currently not as advanced or extensively trained as the more popular commercial systems (e.g., ChatGPT). 
+Additionally, the effort to create the knowledge resources to inject and the expertise required to program and maintain an open-source LLM may not be readily available to many healthcare organizations.

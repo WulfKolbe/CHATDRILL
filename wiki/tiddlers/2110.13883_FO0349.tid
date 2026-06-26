@@ -1,0 +1,11 @@
+caption: Z {\sim}\mathit{Unif}(-\alpha/2,\alpha/2)
+created: 20260625110956925
+displayMode: false
+latex: Z {\sim}\mathit{Unif}(-\alpha/2,\alpha/2)
+latex_original: Z {\sim}\mathit{Unif}(-\alpha/2,\alpha/2)
+modified: 20260625110956925
+tags: formula 2110.13883
+title: 2110.13883_FO0349
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

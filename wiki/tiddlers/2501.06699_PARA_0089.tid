@@ -1,0 +1,13 @@
+created: 20260625092952539
+modified: 20260625092952539
+page: 000
+parent_section: 2501.06699_H12
+tags: paragraph 2501.06699
+title: 2501.06699_PARA_0089
+type: text/vnd.tiddlywiki
+
+\parai{Result presentation} involves the layout of relevant documents, and other related information, retrieved by the engine. The classical SE result page (SERP) is an ordered list of ten blue links, each with a URL and a brief preview snippet. As leading SEs often expand a user query into several vertical-domain searches, including product or event search, sponsored ads and also KG excerpts (so-called knowledge panels),
+ the modern presentation is more elaborate and faceted.
+ Moreover, whenever possible and particularly on limited displays like mobile phones, the SE aims to return \text{direct answers}: short text that gives a single answer, as if responding in question-answering mode. 
+ Recently, SEs have started to integrate generative AI for better user experience, such as providing overviews on search topics, comparisons,
+ personalized advice, and more [GoogleGenAI].

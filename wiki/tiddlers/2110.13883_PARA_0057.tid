@@ -1,0 +1,9 @@
+created: 20260625110956922
+modified: 20260625110956922
+page: 000
+parent_section: 2110.13883_H8
+tags: paragraph 2110.13883
+title: 2110.13883_PARA_0057
+type: text/vnd.tiddlywiki
+
+In theory, estimating the geodesic {{2110.13883_FO0257||FO}}-nearest neighbors is exactly what we are after, however, {{2110.13883_FO0258||FO}} is not a proper distance metric. In particular, {{2110.13883_FO0259||FO}} satisfies the reflexivity property ({{2110.13883_FO0260||FO}}), the non-negativity property, and the symmetry property ({{2110.13883_FO0261||FO}}). Despite those, {{2110.13883_FO0262||FO}} does not imply that {{2110.13883_FO0263||FO}}, since two points could always end up in the same leaf, especially for small forests. Thus, the definiteness property is violated. In addition, {{2110.13883_FO0264||FO}} does not satisfy the triangle inequality, i.e. {{2110.13883_FO0265||FO}} cannot be guaranteed.

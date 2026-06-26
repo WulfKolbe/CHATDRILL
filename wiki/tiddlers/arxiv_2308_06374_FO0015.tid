@@ -1,0 +1,11 @@
+caption: \texttt{father}
+created: 20260625080831231
+displayMode: false
+latex: \texttt{father}
+latex_original: \texttt{father}
+modified: 20260625080831231
+tags: formula arxiv_2308_06374
+title: arxiv_2308_06374_FO0015
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

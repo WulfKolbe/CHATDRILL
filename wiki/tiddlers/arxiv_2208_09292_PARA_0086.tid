@@ -1,0 +1,10 @@
+created: 20260625080922310
+modified: 20260625080922310
+page: 000
+parent_section: arxiv_2208_09292_H15
+tags: paragraph arxiv_2208_09292
+title: arxiv_2208_09292_PARA_0086
+type: text/vnd.tiddlywiki
+
+\noindent
+Ablation study. In this study, our goal is to show the impact of every component in \uncommon{}. For instance, do the plausibility checks improve the correctness of the inferred negations? and does the ranking improve the informativeness? We run our method on the 200 concepts from Section (ref) and follow the same crowdsourcing setup for 4 different configurations of our method (4 configurations {{arxiv_2208_09292_FO0115||FO}} 200 concepts {{arxiv_2208_09292_FO0116||FO}} 2 negations {{arxiv_2208_09292_FO0117||FO}} 3 annotators). The Fleiss' kappa inter-annotator agreement of this task is fair on both tasks, namely 0.33 on plausibility and 0.26 on informativeness. The results are shown in Table (ref). One can see that without comparable concepts (instead random) to derive good thematic candidates from, the informativeness drops to almost half of the complete-configuration (i.e., \uncommon{}\textsuperscript{S}). This is different from the CWA baseline in Section (ref) in that we still scrutinize and rank the candidate set. The informativeness is also highly affected by the suspension of the ranking step (a decrease of 21%). Moreover, holding off the plausibility checks shows an increase of 24% in false negatives.

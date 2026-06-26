@@ -1,0 +1,10 @@
+created: 20260625093145739
+modified: 20260625093145739
+page: 000
+parent_section: 2307.03122_H5
+tags: paragraph 2307.03122
+title: 2307.03122_PARA_0015
+type: text/vnd.tiddlywiki
+
+To validate the effectiveness of our prompts and inspect if optimizing prompts on precision@1 is sufficient for extraction on multi-valued relations, we compare the best prompts in terms of precision@1 and max-F1 score. In Table (ref), we see that prompts performing well on precision@1 are not necessarily the best on max-F1. Overall, prompts suitable for multi-valued extraction are more often of the prefix type, while prompts in the single-object case show more variance.
+In Appendix, Table (ref) shows examples of generated lists, and Tables (ref)-(ref) lists all the prompt templates. The large gap between precision@1 and max-F1 indicates the difficulty in designing task-specific prompts and raises the need for developing more robust prompts.

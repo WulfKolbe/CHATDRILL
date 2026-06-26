@@ -1,0 +1,11 @@
+created: 20260625093119694
+modified: 20260625093119694
+page: 000
+parent_section: 2308.06374_H6
+tags: paragraph 2308.06374
+title: 2308.06374_PARA_0056
+type: text/vnd.tiddlywiki
+
+Zhong et al. [zhong2021factual] propose that the models' accuracy may be from memorizing training data, not actually inferring knowledge. 
+Similar to LAMA, the experiments on a more recent probing work KAMEL [kalo2022kamel] confirm that LLMs are still far from the knowledge access capabilities of symbolic knowledge bases. The Knowledge Memorization, Identification and Reasoning test work KMIR [gao2022kmir] reveals that while LLMs struggle to robustly recall facts, their capacity to retain information is determined more by the number of parameters than the training methods, and while model compression can help preserve the memorization performance, it reduces the ability to identify and reason about the information in LLMs from transformer-based language models. Linzbach et al. [linzbach-etal-prompt-syntax-nlp4kgc-2023] also present similar findings.
+LLMs are known to struggle with more complex reasoning tasks [huang2022towards,he2023language]. Branco et al. [branco-etal-2021-shortcutted] explore generalisability of common-sense reasoning capabilities and the impact of shortcuts in training data.

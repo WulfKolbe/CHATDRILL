@@ -1,0 +1,10 @@
+created: 20260625093057256
+modified: 20260625093057256
+page: 000
+parent_section: 2311.01314_H12
+tags: paragraph 2311.01314
+title: 2311.01314_PARA_0083
+type: text/vnd.tiddlywiki
+
+As for the number of trainable parameters, 
+we observe that the variant with frozen BERT takes much longer to converge and is inferior to the preferred CUP method even after more than 50 epochs.

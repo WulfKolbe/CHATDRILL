@@ -1,0 +1,10 @@
+created: 20260625093231913
+modified: 20260625093231913
+page: 000
+parent_section: 2305.05403_H1
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0007
+type: text/vnd.tiddlywiki
+
+Web-scale knowledge bases (KBs) like Wikidata [wikidata], DBpedia [dbpedia], NELL [nell], or YAGO [YAGO] are a cornerstone of the Semantic Web. Pragmatically constructed from web resources, they focus on representing positive knowledge, i.e., statements that are true. However, they typically contain only a small subset of all true statements, without qualifying what that subset is. For example, a KB may contain winners of the Nobel Prize in Physics, but it does not necessarily contain all winners. It will not even specify whether it contains all winners or not. For example, a KB may lack the information that a specific renowned physicist won the Nobel Prize, but this does not mean that this person did not win the award -- the data may just be lacking. Vice versa, if it is known that a specific physicist did definitively not win the Nobel Prize, there is no way to express this in most current KBs.
+A KB may also not contain a specific scientist at all -- without any indication that she or he is missing.\footnote{We refrain from giving an example of an incomplete entity in a real-world KB, because whenever we did that in previous publications, helpful readers specifically completed these entities in the KB, thereby rendering our example outdated.}

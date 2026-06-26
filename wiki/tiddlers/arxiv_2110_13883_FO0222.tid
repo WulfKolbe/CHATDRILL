@@ -1,0 +1,11 @@
+caption: \mathit{BIC}(M) = - 2 \log \hat{L} + \log (n) | \theta_M |,
+created: 20260625080931152
+displayMode: false
+latex: \mathit{BIC}(M) = - 2 \log \hat{L} + \log (n) | \theta_M |,
+latex_original: \mathit{BIC}(M) = - 2 \log \hat{L} + \log (n) | \theta_M |,
+modified: 20260625080931152
+tags: formula arxiv_2110_13883
+title: arxiv_2110_13883_FO0222
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

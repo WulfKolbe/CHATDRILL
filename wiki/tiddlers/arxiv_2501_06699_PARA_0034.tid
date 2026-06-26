@@ -1,0 +1,12 @@
+created: 20260625080804874
+modified: 20260625080804874
+page: 000
+parent_section: arxiv_2501_06699_H2
+tags: paragraph arxiv_2501_06699
+title: arxiv_2501_06699_PARA_0034
+type: text/vnd.tiddlywiki
+
+\parai{Refinability} speaks of the ability to apply edits to improve the quality of information returned in future. Incomplete or incorrect results from a KG or an SE are likely due to missing or erroneous input, which can be addressed by a user with write privileges. Refining LLMs in order to remove an erroneous result or address an incomplete answer is more indirect at best and infeasible at worst. 
+ The indirect way is to identify the troublesome text(s) in the training corpora, edit or remove them, and re-run the entire training and fine-tuning process. 
+ However, there is no guarantee that even this will fix the issue, as the questionable output may stem from multiple pieces mashed together in the generative process.
+ Without re-training the LLM, fixing errors is non-trivial. Despite some works pursuing parameter-weight editing for the latent model, there is no principled way of ensuring the desired effects.

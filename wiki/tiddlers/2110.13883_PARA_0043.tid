@@ -1,0 +1,9 @@
+created: 20260625110956922
+modified: 20260625110956922
+page: 000
+parent_section: 2110.13883_H5
+tags: paragraph 2110.13883
+title: 2110.13883_PARA_0043
+type: text/vnd.tiddlywiki
+
+In this section, we explain how to estimate mutual information via geodesic distances, where we first introduce our new estimator and then explain how we compute the corresponding quantities via Geodesic Forests.

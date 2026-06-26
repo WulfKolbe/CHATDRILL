@@ -1,0 +1,17 @@
+[
+    {
+        "title": "2110.11150_REF_lecungradientbasedlearningapplied1998",
+        "text": "{{||CIT}} Y. LeCun, L. Bottou, Y. Bengio, and P. Haffner. Gradient-based learning applied to document recognition. In Proceedings of the IEEE, volume 86, pages 2278--2324, 1998. URL http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.42.7665.",
+        "type": "text/markdown",
+        "tags": "reference bibentry bibtex 2110.11150",
+        "created": "20260626111149172",
+        "modified": "20260626111149172",
+        "kind": "reference",
+        "citekey": "lecun-gradientbased-learning-applied-1998",
+        "year": "1998",
+        "authors": "LeCun, Yann and Bottou, Léon and Bengio, Yoshua and Haffner, Patrick",
+        "entry_type": "inproceedings",
+        "titlefield": "Proceedings of the IEEE",
+        "bibtex": "@inproceedings{lecun-gradientbased-learning-applied-1998,\n  added-at = {2010-06-28T21:14:36.000+0200},\n  author = {LeCun, Yann and Bottou, Léon and Bengio, Yoshua and Haffner, Patrick},\n  biburl = {https://www.bibsonomy.org/bibtex/29aa18bc67d862bdb83b6081e5506f050/mhwombat},\n  booktitle = {Proceedings of the IEEE},\n  citeseerurl = {http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.42.7665},\n  file = {:neural_nets/lecun-98.pdf:PDF;:lecun-98.pdf:PDF},\n  groups = {public},\n  interhash = {7a82cccacd23cf06b25ff5325a6c86c7},\n  intrahash = {9aa18bc67d862bdb83b6081e5506f050},\n  keywords = {MSc character_recognition checked mnist network neural},\n  number = 11,\n  pages = {2278--2324},\n  timestamp = {2016-07-12T19:25:30.000+0200},\n  title = {Gradient-Based Learning Applied to Document\n                 Recognition},\n  url = {http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.42.7665},\n  username = {mhwombat},\n  volume = 86,\n  year = 1998\n}"
+    }
+]

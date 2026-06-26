@@ -1,0 +1,40 @@
+created: 20260625080859571
+format: fractal_xref
+modified: 20260625080859571
+tags: toc arxiv_2209_07250
+title: arxiv_2209_07250_TOC
+type: text/vnd.tiddlywiki
+
+** 1.1 [[Introduction|arxiv_2209_07250_H1]]
+** 1.2 [[Related Work|arxiv_2209_07250_H2]]
+** 1.3 [[Design Space and Architecture|arxiv_2209_07250_H3]]
+** 1.4 [[Methodology|arxiv_2209_07250_H4]]
+*** 1.4.1 [[Answer Inference|arxiv_2209_07250_H5]]
+*** 1.4.2 [[Answer Contextualization|arxiv_2209_07250_H6]]
+*** 1.4.3 [[Answer Explanation|arxiv_2209_07250_H7]]
+** 1.5 [[The C\lowercase{o}Q\lowercase{u}AD Dataset|arxiv_2209_07250_H8]]
+*** 1.5.1 [[Dataset construction|arxiv_2209_07250_H9]]
+*** 1.5.2 [[Query Analysis|arxiv_2209_07250_H10]]
+** 1.6 [[Experimental Setup|arxiv_2209_07250_H11]]
+*** 1.6.1 [[Evaluation Metrics|arxiv_2209_07250_H12]]
+*** 1.6.2 [[Baselines|arxiv_2209_07250_H13]]
+*** 1.6.3 [[Datasets|arxiv_2209_07250_H14]]
+*** 1.6.4 [[Implementation Details|arxiv_2209_07250_H15]]
+** 1.7 [[Results|arxiv_2209_07250_H16]]
+*** 1.7.1 [[Baseline Comparison on Answer Inference|arxiv_2209_07250_H17]]
+*** 1.7.2 [[Effect of Query Types on Answer Inference|arxiv_2209_07250_H18]]
+*** 1.7.3 [[Evaluating Answer Contexualizations|arxiv_2209_07250_H19]]
+*** 1.7.4 [[Baseline Comparison on Answer Explanation|arxiv_2209_07250_H20]]
+*** 1.7.5 [[Answer Explanation by Query Type|arxiv_2209_07250_H21]]
+*** 1.7.6 [[User Studies|arxiv_2209_07250_H22]]
+** 1.8 [[Component analysis of {\mysystem}|arxiv_2209_07250_H23]]
+*** 1.8.1 [[Span Prediction Model for Answer Inference|arxiv_2209_07250_H24]]
+*** 1.8.2 [[Best Consolidation for Answer Inference|arxiv_2209_07250_H25]]
+*** 1.8.3 [[Accuracy of Answer Contextualization|arxiv_2209_07250_H26]]
+*** 1.8.4 [[Effect of Model Confidence on Answer Explanation|arxiv_2209_07250_H27]]
+*** 1.8.5 [[Best Consolidation for Answer Explanations|arxiv_2209_07250_H28]]
+** 1.9 [[Discussion|arxiv_2209_07250_H29]]
+*** 1.9.1 [[Distribution of CNPs and instances in snippets|arxiv_2209_07250_H30]]
+*** 1.9.2 [[Coexistence of counts and instances|arxiv_2209_07250_H31]]
+*** 1.9.3 [[Case Study|arxiv_2209_07250_H32]]
+** 1.10 [[Conclusion and Future Work|arxiv_2209_07250_H33]]

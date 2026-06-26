@@ -1,0 +1,9 @@
+created: 20260625080922310
+modified: 20260625080922310
+page: 000
+parent_section: arxiv_2208_09292_H7
+tags: paragraph arxiv_2208_09292
+title: arxiv_2208_09292_PARA_0049
+type: text/vnd.tiddlywiki
+
+where TX is the taxonomic relations database, e.g., WebIsALOD [webisalod], ({{arxiv_2208_09292_FO0058||FO}}, isA, {{arxiv_2208_09292_FO0059||FO}}) {{arxiv_2208_09292_FO0060||FO}} TX indicates that hypernym {{arxiv_2208_09292_FO0061||FO}} holds for sibling {{arxiv_2208_09292_FO0062||FO}} in TX, and {{arxiv_2208_09292_FO0063||FO}} is the total number of siblings candidate-phrase f holds for.

@@ -1,0 +1,14 @@
+created: 20260625093527300
+modified: 20260625093527300
+page: 000
+parent_section: 2111.13611_H3
+tags: paragraph 2111.13611
+title: 2111.13611_PARA_0023
+type: text/vnd.tiddlywiki
+
+\begin{problem}
+ \problemtitle{Document Coverage Prediction}
+ \probleminput{document {{2111.13611_FO0021||FO}}, entity {{2111.13611_FO0022||FO}}, relation {{2111.13611_FO0023||FO}}, RE method {{2111.13611_FO0024||FO}}}
+ \problemquestion{What is the coverage of {{2111.13611_FO0025||FO}} for {{2111.13611_FO0026||FO}} using {{2111.13611_FO0027||FO}}?}
+ \problemoutput{{{2111.13611_FO0028||FO}}}
+\end{problem}

@@ -1,0 +1,9 @@
+created: 20260625080853721
+modified: 20260625080853721
+page: 000
+parent_section: arxiv_2305_05403_H11
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0088
+type: text/vnd.tiddlywiki
+
+We move from counting entities and objects to identifying cardinality assertions. As defined in Section (ref), cardinality assertions specify the number of records in the ideal KB {{arxiv_2305_05403_FO0092||FO}} that satisfy a certain property. But {{arxiv_2305_05403_FO0093||FO}} is a hypothetically ideal KB, making the computation of cardinality assertions through selection conditions non-trivial.

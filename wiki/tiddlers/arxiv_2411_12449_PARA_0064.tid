@@ -1,0 +1,9 @@
+created: 20260625080805467
+modified: 20260625080805467
+page: 000
+parent_section: arxiv_2411_12449_H8
+tags: paragraph arxiv_2411_12449
+title: arxiv_2411_12449_PARA_0064
+type: text/vnd.tiddlywiki
+
+\noindent Entity-centric temporal RAG enhances reliability. As emphasized earlier, unlike traditional RAG techniques, our approach leverages an entity-centric temporal datastore, which improves retrieval accuracy. This advantage is evident in methods using news chunks (Neon variants and NewsRAG), as Bing search in WebRAG relies on surface form matches that often retrieve irrelevant snippets, particularly for long-tail entities with low search hit rates (ex.1 in Table (ref)). Consequently, the entity-centric design of Neon leads to more reliable responses.

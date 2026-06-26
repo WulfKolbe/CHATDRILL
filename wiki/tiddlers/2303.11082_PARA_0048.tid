@@ -1,0 +1,9 @@
+created: 20260625093242023
+modified: 20260625093242023
+page: 000
+parent_section: 2303.11082_H16
+tags: paragraph 2303.11082
+title: 2303.11082_PARA_0048
+type: text/vnd.tiddlywiki
+
+Quantitative results. In Table (ref), we see that the human annotators rate the model's predictions as highly correct. Based on these values we have determined the potential for KBC in Table (ref). Given the number of missing facts and the proportion of high accuracy predictions, we can estimate the amount of addable facts at a relations-specific accuracy. This accuracy was achieved through human evaluation as shown in Table (ref). Given the relation nativeLanguage we could add {{2303.11082_FO0043||FO}} new facts in a human-in-a-loop procedure or {{2303.11082_FO0044||FO}} with an accuracy of {{2303.11082_FO0045||FO}} automatically. In a human-in-a-loop procedure, the estimated costs of 2 USD (section (ref)) for manually curated facts could drop to 40 Cents with approximately 2 minutes per annotation as we experienced with our mturk evaluation. Given our results in Table (ref) we can perform significant KBC for relations nativeLanguage and spokenLanguage at precision 82% and citizenOf at precision 90%.

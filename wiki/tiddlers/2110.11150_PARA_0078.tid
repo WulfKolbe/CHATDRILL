@@ -1,0 +1,13 @@
+created: 20260626094813420
+modified: 20260626094813420
+page: 000
+parent_section: 2110.11150_H21
+tags: paragraph 2110.11150
+title: 2110.11150_PARA_0078
+type: text/vnd.tiddlywiki
+
+then it follows that {{2110.11150_FO0099||FO}}. 
+\end{theorem*}
+\begin{proof}
+Our objective is to bound {{2110.11150_FO0099||FO}}.
+We frequently use the triangle inequality and that {{2110.11150_FO0221||FO}} is Lipschitz continuous with Lipschitz constant {{2110.11150_FO0028||FO}} to derive

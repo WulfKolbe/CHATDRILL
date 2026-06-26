@@ -1,0 +1,9 @@
+created: 20260625080929321
+modified: 20260625080929321
+page: 000
+parent_section: arxiv_2204_10432_H11
+tags: paragraph arxiv_2204_10432
+title: arxiv_2204_10432_PARA_0054
+type: text/vnd.tiddlywiki
+
+For similar reasons, the extra neuron gives the PHQ9Plus model more freedom to learn shortcuts, leading to inferior generalization than PHQ9 (with both scores and vectors). In addition to generalizing better, the methods with symptom scores can be used to identify evidence in the form of specific posts related to the symptoms in PHQ9, which makes them more trustworthy from the perspective of mental health professionals who can examine the posts to verify that symptoms are present.

@@ -1,0 +1,11 @@
+created: 20260625080853721
+modified: 20260625080853721
+page: 000
+parent_section: arxiv_2305_05403_H9
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0079
+type: text/vnd.tiddlywiki
+
+\noindent
+As an example, consider Marie Curie and the predicate wonAward. 
+We are interested in finding whether she won more awards than those given in the KB. It is not always easy to define what we consider missing objects [what-do-we-actually-know]: does an award from her high-school count? is a public recognition tantamount to an award? is a rejected award still an award she won? etc. In what follows, we assume that we can determine whether a relationship holds, e.g., by a vote from crowd-workers.

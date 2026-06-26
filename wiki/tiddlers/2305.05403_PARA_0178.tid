@@ -1,0 +1,9 @@
+created: 20260625093231915
+modified: 20260625093231915
+page: 000
+parent_section: 2305.05403_H19
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0178
+type: text/vnd.tiddlywiki
+
+[arnaout020enriching] is an unsupervised pattern-based methodology that extracts salient negations from query logs. The intuition is that users often ask why something does not hold, as in ``Why didn't Stephen Hawking win the Nobel Prize in Physics?''. Such a query can then be used to deduce that Hawking did indeed not win the Nobel Prize.

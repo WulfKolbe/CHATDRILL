@@ -1,0 +1,18 @@
+created: 20260625080929032
+modified: 20260625080929032
+page: 000
+parent_section: arxiv_2204_11677_H4
+tags: paragraph arxiv_2204_11677
+title: arxiv_2204_11677_PARA_0096
+type: text/vnd.tiddlywiki
+
+\myparagraph{SRs and explainability} One of our primary goals in \convinse was to produce intermediate representations for end users as we proceed through the QA pipeline.
+Concretely, understanding the flow within the conversation is an essential problem in ConvQA [christmann2019look, huang2018flowqa].
+While the SR itself is human-readable, when presented only with the SR (or some rewritten/resolved question), certain decisions
+of the ConvQA system might not be immediately obvious to a real user.
+Here, we propose an intuitive
+mechanism to infer and present the conversational flow to a user:
+given the generated SR, we identify the source turn for each word, using exact match in the history, and consider such source turns as relevant for the current question. 
+If there is no source turn, we consider the question at hand as self-sufficient.
+A conversational flow graph (CFG) is established as follows:
+questions and answers are nodes, and an edge connects a question to its relevant history.

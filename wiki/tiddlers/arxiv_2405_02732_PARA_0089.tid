@@ -1,0 +1,14 @@
+created: 20260625080827137
+modified: 20260625080827137
+page: 000
+parent_section: arxiv_2405_02732_H16
+tags: paragraph arxiv_2405_02732
+title: arxiv_2405_02732_PARA_0089
+type: text/vnd.tiddlywiki
+
+For drill-down analysis, we partition the test set ground-truth O entities into {\em head} and {\em tail} groups. Based on the frequency of each unique O in a book, we define the head as entities appearing above the 75th percentile and the tail as those below it.
+Table (ref) shows these results on four combinations (easy P, head), (easy P, tail), (hard P, head), and (hard P, tail). We observe that 
+{\em amp} still outperforms {\em def} for all four cases.
+However, for the most challenging case of hard P and tail O,
+the absolute numbers degrade strongly.
+This highlights the complexity of the task and the need for further research.

@@ -1,0 +1,9 @@
+created: 20260625080922309
+modified: 20260625080922309
+page: 000
+parent_section: arxiv_2208_09292_H4
+tags: paragraph arxiv_2208_09292
+title: arxiv_2208_09292_PARA_0027
+type: text/vnd.tiddlywiki
+
+To increase the thematic relevance of candidate negations, we define the parts of the KB where the CWA is helpful to assume [galarraga2017predicting], i.e., the LCWA. For instance, if the target concept is an animal, negations should mostly reflect animal-related statements such as ``not carnivorous'' or ``not nocturnal'', instead of ``not beverage'' or ``cannot store data''. Therefore, we need to collect comparable concepts [recoin]. One way for collecting related concepts is using pre-computed embeddings. For instance, elephant is related to both tiger and lion, due to their proximity in the vector space [KGembsurvey]. The problem with relying solely on this similarity function is that it does not take into consideration the taxonomic hierarchy of the concepts. For example, trunk, circus, and jungle are also highly related to elephant. Instead, one can consider using large collections of taxonomic relations and collect comparable concepts only if they are listed as co-hyponyms (e.g., lion and elephant are, trunk and elephant are not). Although this option ensures that related concepts are taxonomic sibling, the group of siblings is unordered. For instance, even though lion and spider are both acceptable taxonomic siblings (under animal), one is clearly more related to elephant than the other. Moreover, large-scale taxonomies are noisy. For instance, using WebIsALOD [webisalod], elephant and robot are co-hyponyms under the class toy. We overcome these limitations by combining both techniques and compute comparable concepts that are both semantically and taxonomically highly related. Given concept s:

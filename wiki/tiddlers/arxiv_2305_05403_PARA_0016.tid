@@ -1,0 +1,11 @@
+created: 20260625080853721
+modified: 20260625080853721
+page: 000
+parent_section: arxiv_2305_05403_H3
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0016
+type: text/vnd.tiddlywiki
+
+\begin{definition}[Knowledge Base]
+A knowledge base (or knowledge graph) {{arxiv_2305_05403_FO0009||FO}} is a finite set of positive statements [klyne2004resource].
+\end{definition}

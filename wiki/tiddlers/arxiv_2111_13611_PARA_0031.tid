@@ -1,0 +1,9 @@
+created: 20260625080930846
+modified: 20260625080930846
+page: 000
+parent_section: arxiv_2111_13611_H4
+tags: paragraph arxiv_2111_13611
+title: arxiv_2111_13611_PARA_0031
+type: text/vnd.tiddlywiki
+
+The relations extracted by the APIs are fine-grained like person-member-of, person-employee-of, org-acquired-by, and org-subsidiary-of. We combined the first two as member-of for PER and the last two as partner-org for ORG as coarse-grained relations.

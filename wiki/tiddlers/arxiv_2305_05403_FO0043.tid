@@ -1,0 +1,11 @@
+caption: \sigma(K^i)=\sigma(K)
+created: 20260625080853723
+displayMode: false
+latex: \sigma(K^i)=\sigma(K)
+latex_original: \sigma(K^i)=\sigma(K)
+modified: 20260625080853723
+tags: formula arxiv_2305_05403
+title: arxiv_2305_05403_FO0043
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

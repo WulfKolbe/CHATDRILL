@@ -1,0 +1,9 @@
+created: 20260625093448815
+modified: 20260625093448815
+page: 000
+parent_section: 2204.11677_H12
+tags: paragraph 2204.11677
+title: 2204.11677_PARA_0176
+type: text/vnd.tiddlywiki
+
+The same distant supervision strategy (Sec. (ref)) as used by \convinse is employed for generating annotated data for QuReTeC (trained on \convmix).

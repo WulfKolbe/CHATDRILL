@@ -1,0 +1,11 @@
+caption: I(X;X+Z) = I(X;X \sin (X) + Z)
+created: 20260625080931152
+displayMode: false
+latex: I(X;X+Z) = I(X;X \sin (X) + Z)
+latex_original: I(X;X+Z) = I(X;X \sin (X) + Z)
+modified: 20260625080931152
+tags: formula arxiv_2110_13883
+title: arxiv_2110_13883_FO0362
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

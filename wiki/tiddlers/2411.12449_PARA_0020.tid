@@ -1,0 +1,9 @@
+created: 20260625093007936
+modified: 20260625093007936
+page: 000
+parent_section: 2411.12449_H2
+tags: paragraph 2411.12449
+title: 2411.12449_PARA_0020
+type: text/vnd.tiddlywiki
+
+In this section, we present Neon, an openIE-style knowledge graph for modeling entity-interactions from news streams. We outline the graph construction pipeline, describe optimized indexing techniques for efficient temporal retrieval, and then detail our approach for temporal question-answering, demonstrating how Neon enables accurate, contextually relevant responses.

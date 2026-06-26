@@ -1,0 +1,12 @@
+created: 20260625080831230
+modified: 20260625080831230
+page: 000
+parent_section: arxiv_2308_06374_H7
+tags: paragraph arxiv_2308_06374
+title: arxiv_2308_06374_PARA_0067
+type: text/vnd.tiddlywiki
+
+The existing KGs are mostly obtained from large-scale data extraction pipelines, which are notoriously brittle and can introduce errors and inconsistencies in these graphs [Dong:KFusion14,rabbani:Extraction23].
+Moreover, a KG is never considered complete since the closed world assumption does not hold [Dong:KFusion14,Paulheim:KGRefinement17],
+i.e., it is not possible to conclude that a missing fact is false unless it contradicts another existing fact.
+Instead, we usually consider that in a KG it holds the open-world assumption, that is a missing fact is simply considered as unknown.

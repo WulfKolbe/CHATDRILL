@@ -1,0 +1,9 @@
+created: 20260625093308065
+modified: 20260625093308065
+page: 000
+parent_section: 2210.07763_H13
+tags: paragraph 2210.07763
+title: 2210.07763_PARA_0115
+type: text/vnd.tiddlywiki
+
+In general, \systemname{}-cluster-reps considerably outperforms all other baselines on 2 of the 3 metrics (plausibility and distinctiveness). Our resource only comes behind Acharya et al. on the commonality metric (1.15 and 1.22 respectively), which is expected because Acharya et al. only cover a few relations about common rituals (e.g., birthday, wedding)

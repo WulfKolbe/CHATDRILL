@@ -1,0 +1,12 @@
+created: 20260625093007936
+modified: 20260625093007936
+page: 000
+parent_section: 2411.12449_H6
+tags: paragraph 2411.12449
+title: 2411.12449_PARA_0053
+type: text/vnd.tiddlywiki
+
+Each method
+uses the reformulated user query for retrieval, augments the top-{{2411.12449_FO0131||FO}} retrieved information directly into the prompt, and employs GPT-4o for response generation. Other openIE-based methods are unsuitable for our purposes as they explicitly model knowledge tuples, which we aim to avoid. Comparing the performance across these methods
+reveals how different forms of real-time information impact helpfulness, relevance, and faithfulness in addressing the temporal 
+demands of our QA task.

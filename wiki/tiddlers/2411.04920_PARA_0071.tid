@@ -1,0 +1,9 @@
+created: 20260625093027647
+modified: 20260625093027647
+page: 000
+parent_section: 2411.04920_H11
+tags: paragraph 2411.04920
+title: 2411.04920_PARA_0071
+type: text/vnd.tiddlywiki
+
+While on the entity level, most entities appear to truly exist (74% verifiable, 9% plausible), on the triple level, results are lower (31% verifiable, 61% plausible). This indicates that the LLM generally has a grasp of entities, but has more difficulties in correctly modeling their relationships. BFS-depth and quality are negatively correlated, but there is no complete quality collapse within the first 10 levels.

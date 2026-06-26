@@ -1,0 +1,10 @@
+created: 20260625080931150
+modified: 20260625080931150
+page: 000
+parent_section: arxiv_2110_13883_H2
+tags: paragraph arxiv_2110_13883
+title: arxiv_2110_13883_PARA_0017
+type: text/vnd.tiddlywiki
+
+To efficiently estimate MI in a high-dimensional setting, we build upon the manifold assumption [cayton:05:manifold-learning-algorithms], based on which embedding techniques were developed that successfully capture the most relevant information in few dimensions
+by focussing on preserving local Euclidean distances and estimating geodesics that resemble the data location on the manifold [mcinnes:20:umap,vandermaaten:08:tsne,tenenbaum:00:isomap].

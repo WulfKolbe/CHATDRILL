@@ -1,0 +1,14 @@
+created: 20260625080931153
+displayMode: true
+equation_number: 
+kind: Equation
+latex: \begin{aligned} I(X;Y) &= h(Y) - h(Y \mid X) \\ &= h(Y) - h(Z) = h(Y) - \log \alpha \, . \end{aligned}
+latex_original: \begin{aligned} I(X;Y) &= h(Y) - h(Y \mid X) \\ &= h(Y) - h(Z) = h(Y) - \log \alpha \, . \end{aligned}
+modified: 20260625080931153
+page: 000
+refnum: 
+tags: equation arxiv_2110_13883
+title: arxiv_2110_13883_EQ0016
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode=true />

@@ -1,0 +1,11 @@
+caption: ~~ t^u = ReLU(t^u W^u_1 + c^u_1)W^u_2 + c^u_2 ~
+created: 20260625093057256
+displayMode: false
+latex: ~~ t^u = ReLU(t^u W^u_1 + c^u_1)W^u_2 + c^u_2 ~
+latex_original: ~~ t^u = ReLU(t^u W^u_1 + c^u_1)W^u_2 + c^u_2 ~
+modified: 20260625093057256
+tags: formula 2311.01314
+title: 2311.01314_FO0008
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

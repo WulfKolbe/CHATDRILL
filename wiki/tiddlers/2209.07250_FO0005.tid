@@ -1,0 +1,11 @@
+caption: c.\textit{Span}
+created: 20260625093341706
+displayMode: false
+latex: c.\textit{Span}
+latex_original: c.\textit{Span}
+modified: 20260625093341706
+tags: formula 2209.07250
+title: 2209.07250_FO0005
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

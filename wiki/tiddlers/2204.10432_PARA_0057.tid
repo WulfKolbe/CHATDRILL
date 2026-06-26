@@ -1,0 +1,9 @@
+created: 20260625093505870
+modified: 20260625093505870
+page: 000
+parent_section: 2204.10432_H12
+tags: paragraph 2204.10432
+title: 2204.10432_PARA_0057
+type: text/vnd.tiddlywiki
+
+To quantify the performance of our weakly-supervised questionnaire (symptom) models, we additionally prepared a dataset of {{2204.10432_FO0021||FO}} samples manually labeled by three annotators. The annotation procedures are described in the Appendix (ref).

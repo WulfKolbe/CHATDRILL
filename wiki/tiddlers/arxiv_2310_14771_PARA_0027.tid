@@ -1,0 +1,9 @@
+created: 20260625080830877
+modified: 20260625080830877
+page: 000
+parent_section: arxiv_2310_14771_H4
+tags: paragraph arxiv_2310_14771
+title: arxiv_2310_14771_PARA_0027
+type: text/vnd.tiddlywiki
+
+In Table (ref) we report the automated evaluation of precision-oriented thresholding. We find that on many relations, GPT-3 can reproduce existing statements at over 95% precision, and there are significant gains over the smaller BERT-large model. At the same time, it should be noted that [sun2023head] observed that for large enough models, parameter scaling does not improve performance further, so it is well possible that these scores represent a ceiling w.r.t.\ model size.

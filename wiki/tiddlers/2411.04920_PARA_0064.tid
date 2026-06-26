@@ -1,0 +1,9 @@
+created: 20260625093027647
+modified: 20260625093027647
+page: 000
+parent_section: 2411.04920_H9
+tags: paragraph 2411.04920
+title: 2411.04920_PARA_0064
+type: text/vnd.tiddlywiki
+
+An interesting point is also gender bias: The gender property of \ourkb{} contains 15K female versus 8K male values. For first names, male ones are still more than female (47% vs. 37% based on the gender-guesser 0.4.0 Python library), but this is still a much lower bias than in other KBs, likely reflecting efforts of gender debiasing the LLM.

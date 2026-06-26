@@ -1,0 +1,9 @@
+caption: \tilde{\bm{x}}^{(l)} = \phi\left(\bm{W}^{(l)}_0 \tilde{\bm{x}}^{(l-1)} + \bm{b}_l\right) - \phi\left(-\bm{W}^{(l)}_0 \tilde{\bm{x}}^{(l-1)}- \bm{b}_l\right)
+created: 20260626111149171
+displayMode: false
+latex: \tilde{\bm{x}}^{(l)} = \phi\left(\bm{W}^{(l)}_0 \tilde{\bm{x}}^{(l-1)} + \bm{b}_l\right) - \phi\left(-\bm{W}^{(l)}_0 \tilde{\bm{x}}^{(l-1)}- \bm{b}_l\right)
+latex_original: \tilde{\bm{x}}^{(l)} = \phi\left(\bm{W}^{(l)}_0 \tilde{\bm{x}}^{(l-1)} + \bm{b}_l\right) - \phi\left(-\bm{W}^{(l)}_0 \tilde{\bm{x}}^{(l-1)}- \bm{b}_l\right)
+modified: 20260626111149171
+tags: formula 2110.11150
+title: 2110.11150_FO0058
+type: text/markdown

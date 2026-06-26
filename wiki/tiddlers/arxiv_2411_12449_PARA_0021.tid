@@ -1,0 +1,9 @@
+created: 20260625080805467
+modified: 20260625080805467
+page: 000
+parent_section: arxiv_2411_12449_H3
+tags: paragraph arxiv_2411_12449
+title: arxiv_2411_12449_PARA_0021
+type: text/vnd.tiddlywiki
+
+Neon is a knowledge graph wherein nodes are entities and edges capture interactions (events or activities) between these entities. Formally, Neon is defined as a graph {{arxiv_2411_12449_FO0001||FO}}, where {{arxiv_2411_12449_FO0002||FO}} is the set of entities, {{arxiv_2411_12449_FO0003||FO}} is the lexicalized interaction descriptions or propositions in natural language, {{arxiv_2411_12449_FO0004||FO}} is the time frame, and {{arxiv_2411_12449_FO0005||FO}} refers to timestamped entity-interactions related both subject ({{arxiv_2411_12449_FO0006||FO}}) and object ({{arxiv_2411_12449_FO0007||FO}}) entities, defined as {{arxiv_2411_12449_FO0008||FO}}, with {{arxiv_2411_12449_FO0009||FO}} and {{arxiv_2411_12449_FO0010||FO}}.

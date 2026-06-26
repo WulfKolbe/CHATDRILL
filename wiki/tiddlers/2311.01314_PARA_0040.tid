@@ -1,0 +1,18 @@
+created: 20260625093057255
+modified: 20260625093057255
+page: 000
+parent_section: 2311.01314_H5
+tags: paragraph 2311.01314
+title: 2311.01314_PARA_0040
+type: text/vnd.tiddlywiki
+
+\vspace{-0.2cm}
+
+The input to CUP consists of an item metadata 
+(almost always short, otherwise truncated) and a judiciously selected subset of the user-provided text (which may total to a longer text).
+For user {{2311.01314_FO0004||FO}}, this is a sequence of text tokens {{2311.01314_FO0005||FO}}, where {{2311.01314_FO0006||FO}} is the token budget by which the input is limited (set to 128 in our experiments). The sequence is fed through the user tower, consisting of BERT encoder and a feed-forward network (FFN), to obtain a user-representation vector {{2311.01314_FO0007||FO}}
+(by averaging the per-token vectors).
+The FFN has two layers with ReLU activation, 
+computing the final user representation as
+{{2311.01314_FO0008||FO}}{;}
+and analogously for items.

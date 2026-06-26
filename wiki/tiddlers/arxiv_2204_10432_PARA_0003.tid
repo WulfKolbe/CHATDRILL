@@ -1,0 +1,11 @@
+created: 20260625080929320
+modified: 20260625080929320
+page: 000
+parent_section: arxiv_2204_10432_H1
+tags: paragraph arxiv_2204_10432
+title: arxiv_2204_10432_PARA_0003
+type: text/vnd.tiddlywiki
+
+[harrigian-etal-2020-models, 10.1145/3290605.3300364] find that systematic, spurious differences between diagnosed and control users can prevent trained models from generalizing to even other, similar social media data.
+Similarly, outside the mental health domain, recent work reports that 
+neural models often struggle to generalize to data outside their training distribution [Geirhos2020ShortcutLI,damour2020underspecification,harrigian-etal-2020-models].

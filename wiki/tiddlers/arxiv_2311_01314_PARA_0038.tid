@@ -1,0 +1,20 @@
+created: 20260625080827349
+modified: 20260625080827349
+page: 000
+parent_section: arxiv_2311_01314_H4
+tags: paragraph arxiv_2311_01314
+title: arxiv_2311_01314_PARA_0038
+type: text/vnd.tiddlywiki
+
+User profile and item metadata
+are fed into BERT followed by a feed-forward network to learn latent representations.
+Downstream, the vectors are simply compared by a dot product for scores that indicate whether the user likes an item or not. 
+The {\em per-item} text usually comprises
+book titles, tags like categories or genre labels,
+which can be coarse (e.g., ``thriller'') or fine-grained (e.g., ``Scandinavian crime noir''), and a short description of the book contents.
+The {\em per-user} text can comprise the
+titles and tags of her training-set books 
+and the entirety of her review texts, 
+which vary widely in length
+{and informativeness}, hence the need for 
+{smart text selection}.

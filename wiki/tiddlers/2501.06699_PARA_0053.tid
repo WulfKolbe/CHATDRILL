@@ -1,0 +1,9 @@
+created: 20260625092952539
+modified: 20260625092952539
+page: 000
+parent_section: 2501.06699_H5
+tags: paragraph 2501.06699
+title: 2501.06699_PARA_0053
+type: text/vnd.tiddlywiki
+
+Research along all these lines can help to reduce hallucinations and bias in LLM responses -- particularly in the context of long-tail and multi-hop factual questions -- but must address the challenges posed by the patchy and incomplete nature of KGs, and the need to reliably disambiguate which KG entities are mentioned in a text.

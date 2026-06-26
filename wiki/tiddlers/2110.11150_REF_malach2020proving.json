@@ -1,0 +1,17 @@
+[
+    {
+        "title": "2110.11150_REF_malach2020proving",
+        "text": "{{||CIT}} E. Malach, G. Yehudai, S. Shalev-Schwartz, and O. Shamir. Proving the lottery ticket hypothesis: Pruning is all you need. In International Conference on Machine Learning, 2020.",
+        "type": "text/markdown",
+        "tags": "reference bibentry bibtex 2110.11150",
+        "created": "20260626111149173",
+        "modified": "20260626111149173",
+        "kind": "reference",
+        "citekey": "malach2020proving",
+        "year": "2020",
+        "authors": "Malach, Eran and Yehudai, Gilad and Shalev-Schwartz, Shai and Shamir, Ohad",
+        "entry_type": "inproceedings",
+        "titlefield": "Proving the Lottery Ticket Hypothesis: Pruning is All You Need",
+        "bibtex": "@InProceedings{malach2020proving,\n  title = \t {Proving the Lottery Ticket Hypothesis: Pruning is All You Need},\n  author =       {Malach, Eran and Yehudai, Gilad and Shalev-Schwartz, Shai and Shamir, Ohad},\n  booktitle = \t {International Conference on Machine Learning},\n  year = \t {2020}\n}"
+    }
+]

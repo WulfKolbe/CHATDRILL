@@ -1,0 +1,13 @@
+created: 20260625080858063
+modified: 20260625080858063
+page: 000
+parent_section: arxiv_2210_07763_H10
+tags: paragraph arxiv_2210_07763
+title: arxiv_2210_07763_PARA_0083
+type: text/vnd.tiddlywiki
+
+Extracting and clustering assertions from large corpora gives us an important signal of an assertion, its frequency.
+However, ranking based on frequency alone may lead to reporting bias.
+As we compile a CCSK collection at large scale, it also enables us to compute the distinctiveness of an assertion against others in the collection.
+The notion of these 2 metrics can be thought of as term frequency and inverse document frequency in the established TF-IDF technique for IR document ranking [10.5555/106765.106782].
+Besides frequency and distinctiveness, we score the interestingness of assertion clusters based on 2 other custom metrics: specificity (how many objects are mentioned in the assertion?) and domain relevance (how relevant is the assertion to the cultural facet?).

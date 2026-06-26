@@ -1,0 +1,12 @@
+created: 20260625080827137
+modified: 20260625080827137
+page: 000
+parent_section: arxiv_2405_02732_H15
+tags: paragraph arxiv_2405_02732
+title: arxiv_2405_02732_PARA_0075
+type: text/vnd.tiddlywiki
+
+\noindent{\bf Micro-averaging.}
+With micro-averaging rather than macro-averages, 
+the relative gains/losses across configs hardly change. The best results are
+still with {\em amp}, reaching 84.7% recall and 24.9% AUC in Stage 1, and 44.7% R@P50 and 31.6% R@P80 in Stage 2.

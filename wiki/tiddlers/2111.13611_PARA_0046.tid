@@ -1,0 +1,9 @@
+created: 20260625093527300
+modified: 20260625093527300
+page: 000
+parent_section: 2111.13611_H5
+tags: paragraph 2111.13611
+title: 2111.13611_PARA_0046
+type: text/vnd.tiddlywiki
+
+Our experiments (Sec. (ref)) reveal that each of our proposed heuristics has only a moderate predictive power. We therefore formulate a lightweight classifier to combine heuristics with the best performing statistical model (TF-IDF), or language model (BERT).

@@ -1,0 +1,14 @@
+created: 20260625093057256
+modified: 20260625093057256
+page: 000
+parent_section: 2311.01314_H8
+tags: paragraph 2311.01314
+title: 2311.01314_PARA_0053
+type: text/vnd.tiddlywiki
+
+\vspace{-0.2cm}
+
+A challenge for training in the data-poor regime is handling the extreme skew between positive samples and unlabeled data points for sparse users. The crux in many recommender applications is that there are extremely few, if any, explicitly negative samples, such as books rated with low marks. This holds also for the datasets in this work. 
+Therefore, we 
+introduce and 
+experiment with two different techniques to construct negative training samples from unlabeled data:

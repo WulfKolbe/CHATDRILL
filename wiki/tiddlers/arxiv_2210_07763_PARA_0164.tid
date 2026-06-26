@@ -1,0 +1,9 @@
+created: 20260625080858063
+modified: 20260625080858063
+page: 000
+parent_section: arxiv_2210_07763_H22
+tags: paragraph arxiv_2210_07763
+title: arxiv_2210_07763_PARA_0164
+type: text/vnd.tiddlywiki
+
+More than 80% of plausible assertions are annotated as distinctive (DIS). Religion and occupation assertions perform significantly better than geography's on this metric. That could be caused by several assertions for geography subjects being correct but too generic (e.g., \stmt{Japanese food is enjoyed by many people}, or \stmt{German beer is good}). On the other hand, religions and occupations are more distinguishing from one another, while countries or geo-regions usually have cultural overlaps.

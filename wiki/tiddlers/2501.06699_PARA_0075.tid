@@ -1,0 +1,10 @@
+created: 20260625092952539
+modified: 20260625092952539
+page: 000
+parent_section: 2501.06699_H9
+tags: paragraph 2501.06699
+title: 2501.06699_PARA_0075
+type: text/vnd.tiddlywiki
+
+\bibliographystyle{ACM-Reference-Format}
+ \bibliography{refs}

@@ -1,0 +1,13 @@
+created: 20260625080929032
+modified: 20260625080929032
+page: 000
+parent_section: arxiv_2204_11677_H7
+tags: paragraph arxiv_2204_11677
+title: arxiv_2204_11677_PARA_0117
+type: text/vnd.tiddlywiki
+
+\myparagraph{Intuition} To train the QU phase of \convinse,
+we need a collection of {{arxiv_2204_11677_FO0064||FO}}history, question{{arxiv_2204_11677_FO0065||FO}}-pairs,
+with the corresponding gold SRs.
+Annotating conversations with such information
+is tricky with crowdworkers, and expensive too

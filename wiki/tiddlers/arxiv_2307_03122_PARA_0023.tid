@@ -1,0 +1,10 @@
+created: 20260625080847348
+modified: 20260625080847348
+page: 000
+parent_section: arxiv_2307_03122_H6
+tags: paragraph arxiv_2307_03122
+title: arxiv_2307_03122_PARA_0023
+type: text/vnd.tiddlywiki
+
+We used the query hit rate from Bing to calibrate and select objects from the candidate list. Bing receives each \srotupleexample{s}{r}{o} triple in the form of a natural language query.
+The hit rate is used in two ways: (i) subset, objects with non-zero hit rate, (ii) rerank, objects with non-zero hit rate are calibrated to the highest probability. In contrast to prob-{{arxiv_2307_03122_FO0025||FO}} F1 scores, we observe a high increase in precision and decrease in recall applying (I) with a lower overall F1 score of 34.7%, while the (II) method achieves higher recall and lower precision with a similar overall F1 score of 45.7%. Table (ref) in Appendix shows all the scoresx.

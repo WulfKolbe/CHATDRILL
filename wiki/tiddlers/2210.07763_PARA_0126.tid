@@ -1,0 +1,10 @@
+created: 20260625093308065
+modified: 20260625093308065
+page: 000
+parent_section: 2210.07763_H14
+tags: paragraph 2210.07763
+title: 2210.07763_PARA_0126
+type: text/vnd.tiddlywiki
+
+We run each prompt 10 times and set the randomness (temperature) to 0.7, so as to obtain a larger resource.
+We run the query for 5 facets and 210 subjects (196 countries and 14 religions), resulting in 188,061 unique sentences. Henceforth we call this dataset GPT-resource, and reuse it in the extrinsic use cases (Sec. (ref)).

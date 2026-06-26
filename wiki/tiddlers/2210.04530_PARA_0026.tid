@@ -1,0 +1,9 @@
+created: 20260625093324945
+modified: 20260625093324945
+page: 000
+parent_section: 2210.04530_H5
+tags: paragraph 2210.04530
+title: 2210.04530_PARA_0026
+type: text/vnd.tiddlywiki
+
+We also performed an absolute evaluation of 600 pairs: For each pair, we asked a human evaluator to score the similarity between 1 (the worst) and 5 (the best). We obtained an average typicality of 2.57 for COMET-InfantBooks and 2.53 for COMET-C4. This is consistent with the results of the relative analysis - the gains in the KB-supervised settings are small, but consistently observable both in absolute and relative terms.

@@ -1,0 +1,9 @@
+created: 20260625093527300
+modified: 20260625093527300
+page: 000
+parent_section: 2111.13611_H9
+tags: paragraph 2111.13611
+title: 2111.13611_PARA_0064
+type: text/vnd.tiddlywiki
+
+Conversely, documents may contain information relevant to a relation without actual mention of the relation, which leads to false negatives. For example, a document on the LinkedIn Corporation stating `` ... Weiner stepped down from LinkedIn ... He named Ryan Roslansky as his replacement.'' was labeled uninformative for the ceo relation. Although Ryan Roslansky and LinkedIn are related through the ceo relation, the implicit statement was not noticed by HERB.

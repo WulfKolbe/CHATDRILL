@@ -1,0 +1,12 @@
+created: 20260626111149172
+displayMode: true
+equation_number: 
+kind: Equation
+latex: \begin{aligned} x^{(l)}_i & = \phi\left(\sum_j w^{(l)}_{ij} x^{(l-1)}_j + b^{(l)}_i\right) \\ & = \phi\left(\sum_j w^{(l)}_{ij} \phi\left(x^{(l-1)}_j\right) - \sum_j w^{(l)}_{ij} \phi\left(-x^{(l-1)}_j\right) + b^{(l)}_i \phi\left( 1 \right) \right). \end{aligned}
+latex_original: \begin{aligned} x^{(l)}_i & = \phi\left(\sum_j w^{(l)}_{ij} x^{(l-1)}_j + b^{(l)}_i\right) \\ & = \phi\left(\sum_j w^{(l)}_{ij} \phi\left(x^{(l-1)}_j\right) - \sum_j w^{(l)}_{ij} \phi\left(-x^{(l-1)}_j\right) + b^{(l)}_i \phi\left( 1 \right) \right). \end{aligned}
+modified: 20260626111149172
+page: 000
+refnum: 
+tags: equation 2110.11150
+title: 2110.11150_EQ0026
+type: text/markdown

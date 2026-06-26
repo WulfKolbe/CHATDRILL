@@ -1,0 +1,15 @@
+created: 20260625093057255
+modified: 20260625093057255
+page: 000
+parent_section: 2311.01314_H2
+tags: paragraph 2311.01314
+title: 2311.01314_PARA_0031
+type: text/vnd.tiddlywiki
+
+On the second direction, the work of [pugoy-kao-2020-bert,pugoy-kao-2021-unsupervised],
+uses BERT to create representations for user and item text, with (short chunks of) single reviews as granularity.
+The method then aggregates these per-review vectors by averaging 
+[pugoy-kao-2020-bert] 
+or k-means clustering [pugoy-kao-2021-unsupervised].
+Our experiments include BENEFICT 
+[pugoy-kao-2020-bert] as a baseline.

@@ -1,0 +1,10 @@
+created: 20260625093242023
+modified: 20260625093242023
+page: 000
+parent_section: 2303.11082_H5
+tags: paragraph 2303.11082
+title: 2303.11082_PARA_0018
+type: text/vnd.tiddlywiki
+
+\noindent
+The slot filling ability of an LM, i.e. predicting ``Paris`` for a pair (France, hasCapital), is essential for KBC. This is done by querying an LM using cloze-style statements, a.k.a. prompts, like ``The capital of France is [MASK].''[petroni] . The LM's goal is to predict the token at the masked position, i.e. the object.

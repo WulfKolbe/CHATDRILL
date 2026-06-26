@@ -1,0 +1,11 @@
+caption: \langle
+created: 20260625080929033
+displayMode: false
+latex: \langle
+latex_original: \langle
+modified: 20260625080929033
+tags: formula arxiv_2204_11677
+title: arxiv_2204_11677_FO0058
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

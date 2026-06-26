@@ -1,0 +1,10 @@
+created: 20260625093206654
+modified: 20260625093206654
+page: 000
+parent_section: 2305.16755_H4
+tags: paragraph 2305.16755
+title: 2305.16755_PARA_0032
+type: text/vnd.tiddlywiki
+
+\noindent
+Prompt Engineering. There is a wide consensus that LLMs are very powerful when you ask them for information in the right manner. In our task, we notice that the wording, especially of the zero-shot probe, changes the results dramatically. For instance, using the expressions negative statements, negated statements, and negation statements returns completely different responses. For instance, the probe with the word negated (alone without salient factual) returns obviously true statements with negative keywords added to them, e.g., ``\textit{stephen hawking \underline{was not} a physicist}''. The probe with the word negative does not return any results, but an apology from the AI about not being able to give bad statements about individuals. On this and other tasks, designing intuitive prompts and studying the ability of LLMs to understand them is the most important part of the process [pmlr-v203-jang23a].

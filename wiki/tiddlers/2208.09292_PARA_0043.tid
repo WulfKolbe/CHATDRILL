@@ -1,0 +1,10 @@
+created: 20260625095716233
+modified: 20260625095716233
+page: 000
+parent_section: 2208.09292_H7
+tags: paragraph 2208.09292
+title: 2208.09292_PARA_0043
+type: text/vnd.tiddlywiki
+
+\noindent
+Relaxed scoring. The strict informativeness scoring only handles the cases where candidate negations are expressed using the same exact phrasing. It cannot, however, capture cases where highly similar candidates are stated using different wording. For instance, the candidate set might contain both \texttt{{{2208.09292_FO0047||FO}}(elephant, can jump)} and \texttt{{{2208.09292_FO0048||FO}}(elephant, can leap)}. To remedy this, we make use of sentence embeddings [reimers-2019-sentence-bert] in order to capture this similarity and boost the scores of candidates. We measure f's informativeness using relaxed sibling frequency as follows.

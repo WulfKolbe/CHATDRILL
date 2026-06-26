@@ -1,0 +1,11 @@
+caption: \textit{CNP}_\textit{rep}
+created: 20260625093341706
+displayMode: false
+latex: \textit{CNP}_\textit{rep}
+latex_original: \textit{CNP}_\textit{rep}
+modified: 20260625093341706
+tags: formula 2209.07250
+title: 2209.07250_FO0020
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

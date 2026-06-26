@@ -1,0 +1,11 @@
+created: 20260625093057256
+modified: 20260625093057256
+page: 000
+parent_section: 2311.01314_H9
+tags: paragraph 2311.01314
+title: 2311.01314_PARA_0064
+type: text/vnd.tiddlywiki
+
+\noindent{\bf Baselines:}
+We compare our approach to several state-of-the-art baselines, which cover different methods
+, ranging from traditional collaborative filtering approaches to text-centric neural models {and LLM-based rankers}:

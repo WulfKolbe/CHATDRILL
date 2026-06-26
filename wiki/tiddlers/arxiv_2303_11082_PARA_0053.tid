@@ -1,0 +1,10 @@
+created: 20260625080853980
+modified: 20260625080853980
+page: 000
+parent_section: arxiv_2303_11082_H16
+tags: paragraph arxiv_2303_11082
+title: arxiv_2303_11082_PARA_0053
+type: text/vnd.tiddlywiki
+
+Socio-demographic relations such as citizenOf, headquarteredIn or language-related relations like nativeLanguage, LanguageOfFilm exhibit stronger correlations (e.g. person name and spoken language/origin country) than other relations (e.g. video game and developer, goods/products and manufacturer). These correlations are learned by the LM from the vast amounts of training data and used for the prediction. We recognize here that such learned correlations can be quite useful for fact prediction.
+Regarding the non-language or non-socio-demographic relations, we see that producedBy has the least Wikipedia-known subjects of 10% and shows also the lowest accuracy of 22%. In contrast, developedBy has the most Wikipedia-known subjects and still a high accuracy of 62% despite being a non-language or non-socio-demographic relation. In these relations, the model shows less generalization capability and is more in need of actual retrieval. As an example: the developer of ``Pro Cycling Manager 2015`` must be explicitly mentioned during training to know it, yet the model correctly predicts ``Cyanide``.

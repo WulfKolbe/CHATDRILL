@@ -1,0 +1,9 @@
+created: 20260625093324945
+modified: 20260625093324945
+page: 000
+parent_section: 2210.04530_H4
+tags: paragraph 2210.04530
+title: 2210.04530_PARA_0018
+type: text/vnd.tiddlywiki
+
+In Table (ref) we report the mean reciprocal rank (MRR) for each group. Pre-training on children corpora has a slight edge over the vanilla BERT model and a significant edge over pre-training on the general C4 corpus.

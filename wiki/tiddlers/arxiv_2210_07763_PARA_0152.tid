@@ -1,0 +1,9 @@
+created: 20260625080858063
+modified: 20260625080858063
+page: 000
+parent_section: arxiv_2210_07763_H19
+tags: paragraph arxiv_2210_07763
+title: arxiv_2210_07763_PARA_0152
+type: text/vnd.tiddlywiki
+
+GenericsKB [bhakthavatsalam2020genericskb] was built by using a set of 27 hand-crafted lexico-syntactic rules to extract high-quality generic sentences from different text corpora (the ARC corpus, SimpleWikipedia and the Waterloo crawl of education websites). For example, the lexical rules look for sentences with short length, starting with a capitalized character, having no bad first words (e.g., determiners), ending with a period, having no URL-like snippets, etc. The syntactic rules only accept a sentence if its root is a verb and not the first word, and if there is a noun before the root verb, etc.

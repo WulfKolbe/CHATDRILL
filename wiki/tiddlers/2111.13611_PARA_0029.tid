@@ -1,0 +1,9 @@
+created: 20260625093527300
+modified: 20260625093527300
+page: 000
+parent_section: 2111.13611_H4
+tags: paragraph 2111.13611
+title: 2111.13611_PARA_0029
+type: text/vnd.tiddlywiki
+
+Extracting textual content without noisy headers, menus, and comments, required a labor-intensive scraping step. We handled the multi-domain content scraping task through a combination of libraries like Newspaper3k\footnote{\url{https://newspaper.readthedocs.io/en/latest/}}, Readability\footnote{\url{https://pypi.org/project/readability-lxml/}}, and online scraping services like Import.io\footnote{\url{https://www.import.io/}} and ParseHub\footnote{\url{https://www.parsehub.com/}}. We ensured high-quality scraped content by applying rule-based filters to remove noisy elements like embedded ADs and reference links. The scraped documents covered a range of website domains, including biographical sites, news articles, official company profiles, newsletters, and so on.

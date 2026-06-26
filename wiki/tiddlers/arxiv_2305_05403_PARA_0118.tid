@@ -1,0 +1,9 @@
+created: 20260625080853722
+modified: 20260625080853722
+page: 000
+parent_section: arxiv_2305_05403_H12
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0118
+type: text/vnd.tiddlywiki
+
+For instance, if the score of (\textit{workInstitution{{arxiv_2305_05403_FO0109||FO}}}, academicStaff) is greater than that of (academicStaff, \textit{workInstitution{{arxiv_2305_05403_FO0110||FO}}}), then an entity with the enumerating predicate \textit{workInstitution{{arxiv_2305_05403_FO0111||FO}}} is more likely to have the counting predicate academicStaff than the other way around.

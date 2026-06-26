@@ -1,0 +1,11 @@
+caption: \lambda = \frac{1}{d_{\ensuremath{\bm{X}}\xspace}}
+created: 20260625080931152
+displayMode: false
+latex: \lambda = \frac{1}{d_{\ensuremath{\bm{X}}\xspace}}
+latex_original: \lambda = \frac{1}{d_{\Xg}}
+modified: 20260625080931152
+tags: formula arxiv_2110_13883
+title: arxiv_2110_13883_FO0215
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

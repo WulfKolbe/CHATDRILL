@@ -1,0 +1,11 @@
+caption: x_i \sim U[-1,1]
+created: 20260626094813421
+displayMode: false
+latex: x_i \sim U[-1,1]
+latex_original: x_i \sim U[-1,1]
+modified: 20260626094813421
+tags: formula 2110.11150
+title: 2110.11150_FO0165
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

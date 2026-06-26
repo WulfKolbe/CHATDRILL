@@ -1,0 +1,9 @@
+created: 20260625080831230
+modified: 20260625080831230
+page: 000
+parent_section: arxiv_2308_06374_H1
+tags: paragraph arxiv_2308_06374
+title: arxiv_2308_06374_PARA_0003
+type: text/vnd.tiddlywiki
+
+This is a big step for the field of Knowledge Representation. For a long time, people focused on explicit knowledge, such as those embedded in texts, sometimes also known as unstructured data, and those in a structured form, such as in databases and knowledge graphs (KGs) [Pan2017]. Historically, for a long time, humans used texts to pass down their knowledge from one generation to another, until around the 1960s, when researchers started to study knowledge representation for better natural language understanding and developed early systems, such as ELIZA [Weiz1996] at the MIT. In the early 2000s, the Knowledge Representation and the Semantic Web communities worked together to standardize the widely used knowledge representation languages, such as RDF [Pan2009] and OWL [GHMP+2008], at web scale, using which the large-scale knowledge bases are then more widely known as KGs [Pan2017], due to their helpful graph structures, enabling the both logical reasoning and graph-based learning.

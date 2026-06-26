@@ -1,0 +1,11 @@
+created: 20260625093341705
+modified: 20260625093341705
+page: 000
+parent_section: 2209.07250_H17
+tags: paragraph 2209.07250
+title: 2209.07250_PARA_0105
+type: text/vnd.tiddlywiki
+
+The manually created Stresstest dataset shows the potential of {\mysystem} in terms of coverage and RP, even though RP of GoogleSDA is higher.
+Here results indicate that reliance on structured KBs (QAnswer) is not sufficient for general queries, and robust consolidation
+from crisper text segments is necessary.

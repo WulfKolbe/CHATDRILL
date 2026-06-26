@@ -1,0 +1,11 @@
+caption: p_c
+created: 20260625080853724
+displayMode: false
+latex: p_c
+latex_original: p_c
+modified: 20260625080853724
+tags: formula arxiv_2305_05403
+title: arxiv_2305_05403_FO0103
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

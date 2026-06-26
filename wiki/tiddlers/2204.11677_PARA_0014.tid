@@ -1,0 +1,9 @@
+created: 20260625093448813
+modified: 20260625093448813
+page: 000
+tags: paragraph 2204.11677
+title: 2204.11677_PARA_0014
+type: text/vnd.tiddlywiki
+
+\newcommand{\GW}[1]{{\color{blue}{GW: #1}} }
+\newcommand{\PC}[1]{{\color{orange}{PC: #1}} }

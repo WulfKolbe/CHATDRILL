@@ -1,0 +1,9 @@
+created: 20260625080930847
+modified: 20260625080930847
+page: 000
+parent_section: arxiv_2111_13611_H8
+tags: paragraph arxiv_2111_13611
+title: arxiv_2111_13611_PARA_0056
+type: text/vnd.tiddlywiki
+
+We further perform an ablation analysis, with Table (ref) showing the average F1-scores when individual heuristics are removed from HERB. Removing either BM25 or Text Complexity leads to a significant drop in performance, indicating that other heuristics or BERT do not capture these features well.

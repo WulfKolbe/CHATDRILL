@@ -1,0 +1,13 @@
+created: 20260625080827137
+modified: 20260625080827137
+page: 000
+parent_section: arxiv_2405_02732_H16
+tags: paragraph arxiv_2405_02732
+title: arxiv_2405_02732_PARA_0088
+type: text/vnd.tiddlywiki
+
+For stage-1 recall, we achieve similar performance across predicates, all between ca. 75% and 90% recall.
+For stage-2 R@P results, 
+we clearly see the big gap between "easy" relations with crisp lists of a few objects, and "hard" relations
+with long lists and more loosely defined cues in the text passages. Not surprisingly, the Opponent relation is the hardest case, where even our best method reaches only ca. 30% for R@P50.
+This calls for more research on this challenging task.

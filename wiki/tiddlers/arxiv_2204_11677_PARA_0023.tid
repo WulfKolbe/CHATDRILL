@@ -1,0 +1,24 @@
+created: 20260625080929031
+modified: 20260625080929031
+page: 000
+parent_section: arxiv_2204_11677_H1
+tags: paragraph arxiv_2204_11677
+title: arxiv_2204_11677_PARA_0023
+type: text/vnd.tiddlywiki
+
+usually contain implicit context. 
+The ConvQA system is expected to resolve such implicit information from the conversational history.
+Consider, for example, a typical ConvQA session on factual knowledge below:
+\begin{Snugshade}
+ \utterance{{{arxiv_2204_11677_FO0002||FO}}: Who played Jaime Lannister in GoT?}\\
+ \indent {{arxiv_2204_11677_FO0003||FO}}: \struct{Nikolaj Coster-Waldau}\\
+ \indent \utterance{{{arxiv_2204_11677_FO0004||FO}}: What about the dwarf?}\\
+ \indent {{arxiv_2204_11677_FO0005||FO}}: \struct{Peter Dinklage}\\
+ \indent \utterance{{{arxiv_2204_11677_FO0006||FO}}: When was he born?}\\
+ \indent {{arxiv_2204_11677_FO0007||FO}}: \struct{11 June 1969}\\
+ \indent \utterance{{{arxiv_2204_11677_FO0008||FO}}: Release date of first season?}\\
+ \indent {{arxiv_2204_11677_FO0009||FO}}: \struct{17 April 2011}\\
+ \indent \utterance{{{arxiv_2204_11677_FO0010||FO}}: Duration of an episode?}\\
+ \indent {{arxiv_2204_11677_FO0011||FO}}: \struct{50-82 minutes}
+\end{Snugshade}
+State-of-the-art works on ConvQA make use of single information sources: either curated knowledge bases (KB) [christmann2019look,guo2018dialog,kaiser2021reinforcement,shen2019multi,saha2018complex,kacupaj2021conversational,plepi2021context,marion2021structured,lan2021modeling], or unstructured text collections [chengraphflow,huang2018flowqa,qiu2021reinforced,qu2019attentive,qu2019bert], or

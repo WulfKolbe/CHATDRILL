@@ -1,0 +1,9 @@
+created: 20260625093231915
+modified: 20260625093231915
+page: 000
+parent_section: 2305.05403_H16
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0157
+type: text/vnd.tiddlywiki
+
+While these notions give us a way to express negative statements, one still have to find a way to add them -- if possible, automatically. The key challenge is to focus on identifying salient negative statements, such as a well-known physicist not winning the Nobel Prize, namely {{2305.05403_FO0127||FO}}\fact{Stephen Hawking}{wonAward}{Nobel Prize in Physics}. An illustration of the research problem is shown in Table (ref). The number of false facts or statements is much larger than positive facts, e.g., Stephen Hawking studied at a 4 educational institution v. thousands that he did not study at. The key is to identify the subset of useful negative statements that can be added to the existing open-world KB.

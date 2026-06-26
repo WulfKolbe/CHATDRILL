@@ -1,0 +1,9 @@
+created: 20260625080853723
+modified: 20260625080853723
+page: 000
+parent_section: arxiv_2305_05403_H28
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0238
+type: text/vnd.tiddlywiki
+
+LLMs support many steps in the KB construction pipeline, thereby enabling the construction of bigger KBs, that consequently have higher recall [alivanistos2022prompting,veseli2023evaluating]. In particular, LLMs can be used both for direct knowledge prediction, or in conjunction with retrieved text, where they improve over existing textual relation extraction methods [mallen2023not].

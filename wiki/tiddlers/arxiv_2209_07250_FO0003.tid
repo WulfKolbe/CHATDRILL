@@ -1,0 +1,11 @@
+caption: \textit{Conf}=0.75
+created: 20260625080859571
+displayMode: false
+latex: \textit{Conf}=0.75
+latex_original: \textit{Conf}=0.75
+modified: 20260625080859571
+tags: formula arxiv_2209_07250
+title: arxiv_2209_07250_FO0003
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

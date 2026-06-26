@@ -1,0 +1,11 @@
+caption: \ensuremath{\langle{}\textit{Marie Curie}, \textit{advised}, *\rangle}
+created: 20260625080853723
+displayMode: false
+latex: \ensuremath{\langle{}\textit{Marie Curie}, \textit{advised}, *\rangle}
+latex_original: \mfact{\textit{Marie Curie}}{\textit{advised}}{*}
+modified: 20260625080853723
+tags: formula arxiv_2305_05403
+title: arxiv_2305_05403_FO0045
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

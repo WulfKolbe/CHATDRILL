@@ -1,0 +1,11 @@
+created: 20260625093057255
+modified: 20260625093057255
+page: 000
+parent_section: 2311.01314_H5
+tags: paragraph 2311.01314
+title: 2311.01314_PARA_0042
+type: text/vnd.tiddlywiki
+
+We use the Adam optimizer to minimize the binary cross-entropy loss between predicted labels and the ground truth 
+{with sampled negatives}.
+During training we update the top-most layer of BERT, which allows end-to-end training of all components.

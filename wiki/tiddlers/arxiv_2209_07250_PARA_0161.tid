@@ -1,0 +1,10 @@
+created: 20260625080859570
+modified: 20260625080859570
+page: 000
+parent_section: arxiv_2209_07250_H33
+tags: paragraph arxiv_2209_07250
+title: arxiv_2209_07250_PARA_0161
+type: text/vnd.tiddlywiki
+
+We address the gap in distribution-aware prediction, assimilating semantic qualifiers from web contents and providing explanations through instances for the class of count queries. We systematically analysed count queries, their prevalence, structure and how current state-of-the-art answer them. 
+We provide a thorough analysis of our system components and how {\mysystem} compares to the baselines in different query settings. A thorough discussion on tackled and open challenges are provided in the discussion section (Section (ref)) with observations and case studies.

@@ -1,0 +1,16 @@
+created: 20260625093231914
+modified: 20260625093231914
+page: 000
+parent_section: 2305.05403_H6
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0043
+type: text/vnd.tiddlywiki
+
+\begin{definition}[Completeness Assertion]
+Given an available KB {{2305.05403_FO0040||FO}}, and an ideal KB {{2305.05403_FO0041||FO}}, a completeness assertion [motro] is a selection condition {{2305.05403_FO0042||FO}} for tuples that are completely recorded.
+Formally, such an assertion is satisfied, if {{2305.05403_FO0043||FO}}.
+\end{definition}
+\newcommand{\complete}[1]{IsComplete({{2305.05403_FO0044||FO}})}
+\begin{example}
+The completeness assertion {{2305.05403_FO0045||FO}} specifies that all advisee relations for Marie Curie are in the KB. Given the running example from Table (ref), this would mean that Curie advised no one else than Marguerite Perey, Óscar Moreno, and the other 6 listed individuals. 
+\end{example}

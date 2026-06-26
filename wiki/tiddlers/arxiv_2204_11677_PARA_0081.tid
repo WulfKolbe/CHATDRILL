@@ -1,0 +1,11 @@
+created: 20260625080929032
+modified: 20260625080929032
+page: 000
+parent_section: arxiv_2204_11677_H4
+tags: paragraph arxiv_2204_11677
+title: arxiv_2204_11677_PARA_0081
+type: text/vnd.tiddlywiki
+
+The question entity is the entity mention targeted in the current question (e.g. \struct{\textcolor{red}{the dwarf}}).
+Here, the context entity makes the question entity explicit, indicating that the question is on the dwarf in Game of Thrones.
+Inferring the question entity may need to take the history into account (e.g., for {{arxiv_2204_11677_FO0046||FO}} in Table (ref)).

@@ -1,0 +1,10 @@
+created: 20260625093007936
+modified: 20260625093007936
+page: 000
+parent_section: 2411.12449_H6
+tags: paragraph 2411.12449
+title: 2411.12449_PARA_0052
+type: text/vnd.tiddlywiki
+
+Baselines \& Methods.
+We aim to augment LLMs with temporally relevant information for answering entity-centric questions and compare various augmentation strategies. Unlike existing RAG methods, which retrieve passages from large generic data indices, we employ strong baselines that retrieve from an entity-centric datastore (detailed in Section (ref)). We evaluate the following methods within the RAG framework to address our temporal QA task:

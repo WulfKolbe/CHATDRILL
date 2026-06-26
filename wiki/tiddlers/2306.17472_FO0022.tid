@@ -1,0 +1,11 @@
+caption: \rangle
+created: 20260625093156716
+displayMode: false
+latex: \rangle
+latex_original: \rangle
+modified: 20260625093156716
+tags: formula 2306.17472
+title: 2306.17472_FO0022
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

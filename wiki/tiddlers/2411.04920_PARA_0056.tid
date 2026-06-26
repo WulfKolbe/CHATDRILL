@@ -1,0 +1,9 @@
+created: 20260625093027647
+modified: 20260625093027647
+page: 000
+parent_section: 2411.04920_H8
+tags: paragraph 2411.04920
+title: 2411.04920_PARA_0056
+type: text/vnd.tiddlywiki
+
+In terms of the accuracy of the taxonomy, we follow the per-edge evaluation scheme proposed by [bordea2016semeval], finding that 64% of all subclass-superclass edges are considered correct, using the Llama model as judge. We also evaluate whether a superclass is most appropriate, by offering all siblings as alternatives. Here, for 70% of all subclass-superclass edges, the superclass is considered the best alternative. Note that the structure of our taxonomy still leaves room for improvement in terms of long-range dependencies and distributions, that are not easy to quantify or address locally.

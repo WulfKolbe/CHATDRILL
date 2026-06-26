@@ -1,0 +1,16 @@
+created: 20260625093448814
+modified: 20260625093448814
+page: 000
+parent_section: 2204.11677_H7
+tags: paragraph 2204.11677
+title: 2204.11677_PARA_0137
+type: text/vnd.tiddlywiki
+
+The gold SR is then constructed heuristically:
+i) if there are relevant entities from the current turn, then these feature in the question entity slot,
+and relevant entities (if any) from previous turns become context entities in the SR, and,
+ii) if there are only relevant entities from previous turns, then these become question entities.
+The remaining words in the current question (except for stopwords) fill up the question predicate slot.
+The expected answer type is directly looked up from the KB, using the gold answer.
+Since the KB may have several types for the same entity, we take the most frequent one
+to avoid very specific types. For example, \struct{Tyrion Lannister} has types \struct{fictional human} (more frequent) and \struct{GoT character} (less frequent) in Wikidata: so we only consider \struct{fictional human} in our SR.

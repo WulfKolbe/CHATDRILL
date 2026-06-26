@@ -1,0 +1,15 @@
+created: 20260625080827350
+modified: 20260625080827350
+page: 000
+parent_section: arxiv_2311_01314_H11
+tags: paragraph arxiv_2311_01314
+title: arxiv_2311_01314_PARA_0077
+type: text/vnd.tiddlywiki
+
+\squishlist
+\item The interaction-centric CF 
+fails for this extremely sparse data. 
+BENEFICT, utilizing the entire user review texts, 
+shows poor performance.
+At the same time, BENEFICT{{arxiv_2311_01314_FO0025||FO}} and P5{{arxiv_2311_01314_FO0026||FO}}, 
+extended with our text-derived profiling, achieve decent performance.

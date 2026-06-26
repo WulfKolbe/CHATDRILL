@@ -1,0 +1,12 @@
+created: 20260625093057256
+modified: 20260625093057256
+page: 000
+parent_section: 2311.01314_H12
+tags: paragraph 2311.01314
+title: 2311.01314_PARA_0081
+type: text/vnd.tiddlywiki
+
+For more analysis, we measured the training time and resulting NDCG on the
+{GR-1K-rich} data, comparing different input size budgets and 
+{choices of tunable parameters.}
+Figure (ref) shows the {NDCG@5} results {on the validation set.}

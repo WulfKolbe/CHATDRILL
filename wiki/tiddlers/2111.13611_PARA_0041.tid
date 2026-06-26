@@ -1,0 +1,9 @@
+created: 20260625093527300
+modified: 20260625093527300
+page: 000
+parent_section: 2111.13611_H4
+tags: paragraph 2111.13611
+title: 2111.13611_PARA_0041
+type: text/vnd.tiddlywiki
+
+We analyzed how well the automatic annotations reflect human annotations' coverage by computing Pearson correlation coefficients for the entire set of {{2111.13611_FO0063||FO}} sample documents. For a relation, the RE tool with higher averaged count was chosen for our experiments, and the correlation for (Human, RE) is 0.68. This shows that optimizing for coverage by automatic RE tools is highly correlated with the overarching goal of approximating human-quality outputs.

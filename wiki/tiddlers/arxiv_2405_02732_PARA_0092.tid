@@ -1,0 +1,9 @@
+created: 20260625080827137
+modified: 20260625080827137
+page: 000
+parent_section: arxiv_2405_02732_H17
+tags: paragraph arxiv_2405_02732
+title: arxiv_2405_02732_PARA_0092
+type: text/vnd.tiddlywiki
+
+Table (ref) compares stage-2 classifiers, along with drill-down by the three predicates. The trends align with those observed in the books dataset, with {\em amp/pred g} achieving the highest scores. While performance is strong on the relatively easier CEO relation (ca. 65% R@P50), it struggles on the highly challenging hasSubsidiary relation.

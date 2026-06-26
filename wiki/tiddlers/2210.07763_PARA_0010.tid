@@ -1,0 +1,12 @@
+created: 20260625093308064
+modified: 20260625093308064
+page: 000
+parent_section: 2210.07763_H1
+tags: paragraph 2210.07763
+title: 2210.07763_PARA_0010
+type: text/vnd.tiddlywiki
+
+Consider the conversation between a human and the GPT-3 chatbot\footnote{Executed at \href{https://beta.openai.com/playground}{beta.openai.com/playground} using the davinci-002 model at temp=0.7.} shown in Fig. (ref).
+The GPT-3-based bot, leveraging its huge language model, performs eloquently in this conversation, but completely misses the point that the user is in China, where dragons are viewed positively and espresso is difficult to get.
+If we prime the bot with CCSK about Far-East-Asian culture, then GPT-3 is enabled to provide culturally situative replies.
+If primed with CCSK about European views (not shown in Fig. (ref)), the bot points out that dragons are portrayed as evil monsters but do not exist in reality and recommends a strong cup of coffee.

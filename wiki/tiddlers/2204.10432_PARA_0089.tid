@@ -1,0 +1,11 @@
+created: 20260625093505870
+modified: 20260625093505870
+page: 000
+parent_section: 2204.10432_H24
+tags: paragraph 2204.10432
+title: 2204.10432_PARA_0089
+type: text/vnd.tiddlywiki
+
+\paragraphHdNospace{Other symptoms.}
+We use randomly selected posts labeled positive for other questions (symptoms) as negative examples for the given question.
+We ensure the selected posts do not contain positive patterns for the given question.

@@ -1,0 +1,10 @@
+created: 20260625080929320
+modified: 20260625080929320
+page: 000
+parent_section: arxiv_2204_10432_H1
+tags: paragraph arxiv_2204_10432
+title: arxiv_2204_10432_PARA_0004
+type: text/vnd.tiddlywiki
+
+In this work, we explore approaches for constraining the behavior of depression detection methods by the presence of symptoms known to be related to depression, like mood and sleep issues.
+To do so, we develop nine symptom detection models that correspond to questions present in PHQ9, a screening questionnaire that has been clinically validated and commonly used in practical setting [kroenke2001phq]. These questions ask how often the patient has experienced symptoms from nine symptom groups (e.g., how often have you had ``little interest/pleasure in doing things?'').

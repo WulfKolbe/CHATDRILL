@@ -1,0 +1,15 @@
+created: 20260625080805467
+modified: 20260625080805467
+page: 000
+parent_section: arxiv_2411_12449_H5
+tags: paragraph arxiv_2411_12449
+title: arxiv_2411_12449_PARA_0044
+type: text/vnd.tiddlywiki
+
+\squishlist
+\item[1.] User enters a (telegraphic) temporal query {{arxiv_2411_12449_FO0122||FO}} at timestamp {{arxiv_2411_12449_FO0123||FO}}
+\item[2.] {{arxiv_2411_12449_FO0124||FO}} is reformulated into {{arxiv_2411_12449_FO0125||FO}} by performing named-entity disambiguation [cucerzan-2007-large] and explicitly mentioning {{arxiv_2411_12449_FO0126||FO}} in natural language.
+\item[3.] Using the reformulated query {{arxiv_2411_12449_FO0127||FO}}, we apply the retrieval methods mentioned in Section (ref) to obtain top-{{arxiv_2411_12449_FO0128||FO}} relevant Neon tuples.
+\item[4.] The top-{{arxiv_2411_12449_FO0129||FO}} Neon tuples are augmented into LLM prompt for RAG based generation. Figure (ref) gives the prompt template.
+\item[5.] LLM generates a response to the temporal query using the supporting information.
+\squishend

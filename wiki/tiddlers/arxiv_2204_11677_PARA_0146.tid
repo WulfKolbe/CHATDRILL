@@ -1,0 +1,12 @@
+created: 20260625080929032
+modified: 20260625080929032
+page: 000
+parent_section: arxiv_2204_11677_H9
+tags: paragraph arxiv_2204_11677
+title: arxiv_2204_11677_PARA_0146
+type: text/vnd.tiddlywiki
+
+Interestingly, several Turkers providing high-quality conversations seemingly found the task engaging (we provided a free-text feedback box), and submitted more than {{arxiv_2204_11677_FO0076||FO}} HITs.
+The authors conducted semi-automatic post-processing, validation and cleaning of the benchmark. Several issues were also resolved by meticulous manual inspection.
+For example, we ran \clocq [christmann2022beyond] on the initial questions, and manually inspected cases for which no answering evidences were found, to identify and rectify cases in which the initial questions themselves were unanswerable.
+Such cases are specifically problematic, because the whole conversation might become unanswerable.

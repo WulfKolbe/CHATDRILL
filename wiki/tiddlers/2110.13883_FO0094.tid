@@ -1,0 +1,11 @@
+caption: \rho_{i,k}
+created: 20260625110956923
+displayMode: false
+latex: \rho_{i,k}
+latex_original: \rho_{i,k}
+modified: 20260625110956923
+tags: formula 2110.13883
+title: 2110.13883_FO0094
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

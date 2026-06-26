@@ -1,0 +1,11 @@
+created: 20260625080930847
+modified: 20260625080930847
+page: 000
+parent_section: arxiv_2111_13611_H9
+tags: paragraph arxiv_2111_13611
+title: arxiv_2111_13611_PARA_0067
+type: text/vnd.tiddlywiki
+
+A sample of {{arxiv_2111_13611_FO0112||FO}} documents from DoCo was given to both HERB and SSAN and processed as follows. For HERB, features are computed utilizing BERT,
+followed by coverage prediction. For SSAN, documents first need to be pre-processed to construct the necessary DocRED representation.
+This includes named entity recognition and pair-wise co-reference resolution, using Stanza\footnote{\url{https://stanfordnlp.github.io/stanza/}} to properly group same-entity occurrences.

@@ -1,0 +1,11 @@
+caption: d_F(\ensuremath{\bm{x}}\xspace_i,\ensuremath{\bm{x}}\xspace_j) = 1- p^F(\ensuremath{\bm{x}}\xspace_i,\ensuremath{\bm{x}}\xspace_j)
+created: 20260625080931152
+displayMode: false
+latex: d_F(\ensuremath{\bm{x}}\xspace_i,\ensuremath{\bm{x}}\xspace_j) = 1- p^F(\ensuremath{\bm{x}}\xspace_i,\ensuremath{\bm{x}}\xspace_j)
+latex_original: d_F(\xg_i,\xg_j) = 1- p^F(\xg_i,\xg_j)
+modified: 20260625080931152
+tags: formula arxiv_2110_13883
+title: arxiv_2110_13883_FO0255
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

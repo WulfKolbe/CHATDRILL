@@ -1,0 +1,12 @@
+created: 20260626111149172
+displayMode: true
+equation_number: 
+kind: Equation
+latex: \begin{aligned} \mathbb{E}\left(||\bm{f(x_0)}||^2_2 \right) &=\mathbb{E}\left(\mathbb{E}\left(\ldots\mathbb{E}\left(\mathbb{E}\left(||\bm{x^{(L)}}||^2_2 ~\bigg|~ ||\bm{x^{(L-1)}}||^2_2 \right) ~\bigg|~ ||\bm{x^{(L-2)}}||^2_2 \right)\ldots ~\bigg|~ ||\bm{x^{(1)}}||^2_2 \right) \right) \\ &= \mathbb{E}\left(\mathbb{E}\left(\ldots\mathbb{E}\left( \frac{n_L}{2}\left(\sigma^2_{w,L}||\bm{x^{(L-1)}}||_2^2 + \sigma^2_{b,L} \right) ~\bigg|~ ||\bm{x^{(L-2)}}||^2_2 \right)\ldots ~\bigg|~ ||\bm{x^{(1)}}||^2_2 \right)\right)\\ &= \mathbb{E}\left(\mathbb{E}\left(\ldots\frac{n_L\sigma^2_{w,L}}{2}\mathbb{E}\left( ||\bm{x^{(L-1)}}||^2_2 ~\bigg|~ ||\bm{x^{(L-2)}}||^2_2 \right) + \frac{n_L\sigma^2_{b,L}}{2}\ldots ~\bigg|~ ||\bm{x^{(1)}}||^2_2 \right)\right). \end{aligned}
+latex_original: \begin{aligned} \mathbb{E}\left(||\bm{f(x_0)}||^2_2 \right) &=\mathbb{E}\left(\mathbb{E}\left(\ldots\mathbb{E}\left(\mathbb{E}\left(||\bm{x^{(L)}}||^2_2 ~\bigg|~ ||\bm{x^{(L-1)}}||^2_2 \right) ~\bigg|~ ||\bm{x^{(L-2)}}||^2_2 \right)\ldots ~\bigg|~ ||\bm{x^{(1)}}||^2_2 \right) \right) \\ &= \mathbb{E}\left(\mathbb{E}\left(\ldots\mathbb{E}\left( \frac{n_L}{2}\left(\sigma^2_{w,L}||\bm{x^{(L-1)}}||_2^2 + \sigma^2_{b,L} \right) ~\bigg|~ ||\bm{x^{(L-2)}}||^2_2 \right)\ldots ~\bigg|~ ||\bm{x^{(1)}}||^2_2 \right)\right)\\ &= \mathbb{E}\left(\mathbb{E}\left(\ldots\frac{n_L\sigma^2_{w,L}}{2}\mathbb{E}\left( ||\bm{x^{(L-1)}}||^2_2 ~\bigg|~ ||\bm{x^{(L-2)}}||^2_2 \right) + \frac{n_L\sigma^2_{b,L}}{2}\ldots ~\bigg|~ ||\bm{x^{(1)}}||^2_2 \right)\right). \end{aligned}
+modified: 20260626111149172
+page: 000
+refnum: 
+tags: equation 2110.11150
+title: 2110.11150_EQ0021
+type: text/markdown

@@ -1,0 +1,11 @@
+caption: \langle q^i, a^i \rangle
+created: 20260625093448815
+displayMode: false
+latex: \langle q^i, a^i \rangle
+latex_original: \langle q^i, a^i \rangle
+modified: 20260625093448815
+tags: formula 2204.11677
+title: 2204.11677_FO0038
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

@@ -1,0 +1,32 @@
+created: 20260625093308066
+format: fractal_xref
+modified: 20260625093308066
+tags: toc 2210.07763
+title: 2210.07763_TOC
+type: text/vnd.tiddlywiki
+
+** 1.1 [[Introduction|2210.07763_H1]]
+** 1.2 [[Related work|2210.07763_H2]]
+** 1.3 [[CCSK Representation|2210.07763_H3]]
+** 1.4 [[Methodology|2210.07763_H4]]
+*** 1.4.1 [[Subject detection|2210.07763_H5]]
+*** 1.4.2 [[Generic assertion filtering|2210.07763_H6]]
+*** 1.4.3 [[Cultural facet classification|2210.07763_H7]]
+*** 1.4.4 [[Assertion clustering|2210.07763_H8]]
+*** 1.4.5 [[Concept extraction|2210.07763_H9]]
+*** 1.4.6 [[Cluster ranking and post-filtering|2210.07763_H10]]
+** 1.5 [[Implementation|2210.07763_H11]]
+** 1.6 [[Evaluation|2210.07763_H12]]
+*** 1.6.1 [[Comparison with other resources|2210.07763_H13]]
+*** 1.6.2 [[Comparison with direct LM extraction|2210.07763_H14]]
+*** 1.6.3 [[Extrinsic evaluation|2210.07763_H15]]
+** 1.7 [[Conclusion|2210.07763_H16]]
+*** 1.7.1 [[Ethics statement|2210.07763_H17]]
+** 1.8 [[System summary|2210.07763_H18]]
+** 1.9 [[Generic filtering rules|2210.07763_H19]]
+** 1.10 [[Hyperparameter settings|2210.07763_H20]]
+** 1.11 [[Intrinsic evaluation|2210.07763_H21]]
+*** 1.11.1 [[Per-domain quality|2210.07763_H22]]
+*** 1.11.2 [[Per-facet quality|2210.07763_H23]]
+** 1.12 [[Details of Annotation Task for Assertion Evaluation|2210.07763_H24]]
+** 1.13 [[GPT-3 prompting|2210.07763_H25]]

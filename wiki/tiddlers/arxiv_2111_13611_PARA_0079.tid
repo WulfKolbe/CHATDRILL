@@ -1,0 +1,9 @@
+created: 20260625080930847
+modified: 20260625080930847
+page: 000
+parent_section: arxiv_2111_13611_H12
+tags: paragraph arxiv_2111_13611
+title: arxiv_2111_13611_PARA_0079
+type: text/vnd.tiddlywiki
+
+Table (ref) shows the results. Due to the upfront cost of HERB, HERB+SSAN processes fewer documents within the 10-minute budget, but its yield is substantially higher than that of SSAN alone, by a factor of {{arxiv_2111_13611_FO0123||FO}}. This demonstrates the need for document-coverage prediction towards realistic usage.

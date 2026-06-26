@@ -1,0 +1,13 @@
+created: 20260625080827137
+modified: 20260625080827137
+page: 000
+parent_section: arxiv_2405_02732_H12
+tags: paragraph arxiv_2405_02732
+title: arxiv_2405_02732_PARA_0056
+type: text/vnd.tiddlywiki
+
+Since entities often appear under multiple surface forms,
+we manually constructed an entity name dictionary grouping alias names for each distinct entity. On a per-book basis, we ensured that certain first names, last names, or nicknames were uniquely identifiable.
+For example, ``Daenerys'' is unique, whereas ``Targaryen'' is ambiguous. So for this entity, aliases include ``Daenerys'', ``Dany'', ``Daenerys Targaryen'', ``Daenerys Stormborn'', but not ``Targaryen''.
+LLM outputs like ``Targaryen'' alone are thus counted as false.
+This construction was aided by additional community sources\footnote{incl. \url{potterdb.com} for Harry Potter, \url{www.reddit.com/r/asoiaf} for Song of Ice and Fire, and others}.

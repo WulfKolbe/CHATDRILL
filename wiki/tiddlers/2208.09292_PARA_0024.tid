@@ -1,0 +1,15 @@
+created: 20260625095716233
+modified: 20260625095716233
+page: 000
+parent_section: 2208.09292_H2
+tags: paragraph 2208.09292
+title: 2208.09292_PARA_0024
+type: text/vnd.tiddlywiki
+
+A commonsense KB consists of a finite set of statements in the form (s, r, t), where s is a subject (or concept), r is a relation, and t is a tail phrase. Following previous work [chalierjoint], we do not distinguish between r and t, because for textual CSK expressions, these distinctions are often ad-hoc and a crisp definition of relations is difficult. Hence, for the remainder of the paper, we generalize the above form to (s, f), where s is the subject and f is a short \underline{ph}rase combining r and t. 
+\begin{definition}
+A commonsense negative statement \texttt{{{2208.09292_FO0003||FO}}(s, f)}, is a statement (s, f) that is not true.
+\end{definition}
+For example, ``elephants are not carnivorous'' is expressed as \texttt{{{2208.09292_FO0004||FO}}(elephant, is carnivore)}. One naive approach to produce such negations is to assume the CWA (closed-world assumption) over the KB and consider all non-existing statements as negatives. On top of not being materializable, this approach faces the following challenges. C1: Avoid false negatives. In order to assert a negation, it is not sufficient to check if a candidate negation is not positive. KBs in general operate under the OWA (open-world assumption), which means that absent information is merely unknown, and not necessarily false. For example, in Ascent, the absence of statement (elephant, has eye) is clearly due to missing information. 
+C2: Generate judgeable negations. Whether constructed using human crowdsourcing [conceptnet] or information extraction techniques [ascentpp,quasimodo], KBs mainly reflect the ``wisdom'' of the crowd about everyday concepts. This causes the augmentation of many subjective or otherwise uninformative statements, such as (cat, is important) and (football, is boring). A generated negation must be easily interpreted by a human annotator as true or false. Therefore it is important to clean the candidate space prior to materializing negations. 
+C3: Generate informative negations. Finally, the explicit materialization of all possible negations is not necessary for most standard AI applications (e.g., user might confuse tabbouleh as something that requires an oven but not a printer). In other words, it is better to avoid nonsensical negative statements such as \texttt{{{2208.09292_FO0005||FO}}(printer, is baked in oven)}.\\

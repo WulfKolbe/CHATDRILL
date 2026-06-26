@@ -1,0 +1,12 @@
+created: 20260625093027647
+modified: 20260625093027647
+page: 000
+parent_section: 2411.04920_H2
+tags: paragraph 2411.04920
+title: 2411.04920_PARA_0007
+type: text/vnd.tiddlywiki
+
+For instance, we found that GPT-4o-mini holds substantial knowledge about art periods or hobbies, which are not covered in existing KBs.
+[kassner-etal-2021-beliefbank] propose a small-scale persistent memory component for ensuring LLM answers remain consistent over multiple prompts.
+[mango] iteratively prompt GPT-3.5 for obtaining 167K sentences containing cultural commonsense for 11K subjects. [cohen-etal-2023-crawling] propose to iteratively prompt GPT-3 for relations and relational assertions for triples.
+In difference to [mango], we are after structured content (triples), at a much larger scale. In difference to [cohen-etal-2023-crawling], we unveil the practical challenges that such a graph exploration faces, tackle them, and perform LLM-based KB construction at scale.

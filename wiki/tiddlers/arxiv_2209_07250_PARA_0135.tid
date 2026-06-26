@@ -1,0 +1,9 @@
+created: 20260625080859570
+modified: 20260625080859570
+page: 000
+parent_section: arxiv_2209_07250_H26
+tags: paragraph arxiv_2209_07250
+title: arxiv_2209_07250_PARA_0135
+type: text/vnd.tiddlywiki
+
+ensures a high accuracy of 82.1% for Synonyms, which only decreases with increasing {{arxiv_2209_07250_FO0040||FO}} down to 69.1% for {{arxiv_2209_07250_FO0041||FO}}, the accuracy of Subgroups is initially low (34.4%), but increases with higher levels of {{arxiv_2209_07250_FO0042||FO}}, peaking at {{arxiv_2209_07250_FO0043||FO}} and then decreases. This happens because as {{arxiv_2209_07250_FO0044||FO}} increases, more incorrect CNPs are classified as Synonyms.

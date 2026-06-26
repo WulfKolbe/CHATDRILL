@@ -1,0 +1,9 @@
+created: 20260625095716233
+modified: 20260625095716233
+page: 000
+parent_section: 2208.09292_H7
+tags: paragraph 2208.09292
+title: 2208.09292_PARA_0041
+type: text/vnd.tiddlywiki
+
+The output of the previous step is a potentially large set of truly negative statements. In fact, beyond our toy example, starting with 30 siblings for elephant, \uncommon{} produces 1352 initial candidates. Hence, ranking is crucial. We quantify the importance of a certain candidate negation by how uncommon it is among its siblings. The notion of informativeness is expressed through unique behavior, characteristic, and so on, of a certain concept, given what is known about its siblings. More formally, given a candidate phrase f about target concept s and its siblings {{2208.09292_FO0034||FO}}, we measure f's informativeness using strict sibling frequency.

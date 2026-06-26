@@ -1,0 +1,17 @@
+[
+    {
+        "title": "2110.11150_REF_orseau2020logarithmic",
+        "text": "{{||CIT}} L. Orseau, M. Hutter, and O. Rivasplata. Logarithmic pruning is all you need. Advances in Neural Information Processing Systems, 33, 2020.",
+        "type": "text/markdown",
+        "tags": "reference bibentry bibtex 2110.11150",
+        "created": "20260626111149173",
+        "modified": "20260626111149173",
+        "kind": "reference",
+        "citekey": "orseau2020logarithmic",
+        "year": "2020",
+        "authors": "Orseau, Laurent and Hutter, Marcus and Rivasplata, Omar",
+        "entry_type": "article",
+        "titlefield": "Logarithmic pruning is all you need",
+        "bibtex": "@article{orseau2020logarithmic,\n  title={Logarithmic pruning is all you need},\n  author={Orseau, Laurent and Hutter, Marcus and Rivasplata, Omar},\n  journal={Advances in Neural Information Processing Systems},\n  volume={33},\n  year={2020}\n}"
+    }
+]

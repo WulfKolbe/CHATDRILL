@@ -1,0 +1,16 @@
+created: 20260625093156716
+modified: 20260625093156716
+page: 000
+parent_section: 2306.17472_H1
+tags: paragraph 2306.17472
+title: 2306.17472_PARA_0010
+type: text/vnd.tiddlywiki
+
+Our method leverages Transformer-based language models in a new way.
+Most notably, we employ two different LMs in a two-stage pipeline, as shown in Figure (ref).
+The first stage generates candidate answers to input prompts and gives
+cues to retrieve informative sentences from Wikipedia and other sources.
+The second stage validates (or falsifies) the candidates and disambiguates
+the retained answer strings onto entities in the underlying KG
+(e.g., mapping ``Lhasa'' to {\small\tt Lhasa de Sela} , and
+``Bratsch'' to {\small\tt Bratsch (band)}).

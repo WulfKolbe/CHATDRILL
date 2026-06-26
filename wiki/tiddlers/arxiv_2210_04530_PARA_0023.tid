@@ -1,0 +1,9 @@
+created: 20260625080858924
+modified: 20260625080858924
+page: 000
+parent_section: arxiv_2210_04530_H5
+tags: paragraph arxiv_2210_04530
+title: arxiv_2210_04530_PARA_0023
+type: text/vnd.tiddlywiki
+
+Beyond prompting, an established technique to obtain CSK assertions is supervised learning based on LMs. We adapted the COMET-ATOMIC-2020 system [hwang2020comet], which in turn is based on the GPT-2 LM. Like the previous prompt-based extraction, the core component is a pre-trained LM, which we can fine-tune on different text corpora. Compared to the previous method, however, a relation-specific step of supervised learning is added, in which the model is trained to generate objects for given subject-relation pairs.

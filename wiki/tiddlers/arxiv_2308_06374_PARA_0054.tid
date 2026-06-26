@@ -1,0 +1,10 @@
+created: 20260625080831230
+modified: 20260625080831230
+page: 000
+parent_section: arxiv_2308_06374_H6
+tags: paragraph arxiv_2308_06374
+title: arxiv_2308_06374_PARA_0054
+type: text/vnd.tiddlywiki
+
+to evaluate knowledge retrieval in LLMs [petroni-etal-2019-language].
+Related works show that knowledge retrieval through prompts is inconsistent with regard to paraphrasing [elazar2021measuring, heinzerling-inui-2021-language], with some types of information guiding LLMs towards more correct answers [cao-etal-2021-knowledgeable, petroni2020context, chen2022knowprompt], while other

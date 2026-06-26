@@ -1,0 +1,10 @@
+created: 20260625093448814
+modified: 20260625093448814
+page: 000
+parent_section: 2204.11677_H1
+tags: paragraph 2204.11677
+title: 2204.11677_PARA_0053
+type: text/vnd.tiddlywiki
+
+The third and final stage, HA, consists of a fusion-in-decoder (FiD) model [izacard2021leveraging], that is state-of-the-art in the retrieve-and-read paradigm for open-domain QA.
+FiD acts as a ``generative reader'', creating a crisp answer from the top-{{2204.11677_FO0022||FO}} evidences, that is returned to the end user.

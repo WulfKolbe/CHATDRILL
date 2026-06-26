@@ -1,0 +1,11 @@
+caption: \texttt{fatherOf}
+created: 20260625093119694
+displayMode: false
+latex: \texttt{fatherOf}
+latex_original: \texttt{fatherOf}
+modified: 20260625093119694
+tags: formula 2308.06374
+title: 2308.06374_FO0016
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

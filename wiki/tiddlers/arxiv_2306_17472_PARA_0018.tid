@@ -1,0 +1,15 @@
+created: 20260625080853251
+modified: 20260625080853251
+page: 000
+parent_section: arxiv_2306_17472_H2
+tags: paragraph arxiv_2306_17472
+title: arxiv_2306_17472_PARA_0018
+type: text/vnd.tiddlywiki
+
+\noindent
+{\bf Language Models as Knowledge Bases.}
+The LAMA project [petroni2019language] posed
+the hypothesis that probing LMs with cloze questions is a powerful way of extracting structured facts from the latently represented corpus on which the LM was trained. A suite of follow-up works pursued this theme
+further and devised improvements and extensions
+(e.g., [heinzerling2021language,jiang2020x,kassner2020negated,roberts2020much,shin2020autoprompt,DBLP:conf/naacl/ZhongFC21]).
+This gave rise to the notion of ``prompt engineering'' for all kinds of NLP tasks [DBLP:journals/corr/abs-2107-13586].

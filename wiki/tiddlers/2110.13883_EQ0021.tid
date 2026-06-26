@@ -1,0 +1,16 @@
+created: 20260625110956925
+displayMode: true
+equation_number: 
+kind: Equation
+latex: \begin{aligned} I( \bm{X}; \bm{Y}) &= h(Y_1,Y_2,Y_3') - h(Y_1,Y_2,Y_3' \mid X_1,X_2) \\ &= h(Y_3') + h(Y_2 \mid Y_3') + h(Y_1 \mid Y_2, Y_3') \\ &- h(Y_1,Y_2,Y_3' \mid X_1,X_2) \; , \end{aligned}
+latex_original: \begin{aligned} I( \bm{X}; \bm{Y}) &= h(Y_1,Y_2,Y_3') - h(Y_1,Y_2,Y_3' \mid X_1,X_2) \\ &= h(Y_3') + h(Y_2 \mid Y_3') + h(Y_1 \mid Y_2, Y_3') \\ &- h(Y_1,Y_2,Y_3' \mid X_1,X_2) \; , \end{aligned}
+latex_tex: \begin{aligned} I( \bm{X}; \bm{Y}) &= h(Y_1,Y_2,Y_3') - h(Y_1,Y_2,Y_3' \mid X_1,X_2) \\ &= h(Y_3') + h(Y_2 \mid Y_3') + h(Y_1 \mid Y_2, Y_3') \\ &- h(Y_1,Y_2,Y_3' \mid X_1,X_2) \; , \end{aligned}
+modified: 20260625110956925
+page: 000
+refnum: 
+score_tex: 1.0
+tags: equation 2110.13883
+title: 2110.13883_EQ0021
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode=true />

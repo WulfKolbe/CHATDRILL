@@ -1,0 +1,9 @@
+created: 20260625080853721
+modified: 20260625080853721
+page: 000
+parent_section: arxiv_2305_05403_H8
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0066
+type: text/vnd.tiddlywiki
+
+[luggen2019non] extend the notion of mark-and-recapture to collaborative KBs such as Wikidata. The main idea is that, by performing an edit on Wikidata, a contributor samples an entity from the real world. Thus, any statement \fact{s}{p}{o} that a user contributes counts as a sample of {{arxiv_2305_05403_FO0070||FO}} and {{arxiv_2305_05403_FO0071||FO}} from the real world. We can then consider all entities that have been edited during a given time period, and that belong to the target class, as one sample. If {{arxiv_2305_05403_FO0072||FO}} is the current number of instances of the target class in the KB, {{arxiv_2305_05403_FO0073||FO}} is the number of entities observed in the sample, and {{arxiv_2305_05403_FO0074||FO}} is the number of entities that have been observed exactly once in the sample, the Good-Turing estimator estimates the total number of instances of the target class in the real world as {{arxiv_2305_05403_FO0075||FO}}. The intuition behind this estimator is as follows: if {{arxiv_2305_05403_FO0076||FO}}, then every entity in the sample has been seen exactly once. This suggests that, as we keep sampling, we will always see new entities. This means that the size of the real-world population is infinite. If, conversely, {{arxiv_2305_05403_FO0077||FO}}, we have seen all entities at least twice during the sampling, which suggests that the class is not bigger than what we currently have ({{arxiv_2305_05403_FO0078||FO}}). Other possible estimators are the Jackknife estimator, an estimator with Singleton Outlier Reduction, and an Abundance-based Coverage Estimator [luggen2019non].

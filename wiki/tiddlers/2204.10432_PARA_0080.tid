@@ -1,0 +1,11 @@
+created: 20260625093505870
+modified: 20260625093505870
+page: 000
+parent_section: 2204.10432_H23
+tags: paragraph 2204.10432
+title: 2204.10432_PARA_0080
+type: text/vnd.tiddlywiki
+
+For each question in the PHQ9 diagonstic instrument, we prepared a set of positive patterns that each indicates the presence of a symptom described by the question. For example, the patterns ``don'?t feel like doing anything'' and ``can'?t fall back to sleep'' describe the anhedonia and sleep symptoms, respectively. The number of patterns for each symptom is shown in Table (ref). Each pattern set is then matched against a collection of posts crawled from 127 mental-health subreddits\footnote{\url{https://files.pushshift.io/reddit/}} and also against posts from the SMHD dataset [cohan2018smhd], which was constructed from Reddit but excludes mental health subreddits. 
+The purpose of using these two raw datasets is to increase the diversity and minimize the bias of the data.
+In the labeling step, if a post contains a match with any positive pattern of a question, we select that post as a positive training sample for the corresponding symptom question.

@@ -1,0 +1,10 @@
+created: 20260625093007936
+modified: 20260625093007936
+page: 000
+parent_section: 2411.12449_H7
+tags: paragraph 2411.12449
+title: 2411.12449_PARA_0056
+type: text/vnd.tiddlywiki
+
+Few-shot learning with in-context examples and chain-of-thought prompts have been shown as being more effective for downstream tasks using LLMs [cot]. We apply this strategy and present the results in Table (ref). 
+Unlike zero-shot evaluation, few-shot results show that temporal retrieval consistently outperforms generic retrieval across all methods. Additionally, much more significant gains are observed with Neon and NewsRAG methods. The results rival those of WebRAG in many instances, and \textsc{Neon({{2411.12449_FO0133||FO}})} achieves the highest overall average score across metrics. Moreover, each method shows specific strengths: NewsRAG produces the most helpful generations, WebRAG excels at relevance due to its broad and diverse sources, while Neon delivers the most reliable outputs, leveraging its structured entity-focused KB design. \textsc{Neon({{2411.12449_FO0134||FO}})} specifically benefits from a larger KB (4x the size of {{2411.12449_FO0135||FO}}) and captures diverse entity-interactions by explicitly using subject and object mentions employed in the KB construction.

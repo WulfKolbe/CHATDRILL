@@ -1,0 +1,9 @@
+created: 20260625080858924
+modified: 20260625080858924
+page: 000
+parent_section: arxiv_2210_04530_H5
+tags: paragraph arxiv_2210_04530
+title: arxiv_2210_04530_PARA_0020
+type: text/vnd.tiddlywiki
+
+The LAMA probe is based on prompting-based (CSK) generation. Originally, it used ConceptNet [speer2017conceptnet] together with the Open Mind Common Sense [singh2002open] (OMCS), which was used to construct ConceptNet and contains 20k items. ConceptNet contains triplets, and each triplet is associated with a sentence in OMCS. When a triplet has an object composed of one token, then the object is masked in the original OMCS sentence. The problem with this approach is that OMCS sentences are unnatural template-based phrases, not suited for LM completion. For example, in the LAMA probe, we find that ``One of the things you do when you are alive is [MASK].'' (think), ``Something that might happen while analyzing something is [MASK].'' (education) or ``Similarity between a trash container and a clock: both can be found in a [MASK].'' (school).

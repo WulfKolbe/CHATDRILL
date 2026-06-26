@@ -1,0 +1,20 @@
+created: 20260625080827350
+modified: 20260625080827350
+page: 000
+parent_section: arxiv_2311_01314_H8
+tags: paragraph arxiv_2311_01314
+title: arxiv_2311_01314_PARA_0055
+type: text/vnd.tiddlywiki
+
+\noindent{\bf Weighted pos-neg samples.}
+Prior works on PU learning [DBLP:journals/ml/BekkerD20], with positive and unlabeled data and without explicitly negative samples, is largely based on treating unlabeled points as pairs of samples, one positive and one negative with fractional weights. The weights can be based on (learned estimates of) class priors, but the extreme skew in our data renders these techniques 
+ineffective.
+Instead, we leverage the fact that 
+relatedness measures between item pairs can be derived from
+interaction data.
+We 
+compute {\em item-item relatedness} via 
+matrix factorization of the user-item matrix for the entire dataset.
+The relatedness of two items is set to the scalar product between their latent vectors, 
+re-scaled for normalization
+between 0 and 1.

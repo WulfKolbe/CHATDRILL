@@ -1,0 +1,11 @@
+created: 20260625080831230
+modified: 20260625080831230
+page: 000
+parent_section: arxiv_2308_06374_H6
+tags: paragraph arxiv_2308_06374
+title: arxiv_2308_06374_PARA_0042
+type: text/vnd.tiddlywiki
+
+The LLM encoder BERT [devlin2018bert] is used in Pretrain-KGE [zhang2020pretrain] to generate initial entity embeddings from entity descriptions and relations. 
+These embeddings are then fed into KG embedding models to generate final embeddings. MADLINK [biswas2021madlink] uses SBERT to generate embeddings from entity descriptions, together with the entity embeddings obtained from structural information. KEPLER [wangKEPLERUnifiedModel2021] offers a unified approach for KG embedding and pre-trained language representation, embedding text-enhanced knowledge and factual knowledge into LLMs. Nayyeri et al. [nayyeri2022integrating] use LLMs to produce representations at word, sentence, and document levels, merging them with graph structure embeddings. Huang et al. [huang2022endowing] propose a model that combines LLMs with other modalities, such as vision, to generate a multi-model embedding space. CoDEx [alam2022language] uses a novel loss function driven by LLMs that helps KG embedding models estimate the likelihood of triples based on textual information.
+While these approaches can leverage the structural information contained in the graph, KG embeddings can not be directly used to predict unknown entities in the ILP setting. To still predict entities within ILP, existing works that combine text embeddings and traditional KG embeddings use only the text embeddings in the ILP setting [malaviya2020commonsense] or apply similarity based heuristics to generate KG embeddings for unseen entities [commonkg].

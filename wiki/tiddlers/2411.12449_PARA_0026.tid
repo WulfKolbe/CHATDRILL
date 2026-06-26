@@ -1,0 +1,11 @@
+created: 20260625093007936
+modified: 20260625093007936
+page: 000
+parent_section: 2411.12449_H3
+tags: paragraph 2411.12449
+title: 2411.12449_PARA_0026
+type: text/vnd.tiddlywiki
+
+\paragraph{\textbf{Neon({{2411.12449_FO0034||FO}})}}
+Our primary objective of the {{2411.12449_FO0035||FO}} variant is to automatically construct an entity-centric, time-stamped KB using a target set of subject entities, facilitated by LLM prompting. The model identifies neighboring nodes (object entities already marked in text) and the connecting edges (interactions or descriptions) between the subject and object entities using the news chunks included in the prompt. 
+The process is formally outlined in the following steps:

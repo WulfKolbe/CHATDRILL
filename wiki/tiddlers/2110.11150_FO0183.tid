@@ -1,0 +1,11 @@
+caption: f^{(l+1)}(x) = \bm{W}^{(l+1)} \phi\left(f^{(l)}(x)\right), \bm{W}^{(l+1)}\in\mathbb{R}^{n_{l+1} \times n_l}
+created: 20260626094813421
+displayMode: false
+latex: f^{(l+1)}(x) = \bm{W}^{(l+1)} \phi\left(f^{(l)}(x)\right), \bm{W}^{(l+1)}\in\mathbb{R}^{n_{l+1} \times n_l}
+latex_original: f^{(l+1)}(x) = \bm{W}^{(l+1)} \phi\left(f^{(l)}(x)\right), \bm{W}^{(l+1)}\in\reals^{n_{l+1} \times n_l}
+modified: 20260626094813421
+tags: formula 2110.11150
+title: 2110.11150_FO0183
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

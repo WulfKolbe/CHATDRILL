@@ -1,0 +1,11 @@
+caption: \ensuremath{\tilde{\bm{Z}}}\xspace
+created: 20260625080931151
+displayMode: false
+latex: \ensuremath{\tilde{\bm{Z}}}\xspace
+latex_original: \Zt
+modified: 20260625080931151
+tags: formula arxiv_2110_13883
+title: arxiv_2110_13883_FO0122
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

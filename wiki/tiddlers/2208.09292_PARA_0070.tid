@@ -1,0 +1,9 @@
+created: 20260625095716233
+modified: 20260625095716233
+page: 000
+parent_section: 2208.09292_H11
+tags: paragraph 2208.09292
+title: 2208.09292_PARA_0070
+type: text/vnd.tiddlywiki
+
+Trivia is an umbrella term for interesting knowledge without a specific purpose. We compare methods for negation generation in their ability to generate sets of negative trivia about a concept. We re-use the 200 concepts from before, but now produce top-5 negations for each, and show them to annotators at once. We compare the best version of our model (\uncommon{}\textsuperscript{S}) as the default, and the best of NegatER (NegatER-{{2208.09292_FO0106||FO}}), as well as Quasimodo\textsuperscript{neg} and GPT-3\textsuperscript{neg}. This results in a total of 2.4k annotations (200 concepts {{2208.09292_FO0107||FO}} 4 methods {{2208.09292_FO0108||FO}} 3 annotations). For every list of negations for a given concept, we ask the annotators whether the list is interesting, and allow again the same 3 options ``interesting'', ``slightly interesting'', and ``not interesting''. The Fleiss' kappa inter-annotator agreement is 0.24, i.e., fair. \uncommon{} leads with 49% informativeness, followed by GPT-3\textsuperscript{neg} (40%), NegatER (30%), and finally Quasimodo\textsuperscript{neg} (23%). An example is top negations about the concept pancake: While Quasimodo\textsuperscript{neg} and GPT-3\textsuperscript{neg} are low on plausibility, \texttt{{{2208.09292_FO0109||FO}}(pancake, is vegan)} and \texttt{{{2208.09292_FO0110||FO}}(pancake, is eaten)}, respectively, \uncommon{} offers the most plausible and informative negations e.g., \texttt{{{2208.09292_FO0111||FO}}(pancake, is crumbly)}.

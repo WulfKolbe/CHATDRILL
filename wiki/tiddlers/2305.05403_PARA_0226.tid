@@ -1,0 +1,9 @@
+created: 20260625093231915
+modified: 20260625093231915
+page: 000
+parent_section: 2305.05403_H25
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0226
+type: text/vnd.tiddlywiki
+
+Relative recall to other resources provides a more external view of a KB, and especially when choosing text as reference, provides potential for many interesting analyses (e.g., recall of Einstein's KB entry can be computed w.r.t.\ Wikipedia, w.r.t.\ Simple Wikipedia, w.r.t.\ a biographical book, etc.). At the same time, quantifying recall w.r.t.\ external resources is more challenging, as it requires dealing with schema matching (KB-KB setting), or imprecise and ambiguous predicate and entity surface forms (KB-text setting).

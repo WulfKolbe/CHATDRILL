@@ -1,0 +1,11 @@
+caption: \sim
+created: 20260625080853980
+displayMode: false
+latex: \sim
+latex_original: \sim
+modified: 20260625080853980
+tags: formula arxiv_2303_11082
+title: arxiv_2303_11082_FO0003
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

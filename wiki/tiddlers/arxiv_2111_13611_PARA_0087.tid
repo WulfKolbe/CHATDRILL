@@ -1,0 +1,9 @@
+created: 20260625080930847
+modified: 20260625080930847
+page: 000
+parent_section: arxiv_2111_13611_H14
+tags: paragraph arxiv_2111_13611
+title: arxiv_2111_13611_PARA_0087
+type: text/vnd.tiddlywiki
+
+This paper introduces the new task of document coverage prediction and a large dataset for experimental study of the task. Our methods show that heuristic features can boost the performance of pre-trained language models without costly fine-tuning. Moreover, we demonstrate the value of coverage estimates for the use cases of knowledge base construction and claim refutation. Our future research includes developing a user-friendly tool to support knowledge engineers.

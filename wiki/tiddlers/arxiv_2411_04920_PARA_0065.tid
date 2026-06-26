@@ -1,0 +1,11 @@
+created: 20260625080816564
+modified: 20260625080816564
+page: 000
+parent_section: arxiv_2411_04920_H9
+tags: paragraph arxiv_2411_04920
+title: arxiv_2411_04920_PARA_0065
+type: text/vnd.tiddlywiki
+
+We compare with Wikidata [wikidata] on several aspects: First, we compute the fraction of subjects that exist in Wikidata. From a random sample of 2,000 subjects from \ourkb, 24% have an entity with exactly matching label in Wikidata. A further 6.5% have a non-empty search result, i.e., an entity of paraphrased or similar label. The remaining 69.5% appear novel. 
+Second, we exemplarily look at the 41 triples for Vannevar Bush, of which we find that more than 10 are not contained in Wikidata, e.g., his affiliation with the US government, his children count (incorrect by 1), or him inventing the concept of hypertext.\footnote{An exact comparison is not straightforward, because relation names do not perfectly align, and objects in \ourkb\ are substantially more wordy.} Third, we identify several properties not modelled at all in Wikidata, for instance, historical\_significance (342K triples), art\_style (84K triples), or hobbies (24K triples). 
+This indicates that \ourkb\ potentially contains a significant amount of novel knowledge. A more comprehensive KB comparison in the style of [farber2018linked] is conceivable.

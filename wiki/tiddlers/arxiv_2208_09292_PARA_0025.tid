@@ -1,0 +1,10 @@
+created: 20260625080922309
+modified: 20260625080922309
+page: 000
+parent_section: arxiv_2208_09292_H2
+tags: paragraph arxiv_2208_09292
+title: arxiv_2208_09292_PARA_0025
+type: text/vnd.tiddlywiki
+
+\noindent
+Research problem. Given a target concept s in a CSKB, generate a ranked list of truly negative and informative statements.

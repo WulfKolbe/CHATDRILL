@@ -1,0 +1,11 @@
+caption: 0.713
+created: 20260625093448816
+displayMode: false
+latex: 0.713
+latex_original: 0.713
+modified: 20260625093448816
+tags: formula 2204.11677
+title: 2204.11677_FO0130
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

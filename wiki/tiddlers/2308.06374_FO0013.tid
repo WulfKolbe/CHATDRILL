@@ -1,0 +1,11 @@
+caption: \forall x, y \;  (\texttt{biologicalChild}(x, y) \to \texttt{father}(y, x))
+created: 20260625093119694
+displayMode: false
+latex: \forall x, y \;  (\texttt{biologicalChild}(x, y) \to \texttt{father}(y, x))
+latex_original: \forall x, y \;  (\texttt{biologicalChild}(x, y) \to \texttt{father}(y, x))
+modified: 20260625093119694
+tags: formula 2308.06374
+title: 2308.06374_FO0013
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

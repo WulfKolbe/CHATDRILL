@@ -1,0 +1,9 @@
+created: 20260625080929032
+modified: 20260625080929032
+page: 000
+parent_section: arxiv_2204_11677_H2
+tags: paragraph arxiv_2204_11677
+title: arxiv_2204_11677_PARA_0061
+type: text/vnd.tiddlywiki
+
+\myparagraph{Question} A natural language question {{arxiv_2204_11677_FO0027||FO}} is a sequence of words expressing an interrogative intent. A question can be complete (i.e., self-contained/full-fledged/intent-explicit), or incomplete (i.e., context-dependent/partial/intent-implicit). Incomplete questions require context from previous questions and answers in the conversation to be answered correctly.

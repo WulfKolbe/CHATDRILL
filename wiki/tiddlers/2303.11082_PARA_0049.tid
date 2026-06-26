@@ -1,0 +1,10 @@
+created: 20260625093242023
+modified: 20260625093242023
+page: 000
+parent_section: 2303.11082_H16
+tags: paragraph 2303.11082
+title: 2303.11082_PARA_0049
+type: text/vnd.tiddlywiki
+
+Qualitative results. 
+Looking into the annotations and predictions, we see that statements such as ``Final Fantasy VII is developed by Square`` are almost literally included in corresponding evidence links such as Wikipedia pages\footnote{\url{https://en.Wikipedia.org/wiki/Final\_Fantasy\_VII}}. In contrast, relations like nativeLanguage include statements only implicitly, e.g. the native language of ``Marcus Adams`` is never mentioned explicitly in the corresponding Wikipedia page\footnote{\url{https://en.Wikipedia.org/wiki/Marcus\_Adams\_(Canadian\_football)}}.

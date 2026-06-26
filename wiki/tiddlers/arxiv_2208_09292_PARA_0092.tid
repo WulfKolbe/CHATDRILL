@@ -1,0 +1,9 @@
+created: 20260625080922310
+modified: 20260625080922310
+page: 000
+parent_section: arxiv_2208_09292_H18
+tags: paragraph arxiv_2208_09292
+title: arxiv_2208_09292_PARA_0092
+type: text/vnd.tiddlywiki
+
+In this work, we presented the \uncommon{} framework for compiling informative negative statements about everyday concepts, by exploiting comparable concepts in commonsense knowledge bases. Our method outperforms baselines and state-of-the-art methods, on both informativeness and recall. Potential future directions include considering further types of negation [lobue-yates-2011-types], e.g., conditioned and enriched with semantic facets [ascent], like ``female lions do not have manes'', and exploring better sources for negative social knowledge [atomic], which comes with novel challenges due to a lack of previous work on taxonomic organization of activities.

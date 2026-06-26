@@ -1,0 +1,11 @@
+caption: \cdot
+created: 20260625080853980
+displayMode: false
+latex: \cdot
+latex_original: \cdot
+modified: 20260625080853980
+tags: formula arxiv_2303_11082
+title: arxiv_2303_11082_FO0001
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

@@ -1,0 +1,9 @@
+created: 20260625093027647
+modified: 20260625093027647
+page: 000
+parent_section: 2411.04920_H15
+tags: paragraph 2411.04920
+title: 2411.04920_PARA_0082
+type: text/vnd.tiddlywiki
+
+As already observed by [petroni-etal-2019-language], prompt formulations influence LLM responses, and hence the resulting KB. \ourkb\ presents one way of materializing LLM knowledge into structured format, but better prompts may exist. In line with [petroni-etal-2019-language], methods like ours therefore always inform about lower bounds (on LLM factual knowledge, in our case).

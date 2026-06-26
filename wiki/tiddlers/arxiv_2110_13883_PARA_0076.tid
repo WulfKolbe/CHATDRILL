@@ -1,0 +1,13 @@
+created: 20260625080931150
+modified: 20260625080931150
+page: 000
+parent_section: arxiv_2110_13883_H14
+tags: paragraph arxiv_2110_13883
+title: arxiv_2110_13883_PARA_0076
+type: text/vnd.tiddlywiki
+
+In summary, our approach allows us to efficiently and robustly estimate MI of high-dimensional data modeling the manifold assumption.
+While thorough empirical evaluation showed that \ourmethod ably estimates the true MI across different datasets and dimensionalities,
+it would make for engaging future work to study the theoretical guarantees of our estimator.
+The estimation of geodesic distances renders this theoretical aspect extremely challenging.
+Besides, we would be interested to study MI estimation for different settings, such as discrete-continuous mixtures or on time-series.

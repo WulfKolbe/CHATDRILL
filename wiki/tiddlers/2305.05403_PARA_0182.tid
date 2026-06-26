@@ -1,0 +1,12 @@
+created: 20260625093231915
+modified: 20260625093231915
+page: 000
+parent_section: 2305.05403_H19
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0182
+type: text/vnd.tiddlywiki
+
+led to significant results so far [hiba-thesis]. The reason is that long texts (such as newspapers, blogs, and encyclopedias) rarely mention salient negations, as an analysis on the STICS [STICS] corpus has shown. Sentences with a negative meaning in newspapers and blogs 
+are mostly about things that people did not do or did not say -- as in ``Brad Pitt did not threaten Angelina Jolie with cash fine'', 
+or ``Angela Merkel never made much of an effort to ensure that eastern Germans felt a sense of belonging''. Encyclopedias, on the other hand, mostly contain only positive statements. The few sentences that do contain negation usually contain either double negation, temporary negatives (as in ``\textit{Hawking was \underline{not initially} successful academically}''), or negations of specification (as in ``\textit{His family \underline{could not} afford the school fees \underline{without} the financial aid of a scholarship}''). Overall, none of these sources contain short trivia sentences with negative keywords. 
+\end{revision}

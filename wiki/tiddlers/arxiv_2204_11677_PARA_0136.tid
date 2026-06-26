@@ -1,0 +1,12 @@
+created: 20260625080929032
+modified: 20260625080929032
+page: 000
+parent_section: arxiv_2204_11677_H7
+tags: paragraph arxiv_2204_11677
+title: arxiv_2204_11677_PARA_0136
+type: text/vnd.tiddlywiki
+
+retrieve evidences for the current question at hand.
+When adding the entity mention results in answering evidences being retrieved,
+we consider the entity as relevant for the current turn.
+Similarly, entity mentions in the current turn are identified as relevant, if answering evidences are retrieved for them.

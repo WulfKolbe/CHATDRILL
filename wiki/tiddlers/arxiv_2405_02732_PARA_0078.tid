@@ -1,0 +1,15 @@
+created: 20260625080827137
+modified: 20260625080827137
+page: 000
+parent_section: arxiv_2405_02732_H15
+tags: paragraph arxiv_2405_02732
+title: arxiv_2405_02732_PARA_0078
+type: text/vnd.tiddlywiki
+
+\noindent{\bf Influence of LLM Pre-Training.}
+Most books in our data are well discussed in online media (incl. movie/TV adaptations). The LLM implicitly taps into this contents by its parametric memory.
+To assess the influence of LLM pre-training, we evaluate LLM-only vs. L3X {\em amp} for one of our books, the Void Trilogy. This book series is barely covered on the Web;
+we invested great effort for compiling its ground truth.
+The results show that LLM-only fails completely on this case: 12% recall with poor precision of ca. 5%, whereas our RAG-based {\em amp} gets 82% recall after Stage 1, and 34.1% R@P50 and 38.3% R@P80 
+with default
+{\em thr80} in Stage 2.

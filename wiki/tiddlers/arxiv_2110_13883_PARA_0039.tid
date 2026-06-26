@@ -1,0 +1,14 @@
+created: 20260625080931150
+modified: 20260625080931150
+page: 000
+parent_section: arxiv_2110_13883_H4
+tags: paragraph arxiv_2110_13883
+title: arxiv_2110_13883_PARA_0039
+type: text/vnd.tiddlywiki
+
+\begin{proposition}
+
+Given a data generative process as defined in Model (ref), then {{arxiv_2110_13883_FO0157||FO}}.
+\end{proposition}
+\begin{proof}
+Due to Condition 2 in Model (ref), we know that {{arxiv_2110_13883_FO0158||FO}} and {{arxiv_2110_13883_FO0159||FO}} are homeomorphisms. Kraskov et al. [kraskov:04:ksg] showed for any transformations {{arxiv_2110_13883_FO0160||FO}}, {{arxiv_2110_13883_FO0161||FO}}, where {{arxiv_2110_13883_FO0162||FO}} and {{arxiv_2110_13883_FO0163||FO}} are homeomorphisms, it holds that {{arxiv_2110_13883_FO0164||FO}}. As an immediate consequence, we observe that in our case {{arxiv_2110_13883_FO0165||FO}}. Hence, we can derive that

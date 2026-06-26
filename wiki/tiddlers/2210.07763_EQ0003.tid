@@ -1,0 +1,16 @@
+created: 20260625093308066
+displayMode: true
+equation_number: 
+kind: Equation
+latex: \sigma(cls,cls') = \begin{cases} 1 & \quad \text{if } sim(cls, cls') \ge \theta\\ 0 & \quad \text{otherwise} \end{cases}
+latex_original: \sigma(cls,cls') = \begin{cases} 1 & \quad \text{if } sim(cls, cls') \ge \theta\\ 0 & \quad \text{otherwise} \end{cases}
+latex_tex: \sigma(cls,cls') = \begin{cases} 1 & \quad \text{if } sim(cls, cls') \ge \theta\\ 0 & \quad \text{otherwise} \end{cases}
+modified: 20260625093308066
+page: 000
+refnum: 
+score_tex: 1.0
+tags: equation 2210.07763
+title: 2210.07763_EQ0003
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode=true />

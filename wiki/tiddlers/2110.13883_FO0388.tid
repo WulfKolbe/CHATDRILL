@@ -1,0 +1,11 @@
+caption: k'=5
+created: 20260625110956925
+displayMode: false
+latex: k'=5
+latex_original: k'=5
+modified: 20260625110956925
+tags: formula 2110.13883
+title: 2110.13883_FO0388
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

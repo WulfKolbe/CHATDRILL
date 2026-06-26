@@ -1,0 +1,9 @@
+created: 20260625093231914
+modified: 20260625093231914
+page: 000
+parent_section: 2305.05403_H12
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0101
+type: text/vnd.tiddlywiki
+
+In some cases, cardinality bounds come from the KB itself. For instance, Wikidata uses the single-value constraint\footnote{Single-valued constraint definition in Wikidata: \url{https://www.wikidata.org/wiki/Help:Property_constraints_portal/Single_value}.} for predicates with exactly one object\footnote{An element can have only one atomic number \url{https://www.wikidata.org/wiki/Property:P1086}.}. However, such cases are rare.

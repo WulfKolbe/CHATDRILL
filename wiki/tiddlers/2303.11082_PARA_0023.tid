@@ -1,0 +1,9 @@
+created: 20260625093242023
+modified: 20260625093242023
+page: 000
+parent_section: 2303.11082_H8
+tags: paragraph 2303.11082
+title: 2303.11082_PARA_0023
+type: text/vnd.tiddlywiki
+
+The LAMA-T-REx dataset [petroni] is derived from T-REx dataset [trex], which is a subset of Wikidata and provides alignment between Wikidata (WD) triples and Wikipedia texts. LAMA-T-REx consists of 41 relations with {{2303.11082_FO0006||FO}} facts per relation sampled from T-REx. Included with the dataset are relation-specific, manually defined prompts, which [petroni] also refers to as templates. We use these 41 relations and their corresponding templates throughout our work. The scope of subjects in LAMA-T-REx is restricted to having a Wikipedia page and contains little data as shown in Table (ref). This makes it difficult to realistically assess LMs for KBs.

@@ -1,0 +1,11 @@
+created: 20260625080858924
+modified: 20260625080858924
+page: 000
+parent_section: arxiv_2210_04530_H2
+tags: paragraph arxiv_2210_04530
+title: arxiv_2210_04530_PARA_0005
+type: text/vnd.tiddlywiki
+
+Prominent manual efforts towards CSK compilation include ConceptNet [speer2017conceptnet], Atomic [atomic], and the integrated CSKG [ilievski2021cskg]. 
+Prominent text extraction projects are Knext [DBLP:conf/aaai/GordonDS10], TupleKB [tuplekb], Quasimodo [quasimodo] and Ascent [ascentpp]. Each carefully selects extraction corpora, like Wikipedia texts, user query logs, or targeted web search, to minimize extraction noise and maximize salience. Nonetheless, all struggle with extracting very basic CSK that is generally deemed too obvious to state explicitly.
+The utilized corpora are also small compared to what is typically used in language model pre-training. Therefore, pre-trained language models (PTLMs) have been employed directly for CSK extraction in a setting called prompting/probing (cf.\ the LAMA benchmark) [petroni2019language], where the BERT LM showed promising results in predicting ConceptNet assertions. They can also be employed with supervision, like in the COMET and the Atomic{{arxiv_2210_04530_FO0001||FO}} system [hwang2020comet,west2021symbolic]. However, both PTLM-paradigms are grounded in frequencies observed in the original text corpora used for LM training, which are again subject to reporting bias.

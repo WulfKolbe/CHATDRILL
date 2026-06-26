@@ -1,0 +1,12 @@
+created: 20260625093027647
+modified: 20260625093027647
+page: 000
+parent_section: 2411.04920_H5
+tags: paragraph 2411.04920
+title: 2411.04920_PARA_0031
+type: text/vnd.tiddlywiki
+
+The construction starts by generating a high-level taxonomy via the LLM.
+Then, for each of the existing classes in the KB (sorted by generality scores given by the LLM), we find the lowest node of which the given class is identified as a subclass, via depth-first search (see function insert\_class\_recursive in Algorithm (ref)).
+Then, we ask the LLM to update the sub-taxonomy starting from the found node with the given class.
+In this step, the LLM may generate new intermediate classes on the path from the found node to the given class.

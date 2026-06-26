@@ -1,0 +1,10 @@
+created: 20260625093206653
+modified: 20260625093206653
+page: 000
+parent_section: 2305.16755_H2
+tags: paragraph 2305.16755
+title: 2305.16755_PARA_0015
+type: text/vnd.tiddlywiki
+
+\noindent
+Guided Few-shot Probe. In this probe, we guide the model with both definitions and examples (for in-context learning).

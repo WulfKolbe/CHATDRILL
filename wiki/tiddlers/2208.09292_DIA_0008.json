@@ -1,0 +1,14 @@
+[
+    {
+        "title": "2208.09292_DIA_0008",
+        "text": "```latex\n\\begin{tikzpicture}\n\\begin{axis}[\n    height=3.5cm,\n    width=.45\\columnwidth,\n    xlabel={$\\beta$},\n    ylabel={\\footnotesize informativeness},\n    xmin=0, xmax=0.4,\n    ymin=0, ymax=0.5,\n    xtick={0,0.1,0.2,0.3,0.4},\n    xticklabels={0,0.1,0.2,0.3,0.4},   \n    \n            ]\n\\addplot[smooth,mark=*,black] plot coordinates {\n    (0,0)\n    (0.01,0.29)\n    (0.05,0.33)\n    (0.1,0.25)\n    (0.15,0.20)\n    (0.2,0.18)\n    (0.25,0.18)\n    (0.3,0.18)\n    (0.35,0.18)\n    (0.4,0.18)\n};\n\n\\end{axis}\n\\end{tikzpicture}\n```",
+        "type": "text/vnd.tiddlywiki",
+        "tags": "diagram tikz 2208.09292",
+        "created": "20260625095716235",
+        "modified": "20260625095716235",
+        "page": "000",
+        "latex_code": "\\begin{tikzpicture}\n\\begin{axis}[\n    height=3.5cm,\n    width=.45\\columnwidth,\n    xlabel={$\\beta$},\n    ylabel={\\footnotesize informativeness},\n    xmin=0, xmax=0.4,\n    ymin=0, ymax=0.5,\n    xtick={0,0.1,0.2,0.3,0.4},\n    xticklabels={0,0.1,0.2,0.3,0.4},   \n    \n            ]\n\\addplot[smooth,mark=*,black] plot coordinates {\n    (0,0)\n    (0.01,0.29)\n    (0.05,0.33)\n    (0.1,0.25)\n    (0.15,0.20)\n    (0.2,0.18)\n    (0.25,0.18)\n    (0.3,0.18)\n    (0.35,0.18)\n    (0.4,0.18)\n};\n\n\\end{axis}\n\\end{tikzpicture}",
+        "latex_original": "\\begin{tikzpicture}\n\\begin{axis}[\n    height=3.5cm,\n    width=.45\\columnwidth,\n    xlabel={$\\beta$},\n    ylabel={\\footnotesize informativeness},\n    xmin=0, xmax=0.4,\n    ymin=0, ymax=0.5,\n    xtick={0,0.1,0.2,0.3,0.4},\n    xticklabels={0,0.1,0.2,0.3,0.4},   \n    \n            ]\n\\addplot[smooth,mark=*,black] plot coordinates {\n    (0,0)\n    (0.01,0.29)\n    (0.05,0.33)\n    (0.1,0.25)\n    (0.15,0.20)\n    (0.2,0.18)\n    (0.25,0.18)\n    (0.3,0.18)\n    (0.35,0.18)\n    (0.4,0.18)\n};\n\n\\end{axis}\n\\end{tikzpicture}",
+        "caption": "Hyperparameters Tuning."
+    }
+]

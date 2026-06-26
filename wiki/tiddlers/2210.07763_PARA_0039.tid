@@ -1,0 +1,11 @@
+created: 20260625093308064
+modified: 20260625093308064
+page: 000
+parent_section: 2210.07763_H3
+tags: paragraph 2210.07763
+title: 2210.07763_PARA_0039
+type: text/vnd.tiddlywiki
+
+Quasimodo [quasimodo]), semantic frames (Ascent [ascent]) or generic sentences (GenericsKB [bhakthavatsalam2020genericskb]).
+Although the traditional triple-based and frame-based data models are convenient for structured querying, and well suited for regular assertions like birth dates, citizenships, etc., they often falls short of capturing nuanced natural-language assertions, as essential for CSK. Moreover, recent advances in pre-trained LMs have made it easier to feed downstream tasks with 
+less structured knowledge.

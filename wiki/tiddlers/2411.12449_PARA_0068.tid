@@ -1,0 +1,9 @@
+created: 20260625093007936
+modified: 20260625093007936
+page: 000
+parent_section: 2411.12449_H8
+tags: paragraph 2411.12449
+title: 2411.12449_PARA_0068
+type: text/vnd.tiddlywiki
+
+As NewsRAG uses the longest supporting information---5-6 sentence news chunks---these findings suggest that for robust automated evaluation, it is valuable to augment concise yet informative documents, similar to Neon, into LLM prompts to promote consistent response lengths. Notably, LLM-generated reasons for a rating of 2 frequently included the phrases ``the response provides detailed and relevant information'' for helpfulness and relevance, and ``the response accurately reflects the information'' for faithfulness.

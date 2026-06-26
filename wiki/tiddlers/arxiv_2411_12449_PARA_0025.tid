@@ -1,0 +1,9 @@
+created: 20260625080805467
+modified: 20260625080805467
+page: 000
+parent_section: arxiv_2411_12449_H3
+tags: paragraph arxiv_2411_12449
+title: arxiv_2411_12449_PARA_0025
+type: text/vnd.tiddlywiki
+
+The first variant focuses on entity-interactions centered around a single subject entity, making it ideal for cases where the entity (e.g., a person or organization) is the primary focus of the news chunk. The second variant, which includes both subject and object entities, enables the model to infer direct relationships or events between the pair, resulting in a more detailed graph that captures complex associations and evolving scenarios more accurately (see Section (ref)). Both approaches support a wide range of interactions without relying on predefined relationships. Given our goal of solving temporal QA, we prompt the LLM to directly generate news entity-interactions {{arxiv_2411_12449_FO0033||FO}} in a lexicalized form [oguz-etal-2022-unik, jia2024faithful], thereby enabling Neon to be directly augmented into the temporal QA prompt.

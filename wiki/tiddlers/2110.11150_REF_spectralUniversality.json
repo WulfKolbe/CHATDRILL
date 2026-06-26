@@ -1,0 +1,17 @@
+[
+    {
+        "title": "2110.11150_REF_spectralUniversality",
+        "text": "{{||CIT}} J. Pennington, S. S. Schoenholz, and S. Ganguli. The emergence of spectral universality in deep networks. In International Conference on Artificial Intelligence and Statistics, 2018.",
+        "type": "text/markdown",
+        "tags": "reference bibentry bibtex 2110.11150",
+        "created": "20260626111149173",
+        "modified": "20260626111149173",
+        "kind": "reference",
+        "citekey": "spectralUniversality",
+        "year": "2018",
+        "authors": "Jeffrey Pennington and\n               Samuel S. Schoenholz and\n               Surya Ganguli",
+        "entry_type": "inproceedings",
+        "titlefield": "The emergence of spectral universality in deep networks",
+        "bibtex": "@inproceedings{spectralUniversality,\n  author    = {Jeffrey Pennington and\n               Samuel S. Schoenholz and\n               Surya Ganguli},\n  title     = {The emergence of spectral universality in deep networks},\n  booktitle = {International Conference on Artificial Intelligence and Statistics},\n  year      = {2018}\n}"
+    }
+]

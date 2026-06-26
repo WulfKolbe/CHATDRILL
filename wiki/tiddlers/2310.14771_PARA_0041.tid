@@ -1,0 +1,9 @@
+created: 20260625093105364
+modified: 20260625093105364
+page: 000
+parent_section: 2310.14771_H7
+tags: paragraph 2310.14771
+title: 2310.14771_PARA_0041
+type: text/vnd.tiddlywiki
+
+In the following we show some predictions from our different experimental setups. Q marks the query, P the prediction by GPT-3 and A the ground truth object. Please note that to prompt GPT-3, relation-specific examples are used at the beginning of each query. The prompts w/ examples can be seen in Appendix (ref).

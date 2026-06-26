@@ -1,0 +1,17 @@
+[
+    {
+        "title": "2110.11150_REF_orthoRepair",
+        "text": "{{||CIT}} N. Lee, T. Ajanthan, S. Gould, and P. H. S. Torr. A signal propagation perspective for pruning neural networks at initialization. In International Conference on Learning Representations, 2020.",
+        "type": "text/markdown",
+        "tags": "reference bibentry bibtex 2110.11150",
+        "created": "20260626111149173",
+        "modified": "20260626111149173",
+        "kind": "reference",
+        "citekey": "orthoRepair",
+        "year": "2020",
+        "authors": "Namhoon Lee and Thalaiyasingam Ajanthan and Stephen Gould and Philip H. S. Torr",
+        "entry_type": "inproceedings",
+        "titlefield": "A Signal Propagation Perspective for Pruning Neural Networks at Initialization",
+        "bibtex": "@inproceedings{orthoRepair,\ntitle={A Signal Propagation Perspective for Pruning Neural Networks at Initialization},\nauthor={Namhoon Lee and Thalaiyasingam Ajanthan and Stephen Gould and Philip H. S. Torr},\nbooktitle={International Conference on Learning Representations},\nyear={2020}\n}"
+    }
+]

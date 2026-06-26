@@ -1,0 +1,9 @@
+created: 20260625093505869
+modified: 20260625093505869
+page: 000
+parent_section: 2204.10432_H6
+tags: paragraph 2204.10432
+title: 2204.10432_PARA_0026
+type: text/vnd.tiddlywiki
+
+In the previous classifier-constrained methods, depression classifications are constrained by a questionnaire model that determines the presence of symptoms. This is an information bottleneck intended to make the model generalize better.

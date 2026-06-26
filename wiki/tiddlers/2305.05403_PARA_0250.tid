@@ -1,0 +1,12 @@
+created: 20260625093231915
+modified: 20260625093231915
+page: 000
+parent_section: 2305.05403_H28
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0250
+type: text/vnd.tiddlywiki
+
+\ \\
+In the example above, chatGPT gives correct answers to both questions, confirming completeness for Barack Obama's children, and rejecting completeness for Einstein's publications, while also giving recall information (75/300).
+However, metadata obtained in this way itself comes with huge credibility issues. LLMs are known to confabulate, especially for long-tail topics, so without a proper sourcing of answers, such derivations are likely difficult to utilize downstream. Sourcing LLM generations in texts is difficult for principled reasons, and an open research challenge [zhao2023explainability].
+One exception to this general issue may be negative commonsense knowledge (cf.\ Section (ref)). Here, correctness depends anyway much on context, and requirements in correctness are balanced by requirements for saliency. In this case, LLMs can reasonably generate interesting negation candidates [hiba-llms-negation].

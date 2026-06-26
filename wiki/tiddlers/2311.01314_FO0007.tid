@@ -1,0 +1,11 @@
+caption: t^u
+created: 20260625093057256
+displayMode: false
+latex: t^u
+latex_original: t^u
+modified: 20260625093057256
+tags: formula 2311.01314
+title: 2311.01314_FO0007
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

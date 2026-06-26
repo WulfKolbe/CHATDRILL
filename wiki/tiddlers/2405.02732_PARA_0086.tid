@@ -1,0 +1,19 @@
+created: 20260625093047341
+modified: 20260625093047341
+page: 000
+parent_section: 2405.02732_H15
+tags: paragraph 2405.02732
+title: 2405.02732_PARA_0086
+type: text/vnd.tiddlywiki
+
+\noindent{\bf Comparison to Relational IE.}
+As Stage 2 processes full SPO triples, we can apply
+relational IE
+for classifying whether an SO pair satisfies P.
+We considered two state-of-the-art methods,
+GenIE [josifoski-etal-2022-genie] and DREEAM [ma-etal-2023-dreeam],
+and tuned them on our predicates with the train/dev fold.
+Still, both
+performed very poorly, reaching less than 5% recall and precision 10% at best.
+Clearly, our task is outside their comfort zone, as passages from fiction books are very different from Wikipedia paragraphs for which these methods were originally designed.
+This underlines the uniqueness and challenging nature of the proposed long-lists-from-long-documents task.

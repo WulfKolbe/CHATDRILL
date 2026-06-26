@@ -1,0 +1,9 @@
+created: 20260625093007936
+modified: 20260625093007936
+page: 000
+parent_section: 2411.12449_H1
+tags: paragraph 2411.12449
+title: 2411.12449_PARA_0016
+type: text/vnd.tiddlywiki
+
+Neon is an entity-centric, time-stamped graph constructed from a rich stream of news sources. Unlike prior information extraction (IE) methods that leverage LLMs, we identify, disambiguate, and label the entities from news streams first, and then employ the entity markup information in LLM prompts to generate open information extraction (openIE) style semi-structured news entity-interactions. This method helps us achieve higher recall by avoiding the bottleneck of canonicalization. Once Neon is constructed, we use various temporal indexing strategies to effectively retrieve relevant information from Neon for answering temporal user queries. For instance, in Figure (ref), two Neon entity-interactions related to Doja Cat are augmented for response generation.

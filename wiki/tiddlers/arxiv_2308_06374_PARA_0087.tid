@@ -1,0 +1,14 @@
+created: 20260625080831230
+modified: 20260625080831230
+page: 000
+parent_section: arxiv_2308_06374_H7
+tags: paragraph arxiv_2308_06374
+title: arxiv_2308_06374_PARA_0087
+type: text/vnd.tiddlywiki
+
+The content of one single ontology is often incomplete and many real-world applications rely on cross-domain knowledge. 
+Ontology alignment (a.k.a. ontology matching), which is to identify cross-ontology mappings between entities that have an equivalent, subsumption or membership relationship, thus becomes especially important for knowledge integration.
+The entity can be a concept (class), an individual (instance) or a property.
+Traditional systems (e.g., LogMap [jimenez2011logmap]) heavily rely on lexical matching and optionally use symbolic reasoning to remove mappings that lead to logical conflicts; while some recent methods combine these techniques with machine learning techniques like feature engineering, semantic embedding and distant supervision for better performance (e.g., LogMap-ML [chen2021augmenting]). 
+Especially, when the ontologies have a large ratio of assertions (large ABoxes) and the task is to discover equivalent individuals, ontology alignment is very close to the KG entity alignment task that has been widely investigated in recent years using KG embeddings [zhang2020industry]. 
+As in ontology refinement, exploiting the textual information by applying LLMs is a promising direction for augmenting ontology alignment.

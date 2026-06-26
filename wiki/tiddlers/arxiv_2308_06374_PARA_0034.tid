@@ -1,0 +1,9 @@
+created: 20260625080831230
+modified: 20260625080831230
+page: 000
+parent_section: arxiv_2308_06374_H5
+tags: paragraph arxiv_2308_06374
+title: arxiv_2308_06374_PARA_0034
+type: text/vnd.tiddlywiki
+
+These approaches allow LLMs to extract information from text without needing a large amount of explicit training on specific domains, thereby improving their versatility and adaptability. Moreover, LLMs have demonstrated proficiency in extracting knowledge from languages other than English, including low-resource languages, paving the way for cross-lingual knowledge extraction and enabling the utilization of LLMs in diverse linguistic contexts [Lai2023ChatGPTBE].

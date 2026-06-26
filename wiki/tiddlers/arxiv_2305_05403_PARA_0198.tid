@@ -1,0 +1,10 @@
+created: 20260625080853722
+modified: 20260625080853722
+page: 000
+parent_section: arxiv_2305_05403_H22
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0198
+type: text/vnd.tiddlywiki
+
+Entity relatedness is topic with much history in data mining, and a wide range of text-based, graph-based, and embedding-based similarity measures exists (see Section (ref) and e.g., [witten2008effective,entity-relatedness]). 
+Similarly, recall can be quantified in a variety of ways, for instance, via the number of statements, predicates, inlinks, outlinks, etc. We shall now see different approaches to both problems.

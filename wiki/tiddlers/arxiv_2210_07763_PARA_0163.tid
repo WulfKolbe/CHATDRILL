@@ -1,0 +1,10 @@
+created: 20260625080858063
+modified: 20260625080858063
+page: 000
+parent_section: arxiv_2210_07763_H22
+tags: paragraph arxiv_2210_07763
+title: arxiv_2210_07763_PARA_0163
+type: text/vnd.tiddlywiki
+
+\systemname{} achieves a high plausibility (PLA) score of 1.54 on average. Performance on this metric is relatively consistent through all domains. 
+Meanwhile, the commonality (COM) metric is highest for the occupation domain and lowest for geography domain.

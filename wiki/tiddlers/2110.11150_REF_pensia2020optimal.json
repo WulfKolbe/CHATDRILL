@@ -1,0 +1,17 @@
+[
+    {
+        "title": "2110.11150_REF_pensia2020optimal",
+        "text": "{{||CIT}} A. Pensia, S. Rajput, A. Nagle, H. Vishwakarma, and D. Papailiopoulos. Optimal lottery tickets via subset sum: Logarithmic over-parameterization is sufficient. In Advances in Neural Information Processing Systems, volume 33, pages 2599--2610, 2020.",
+        "type": "text/markdown",
+        "tags": "reference bibentry bibtex 2110.11150",
+        "created": "20260626111149173",
+        "modified": "20260626111149173",
+        "kind": "reference",
+        "citekey": "pensia2020optimal",
+        "year": "2020",
+        "authors": "Pensia, Ankit and Rajput, Shashank and Nagle, Alliot and Vishwakarma, Harit and Papailiopoulos, Dimitris",
+        "entry_type": "inproceedings",
+        "titlefield": "Advances in Neural Information Processing Systems",
+        "bibtex": "@inproceedings{pensia2020optimal,\n author = {Pensia, Ankit and Rajput, Shashank and Nagle, Alliot and Vishwakarma, Harit and Papailiopoulos, Dimitris},\n booktitle = {Advances in Neural Information Processing Systems},\n pages = {2599--2610},\n title = {Optimal Lottery Tickets via Subset Sum: Logarithmic Over-Parameterization is Sufficient},\n volume = {33},\n year = {2020}\n}"
+    }
+]

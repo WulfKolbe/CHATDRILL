@@ -1,0 +1,17 @@
+created: 20260625093119694
+modified: 20260625093119694
+page: 000
+parent_section: 2308.06374_H9
+tags: paragraph 2308.06374
+title: 2308.06374_PARA_0114
+type: text/vnd.tiddlywiki
+
+On the other hand, the digitalization of domain specific documents, e.g., especially contracts, is enabling in-depth applications of machine intelligence to help humans more effectively perform time-consuming tasks. 
+Among these, contract review costs humans substantial time, money, and attention (many law firms spend approximately 50% of their time reviewing contracts, costing hundreds of thousands of dollars) [CUAD:21]. 
+The Contract Understanding Atticus Dataset (CUAD) is a new dataset for legal contract review [CUAD:21]. 
+CUAD was created with legal experts and consisted of over 13,000 annotations.
+Recent advancements in generic pre-trained language models showed their power in some text-understanding tasks [wu2023bloomberggpt,LLMMed:Yang2022]. 
+Therefore, we have seen different domain specific applications of NLP and LLM methods [wu2023bloomberggpt,LLMMed:Yang2022].
+Yet, they do not have access to all relevant knowledge and are ill-suited for certain calculations [karpas2022mrkl]. 
+This can be solved by exploiting external domain specific symbolic information, e.g., domain specific knowledge graphs [noy2019industry,lissandrini2015unleashing], and by adding symbolic and reasoning capabilities to the LLMs [karpas2022mrkl].
+This promising direction will lead to extending current state-of-the-art neuro-symbolic methods to combine the advantages of a graph representation when extracting symbolic knowledge from complex documents, the ability to understand long-form unstructured texts of LLMs, and the good properties of domain-specific code synthesis of LLMs to address advanced retrieval and question answering use-cases, e.g., How many weeks are left before the expiration of this contract? What are the conflicts between this liability clause and previous contracts my company signed? What is the risk of side-effects of this treatment for a patient with this given health record? Get the average yearly yield and spread for competitor companies of ACorp and their recent acquisitions in the EU market.

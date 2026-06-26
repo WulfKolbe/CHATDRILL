@@ -1,0 +1,10 @@
+created: 20260625080853722
+modified: 20260625080853722
+page: 000
+parent_section: arxiv_2305_05403_H15
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0153
+type: text/vnd.tiddlywiki
+
+The concept of salience has a long history in psychology [taylor1978salience] as well as in sociolinguistics [racz2013salience], and there are also recent attempts to capture it in knowledge bases [klein2022identifying]. Approaches to modelling salience typically revolve around the concepts of frequency, unexpectedness, or self-interest (for acting agents), yet universal agreement is lacking. Furthermore, none of the models is easy to operationalize. The works that we present next therefore usually utilize human (crowd worker) judgements as yardstick for salience. 
+\end{revision}

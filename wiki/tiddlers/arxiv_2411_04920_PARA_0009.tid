@@ -1,0 +1,10 @@
+created: 20260625080816563
+modified: 20260625080816563
+page: 000
+parent_section: arxiv_2411_04920_H2
+tags: paragraph arxiv_2411_04920
+title: arxiv_2411_04920_PARA_0009
+type: text/vnd.tiddlywiki
+
+Dominating public large-scale KBs are Wikidata [wikidata], Yago [yago] and DBpedia [dbpedia], all started more than 10 years ago. While Wikidata is constructed by volunteers, Yago and DBpedia represent the paradigm of (semi-)structured information harvesting and integration, extracting in particular from Wikipedia infoboxes and Wikidata [machine-knowledge]. They all remain incomplete [razniewski2024completeness], warranting the search for novel paradigms. Commercial projects like the Google KG [singhal2012knowledgegraph] or Amazon's KG [dong2020autoknow] have usually followed these approaches. By comparison, text-based KB construction, e.g., in NELL [nell] or ReVerb [reverb], has achieved less adoption. Our approach is more related to the latter approaches, as LLMs are distillations of large text corpora. 
+Table (ref) gives an overview of major KB projects.

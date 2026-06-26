@@ -1,0 +1,17 @@
+created: 20260625093119694
+modified: 20260625093119694
+page: 000
+parent_section: 2308.06374_H9
+tags: paragraph 2308.06374
+title: 2308.06374_PARA_0113
+type: text/vnd.tiddlywiki
+
+Recently, many methods, primarily based on deep learning models such as CLIP [CLIP] and BLIP2 [BLIP2], achieved state-of-the-art performance on image retrieval tasks. 
+These multi-modal models jointly learn vector embeddings for images and text, such that the embedding of the image should be close to that of the text that describes that image. 
+Nonetheless, we have also seen increased interest in obtaining a more symbolic representation of the contents of an image [VisualComet20,krishna2017visual].
+Datasets like Visual Genome [krishna2017visual] annotate images with scene graphs.
+A scene graph is a small KG that describes, with a structured formal graphical representation, the contents of an image in terms of objects (people, animals, items) as nodes connected via pairwise relationships (e.g., actions or positioning relationships) as edges.
+Therefore, Multimodal LLM can be trained to reason and exploit this additional representation offering an advanced ability to understand the contents of an image (or a video).
+Importantly, a scene graph node and edge can be annotated (grounded) with features and positions from the image (e.g., relative size).
+This can be exploited in applications like image and video search and question answering.
+When entities in a scene graph are connected to a background taxonomy or KG, then questions that require forms of abstraction and computation, e.g., What is the genus of the largest animal in the picture? What is the average price of the car in the picture? Retrieve images depicting kids wearing vegan friendly items of clothing in the catalog.

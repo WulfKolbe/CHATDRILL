@@ -1,0 +1,10 @@
+created: 20260625080831230
+modified: 20260625080831230
+page: 000
+parent_section: arxiv_2308_06374_H6
+tags: paragraph arxiv_2308_06374
+title: arxiv_2308_06374_PARA_0061
+type: text/vnd.tiddlywiki
+
+LPAQA [jiang2020can] uses an automated mining-based and paraphrasing-based method to 
+generate diverse high-quality prompts, as well as ensemble methods to combine answers from different prompts.

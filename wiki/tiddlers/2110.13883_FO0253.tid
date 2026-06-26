@@ -1,0 +1,11 @@
+caption: p^F(\ensuremath{\bm{x}}\xspace_i,\ensuremath{\bm{x}}\xspace_j) = L_{ij}/T
+created: 20260625110956924
+displayMode: false
+latex: p^F(\ensuremath{\bm{x}}\xspace_i,\ensuremath{\bm{x}}\xspace_j) = L_{ij}/T
+latex_original: p^F(\xg_i,\xg_j) = L_{ij}/T
+modified: 20260625110956924
+tags: formula 2110.13883
+title: 2110.13883_FO0253
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

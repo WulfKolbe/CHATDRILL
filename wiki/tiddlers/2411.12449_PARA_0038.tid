@@ -1,0 +1,10 @@
+created: 20260625093007936
+modified: 20260625093007936
+page: 000
+parent_section: 2411.12449_H3
+tags: paragraph 2411.12449
+title: 2411.12449_PARA_0038
+type: text/vnd.tiddlywiki
+
+This variant often yields more generations due to explicit {{2411.12449_FO0090||FO}} pairs; however, it may occasionally cause the LLM to generate sentences involving {{2411.12449_FO0091||FO}} without a valid interaction, or return an empty list if no interaction is confidently detected. Figure (ref) gives the prompt for Neon({{2411.12449_FO0092||FO}}) construction. The chunk batch size {{2411.12449_FO0093||FO}} (hyperparameter) directly affects performance: a small {{2411.12449_FO0094||FO}} is cost-inefficient with more LLM calls and reduced contextual detail, while a large {{2411.12449_FO0095||FO}} risks ``lost-in-the-middle'' [liu-etal-2024-lost] and information overload [Singhania2024RecallTA] issues.
+Table (ref) gives sample generations for both Neon variants. The subject is the entity Doja Cat in both variants and the object varies for Neon({{2411.12449_FO0096||FO}}).

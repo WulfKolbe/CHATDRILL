@@ -1,0 +1,9 @@
+created: 20260625080930846
+modified: 20260625080930846
+page: 000
+parent_section: arxiv_2111_13611_H4
+tags: paragraph arxiv_2111_13611
+title: arxiv_2111_13611_PARA_0026
+type: text/vnd.tiddlywiki
+
+For the novel task of predicting document information coverage, we thus built the DoCo (\underline{Do}cument \underline{Co}verage) dataset, consisting of {{arxiv_2111_13611_FO0029||FO}} web documents for {{arxiv_2111_13611_FO0030||FO}} distinct entities, each with its coverage value. Figure (ref) illustrates the dataset construction.

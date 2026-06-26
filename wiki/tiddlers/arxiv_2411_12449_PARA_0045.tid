@@ -1,0 +1,10 @@
+created: 20260625080805467
+modified: 20260625080805467
+page: 000
+parent_section: arxiv_2411_12449_H5
+tags: paragraph arxiv_2411_12449
+title: arxiv_2411_12449_PARA_0045
+type: text/vnd.tiddlywiki
+
+Figure (ref) provides an overview of our temporal QA pipeline, illustrating RAG mitigation for response generation and demonstrating how the Neon graph integrates into this system. 
+Unlike conventional QA systems, our aim is to generate relevant and temporally reliable responses.

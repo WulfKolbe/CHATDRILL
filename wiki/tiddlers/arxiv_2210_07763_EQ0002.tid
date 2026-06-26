@@ -1,0 +1,14 @@
+created: 20260625080858064
+displayMode: true
+equation_number: 
+kind: Equation
+latex: IDF(cls) = \frac{\sum_{cls' \in CLS}size(cls')}{\sum_{cls' \in CLS}size(cls') \times \sigma(cls,cls')}
+latex_original: IDF(cls) = \frac{\sum_{cls' \in CLS}size(cls')}{\sum_{cls' \in CLS}size(cls') \times \sigma(cls,cls')}
+modified: 20260625080858064
+page: 000
+refnum: 
+tags: equation arxiv_2210_07763
+title: arxiv_2210_07763_EQ0002
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode=true />

@@ -1,0 +1,13 @@
+created: 20260625092952539
+modified: 20260625092952539
+page: 000
+parent_section: 2501.06699_H11
+tags: paragraph 2501.06699
+title: 2501.06699_PARA_0080
+type: text/vnd.tiddlywiki
+
+\parai{Fine-tuning} adopts a pre-trained LLM as a foundational model and adapts it for a suite of specific tasks (such as question answering, chatbot dialog, summarization etc.) by adapting its internal parameters. 
+ Supervised fine-tuning (SFT) provides the model with labeled examples of desired input--output pairs specific to the task. A common SFT technique is to apply instruction fine-tuning 
+ [DBLP:journals/corr/abs-2308-10792], whereby the inputs include task-specific natural-language instructions paired with a desired output.
+ Unlike pre-training, this stage critically depends on labeled data, typically with human annotators/contributors in the loop. Another related technique is to apply reinforcement learning from human feedback (RLHF), whereby a set of ranked preferences collected from human users over alternative outputs to the same model input is used to train a separate reward model to predict such preferences; the language model is then fine-tuned by the reward model to better fit its predicted human preferences. A more recent approach, called direct preference optimization (DPO) [RafailovSMMEF23], obviates the need for a reward model, rather embedding a loss function directly into the language model to fine-tune it for human preferences.
+ In summary, an ideal LLM acquires both language skills and background knowledge from pre-training, and the ability to follow user instructions and tackle a wide variety of specific tasks from fine-tuning.

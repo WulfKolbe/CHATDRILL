@@ -1,0 +1,10 @@
+created: 20260625110956922
+modified: 20260625110956922
+page: 000
+parent_section: 2110.13883_H4
+tags: paragraph 2110.13883
+title: 2110.13883_PARA_0031
+type: text/vnd.tiddlywiki
+
+The classical objective of MI estimation is to estimate {{2110.13883_FO0109||FO}} given an iid sample of the joint distribution {{2110.13883_FO0110||FO}}. Especially for high-dimensional and possibly noisy {{2110.13883_FO0111||FO}} and {{2110.13883_FO0112||FO}}, estimating mutual information is challenging [lu:20:gknn-boosting,lord:18:gknn,gao:17:lnn]. Here, we view this problem from a manifold learning perspective [cayton:05:manifold-learning-algorithms],
+where we assume that shared information between {{2110.13883_FO0113||FO}} and {{2110.13883_FO0114||FO}} is encoded in an intrinsic low-dimensional space {{2110.13883_FO0115||FO}}, whereas the majority of the dimensions of {{2110.13883_FO0116||FO}} and {{2110.13883_FO0117||FO}} are independent of each other, or correspond to noise dimensions, i.e. {{2110.13883_FO0118||FO}} is upper-bounded by {{2110.13883_FO0119||FO}}.

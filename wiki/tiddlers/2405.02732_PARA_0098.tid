@@ -1,0 +1,12 @@
+created: 20260625093047341
+modified: 20260625093047341
+page: 000
+parent_section: 2405.02732_H19
+tags: paragraph 2405.02732
+title: 2405.02732_PARA_0098
+type: text/vnd.tiddlywiki
+
+\noindent{\bf Confusing Predicates.}
+Another common case is that the LLM generates valid O values that are not in the proper relation P with subject S.
+The most interesting situation here is when that incorrect O is in relation with S for another predicate Q ({{2405.02732_FO0082||FO}} P)
+(e.g., Dumbledore appearing among Harry Potter's parents instead of being a friend).

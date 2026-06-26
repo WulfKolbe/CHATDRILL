@@ -1,0 +1,10 @@
+created: 20260625080853495
+modified: 20260625080853495
+page: 000
+parent_section: arxiv_2305_16755_H3
+tags: paragraph arxiv_2305_16755
+title: arxiv_2305_16755_PARA_0029
+type: text/vnd.tiddlywiki
+
+\noindent
+Salience of Truly Negative Statements. Results for salience are shown in Table (ref). This metric is only computed over (previously annotated) correct statements. The best performances are shared between the KG inferences model and ChatGPT's few-shot variant. Though not performing comparably well overall, the text extractions model ranks first on salience of encyclopedic subjects @3 and 5. This is especially apparent for prominent entities, which are frequently queried using famous search engines. Again, ChatGPT's variants significantly outperforms Alpaca's on the notion of salience, with up to 23% improvement in salience@1, maintaining the same level of quality for both types of subjects. Sample results from all models are shown in Table (ref) and Appendix (ref). An experiment on the quality of generated negatives over two popularity levels, namely prominent and long tail subjects, is in Appendix (ref).

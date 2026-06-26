@@ -1,0 +1,13 @@
+[
+    {
+        "title": "2110.11150_TAB_002",
+        "text": "",
+        "type": "text/markdown",
+        "tags": "table 2110.11150",
+        "created": "20260626111149172",
+        "modified": "20260626111149172",
+        "page": "000",
+        "latex_code": "\\begin{tabular}{ r |  l  c } \n \\toprule\n  Layer name & Description\\\\\n \\midrule\n Encoder 1 & Conv(3, 64, 3) \\\\ \n Encoder 2 & Conv(64, 64, 3) \\\\ \n Encoder 3 & Conv(64, 128, 3) \\\\ \n Encoder 4 & Conv(128, 128, 3) \\\\ \n Encoder 5 & Conv(128, 128, 3) \\\\ \n Encoder 6 & Linear(2048, 512) \\\\ \n Decoder 1 & Linear(512, 2048) \\\\ \n Decoder 2 & ConvTranspose(128, 128, 3)\\\\ \n Decoder 3 & Conv(128, 128, 3) \\\\ \n Decoder 4 & ConvTranspose(128, 64, 3) \\\\ \n Decoder 5 & Conv(64, 64, 3) \\\\ \n Decoder 6 & ConvTranspose(128, 3, 3) \\\\ \n \\bottomrule\n\\end{tabular}",
+        "latex_original": "\\begin{tabular}{ r |  l  c } \n \\toprule\n  Layer name & Description\\\\\n \\midrule\n Encoder 1 & Conv(3, 64, 3) \\\\ \n Encoder 2 & Conv(64, 64, 3) \\\\ \n Encoder 3 & Conv(64, 128, 3) \\\\ \n Encoder 4 & Conv(128, 128, 3) \\\\ \n Encoder 5 & Conv(128, 128, 3) \\\\ \n Encoder 6 & Linear(2048, 512) \\\\ \n Decoder 1 & Linear(512, 2048) \\\\ \n Decoder 2 & ConvTranspose(128, 128, 3)\\\\ \n Decoder 3 & Conv(128, 128, 3) \\\\ \n Decoder 4 & ConvTranspose(128, 64, 3) \\\\ \n Decoder 5 & Conv(64, 64, 3) \\\\ \n Decoder 6 & ConvTranspose(128, 3, 3) \\\\ \n \\bottomrule\n\\end{tabular}"
+    }
+]

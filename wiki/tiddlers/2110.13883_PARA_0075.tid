@@ -1,0 +1,11 @@
+created: 20260625110956922
+modified: 20260625110956922
+page: 000
+parent_section: 2110.13883_H14
+tags: paragraph 2110.13883
+title: 2110.13883_PARA_0075
+type: text/vnd.tiddlywiki
+
+We evaluated \ourmethod against state-of-the-art MI estimators on standard benchmark data and two simulated manifold datasets.
+The results show that \ourmethod outperforms its competitors, better estimating the true MI across tasks and settings.
+Furthermore, it provides more stable results across data of different dimensionality, whereas the state-of-the-art fails to scale to higher dimensions, or greatly over- or underestimates the true MI. At the same time, \ourmethod is sample efficient, and is only slightly slower than classical \ksg, independent of sample size.

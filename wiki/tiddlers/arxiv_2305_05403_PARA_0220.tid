@@ -1,0 +1,9 @@
+created: 20260625080853723
+modified: 20260625080853723
+page: 000
+parent_section: arxiv_2305_05403_H24
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0220
+type: text/vnd.tiddlywiki
+
+pull out the correct answers from the KB. Since query answering is a heuristic, imperfect process, the intrinsic KB recall for these QA datasets is likely higher.

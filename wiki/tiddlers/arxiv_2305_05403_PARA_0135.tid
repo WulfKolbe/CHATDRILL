@@ -1,0 +1,9 @@
+created: 20260625080853722
+modified: 20260625080853722
+page: 000
+parent_section: arxiv_2305_05403_H13
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0135
+type: text/vnd.tiddlywiki
+
+can be modelled as a sequence labelling task where each predicate has its own model. The work of [mirza2018enriching] explores one feature-based and one neural-based conditional random field model. The cardinal information in the input sentence is replaced with placeholders, namely cardinal, ordinal and numeric term so that the model does not learn specific tokens but the concept. The models then input the features such as n-grams and lemmas in the context-window of the placeholder to the feature-based CRF model and in case of a bi-directional LSTM model the input comprises the words, placeholders and character embeddings of the tokens. The model outputs the labels COUNT for cardinals, COMP for composition tokens and O for other tokens, with a confidence score. A sentence can have multiple cardinal labels or multiple sentences can have cardinal information for a given {{arxiv_2305_05403_FO0118||FO}} and {{arxiv_2305_05403_FO0119||FO}}. Hence, a consolidation step aggregates cardinals around compositional cues. A cardinality assertion can occur multiple times in a text in which case a heuristic ordering is applied such that cardinal {{arxiv_2305_05403_FO0120||FO}} numeric term {{arxiv_2305_05403_FO0121||FO}} ordinal {{arxiv_2305_05403_FO0122||FO}} article, breaking ties with confidence scores. This follows the intuition that if a text has a sentence ``Curie published 15 articles.'' and another sentence ``Curie published her first article in 1890.'', then 15 would be the predicted cardinality for Curie's publications.

@@ -1,0 +1,11 @@
+caption: Premise
+created: 20260625093308065
+displayMode: false
+latex: Premise
+latex_original: Premise
+modified: 20260625093308065
+tags: formula 2210.07763
+title: 2210.07763_FO0008
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

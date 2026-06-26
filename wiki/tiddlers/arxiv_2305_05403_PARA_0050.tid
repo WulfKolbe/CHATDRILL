@@ -1,0 +1,11 @@
+created: 20260625080853721
+modified: 20260625080853721
+page: 000
+parent_section: arxiv_2305_05403_H6
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0050
+type: text/vnd.tiddlywiki
+
+\begin{definition}[Cardinality Assertion]
+A cardinality assertion is an assertion of the form {{arxiv_2305_05403_FO0049||FO}}, where {{arxiv_2305_05403_FO0050||FO}} is a selection condition, and {{arxiv_2305_05403_FO0051||FO}} is a natural number. It specifies the number of tuples in {{arxiv_2305_05403_FO0052||FO}} that satisfy a certain property. 
+\end{definition}

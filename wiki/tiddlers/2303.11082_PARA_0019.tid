@@ -1,0 +1,9 @@
+created: 20260625093242023
+modified: 20260625093242023
+page: 000
+parent_section: 2303.11082_H5
+tags: paragraph 2303.11082
+title: 2303.11082_PARA_0019
+type: text/vnd.tiddlywiki
+
+We probe the masked language model BERT [bert] and query for facts of different relations by using relation-specific predefined prompts. The prompts contain placeholders for subject and object, so that the input for the LM can be automatically created by replacing the subject placeholder with the actual subject and the object placeholder with [MASK]. For each cloze-style query like ``The capital of France is [MASK].'', BERT returns a probability vector over its vocabulary {{2303.11082_FO0002||FO}} ({{2303.11082_FO0003||FO}}29K tokens). From this vector, we select top k predictions {{2303.11082_FO0004||FO}} with the highest probability as predictions for the object. We set {{2303.11082_FO0005||FO}}.

@@ -1,0 +1,11 @@
+created: 20260625093505870
+modified: 20260625093505870
+page: 000
+parent_section: 2204.10432_H24
+tags: paragraph 2204.10432
+title: 2204.10432_PARA_0092
+type: text/vnd.tiddlywiki
+
+\paragraphHdNospace{Positive sentiment.}
+We use training instances labeled neutral or positive in a sentiment dataset as negative examples.
+In particular, we used the Sentiment140 corpus, which contains 1.6 millions tweets [go2009twitter].

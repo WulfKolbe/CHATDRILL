@@ -1,0 +1,9 @@
+created: 20260625093324945
+modified: 20260625093324945
+page: 000
+parent_section: 2210.04530_H4
+tags: paragraph 2210.04530
+title: 2210.04530_PARA_0012
+type: text/vnd.tiddlywiki
+
+We used the CSLB [cslb] dataset, a large crowdsourced set of basic CSK assertions, like alligator: is scary / is long / is green. We focused on the top 4,245 properties for 638 subjects stated at least five times. For each corpus, we computed the relative frequencies with which these statements appear (w/ lemmatization).

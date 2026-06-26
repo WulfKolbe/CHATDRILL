@@ -1,0 +1,11 @@
+created: 20260625080853980
+modified: 20260625080853980
+page: 000
+parent_section: arxiv_2303_11082_H9
+tags: paragraph arxiv_2303_11082
+title: arxiv_2303_11082_PARA_0026
+type: text/vnd.tiddlywiki
+
+Creation. We extract facts from Wikidata for the same 41 relations as in LAMA-T-REx. We extract subject-relations pairs per relation and because these pairs may have multiple valid objects, e.g. N:M relations, we extract all associated valid objects along with the pairs. Otherwise, we would risk incomplete ground truth data. This would falsify our evaluation as an LM's prediction can not be recognized as correct when predicting another valid object than the extracted one. We sampled a maximum of {{arxiv_2303_11082_FO0007||FO}} subject-relation pairs per relation along with all valid objects. If a relation contains fewer than {{arxiv_2303_11082_FO0008||FO}} pairs, we extract all of them. The extracted facts consist of Wikidata-specific entity IDs, which we converted into natural language labels to allow probing an LM for facts. 
+In contrast to [petroni], we do not remove multi-token objects like ``Ball Aerospace \& Technologies`` because the inability to predict such objects is part of (some) LM's limitations and at the time KBC is performed it is unknown which objects are multi-token objects and which are not as KBC includes predicting missing facts, i.e. facts without ground truth object yet. 
+This dataset feature enables the testing of LMs with multi-token prediction capability in comparison to uni-token predictions for KBC. Additionally, a large dataset like \ourdataset{} enables fine-tuning for fact prediction. In Table (ref) we report some dataset statistics in comparison to LAMA-T-REx showing the larger size of \ourdataset{}. The dataset is available at \url{https://github.com/bveseli/LMsForKBC}.

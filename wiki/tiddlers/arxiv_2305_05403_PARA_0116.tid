@@ -1,0 +1,9 @@
+created: 20260625080853722
+modified: 20260625080853722
+page: 000
+parent_section: arxiv_2305_05403_H12
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0116
+type: text/vnd.tiddlywiki
+
+Heuristics such as exact and approximate co-occurrence metrics, and linguistic similarity of the predicate labels can be used to suitably aligned pairs [ghosh2020uncovering]. The number of alignments in a KB thus obtained is much lower than the number of counting and enumerating predicates. For instance, there is no counting predicate that aligns with the enumerating predicate wonAward.

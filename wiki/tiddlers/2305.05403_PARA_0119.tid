@@ -1,0 +1,9 @@
+created: 20260625093231914
+modified: 20260625093231914
+page: 000
+parent_section: 2305.05403_H13
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0119
+type: text/vnd.tiddlywiki
+
+So far we have looked into KBs for cardinality detection, but the KBs are usually sparse. Even if we have identified that numberOfDoctoralStudents is a counting predicate, we cannot predict its value for an entity that has the enumerating predicate doctoralStudent but no counting predicate numberOfDoctoralStudents.

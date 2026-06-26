@@ -1,0 +1,9 @@
+created: 20260625093527301
+modified: 20260625093527301
+page: 000
+parent_section: 2111.13611_H13
+tags: paragraph 2111.13611
+title: 2111.13611_PARA_0085
+type: text/vnd.tiddlywiki
+
+Using these annotations, we found that from the 69 claims absent from lower-coverage documents, 58% (40) were correct, while from those absent from higher-coverage documents, only 36% (25) were correct. In other words, the fraction of correct claims absent from low-coverage documents is {{2111.13611_FO0135||FO}} times higher; so coverage can be used as a feature for claim refutation.

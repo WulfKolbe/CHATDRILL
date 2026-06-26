@@ -1,0 +1,9 @@
+created: 20260625093308064
+modified: 20260625093308064
+page: 000
+parent_section: 2210.07763_H5
+tags: paragraph 2210.07763
+title: 2210.07763_PARA_0053
+type: text/vnd.tiddlywiki
+
+For the geography and religion domains, in which subjects are named entities, we use spaCy's NER module to detect subjects. Specifically, geo-locations are detected with the GPE tag (geopolitical entities), and religions are detected with the NORP tag (nationalities or religious or political groups). For each subject, we also utilize a list of aliases for string matching, which can be the location's alternate names (e.g., United States, the U.S., the States), or demonyms (e.g., Colombians, Chinese, New Yorker), or names for religious adherents (e.g., Christians, Buddhists, Muslims) - which can be detected with the NORP tag as well.

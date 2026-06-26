@@ -1,0 +1,12 @@
+created: 20260625110956922
+modified: 20260625110956922
+page: 000
+parent_section: 2110.13883_H12
+tags: paragraph 2110.13883
+title: 2110.13883_PARA_0071
+type: text/vnd.tiddlywiki
+
+First, we consider the Helix data.
+Varying the number of independent dimensions for this data, we see that \ksg estimates that the data contains {{2110.13883_FO0342||FO}} mutual information, as soon as any independent dimensions are added, whereas our method maintains a stable MI estimate even for many independent dimensions (see Fig. (ref) bottom left). 
+For \lnn we observe a sharp linear increase in predicted mutual information as a function of number of dimensions, first under and then over-predicting the true MI by a wide margin.
+For \gknn, we observe first an overestimation of the MI which then comes close to the true MI for 2-6 additional dimensions. However, \gknn is not able to yield an estimate for more than {{2110.13883_FO0343||FO}} additional dimensions when using {{2110.13883_FO0344||FO}} respectively more than {{2110.13883_FO0345||FO}} additional dimensions for {{2110.13883_FO0346||FO}}. Increasing the neighborhood size further does not make sense, as \gknn would then miss on the locality of the data when computing the volume, thus estimating global rather than local density.

@@ -1,0 +1,13 @@
+[
+    {
+        "title": "2210.07763_TAB_023",
+        "text": "",
+        "type": "text/vnd.tiddlywiki",
+        "tags": "table 2210.07763",
+        "created": "20260625093308066",
+        "modified": "20260625093308066",
+        "page": "000",
+        "latex_code": "\\begin{tabular}{cp{.3\\columnwidth}p{.55\\columnwidth}}\n    \\toprule\n        \\textbf{\\#} & \\textbf{Module} & \\textbf{Used techniques/models} \\\\\n    \\midrule\n         1 & Subject detection (Sec.~\\ref{sec:subject-detection}) & String matching, NER \\\\\n    \\midrule\n         2 & Generic assertion filtering (Sec.~\\ref{sec:generic-filtering}) & Hand-crafted lexico-syntactic rules \\\\\n    \\midrule\n         3 & Cultural facet classification (Sec.~\\ref{sec:classification}) & Huggingface's \\texttt{bart-large-mnli} model for the textual entailment task \\\\\n    \\midrule\n         4 & Assertion clustering (Sec.~\\ref{sec:clustering}) & SentenceBert and HAC algorithm for clustering, GPT-3 for cluster summarization \\\\\n    \\midrule\n         5 & Concept extraction (Sec.~\\ref{sec:concept-extractino}) & Common n-gram extraction \\\\\n    \\midrule\n         6 & Cluster ranking + post-filtering (Sec.~\\ref{sec:ranking}) & Ad-hoc ranking features, rule-based filtering \\\\\n    \\bottomrule\n    \\end{tabular}",
+        "latex_original": "\\begin{tabular}{cp{.3\\columnwidth}p{.55\\columnwidth}}\n    \\toprule\n        \\textbf{\\#} & \\textbf{Module} & \\textbf{Used techniques/models} \\\\\n    \\midrule\n         1 & Subject detection (Sec.~\\ref{sec:subject-detection}) & String matching, NER \\\\\n    \\midrule\n         2 & Generic assertion filtering (Sec.~\\ref{sec:generic-filtering}) & Hand-crafted lexico-syntactic rules \\\\\n    \\midrule\n         3 & Cultural facet classification (Sec.~\\ref{sec:classification}) & Huggingface's \\texttt{bart-large-mnli} model for the textual entailment task \\\\\n    \\midrule\n         4 & Assertion clustering (Sec.~\\ref{sec:clustering}) & SentenceBert and HAC algorithm for clustering, GPT-3 for cluster summarization \\\\\n    \\midrule\n         5 & Concept extraction (Sec.~\\ref{sec:concept-extractino}) & Common n-gram extraction \\\\\n    \\midrule\n         6 & Cluster ranking + post-filtering (Sec.~\\ref{sec:ranking}) & Ad-hoc ranking features, rule-based filtering \\\\\n    \\bottomrule\n    \\end{tabular}"
+    }
+]

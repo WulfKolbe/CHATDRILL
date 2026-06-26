@@ -1,0 +1,13 @@
+created: 20260625080831230
+modified: 20260625080831230
+page: 000
+parent_section: arxiv_2308_06374_H7
+tags: paragraph arxiv_2308_06374
+title: arxiv_2308_06374_PARA_0076
+type: text/vnd.tiddlywiki
+
+One of the most promising abilities of LLMs is parsing long texts.
+In companies and organizations, documents exist that contain reference governing information, e.g., procedures, regulations, and specifications.
+Here we see an untapped opportunity in parsing these documents in relation to the entities and predicates in the KG to extract constraints.
+Yet, the challenge arises in the fact that the LLM needs to use the correct vocabulary of entities and relations and the correct rule syntax. 
+Recent advancements in program synthesis show a possible way to the challenge.

@@ -1,0 +1,9 @@
+created: 20260625080922309
+modified: 20260625080922309
+page: 000
+parent_section: arxiv_2208_09292_H1
+tags: paragraph arxiv_2208_09292
+title: arxiv_2208_09292_PARA_0022
+type: text/vnd.tiddlywiki
+
+candidates are scrutinized against related statements in the input KB using sentence embeddings, and against a pre-trained LM acting as an external source of latent knowledge. In a final step, we quantify the informativeness of negative statements by statistical scores, and generate top-ranked negations with provenances showing why certain negations are interesting. For instance, \texttt{{{arxiv_2208_09292_FO0002||FO}}(gorilla, has, tail)}, unlike other land mammals, e.g., lion and zebra.

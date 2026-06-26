@@ -1,0 +1,11 @@
+caption: max.
+created: 20260625093242023
+displayMode: false
+latex: max.
+latex_original: max.
+modified: 20260625093242023
+tags: formula 2303.11082
+title: 2303.11082_FO0022
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

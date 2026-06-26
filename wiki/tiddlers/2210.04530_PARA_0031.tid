@@ -1,0 +1,9 @@
+created: 20260625093324945
+modified: 20260625093324945
+page: 000
+parent_section: 2210.04530_H7
+tags: paragraph 2210.04530
+title: 2210.04530_PARA_0031
+type: text/vnd.tiddlywiki
+
+To further alleviate the size problem of the InfantBooks corpus, we also introduced the C4-easy corpus, based on filtering via the Flesch reading-ease score (FRE). However, good readability is more of a necessary than a sufficient condition for inferring that content is intended for children, in other words, if there were not the results on InfantBooks, the positive results on C4-easy in isolation only proved a related hypothesis (``easier texts are the key to commonsense''), not the original one (``children texts are the key'').

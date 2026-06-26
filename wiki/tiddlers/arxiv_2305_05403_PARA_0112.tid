@@ -1,0 +1,9 @@
+created: 20260625080853722
+modified: 20260625080853722
+page: 000
+parent_section: arxiv_2305_05403_H12
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0112
+type: text/vnd.tiddlywiki
+
+Predicate names provide some clues as to whether it might be an enumerating predicate. For instance, the word award in its plural form occurs almost as frequently, if not more than the word in its singular form, but this is not true for birth place (birth places). Objects of enumerating predicates are also entities and encoding the type information of the subjects and the objects of a predicate can also provide clues: a type Person (Curie) usually co-occurs with multiple instances of the type Award (Nobel Prize in Physics, Franklin Medal). Range statistics such as the mean and the percentile values are also important clues: in DBpedia the number of statements per subject for the predicate wonAward is 2.8 on average, and the mean and the 10th percentile values of the predicate doctoral students is 28.3 and 5.5, respectively.

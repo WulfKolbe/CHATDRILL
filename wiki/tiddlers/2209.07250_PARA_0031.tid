@@ -1,0 +1,11 @@
+created: 20260625093341705
+modified: 20260625093341705
+page: 000
+parent_section: 2209.07250_H2
+tags: paragraph 2209.07250
+title: 2209.07250_PARA_0031
+type: text/vnd.tiddlywiki
+
+Where structured data is available in KBs, structured QA is the method of choice for count question answering, and previous work of [ghosh2020uncovering] has looked at identifying count information inside KBs. 
+ However, for many topics, no relevant count information can be found in KBs. 
+For example, Wikidata contains 217 songs attributed to John Lennon\footnote{\url{https://w.wiki/4XVq}},

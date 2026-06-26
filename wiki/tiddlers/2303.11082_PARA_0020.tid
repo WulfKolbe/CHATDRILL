@@ -1,0 +1,9 @@
+created: 20260625093242023
+modified: 20260625093242023
+page: 000
+parent_section: 2303.11082_H6
+tags: paragraph 2303.11082
+title: 2303.11082_PARA_0020
+type: text/vnd.tiddlywiki
+
+The goal of our analysis is to realistically assess the abilities of an LM for KBC. Therefore we perform a two-fold analysis by investigating 1) the existing-fact prediction ability of BERT in an automated evaluation and 2) the potential for KBC using LMs by predicting missing facts and evaluating the LM's predictions using human annotations.

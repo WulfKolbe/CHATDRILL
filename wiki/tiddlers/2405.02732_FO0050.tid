@@ -1,0 +1,11 @@
+caption: SP_{low}
+created: 20260625093047342
+displayMode: false
+latex: SP_{low}
+latex_original: SP_{low}
+modified: 20260625093047342
+tags: formula 2405.02732
+title: 2405.02732_FO0050
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

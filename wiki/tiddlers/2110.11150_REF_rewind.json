@@ -1,0 +1,17 @@
+[
+    {
+        "title": "2110.11150_REF_rewind",
+        "text": "{{||CIT}} J. Frankle, G. K. Dziugaite, D. Roy, and M. Carbin. Linear mode connectivity and the lottery ticket hypothesis. In International Conference on Machine Learning, 2020.",
+        "type": "text/markdown",
+        "tags": "reference bibentry bibtex 2110.11150",
+        "created": "20260626111149172",
+        "modified": "20260626111149172",
+        "kind": "reference",
+        "citekey": "rewind",
+        "year": "2020",
+        "authors": "Frankle, Jonathan and Dziugaite, Gintare Karolina and Roy, Daniel and Carbin, Michael",
+        "entry_type": "inproceedings",
+        "titlefield": "Linear Mode Connectivity and the Lottery Ticket Hypothesis",
+        "bibtex": "@InProceedings{rewind,\n  title = \t {Linear Mode Connectivity and the Lottery Ticket Hypothesis},\n  author =       {Frankle, Jonathan and Dziugaite, Gintare Karolina and Roy, Daniel and Carbin, Michael},\n  booktitle = \t {International Conference on Machine Learning},\n  year = \t {2020}\n}"
+    }
+]

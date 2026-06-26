@@ -1,0 +1,17 @@
+[
+    {
+        "title": "2110.11150_REF_batchMFT",
+        "text": "{{||CIT}} G. Yang, J. Pennington, V. Rao, J. Sohl-Dickstein, and S. S. Schoenholz. A mean field theory of batch normalization. In International Conference on Learning Representations, 2019.",
+        "type": "text/markdown",
+        "tags": "reference bibentry bibtex 2110.11150",
+        "created": "20260626111149173",
+        "modified": "20260626111149173",
+        "kind": "reference",
+        "citekey": "batchMFT",
+        "year": "2019",
+        "authors": "Greg Yang and Jeffrey Pennington and Vinay Rao and Jascha Sohl-Dickstein and Samuel S. Schoenholz",
+        "entry_type": "inproceedings",
+        "titlefield": "A Mean Field Theory of Batch Normalization",
+        "bibtex": "@inproceedings{batchMFT,\ntitle={A Mean Field Theory of Batch Normalization},\nauthor={Greg Yang and Jeffrey Pennington and Vinay Rao and Jascha Sohl-Dickstein and Samuel S. Schoenholz},\nbooktitle={International Conference on Learning Representations},\nyear={2019}\n}"
+    }
+]

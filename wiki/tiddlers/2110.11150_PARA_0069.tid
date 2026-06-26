@@ -1,0 +1,12 @@
+created: 20260626094813420
+modified: 20260626094813420
+page: 000
+parent_section: 2110.11150_H20
+tags: paragraph 2110.11150
+title: 2110.11150_PARA_0069
+type: text/vnd.tiddlywiki
+
+!! Training of {{2110.11150_FO0021||FO}} is feasible: Proof of Lemma (ref)
+
+\begin{theorem*}
+Assume that the weights and biases of a fully-connected deep neural network {{2110.11150_FO0016||FO}} are drawn independently from distributions that are symmetric around the origin {{2110.11150_FO0073||FO}} with variances {{2110.11150_FO0074||FO}} or {{2110.11150_FO0075||FO}}, respectively. Then, for every input {{2110.11150_FO0076||FO}}, the second moment of the output is

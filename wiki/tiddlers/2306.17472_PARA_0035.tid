@@ -1,0 +1,15 @@
+created: 20260625093156716
+modified: 20260625093156716
+page: 000
+parent_section: 2306.17472_H5
+tags: paragraph 2306.17472
+title: 2306.17472_PARA_0035
+type: text/vnd.tiddlywiki
+
+\vspace*{0.1cm}
+\noindent
+{\bf Baselines.}
+To the best of our knowledge, there is no prior work on KBC or LM-as-KB that is specifically geared for coping with long-tail entities.
+As a proxy, we thus compare to several state-of-the-art methods for relation extraction (RE) from text.
+At test time, these methods receive the 
+retrieved Wikipedia sentences for a ground-truth SPO fact and the SP pair as input, and are run to extract the withheld O argument (sentence-level extraction).

@@ -1,0 +1,9 @@
+created: 20260625093341706
+modified: 20260625093341706
+page: 000
+parent_section: 2209.07250_H33
+tags: paragraph 2209.07250
+title: 2209.07250_PARA_0162
+type: text/vnd.tiddlywiki
+
+Improving explanation by instances has a major scope for improvement, by incorporating KB knowledge (for improving precision) or scraping list pages from search results (for improving recall). In Section (ref) we indicate ad-hoc mechanism to identify existing contextualizations in present KB-QA systems. This can be further expanded independently or CNPs from text could be useful in identifying relevant semantic qualifiers in the KB.

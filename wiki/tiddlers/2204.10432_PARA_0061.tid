@@ -1,0 +1,9 @@
+created: 20260625093505870
+modified: 20260625093505870
+page: 000
+parent_section: 2204.10432_H14
+tags: paragraph 2204.10432
+title: 2204.10432_PARA_0061
+type: text/vnd.tiddlywiki
+
+In Figure (ref), we visualize the effect of various data-construction factors on the performance of symptom classifiers. Regarding the data source, data obtained from mental health subreddits has more influence on effectiveness than the more general posts in SMHD. Discarding data from mental health subreddits leads to an average drop of nearly 0.23 F1 score in all symptoms, while the decrease after removing SMHD is 0.02. We attribute the immense contribution of data from mental health subreddits to the fact that mental health is the main topic of discussion in those forums; therefore, pattern matching returns fewer false-positive cases and denser symptoms, resulting in better quality training data.

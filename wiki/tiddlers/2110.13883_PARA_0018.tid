@@ -1,0 +1,9 @@
+created: 20260625110956922
+modified: 20260625110956922
+page: 000
+parent_section: 2110.13883_H2
+tags: paragraph 2110.13883
+title: 2110.13883_PARA_0018
+type: text/vnd.tiddlywiki
+
+In particular, we suggest a novel approach that estimates mutual information considering geodesic distances, combining ideas from manifold learning and MI estimation. We leverage recent advances of Madhyasta et al. [madhyastha:20:gf] in approximating geodesic distances based on tree estimates on sparse linear projections of the original space [breiman:01:rf,dasgupta:08:random-proj-trees], which is suitable for {{2110.13883_FO0034||FO}}NN estimation on high-dimensional data.

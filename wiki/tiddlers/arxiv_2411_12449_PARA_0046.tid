@@ -1,0 +1,9 @@
+created: 20260625080805467
+modified: 20260625080805467
+page: 000
+parent_section: arxiv_2411_12449_H6
+tags: paragraph arxiv_2411_12449
+title: arxiv_2411_12449_PARA_0046
+type: text/vnd.tiddlywiki
+
+Entities and Queries. We selected 50 entities by using stratified sampling across four categories---artists, companies, leaders, and pioneers---from Time's 100 most influential people \footnote{\url{https://time.com/collection/100-most-influential-people-2023}} and Fortune500 companies \footnote{\url{https://fortune.com/ranking/fortune500/2023/}} to ensure a balanced diversity in category, demographics, and popularity. For each entity, we collected a large volume of user queries from Bing search logs over a four-month period (August-November, 2023). Because we aimed to generate temporal answers for emerging events, we focused on entity-centric queries logged during spiking dates---periods of heightened entity activity/presence in user queries.

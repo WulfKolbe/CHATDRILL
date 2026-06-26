@@ -1,0 +1,9 @@
+created: 20260625080853721
+modified: 20260625080853721
+page: 000
+parent_section: arxiv_2305_05403_H8
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0068
+type: text/vnd.tiddlywiki
+
+[trushkowsky2013crowdsourced,acosta2017enhancing] target settings where workers are paid to contribute instances to classes or query answers. While every worker has to contribute distinct instances, different workers may contribute the same instances. Workers may also come and go at any moment, and have different work styles. If one worker (a ``streaker'') adds many entities in one go, classical recall estimators may overestimate the total population size (mainly because of a high value of {{arxiv_2305_05403_FO0079||FO}}, see above). One solution to this problem is to cap the number of new entities per contributor to two standard deviations above the average number of entities per contributor.

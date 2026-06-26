@@ -1,0 +1,9 @@
+created: 20260625080853722
+modified: 20260625080853722
+page: 000
+parent_section: arxiv_2305_05403_H23
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0207
+type: text/vnd.tiddlywiki
+
+To avoid such issues, we can look at the fraction of entities from one contained in the other. The work in [ringler2017one] analyzed that as well, matching entities via simple String distance functions. Merging KBs generally provided potential for increasing recall even for the already bigger resources, because of differences in focus.

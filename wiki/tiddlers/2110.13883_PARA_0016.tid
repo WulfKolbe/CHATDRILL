@@ -1,0 +1,9 @@
+created: 20260625110956922
+modified: 20260625110956922
+page: 000
+parent_section: 2110.13883_H2
+tags: paragraph 2110.13883
+title: 2110.13883_PARA_0016
+type: text/vnd.tiddlywiki
+
+Simply put, {{2110.13883_FO0022||FO}}NN-based methods estimate the local density around each point {{2110.13883_FO0023||FO}} via its {{2110.13883_FO0024||FO}}-nearest neighbors [kraskov:04:ksg,lord:18:gknn]. Critical for the performance of these estimators are assumptions about the shape of the local volumes used to calculate the densities. One group of estimators measure the local distances via {{2110.13883_FO0025||FO}} or {{2110.13883_FO0026||FO}}-norm [frenzel:07:fp,kozachenko:87:firstnn]. Other approaches try to estimate the volumes via locally computing an SVD [lord:18:gknn] or PCA [lu:20:gknn-boosting] transformation, or use a local Gaussian kernel [gao:17:lnn]. Alternatively, the \ksg [kraskov:04:ksg] estimator avoids estimating the volumes all along by computing the distance to the {{2110.13883_FO0027||FO}}th neighbor on the joint space, while simply counting the neighbors falling within this region in {{2110.13883_FO0028||FO}} and {{2110.13883_FO0029||FO}}. Gao et al. [gao:18:demystifying] proved that the \ksg estimator is consistent and proposed a bias-corrected alternative, which focuses on low-dimensional data. Closest to our approach is {{2110.13883_FO0030||FO}}NN-based estimation using random forests to estimate the nearest neighbors, which requires either {{2110.13883_FO0031||FO}} or {{2110.13883_FO0032||FO}} to be discrete [mehta:19:cmi-forests-vogelstein]. None of these estimators has been evaluated on more than {{2110.13883_FO0033||FO}} dimensions.

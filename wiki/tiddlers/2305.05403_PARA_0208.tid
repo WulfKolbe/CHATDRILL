@@ -1,0 +1,11 @@
+created: 20260625093231915
+modified: 20260625093231915
+page: 000
+parent_section: 2305.05403_H23
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0208
+type: text/vnd.tiddlywiki
+
+Texts are a prime mode of knowledge storage and sharing, and it is natural to ask how well KBs recall information from texts. Notably, KBs were born in part out of the shortcomings of texts in terms of structuring information, so it is very interesting to investigate to which degree the higher structure of KBs comes at a loss of recall.
+Moreover, a principled methodology to compare KB recall w.r.t.\ texts enables a comparison on a much wider set of domains and subdomains than the structured comparison in the KB-to-KB setting,
+as texts are available in much bigger abundance than structured resources. Various approaches to estimating KB recall w.r.t.\ texts exist.

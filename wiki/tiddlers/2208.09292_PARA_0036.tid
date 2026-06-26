@@ -1,0 +1,9 @@
+created: 20260625095716233
+modified: 20260625095716233
+page: 000
+parent_section: 2208.09292_H6
+tags: paragraph 2208.09292
+title: 2208.09292_PARA_0036
+type: text/vnd.tiddlywiki
+
+Next, using BERT [BERT], we construct a probe with masked target concept concatenated with the candidate phrase and look for s in the first {{2208.09292_FO0022||FO}} predictions (in this example 100) as follows.

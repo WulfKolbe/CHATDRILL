@@ -1,0 +1,9 @@
+created: 20260625093505869
+modified: 20260625093505869
+page: 000
+parent_section: 2204.10432_H8
+tags: paragraph 2204.10432
+title: 2204.10432_PARA_0032
+type: text/vnd.tiddlywiki
+
+On all datasets, we report the F1 score of the positive (i.e., diagnosed) class, and the area under the receiver operating characteristic curve (AUC).

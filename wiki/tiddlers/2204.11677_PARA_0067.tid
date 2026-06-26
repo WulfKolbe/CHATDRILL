@@ -1,0 +1,9 @@
+created: 20260625093448814
+modified: 20260625093448814
+page: 000
+parent_section: 2204.11677_H2
+tags: paragraph 2204.11677
+title: 2204.11677_PARA_0067
+type: text/vnd.tiddlywiki
+
+\myparagraph{Table} A table is a structured relational construct consisting of cells organized into rows and columns, with optional row and column headers. Cell values are typically entities or literals, while headers are often predicates.

@@ -1,0 +1,11 @@
+caption: \textit{Conf}=0.75
+created: 20260625093341706
+displayMode: false
+latex: \textit{Conf}=0.75
+latex_original: \textit{Conf}=0.75
+modified: 20260625093341706
+tags: formula 2209.07250
+title: 2209.07250_FO0003
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

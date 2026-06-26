@@ -1,0 +1,10 @@
+created: 20260625080831230
+modified: 20260625080831230
+page: 000
+parent_section: arxiv_2308_06374_H5
+tags: paragraph arxiv_2308_06374
+title: arxiv_2308_06374_PARA_0025
+type: text/vnd.tiddlywiki
+
+LLMs are used in entity resolution and linking for KGs in multiple ways [abs-2306-01388].
+First, LLMs can help with labeling training data, which is typically a resource-intensive and time-consuming step, hindering the performance of entity alignment for KGs.

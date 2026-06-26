@@ -1,0 +1,10 @@
+created: 20260625095716234
+modified: 20260625095716234
+page: 000
+parent_section: 2208.09292_H16
+tags: paragraph 2208.09292
+title: 2208.09292_PARA_0088
+type: text/vnd.tiddlywiki
+
+\noindent
+Commonsense knowledge bases. Commonsense knowledge acquisition includes several large-scale projects. ConceptNet [conceptnet,speer-havasi-2012-representing], the most prominent of these projects, was mainly constructed using human crowdsourcing. Similarly, ATOMIC [atomic] was also constructed using crowdsourcing, with its main focus on collecting social commonsense statements. WebChild [webchild] uses handcrafted extraction patterns. TupleKB [TACL1064] and Quasimodo [quasimodo,insidequasimodo] rely on open information extraction [openie] followed by cleanup. Ascent [ascent,ascentpp] builds on these approaches by extending them to large-scale web text extraction, for better corroboration and higher recall.

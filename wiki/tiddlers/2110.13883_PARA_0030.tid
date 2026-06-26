@@ -1,0 +1,9 @@
+created: 20260625110956922
+modified: 20260625110956922
+page: 000
+parent_section: 2110.13883_H3
+tags: paragraph 2110.13883
+title: 2110.13883_PARA_0030
+type: text/vnd.tiddlywiki
+
+To address the limitations of \ksg in high-dimensional data, we leverage insights from manifold learning and mutual information estimation. In the next section, we will formally define the assumed data generative model and provide identifiability results.

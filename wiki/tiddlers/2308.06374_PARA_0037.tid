@@ -1,0 +1,12 @@
+created: 20260625093119694
+modified: 20260625093119694
+page: 000
+parent_section: 2308.06374_H6
+tags: paragraph 2308.06374
+title: 2308.06374_PARA_0037
+type: text/vnd.tiddlywiki
+
+We highlight the important role that LLMs play in improving KG construction, focusing on current trends, issues, and unanswered questions in this field.
+We start by discussing link prediction, which is a way to generate new facts given an existing KG.
+Next, we look at inductive link prediction, a method that predicts triples for unseen relationships. 
+Our focus then shifts to a more recent method where triples is directly extracted from the parametric knowledge of an LLM.

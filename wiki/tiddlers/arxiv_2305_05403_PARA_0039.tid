@@ -1,0 +1,10 @@
+created: 20260625080853721
+modified: 20260625080853721
+page: 000
+parent_section: arxiv_2305_05403_H5
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0039
+type: text/vnd.tiddlywiki
+
+\noindent
+The OWA and the CWA represent extreme stances, and both have severe shortcomings. The OWA makes it impossible to answer ``No'' to any query, while the CWA produces the answer ``No'' also in cases where the KB should refrain from taking a stance. Intermediate settings are thus needed, referred to as Partial-closed World Assumptions (PCWA) [motro,denecker2008towards], where some parts of the KB are treated under closed-world semantics, others under open-world semantics. One instantiation of the PCWA is the partial completeness assumption (PCA) [amie,dong2014data]. The PCA asserts that if a subject has at least one object for a given predicate, then there are no other objects in the real world beyond those that are in the KB.

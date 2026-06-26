@@ -1,0 +1,11 @@
+created: 20260625095716233
+modified: 20260625095716233
+page: 000
+parent_section: 2208.09292_H1
+tags: paragraph 2208.09292
+title: 2208.09292_PARA_0018
+type: text/vnd.tiddlywiki
+
+Even though NegatER compiles lists of thematically-relevant negations, it suffers from several limitations: 
+(i) The taxonomic hierarchy between concept phrases is not considered. For instance, from the positive statement (horse, IsA, expensive pet), a semantically sensible corruption of the subject is hamster, but horse riding or horserider are not. Even though they are closer in embedding space, they describe concepts of completely different types (activity, artifact) that cannot be pets.
+(ii) The method relies on the input CSKB having

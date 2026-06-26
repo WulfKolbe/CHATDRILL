@@ -1,0 +1,9 @@
+created: 20260625080930847
+modified: 20260625080930847
+page: 000
+parent_section: arxiv_2111_13611_H8
+tags: paragraph arxiv_2111_13611
+title: arxiv_2111_13611_PARA_0055
+type: text/vnd.tiddlywiki
+
+Statistical models like BOW+TFIDF and Ngrams+TFIDF performed comparably to BERT for a minority of relations. To better understand these models, we analyzed highly positive and negative features. Table (ref) provides noteworthy examples. We observe the presence of semantically relevant phrases. We also inspect the weights of the trained LR classifier of HERB. Across relations, BERT had the highest average weight ({{arxiv_2111_13611_FO0089||FO}}), followed by BM25 ({{arxiv_2111_13611_FO0090||FO}}), while NER Count had the lowest weight ({{arxiv_2111_13611_FO0091||FO}}).

@@ -1,0 +1,9 @@
+caption: \sup_{x \in {[-1,1]}^{n_0}} ||\bm{x}^{(l)}||_{1}
+created: 20260626111149171
+displayMode: false
+latex: \sup_{x \in {[-1,1]}^{n_0}} ||\bm{x}^{(l)}||_{1}
+latex_original: \sup_{x \in {[-1,1]}^{n_0}} ||\bm{x}^{(l)}||_{1}
+modified: 20260626111149171
+tags: formula 2110.11150
+title: 2110.11150_FO0075
+type: text/markdown

@@ -1,0 +1,21 @@
+created: 20260625093047341
+modified: 20260625093047341
+page: 000
+parent_section: 2405.02732_H15
+tags: paragraph 2405.02732
+title: 2405.02732_PARA_0084
+type: text/vnd.tiddlywiki
+
+\noindent{\bf Hyper-parameter Tuning for pred.} The {\em pred} method has three hyper-parameters. Setting their values by global grid search with train/dev data leads to the best results, with {{2405.02732_FO0057||FO}}=20, {{2405.02732_FO0058||FO}}=5, and {{2405.02732_FO0059||FO}}=0.75.
+As the various P exhibit different characteristics, we would expected even further gains with the per-predicate grid search.
+Indeed, this led to rather different predicate-specifc values. For example, 
+for Sibling, the best values are
+{{2405.02732_FO0060||FO}}=10, {{2405.02732_FO0061||FO}}=2, {{2405.02732_FO0062||FO}}=0.9, whereas for
+Friend we have {{2405.02732_FO0063||FO}}=50, {{2405.02732_FO0064||FO}}=1, {{2405.02732_FO0065||FO}}=0.55.
+This makes sense, as Sibling lists are much shorter, and long Friend lists have much noisier support passages. So the setting is tighter 
+for Sibling, and has more liberal {{2405.02732_FO0066||FO}}
+for Friend but only 1 support passage per O to tame noise.
+Nevertheless, the {\em pred {{2405.02732_FO0067||FO}}} and
+{\em dis {{2405.02732_FO0068||FO}}} techniques did not achieve significant improvements over the globally tuned variants {\em pred {{2405.02732_FO0069||FO}}} and
+{\em dis {{2405.02732_FO0070||FO}}}. We attribute this
+result to the fact that the simpler configurations are already close to the best possible outputs (due to the difficulty of the task).

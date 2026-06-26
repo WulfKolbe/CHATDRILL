@@ -1,0 +1,11 @@
+caption: n_{\ensuremath{\bm{y}}\xspace,i}+1 \ge k
+created: 20260625110956923
+displayMode: false
+latex: n_{\ensuremath{\bm{y}}\xspace,i}+1 \ge k
+latex_original: n_{\yg,i}+1 \ge k
+modified: 20260625110956923
+tags: formula 2110.13883
+title: 2110.13883_FO0091
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

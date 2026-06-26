@@ -1,0 +1,9 @@
+created: 20260625093027647
+modified: 20260625093027647
+page: 000
+parent_section: 2411.04920_H12
+tags: paragraph 2411.04920
+title: 2411.04920_PARA_0076
+type: text/vnd.tiddlywiki
+
+Our exploration surfaced a potpourri of other challenges, some of them known to KB construction research since years [machine-knowledge], others requiring novel adaptations in the light of LLMs. These concern (1) NER for short labels without context, (2) entity deduplication, (3) entity canonicalization, (4) literal typing and canonicalization, (5) relation clustering, (6) relation organization in terms of subrelations, (7) class clustering, (8) taxonomy construction, and (9) triple verification. While we explored simple techniques for 1, 2, 5, 7, 8, each has room upward, and other tasks were not treated so far.

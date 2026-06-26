@@ -1,0 +1,17 @@
+created: 20260625093047341
+modified: 20260625093047341
+page: 000
+parent_section: 2405.02732_H10
+tags: paragraph 2405.02732
+title: 2405.02732_PARA_0051
+type: text/vnd.tiddlywiki
+
+Another way of harnessing the SPO support passages is to train a discriminative classifier, again in a self-supervised manner.
+ We consider the ranked list of O values for a given SP and pick:
+ \squishlist
+ \item the top-{{2405.02732_FO0041||FO}} high-scoring O candidates
+ \item the bottom-{{2405.02732_FO0042||FO}} low-scoring O candidates
+ \squishend
+ with {{2405.02732_FO0043||FO}} and {{2405.02732_FO0044||FO}} as hyper-parameters. For each top-{{2405.02732_FO0045||FO}} and bottom-{{2405.02732_FO0046||FO}} candidate O, we retrieve top-{{2405.02732_FO0047||FO}} support passages, forming one passage pool for the high-scoring Os and another pool for the low-scoring Os.
+ In each of these pools, the passages are cast into embeddings,
+ and weighted averaged with {{2405.02732_FO0048||FO}} to form {{2405.02732_FO0049||FO}} and {{2405.02732_FO0050||FO}} vectors.

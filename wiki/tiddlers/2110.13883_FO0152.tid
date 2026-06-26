@@ -1,0 +1,11 @@
+caption: I(\ensuremath{g}\xspace(\ensuremath{\bm{X}}\xspace);\ensuremath{g}\xspace'(\ensuremath{\bm{Y}}\xspace)) \le I(\ensuremath{\bm{X}}\xspace;\ensuremath{\bm{Y}}\xspace)
+created: 20260625110956923
+displayMode: false
+latex: I(\ensuremath{g}\xspace(\ensuremath{\bm{X}}\xspace);\ensuremath{g}\xspace'(\ensuremath{\bm{Y}}\xspace)) \le I(\ensuremath{\bm{X}}\xspace;\ensuremath{\bm{Y}}\xspace)
+latex_original: I(\fung(\Xg);\fung'(\Yg)) \le I(\Xg;\Yg)
+modified: 20260625110956923
+tags: formula 2110.13883
+title: 2110.13883_FO0152
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

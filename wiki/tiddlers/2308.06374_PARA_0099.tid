@@ -1,0 +1,10 @@
+created: 20260625093119694
+modified: 20260625093119694
+page: 000
+parent_section: 2308.06374_H8
+tags: paragraph 2308.06374
+title: 2308.06374_PARA_0099
+type: text/vnd.tiddlywiki
+
+However, the above Knowledge Editing methods are not yet scalable, people started to introduce retrieve-generate architectures for building retrieval augmented generation models. These methods are mainly using unstructured passages as external knowledge. RAG [NEURIPS2020_6b493230] outperforms DPR [KOML+2020] by marginalizing the retrieval step to train the generator and retriever jointly with the supervision of the label answer. FiD [IzGr2021] encodes the concatenation of the passages retrieved by pre-trained DPR and the original question separately, and then fuses them with concatenation to the decoder. 
+It is expected that structured knowledge will be the main source of external knowledge, as passages often contain noise. Knowledge Graphs can be used directly as external knowledge. They can also be used to enhance passage-based methods [YZFY+2022].

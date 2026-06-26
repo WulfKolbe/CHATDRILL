@@ -1,0 +1,9 @@
+created: 20260625093308065
+modified: 20260625093308065
+page: 000
+parent_section: 2210.07763_H13
+tags: paragraph 2210.07763
+title: 2210.07763_PARA_0121
+type: text/vnd.tiddlywiki
+
+We also measured the offensiveness (OFF) of each resource, i.e., the percentage of assertions that were marked as inappropriate or offensive materials by at least one of the human-annotators. Quasimodo and StereoKG, extracted from raw social media contents, have the highest number of assertions considered offensive (18% and 13%). Meanwhile, \systemname{}'s judicious filters only miss a small fraction (1% of final assertions).

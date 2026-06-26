@@ -1,0 +1,11 @@
+caption: d(\ensuremath{\bm{y}}\xspace_i, \ensuremath{\bm{y}}\xspace_j)
+created: 20260625080931151
+displayMode: false
+latex: d(\ensuremath{\bm{y}}\xspace_i, \ensuremath{\bm{y}}\xspace_j)
+latex_original: d(\yg_i, \yg_j)
+modified: 20260625080931151
+tags: formula arxiv_2110_13883
+title: arxiv_2110_13883_FO0062
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

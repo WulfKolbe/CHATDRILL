@@ -1,0 +1,9 @@
+created: 20260625080853980
+modified: 20260625080853980
+page: 000
+parent_section: arxiv_2303_11082_H2
+tags: paragraph arxiv_2303_11082
+title: arxiv_2303_11082_PARA_0013
+type: text/vnd.tiddlywiki
+
+Knowledge extraction from language models provides fresh hope for the synergy of automated approaches and high-precision curated KBs. Knowledge-extraction from LMs provides remarkably straightforward access to very large text corpora: The basic idea by [petroni] is to just define one template per relation, then query the LM with subject-instantiated versions, and retain its top prediction(s). A range of follow-up works appeared, focusing, e.g., on investigating entities, improving updates, exploring storage limits, incorporating unique entity identifiers, and others [autoprompt,poerner2020ebert,decao2021editing,roberts2020knowledge,heinzerling-inui-2021-language,petroni2020context,elazar2021measuring,razniewski2021language,cohen2023crawling]. Nonetheless, we observe the same gaps as above: The high-precision area, and real KBC, are underexplored.

@@ -1,0 +1,11 @@
+caption: C' \in C_B
+created: 20260625080805468
+displayMode: false
+latex: C' \in C_B
+latex_original: C' \in C_B
+modified: 20260625080805468
+tags: formula arxiv_2411_12449
+title: arxiv_2411_12449_FO0081
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

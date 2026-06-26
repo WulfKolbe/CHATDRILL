@@ -1,0 +1,10 @@
+created: 20260625095716233
+modified: 20260625095716233
+page: 000
+parent_section: 2208.09292_H4
+tags: paragraph 2208.09292
+title: 2208.09292_PARA_0029
+type: text/vnd.tiddlywiki
+
+\example{Given s = elephant from KB = Ascent, and {{2208.09292_FO0007||FO}} = 3, the concepts with the highest cosine similarity are computed using Wikipedia2Vec [wikipedia2vec]. The ranked candidate concepts include \texttt{tiger, lion, trunk, horse, {{2208.09292_FO0008||FO}}}. Here, trunk is an obvious intruder as it is not share a hypernym with s. This is determined using WebIsALOD [webisalod,madoc47550], an Is-A database, containing 400m hypernymy relations, mined, using over 50 Hearst-style patterns, from a huge web crawl. We end up with the closest 3 siblings: tiger, lion, and horse.
+This initial step is meant to address challenge C3, which we further demonstrate in Section (ref) (Table (ref)).}

@@ -1,0 +1,17 @@
+created: 20260625080805468
+format: fractal_xref
+modified: 20260625080805468
+tags: toc arxiv_2411_12449
+title: arxiv_2411_12449_TOC
+type: text/vnd.tiddlywiki
+
+** 1.1 [[Introduction|arxiv_2411_12449_H1]]
+** 1.2 [[\textsc{Neon}|arxiv_2411_12449_H2]]
+*** 1.2.1 [[Graph Construction|arxiv_2411_12449_H3]]
+*** 1.2.2 [[Temporal Datastore|arxiv_2411_12449_H4]]
+*** 1.2.3 [[Temporal Question Answering|arxiv_2411_12449_H5]]
+** 1.3 [[Experimental Setup|arxiv_2411_12449_H6]]
+** 1.4 [[Results|arxiv_2411_12449_H7]]
+** 1.5 [[Qualitative Analysis|arxiv_2411_12449_H8]]
+** 1.6 [[Related Work|arxiv_2411_12449_H9]]
+** 1.7 [[Conclusion|arxiv_2411_12449_H10]]

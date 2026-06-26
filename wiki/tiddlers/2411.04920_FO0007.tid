@@ -1,0 +1,11 @@
+caption: \mathcal{L} = 0.75
+created: 20260625093027648
+displayMode: false
+latex: \mathcal{L} = 0.75
+latex_original: \mathcal{L} = 0.75
+modified: 20260625093027648
+tags: formula 2411.04920
+title: 2411.04920_FO0007
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

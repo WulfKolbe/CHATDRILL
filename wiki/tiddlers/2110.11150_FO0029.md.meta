@@ -1,0 +1,9 @@
+caption: k^{(l)}_i := ||\bm{W}^{(l)}_{i,:}||_{0} + ||b^{(l)}_{i}||_{0}
+created: 20260626111149171
+displayMode: false
+latex: k^{(l)}_i := ||\bm{W}^{(l)}_{i,:}||_{0} + ||b^{(l)}_{i}||_{0}
+latex_original: k^{(l)}_i := ||\bm{W}^{(l)}_{i,:}||_{0} + ||b^{(l)}_{i}||_{0}
+modified: 20260626111149171
+tags: formula 2110.11150
+title: 2110.11150_FO0029
+type: text/markdown

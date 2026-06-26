@@ -1,0 +1,9 @@
+created: 20260625080827137
+modified: 20260625080827137
+page: 000
+parent_section: arxiv_2405_02732_H12
+tags: paragraph arxiv_2405_02732
+title: arxiv_2405_02732_PARA_0058
+type: text/vnd.tiddlywiki
+
+The chosen 8 predicates has 3 {\em easier relations} with a relatively limited no. of O values (parent, child, and sibling) and 5 {\em harder relations} with potentially long O lists (family, friend, opponent, placeHasPerson---i.e., people being at a place, and hasMember---i.e., members of org. or events). Table (ref) gives statistics for our dataset.

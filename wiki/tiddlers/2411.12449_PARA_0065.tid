@@ -1,0 +1,9 @@
+created: 20260625093007936
+modified: 20260625093007936
+page: 000
+parent_section: 2411.12449_H8
+tags: paragraph 2411.12449
+title: 2411.12449_PARA_0065
+type: text/vnd.tiddlywiki
+
+\noindent WebRAG benefits from non-EN information and LLMs. We noticed that Bing search sometimes retrieves noisy passages together with relevant passages that are in languages other than English, particularly for subject entities from non-English demographic regions. In such cases, the LLM is still able to generate temporally relevant responses in English based on the non-English passages (ex.2 in Table (ref)). This gives WebRAG an advantage over others, as the news streams we employed are exclusively in English.

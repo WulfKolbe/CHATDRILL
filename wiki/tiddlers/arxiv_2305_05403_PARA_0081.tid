@@ -1,0 +1,9 @@
+created: 20260625080853721
+modified: 20260625080853721
+page: 000
+parent_section: arxiv_2305_05403_H9
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0081
+type: text/vnd.tiddlywiki
+
+Experiments on YAGO and Wikidata show that the approach can achieve a precision of 80% at a recall of 40% over all predicates. The approach can also determine that, for people born before a certain time point, a death\-Date becomes an ``obligatory'' attribute.

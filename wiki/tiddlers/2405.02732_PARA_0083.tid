@@ -1,0 +1,11 @@
+created: 20260625093047341
+modified: 20260625093047341
+page: 000
+parent_section: 2405.02732_H15
+tags: paragraph 2405.02732
+title: 2405.02732_PARA_0083
+type: text/vnd.tiddlywiki
+
+\noindent{\bf Best Configurations pred and dis.} The basic {\em thr} technique already works fairly well, 
+especially with tuning of its hyper-parameter {{2405.02732_FO0056||FO}}. The more sophisticated classifiers {\em pred} and {\em dis}
+still have an added benefit, improving the final R@P values by another 1%, going up to 49.7% for R@P50.

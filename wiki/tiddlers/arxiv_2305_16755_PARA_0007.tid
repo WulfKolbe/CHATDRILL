@@ -1,0 +1,10 @@
+created: 20260625080853495
+modified: 20260625080853495
+page: 000
+parent_section: arxiv_2305_16755_H1
+tags: paragraph arxiv_2305_16755
+title: arxiv_2305_16755_PARA_0007
+type: text/vnd.tiddlywiki
+
+\noindent
+Motivation and Problem. Structured (knowledge graphs), and unstructured (text corpora) information are the backbone of many AI applications, such as question answering and chat bots. They mainly focus on storing positive knowledge, and mostly contain little negative knowledge. The open-world assumption, which advises to abstain from taking a stance on the truth of absent information, compromises the usability of both forms of machine knowledge. For instance, it is often the case that the NBA's Basketball stars take a coaching position after their retirement. Notably, this is not true for michael jordan. Mining these surprising statements are useful to overcome limitations of applications like question answering systems. For example, querying Bing Chat\footnote{\url{https://www.microsoft.com/en-us/edge/features/bing-chat}} whether michael jordan invested in his team, the chicago bulls, returns an irrelevant answer about his achievements with the team. In fact, it is an interesting piece of information, that, even though he has a business-oriented mind, he did not monetarily invest in the bulls, but in other sports franchise, including an investment in the not so well-known team the charlotte hornets.

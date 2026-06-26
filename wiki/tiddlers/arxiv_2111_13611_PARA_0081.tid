@@ -1,0 +1,9 @@
+created: 20260625080930847
+modified: 20260625080930847
+page: 000
+parent_section: arxiv_2111_13611_H13
+tags: paragraph arxiv_2111_13611
+title: arxiv_2111_13611_PARA_0081
+type: text/vnd.tiddlywiki
+
+Extraction confidence and document coverage are conceptually independent notions. However, when looking at sets of documents, an interesting relation emerges. Consider two documents, {{arxiv_2111_13611_FO0124||FO}} with high coverage, and {{arxiv_2111_13611_FO0125||FO}} with low coverage, along with two claims {{arxiv_2111_13611_FO0126||FO}} and {{arxiv_2111_13611_FO0127||FO}} from the respective documents, extracted with the same confidence. Can we use coverage information to make claims about extraction correctness?

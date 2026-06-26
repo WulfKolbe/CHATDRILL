@@ -1,0 +1,11 @@
+caption: X_1 \mathop{\perp\!\!\!\perp}\nolimits Y_3'
+created: 20260625080931152
+displayMode: false
+latex: X_1 \mathop{\perp\!\!\!\perp}\nolimits Y_3'
+latex_original: X_1 \Indep Y_3'
+modified: 20260625080931152
+tags: formula arxiv_2110_13883
+title: arxiv_2110_13883_FO0379
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

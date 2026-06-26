@@ -1,0 +1,9 @@
+created: 20260625080929321
+modified: 20260625080929321
+page: 000
+parent_section: arxiv_2204_10432_H11
+tags: paragraph arxiv_2204_10432
+title: arxiv_2204_10432_PARA_0055
+type: text/vnd.tiddlywiki
+
+On standard within-dataset evaluations (in \textcolor{gray}{gray} cells), when models are trained and tested on the same corpus, we find that F1 and AUC increase as the models become less constrained, with the standalone BERT model and PH9Plus performing the best on all datasets. However, as previously shown, this performance does not transfer to more realistic dataset-transfer settings. The two pattern-based methods perform worse than the best prior method on each dataset, though they are the easiest to interpret due to the PHQ9 symptom scores associated with each post.

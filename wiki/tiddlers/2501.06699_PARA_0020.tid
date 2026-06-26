@@ -1,0 +1,12 @@
+created: 20260625092952539
+modified: 20260625092952539
+page: 000
+parent_section: 2501.06699_H1
+tags: paragraph 2501.06699
+title: 2501.06699_PARA_0020
+type: text/vnd.tiddlywiki
+
+What can be done about such limitations? An approach gaining traction is to combine LLMs with other complementary technologies. 
+ Specifically, combining the Information Retrieval (IR) techniques that power search engines (SEs) with LLMs gives rise to the idea of Retrieval Augmented Generation (RAG)
+ [DBLP:conf/nips/LewisPPPKGKLYR020,DBLP:conf/kdd/FanDNWLYCL24].
+ Given a prompt, SEs are used to find relevant documents of data excerpts (e.g., from Web tables) that can be passed to the LLM as additional inference-time context, often improving the answer quality. Despite such improvements, per the long-tail example of Figure (ref), these limitations sometimes persist even with RAG enabled, due either to being unable to retrieve relevant information, or due to the information retrieved being represented in a manner not conducive to in-context learning (e.g., being given as an image, a table, etc.).

@@ -1,0 +1,9 @@
+created: 20260625093231914
+modified: 20260625093231914
+page: 000
+parent_section: 2305.05403_H6
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0047
+type: text/vnd.tiddlywiki
+
+Knowledge bases often give classes special importance (identified via the ``type'' predicate), and although both can be modelled with the same completeness assertions, one can thus divide completeness further into entity completeness (as in ``Do we have all physicists?'') and statement completeness (as in ``Do we have all awards for each physicist?''). This distinction has advantages, because the methods to tackle these types of incompleteness are different, as we shall see in Section (ref). However, the separation is often not clear-cut, as entities are frequently identified by statements. For example, French cities are identified by the selection \fact{*}{locatedIn}{France}. Therefore, our definition above makes no formal distinction, although works discussed in the following sections may pragmatically focus on one of the two categories of completeness.

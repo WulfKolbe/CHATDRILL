@@ -1,0 +1,9 @@
+created: 20260625093341705
+modified: 20260625093341705
+page: 000
+parent_section: 2209.07250_H19
+tags: paragraph 2209.07250
+title: 2209.07250_PARA_0111
+type: text/vnd.tiddlywiki
+
+For evaluating count contextualizations, we cannot directly compare CNPs acquired through {\mysystem} with the other baselines, especially in the KB-QA setting because by nature of the baselines, they return answers with little to no context.

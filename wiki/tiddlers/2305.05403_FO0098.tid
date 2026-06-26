@@ -1,0 +1,11 @@
+caption: \ensuremath{\langle{}\textit{Marie Curie}, \textit{wonAward}, *\rangle}
+created: 20260625093231916
+displayMode: false
+latex: \ensuremath{\langle{}\textit{Marie Curie}, \textit{wonAward}, *\rangle}
+latex_original: \mfact{\textit{Marie Curie}}{\textit{wonAward}}{*}
+modified: 20260625093231916
+tags: formula 2305.05403
+title: 2305.05403_FO0098
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

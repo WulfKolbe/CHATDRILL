@@ -1,0 +1,9 @@
+created: 20260625093527300
+modified: 20260625093527300
+page: 000
+parent_section: 2111.13611_H8
+tags: paragraph 2111.13611
+title: 2111.13611_PARA_0054
+type: text/vnd.tiddlywiki
+
+Although each heuristic has moderate predictive power, combining them with statistical models like TF-IDF, or pre-trained language models like BERT, gives the best performance. Among the combination models, HERB outperforms Heu+TFIDF in a clear majority of relations.

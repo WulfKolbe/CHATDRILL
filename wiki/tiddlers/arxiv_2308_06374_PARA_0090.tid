@@ -1,0 +1,9 @@
+created: 20260625080831230
+modified: 20260625080831230
+page: 000
+parent_section: arxiv_2308_06374_H8
+tags: paragraph arxiv_2308_06374
+title: arxiv_2308_06374_PARA_0090
+type: text/vnd.tiddlywiki
+
+KGs usually contain information extracted from highly trusted sources, post-processed, and vetted by human evaluations. Information from KGs has been integrated into the pre-training corpus since natural language text alone can lead to limited information coverage [yao2019kgbert, peters2019knowledge, agarwal2020knowledge, Xu2023KILMKI].

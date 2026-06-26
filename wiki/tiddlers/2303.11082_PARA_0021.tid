@@ -1,0 +1,9 @@
+created: 20260625093242023
+modified: 20260625093242023
+page: 000
+parent_section: 2303.11082_H6
+tags: paragraph 2303.11082
+title: 2303.11082_PARA_0021
+type: text/vnd.tiddlywiki
+
+The first analysis part includes the automated evaluation of existing facts in \ourdataset{} compared to the LAMA-T-REx benchmark in order to get a realistic estimate of an LM's prediction ability. Based on this evaluation we will extract relation-specific prediction thresholds considering precision and recall trade-offs to enable KBC on high precision and reasonable recall.

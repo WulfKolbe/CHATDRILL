@@ -1,0 +1,12 @@
+created: 20260626111149172
+displayMode: true
+equation_number: 
+kind: Equation
+latex: \lambda_{\text{mse}} = \left(\sum^{N}_{s=1} \sum^{n_{L}}_{i=1} y_{i,s}x^{(L)}_{i,s}\right)/ \left(\sum^{N}_{s=1} \sum^{n_{L}}_{i=1} x^{(L)}_{i,s} x^{(L)}_{i,s}\right).
+latex_original: \lambda_{\text{mse}} = \left(\sum^{N}_{s=1} \sum^{n_{L}}_{i=1} y_{i,s}x^{(L)}_{i,s}\right)/ \left(\sum^{N}_{s=1} \sum^{n_{L}}_{i=1} x^{(L)}_{i,s} x^{(L)}_{i,s}\right).
+modified: 20260626111149172
+page: 000
+refnum: 
+tags: equation 2110.11150
+title: 2110.11150_EQ0007
+type: text/markdown

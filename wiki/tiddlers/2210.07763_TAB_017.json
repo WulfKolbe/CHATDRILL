@@ -1,0 +1,13 @@
+[
+    {
+        "title": "2210.07763_TAB_017",
+        "text": "",
+        "type": "text/vnd.tiddlywiki",
+        "tags": "table 2210.07763",
+        "created": "20260625093308066",
+        "modified": "20260625093308066",
+        "page": "000",
+        "latex_code": "\\begin{tabular}{l|p{.51\\textwidth}|p{.435\\textwidth}}\n        \\toprule\n        \\textbf{\\#} & \\textbf{\\textsc{Candle}{}} & \\textbf{GPT-resource} \\\\\n        \\midrule\n        1 & The bride usually wears red in a traditional Chinese wedding. &  Chinese people also like to wear modern clothes such as jeans and t-shirts. \\\\\n        \\midrule\n        2 & The Chinese wear white at funerals bec.\\ it is associated with mourning in Chinese culture. &  Shoes are also very important in Chinese culture.  \\\\\n        \\midrule\n        3 & The Chinese wear new clothes for the New Year to symbolize new beginnings. &  Chinese people also like to dress their children in very cute clothes. \\\\\n        \\midrule\n        4 & The costumes in Chinese opera are very colorful and important. & In China, you will often see little girls wearing dresses and boys wearing shorts. \\\\\n        \\midrule\n        5 & In ancient China, only the emperor was allowed to wear the color yellow. & In the winter, people in China wear coats and scarves to keep warm. \\\\\n        \\bottomrule\n    \\end{tabular}",
+        "latex_original": "\\begin{tabular}{l|p{.51\\textwidth}|p{.435\\textwidth}}\n        \\toprule\n        \\textbf{\\#} & \\textbf{\\systemname{}} & \\textbf{GPT-resource} \\\\\n        \\midrule\n        1 & The bride usually wears red in a traditional Chinese wedding. &  Chinese people also like to wear modern clothes such as jeans and t-shirts. \\\\\n        \\midrule\n        2 & The Chinese wear white at funerals bec.\\ it is associated with mourning in Chinese culture. &  Shoes are also very important in Chinese culture.  \\\\\n        \\midrule\n        3 & The Chinese wear new clothes for the New Year to symbolize new beginnings. &  Chinese people also like to dress their children in very cute clothes. \\\\\n        \\midrule\n        4 & The costumes in Chinese opera are very colorful and important. & In China, you will often see little girls wearing dresses and boys wearing shorts. \\\\\n        \\midrule\n        5 & In ancient China, only the emperor was allowed to wear the color yellow. & In the winter, people in China wear coats and scarves to keep warm. \\\\\n        \\bottomrule\n    \\end{tabular}"
+    }
+]

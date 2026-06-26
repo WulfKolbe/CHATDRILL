@@ -1,0 +1,19 @@
+created: 20260625093231913
+modified: 20260625093231913
+page: 000
+parent_section: 2305.05403_H1
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0012
+type: text/vnd.tiddlywiki
+
+This survey is structured as follows: In Section (ref), we start with the foundations of the logical framework in which KBs operate, the open world assumption (OWA),
+incompleteness, the implications for query answering [reiter1981closed], as well as the formal semantics of completeness and cardinality assertions [darari2013completeness]. 
+In Section (ref), we discuss how recall can be estimated automatically. We present supervised machine learning methods [galarraga2017predicting], unsupervised techniques such as species sampling [trushkowsky2013crowdsourced,luggen2019non], density-based estimators [lajus2018all], statistical invariants about number distributions [soulet2018representativeness], and linguistic theories about completeness in human conversations [razniewski2019coverage].
+In Section (ref), we focus on determining the cardinality of a predicate (i.e., its number of objects for a given subject) from KBs and from text. We show how cardinality information from a KBs can be identified and used to 
+ assess recall [ghosh2020uncovering], how this information can be extracted from natural language documents [mirza2018enriching], and how this differs from mining functional cardinalities that remain invariant given any subject (for instance, all humans have one birthplace) [giacometti2019mining].
+In Section (ref), we focus on identifying salient negations. We show why explicit negations about KB entities are needed in open-world settings. We present methods to identify negations using inferences from the KB itself [arnaout020enriching,arnaout2021wikinegata,arnaoutcikm2022,safavi-etal-2021-negater,safavi2020generating] and methods to extract negations from various textual sources [karagiannis2019mining,arnaout020enriching], in particular query logs. We also outline open issues such as the precision/salience trade-off and ontology modelling and maintenance.
+In Section (ref), we discuss relative recall, i.e., more relaxed notions of recall that stop short of aiming to capture all knowledge from the real world. We show how recall can be measured by extrinsic use cases like question answering and entity summarization [hopkinson2018demand,razniewski2020structured], by comparison with open information extraction or external reference resources [gashteovski2020aligning,mishra2017domain], and by comparison with other comparable entities inside the KB [balaraman2018recoin,ores]. 
+In Section 7, we conclude with recent topics, recommendations towards making KBs recall-aware, and open research challenges. \begin{revision}
+In particular, large language models (LLMs) have recently shaken up knowledge-centric computing.
+Although completeness and recall research has yet to capitalize on these advances, we highlight several ways by which LLMs are likely to impact this area. 
+\end{revision}

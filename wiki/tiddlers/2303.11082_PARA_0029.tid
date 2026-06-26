@@ -1,0 +1,9 @@
+created: 20260625093242023
+modified: 20260625093242023
+page: 000
+parent_section: 2303.11082_H11
+tags: paragraph 2303.11082
+title: 2303.11082_PARA_0029
+type: text/vnd.tiddlywiki
+
+We use a rank-based metric and calculate the recall that our method achieves at 90% precision ({{2303.11082_FO0010||FO}}). To compute {{2303.11082_FO0011||FO}}, we sort the predictions in descending order of their prediction probability, and threshold predictions when average precision drops below 90%. When determining which prediction is true or false, we have to consider that a subject-relation pair can be associated with multiple valid objects. Therefore, a prediction is true, when it is among the valid objects and false otherwise.

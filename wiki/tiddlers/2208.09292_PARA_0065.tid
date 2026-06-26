@@ -1,0 +1,11 @@
+created: 20260625095716233
+modified: 20260625095716233
+page: 000
+parent_section: 2208.09292_H10
+tags: paragraph 2208.09292
+title: 2208.09292_PARA_0065
+type: text/vnd.tiddlywiki
+
+\begin{comment}
+\noindent
+Meta-categories of negative statements Beyond the binary assessment (salient or not, correct or not), we aim to further understand how meaningful generated negations are. For this purpose, we define further categories like ``opinion'', ``lacking context''. We submit a random sample of 50 concepts from the previous 200 and ask 3 annotators to choose the best fitting category given a negation. The results are shown in Table (ref). As one can see, all methods struggle with opinionated statements, and \uncommon{}\textsuperscript{R} produces the highest percentage of judgeable and thematic statements.

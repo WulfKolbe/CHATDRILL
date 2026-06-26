@@ -1,0 +1,12 @@
+created: 20260625093231915
+modified: 20260625093231915
+page: 000
+parent_section: 2305.05403_H17
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0168
+type: text/vnd.tiddlywiki
+
+\begin{example}
+The negative statement {{2305.05403_FO0131||FO}}\fact{Max Planck}{educatedAt}{The University of Cambridge} with provenance ``unlike the previous 3 out of 3 winners of the Nobel Prize in Physics'' is favored over {{2305.05403_FO0132||FO}}\fact{Max Planck}{citizenOf}{France} with provenance ``unlike 3 out of the previous 18 winners of the Nobel Prize in Physics''.
+\end{example}
+In this example, temporal recency is rewarded. In other words, the same peer frequency that is far behind in the ordered peers will receive a lower score. Moreover this work introduces the notion of conditional negation, as opposed to the previous simple ones. While a simple negation is expressed using 1 negative statement, {{2305.05403_FO0133||FO}}\fact{Albert Einstein}{educatedAt}{Harvard}, a conditional negation goes beyond 1 to express negative information that is true only under certain condition(s).

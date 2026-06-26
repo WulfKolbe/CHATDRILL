@@ -1,0 +1,10 @@
+created: 20260625093206654
+modified: 20260625093206654
+page: 000
+parent_section: 2305.16755_H4
+tags: paragraph 2305.16755
+title: 2305.16755_PARA_0034
+type: text/vnd.tiddlywiki
+
+\noindent
+Maintenance. Ideally, models must always keep track of real-world changes which affect the truthfulness of statements, coverage of emerging entities, etc. This is relatively easy in the collaborative knowledge graphs, which are updated on a daily basis. For LLMs, the process of re-training is much more expensive. e.g., in May 2023, ChatGPT still generates the statement brendan fraser has never won an oscar, which is no longer true, due to his win in 2023 (the training of the model has been completed in September 2021).

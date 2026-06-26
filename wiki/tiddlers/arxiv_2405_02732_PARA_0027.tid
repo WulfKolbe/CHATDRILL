@@ -1,0 +1,11 @@
+created: 20260625080827137
+modified: 20260625080827137
+page: 000
+parent_section: arxiv_2405_02732_H5
+tags: paragraph arxiv_2405_02732
+title: arxiv_2405_02732_PARA_0027
+type: text/vnd.tiddlywiki
+
+The default passage ranking is directly derived from retriever scores.
+ Additionally, we propose two
+ {\em re-ranking heuristics} to enhance the richness and aptness of top-{{arxiv_2405_02732_FO0004||FO}} passages.

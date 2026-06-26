@@ -1,0 +1,12 @@
+created: 20260625110956922
+modified: 20260625110956922
+page: 000
+parent_section: 2110.13883_H8
+tags: paragraph 2110.13883
+title: 2110.13883_PARA_0056
+type: text/vnd.tiddlywiki
+
+To obtain a dissimilarity measure from a random forest, we can utilize the proximity score for random forests proposed by Breiman [breiman:01:rf]. That is, let {{2110.13883_FO0247||FO}} denote the number of trees for which data points {{2110.13883_FO0248||FO}} and {{2110.13883_FO0249||FO}} end up in the same leaf and let {{2110.13883_FO0250||FO}} be the number of trees, the proximity score between two data points {{2110.13883_FO0251||FO}} and {{2110.13883_FO0252||FO}} is defined as
+{{2110.13883_FO0253||FO}}.
+Since {{2110.13883_FO0254||FO}}, we can compute a dissimilarity between two points as {{2110.13883_FO0255||FO}}. In their empirical evaluation, Madhyastha et al. [madhyastha:20:gf] demonstrate that {{2110.13883_FO0256||FO}} robustly recovers geodesic neighborhoods from high-dimensional data with many independent or noise dimensions.
+As geodesic nearest neighbors, they define points that lie close on the low-dimensional manifold.

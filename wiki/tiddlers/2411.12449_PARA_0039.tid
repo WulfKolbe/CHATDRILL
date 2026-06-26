@@ -1,0 +1,9 @@
+created: 20260625093007936
+modified: 20260625093007936
+page: 000
+parent_section: 2411.12449_H4
+tags: paragraph 2411.12449
+title: 2411.12449_PARA_0039
+type: text/vnd.tiddlywiki
+
+Each Neon tuple includes a time-stamp, followed by the LLM-generated news entity-interaction. We represent Neon as a datastore ({{2411.12449_FO0097||FO}}) with each entry as a tuple {{2411.12449_FO0098||FO}}, where {{2411.12449_FO0099||FO}} is the LLM-generated news entity-interaction, and {{2411.12449_FO0100||FO}} is the time-stamp of {{2411.12449_FO0101||FO}}. Following prior work [DBLP:journals/corr/abs-2201-10005, contriever], we employ off-the-shelf models to perform dense indexing of {{2411.12449_FO0102||FO}}, creating a temporal datastore that supports efficient retrieval. User queries {{2411.12449_FO0103||FO}} (original and reformulated) are similarly converted into dense vectors using the same model, allowing retrieval of the top-{{2411.12449_FO0104||FO}} relevant entity-interactions by maximizing semantic similarity. This approach is retriever-agnostic, allowing for integration with any suitable retriever model.

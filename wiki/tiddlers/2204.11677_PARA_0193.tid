@@ -1,0 +1,10 @@
+created: 20260625093448815
+modified: 20260625093448815
+page: 000
+parent_section: 2204.11677_H16
+tags: paragraph 2204.11677
+title: 2204.11677_PARA_0193
+type: text/vnd.tiddlywiki
+
+\myparagraph{\convinse outperforms baselines} We observe that the SRs in \convinse are significantly more effective than question rewriting/resolution and the prepend baselines. SRs provide the right balance between conciseness and coverage. Conciseness (SRs are just 6-7 words on average, Table (ref)) helps effective retrieval with
+the

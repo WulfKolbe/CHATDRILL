@@ -1,0 +1,13 @@
+created: 20260625093047341
+modified: 20260625093047341
+page: 000
+parent_section: 2405.02732_H13
+tags: paragraph 2405.02732
+title: 2405.02732_PARA_0066
+type: text/vnd.tiddlywiki
+
+As detailed in Section (ref), the ground-truth
+O lists are derived from online sources with high quality control.
+Inevitably, such lists are often incomplete, particularly for books with hundreds of minor characters.
+Therefore, we also evaluate
+by {\em pooling-based ground truth}, where the true positives within the union of all O values returned by all the methods is the complete ground truth.

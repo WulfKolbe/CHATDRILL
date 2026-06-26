@@ -1,0 +1,9 @@
+created: 20260625093341706
+modified: 20260625093341706
+page: 000
+parent_section: 2209.07250_H32
+tags: paragraph 2209.07250
+title: 2209.07250_PARA_0154
+type: text/vnd.tiddlywiki
+
+Finding instances are much harder, with the top-5 instances being false positives (names of the band members) with composition credits varying vastly across songs and albums. CoQEx identifies one joint composition ``Maggie Mae'' and one album ``A Hard Day’s Night'' whose title track and majority of the album songs are written by Lennon, but is not very confident, scoring it very low (0.01).

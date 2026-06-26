@@ -1,0 +1,11 @@
+created: 20260625093057255
+modified: 20260625093057255
+page: 000
+parent_section: 2311.01314_H1
+tags: paragraph 2311.01314
+title: 2311.01314_PARA_0021
+type: text/vnd.tiddlywiki
+
+Our experiments compare against several baselines, including LLM-based ranking.
+We focus on the book domain, using slices of datasets from Amazon and Goodreads, where we select users with long review text (see Table (ref) for dataset statistics).
+Code and data are available at {\small\url{https://personalization.mpi-inf.mpg.de/CUP}}.

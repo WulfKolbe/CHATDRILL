@@ -1,0 +1,24 @@
+created: 20260625080827350
+modified: 20260625080827350
+page: 000
+parent_section: arxiv_2311_01314_H7
+tags: paragraph arxiv_2311_01314
+title: arxiv_2311_01314_PARA_0051
+type: text/vnd.tiddlywiki
+
+To ensure that the selected set is not dominated by a single review, the sentences are picked from different reviews in a round-robin manner.
+\item {\bf ChatGPT-generated Profiles:}
+feeding all reviews of a user, in large chunks, 
+into ChatGPT and {instructing} it to characterize the user's {book} interests 
+{with a few keyphrases.}
+\item {\bf T5-generated Keywords:} 
+using a T5 model fine-tuned for keyword generation,
+to cast each user's review text into a set of keywords, concatenated to create the profile.
+\item {\bf Llama-generated Profiles:} 
+instructing Llama [DBLP:journals/corr/abs-2407-21783] to generate profiles given the user reviews in two formats: keywords, and first-person narrative, by giving it a few in-context examples.
+\squishend
+We 
+provide
+anecdotal 
+examples of selected user profile constructions
+in Table (ref).

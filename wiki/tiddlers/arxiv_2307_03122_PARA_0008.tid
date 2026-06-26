@@ -1,0 +1,9 @@
+created: 20260625080847348
+modified: 20260625080847348
+page: 000
+parent_section: arxiv_2307_03122_H3
+tags: paragraph arxiv_2307_03122
+title: arxiv_2307_03122_PARA_0008
+type: text/vnd.tiddlywiki
+
+In addition, we propose a collection of carefully designed manual prompts to evaluate and compare the generated objects for multi-valued relations. We create 50 diverse relation-specific prompts by incorporating domain knowledge, relation type, and variations in sentence structure and grammar. Our prompts differ in verb form, tense, placement of the masked token (whether it is predicted in a prefix, suffix, or cloze-style), and whether or not there is a period and object type in the context.

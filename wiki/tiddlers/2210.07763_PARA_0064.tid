@@ -1,0 +1,12 @@
+created: 20260625093308064
+modified: 20260625093308064
+page: 000
+parent_section: 2210.07763_H7
+tags: paragraph 2210.07763
+title: 2210.07763_PARA_0064
+type: text/vnd.tiddlywiki
+
+The probability of {{2210.07763_FO0008||FO}} entailing {{2210.07763_FO0009||FO}} will be taken as the probability of {{2210.07763_FO0010||FO}} being labeled as {{2210.07763_FO0011||FO}}, denoted as {{2210.07763_FO0012||FO}}.
+For example, with sentence ``German October festivals are a celebration of beer and fun'',
+the candidate entailments will be ``This text is about drinks'', ``... about food'', ``... about traditions'', and so on. 
+Multiple of these facets may yield high scores in these NLI tests.

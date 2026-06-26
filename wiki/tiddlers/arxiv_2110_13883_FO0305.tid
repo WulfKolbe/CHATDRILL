@@ -1,0 +1,11 @@
+caption: \sqrt{2n}
+created: 20260625080931152
+displayMode: false
+latex: \sqrt{2n}
+latex_original: \sqrt{2n}
+modified: 20260625080931152
+tags: formula arxiv_2110_13883
+title: arxiv_2110_13883_FO0305
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

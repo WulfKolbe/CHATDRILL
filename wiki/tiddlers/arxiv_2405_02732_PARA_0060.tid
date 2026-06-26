@@ -1,0 +1,14 @@
+created: 20260625080827137
+modified: 20260625080827137
+page: 000
+parent_section: arxiv_2405_02732_H13
+tags: paragraph arxiv_2405_02732
+title: arxiv_2405_02732_PARA_0060
+type: text/vnd.tiddlywiki
+
+The presented methodology comes with many options for its different components, with the most important choices 
+occurring for ranking, batching and scrutinization.
+In our experiments, we focus on 
+configurations for these three components,
+labeling them accordingly, e.g., as {\em num/sim/thr} or {\em amp/neo/pred}. 
+The {\em thr} classifier with default setting {{arxiv_2405_02732_FO0053||FO}} is abbreviated as {\em thr80}.

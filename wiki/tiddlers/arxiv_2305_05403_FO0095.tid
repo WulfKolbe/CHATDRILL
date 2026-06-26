@@ -1,0 +1,11 @@
+caption: i \in [0,n]
+created: 20260625080853724
+displayMode: false
+latex: i \in [0,n]
+latex_original: i \in [0,n]
+modified: 20260625080853724
+tags: formula arxiv_2305_05403
+title: arxiv_2305_05403_FO0095
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

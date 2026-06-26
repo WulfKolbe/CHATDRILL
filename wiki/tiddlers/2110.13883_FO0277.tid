@@ -1,0 +1,11 @@
+caption: \epsilon > 0
+created: 20260625110956924
+displayMode: false
+latex: \epsilon > 0
+latex_original: \epsilon > 0
+modified: 20260625110956924
+tags: formula 2110.13883
+title: 2110.13883_FO0277
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

@@ -1,0 +1,9 @@
+created: 20260625093027647
+modified: 20260625093027647
+page: 000
+parent_section: 2411.04920_H13
+tags: paragraph 2411.04920
+title: 2411.04920_PARA_0078
+type: text/vnd.tiddlywiki
+
+We performed a parallel exploration using Llama-3.1-70B-Instruct on local HPC hardware, and while accuracy is higher (69% of triples verified true in a test run), this did not scale. We also envisioned a run using the strongest publicly available LLM, GPT-4o (80% triples verified true), however, by its 15x higher API cost, and its estimated 25x larger parameter set, assuming knowledge is roughly proportional to parameters, at about \$825K, this is beyond our budget.

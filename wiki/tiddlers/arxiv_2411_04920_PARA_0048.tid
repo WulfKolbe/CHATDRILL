@@ -1,0 +1,10 @@
+created: 20260625080816564
+modified: 20260625080816564
+page: 000
+parent_section: arxiv_2411_04920_H6
+tags: paragraph arxiv_2411_04920
+title: arxiv_2411_04920_PARA_0048
+type: text/vnd.tiddlywiki
+
+\paragraph{\ourkb{} statistics}
+Our KB contains a total of 101M triples for 2.9M entities, organized into 567K relations and 4,715 classes. This gives an average of 35 triples per subject, with two distinct clusters, in particular, 860K entities with 10 triples and 66K with 50 triples, with most others near these values. Of all triples, more than 37M have an entity as object, and more than 64M have a literal as an object. The average length of entity labels is 21.8 characters. Example output for Vannevar Bush is shown in

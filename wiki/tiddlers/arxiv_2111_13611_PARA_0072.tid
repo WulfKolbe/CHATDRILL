@@ -1,0 +1,14 @@
+created: 20260625080930847
+modified: 20260625080930847
+page: 000
+parent_section: arxiv_2111_13611_H11
+tags: paragraph arxiv_2111_13611
+title: arxiv_2111_13611_PARA_0072
+type: text/vnd.tiddlywiki
+
+\squishlist
+\item[1.] Random: A random sample of documents.
+\item[2.] IR-Relevance: Using BM25 to identify the most relevant documents.
+\item[3.] Coverage Prediction: HERB's predictions to rank documents.
+\item[4.] Coverage Oracle: Selecting documents by their ground-truth labels from DoCo. This ranking gives an upper bound on what an ideal method could achieve.
+\squishend

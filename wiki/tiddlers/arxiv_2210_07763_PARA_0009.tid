@@ -1,0 +1,19 @@
+created: 20260625080858062
+modified: 20260625080858062
+page: 000
+parent_section: arxiv_2210_07763_H1
+tags: paragraph arxiv_2210_07763
+title: arxiv_2210_07763_PARA_0009
+type: text/vnd.tiddlywiki
+
+\squishlist
+\item \stmt
+{subject:East Asia, facet:food, Tofu is a
+major 
+ingredient in 
+many 
+East Asian cuisines}, or
+\item \stmt
+{subject:firefighter, facet:behavior, Firefighters use ladders to reach fires}. 
+\squishend
+The value of having a KG with this information lies in making AI applications more situative and more robust.

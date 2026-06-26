@@ -1,0 +1,9 @@
+created: 20260625080853722
+modified: 20260625080853722
+page: 000
+parent_section: arxiv_2305_05403_H12
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0103
+type: text/vnd.tiddlywiki
+
+For a given predicate, parent, if we see that a significant portion of the entities in the class Person have two parent objects, then we can say that the predicate has a maximum cardinality of 2. This cascades to the subclasses of Person, for instance to scientists, physicists and so on unless any of the subclass has a tighter bound for significant number of its members. This is closely related to outlier detection, but with a focus on mining generic constraints, with using them for outlier detection being only one of several possible applications. For example, with the above constraint in mind, entities of type person with 6 parents (which are relatively few) could be ignored.

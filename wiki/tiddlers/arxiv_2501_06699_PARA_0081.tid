@@ -1,0 +1,13 @@
+created: 20260625080804874
+modified: 20260625080804874
+page: 000
+parent_section: arxiv_2501_06699_H11
+tags: paragraph arxiv_2501_06699
+title: arxiv_2501_06699_PARA_0081
+type: text/vnd.tiddlywiki
+
+\parai{In-context learning} enables the model to learn from the user's input at inference time. A key technique is prompt engineering [DBLP:journals/csur/LiuYFJHN23]: phrasing the prompt(s) issued to the model in order to elicit a more favorable response. 
+ This can take the form of giving background context about the user or the task at hand, or giving specific instructions to the system.
+ A common technique is to include examples of desired inputs and outputs in the prompt, enabling few-shot learning [DBLP:journals/corr/abs-2301-00234]. 
+ Another technique, called chain-of-thought [DBLP:conf/nips/Wei0SBIXCLZ22], breaks down a complex request into a sequence of intermediate steps.
+ In some use-cases, these techniques lead to impressive behavior, but they are also brittle in the sense that slightly different prompts can lead to inconsistent outputs.

@@ -1,0 +1,9 @@
+created: 20260625110956922
+modified: 20260625110956922
+page: 000
+parent_section: 2110.13883_H7
+tags: paragraph 2110.13883
+title: 2110.13883_PARA_0055
+type: text/vnd.tiddlywiki
+
+where {{2110.13883_FO0240||FO}} is the cumulative sum of the first {{2110.13883_FO0241||FO}} entries of the ordered sequence {{2110.13883_FO0242||FO}} and {{2110.13883_FO0243||FO}} the corresponding sum of squares, with {{2110.13883_FO0244||FO}}. In other words, after precomputing {{2110.13883_FO0245||FO}} and {{2110.13883_FO0246||FO}} in linear time, we can compute the variance for an arbitrary segment in constant time.

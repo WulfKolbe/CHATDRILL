@@ -1,0 +1,9 @@
+created: 20260625093341705
+modified: 20260625093341705
+page: 000
+parent_section: 2209.07250_H5
+tags: paragraph 2209.07250
+title: 2209.07250_PARA_0047
+type: text/vnd.tiddlywiki
+
+Algorithm (ref) shows the outline for answer inference. We run all relevant documents, {{2209.07250_FO0004||FO}} for a given query though the span prediction model to get the candidate spans comprised of the answer span, {{2209.07250_FO0005||FO}}, and model confidence, {{2209.07250_FO0006||FO}}, (Line 3-4). If the span is non-empty and confidence of the model is higher than a threshold, {{2209.07250_FO0007||FO}}, then we extract integer count from the span using the ExtractCount function (Line 5-6). If the integer extraction in non-empty, we save the span, the extracted integer and the model confidence (Lines 7-9).

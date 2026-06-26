@@ -1,0 +1,9 @@
+created: 20260625093231914
+modified: 20260625093231914
+page: 000
+parent_section: 2305.05403_H13
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0123
+type: text/vnd.tiddlywiki
+
+The first challenge {we} face is the variability of text: the same number can be expressed either as a numeral (``3''), as a word (``three''), or as an expression (``trilogy of books''). The second challenge is compositionality: quantities may have to be added up, as in " ... authored three books and 20 articles", which indicates that the predicate numberOfPublications has to have the value 3+20=23. Finally, we have to determine the target predicate: The sentences ``advised 7 students'' and ``supervised 7 students'' both map to the target enumerating predicate advised.

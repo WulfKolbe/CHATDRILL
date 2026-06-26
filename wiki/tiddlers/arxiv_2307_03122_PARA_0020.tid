@@ -1,0 +1,10 @@
+created: 20260625080847348
+modified: 20260625080847348
+page: 000
+parent_section: arxiv_2307_03122_H6
+tags: paragraph arxiv_2307_03122
+title: arxiv_2307_03122_PARA_0020
+type: text/vnd.tiddlywiki
+
+In Table (ref), the top-{{arxiv_2307_03122_FO0020||FO}} and prob-{{arxiv_2307_03122_FO0021||FO}} achieve balanced precision and recall scores. The count-probe achieves a high recall since almost always a count greater than 10 is predicted, and in our dataset, the average count of ground-truth objects across all \srpexample{s}{r} is in [1,10] range. 
+In the verification probe, the parameter {{arxiv_2307_03122_FO0022||FO}} is near zero for most relations, and the probability of \_yes is greater than \_no, leading to a selection of all the candidate objects. Although [schick-schutze-2021-exploiting] and others show the effect of verbalizing labels to \_yes and \_no tokens in the few-shot setting on classification and inference tasks, optimally using them for factual knowledge extraction remains an open challenge.

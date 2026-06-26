@@ -1,0 +1,9 @@
+created: 20260625080804874
+modified: 20260625080804874
+page: 000
+parent_section: arxiv_2501_06699_H3
+tags: paragraph arxiv_2501_06699
+title: arxiv_2501_06699_PARA_0048
+type: text/vnd.tiddlywiki
+
+\para{Summary} Our categorization reveals some trends regarding the strengths and weaknesses of SEs, KGs and LLMs for addressing different types of user needs. KGs help to deal with potentially-complex factual queries over curated knowledge in a precise, efficient and transparent manner; however, they are difficult to use, and do not help for more subjective criteria, nor for capturing the nuance required for explanations, planning or advice. SEs can help with all categories of queries, but only under the supposition that a document in the corpus exists that succinctly provides a (near-)direct answer; otherwise, if the requisite information is spread over multiple documents, combining it is left as an exercise to the user. LLMs help with all categories of queries, and can help to combine perspectives, facts, etc., from multiple documents, but can suffer from hallucinations, failing also to recognize false premises in questions; their performance for more obscure, domain-specific, multi-hop or analytical questions leaves room for improvement (per Figure (ref)), particularly when combined with their lack of transparency.

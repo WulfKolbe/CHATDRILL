@@ -1,0 +1,10 @@
+created: 20260625080929033
+modified: 20260625080929033
+page: 000
+parent_section: arxiv_2204_11677_H17
+tags: paragraph arxiv_2204_11677
+title: arxiv_2204_11677_PARA_0211
+type: text/vnd.tiddlywiki
+
+user intents, as indicated by Table (ref) on question lengths. Also, for interpretability, SRs are an easy-to-inspect gist that are comprehensible to a human user and at the same time being amenable for use with most standard IR models.
+Notably, for the more sophisticated models, the output length of the QU phase is almost stable on the two test sets with five turns and ten turns.

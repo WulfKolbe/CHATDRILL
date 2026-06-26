@@ -1,0 +1,12 @@
+created: 20260625093057256
+modified: 20260625093057256
+page: 000
+parent_section: 2311.01314_H9
+tags: paragraph 2311.01314
+title: 2311.01314_PARA_0062
+type: text/vnd.tiddlywiki
+
+\noindent{\bf Datasets:}
+
+We use two book datasets, Goodreads [wan2018item] (GR) and Amazon books [ni2019justifying] (AM), from the UCSD recommender systems repository [McAuleyDatasets].
+Both datasets contain item titles, genre or category tags, item description, and user reviews.

@@ -1,0 +1,20 @@
+created: 20260625080853251
+modified: 20260625080853251
+page: 000
+parent_section: arxiv_2306_17472_H1
+tags: paragraph arxiv_2306_17472
+title: arxiv_2306_17472_PARA_0004
+type: text/vnd.tiddlywiki
+
+However, notwithstanding great success for question answering to humans,
+the LM-based approach falls short on meeting the high quality requirements
+for enriching a KG with crisp SPO facts. Even if most answers are correct,
+there is a non-negligible fraction of false or even ``hallucinated'' outputs
+by the LM, and large KGs, like Wikidata [vrandevcic2014wikidata], cannot tolerate error rates
+above 10 percent. Moreover, even correct answers are not properly canonicalized:
+they are surface phrases and not unique entities in the KG. 
+These problems are further aggravated when the to-be-inferred O arguments
+are {\em long-tail} entities, with very few facts in Wikidata.
+Here, we call an entity long-tail when it has less than 14 triples in Wikidata, because nearly 50% of the Wikidata entities have fewer than 14 triples.
+These are exactly the pain point that calls for KBC. This paper 
+addresses this problem.

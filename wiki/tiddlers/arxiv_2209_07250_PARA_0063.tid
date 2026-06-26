@@ -1,0 +1,9 @@
+created: 20260625080859570
+modified: 20260625080859570
+page: 000
+parent_section: arxiv_2209_07250_H7
+tags: paragraph arxiv_2209_07250
+title: arxiv_2209_07250_PARA_0063
+type: text/vnd.tiddlywiki
+
+We again use the SpanBERT model (fine-tuned on SQuAD 2.0 dataset) to obtain candidates (tuples comprising answer span, {{arxiv_2209_07250_FO0024||FO}}, and the model confidence, {{arxiv_2209_07250_FO0025||FO}}) from every document (Lines 4-5), this time with a modified query, replacing ``how many'' in the query with ``which'' (or adding it), so as to not confuse the model on the answer type (Line 1). If the span is non-empty and has a confidence higher than threshold, {{arxiv_2209_07250_FO0026||FO}}, we extract named entities from the span (Lines 7-8) using an off-the-shelf NER. We create an inverted index of these instances, keeping track of the text segment it belongs to and the span prediction (Lines 9-10). The instances are then scored globally using either of the following alternative consolidation scoring approaches defined in the ConScore function in Lines 11-12. The instances are then ranked in decreasing order of their consolidated scores (Line 13).

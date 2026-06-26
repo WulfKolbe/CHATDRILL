@@ -1,0 +1,9 @@
+created: 20260625080816564
+modified: 20260625080816564
+page: 000
+parent_section: arxiv_2411_04920_H17
+tags: paragraph arxiv_2411_04920
+title: arxiv_2411_04920_PARA_0087
+type: text/vnd.tiddlywiki
+
+Figures (ref) and (ref) provide further examples of \ourkb{} content. In the first case, all triples appear correct, but the predicate famous\_for dominates the entity. In second case, most triples are correct, but the spouse is made up. In the online OpenReview appendix to this submission, we provide a larger sample of 10K triples.

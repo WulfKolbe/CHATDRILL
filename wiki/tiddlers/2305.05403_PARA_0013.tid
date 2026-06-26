@@ -1,0 +1,14 @@
+created: 20260625093231913
+modified: 20260625093231913
+page: 000
+parent_section: 2305.05403_H3
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0013
+type: text/vnd.tiddlywiki
+
+We first introduce foundational concepts, in particular, knowledge bases, their semantics, and the notions of completeness, recall and cardinality metadata. Knowledge bases are built on three pairwise disjoint infinite sets {{2305.05403_FO0001||FO}} (entities), {{2305.05403_FO0002||FO}} (predicates),
+and {{2305.05403_FO0003||FO}} (literals). Entities refer to uniquely identifiable objects such as Marie Curie, the Nobel Prize in Physics, or the city of Paris. Literals are strings or numerical values, such as dates, weights, and names. Predicates (also known as relations, properties, or attributes) link an entity to another entity or to a literal. Examples are birthPlace or has\-AtomicNumber. 
+A tuple {{2305.05403_FO0004||FO}} 
+is called a positive statement (also known as triple, assertion, or fact), where {{2305.05403_FO0005||FO}} is the subject, {{2305.05403_FO0006||FO}} the predicate and {{2305.05403_FO0007||FO}} the object [knowledge-representation]. A statement says that the subject stands in the given predicate with the object, as in \fact{Marie Curie}{won\-Award}{Nobel Prize in Physics}. 
+For our purposes, we will consider also negative statements, which say that the subject does not stand in the given relationship with the object, as in {{2305.05403_FO0008||FO}}\fact{Stephen Hawking}{wonAward}{Nobel Prize in Physics}.
+Entities can be organized into classes such as Physicists, Cities, or Awards. An entity can be an instance of a class, and this can be expressed by a triple with the predicate type, as in \fact{Marie Curie}{type}{Physicist}. Classes can be arranged in a subclass hierarchy. For example, physicists are scientists, and scientists are people. This, too, can be expressed by triples, using the special predicate subClassOf: \fact{Physicist}{subClassOf}{Scientist}. Some KBs allow specifying constraints, such as domain and range constraints on predicates, functionality constraints, or disjointness constraints between classes, usually in a formalism called Description Logic

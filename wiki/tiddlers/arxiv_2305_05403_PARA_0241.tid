@@ -1,0 +1,13 @@
+created: 20260625080853723
+modified: 20260625080853723
+page: 000
+parent_section: arxiv_2305_05403_H28
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0241
+type: text/vnd.tiddlywiki
+
+\fbox{
+\parbox{0.9\textwidth}{
+User: Text entailment: Please estimate how likely the first sentence entails the second.\\ 
+\mbox{\hspace{0.85cm}} Premise: John brought his daughter Mary to school.\\ 
+\mbox{\hspace{0.85cm} }Hypothesis: John has only one child.\\

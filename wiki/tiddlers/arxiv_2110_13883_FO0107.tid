@@ -1,0 +1,11 @@
+caption: \psi(n_{\ensuremath{\bm{x}}\xspace,i}{+}1) {+} \psi(n_{\ensuremath{\bm{y}}\xspace,i}{+}1)
+created: 20260625080931151
+displayMode: false
+latex: \psi(n_{\ensuremath{\bm{x}}\xspace,i}{+}1) {+} \psi(n_{\ensuremath{\bm{y}}\xspace,i}{+}1)
+latex_original: \psi(n_{\xg,i}{+}1) {+} \psi(n_{\yg,i}{+}1)
+modified: 20260625080931151
+tags: formula arxiv_2110_13883
+title: arxiv_2110_13883_FO0107
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

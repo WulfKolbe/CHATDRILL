@@ -1,0 +1,11 @@
+created: 20260625110956922
+modified: 20260625110956922
+page: 000
+parent_section: 2110.13883_H4
+tags: paragraph 2110.13883
+title: 2110.13883_PARA_0041
+type: text/vnd.tiddlywiki
+
+Simply put, Proposition (ref) shows that, for a data generative process as defined in Model (ref), estimating {{2110.13883_FO0172||FO}} is equivalent to estimating {{2110.13883_FO0173||FO}}. 
+If we are provided only a finite number of iid samples, which is the case in practice, it allows us to significantly improve the sample efficiency for estimating {{2110.13883_FO0174||FO}}. In particular, assume that we could recover the low-dimensional manifold {{2110.13883_FO0175||FO}} with {{2110.13883_FO0176||FO}} dimensions, which preserves the shared information on the high-dimensional space {{2110.13883_FO0177||FO}} with {{2110.13883_FO0178||FO}} dimensions. This could generally lead to a significant improvement of sample complexity for MI estimators. For the \ksg estimator, for example, the bias would decrease from
+{{2110.13883_FO0179||FO}} to {{2110.13883_FO0180||FO}}, and hence only depend on the relevant dimensions.

@@ -1,0 +1,11 @@
+created: 20260625080929321
+modified: 20260625080929321
+page: 000
+parent_section: arxiv_2204_10432_H24
+tags: paragraph arxiv_2204_10432
+title: arxiv_2204_10432_PARA_0089
+type: text/vnd.tiddlywiki
+
+\paragraphHdNospace{Other symptoms.}
+We use randomly selected posts labeled positive for other questions (symptoms) as negative examples for the given question.
+We ensure the selected posts do not contain positive patterns for the given question.

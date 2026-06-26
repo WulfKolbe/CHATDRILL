@@ -1,0 +1,9 @@
+created: 20260625080859570
+modified: 20260625080859570
+page: 000
+parent_section: arxiv_2209_07250_H31
+tags: paragraph arxiv_2209_07250
+title: arxiv_2209_07250_PARA_0147
+type: text/vnd.tiddlywiki
+
+In {\mysystem} the tasks concerning counts and instances are separately tackled and a natural question arises as to how counts and instances are spread across the snippets and whether they frequently coexist in the same document, like (``He wrote 73 songs, for example Let it Be, ...''). Frequent coexistence would be very beneficial for the approach, since it would allow focusing on identifying snippets that solve both sub-problems at once.

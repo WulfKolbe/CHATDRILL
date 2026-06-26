@@ -1,0 +1,9 @@
+created: 20260625080859570
+modified: 20260625080859570
+page: 000
+parent_section: arxiv_2209_07250_H20
+tags: paragraph arxiv_2209_07250
+title: arxiv_2209_07250_PARA_0117
+type: text/vnd.tiddlywiki
+
+The results on instance-annotated CoQuAD and natural Questions dataset are in Table (ref). We see that GoogleSDA is the best across datasets in terms of MAP and AR. {\mysystem} comes close in the CoQuAD dataset but performs worse than both baselines in the Natural Questions dataset. Instance explanations when readily available in KGs can be extracted with a single query. Texts prove useful when KG is incomplete or the SPARQL translation is not capture the user intent. We test this hypothesis in the next sub-section.

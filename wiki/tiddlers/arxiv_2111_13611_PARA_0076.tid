@@ -1,0 +1,10 @@
+created: 20260625080930847
+modified: 20260625080930847
+page: 000
+parent_section: arxiv_2111_13611_H12
+tags: paragraph arxiv_2111_13611
+title: arxiv_2111_13611_PARA_0076
+type: text/vnd.tiddlywiki
+
+Document coverage predictions are particularly important for massive-scale RE tasks targeted at long-tail entities, such as populating or augmenting a domain-specific knowledge base (e.g., about diabetes or jazz music). Such tasks may require screening a huge number of documents. Therefore, practically viable RE methods need to operate under budget constraints, regarding the monetary cost of computational resources (e.g., using and paying for cloud servers)
+as well as the cost of energy consumption and environmental impact.

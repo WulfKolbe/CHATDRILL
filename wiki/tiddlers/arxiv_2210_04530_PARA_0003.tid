@@ -1,0 +1,9 @@
+created: 20260625080858924
+modified: 20260625080858924
+page: 000
+parent_section: arxiv_2210_04530_H1
+tags: paragraph arxiv_2210_04530
+title: arxiv_2210_04530_PARA_0003
+type: text/vnd.tiddlywiki
+
+Children's material may partially counter this bias: As children's knowledge is still growing, seemingly obvious assertions may still be frequently expressed explicitly in such material. Note that this is not a binary question of whether some knowledge is expressed or not, but more a ranking problem: Prominent CSK repositories often do not struggle to recall relevant statements (e.g., Ascent [ascent] contains 2800 assertions for ``elephant''), but struggle to rank them properly. This is especially true for language-model based approaches of CSK compilation [hwang2020comet,west2021symbolic], which by design can assign every token in the vocabulary a probability, but should do so in sensible order.

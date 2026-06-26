@@ -1,0 +1,11 @@
+caption: >75\%
+created: 20260625080853980
+displayMode: false
+latex: >75\%
+latex_original: >75\%
+modified: 20260625080853980
+tags: formula arxiv_2303_11082
+title: arxiv_2303_11082_FO0015
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

@@ -1,0 +1,11 @@
+created: 20260625093341705
+modified: 20260625093341705
+page: 000
+parent_section: 2209.07250_H4
+tags: paragraph 2209.07250
+title: 2209.07250_PARA_0045
+type: text/vnd.tiddlywiki
+
+{\mysystem} extracts counts and instances (entity-mentions) from the text segments to subsequently i) consolidate the counts to present the best answer, ii) present 
+contextualization
+as a means to semantically qualifying the predicted count, and iii) ground the count in instances. We denote the set of relevant text segments for a query by {{2209.07250_FO0001||FO}}.

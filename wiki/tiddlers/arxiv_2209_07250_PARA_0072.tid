@@ -1,0 +1,9 @@
+created: 20260625080859570
+modified: 20260625080859570
+page: 000
+parent_section: arxiv_2209_07250_H9
+tags: paragraph arxiv_2209_07250
+title: arxiv_2209_07250_PARA_0072
+type: text/vnd.tiddlywiki
+
+We use 80% of the count queries with automated ground truth for training and 20% for test and development. We report our evaluations on the hand annotated subset of 322 CoQuAD queries which consists both the test data, with the automated ground truths and, queries without any direct answers. We manually annotate the queries with categories, counts, and count contexts. We also track the effect of time, availability of instances and count contexts on these queries. 142 queries that would benefit from instance explanations have at least top-5 prominent manually annotated instances for evaluating answer explanations.

@@ -1,0 +1,14 @@
+created: 20260625080816564
+modified: 20260625080816564
+page: 000
+parent_section: arxiv_2411_04920_H20
+tags: paragraph arxiv_2411_04920
+title: arxiv_2411_04920_PARA_0093
+type: text/vnd.tiddlywiki
+
+Wikidata: See \url{https://www.wikidata.org/wiki/Wikidata:Statistics} and \url{https://grafana.wikimedia.org/d/000000175/wikidata-datamodel-statements}.
+Wikidata5m: [wang-etal-2021-kepler]. 
+Yago4.5: [yago45]. 
+DBpedia: English version as per Table 2 in [dbpedia-statistics]. 
+NELL: As per Figure 5 (left) in [nell]. 
+Reverb: As per [reverb-linked] and \url{https://web.archive.org/web/20220307185343/https://openie.allenai.org/}.

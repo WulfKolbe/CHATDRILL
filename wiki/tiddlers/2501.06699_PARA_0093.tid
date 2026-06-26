@@ -1,0 +1,10 @@
+created: 20260625092952539
+modified: 20260625092952539
+page: 000
+parent_section: 2501.06699_H13
+tags: paragraph 2501.06699
+title: 2501.06699_PARA_0093
+type: text/vnd.tiddlywiki
+
+\parai{Construction} involves the initial creation of a KG from base sources of data. Initially this can involve a mix of information extraction (for text and other unstructured sources) and mapping (for structured sources) techniques. Key to constructing a high-quality KG is the disambiguation process, which assigns unique identifiers to distinct entities and relation types in the presence of synonyms (same string, different entities) and homonyms (different strings, same entity). For example, the KG distinguishes Caracas the city (Q1533 in Wikidata), and Caracas the album by Lou Donaldson (Q5037560 in Wikidata). 
+ Together with its knowledge of attribute values, relations, alias names and more, this makes the KG a key asset in text-mining tasks with entity linking -- mapping ambiguous names onto unique entities [DBLP:journals/tkde/ShenLLHWY23] -- which in turn is used to help construct and enrich KGs from text.

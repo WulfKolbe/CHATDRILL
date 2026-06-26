@@ -1,0 +1,9 @@
+created: 20260625093119694
+modified: 20260625093119694
+page: 000
+parent_section: 2308.06374_H9
+tags: paragraph 2308.06374
+title: 2308.06374_PARA_0106
+type: text/vnd.tiddlywiki
+
+In the domain of Build Environment, where it is vital to design and construct in a safe and sustainable way, a number of regulations and guidelines need to be met. Automated Compliance Code Checking has bloomed to support this, but still, in the past, it was quite challenging to interpret regulations and execute rules in 3D models automatically due to the ambiguity of the text, and the need for extensive expert knowledge for interpretation. Many applications now in this area have combined LLMs + KGs in addressing these challenges by following an LLMs enhanced KG approach [zhu2023llms]. LLMs interpret the text in the regulations and enhance a KG of rules, which are further serialized using dome Domain Specific Language [zhang2023transformer, wang2023deep]. Interrogating 3D models modeled as graphs using the Linked Building Data approach is another challenge for the domain as it requires skill sets in query languages like SPARQL. LLMs are helping in understanding human language written questions and converting those into relevant query languages by bringing a new way of how domain experts interact and interrogate 3D models and their various forms. An example of this is AI Speckle \footnote{https://speckle.systems/blog/ai-powered-conversations-with-speckle/}.

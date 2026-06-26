@@ -1,0 +1,10 @@
+created: 20260625080922310
+modified: 20260625080922310
+page: 000
+parent_section: arxiv_2208_09292_H7
+tags: paragraph arxiv_2208_09292
+title: arxiv_2208_09292_PARA_0045
+type: text/vnd.tiddlywiki
+
+\example{Candidates (can jump) and (can leap) are semantically similar, hence they are combined under the relaxed scoring. In particular, we compute: relaxed(elephant, can jump, {{arxiv_2208_09292_FO0054||FO}}(horse, [\text{can jump}]), (lion, [\text{can leap}]), (tiger, [\text{can jump}])\}) = {{arxiv_2208_09292_FO0055||FO}}tiger, lion, horse{{arxiv_2208_09292_FO0056||FO}}/3 = 1.0. 
+}

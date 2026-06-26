@@ -1,0 +1,16 @@
+created: 20260625110956925
+displayMode: true
+equation_number: 
+kind: Equation
+latex: \log \hat{f}_{\ensuremath{\bm{X}}\xspace}(\ensuremath{\bm{x}}\xspace_i) = \psi(k) - \psi(n) - \log V_{\ensuremath{\bm{x}}\xspace} \, ,
+latex_original: \log \hat{f}_{\Xg}(\xg_i) = \psi(k) - \psi(n) - \log V_{\xg} \, ,
+latex_tex: \log \hat{f}_{\ensuremath{\bm{X}}\xspace}(\ensuremath{\bm{x}}\xspace_i) = \psi(k) - \psi(n) - \log V_{\ensuremath{\bm{x}}\xspace} \, ,
+modified: 20260625110956925
+page: 000
+refnum: 
+score_tex: 1.0
+tags: equation 2110.13883
+title: 2110.13883_EQ0003
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode=true />

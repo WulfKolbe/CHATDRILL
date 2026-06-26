@@ -1,0 +1,11 @@
+caption: \hat{f}_{\ensuremath{\bm{X}}\xspace \ensuremath{\bm{Y}}\xspace}
+created: 20260625110956923
+displayMode: false
+latex: \hat{f}_{\ensuremath{\bm{X}}\xspace \ensuremath{\bm{Y}}\xspace}
+latex_original: \hat{f}_{\Xg \Yg}
+modified: 20260625110956923
+tags: formula 2110.13883
+title: 2110.13883_FO0008
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

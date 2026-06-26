@@ -1,0 +1,9 @@
+created: 20260625080930847
+modified: 20260625080930847
+page: 000
+parent_section: arxiv_2111_13611_H7
+tags: paragraph arxiv_2111_13611
+title: arxiv_2111_13611_PARA_0048
+type: text/vnd.tiddlywiki
+
+Each relation had a separate labeled set of documents, split into {{arxiv_2111_13611_FO0066||FO}} train, {{arxiv_2111_13611_FO0067||FO}} validation and {{arxiv_2111_13611_FO0068||FO}} test. Information leakage was prevented by splitting along entities, i.e., all documents on the same entity would exclusively be in one of train, validation or test set. The number of training samples per relation varies from {{arxiv_2111_13611_FO0069||FO}} (board-member) to {{arxiv_2111_13611_FO0070||FO}} (position-held). Since the label distribution in DoCo is imbalanced, the uninformative (or {{arxiv_2111_13611_FO0071||FO}}) class in all train datasets were undersampled to obtain a {{arxiv_2111_13611_FO0072||FO}}:{{arxiv_2111_13611_FO0073||FO}} distribution, while the validation and test datasets were kept unchanged to reflect the real-world imbalance. Named entities and numbers were masked.

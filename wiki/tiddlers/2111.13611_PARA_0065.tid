@@ -1,0 +1,9 @@
+created: 20260625093527300
+modified: 20260625093527300
+page: 000
+parent_section: 2111.13611_H9
+tags: paragraph 2111.13611
+title: 2111.13611_PARA_0065
+type: text/vnd.tiddlywiki
+
+We specifically inspected the IR baselines' performance to understand better why these are mediocre predictors at best. The IR signals about entire documents merely reflect that a document is on the proper topic given by the query entity, but that does not necessarily imply that the document contains many relational facts about the target entity. For RE coverage, IR-style document-query relevance is a necessary cue but not a sufficient criterion.

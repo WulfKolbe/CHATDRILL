@@ -1,0 +1,19 @@
+created: 20260625093448815
+modified: 20260625093448815
+page: 000
+parent_section: 2204.11677_H19
+tags: paragraph 2204.11677
+title: 2204.11677_PARA_0233
+type: text/vnd.tiddlywiki
+
+We presented \convinse, the first end-to-end framework for answering conversational questions over heterogeneous sources, covering knowledge bases (KBs), text corpora, Web tables, and Wikipedia infoboxes in a seamless manner. 
+Our approach marries ideas from different communities and
+their methodological paradigms. The learning of intent-explicit
+structured representations (SRs) is inspired by semantic frames in symbolic AI,
+but leaves its constituents in surface form without normalization.
+For retrieving relevant evidences from heterogeneous sources,
+we follow the line of IR thinking. The 
+design of SRs is vital here: the SRs provide enough structure to
+enhance effectiveness, but are lightweight and can
+be directly applied to KBs, text, tables, and infoboxes alike.
+Finally, the last stage of extracting answers adopts the NLP paradigm of QA over text.

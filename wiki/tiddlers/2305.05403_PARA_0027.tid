@@ -1,0 +1,9 @@
+created: 20260625093231913
+modified: 20260625093231913
+page: 000
+parent_section: 2305.05403_H4
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0027
+type: text/vnd.tiddlywiki
+
+A selection condition {{2305.05403_FO0019||FO}} is a statement {{2305.05403_FO0020||FO}}, where each component can either be instantiated, or a wildcard (``{{2305.05403_FO0021||FO}}''). For example, {{2305.05403_FO0022||FO}} is a selection condition. The result of a selection condition {{2305.05403_FO0023||FO}} on a KB {{2305.05403_FO0024||FO}} (written {{2305.05403_FO0025||FO}}) is the set of all statements in {{2305.05403_FO0026||FO}} that match {{2305.05403_FO0027||FO}} at its non-wildcard positions. For example, {{2305.05403_FO0028||FO}} selects all people born in Warsaw, and {{2305.05403_FO0029||FO}} selects all awards won by Marie Curie.

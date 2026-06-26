@@ -1,0 +1,9 @@
+created: 20260625093231914
+modified: 20260625093231914
+page: 000
+parent_section: 2305.05403_H8
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0074
+type: text/vnd.tiddlywiki
+
+This predicate has to obey certain statistical properties for Benford's Law to work. We can then collect the first digits of all numbers, and check whether the distribution conforms to Benford's Law. In the work of [soulet2018representativeness], this is done primarily to quantify to what degree the sample of entities in the KB is representative of the real world distribution. However, the data can also be used to compute the minimum number of entities that we would have to add to the KB in order for the distribution to conform to Benford's Law. Under the assumption that the real-world distribution follows Benford's Law, this number constitutes a lower bound for the number of missing entities.

@@ -1,0 +1,10 @@
+created: 20260625093231914
+modified: 20260625093231914
+page: 000
+parent_section: 2305.05403_H13
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0126
+type: text/vnd.tiddlywiki
+
+However, this information is not linked to the KB predicate hasChild, and it is also not trivial to recover the number 2. 
+Roy et al. [Roy2015ReasoningAQ] take this forward by proposing an IE system that targets quantities.

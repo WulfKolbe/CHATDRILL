@@ -1,0 +1,14 @@
+created: 20260625093047341
+modified: 20260625093047341
+page: 000
+parent_section: 2405.02732_H7
+tags: paragraph 2405.02732
+title: 2405.02732_PARA_0037
+type: text/vnd.tiddlywiki
+
+The retrieved top-{{2405.02732_FO0019||FO}} passages 
+ mention the subject in some form (e.g., first name, last name, or alias) and may contain other named entities. 
+ We append the passages into the prompt context for retrieval-augmented list generation 
+ [DBLP:journals/csur/LiuYFJHN23,DBLP:journals/corr/abs-2312-10997,DBLP:journals/corr/abs-2303-18223].
+ As LLMs have limits on input context (and GPU memory demands
+ increase with input length), we divide the top-{{2405.02732_FO0020||FO}} passages (ranked by retriever scores) into batches of {{2405.02732_FO0021||FO}} passages each (e.g., k=20, b=4 gives 5 batches). The O values generated from batch-wise processing are combined by their union for high recall.

@@ -1,0 +1,10 @@
+created: 20260625080929033
+modified: 20260625080929033
+page: 000
+parent_section: arxiv_2204_11677_H18
+tags: paragraph arxiv_2204_11677
+title: arxiv_2204_11677_PARA_0218
+type: text/vnd.tiddlywiki
+
+\myparagraph{Conversational question answering} Some methods for ConvQA over text use a hard history selection to obtain a question-relevant subset of the conversation history [qiu2021reinforced, qu2019bert, kaiser2020conversational].
+However, the more prevalent

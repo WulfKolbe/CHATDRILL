@@ -1,0 +1,20 @@
+created: 20260625080804874
+modified: 20260625080804874
+page: 000
+parent_section: arxiv_2501_06699_H7
+tags: paragraph arxiv_2501_06699
+title: arxiv_2501_06699_PARA_0062
+type: text/vnd.tiddlywiki
+
+SEs can be used to refine the knowledge of KGs in various ways relating to updates, verification, provenance, negation, etc.
+ For dynamic queries, many current events are first publicized via social media, news articles, etc., on the Web, wherein SEs can be used to incorporate novel information into the KG, and to deprecate obsolete facts (e.g., when a new president is inaugurated). 
+ SEs 
+ are also vital for checking and validating or invalidating statements
+ in a KG 
+ by finding supportive or contradictory evidence, boosting correctness.
+ In the context of the patchy coverage of KGs, 
+ SEs are the main source for content to run fact-centric information extraction on. Many open KGs tap into Wikipedia as a primary source (via either tools or human contributors), but for richer scope, tapping into a broader set of webpages is necessary. However, the state of the art in information extraction from such noisy text is not yet
+ able to provide facts with sufficiently high accuracy [DBLP:conf/ijcnlp/HanGLPYXLLZS20].
+ Another important issue where SEs can support KGs is how to cope with negation. As KGs follow the principle of the Open World Assumption, statements that are not in KG can either be false or merely missing.
+ As an example, a KG may state that Manuel Blum won the Turing Award but not list him among ACM Fellows. However, we do not know whether the KG has a complete list of ACM Fellows -- such that Blum is not a Fellow -- or Blum is just missing from what is an incomplete list.
+ Retrieving and analyzing webpages that provide tangible support or counter-evidence would be valuable to resolve the doubt.

@@ -1,0 +1,11 @@
+caption: d \gg \tilde{d}
+created: 20260625080931151
+displayMode: false
+latex: d \gg \tilde{d}
+latex_original: d \gg \tilde{d}
+modified: 20260625080931151
+tags: formula arxiv_2110_13883
+title: arxiv_2110_13883_FO0178
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

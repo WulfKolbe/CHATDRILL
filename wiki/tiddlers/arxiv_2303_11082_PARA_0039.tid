@@ -1,0 +1,9 @@
+created: 20260625080853980
+modified: 20260625080853980
+page: 000
+parent_section: arxiv_2303_11082_H13
+tags: paragraph arxiv_2303_11082
+title: arxiv_2303_11082_PARA_0039
+type: text/vnd.tiddlywiki
+
+Output Adjustment. To map prediction and ground truth, so a prediction ``French`` is correctly recognized for object ``France``, we use manually crafted dictionaries. Methods like string matching can always lead to incorrect mappings and sometimes even do not work for examples like the one shown. Therefore, we used two dictionaries mapping nationalities and countries on the one hand and religions and religious affiliations on the other hand. A prediction will be true if it belongs to the same entry in a relation-specific dictionary as the ground truth object and false otherwise.

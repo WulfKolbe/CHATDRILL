@@ -1,0 +1,9 @@
+created: 20260625093027647
+modified: 20260625093027647
+page: 000
+parent_section: 2411.04920_H1
+tags: paragraph 2411.04920
+title: 2411.04920_PARA_0004
+type: text/vnd.tiddlywiki
+
+Our approach builds on the following ideas: To overcome scaling issues, and obtain relevant knowledge, we utilize a commercial API that allows to massively batch requests, and utilize named entity recognition (NER) and carefully crafted prompts to restrict the explored space, along with prompts that encourage varied answer sizes. To obtain a coherent KB, we perform a set of canonicalization and disambiguation steps, entirely relying on the LLM itself. In summary, our salient contributions are:

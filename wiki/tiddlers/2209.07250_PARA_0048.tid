@@ -1,0 +1,9 @@
+created: 20260625093341705
+modified: 20260625093341705
+page: 000
+parent_section: 2209.07250_H5
+tags: paragraph 2209.07250
+title: 2209.07250_PARA_0048
+type: text/vnd.tiddlywiki
+
+The ExtractCount() sequentially applies rule-specific conversions before applying CogComp Quantifier to achieve maximum recall. The function first applying type conversion (int(``17''){{2209.07250_FO0008||FO}}17, float(``17.0''){{2209.07250_FO0009||FO}}17.0), followed by a dictionary based look-up for worded to integer conversion (``seventeen''{{2209.07250_FO0010||FO}}17) and lastly the CogComp Quantifier, proceeding only when the previous conversion yields empty results. The counts are further cleaned by removing fractions {{2209.07250_FO0011||FO}}, since counts are whole numbers.

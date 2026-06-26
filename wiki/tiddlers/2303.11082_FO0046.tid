@@ -1,0 +1,11 @@
+caption: \sim90\%
+created: 20260625093242024
+displayMode: false
+latex: \sim90\%
+latex_original: \sim90\%
+modified: 20260625093242024
+tags: formula 2303.11082
+title: 2303.11082_FO0046
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

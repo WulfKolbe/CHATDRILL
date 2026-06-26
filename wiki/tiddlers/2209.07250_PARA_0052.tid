@@ -1,0 +1,9 @@
+created: 20260625093341705
+modified: 20260625093341705
+page: 000
+parent_section: 2209.07250_H5
+tags: paragraph 2209.07250
+title: 2209.07250_PARA_0052
+type: text/vnd.tiddlywiki
+
+For example, for the candidate set {{2209.07250_FO0013||FO}} (confidences as subscripts), most confident would output 150, most frequent and median would return 180, and the weighted median 160.

@@ -1,0 +1,10 @@
+created: 20260625080853721
+modified: 20260625080853721
+page: 000
+parent_section: arxiv_2305_05403_H9
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0082
+type: text/vnd.tiddlywiki
+
+can be combined to estimate whether a given subject and a given predicate are complete in a given KB [galarraga2017predicting]. The simplest of these signals is the Partial Completeness Assumption 
+(PCA), which says that if the subject has some objects with the predicate, then no other objects are missing. Other signals can come from the dynamics of the KB: the No-Change Assumption says that if the number of objects has not changed over recent editions of the KB, then it has ``converged'' to the true number, and no more objects are missing. The Popularity Assumption says that if the subject is popular (i.e., has a Wikipedia page that is longer than a given threshold), then no objects are missing. A more complex signal is the Class Pattern Oracle. It assumes that if the subject is an instance of a certain class {{arxiv_2305_05403_FO0088||FO}}, then there are no missing objects. For example, if the subject is an instance of the class Living\-People, then no death date is missing. The Star Pattern Oracle does the same for predicates: If, e.g., a person has a death place then the person should have a death date.

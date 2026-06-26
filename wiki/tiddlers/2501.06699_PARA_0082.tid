@@ -1,0 +1,9 @@
+created: 20260625092952539
+modified: 20260625092952539
+page: 000
+parent_section: 2501.06699_H11
+tags: paragraph 2501.06699
+title: 2501.06699_PARA_0082
+type: text/vnd.tiddlywiki
+
+\parai{Retrieval-augmented generation} combines LLMs with search engines or other information-retrieval technologies to enable the ingestion of fresh Web contents for in-context learning, thus helping to mitigate the effects of stale and hallucinated outputs [DBLP:conf/nips/LewisPPPKGKLYR020,DBLP:conf/kdd/FanDNWLYCL24]. This topic is covered in more detail in the body of the article.

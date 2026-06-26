@@ -1,0 +1,9 @@
+created: 20260625093231914
+modified: 20260625093231914
+page: 000
+parent_section: 2305.05403_H13
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0125
+type: text/vnd.tiddlywiki
+
+[Mausam2012OpenLL,Corro2013ClausIECO] aim to extract relational statements from text, and these can also include cardinality information. For example, from the sentence Marie Curie has two children, these methods can extract \fact{Marie Curie}{has}{two children}.

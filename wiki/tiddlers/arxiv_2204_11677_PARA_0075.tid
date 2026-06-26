@@ -1,0 +1,13 @@
+created: 20260625080929032
+modified: 20260625080929032
+page: 000
+parent_section: arxiv_2204_11677_H4
+tags: paragraph arxiv_2204_11677
+title: arxiv_2204_11677_PARA_0075
+type: text/vnd.tiddlywiki
+
+Instead of trying to generate a full-fledged question, we rather aim
+to capture the semantic structure, using
+a syntax-agnostic approach.
+This can be perceived as a ``logical form'' for heterogeneous QA,
+where no explicit grounding or canonicalization is possible.

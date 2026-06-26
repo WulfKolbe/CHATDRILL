@@ -1,0 +1,10 @@
+created: 20260625080853722
+modified: 20260625080853722
+page: 000
+parent_section: arxiv_2305_05403_H16
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0155
+type: text/vnd.tiddlywiki
+
+Web-scale KBs operate under the Open-world Assumption (OWA). This means that an absent statement is not false, but only unknown. The only ways to specify negative information is to either explicitly materialize negative statements in the KB, or to assert constraints that implicitly entail negative statements.
+In this section, we focus of the former case. Even though most KB construction projects do not actively collect negative statements,

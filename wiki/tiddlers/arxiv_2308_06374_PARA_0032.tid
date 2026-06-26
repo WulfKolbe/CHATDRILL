@@ -1,0 +1,9 @@
+created: 20260625080831230
+modified: 20260625080831230
+page: 000
+parent_section: arxiv_2308_06374_H5
+tags: paragraph arxiv_2308_06374
+title: arxiv_2308_06374_PARA_0032
+type: text/vnd.tiddlywiki
+
+Knowledge extraction from text generally entails automatic extraction of entities and associated relations, with traditional pipelines processing vast amounts of sentences and documents. This process enables the transformation of raw text into actionable knowledge, facilitating various applications such as information retrieval, recommendation systems, and KG construction. The language understanding capabilities of LLMs have enhanced this process.

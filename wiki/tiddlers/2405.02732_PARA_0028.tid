@@ -1,0 +1,10 @@
+created: 20260625093047341
+modified: 20260625093047341
+page: 000
+parent_section: 2405.02732_H5
+tags: paragraph 2405.02732
+title: 2405.02732_PARA_0028
+type: text/vnd.tiddlywiki
+
+For a given SP pair, formulated as a natural language query, the dense retriever ranks 
+ top-{{2405.02732_FO0005||FO}} passages based on cosine similarity to the query vector.

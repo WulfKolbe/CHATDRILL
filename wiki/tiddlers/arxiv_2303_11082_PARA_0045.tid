@@ -1,0 +1,10 @@
+created: 20260625080853980
+modified: 20260625080853980
+page: 000
+parent_section: arxiv_2303_11082_H15
+tags: paragraph arxiv_2303_11082
+title: arxiv_2303_11082_PARA_0045
+type: text/vnd.tiddlywiki
+
+We filter the {{arxiv_2303_11082_FO0039||FO}} missing facts relation-wise by keeping only the facts with high accuracy predictions and then sample {{arxiv_2303_11082_FO0040||FO}} missing facts with high accuracy predictions. This results in one prediction per subject-relation pair, i.e. 350 predicted missing facts in total.
+ For these 350 missing facts, we use Amazon Mechanical Turk (mturk) for human annotations. An annotator is asked to evaluate a predicted missing fact. For readability reasons, each fact is formulated into relation-specific statements such as ``The native language of Marcus Adams is English``, where ``English`` is the prediction and nativeLanguage the relation. The annotators are given a five-value scale: true, plausible, unknown, implausible, and false. Before voting, we ask them to look up the fact on the web. They are required to give an evidence link and copy a text snippet supporting their voting. In case they vote unknown, they have to explain their voting. This way we ensure that annotators leave reasonable votes. We can say that all annotators left understandable insights regarding their voting.

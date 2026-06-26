@@ -1,0 +1,12 @@
+created: 20260625080853721
+modified: 20260625080853721
+page: 000
+parent_section: arxiv_2305_05403_H4
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0026
+type: text/vnd.tiddlywiki
+
+We say that a statement {{arxiv_2305_05403_FO0013||FO}} from the domain of interest is true in the real world, if {{arxiv_2305_05403_FO0014||FO}}, and a negative statement {{arxiv_2305_05403_FO0015||FO}} from the domain of interest is true in the real world (``truly false''), if {{arxiv_2305_05403_FO0016||FO}}.
+We say that another KB {{arxiv_2305_05403_FO0017||FO}} is
+correct, if {{arxiv_2305_05403_FO0018||FO}}. Correctness is usually a core focus in KB construction [paulheim2017knowledge] (also referred to as precision, truthfulness or accuracy). 
+Nevertheless, KBs are of course not all correct at scale. However, since we focus on incompleteness in this survey, we will make the simplifying assumption that the KB at hand is correct.

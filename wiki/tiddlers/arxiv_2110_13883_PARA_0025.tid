@@ -1,0 +1,9 @@
+created: 20260625080931150
+modified: 20260625080931150
+page: 000
+parent_section: arxiv_2110_13883_H3
+tags: paragraph arxiv_2110_13883
+title: arxiv_2110_13883_PARA_0025
+type: text/vnd.tiddlywiki
+
+and similarly, we define {{arxiv_2110_13883_FO0079||FO}} as the number of data points with a smaller distance to point {{arxiv_2110_13883_FO0080||FO}} than {{arxiv_2110_13883_FO0081||FO}} on the {{arxiv_2110_13883_FO0082||FO}} subspace. As an example consider the two-dimensional plot in Figure (ref). In this example {{arxiv_2110_13883_FO0083||FO}}, that is, except {{arxiv_2110_13883_FO0084||FO}} itself, there exists only one further point with a distance {{arxiv_2110_13883_FO0085||FO}} to {{arxiv_2110_13883_FO0086||FO}} for {{arxiv_2110_13883_FO0087||FO}}. On the other hand, there exist {{arxiv_2110_13883_FO0088||FO}} data points, which fulfill this criterium for the {{arxiv_2110_13883_FO0089||FO}} subspace. In general, it holds that {{arxiv_2110_13883_FO0090||FO}}, as well as {{arxiv_2110_13883_FO0091||FO}}.

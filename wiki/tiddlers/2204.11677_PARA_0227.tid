@@ -1,0 +1,17 @@
+created: 20260625093448815
+modified: 20260625093448815
+page: 000
+parent_section: 2204.11677_H18
+tags: paragraph 2204.11677
+title: 2204.11677_PARA_0227
+type: text/vnd.tiddlywiki
+
+self-contained question
+from the incomplete utterance
+that can be answered by standalone QA systems [vakulenko2021question, xu2020learning, elgohary2019can, voskarides2020query, raposo2022question].
+Such approaches can either take the form of 
+question rewriting,
+which generates a complete question from scratch [vakulenko2021question, raposo2022question],
+or question resolution, which adds
+relevant terms from the conversational history to the question [voskarides2020query].
+Question rewriting can entail unnecessary complexity

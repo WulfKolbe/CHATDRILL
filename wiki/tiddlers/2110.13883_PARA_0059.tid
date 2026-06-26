@@ -1,0 +1,9 @@
+created: 20260625110956922
+modified: 20260625110956922
+page: 000
+parent_section: 2110.13883_H8
+tags: paragraph 2110.13883
+title: 2110.13883_PARA_0059
+type: text/vnd.tiddlywiki
+
+In short, for all pairs {{2110.13883_FO0269||FO}} for which {{2110.13883_FO0270||FO}}, we approximate their local geodesic distance via their Euclidian distance normalized by a constant factor. The normalization factor ensures that the normalized distances are always smaller than {{2110.13883_FO0271||FO}}, i.e. the smallest non-zero value that {{2110.13883_FO0272||FO}} can attain. It consists of {{2110.13883_FO0273||FO}}, the maximum {{2110.13883_FO0274||FO}}-norm between any two pairs {{2110.13883_FO0275||FO}}, the number of trees {{2110.13883_FO0276||FO}} and a small constant {{2110.13883_FO0277||FO}}.

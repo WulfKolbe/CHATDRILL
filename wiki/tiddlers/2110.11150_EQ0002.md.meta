@@ -1,0 +1,12 @@
+created: 20260626111149172
+displayMode: true
+equation_number: 
+kind: Equation
+latex: \begin{split} \mathbb{E}\left(||\bm{f(x_0)}||^2_2 \right) = & ||\mathbf{ x}^{(0)}||^2_2 \left(\prod^L_{l=1}\frac{n_l \sigma^{2}_{w,l}}{2}\right) + \sigma^{2}_{b,L} \frac{n_L}{2} + \left(\sum^{L-1}_{l=1} \sigma^{2}_{b,l} \frac{n_l}{2} \left(\prod^{L}_{k=l+1}\frac{n_k\sigma^{2}_{w,k}}{2}\right)\right). \end{split}
+latex_original: \begin{split} \mathbb{E}\left(||\bm{f(x_0)}||^2_2 \right) = & ||\mathbf{ x}^{(0)}||^2_2 \left(\prod^L_{l=1}\frac{n_l \sigma^{2}_{w,l}}{2}\right) + \sigma^{2}_{b,L} \frac{n_L}{2} + \left(\sum^{L-1}_{l=1} \sigma^{2}_{b,l} \frac{n_l}{2} \left(\prod^{L}_{k=l+1}\frac{n_k\sigma^{2}_{w,k}}{2}\right)\right). \end{split}
+modified: 20260626111149172
+page: 000
+refnum: 
+tags: equation 2110.11150
+title: 2110.11150_EQ0002
+type: text/markdown

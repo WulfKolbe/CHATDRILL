@@ -1,0 +1,11 @@
+caption: \bm{S}
+created: 20260625110956924
+displayMode: false
+latex: \bm{S}
+latex_original: \bm{S}
+modified: 20260625110956924
+tags: formula 2110.13883
+title: 2110.13883_FO0294
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

@@ -1,0 +1,11 @@
+caption: f\left(x \mid h(\bm{\theta_0}, \bm{\sigma})\right) = \prod^L_{l=1} \sigma_l f(x \mid \bm{\theta_0})
+created: 20260625151931663
+displayMode: false
+latex: f\left(x \mid h(\bm{\theta_0}, \bm{\sigma})\right) = \prod^L_{l=1} \sigma_l f(x \mid \bm{\theta_0})
+latex_original: f\left(x \mid h(\bm{\theta_0}, \bm{\sigma})\right) = \prod^L_{l=1} \sigma_l f(x \mid \bm{\theta_0})
+modified: 20260625151931663
+tags: formula 2110.11150
+title: 2110.11150_FO0298
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

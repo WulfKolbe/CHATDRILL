@@ -1,0 +1,11 @@
+caption: \hat{\sigma}_i^2
+created: 20260625080931152
+displayMode: false
+latex: \hat{\sigma}_i^2
+latex_original: \hat{\sigma}_i^2
+modified: 20260625080931152
+tags: formula arxiv_2110_13883
+title: arxiv_2110_13883_FO0226
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

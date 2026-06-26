@@ -1,0 +1,10 @@
+created: 20260625093231914
+modified: 20260625093231914
+page: 000
+parent_section: 2305.05403_H5
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0036
+type: text/vnd.tiddlywiki
+
+In data management, there are traditionally two major paradigms on how to interpret positive KBs: The closed-world Assumption (CWA) states that statements that are not in the KB are false in the real world, i.e., {{2305.05403_FO0038||FO}}. This contrasts with the Open-world Assumption (OWA), which states that the truth of these statements is unknown, i.e., a statement that is not in the KB might or might not be in {{2305.05403_FO0039||FO}}. The CWA is reasonable in many limited domains, e.g., a corporate database where all employees, orders, etc.\ are known, education management, where becoming a student requires completing a formal sign-up process, or professional sports where membership in major leagues is well-established. In many other settings, however, where it is impossible, unrealistic, or not desired to have all statements and entities of a given domain, the
+OWA is more appropriate. For example, it is unrealistic, and even undesired, for a KB such as YAGO to contain all people of American nationality. Therefore, most web-scale KBs operate under the OWA.

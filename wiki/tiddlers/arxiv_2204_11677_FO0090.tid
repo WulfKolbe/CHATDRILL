@@ -1,0 +1,11 @@
+caption: \langle q^{i-1}, a^{i-1}\rangle
+created: 20260625080929034
+displayMode: false
+latex: \langle q^{i-1}, a^{i-1}\rangle
+latex_original: \langle q^{i-1}, a^{i-1}\rangle
+modified: 20260625080929034
+tags: formula arxiv_2204_11677
+title: arxiv_2204_11677_FO0090
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

@@ -1,0 +1,9 @@
+created: 20260625093231915
+modified: 20260625093231915
+page: 000
+parent_section: 2305.05403_H22
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0199
+type: text/vnd.tiddlywiki
+
+One of the first approaches to the problem of relative entity recall is Recoin (\underline{Re}lative \underline{co}mpleteness \underline{in}dicator) [ahmeti2017assessing,balaraman2018recoin]. It extends the entity page of Wikidata with a traffic-light-style recall indicator, indicating how comprehensive the information is compared to related entities. Its definition of relatedness is class-driven: Paris would be compared with other capital cities, Radium with other chemical elements, Albert Einstein with other Physicists (treating Wikidata's occupations as pseudo-classes). Its quantification of recall follows a simple frequency aggregation: In each class, the top most frequent properties are computed. For instance, for capitals, the most frequent predicates are country (99%), coordinate location (97%), and population (82%). Then, the frequencies of the top-5 absent properties are added up for the given entity, and the sum is compared with 5 global discrete thresholds, to arrive at a final traffic light color.

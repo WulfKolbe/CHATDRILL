@@ -1,0 +1,9 @@
+created: 20260625080827137
+modified: 20260625080827137
+page: 000
+parent_section: arxiv_2405_02732_H18
+tags: paragraph arxiv_2405_02732
+title: arxiv_2405_02732_PARA_0093
+type: text/vnd.tiddlywiki
+
+We performed extensive experiments on varying hyper-parameter settings. We report on the sensitivity of the two most important Stage 1 choices: {{arxiv_2405_02732_FO0072||FO}} (no. top-{{arxiv_2405_02732_FO0073||FO}} passages) and {{arxiv_2405_02732_FO0074||FO}} (no. passages per batch). Figure (ref) shows {\em R@P50} numbers for {\em amp/neo} by varying {{arxiv_2405_02732_FO0075||FO}} from 5 to 40 and {{arxiv_2405_02732_FO0076||FO}} from 2 to 5.

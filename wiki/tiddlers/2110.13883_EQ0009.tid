@@ -1,0 +1,16 @@
+created: 20260625110956925
+displayMode: true
+equation_number: 
+kind: Equation
+latex: \begin{aligned} I(\ensuremath{\bm{X}}\xspace;\ensuremath{\bm{Y}}\xspace) &= h(\ensuremath{\tilde{\bm{X}}}\xspace,\ensuremath{\bm{E}_X}\xspace) - h \left( \ensuremath{\tilde{\bm{X}}}\xspace, \ensuremath{\bm{E}_X}\xspace \mid \ensuremath{\tilde{\bm{Y}}}\xspace, \ensuremath{\bm{E}_Y}\xspace \right) \\ &= h(\ensuremath{\tilde{\bm{X}}}\xspace, \ensuremath{\bm{E}_X}\xspace) - h\left(\ensuremath{\tilde{\bm{X}}}\xspace, \ensuremath{\bm{E}_X}\xspace \mid \ensuremath{\tilde{\bm{Y}}}\xspace\right) \\ &= h(\ensuremath{\tilde{\bm{X}}}\xspace) + h(\ensuremath{\bm{E}_X}\xspace) - \left( h(\ensuremath{\tilde{\bm{X}}}\xspace \mid \ensuremath{\tilde{\bm{Y}}}\xspace) + h(\ensuremath{\bm{E}_X}\xspace) \right) \\ &= h(\ensuremath{\tilde{\bm{X}}}\xspace) - h(\ensuremath{\tilde{\bm{X}}}\xspace \mid \ensuremath{\tilde{\bm{Y}}}\xspace) = I(\ensuremath{\tilde{\bm{X}}}\xspace;\ensuremath{\tilde{\bm{Y}}}\xspace) \, . \end{aligned}
+latex_original: \begin{aligned} I(\Xg;\Yg) &= h(\Xt,\Xn) - h \left( \Xt, \Xn \mid \Yt, \Yn \right) \\ &= h(\Xt, \Xn) - h\left(\Xt, \Xn \mid \Yt\right) \\ &= h(\Xt) + h(\Xn) - \left( h(\Xt \mid \Yt) + h(\Xn) \right) \\ &= h(\Xt) - h(\Xt \mid \Yt) = I(\Xt;\Yt) \, . \end{aligned}
+latex_tex: \begin{aligned} I(\ensuremath{\bm{X}}\xspace;\ensuremath{\bm{Y}}\xspace) &= h(\ensuremath{\tilde{\bm{X}}}\xspace,\ensuremath{\bm{E}_X}\xspace) - h \left( \ensuremath{\tilde{\bm{X}}}\xspace, \ensuremath{\bm{E}_X}\xspace \mid \ensuremath{\tilde{\bm{Y}}}\xspace, \ensuremath{\bm{E}_Y}\xspace \right) \\ &= h(\ensuremath{\tilde{\bm{X}}}\xspace, \ensuremath{\bm{E}_X}\xspace) - h\left(\ensuremath{\tilde{\bm{X}}}\xspace, \ensuremath{\bm{E}_X}\xspace \mid \ensuremath{\tilde{\bm{Y}}}\xspace\right) \\ &= h(\ensuremath{\tilde{\bm{X}}}\xspace) + h(\ensuremath{\bm{E}_X}\xspace) - \left( h(\ensuremath{\tilde{\bm{X}}}\xspace \mid \ensuremath{\tilde{\bm{Y}}}\xspace) + h(\ensuremath{\bm{E}_X}\xspace) \right) \\ &= h(\ensuremath{\tilde{\bm{X}}}\xspace) - h(\ensuremath{\tilde{\bm{X}}}\xspace \mid \ensuremath{\tilde{\bm{Y}}}\xspace) = I(\ensuremath{\tilde{\bm{X}}}\xspace;\ensuremath{\tilde{\bm{Y}}}\xspace) \, . \end{aligned}
+modified: 20260625110956925
+page: 000
+refnum: 
+score_tex: 1.0
+tags: equation 2110.13883
+title: 2110.13883_EQ0009
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode=true />

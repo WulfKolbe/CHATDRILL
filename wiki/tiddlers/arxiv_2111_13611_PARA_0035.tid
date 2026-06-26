@@ -1,0 +1,9 @@
+created: 20260625080930847
+modified: 20260625080930847
+page: 000
+parent_section: arxiv_2111_13611_H4
+tags: paragraph arxiv_2111_13611
+title: arxiv_2111_13611_PARA_0035
+type: text/vnd.tiddlywiki
+
+After filtering duplicates, irrelevant URLs like social media handles, and video-content websites, we obtained a total of {{arxiv_2111_13611_FO0044||FO}} documents for {{arxiv_2111_13611_FO0045||FO}} entities. Table (ref) provides an overview of the DoCo dataset. We can see that DoCo's labels are imbalanced, as only {{arxiv_2111_13611_FO0046||FO}} of the documents are informative and {{arxiv_2111_13611_FO0047||FO}} are uninformative. The count of documents with non-zero RE tuples is higher than those with non-zero coverage since the RE tuples were not always related to the subject entity, hence irrelevant towards coverage calculation.

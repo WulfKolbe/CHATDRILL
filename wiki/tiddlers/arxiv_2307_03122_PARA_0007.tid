@@ -1,0 +1,9 @@
+created: 20260625080847348
+modified: 20260625080847348
+page: 000
+parent_section: arxiv_2307_03122_H3
+tags: paragraph arxiv_2307_03122
+title: arxiv_2307_03122_PARA_0007
+type: text/vnd.tiddlywiki
+
+When probing an LM using a cloze-style prompt, the LM generates a probability distribution over the vocabulary tokens to fill in the masked position. For our task, we use prompts mentioning a subject-relation \srpexample{\subject}{\relation} pair and consider the resulting ranked list of tokens (w/ their corresponding probability scores) as candidates. In a zero-shot setting, the LM is probed using two types of prompts: (i) discrete prompts such as LPAQA [jiang-etal-2020-know] and \autoprompt [shin-etal-2020-autoprompt], and (ii) continuous prompts such as \optiprompt [zhong-etal-2021-factual] and SoftPrompts [qin-eisner-2021-learning].

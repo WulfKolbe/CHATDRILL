@@ -1,0 +1,9 @@
+created: 20260625110956922
+modified: 20260625110956922
+page: 000
+parent_section: 2110.13883_H16
+tags: paragraph 2110.13883
+title: 2110.13883_PARA_0082
+type: text/vnd.tiddlywiki
+
+The Supplementary Material, is split into three sections. In the first section, we provide the data generating mechanisms for the Helix and Sphere data, for which we derive lower bounds on the ground truth mutual information. Subsequently, we list the hyperparameter for \ourmethod and for the baselines in Section (ref), and provide additional experiments in Section (ref).

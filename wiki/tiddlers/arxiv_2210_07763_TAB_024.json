@@ -1,0 +1,13 @@
+[
+    {
+        "title": "arxiv_2210_07763_TAB_024",
+        "text": "",
+        "type": "text/vnd.tiddlywiki",
+        "tags": "table arxiv_2210_07763",
+        "created": "20260625080858064",
+        "modified": "20260625080858064",
+        "page": "000",
+        "latex_code": "\\begin{tabular}{lcccccc}\n\\toprule\n\\multirow{2}{*}{\\textbf{Domain}} & \\multicolumn{3}{c}{\\textbf{Quality {[}0..2{]}}} & \\multicolumn{3}{c}{\\textbf{Acceptance rate (\\%)}} \\\\\n\\cmidrule(lr){2-4} \\cmidrule(lr){5-7}\n& \\textbf{PLA} & \\textbf{COM} & \\textbf{DIS} & \\textbf{PLA $\\ge$ 1} & \\textbf{COM $\\ge$ 1} & \\textbf{DIS $\\ge$ 1} \\\\\n\\midrule\n\\textbf{Geography} & 1.52 & 1.19 & 1.03 & 84 .00& 66.00 & 61.33 \\\\\n\\textbf{Religion} & 1.51 & 1.29 & 1.22 & 85.76 & 74.67 & 72.00 \\\\\n\\textbf{Occupation} & 1.59 & 1.50 & 1.25 & 86.67 & 82.67 & 73.67 \\\\\n\\midrule\n\\textbf{Average} & 1.54 & 1.33 & 1.17 & 85.44 & 74.44 & 69.00 \\\\\n\\bottomrule\n\\end{tabular}",
+        "latex_original": "\\begin{tabular}{lcccccc}\n\\toprule\n\\multirow{2}{*}{\\textbf{Domain}} & \\multicolumn{3}{c}{\\textbf{Quality {[}0..2{]}}} & \\multicolumn{3}{c}{\\textbf{Acceptance rate (\\%)}} \\\\\n\\cmidrule(lr){2-4} \\cmidrule(lr){5-7}\n& \\textbf{PLA} & \\textbf{COM} & \\textbf{DIS} & \\textbf{PLA $\\ge$ 1} & \\textbf{COM $\\ge$ 1} & \\textbf{DIS $\\ge$ 1} \\\\\n\\midrule\n\\textbf{Geography} & 1.52 & 1.19 & 1.03 & 84 .00& 66.00 & 61.33 \\\\\n\\textbf{Religion} & 1.51 & 1.29 & 1.22 & 85.76 & 74.67 & 72.00 \\\\\n\\textbf{Occupation} & 1.59 & 1.50 & 1.25 & 86.67 & 82.67 & 73.67 \\\\\n\\midrule\n\\textbf{Average} & 1.54 & 1.33 & 1.17 & 85.44 & 74.44 & 69.00 \\\\\n\\bottomrule\n\\end{tabular}"
+    }
+]

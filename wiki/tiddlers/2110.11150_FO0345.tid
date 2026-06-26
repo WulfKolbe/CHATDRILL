@@ -1,0 +1,11 @@
+caption: |\phi(x)-\phi(y)| \leq |x-y|
+created: 20260625151931664
+displayMode: false
+latex: |\phi(x)-\phi(y)| \leq |x-y|
+latex_original: |\phi(x)-\phi(y)| \leq |x-y|
+modified: 20260625151931664
+tags: formula 2110.11150
+title: 2110.11150_FO0345
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

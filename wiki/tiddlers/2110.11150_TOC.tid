@@ -1,0 +1,33 @@
+created: 20260626111149172
+format: fractal_xref
+modified: 20260626111550382
+tags: toc 2110.11150
+title: 2110.11150_TOC
+type: text/vnd.tiddlywiki
+
+* 1 [[Introduction|2110.11150_H1]]
+** 1.1 [[Related work|2110.11150_H2]]
+** 1.2 [[Notation|2110.11150_H3]]
+* 2 [[Motivation: Neural Networks with Zero Biases are Not Universal Function Approximators|2110.11150_H4]]
+* 3 [[Initialization of Nonzero Biases|2110.11150_H5]]
+** 3.1 [[Output Scaling|2110.11150_H6]]
+** 3.2 [[Signal Preservation|2110.11150_H7]]
+* 4 [[Existence of Lottery Tickets with Nonzero Biases|2110.11150_H8]]
+** 4.1 [[SLTH with Nonzero Bias Initializations|2110.11150_H9]]
+** 4.2 [[Proof Construction -- From Theory to Practice|2110.11150_H10]]
+* 5 [[Parameter Scaling during Pruning|2110.11150_H11]]
+** 5.1 [[A synthetic case study|2110.11150_H12]]
+*** 5.1.1 [[A Shifted ReLU|2110.11150_H13]]
+*** 5.1.2 [[The Onion Slice|2110.11150_H14]]
+* 6 [[Discussion|2110.11150_H15]]
+* A [[Theory|2110.11150_H16]]
+** A.1 [[Motivation: Factorization of univariate zero-bias networks|2110.11150_H17]]
+** A.2 [[ReLU networks without bias are not universal approximators|2110.11150_H18]]
+** A.3 [[Scaling relationship: Proof of Lemma~\ref{thm:scaling}|2110.11150_H19]]
+** A.4 [[Training of $f_0$ is feasible: Proof of Lemma~\ref{thm:train}|2110.11150_H20]]
+** A.5 [[Error propagation: Proof of Lemma~\ref{thm:approx}|2110.11150_H21]]
+** A.6 [[Existence of lottery ticket: Proof of Theorem~\ref{thm:LTexist2}|2110.11150_H22]]
+** A.7 [[Results of proof construction tickets|2110.11150_H23]]
+** A.8 [[Algorithm for \texttt{edge-popup-scaled}|2110.11150_H24]]
+* B [[Experiments|2110.11150_H25]]
+** B.1 [[Experiments on imaging data|2110.11150_H26]]

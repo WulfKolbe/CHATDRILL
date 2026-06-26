@@ -1,0 +1,12 @@
+created: 20260625110956922
+modified: 20260625110956922
+page: 000
+parent_section: 2110.13883_H10
+tags: paragraph 2110.13883
+title: 2110.13883_PARA_0067
+type: text/vnd.tiddlywiki
+
+For the same data as above, we now add an increasing number of {{2110.13883_FO0320||FO}} dimensions each sampled from a standard normal distribution to the original data.
+We report the results in Fig. (ref) (top right), where we can observe that while \gknn, \ksg, and \ourmethod yield good estimates of the true MI without additional dimensions, \lnn drastically overestimates the true MI, exponentially increasing with the number of dimensions. The predicted MI of classical \ksg quickly falls to {{2110.13883_FO0321||FO}} for as few as 4 dimensions and is hence useless for this data.
+While also decreasing slightly, \ourmethod yields the most stable prediction of MI with respect to dimensionality, and with the lowest error on 15 or more dimensions.
+\gknn underestimates even the original data without additional dimensions, and overestimates for higher-dimensional data, having numerical issues already for {{2110.13883_FO0322||FO}} additional dimensions.

@@ -1,0 +1,9 @@
+created: 20260625093231914
+modified: 20260625093231914
+page: 000
+parent_section: 2305.05403_H13
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0140
+type: text/vnd.tiddlywiki
+
+The answer to (i) appears a confident yes, as several studies have shown that LLMs can be used as powerful components in textual information extraction [alt2019fine,chu2021knowfi,josifoski2022genie]. Yet such a usage still requires comprehensive efforts around data selection and preparation, information retrieval, and output consolidation, and thus, does not fundamentally transform the task.

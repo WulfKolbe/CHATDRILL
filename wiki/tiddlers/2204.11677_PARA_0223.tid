@@ -1,0 +1,12 @@
+created: 20260625093448815
+modified: 20260625093448815
+page: 000
+parent_section: 2204.11677_H18
+tags: paragraph 2204.11677
+title: 2204.11677_PARA_0223
+type: text/vnd.tiddlywiki
+
+In ConvQA over KBs, the conversational flow is typically captured in a context graph, either explicity [christmann2019look] using iterative expansion, or implicitly [kaiser2021reinforcement, guo2018dialog, marion2021structured] by maintaining a set of context entities and predicates.
+Conversational KB history can be incorporated using encodings [guo2018dialog, shen2019multi, marion2021structured] or heuristic subsets of the history [kaiser2021reinforcement], similar to ConvQA over text.
+All existing methods consider only one information source for answering conversations, which limits their answer coverage.
+Moreover,

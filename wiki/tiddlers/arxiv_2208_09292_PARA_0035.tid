@@ -1,0 +1,9 @@
+created: 20260625080922309
+modified: 20260625080922309
+page: 000
+parent_section: arxiv_2208_09292_H6
+tags: paragraph arxiv_2208_09292
+title: arxiv_2208_09292_PARA_0035
+type: text/vnd.tiddlywiki
+
+The candidates with similarity greater than or equal a certain threshold {{arxiv_2208_09292_FO0020||FO}} (in this example 0.7) are considered false negatives. In this case, we drop the candidate \texttt{{{arxiv_2208_09292_FO0021||FO}}(elephant, is big animal)}.

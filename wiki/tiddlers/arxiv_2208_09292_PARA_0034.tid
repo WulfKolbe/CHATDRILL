@@ -1,0 +1,9 @@
+created: 20260625080922309
+modified: 20260625080922309
+page: 000
+parent_section: arxiv_2208_09292_H6
+tags: paragraph arxiv_2208_09292
+title: arxiv_2208_09292_PARA_0034
+type: text/vnd.tiddlywiki
+
+\example{Using Sentence-BERT (or SBERT [reimers-2019-sentence-bert]), we measure the similarity (sim) of the candidate and positive phrases:

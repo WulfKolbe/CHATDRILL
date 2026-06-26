@@ -1,0 +1,10 @@
+created: 20260625080827137
+modified: 20260625080827137
+page: 000
+parent_section: arxiv_2405_02732_H12
+tags: paragraph arxiv_2405_02732
+title: arxiv_2405_02732_PARA_0055
+type: text/vnd.tiddlywiki
+
+We selected eleven popular novels and entire book series\footnote{A Song of Ice and Fire Series, Godfather Series, Harry Potter Series, Outlander Series, Little Women, Malibu Rising, Pride and Prejudice, Steve Jobs, The Girl with the Dragon Tattoo, Wuthering Heights, The Void Trilogy}, enthusiastically discussed on community websites\footnote{\url{www.cliffsnotes.com}, \url{www.bookcompanion.com}, \url{www.fandom.com}}.
+These fan communities feature extensive lists and infoboxes from which we derived SPO ground-truth with high confidence. As detailed in Sec (ref), the total no. of passages per book varies, ranging from ca. 10,000 passages in epic book series like A Song of Ice and Fire to ca. 700 passages in shorter books like Malibu Rising.

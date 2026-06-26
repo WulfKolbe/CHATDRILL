@@ -1,0 +1,11 @@
+caption: \hat{N}=D \times (1-f_1/n)^{-1}
+created: 20260625080853723
+displayMode: false
+latex: \hat{N}=D \times (1-f_1/n)^{-1}
+latex_original: \hat{N}=D \times (1-f_1/n)^{-1}
+modified: 20260625080853723
+tags: formula arxiv_2305_05403
+title: arxiv_2305_05403_FO0075
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

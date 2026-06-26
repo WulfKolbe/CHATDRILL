@@ -1,0 +1,9 @@
+created: 20260625093527300
+modified: 20260625093527300
+page: 000
+parent_section: 2111.13611_H4
+tags: paragraph 2111.13611
+title: 2111.13611_PARA_0025
+type: text/vnd.tiddlywiki
+
+A thorough study of document coverage prediction requires a corpus with two characteristics: (i) relation diversity, i.e., documents containing enough automatically extractable relations, and (ii) content diversity, i.e., multiple documents with varying content per entity. Existing text corpora, like the popular NYT [nytimes] and Newsroom dataset [Grusky2018NewsroomAD], contain ample numbers of articles that mention newsworthy entities; however, the articles are primarily short, mentioning only very few relations. On the other end, machine-translated multilingual versions of Wikipedia articles [roy2020topic] allow extraction of many relations but lack diversity.

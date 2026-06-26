@@ -1,0 +1,9 @@
+created: 20260625080930847
+modified: 20260625080930847
+page: 000
+parent_section: arxiv_2111_13611_H9
+tags: paragraph arxiv_2111_13611
+title: arxiv_2111_13611_PARA_0060
+type: text/vnd.tiddlywiki
+
+We use the mean Normalized Discounted Cumulative Gain (mean nDCG) [Jrvelin2002CumulatedGE] as the evaluation metric. A similar performance trend to the F1 metric is observed among our methods. HERB performs the best with an average nDCG score of {{arxiv_2111_13611_FO0097||FO}} across relations, while BERT and Heu+TFIDF have {{arxiv_2111_13611_FO0098||FO}} and {{arxiv_2111_13611_FO0099||FO}}, respectively.

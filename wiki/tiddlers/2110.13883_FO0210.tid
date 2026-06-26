@@ -1,0 +1,11 @@
+caption: \bm{A} \in \{ -1,0,1 \}^{d_{\ensuremath{\bm{X}}\xspace} \times p}
+created: 20260625110956924
+displayMode: false
+latex: \bm{A} \in \{ -1,0,1 \}^{d_{\ensuremath{\bm{X}}\xspace} \times p}
+latex_original: \bm{A} \in \{ -1,0,1 \}^{d_{\Xg} \times p}
+modified: 20260625110956924
+tags: formula 2110.13883
+title: 2110.13883_FO0210
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

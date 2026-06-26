@@ -1,0 +1,10 @@
+created: 20260625080847348
+modified: 20260625080847348
+page: 000
+parent_section: arxiv_2307_03122_H1
+tags: paragraph arxiv_2307_03122
+title: arxiv_2307_03122_PARA_0004
+type: text/vnd.tiddlywiki
+
+In this paper, we focus on probing LMs directly for multi-valued slot-filling task.
+In a zero-shot setting, an LM is probed using prompts that include a subject and a multi-valued relation to generate a list of candidate objects. However, prior knowledge of the no. of correct objects is generally unknown. Since the LM's probabilities alone do not provide a clear indication of the objects' factual accuracy [jiang-etal-2021-know, holtzman-etal-2021-surface], we apply various selection mechanisms on the generated list to choose the correct objects.

@@ -1,0 +1,9 @@
+created: 20260625080859570
+modified: 20260625080859570
+page: 000
+parent_section: arxiv_2209_07250_H27
+tags: paragraph arxiv_2209_07250
+title: arxiv_2209_07250_PARA_0139
+type: text/vnd.tiddlywiki
+
+We see the effect on MAP and average recall when we threshold the answer spans from the span prediction model by the model confidence in Figure (ref). We observe that, while the recall goes down in general with increasing model confidence, except for recall at rank 1 which is more or less constant for thresholds between 0.1 and 0.8, the precision drops sharply when model is both less and more confident and has two peaks at 0.2 and 0.7.

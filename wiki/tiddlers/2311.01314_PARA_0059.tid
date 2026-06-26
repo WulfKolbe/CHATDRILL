@@ -1,0 +1,13 @@
+created: 20260625093057256
+modified: 20260625093057256
+page: 000
+parent_section: 2311.01314_H9
+tags: paragraph 2311.01314
+title: 2311.01314_PARA_0059
+type: text/vnd.tiddlywiki
+
+\noindent{\bf Rationale:}
+As a difficult 
+and less explored application area for recommenders, we investigate the case of book recommendations in online communities. 
+These come with a long-tailed distribution of user activities, highly diverse user interests, 
+and demanding textual cues from reviews and book descriptions.

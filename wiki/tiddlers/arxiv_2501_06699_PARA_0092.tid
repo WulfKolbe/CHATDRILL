@@ -1,0 +1,16 @@
+created: 20260625080804874
+modified: 20260625080804874
+page: 000
+parent_section: arxiv_2501_06699_H13
+tags: paragraph arxiv_2501_06699
+title: arxiv_2501_06699_PARA_0092
+type: text/vnd.tiddlywiki
+
+The modern notion of Knowledge Graphs (KGs) arose in the context of improving search engines [DBLP:journals/cacm/GutierrezS21]. 
+ In 2012, the Google Knowledge Graph was proposed to boost search by ``things, not strings'' [GoogleKG]:
+ when matching a string like ``Manuel Blum'' against web contents, the SE can recognize that the string likely references a real-world entity.
+ This requires a structured repository of real-world entities, 
+ their types (e.g., computer scientist), their attributes (e.g., birth date), and the relations between entities (e.g., Blum has birthplace Caracas).
+ Figure (ref) shows a toy KG where nodes represent entities (rounded corners) or types
+ (square corners), and edges represent the relations between them. KGs enable or enhance a variety of 
+ foundational functionalities including the following:

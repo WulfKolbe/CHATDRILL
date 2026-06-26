@@ -1,0 +1,9 @@
+created: 20260625093105364
+modified: 20260625093105364
+page: 000
+parent_section: 2310.14771_H4
+tags: paragraph 2310.14771
+title: 2310.14771_PARA_0032
+type: text/vnd.tiddlywiki
+
+Few-shot learning for KBC works with remarkably few examples. While our default experiments, following [cohen2023crawling], used 8 examples, we found actually no substantial difference to smaller example sizes as low as 4.

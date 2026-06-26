@@ -1,0 +1,11 @@
+caption: x_i \le x_{i+1}
+created: 20260625080931152
+displayMode: false
+latex: x_i \le x_{i+1}
+latex_original: x_i \le x_{i+1}
+modified: 20260625080931152
+tags: formula arxiv_2110_13883
+title: arxiv_2110_13883_FO0232
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

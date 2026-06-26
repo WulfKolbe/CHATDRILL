@@ -1,0 +1,11 @@
+caption: \ensuremath{\tilde{\bm{Z}}}\xspace \to \ensuremath{\tilde{\bm{Y}}}\xspace \to \ensuremath{\bm{Y}}\xspace
+created: 20260625110956923
+displayMode: false
+latex: \ensuremath{\tilde{\bm{Z}}}\xspace \to \ensuremath{\tilde{\bm{Y}}}\xspace \to \ensuremath{\bm{Y}}\xspace
+latex_original: \Zt \to \Yt \to \Yg
+modified: 20260625110956923
+tags: formula 2110.13883
+title: 2110.13883_FO0131
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

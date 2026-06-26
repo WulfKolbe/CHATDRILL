@@ -1,0 +1,11 @@
+created: 20260625093047341
+modified: 20260625093047341
+page: 000
+parent_section: 2405.02732_H15
+tags: paragraph 2405.02732
+title: 2405.02732_PARA_0069
+type: text/vnd.tiddlywiki
+
+The results clearly show the superiority of 
+L3X over LLM-only, with major gains in recall (by Stage 1) and substantial improvements for R@P in Stage 2, reaching almost 50% for R@P50.
+We make the following key observations:

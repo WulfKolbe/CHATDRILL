@@ -1,0 +1,10 @@
+created: 20260625093119694
+modified: 20260625093119694
+page: 000
+parent_section: 2308.06374_H8
+tags: paragraph 2308.06374
+title: 2308.06374_PARA_0097
+type: text/vnd.tiddlywiki
+
+There are a few of reasons that retrieval augmented methods are necessary for LLMs to obtain external knowledge. One reason 
+ is to address the problem of knowledge cutoff, i.e., LLMs are not aware of the events that happened after their training. Also, although parametric knowledge would increase when the size of parameters increases, training LLMs is expensive; e.g., GPT-3 (175B parameters) costs \$4.6 million to train, and PaLM (540B parameters) costs \$17 million. In fact, research suggests that the obtained knowledge from such training is mainly about popular entities [mallen2023trust]. Furthermore, for domain specific applications, there might be some significant knowledge that is not yet in LLMs, including private and business critical knowledge that cannot be put into LLMs.

@@ -1,0 +1,11 @@
+caption: \theta
+created: 20260625080827138
+displayMode: false
+latex: \theta
+latex_original: \theta
+modified: 20260625080827138
+tags: formula arxiv_2405_02732
+title: arxiv_2405_02732_FO0037
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

@@ -1,0 +1,10 @@
+created: 20260625080931151
+modified: 20260625080931151
+page: 000
+parent_section: arxiv_2110_13883_H19
+tags: paragraph arxiv_2110_13883
+title: arxiv_2110_13883_PARA_0101
+type: text/vnd.tiddlywiki
+
+We provide the results for high dimensional data for the uniform linear data and Sphere across 3 repetitions in Fig. (ref).
+We varied the number of independent dimensions in {{arxiv_2110_13883_FO0390||FO}}, splitting equally between {{arxiv_2110_13883_FO0391||FO}} and {{arxiv_2110_13883_FO0392||FO}}. Both \gknn as well as \lnn were not able to compute the MI estimate due to numerical issues even for as few as 50 dimensions.

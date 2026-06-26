@@ -1,0 +1,21 @@
+created: 20260625080827137
+modified: 20260625080827137
+page: 000
+parent_section: arxiv_2405_02732_H19
+tags: paragraph arxiv_2405_02732
+title: arxiv_2405_02732_PARA_0097
+type: text/vnd.tiddlywiki
+
+\noindent{\bf Hallucinations.}
+The LLM calls often return extremely long lists of objects, including names that do not occur in the respective books at all.
+In RAG mode, 
+the LLM does not necessarily restrict its outputs to names occurring in the input passages.
+These are {\em unfaithful} generations, but for recall, our main target, producing names from parametric memory is an advantage.
+To quantify the issue of hallucinated O values, we compute 
+the no. of generated objects that do not appear in the respective book:\\
+{{arxiv_2405_02732_FO0081||FO}}\\
+normalized by the total no. of generated O values.
+We observed the following hallucination rates after Stage 1:
+LLM-only: 55.3%, def: 51.7%, amp: 40.7%, amp/neo: 38.1%. 
+Erroneous objects include made-up names and non-entity phrases, such as ``X's sister'', where the LLM appends a phrase related to the predicate instead of an O name. 
+This underlines that stage-2 scrutinizing is essential.

@@ -1,0 +1,9 @@
+created: 20260625093047341
+modified: 20260625093047341
+page: 000
+parent_section: 2405.02732_H15
+tags: paragraph 2405.02732
+title: 2405.02732_PARA_0085
+type: text/vnd.tiddlywiki
+
+\noindent{\bf Confidence Elicitation from LLM.} {\em conf} performs poorly, as the LLM becomes rather conservative when fed with support passages about SPO candidates, rejecting too many valid entries.

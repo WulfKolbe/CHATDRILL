@@ -1,0 +1,11 @@
+created: 20260625080853721
+modified: 20260625080853721
+page: 000
+parent_section: arxiv_2305_05403_H3
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0019
+type: text/vnd.tiddlywiki
+
+\begin{revision}
+\noindent The term ``Knowledge Graph'' (KG) is also often used as an alternative to ``Knowledge Base'' -- ever since Google popularized the term in 2012 [google-kg-blog]. Although 
+KGs are sometimes defined as special cases of KBs, by and large, the two terms have been used synonymously. For the purpose of this survey, we follow suit, and use them interchangeably. KBs (or KGs) haven received a considerable uptake in recent years [hogan2021knowledge,machine-knowledge-survey]. From humble beginnings in dedicated communities like YAGO [YAGO], DBpedia [dbpedia], Freebase [freebase], or Wikidata [wikidata], KBs are now standard technology at most major tech companies [noy2019industry], and widely in use beyond. Nonetheless, understanding their quality remains an enduring challenge. With this survey, we contribute a detailed overview concerning the aspects of completeness, recall and negation.

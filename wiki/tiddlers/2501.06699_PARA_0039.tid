@@ -1,0 +1,10 @@
+created: 20260625092952539
+modified: 20260625092952539
+page: 000
+parent_section: 2501.06699_H2
+tags: paragraph 2501.06699
+title: 2501.06699_PARA_0039
+type: text/vnd.tiddlywiki
+
+\parai{Multilingualism} captures the ability to seamlessly handle base information, requests and responses in different languages with comparable performance. SEs and LLMs can provide divergent responses for analogous requests in different languages. While LLMs do have multilingual support, low-resource languages often exhibit
+ drops in performance [DBLP:conf/emnlp/ZhangLHSK23], where results can vary across languages. Conversely, KGs apply a graph-based abstraction of data and knowledge that is largely agnostic to natural language, though nodes and edges need to be (often manually) associated with human-readable names and descriptions in different languages in order for the KG to be applicable in a multilingual scenario [DBLP:journals/tgdk/KaffeeBKVM23].

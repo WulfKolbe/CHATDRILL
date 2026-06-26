@@ -1,0 +1,11 @@
+caption: \mathcal{D}
+created: 20260625080805468
+displayMode: false
+latex: \mathcal{D}
+latex_original: \mathcal{D}
+modified: 20260625080805468
+tags: formula arxiv_2411_12449
+title: arxiv_2411_12449_FO0109
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

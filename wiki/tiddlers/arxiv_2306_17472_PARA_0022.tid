@@ -1,0 +1,15 @@
+created: 20260625080853251
+modified: 20260625080853251
+page: 000
+parent_section: arxiv_2306_17472_H3
+tags: paragraph arxiv_2306_17472
+title: arxiv_2306_17472_PARA_0022
+type: text/vnd.tiddlywiki
+
+We propose
+an unsupervised method for KBC that taps into LMs as latent source for facts that cannot be inferred from the KG itself. 
+Our method operates in two stages:
+\squishlist
+\item[1.] For a given S-P pair, generate candidate facts {{arxiv_2306_17472_FO0005||FO}}S,P,``O''{{arxiv_2306_17472_FO0006||FO}} where ``O'' is an entity name and possibly a multi-word phrase.
+\item[2.] Corroborate the candidates, retaining the ones with high confidence of being correct, and disambiguate the ``O'' argument into a KG entity.
+\squishend

@@ -1,0 +1,12 @@
+created: 20260626111149172
+displayMode: true
+equation_number: 
+kind: Equation
+latex: \begin{aligned} g\left(x^{(L)}_i\right) & = \phi\left(\sum_j w^{(L)}_{ij}\sigma_L g\left(x^{(L-1)}_j\right) + b^{(L)}_i \prod^{L}_{m=1} \sigma_m \right) \ \ \ (\text{def. of transformation})\\ & = \phi\left(\sum_j w^{(L)}_{ij} \sigma_L \prod^{L-1}_{m=1} \sigma_m x^{(L-1)}_j + b^{(L)}_i \prod^{L}_{m=1} \sigma_m \right) \ \ \ (\text{induction hypothesis})\\ & = \prod^{L}_{m=1}\sigma_m x^{(L)}_i \ \ \ (\text{homogeneity of } \phi), \end{aligned}
+latex_original: \begin{aligned} g\left(x^{(L)}_i\right) & = \phi\left(\sum_j w^{(L)}_{ij}\sigma_L g\left(x^{(L-1)}_j\right) + b^{(L)}_i \prod^{L}_{m=1} \sigma_m \right) \ \ \ (\text{def. of transformation})\\ & = \phi\left(\sum_j w^{(L)}_{ij} \sigma_L \prod^{L-1}_{m=1} \sigma_m x^{(L-1)}_j + b^{(L)}_i \prod^{L}_{m=1} \sigma_m \right) \ \ \ (\text{induction hypothesis})\\ & = \prod^{L}_{m=1}\sigma_m x^{(L)}_i \ \ \ (\text{homogeneity of } \phi), \end{aligned}
+modified: 20260626111149172
+page: 000
+refnum: 
+tags: equation 2110.11150
+title: 2110.11150_EQ0016
+type: text/markdown

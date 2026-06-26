@@ -1,0 +1,11 @@
+created: 20260625080830877
+modified: 20260625080830877
+page: 000
+parent_section: arxiv_2310_14771_H1
+tags: paragraph arxiv_2310_14771
+title: arxiv_2310_14771_PARA_0002
+type: text/vnd.tiddlywiki
+
+Structured knowledge bases (KBs) like Wikidata [wikidata], DBpedia [dbpedia], and Yago [yago] are employed in many knowledge-centric applications like search, question answering and dialogue. 
+Constructing and completing these KBs at high quality and scale is a long-standing research challenge, and multiple benchmarks exist, e.g., FB15k [bordes2013translating], CoDEx [safavi2020codex], and LM-KBC22 [singhania2022lm]. 
+Text-extraction, knowledge graph embeddings, and LM-based knowledge extraction have continuously moved scores upwards on these tasks, and leaderboard portals like Paperswithcode\footnote{\url{https://paperswithcode.com/task/knowledge-graph-completion}} provide evidence for that.

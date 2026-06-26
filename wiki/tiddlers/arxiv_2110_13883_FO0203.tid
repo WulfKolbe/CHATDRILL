@@ -1,0 +1,11 @@
+caption: \ensuremath{\bm{x}}\xspace^n = \{ \ensuremath{\bm{x}}\xspace_i, \dots, \ensuremath{\bm{x}}\xspace_n \}
+created: 20260625080931152
+displayMode: false
+latex: \ensuremath{\bm{x}}\xspace^n = \{ \ensuremath{\bm{x}}\xspace_i, \dots, \ensuremath{\bm{x}}\xspace_n \}
+latex_original: \xg^n = \{ \xg_i, \dots, \xg_n \}
+modified: 20260625080931152
+tags: formula arxiv_2110_13883
+title: arxiv_2110_13883_FO0203
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

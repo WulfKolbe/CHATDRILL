@@ -1,0 +1,13 @@
+created: 20260625080831230
+modified: 20260625080831230
+page: 000
+parent_section: arxiv_2308_06374_H7
+tags: paragraph arxiv_2308_06374
+title: arxiv_2308_06374_PARA_0072
+type: text/vnd.tiddlywiki
+
+Nonetheless, a fundamental challenge is how to generate such rules and constraints.
+Specifying them manually is prohibitively difficult and expensive [RuleMining:Ahmadi20,rabbani2022shaclposter].
+On the one hand, the domain experts, who know the semantics for the dataset at hand, may not have the skill set or the background necessary to formally express those rules. 
+Even when skilled, domain experts would require a substantial amount of manual work to exhaustively materialize a complete list of such rules [rabbani:Extraction23].
+Therefore, in the past decade, we have witnessed an increased interest in methods that can (semi-) automatically extract rules and constrains [rabbani:Extraction23,zhang2022knowledge].

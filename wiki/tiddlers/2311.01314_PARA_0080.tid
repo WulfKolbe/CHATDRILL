@@ -1,0 +1,14 @@
+created: 20260625093057256
+modified: 20260625093057256
+page: 000
+parent_section: 2311.01314_H12
+tags: paragraph 2311.01314
+title: 2311.01314_PARA_0080
+type: text/vnd.tiddlywiki
+
+\vspace{-0.2cm}
+Two architectural choices make CUP efficient:
+\squishlist
+ \item input length restricted to 128 tokens, and
+ \item fine-tuning only the last layer of BERT and the FFN layers.
+\squishend

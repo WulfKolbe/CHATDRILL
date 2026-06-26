@@ -1,0 +1,10 @@
+created: 20260625093308064
+modified: 20260625093308064
+page: 000
+parent_section: 2210.07763_H9
+tags: paragraph 2210.07763
+title: 2210.07763_PARA_0081
+type: text/vnd.tiddlywiki
+
+We postulate that main concepts of an assertion cluster are terms shared by many members: We extract all n-grams ({{2210.07763_FO0018||FO}}) of all assertions in a cluster (excluding subjects themselves, and stop words); and retain the ones that occur in more than 60% of the assertions. If both a phrase and its sub-phrase appear, we only keep the longer phrase in the final output. 
+Noun-phrase concepts are normalized by singularization.

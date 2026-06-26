@@ -1,0 +1,14 @@
+created: 20260625093156716
+modified: 20260625093156716
+page: 000
+parent_section: 2306.17472_H8
+tags: paragraph 2306.17472
+title: 2306.17472_PARA_0047
+type: text/vnd.tiddlywiki
+
+\appendix
+\setcounter{table}{0} 
+\setcounter{figure}{0}
+\renewcommand{\thetable}{A\arabic{table}}
+\renewcommand{\thefigure}{A\arabic{figure}}
+\setcounter{equation}{0}

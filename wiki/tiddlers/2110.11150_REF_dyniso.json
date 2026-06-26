@@ -1,0 +1,17 @@
+[
+    {
+        "title": "2110.11150_REF_dyniso",
+        "text": "{{||CIT}} R. Burkholz and A. Dubatovka. Initialization of ReLUs for dynamical isometry. In Advances in Neural Information Processing Systems, volume 32, 2019.",
+        "type": "text/markdown",
+        "tags": "reference bibentry bibtex 2110.11150",
+        "created": "20260626111149172",
+        "modified": "20260626111149172",
+        "kind": "reference",
+        "citekey": "dyniso",
+        "year": "2019",
+        "authors": "Burkholz, Rebekka and Dubatovka, Alina",
+        "entry_type": "inproceedings",
+        "titlefield": "Advances in Neural Information Processing Systems",
+        "bibtex": "@inproceedings{dyniso,\n author = {Burkholz, Rebekka and Dubatovka, Alina},\n booktitle = {Advances in Neural Information Processing Systems},\n title = {Initialization of {ReLUs} for Dynamical Isometry},\n volume = {32},\n year = {2019}\n}"
+    }
+]

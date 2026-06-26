@@ -1,0 +1,9 @@
+created: 20260625093341705
+modified: 20260625093341705
+page: 000
+parent_section: 2209.07250_H24
+tags: paragraph 2209.07250
+title: 2209.07250_PARA_0128
+type: text/vnd.tiddlywiki
+
+Fine-tuning on SQuAD gives higher precision scores at thresholds greater than 0.4. However, this difference, which goes up to 3% max, is a trade-off to the higher coverage of CoQuAD gives, between 5%-8% higher, resulting in overall more correctly answered queries. Here, we average the metrics over all consolidation strategies (Most Frequent. Median and Weighted Median) and compare the consolidation schemes next.

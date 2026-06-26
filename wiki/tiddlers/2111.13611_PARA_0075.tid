@@ -1,0 +1,9 @@
+created: 20260625093527300
+modified: 20260625093527300
+page: 000
+parent_section: 2111.13611_H11
+tags: paragraph 2111.13611
+title: 2111.13611_PARA_0075
+type: text/vnd.tiddlywiki
+
+Figure (ref) (bottom) shows the number of RE tuples that match the Wikidata KB, thus comparing the methods on precision. As was foreseeable, the coverage oracle method wins due to the usage of correct coverage values for ranking. HERB's coverage prediction performance is considerably higher than IR-relevance and other methods, while it matches the coverage oracle for {{2111.13611_FO0121||FO}}. Beyond {{2111.13611_FO0122||FO}}, all methods yield nearly the same sets of tuples, hence similar precision.

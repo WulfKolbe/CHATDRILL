@@ -1,0 +1,11 @@
+caption: I(X;Y) = - \frac{1}{2} \log(1-\rho^2)
+created: 20260625080931152
+displayMode: false
+latex: I(X;Y) = - \frac{1}{2} \log(1-\rho^2)
+latex_original: I(X;Y) = - \frac{1}{2} \log(1-\rho^2)
+modified: 20260625080931152
+tags: formula arxiv_2110_13883
+title: arxiv_2110_13883_FO0335
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

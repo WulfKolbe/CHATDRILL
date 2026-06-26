@@ -1,0 +1,11 @@
+caption: \{\langle q^t, a^t\rangle\}_{t = 0}^{i-1}
+created: 20260625080929034
+displayMode: false
+latex: \{\langle q^t, a^t\rangle\}_{t = 0}^{i-1}
+latex_original: \{\langle q^t, a^t\rangle\}_{t = 0}^{i-1}
+modified: 20260625080929034
+tags: formula arxiv_2204_11677
+title: arxiv_2204_11677_FO0091
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

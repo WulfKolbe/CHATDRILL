@@ -1,0 +1,12 @@
+created: 20260625093057255
+modified: 20260625093057255
+page: 000
+parent_section: 2311.01314_H1
+tags: paragraph 2311.01314
+title: 2311.01314_PARA_0013
+type: text/vnd.tiddlywiki
+
+There are established works on cold-start support and long-tail items (e.g., [DBLP:conf/www/CaoWHH20,DBLP:conf/aaai/LiJL00H19,DBLP:conf/kdd/LiuBXG022,DBLP:conf/cikm/LuoMXS23,DBLP:conf/recsys/Raziperchikolaei21]). These are driven by similarity-aware architectures such as graph models, matrix factorization, and neural methods. Their key asset is to infer explicit or implicit properties of long-tail items and the resulting user preferences, by learning from similar items with richer data. This approach does not carry over to long-tail {\em users}, though, 
+when most users have sparse data and high diversity in tastes and interests.
+In book communities such as Goodreads, we encounter many users with just 
+a few tens of items across widely different genres.

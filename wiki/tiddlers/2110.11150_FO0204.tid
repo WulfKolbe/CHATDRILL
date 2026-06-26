@@ -1,0 +1,11 @@
+caption: b^{(1)}_i \mapsto \sigma_1 b^{(1)}_i
+created: 20260626094813421
+displayMode: false
+latex: b^{(1)}_i \mapsto \sigma_1 b^{(1)}_i
+latex_original: b^{(1)}_i \mapsto \sigma_1 b^{(1)}_i
+modified: 20260626094813421
+tags: formula 2110.11150
+title: 2110.11150_FO0204
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

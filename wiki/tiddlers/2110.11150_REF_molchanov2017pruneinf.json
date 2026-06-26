@@ -1,0 +1,17 @@
+[
+    {
+        "title": "2110.11150_REF_molchanov2017pruneinf",
+        "text": "{{||CIT}} P. Molchanov, S. Tyree, T. Karras, T. Aila, and J. Kautz. Pruning convolutional neural networks for resource efficient inference. In International Conference on Learning Representations, 2017.",
+        "type": "text/markdown",
+        "tags": "reference bibentry bibtex 2110.11150",
+        "created": "20260626111149173",
+        "modified": "20260626111149173",
+        "kind": "reference",
+        "citekey": "molchanov2017pruneinf",
+        "year": "2017",
+        "authors": "Pavlo Molchanov and\n               Stephen Tyree and\n               Tero Karras and\n               Timo Aila and\n               Jan Kautz",
+        "entry_type": "inproceedings",
+        "titlefield": "Pruning Convolutional Neural Networks for Resource Efficient Inference",
+        "bibtex": "@inproceedings{molchanov2017pruneinf,\n  author    = {Pavlo Molchanov and\n               Stephen Tyree and\n               Tero Karras and\n               Timo Aila and\n               Jan Kautz},\n  title     = {Pruning Convolutional Neural Networks for Resource Efficient Inference},\n  booktitle = {International Conference on Learning Representations},\n  year      = {2017},\n}"
+    }
+]

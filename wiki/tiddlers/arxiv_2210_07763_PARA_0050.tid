@@ -1,0 +1,11 @@
+created: 20260625080858062
+modified: 20260625080858062
+page: 000
+parent_section: arxiv_2210_07763_H4
+tags: paragraph arxiv_2210_07763
+title: arxiv_2210_07763_PARA_0050
+type: text/vnd.tiddlywiki
+
+We propose an end-to-end system, called \systemname{}, to extract and organize CCSK assertions based on the proposed CCSK representation.
+Notably, our system does not require annotating new training data, but only leverages pre-trained models with judicious techniques to enhance the accuracy. 
+The system takes in three inputs:

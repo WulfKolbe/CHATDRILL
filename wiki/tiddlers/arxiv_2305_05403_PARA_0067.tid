@@ -1,0 +1,9 @@
+created: 20260625080853721
+modified: 20260625080853721
+page: 000
+parent_section: arxiv_2305_05403_H8
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0067
+type: text/vnd.tiddlywiki
+
+Experiments on the Wikidata KB show that these estimators converge to the ground truth number of missing entities on 5 of the 8 classes that were tested. Interestingly, some of these classes are composite classes, i.e., classes defined by a query such as ``Paintings by Van Gogh''.

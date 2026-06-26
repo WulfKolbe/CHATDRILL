@@ -1,0 +1,16 @@
+created: 20260625093308064
+modified: 20260625093308064
+page: 000
+parent_section: 2210.07763_H1
+tags: paragraph 2210.07763
+title: 2210.07763_PARA_0016
+type: text/vnd.tiddlywiki
+
+devised
+an
+end-to-end
+methodology and system, called \systemname{} (Extracting \underline{C}ultur\underline{a}l Commo\underline{n}sense Knowle\underline{d}ge at Sca\underline{le}),
+to automatically extract and systematically organize a large collection of CCSK assertions.
+For scale, we tap into the C4 web crawl [t5],
+a huge collection of web pages. This provides 
+an opportunity to construct a sizable CCSK collection, but also a challenge in terms of scale and noise.

@@ -1,0 +1,11 @@
+created: 20260625093047341
+modified: 20260625093047341
+page: 000
+parent_section: 2405.02732_H13
+tags: paragraph 2405.02732
+title: 2405.02732_PARA_0064
+type: text/vnd.tiddlywiki
+
+To obtain insights into the precision-recall trade-off and to assess the end-to-end goal of populating a knowledge base with high-quality SPO triples, the primary metric of interest is {\em Recall@Precision (R@P)}, focusing on the most interesting cases of R@P50 and R@P80 (50% and 80% correctness). Additionally, we report 
+precision and recall, both before and after scrutinization. 
+To further reflect on the inherent trade-off between precision and recall, we also compute the {\em area under the curve (AUC)} of the precision-recall curve.

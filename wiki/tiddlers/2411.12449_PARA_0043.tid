@@ -1,0 +1,9 @@
+created: 20260625093007936
+modified: 20260625093007936
+page: 000
+parent_section: 2411.12449_H5
+tags: paragraph 2411.12449
+title: 2411.12449_PARA_0043
+type: text/vnd.tiddlywiki
+
+The final step involves generating answers for temporal queries by integrating Neon tuples into LLM prompts. This enables the system to deliver contextually relevant, temporally accurate, and up-to-date answers. The key steps in our approach are as follows:

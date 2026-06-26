@@ -1,0 +1,20 @@
+created: 20260625080804874
+modified: 20260625080804874
+page: 000
+parent_section: arxiv_2501_06699_H5
+tags: paragraph arxiv_2501_06699
+title: arxiv_2501_06699_PARA_0054
+type: text/vnd.tiddlywiki
+
+A very active area of research, and one heavily adopted and refined in practice, relates to the use of search engine (i.e., information retrieval) technologies in order to enable Retrieval-Augmented Generation (RAG) [DBLP:conf/nips/LewisPPPKGKLYR020,DBLP:conf/aaai/0011LH024]. This offers great potential for overcoming problems with non-factuality, staleness and bias in LLM responses, improving performance in particular for dynamic and long-tail factual queries.
+ In the simplest RAG setting,
+ documents relevant to a prompt are searched for at inference run-time and their content is injected into the context window of the LLM to improve 
+ the generated responses.
+ Recent AI assistants from big providers call a major SE to this end, but it is equally useful to inject in-house information for vertical domains, such as finance or health.
+ More recent approaches
+ advocate for Active 
+ RAG
+ [DBLP:conf/emnlp/JiangXGSLDYCN23], where relevant documents are iteratively retrieved during the generation process as needed, particularly when generating long texts. 
+ RAG will 
+ continue to be a very lively area, with various benchmarks gaining major attention
+ (e.g., [DBLP:conf/aaai/0011LH024]).

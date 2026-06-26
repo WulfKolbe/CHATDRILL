@@ -1,0 +1,10 @@
+created: 20260625080853495
+modified: 20260625080853495
+page: 000
+parent_section: arxiv_2305_16755_H1
+tags: paragraph arxiv_2305_16755
+title: arxiv_2305_16755_PARA_0008
+type: text/vnd.tiddlywiki
+
+\noindent
+State of the Art. A new research area has emerged in the last few years, suggesting the importance of the explicit materialization of important negative statements about real-world subjects [survey]. Several methodologies have been proposed [arnaoutcikm2022,arnaout2020enriching,safavi-etal-2021-negater,quasimodo,antikb]. The goal is to compile lists of statements (biographic summaries) about subjects, where the statements are truly negative, but also salient, unexpected, or normally mistaken as true positives. To compile these lists, different data sources and methodologies have been explored. In [arnaoutcikm2022,arnaout2020enriching], using web-scale knowledge graphs, candidate salient negatives are derived from existing positive statements about highly related entities. The computation relies on the local closed-world assumption, an assumption of completeness over identified relevant subgraphs, coupled with ranking metrics such as relative frequencies. Similarly, [safavi-etal-2021-negater] explores graph embeddings to generate candidate negative statements, which are then scored using a fine-tuned language model (LM), by descending order of negativity. Textual sources have been explored in [quasimodo], where commonsense negative statements are extracted, by mining query logs, using pre-defined patterns. [antikb] makes use of the edit history of large collaborative encyclopedias, namely Wikipedia, by looking at sentences edited, where only an entity or a number are changed. The old version of the sentence is then considered an interesting negative statement.

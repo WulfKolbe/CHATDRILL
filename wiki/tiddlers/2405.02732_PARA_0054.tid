@@ -1,0 +1,10 @@
+created: 20260625093047341
+modified: 20260625093047341
+page: 000
+parent_section: 2405.02732_H12
+tags: paragraph 2405.02732
+title: 2405.02732_PARA_0054
+type: text/vnd.tiddlywiki
+
+The task of extracting long O lists from long texts is novel, with no suitable benchmark datasets available.
+Therefore, we constructed a new dataset of books and corresponding ground-truth O lists associated with SP pairs.

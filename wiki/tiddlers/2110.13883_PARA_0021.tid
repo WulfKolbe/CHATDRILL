@@ -1,0 +1,10 @@
+created: 20260625110956922
+modified: 20260625110956922
+page: 000
+parent_section: 2110.13883_H3
+tags: paragraph 2110.13883
+title: 2110.13883_PARA_0021
+type: text/vnd.tiddlywiki
+
+where {{2110.13883_FO0042||FO}} and {{2110.13883_FO0043||FO}} are the correction terms, with {{2110.13883_FO0044||FO}} being the digamma function.\!\footnote{The digamma function is defined as {{2110.13883_FO0045||FO}}. It satisfies the recursion {{2110.13883_FO0046||FO}} with {{2110.13883_FO0047||FO}}, where {{2110.13883_FO0048||FO}} is the Euler-Mascheroni constant.} A straight-forward approach to estimate {{2110.13883_FO0049||FO}} would be to estimate each of the involved entropy terms individually using Eq. (ref) based on the same {{2110.13883_FO0050||FO}}. 
+Kraskov et al. [kraskov:04:ksg] showed that this will, however, induce a bias. Instead, they compute the distance to the {{2110.13883_FO0051||FO}}th neighbor only on the joint space and retrospectively count the data points falling within this region in {{2110.13883_FO0052||FO}} and {{2110.13883_FO0053||FO}}.

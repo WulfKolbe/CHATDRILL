@@ -1,0 +1,9 @@
+created: 20260625093007936
+modified: 20260625093007936
+page: 000
+parent_section: 2411.12449_H3
+tags: paragraph 2411.12449
+title: 2411.12449_PARA_0028
+type: text/vnd.tiddlywiki
+
+Although this approach emphasizes information related to the target entities, scaling up the set {{2411.12449_FO0054||FO}} can lead to a more diverse and comprehensive KB. The chunk size ({{2411.12449_FO0055||FO}} in {{2411.12449_FO0056||FO}}) can be large enough to provide detailed context around the subject entity while still fitting within the LLM's context window. This setup enables a single prompt to generate a longer list of relational tuples, with the added context potentially improving entity-interaction extraction. The prompt template for Neon({{2411.12449_FO0057||FO}}) construction is shown in (ref).

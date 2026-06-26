@@ -1,0 +1,16 @@
+created: 20260625080827350
+modified: 20260625080827350
+page: 000
+parent_section: arxiv_2311_01314_H9
+tags: paragraph arxiv_2311_01314
+title: arxiv_2311_01314_PARA_0063
+type: text/vnd.tiddlywiki
+
+Prior works mostly consider C-core data variants where all users and items have at least C interactions (C=10 or 5). This pre-processing focuses on interaction-based predictions, whereas our intention is to study the case of data-poor users and items. 
+Instead, our data pre-processing is designed to evaluate text-based recsys performance with
+text-rich users.
+We select 1K users from each of the two datasets, based on descending order of average review length per book (filtered for English reviews).
+We view all book-user interactions with a rating of 4 or higher as positive, and disregard the lower ratings as they are rare anyway.
+We split the data into training, validation, and test sets (60:20:20), filtering out users with less than 3 items to guarantee at least one interaction per user in each set.
+Table (ref) gives statistics for the datasets.
+Both 1K-rich data variants are extremely sparse in terms of users that share the same items; so the emphasis is on leveraging text.

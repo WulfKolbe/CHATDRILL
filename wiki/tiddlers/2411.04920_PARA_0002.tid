@@ -1,0 +1,9 @@
+created: 20260625093027647
+modified: 20260625093027647
+page: 000
+parent_section: 2411.04920_H1
+tags: paragraph 2411.04920
+title: 2411.04920_PARA_0002
+type: text/vnd.tiddlywiki
+
+LLMs have been one of the most exciting recent developments in NLP and AI, and next to their ability to perform a wide set of procedural tasks, a major success factor is the factual knowledge that they have internalized [bubeck2023sparks]. Their potential to store factual knowledge, like (Nelson Mandela, award, Nobel Peace Prize), was first highlighted by [petroni-etal-2019-language], and this has generated an own (sub-)field of studying all aspects of factual knowledge in LLMs, from trying to locate it, to estimates of their storage potential, to techniques to effectively elicit it [jiang-etal-2020-know,roberts-etal-2020-much,veseli2023evaluating,sun-etal-2024-head,wu2024towards]. A large set of benchmarks and studies transiently investigate the knowledge storage ability via example-based prompting, e.g., to determine, how many triples from common knowledge bases (KBs) or question answering (QA) datasets are known to LLMs. However, all these works are subject to an availability bias [kahnemann], i.e., they only surface LLM knowledge/beliefs\footnote{The terminology here is contentious, see Section (ref).} on topics that were known to and pre-designed by the experimenter. They inherently cannot discover knowledge on topics outside of their benchmarks.

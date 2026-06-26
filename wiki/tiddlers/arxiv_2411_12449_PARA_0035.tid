@@ -1,0 +1,9 @@
+created: 20260625080805467
+modified: 20260625080805467
+page: 000
+parent_section: arxiv_2411_12449_H3
+tags: paragraph arxiv_2411_12449
+title: arxiv_2411_12449_PARA_0035
+type: text/vnd.tiddlywiki
+
+\item[4.] Prompt Construction: Construct a prompt by explicitly including both the subject {{arxiv_2411_12449_FO0079||FO}} and object {{arxiv_2411_12449_FO0080||FO}}, along with a chunk batch {{arxiv_2411_12449_FO0081||FO}}. In each chunk within the batch, use markups (``<e>'' and ``</e>'') to highlight all entity mentions. The LLM is then prompted to generate news entity-interactions {{arxiv_2411_12449_FO0082||FO}}, where {{arxiv_2411_12449_FO0083||FO}} is LLM's implicit verbalization function. Since the news chunks in {{arxiv_2411_12449_FO0084||FO}} may contain different time-stamps, we collect the unique time-stamps {{arxiv_2411_12449_FO0085||FO}} from each chunk. The extractions are then expanded as {{arxiv_2411_12449_FO0086||FO}}.

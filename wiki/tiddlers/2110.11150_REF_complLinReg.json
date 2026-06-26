@@ -1,0 +1,17 @@
+[
+    {
+        "title": "2110.11150_REF_complLinReg",
+        "text": "{{||CIT}} B. Hanin and D. Rolnick. Deep relu networks have surprisingly few activation patterns. In Advances in Neural Information Processing Systems, 2019.",
+        "type": "text/markdown",
+        "tags": "reference bibentry bibtex 2110.11150",
+        "created": "20260626111149172",
+        "modified": "20260626111149172",
+        "kind": "reference",
+        "citekey": "complLinReg",
+        "year": "2019",
+        "authors": "Boris Hanin and\n               David Rolnick",
+        "entry_type": "inproceedings",
+        "titlefield": "Deep ReLU Networks Have Surprisingly Few Activation Patterns",
+        "bibtex": "@inproceedings{complLinReg,\n  author    = {Boris Hanin and\n               David Rolnick},\n  title     = {Deep ReLU Networks Have Surprisingly Few Activation Patterns},\n  booktitle = {Advances in Neural Information Processing Systems},\n  year      = {2019}\n}"
+    }
+]

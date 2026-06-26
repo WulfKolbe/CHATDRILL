@@ -1,0 +1,13 @@
+created: 20260625110956922
+modified: 20260625110956922
+page: 000
+parent_section: 2110.13883_H10
+tags: paragraph 2110.13883
+title: 2110.13883_PARA_0068
+type: text/vnd.tiddlywiki
+
+For the same uniform distribution, we generate data and add {{2110.13883_FO0323||FO}} independent dimensions, adding half of the dimensions to {{2110.13883_FO0324||FO}} and the other half to {{2110.13883_FO0325||FO}}.
+As expected, while \ksg immediately estimates a MI of {{2110.13883_FO0326||FO}}, and is therefore not useful at all, the MI estimate of \ourmethod decreases slightly but then remains stable with an increasing number of (independent) dimensions in the data.
+Both \gknn as well as \lnn fail to yield any result even for {{2110.13883_FO0327||FO}} dimensions due to numerical errors.
+We provide results on this experiment in Supplementary Material (ref).
+Next, we investigate the behavior for variables from a different distribution.

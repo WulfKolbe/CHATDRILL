@@ -1,0 +1,9 @@
+created: 20260625093341705
+modified: 20260625093341705
+page: 000
+parent_section: 2209.07250_H28
+tags: paragraph 2209.07250
+title: 2209.07250_PARA_0141
+type: text/vnd.tiddlywiki
+
+The MAP and AR scores of different consolidation strategies are shown in Figure (ref). Without consolidation, MAP and average recall are comparable only at rank 1, after which the gap between strategies with and without consolidation increases sharply. All consolidation strategies perform similarly in average recall and the discriminating factor is in the MAP by rank. QA + Typed Compatibility is the best overall followed by QA + Summed Confidence. The naive QA + context frequency performs worse at higher ranks implying that the most frequent named-entities may not be the correct explanations.

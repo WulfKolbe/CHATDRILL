@@ -1,0 +1,13 @@
+created: 20260625093308064
+modified: 20260625093308064
+page: 000
+parent_section: 2210.07763_H1
+tags: paragraph 2210.07763
+title: 2210.07763_PARA_0011
+type: text/vnd.tiddlywiki
+
+Mainstream KGs do not cover CCSK at all, and major CSK collections like ConceptNet contain only very few culturally contextualized assertions.
+To the best of our knowledge, the only prior works with data that have specifically addressed the socio-cultural dimension are the projects Quasimodo [quasimodo],
+StereoKG [stereokg], and the work of Acharya et al. [acharya2020towards].
+The latter merely contains a few hundred assertions from crowdsourcing, StereoKG uses a specialized way of automatically extracting stereotypes from QA forums and is still small in size, and Quasimodo covers a wide mix of general CSK and a small fraction of culturally relevant assertions.
+These are the three baselines to which we compare our results.

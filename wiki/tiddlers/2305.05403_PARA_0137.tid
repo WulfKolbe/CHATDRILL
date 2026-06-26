@@ -1,0 +1,10 @@
+created: 20260625093231914
+modified: 20260625093231914
+page: 000
+parent_section: 2305.05403_H13
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0137
+type: text/vnd.tiddlywiki
+
+to evaluate the precision of the automatically extracted cardinalities. For example, one can restrict the KB to popular entities, and one can exclude cardinalities 
+above the 90th percentile value, as these are most likely outliers. One must be selective,

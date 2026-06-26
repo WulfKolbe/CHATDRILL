@@ -1,0 +1,14 @@
+created: 20260625080931153
+displayMode: true
+equation_number: 
+kind: Equation
+latex: h(\ensuremath{\bm{X}}\xspace) = - \int_{\mathbb{R}^{d_{\ensuremath{\bm{X}}\xspace}}} f_{\ensuremath{\bm{X}}\xspace}(\ensuremath{\bm{x}}\xspace) \log f_{\ensuremath{\bm{X}}\xspace}(\ensuremath{\bm{x}}\xspace) d \ensuremath{\bm{x}}\xspace \, ,
+latex_original: h(\Xg) = - \int_{\mathbb{R}^{d_{\Xg}}} f_{\Xg}(\xg) \log f_{\Xg}(\xg) d \xg \, ,
+modified: 20260625080931153
+page: 000
+refnum: 
+tags: equation arxiv_2110_13883
+title: arxiv_2110_13883_EQ0002
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode=true />

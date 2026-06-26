@@ -1,0 +1,17 @@
+created: 20260625080804873
+modified: 20260625080804873
+page: 000
+tags: paragraph arxiv_2501_06699
+title: arxiv_2501_06699_PARA_0007
+type: text/vnd.tiddlywiki
+
+\newcommand{\ld}[1]{\textcolor{red!50!black}{Luna: #1}}
+ \newcommand{\ah}[1]{\textcolor{orange!50!black}{Aidan: #1}}
+ \newcommand{\dv}[1]{\textcolor{blue!50!black}{Denny: #1}}
+ \newcommand{\gw}[1]{\textcolor{green!50!black}{Gerhard: \tt #1}}
+ \newcommand{\LD}[1]{\ld{#1}}
+ \newcommand{\AH}[1]{\ah{\bf\tt #1}}
+ \newcommand{\DV}[1]{\dv{#1}}
+ \newcommand{\GW}[1]{\gw{\bf\tt #1}}
+ \newcommand{\gwins}[1]{\textcolor{green!50!black}{{#1}}}
+ \newcommand{\gwdel}[1]{\st{#1}}

@@ -1,0 +1,11 @@
+caption: \not\in K
+created: 20260625080853723
+displayMode: false
+latex: \not\in K
+latex_original: \not\in K
+modified: 20260625080853723
+tags: formula arxiv_2305_05403
+title: arxiv_2305_05403_FO0087
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

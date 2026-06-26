@@ -1,0 +1,9 @@
+created: 20260625080805467
+modified: 20260625080805467
+page: 000
+parent_section: arxiv_2411_12449_H1
+tags: paragraph arxiv_2411_12449
+title: arxiv_2411_12449_PARA_0014
+type: text/vnd.tiddlywiki
+
+When a query such as ``Doja Cat'' or ``Doja Cat news'' is given in the prompt to an LLM such as GPT-4 [OpenAI2023GPT4TR], the model likely generates an entity-centric response based on sources like Wikipedia, one of the largest resources in LLM pretraining datasets [JMLR:v21:20-074, together2023redpajama]. Although Wikipedia provides valuable overviews and highlights about key events, it often lacks the granular, timely updates required to answer entity-centric queries involving recent developments. Even if the user query is reformulated to specify a date---e.g., ``(Date: August 31, 2023) Doja Cat'' ---LLMs often struggle to produce precise, up-to-date response, in particular when the date in question is beyond the LLM's knowledge cut-off and the system must defer to external sources through RAG mitigation.

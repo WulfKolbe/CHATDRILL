@@ -1,0 +1,14 @@
+created: 20260625093119694
+modified: 20260625093119694
+page: 000
+parent_section: 2308.06374_H7
+tags: paragraph 2308.06374
+title: 2308.06374_PARA_0088
+type: text/vnd.tiddlywiki
+
+The study of LLM application in ontology alignment is similar to ontology refinement.
+Pre-trained language models such as BERT have been applied via fine-tuning [neutel2021towards,he2022bertmap].
+BERTMap [he2022bertmap] is a typical system that has achieved state-of-the-art performance in many biomedical ontology alignment benchmarks.
+It fine-tunes a pre-trained LM with synonym pairs extracted from the original ontologies and the potentially given mappings, and combines the predicted concept equivalence scores with lexical matching scores and reasoning for the mappings.
+Those recent LLMs like GPT-4 have not been applied in ontology alignment, as far as we know, and the two fundamental research challenges mentioned in ontology refinement are applicable in ontology alignment. 
+Besides, ontology alignment has another critical challenge:

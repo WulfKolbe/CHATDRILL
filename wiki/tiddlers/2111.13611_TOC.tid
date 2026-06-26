@@ -1,0 +1,22 @@
+created: 20260625093527302
+format: fractal_xref
+modified: 20260625093527302
+tags: toc 2111.13611
+title: 2111.13611_TOC
+type: text/vnd.tiddlywiki
+
+** 1.1 [[Introduction|2111.13611_H1]]
+** 1.2 [[Related Work|2111.13611_H2]]
+** 1.3 [[Coverage Prediction|2111.13611_H3]]
+** 1.4 [[Dataset Construction|2111.13611_H4]]
+** 1.5 [[Approach|2111.13611_H5]]
+** 1.6 [[Experiments|2111.13611_H6]]
+*** 1.6.1 [[Setup|2111.13611_H7]]
+*** 1.6.2 [[Results|2111.13611_H8]]
+** 1.7 [[Analysis and Discussion|2111.13611_H9]]
+** 1.8 [[Applications|2111.13611_H10]]
+*** 1.8.1 [[Document Ranking for Relation Extraction|2111.13611_H11]]
+*** 1.8.2 [[Budget-constrained Relation Extraction|2111.13611_H12]]
+*** 1.8.3 [[Claim Refutation|2111.13611_H13]]
+** 1.9 [[Conclusion|2111.13611_H14]]
+*** 1.9.1 [[Acknowledgments|2111.13611_H15]]

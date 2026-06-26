@@ -1,0 +1,9 @@
+created: 20260625093341705
+modified: 20260625093341705
+page: 000
+parent_section: 2209.07250_H21
+tags: paragraph 2209.07250
+title: 2209.07250_PARA_0119
+type: text/vnd.tiddlywiki
+
+We analyse the system performances on answer explanation by the query answerability: {KG-answerable}, {snippet-answerable} in Table (ref). Our hypothesis is that the baselines perform very well on answer explanations when the queries are KG-answerable. The performance values support this since we observe that Google\-SDA provides the best precision, recall and MRR sores, followed by QAnswer for the KG-answerable queries. Given that CoQEx only uses text information, it still finds relevant instances achieving a 14% MAP at rank 1.

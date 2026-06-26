@@ -1,0 +1,13 @@
+created: 20260625093057256
+modified: 20260625093057256
+page: 000
+parent_section: 2311.01314_H14
+tags: paragraph 2311.01314
+title: 2311.01314_PARA_0094
+type: text/vnd.tiddlywiki
+
+To obtain more insights,
+we computed various statistics: distributions of part-of-speech (POS) tags (i.e., word categories) and distributions of idf-weight mass among frequent words.
+These are derived by
+concatenating profiles of all
+users, for each of the most interesting profile types, including the users' original reviews.

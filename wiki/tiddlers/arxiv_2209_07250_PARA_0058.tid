@@ -1,0 +1,9 @@
+created: 20260625080859570
+modified: 20260625080859570
+page: 000
+parent_section: arxiv_2209_07250_H6
+tags: paragraph arxiv_2209_07250
+title: arxiv_2209_07250_PARA_0058
+type: text/vnd.tiddlywiki
+
+For instance, for the query ``How many languages are spoken in Indonesia'', with a prediction 700, estimated 700 languages would be the {{arxiv_2209_07250_FO0020||FO}}, \{700 languages, 750 dialects\} would be classified as synonyms, \{27 major regional languages, 5 official languages\} as subgroups and \{2000 ethnic groups, 85 million native speakers\} as incomparables (Table (ref)).

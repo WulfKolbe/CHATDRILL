@@ -1,0 +1,11 @@
+created: 20260625093505870
+modified: 20260625093505870
+page: 000
+parent_section: 2204.10432_H24
+tags: paragraph 2204.10432
+title: 2204.10432_PARA_0087
+type: text/vnd.tiddlywiki
+
+\paragraphHd{Keywords.}
+We collect negative posts that contain some keywords, such as "sleep", but do not contain a positive pattern (``can't sleep'').
+This hinders models to perform simple keyword matching.

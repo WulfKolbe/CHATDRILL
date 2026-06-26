@@ -1,0 +1,9 @@
+created: 20260625093448815
+modified: 20260625093448815
+page: 000
+parent_section: 2204.11677_H17
+tags: paragraph 2204.11677
+title: 2204.11677_PARA_0214
+type: text/vnd.tiddlywiki
+
+As expected, there is hardly an effect during ERS (both \clocq and BM25 are word-order-agnostic), but ordering proves beneficial when generating answers from evidences using sequence-aware models like FiD.

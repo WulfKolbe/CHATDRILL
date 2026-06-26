@@ -1,0 +1,10 @@
+created: 20260625093007936
+modified: 20260625093007936
+page: 000
+parent_section: 2411.12449_H3
+tags: paragraph 2411.12449
+title: 2411.12449_PARA_0029
+type: text/vnd.tiddlywiki
+
+\paragraph{\textbf{Neon ({{2411.12449_FO0058||FO}})}} 
+In contrast to {{2411.12449_FO0059||FO}}, core idea behind {{2411.12449_FO0060||FO}} is to leverage the co-occurrence of entity mentions within the news chunks as potential target pairs of subject and object entities. We start with the predefined set of subject entities and identify entity co-occurrences in the news chunks, then determine candidate entity pairs based on their TF-IDF scores. Once the target pairs are obtained, the LLM is prompted to perform only the interaction extraction task. The overall process mirrors that of Neon({{2411.12449_FO0061||FO}}), but with slightly different initializations. Specifically, the steps are as follows:

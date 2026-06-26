@@ -1,0 +1,11 @@
+caption: N=18
+created: 20260625093231916
+displayMode: false
+latex: N=18
+latex_original: N=18
+modified: 20260625093231916
+tags: formula 2305.05403
+title: 2305.05403_FO0064
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

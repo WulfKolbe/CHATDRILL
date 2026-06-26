@@ -1,0 +1,11 @@
+caption: \{x_{1}, x_{2},.., x_{\gamma}\}
+created: 20260625080922310
+displayMode: false
+latex: \{x_{1}, x_{2},.., x_{\gamma}\}
+latex_original: \{x_{1}, x_{2},.., x_{\gamma}\}
+modified: 20260625080922310
+tags: formula arxiv_2208_09292
+title: arxiv_2208_09292_FO0034
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

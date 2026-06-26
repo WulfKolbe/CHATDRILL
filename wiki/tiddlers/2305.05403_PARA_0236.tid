@@ -1,0 +1,9 @@
+created: 20260625093231915
+modified: 20260625093231915
+page: 000
+parent_section: 2305.05403_H27
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0236
+type: text/vnd.tiddlywiki
+
+KBs like Wikidata, YAGO, and DBpedia are under active development, and one may wonder how their recall evolves. In Section (ref), we discussed work that analyzed recall relative to QA needs, and Wikipedia content, for DBpedia and Wikidata [razniewski2020structured]. Remarkably, relative to fixed information needs (QA logs from the 2000s, a snapshot of Wikipedia pages), recall had constantly increased from 2003-2020, with only a minor slowdown in recent years. However, reality and information needs also evolve over time, and hence it remains an open question of whether KBs are faster in capturing reality, or reality develops faster than KBs can represent it.

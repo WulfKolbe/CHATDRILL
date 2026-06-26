@@ -1,0 +1,9 @@
+created: 20260625093027647
+modified: 20260625093027647
+page: 000
+parent_section: 2411.04920_H5
+tags: paragraph 2411.04920
+title: 2411.04920_PARA_0042
+type: text/vnd.tiddlywiki
+
+More advanced methods could utilize LLMs themselves for deciding on entity equivalence [ding2024entgpt], but it would incur more cost and longer runtime.

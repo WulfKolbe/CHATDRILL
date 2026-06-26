@@ -1,0 +1,9 @@
+created: 20260625093324945
+modified: 20260625093324945
+page: 000
+parent_section: 2210.04530_H5
+tags: paragraph 2210.04530
+title: 2210.04530_PARA_0025
+type: text/vnd.tiddlywiki
+
+The results are shown in Table (ref). Due to the additional supervision on KB statements, differences are much smaller than in the previous setting. Nonetheless, we observe a consistent edge for fine-tuning on InfantBooks. To confirm this, we employed an additional human evaluation. For each subject-predicate pair in the test dataset, we computed the top-1 prediction for each model. For 300 examples where the predictions differed, we asked human annotators for their pairwise preference in terms of correctness. The results are shown in Table (ref). InfantBooks again outperforms the vanilla BERT model and the more general C4-easy. Table (ref) shows examples of generations.

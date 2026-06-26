@@ -1,0 +1,9 @@
+created: 20260625080853723
+modified: 20260625080853723
+page: 000
+parent_section: arxiv_2305_05403_H29
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0255
+type: text/vnd.tiddlywiki
+
+In settings where existing KBs shall be evaluated, we suggest to first check for the existence of KB-internal cardinality information, as discussed in Section (ref). Next, if high-quality texts like Wikipedia are available, we suggest to exploit textual cardinality assertions, preferably with simple template-based extraction, as in Section (ref). Relative recall, in particular by comparing entities inside the KB (see Sec. (ref)), will also help in spotting gaps. Statistical properties such as the ones we have discussed in Section (ref) should only be used once all other options have been exhausted, because they are least reliable.

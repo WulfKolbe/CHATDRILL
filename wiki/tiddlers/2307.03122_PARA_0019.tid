@@ -1,0 +1,9 @@
+created: 20260625093145739
+modified: 20260625093145739
+page: 000
+parent_section: 2307.03122_H6
+tags: paragraph 2307.03122
+title: 2307.03122_PARA_0019
+type: text/vnd.tiddlywiki
+
+The max-F1 scores in Table (ref) \& (ref) are far from 100%, i.e., LMs do not generate candidate lists that correctly rank all true objects above the false ones. In particular, max-F1 will not reach 100% when correct objects are ranked too low or absent. We found that 26.90% of valid objects in a candidate list were ranked below the optimal threshold and 27.75% of valid objects were not generated at all.

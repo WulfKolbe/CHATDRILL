@@ -1,0 +1,9 @@
+created: 20260625080922310
+modified: 20260625080922310
+page: 000
+parent_section: arxiv_2208_09292_H13
+tags: paragraph arxiv_2208_09292
+title: arxiv_2208_09292_PARA_0079
+type: text/vnd.tiddlywiki
+
+Multiple-choice question answering (MCQA) is a common educational and entertainment evaluation setup. Humans approach MCQA often in two ways: (1) Via positive cues on what is the right answer, and (2) Via negative cues that eliminate incorrect answer options, thus narrowing down the set of possible answers. We next investigate to which degree negation generators can help in the second approach. We use the data from the CommonsenseQA task [talmor-etal-2019-commonsenseqa]. Examples are shown in Table (ref). Every question comes with a question-concept (i.e., target concept) specifying the topic of the question. For example, the target concept of ``Where can you store a pie?'' is pie. The dataset contains 12k questions, each with only one correct answer. We manually sample 100 questions that: (1) Match concepts in the input KB (i.e., Ascent) and (2) Do not require any additional condition or information (e.g., ``\textit{Where do people read newspapers \underline{while riding to work}?}''). We translate the questions to a KB-like triple-pattern. For instance, ``Where can you store a pie?'' is mapped to (pie, AtLocation, ?). For each question, the eliminator (e.g., \uncommon{}) crosses out the answers that match a similar negation produced for the target concept (similarity is again measured using SBERT with threshold=0.7). The numerical results are shown in Table (ref) and examples in Table (ref). A helpful elimination is an deletion of a wrong answer and an unhelpful one is a deletion of a correct answer. The CWA baseline eliminates most of the options since the absence of the statement is enough to merit a deletion. Besides CWA, the model with the highest number of helpful eliminations is \uncommon{} with 108, followed by NegatER with 35.

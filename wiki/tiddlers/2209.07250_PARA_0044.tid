@@ -1,0 +1,9 @@
+created: 20260625093341705
+modified: 20260625093341705
+page: 000
+parent_section: 2209.07250_H3
+tags: paragraph 2209.07250
+title: 2209.07250_PARA_0044
+type: text/vnd.tiddlywiki
+
+We further assume that relevant documents or passages are given. This could be the result of a standard keyword/neural embedding-based IR procedure over a larger (locally indexed) background corpus, like Wiki\-pedia or the Web. We explain the methodology of {\mysystem} in the next section.

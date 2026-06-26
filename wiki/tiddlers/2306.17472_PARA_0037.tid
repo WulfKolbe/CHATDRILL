@@ -1,0 +1,13 @@
+created: 20260625093156716
+modified: 20260625093156716
+page: 000
+parent_section: 2306.17472_H5
+tags: paragraph 2306.17472
+title: 2306.17472_PARA_0037
+type: text/vnd.tiddlywiki
+
+{\bf Setup.} 
+There are two hyper-parameters for all competitors, the number of candidates {{2306.17472_FO0024||FO}} (or the ``top-k'' hyper-parameter for baseline models) and the threshold {{2306.17472_FO0025||FO}} for cutting off the extracted triples. 
+For our framework, {{2306.17472_FO0026||FO}} is 20 for all competitors and the threshold {{2306.17472_FO0027||FO}} is learned by using a hold-out (20%) validation set. 
+We report results for precision, recall and F1, with the original Wikidata triples as ground truth.
+Although MALT provides canonicalized entities, we consider the extracted O to be a correct prediction as long as it appears in the alias table because some baselines themselves cannot do disambiguation.

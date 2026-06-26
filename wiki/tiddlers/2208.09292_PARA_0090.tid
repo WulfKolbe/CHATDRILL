@@ -1,0 +1,10 @@
+created: 20260625095716234
+modified: 20260625095716234
+page: 000
+parent_section: 2208.09292_H16
+tags: paragraph 2208.09292
+title: 2208.09292_PARA_0090
+type: text/vnd.tiddlywiki
+
+\noindent 
+Language Models. In recent years, Language Models (LMs) showed their ability to store factual knowledge, learned from pre-training data [petroni-etal-2019-language,autoprompt]. Via LM-probing, one can predict missing tokens in a given claim, e.g. dogs can [MASK] {{2208.09292_FO0126||FO}} walk, run, eat. In addition, LMs can be trained to derive semantically meaningful sentence embeddings [reimers-2019-sentence-bert,gao-etal-2021-simcse], which helps with the problem of detecting semantic similarity. However, LMs have also been repeatedly shown to struggle with explicit negation [negatedlama,olmpics]. We make use of these models in order to scrutinize our candidate negations and make our rankings stronger via the relaxed sibling frequency.

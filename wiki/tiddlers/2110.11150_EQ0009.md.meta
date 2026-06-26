@@ -1,0 +1,12 @@
+created: 20260626111149172
+displayMode: true
+equation_number: 
+kind: Equation
+latex: \begin{aligned} f_j^{(1)}(x) =& \sum_{i=1}^{n_0} \phi(\bm{W}^{(1)}_i x)\\ =& \begin{cases} \sum_{i=1}^{n_0} \bm{W}^{(1)}_i I(\bm{W}^{(1)}_i > 0) \phi(x) ,& \text{if } x\geq 0\\ \sum_{i=1}^{n_0} -\bm{W}^{(1)}_i I(\bm{W}^{(1)}_i < 0) \phi(-x),& \text{otherwise,} \end{cases} \end{aligned}
+latex_original: \begin{aligned} f_j^{(1)}(x) =& \sum_{i=1}^{n_0} \phi(\bm{W}^{(1)}_i x)\\ =& \begin{cases} \sum_{i=1}^{n_0} \bm{W}^{(1)}_i I(\bm{W}^{(1)}_i > 0) \phi(x) ,& \text{if } x\geq 0\\ \sum_{i=1}^{n_0} -\bm{W}^{(1)}_i I(\bm{W}^{(1)}_i < 0) \phi(-x),& \text{otherwise,} \end{cases} \end{aligned}
+modified: 20260626111149172
+page: 000
+refnum: 
+tags: equation 2110.11150
+title: 2110.11150_EQ0009
+type: text/markdown

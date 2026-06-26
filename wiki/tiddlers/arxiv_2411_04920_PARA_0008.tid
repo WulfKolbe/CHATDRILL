@@ -1,0 +1,9 @@
+created: 20260625080816563
+modified: 20260625080816563
+page: 000
+parent_section: arxiv_2411_04920_H2
+tags: paragraph arxiv_2411_04920
+title: arxiv_2411_04920_PARA_0008
+type: text/vnd.tiddlywiki
+
+Iterative information extraction is a long-standing idea, already prototyped by Google cofounder Sergey Brin via the DIPRE system [brin1998extracting]. The Snowball system by [agichtein2000snowball] presented a large-scale implementation of this idea, harvesting tuples from over 300,000 newspaper documents. The KnowItAll system [etzioni2004web] followed a similar approach, and led to the ReVerb KB [reverb]. Several recent works attempt IE with LLMs from text [hao2022bertnet,carta2023iterative,zhang2024automated], but, except of the LM-KBC challenge series [singhania2022lm] and a proposal by [cohen-etal-2023-crawling], to date, we are not aware of any attempts to extract knowledge from LLMs.

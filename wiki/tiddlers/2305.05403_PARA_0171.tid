@@ -1,0 +1,9 @@
+created: 20260625093231915
+modified: 20260625093231915
+page: 000
+parent_section: 2305.05403_H18
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0171
+type: text/vnd.tiddlywiki
+
+While encyclopedic KBs like Wikidata, YAGO, and DBpedia are well-canonicalized, commonsense KBs like ConceptNet [conceptnet] and Ascent [ascent,ascentpp] express information using uncanonicalized short phrases. For instance, Ascent contains the actions lay eggs, deposit eggs, and lie their eggs. Therefore, the methods designed for well-structured KBs will result in many incorrect inferences, e.g., \fact{butterfly}{capableOf}{lie their eggs} but {{2305.05403_FO0137||FO}}\fact{butterfly}{capableOf}{lay eggs} and {{2305.05403_FO0138||FO}}\fact{butterfly}{capableOf}{deposit eggs}. Moreover, the use of the PCA rule (only infer an absent object to be negative in the presence of at least one other object for the same predicate) to improve accuracy of inferred negations would not be sufficient as most commonsense KBs rely on ConceptNet's well-defined but handful and generic predicates, e.g., hasProperty. As opposed to Wikidata's citizenOf predicate where only a few objects are expected, ConceptNet's hasProperty can have hundreds of accepted object phrases. Hence, it is not a very good idea to assume that since an entity has at least one general property present the list of objects is complete.

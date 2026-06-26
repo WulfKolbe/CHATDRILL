@@ -1,0 +1,9 @@
+created: 20260625080831230
+modified: 20260625080831230
+page: 000
+parent_section: arxiv_2308_06374_H1
+tags: paragraph arxiv_2308_06374
+title: arxiv_2308_06374_PARA_0005
+type: text/vnd.tiddlywiki
+
+A related survey paper [zhu2023llms] presents a comprehensive review of using LLMs for KG construction and reasoning, while our work provides a more in-depth view of the inflection point, considering not only relational KGs but also KGs with ontologies as schemas, as well as other dimensions of structured knowledge, including tabular data [XCKL+2018] and numerical values [PaHo2003].

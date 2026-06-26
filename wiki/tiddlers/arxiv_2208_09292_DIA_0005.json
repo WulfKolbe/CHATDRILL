@@ -1,0 +1,13 @@
+[
+    {
+        "title": "arxiv_2208_09292_DIA_0005",
+        "text": "<$image source={{!!canonical_uri}} width={{!!width}} height={{!!height}}/>",
+        "type": "text/vnd.tiddlywiki",
+        "tags": "diagram tikz arxiv_2208_09292",
+        "created": "20260625080922311",
+        "modified": "20260625080922311",
+        "page": "000",
+        "latex_code": "\\begin{tikzpicture}\n\\begin{axis}[\n    height=3.5cm,\n    width=.45\\columnwidth,\n    xlabel={$\\gamma$},\n    ylabel={\\footnotesize informativeness},\n    xmin=0, xmax=200,\n    ymin=0, ymax=0.5,\n    xtick={1,80,160},\n    xticklabels={1,80,160},   \n    \n            ]\n\\addplot[smooth,mark=*,black] plot coordinates {\n    (1,0.0)\n    \n    (20,0.3)\n    \n    (40,0.4)\n    \n    (60,0.3)\n    \n    (80,0.3)\n    \n    (100,0.3)\n    \n    (120,0.3)\n    \n    (140,0.3)\n    \n    (160,0.3)\n    \n    (180,0.3)\n    \n    (200,0.26)\n};\n\n\\end{axis}\n\\end{tikzpicture}",
+        "latex_original": "\\begin{tikzpicture}\n\\begin{axis}[\n    height=3.5cm,\n    width=.45\\columnwidth,\n    xlabel={$\\gamma$},\n    ylabel={\\footnotesize informativeness},\n    xmin=0, xmax=200,\n    ymin=0, ymax=0.5,\n    xtick={1,80,160},\n    xticklabels={1,80,160},   \n    \n            ]\n\\addplot[smooth,mark=*,black] plot coordinates {\n    (1,0.0)\n    \n    (20,0.3)\n    \n    (40,0.4)\n    \n    (60,0.3)\n    \n    (80,0.3)\n    \n    (100,0.3)\n    \n    (120,0.3)\n    \n    (140,0.3)\n    \n    (160,0.3)\n    \n    (180,0.3)\n    \n    (200,0.26)\n};\n\n\\end{axis}\n\\end{tikzpicture}"
+    }
+]

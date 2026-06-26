@@ -1,0 +1,12 @@
+created: 20260625080929032
+modified: 20260625080929032
+page: 000
+parent_section: arxiv_2204_11677_H4
+tags: paragraph arxiv_2204_11677
+title: arxiv_2204_11677_PARA_0076
+type: text/vnd.tiddlywiki
+
+The representation is purely on the question-level,
+and thus agnostic to the information sources that are used during the answering process.
+However, it can readily be matched with different kinds of evidences, which often take the form of keyword phrases (e.g. text snippets or verbalized table records).
+The SR is loosely inspired by work on quantity queries [ho2019qsearch].

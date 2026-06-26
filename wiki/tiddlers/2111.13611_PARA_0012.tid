@@ -1,0 +1,10 @@
+created: 20260625093527300
+modified: 20260625093527300
+page: 000
+parent_section: 2111.13611_H1
+tags: paragraph 2111.13611
+title: 2111.13611_PARA_0012
+type: text/vnd.tiddlywiki
+
+\item[2. ] To support experimental comparisons, we present a large dataset of annotated web documents. 
+\item[3.] We propose a set of heuristics for coverage estimation, analyze them in isolation and in combination with an inexpensive standard embedding-based document model.

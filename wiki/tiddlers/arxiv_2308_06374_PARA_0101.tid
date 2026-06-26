@@ -1,0 +1,12 @@
+created: 20260625080831231
+modified: 20260625080831231
+page: 000
+parent_section: arxiv_2308_06374_H9
+tags: paragraph arxiv_2308_06374
+title: arxiv_2308_06374_PARA_0101
+type: text/vnd.tiddlywiki
+
+The integration of KGs and LLMs in a unified approach holds significant potential, as their combination mutually enhances and complements each other in a valuable manner. For instance, KGs provide very accurate and explicit knowledge, which is crucial for some applications i.e. healthcare, whereas LLMs have
+been criticized for their lack of factual knowledge leading to hallucinations and inaccurate facts. secondly, LLMs lack explainability instead, KGs given their symbolic
+reasoning ability, are able to generate interpretable results. On the other hand, KGs are difficult to construct from unstructured text and suffer from incompleteness therefore, LLMs could be utilized in addressing these challenges by text processing. 
+Various applications have adopted this methodology of combining LLMs with KGs, such as healthcare assistants\footnote{https://neo4j.com/blog/doctor-ai-a-voice-chatbot-for-healthcare-powered-by-neo4j-and-aws/}, question answering systems [yasunaga2021qa] or ChatBots, and sustainability, among others.

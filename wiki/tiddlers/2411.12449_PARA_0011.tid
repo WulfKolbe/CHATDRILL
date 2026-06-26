@@ -1,0 +1,9 @@
+created: 20260625093007936
+modified: 20260625093007936
+page: 000
+parent_section: 2411.12449_H1
+tags: paragraph 2411.12449
+title: 2411.12449_PARA_0011
+type: text/vnd.tiddlywiki
+
+In recent years, large language models [peters-etal-2018-deep, devlin-etal-2019-bert], pretrained on extensive web-scale datasets, have gained widespread usage as human task assistants, offering expert-level knowledge learned during pretraining [OpenAI2023GPT4TR]. However, given the dynamic nature of information in the real world, incorporating temporal awareness into these AI systems has become increasingly important. The ability to inject up-to-date information is essential for effectively addressing user needs in a fast evolving world. Despite the notable capabilities of these systems, research on downstream tasks involving temporal aspects has uncovered several limitations. Key issues include temporal misalignment [luu-etal-2022-time, jang-etal-2022-temporalwiki], lack of temporal generalization [jin-etal-2022-lifelong], limited temporal reasoning capabilities [xiong-etal-2024-large], and disproportionate handling of implicit versus explicit temporal conditions when answering knowledge-intensive questions [10.5555/3666122.3668252].

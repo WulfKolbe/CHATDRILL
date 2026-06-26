@@ -1,0 +1,11 @@
+caption: h(N_1,N_2,N3)
+created: 20260625080931152
+displayMode: false
+latex: h(N_1,N_2,N3)
+latex_original: h(N_1,N_2,N3)
+modified: 20260625080931152
+tags: formula arxiv_2110_13883
+title: arxiv_2110_13883_FO0368
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

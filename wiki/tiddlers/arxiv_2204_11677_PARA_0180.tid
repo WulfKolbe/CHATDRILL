@@ -1,0 +1,21 @@
+created: 20260625080929033
+modified: 20260625080929033
+page: 000
+parent_section: arxiv_2204_11677_H14
+tags: paragraph arxiv_2204_11677
+title: arxiv_2204_11677_PARA_0180
+type: text/vnd.tiddlywiki
+
+\convinse uses a fine-tuned BART-base model for generating structured representations. The default hyperparameters from the Hugging Face library were used\footnote{\url{https://huggingface.co/facebook/bart-base}}.
+The maximum sequence length was set to {{arxiv_2204_11677_FO0100||FO}}, and early stopping was enabled.
+Three epochs were used during training, with a batch size of ten. {{arxiv_2204_11677_FO0101||FO}} warmup steps with a weight decay of {{arxiv_2204_11677_FO0102||FO}} turned out to be the most effective.
+\clocq, that was used for evidence retrieval inside \convinse and all baselines, has two parameters: {{arxiv_2204_11677_FO0103||FO}} (number of disambiguations to consider for each question word), and {{arxiv_2204_11677_FO0104||FO}} (a pruning threshold). In this paper, we set {{arxiv_2204_11677_FO0105||FO}} = \struct{Auto} (\clocq dynamically sets the number of disambiguations), and {{arxiv_2204_11677_FO0106||FO}}, as these performed the best on our dev set.
+We used a Python implementation of BM25, with default parameters\footnote{\url{https://pypi.org/project/rank-bm25/}}.
+Code for FiD is publicly available\footnote{\url{https://github.com/facebookresearch/FiD}}. 
+FiD was trained on \convmix for its use in this work.
+The number of input passages ({{arxiv_2204_11677_FO0107||FO}} in this paper) was retained at {{arxiv_2204_11677_FO0108||FO}} as in the original work [izacard2021leveraging].
+The maximum length of an answer was set to {{arxiv_2204_11677_FO0109||FO}} words. 
+A learning rate of {{arxiv_2204_11677_FO0110||FO}} really proved effective, with a weight decay of {{arxiv_2204_11677_FO0111||FO}} and
+AdamW as the optimizer.
+All systems were trained on the \convmix train set, and all hyperparameters were tuned on the dev set.
+All code was

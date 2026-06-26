@@ -1,0 +1,28 @@
+created: 20260625080827138
+format: fractal_xref
+modified: 20260625080827138
+tags: toc arxiv_2405_02732
+title: arxiv_2405_02732_TOC
+type: text/vnd.tiddlywiki
+
+** 1.1 [[Introduction|arxiv_2405_02732_H1]]
+** 1.2 [[Related Work|arxiv_2405_02732_H2]]
+** 1.3 [[Recall-oriented Generation|arxiv_2405_02732_H3]]
+*** 1.3.1 [[Passage Retrieval|arxiv_2405_02732_H4]]
+*** 1.3.2 [[Passage Ranking|arxiv_2405_02732_H5]]
+*** 1.3.3 [[Passage Batching|arxiv_2405_02732_H6]]
+*** 1.3.4 [[Prompt-based Object Generation|arxiv_2405_02732_H7]]
+** 1.4 [[Precision-oriented Scrutinization|arxiv_2405_02732_H8]]
+*** 1.4.1 [[Evidence Retrieval|arxiv_2405_02732_H9]]
+*** 1.4.2 [[Classifiers|arxiv_2405_02732_H10]]
+** 1.5 [[Experimental Setup|arxiv_2405_02732_H11]]
+*** 1.5.1 [[Datasets|arxiv_2405_02732_H12]]
+*** 1.5.2 [[System Configurations|arxiv_2405_02732_H13]]
+** 1.6 [[Experimental Results|arxiv_2405_02732_H14]]
+*** 1.6.1 [[Main Findings for Books Data|arxiv_2405_02732_H15]]
+*** 1.6.2 [[Analysis by Drill-Down|arxiv_2405_02732_H16]]
+*** 1.6.3 [[Findings for Web Data|arxiv_2405_02732_H17]]
+*** 1.6.4 [[Sensitivity of Hyper-Parameter Settings|arxiv_2405_02732_H18]]
+*** 1.6.5 [[Error Discussion|arxiv_2405_02732_H19]]
+** 1.7 [[Conclusion|arxiv_2405_02732_H20]]
+** 1.8 [[Limitations|arxiv_2405_02732_H21]]

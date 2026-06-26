@@ -1,0 +1,21 @@
+created: 20260625080827137
+modified: 20260625080827137
+page: 000
+parent_section: arxiv_2405_02732_H15
+tags: paragraph arxiv_2405_02732
+title: arxiv_2405_02732_PARA_0084
+type: text/vnd.tiddlywiki
+
+\noindent{\bf Hyper-parameter Tuning for pred.} The {\em pred} method has three hyper-parameters. Setting their values by global grid search with train/dev data leads to the best results, with {{arxiv_2405_02732_FO0057||FO}}=20, {{arxiv_2405_02732_FO0058||FO}}=5, and {{arxiv_2405_02732_FO0059||FO}}=0.75.
+As the various P exhibit different characteristics, we would expected even further gains with the per-predicate grid search.
+Indeed, this led to rather different predicate-specifc values. For example, 
+for Sibling, the best values are
+{{arxiv_2405_02732_FO0060||FO}}=10, {{arxiv_2405_02732_FO0061||FO}}=2, {{arxiv_2405_02732_FO0062||FO}}=0.9, whereas for
+Friend we have {{arxiv_2405_02732_FO0063||FO}}=50, {{arxiv_2405_02732_FO0064||FO}}=1, {{arxiv_2405_02732_FO0065||FO}}=0.55.
+This makes sense, as Sibling lists are much shorter, and long Friend lists have much noisier support passages. So the setting is tighter 
+for Sibling, and has more liberal {{arxiv_2405_02732_FO0066||FO}}
+for Friend but only 1 support passage per O to tame noise.
+Nevertheless, the {\em pred {{arxiv_2405_02732_FO0067||FO}}} and
+{\em dis {{arxiv_2405_02732_FO0068||FO}}} techniques did not achieve significant improvements over the globally tuned variants {\em pred {{arxiv_2405_02732_FO0069||FO}}} and
+{\em dis {{arxiv_2405_02732_FO0070||FO}}}. We attribute this
+result to the fact that the simpler configurations are already close to the best possible outputs (due to the difficulty of the task).

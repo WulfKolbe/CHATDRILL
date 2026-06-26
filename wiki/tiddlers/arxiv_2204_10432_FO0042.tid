@@ -1,0 +1,11 @@
+caption: \kappa < 0.60
+created: 20260625080929322
+displayMode: false
+latex: \kappa < 0.60
+latex_original: \kappa < 0.60
+modified: 20260625080929322
+tags: formula arxiv_2204_10432
+title: arxiv_2204_10432_FO0042
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

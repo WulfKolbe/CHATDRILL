@@ -1,0 +1,9 @@
+created: 20260625080830878
+modified: 20260625080830878
+page: 000
+parent_section: arxiv_2310_14771_H6
+tags: paragraph arxiv_2310_14771
+title: arxiv_2310_14771_PARA_0036
+type: text/vnd.tiddlywiki
+
+Using LMs for automated knowledge generation comes with the standard risk of exacerbating demographic biases. For example, many of the best-performing relations are language-related, where the model presumably often estimates a person's native language entirely from their name.

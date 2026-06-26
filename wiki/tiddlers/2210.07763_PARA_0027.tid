@@ -1,0 +1,12 @@
+created: 20260625093308064
+modified: 20260625093308064
+page: 000
+parent_section: 2210.07763_H2
+tags: paragraph 2210.07763
+title: 2210.07763_PARA_0027
+type: text/vnd.tiddlywiki
+
+Meanwhile, Ilievski et al. [cskg]
+consolidate CSK from 7 different resources into one integrated KG.
+Those projects, however, have their main focus on either concept-centered knowledge (e.g., \stmt{Elephants have trunks}), social interactions (e.g., {\sc X hates Y's guts, as a result, X wants to yell at Y}), or event-centered knowledge (e.g., \stmt{X drinking coffee happens after X pouring the coffee into a mug}) and do not cover much cultural knowledge.
+Our approach also starts from texts, but focuses on

@@ -1,0 +1,9 @@
+created: 20260625080805467
+modified: 20260625080805467
+page: 000
+parent_section: arxiv_2411_12449_H3
+tags: paragraph arxiv_2411_12449
+title: arxiv_2411_12449_PARA_0034
+type: text/vnd.tiddlywiki
+
+For a set of {{arxiv_2411_12449_FO0072||FO}} retrieved news chunks {{arxiv_2411_12449_FO0073||FO}} sorted based on its time-stamp, batching gives {{arxiv_2411_12449_FO0074||FO}}, where each batch contains {{arxiv_2411_12449_FO0075||FO}} chunks. If {{arxiv_2411_12449_FO0076||FO}} is not divisible by {{arxiv_2411_12449_FO0077||FO}}, the last batch will contain <{{arxiv_2411_12449_FO0078||FO}} chunks. This time-based sorting and batching approach allows information from similar dates---and thus similar events---to be grouped within the same prompt.

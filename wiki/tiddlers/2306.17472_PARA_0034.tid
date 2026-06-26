@@ -1,0 +1,12 @@
+created: 20260625093156716
+modified: 20260625093156716
+page: 000
+parent_section: 2306.17472_H4
+tags: paragraph 2306.17472
+title: 2306.17472_PARA_0034
+type: text/vnd.tiddlywiki
+
+The dataset contains 65.3% triple facts where the O entity is a multi-word phrase, and 58.6% ambiguous facts where
+the S or O entities share identical alias names in Wikidata.
+For example, the two ambiguous entities ,``Birmingham, West Midlands (Q2256)'' and ``Birmingham, Alabama (Q79867)'', have the same Label value ``Birmingham''.
+In total, 87.0% of the sample facts have S entities in the long tail, where we define long-tail entities to have at most 13 Wikidata triples.

@@ -1,0 +1,9 @@
+created: 20260625080847348
+modified: 20260625080847348
+page: 000
+parent_section: arxiv_2307_03122_H4
+tags: paragraph arxiv_2307_03122
+title: arxiv_2307_03122_PARA_0011
+type: text/vnd.tiddlywiki
+
+In the ranking phase, the quality of a candidate list is assessed using the maximally possible F1 score, defined as the highest possible F1 score achieved by applying the top-{{arxiv_2307_03122_FO0011||FO}} selection mechanism with the optimal {{arxiv_2307_03122_FO0012||FO}} value. The optimal {{arxiv_2307_03122_FO0013||FO}} is found by iterating over all possible choices of {{arxiv_2307_03122_FO0014||FO}} and calculating the respective F1 score on the subset of candidate objects and ground-truth objects. In the selection phase, the output triples obtained after applying a selection mechanism are evaluated using precision, recall, and F1 score.

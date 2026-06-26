@@ -1,0 +1,10 @@
+created: 20260625080831230
+modified: 20260625080831230
+page: 000
+parent_section: arxiv_2308_06374_H6
+tags: paragraph arxiv_2308_06374
+title: arxiv_2308_06374_PARA_0047
+type: text/vnd.tiddlywiki
+
+Also, LLMs such as GPT-3 and GPT-4 have the in-context learning capability which could adapt to new tasks through careful prompt design without fine-tuning the model parameters. 
+Since LLMs are directly capable of predicting entities that are not yet contained in the KG, many works using direct LLM approaches also evaluate their models in the ILP setting [choi2021mem,choi2023knowledge,dazaBLP2021,wang2021structure,wangSimKGCSimpleContrastive2022a,wangKEPLERUnifiedModel2021,zha2022rulesinductive].

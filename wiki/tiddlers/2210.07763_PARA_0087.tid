@@ -1,0 +1,12 @@
+created: 20260625093308064
+modified: 20260625093308064
+page: 000
+parent_section: 2210.07763_H10
+tags: paragraph 2210.07763
+title: 2210.07763_PARA_0087
+type: text/vnd.tiddlywiki
+
+Here, {{2210.07763_FO0022||FO}} is the semantic similarity between the two clusters {{2210.07763_FO0023||FO}} and {{2210.07763_FO0024||FO}}, and {{2210.07763_FO0025||FO}} is a predefined threshold.
+In \systemname{}, to reduce computation, we approximate {{2210.07763_FO0026||FO}} as the similarity between their summary sentences, which can be computed as the cosine similarity between their embedding vectors.
+When computing these embeddings, the subjects in the sentences are replaced with the same [MASK] tokens so that we only compare the expressed properties.
+Then, we normalize the logarithmic IDF values into the range {{2210.07763_FO0027||FO}} to get the distinctiveness scores of clusters.

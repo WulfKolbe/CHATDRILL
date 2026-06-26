@@ -1,0 +1,10 @@
+created: 20260625093156716
+modified: 20260625093156716
+page: 000
+parent_section: 2306.17472_H10
+tags: paragraph 2306.17472
+title: 2306.17472_PARA_0054
+type: text/vnd.tiddlywiki
+
+Based on the above analyses, we find that ED prompts can generate disambiguated and relatively high-quality facts while QA prompts have the highest recall. 
+Hence, a question naturally appears: ``Can we synergize the two components to yield better facts?''

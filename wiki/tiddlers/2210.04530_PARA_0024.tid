@@ -1,0 +1,10 @@
+created: 20260625093324945
+modified: 20260625093324945
+page: 000
+parent_section: 2210.04530_H5
+tags: paragraph 2210.04530
+title: 2210.04530_PARA_0024
+type: text/vnd.tiddlywiki
+
+We used ConceptNet for training and testing\footnote{Observe that in the previous unsupervised setting, the other datasets were needed because the source sentences underlying ConceptNet are unnatural. Its structured statements themselves are of good quality.} and report precision and recall@k. The training and testing sets contain 
+186k and 23k triples.

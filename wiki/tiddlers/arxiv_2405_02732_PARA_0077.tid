@@ -1,0 +1,11 @@
+created: 20260625080827137
+modified: 20260625080827137
+page: 000
+parent_section: arxiv_2405_02732_H15
+tags: paragraph arxiv_2405_02732
+title: arxiv_2405_02732_PARA_0077
+type: text/vnd.tiddlywiki
+
+In this evaluation mode, stage-1 recall by {\em def} and {\em amp} increases by ca. 10 points, reaching 93% and 92%, respectively. 
+This is intuitive, as pooled ground truth is a subset of the fully hand-crafted ground truth.
+The numerical gains carry over to Stage 2: with {\em thr80}, {\em amp} goes up to 56.5% R@P50 and 41.4% R@P80.

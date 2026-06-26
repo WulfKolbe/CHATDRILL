@@ -1,0 +1,15 @@
+created: 20260625093156716
+modified: 20260625093156716
+page: 000
+parent_section: 2306.17472_H4
+tags: paragraph 2306.17472
+title: 2306.17472_PARA_0029
+type: text/vnd.tiddlywiki
+
+Benchmarks for KBC and LM-as-KB cover facts for all kinds of entities, but tend to focus on prominent ones with frequent mentions. Likewise, benchmarks for 
+relation extraction (RE) from text, most notably TACRED [zhang2017position], DocRED [yao2019docred] and LAMA [petroni2019language]
+do not reflect the difficulty of coping with long-tail entities and the amplified issue of surface-name ambiguity (see Table (ref).
+Therefore, we developed a new dataset with
+emphasis on the long-tail challenge,
+called MALT (for 
+``Multi-token, Ambiguous, Long-Tailed facts'').

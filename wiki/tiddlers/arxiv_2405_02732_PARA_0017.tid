@@ -1,0 +1,10 @@
+created: 20260625080827136
+modified: 20260625080827136
+page: 000
+parent_section: arxiv_2405_02732_H2
+tags: paragraph arxiv_2405_02732
+title: arxiv_2405_02732_PARA_0017
+type: text/vnd.tiddlywiki
+
+\paragraph{IE from Books.} 
+Prior works by [bamman-etal-2019-annotated, stammbach-etal-2022-heroes, chang-etal-2023-speak] pursue LLM-supported IE about characters from fiction books. However, these methods focus on generating a single name from a single passage.

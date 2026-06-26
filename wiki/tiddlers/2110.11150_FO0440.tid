@@ -1,0 +1,11 @@
+caption: i \in I
+created: 20260625151931664
+displayMode: false
+latex: i \in I
+latex_original: i \in I
+modified: 20260625151931664
+tags: formula 2110.11150
+title: 2110.11150_FO0440
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

@@ -1,0 +1,9 @@
+created: 20260625110956922
+modified: 20260625110956922
+page: 000
+parent_section: 2110.13883_H3
+tags: paragraph 2110.13883
+title: 2110.13883_PARA_0025
+type: text/vnd.tiddlywiki
+
+and similarly, we define {{2110.13883_FO0079||FO}} as the number of data points with a smaller distance to point {{2110.13883_FO0080||FO}} than {{2110.13883_FO0081||FO}} on the {{2110.13883_FO0082||FO}} subspace. As an example consider the two-dimensional plot in Figure (ref). In this example {{2110.13883_FO0083||FO}}, that is, except {{2110.13883_FO0084||FO}} itself, there exists only one further point with a distance {{2110.13883_FO0085||FO}} to {{2110.13883_FO0086||FO}} for {{2110.13883_FO0087||FO}}. On the other hand, there exist {{2110.13883_FO0088||FO}} data points, which fulfill this criterium for the {{2110.13883_FO0089||FO}} subspace. In general, it holds that {{2110.13883_FO0090||FO}}, as well as {{2110.13883_FO0091||FO}}.

@@ -1,0 +1,9 @@
+created: 20260625080853722
+modified: 20260625080853722
+page: 000
+parent_section: arxiv_2305_05403_H12
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0108
+type: text/vnd.tiddlywiki
+
+This naive approach fails due to a number of reasons. First, a positive integer value is a necessary but not sufficient condition for counting predicates. For instance, KB predicates that store identifiers (episode number, VIAF ID in Wikidata), measurement quantities (riverLength) or counts of non-entities (floorCount) are not counting predicates. Second, functional predicates such as birthPlace, atomicNumber,

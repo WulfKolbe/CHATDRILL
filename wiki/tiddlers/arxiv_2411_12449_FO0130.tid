@@ -1,0 +1,11 @@
+caption: 70^{\text{th}}
+created: 20260625080805468
+displayMode: false
+latex: 70^{\text{th}}
+latex_original: 70^{\text{th}}
+modified: 20260625080805468
+tags: formula arxiv_2411_12449
+title: arxiv_2411_12449_FO0130
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

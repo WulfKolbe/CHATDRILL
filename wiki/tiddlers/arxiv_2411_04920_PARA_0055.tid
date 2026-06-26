@@ -1,0 +1,9 @@
+created: 20260625080816564
+modified: 20260625080816564
+page: 000
+parent_section: arxiv_2411_04920_H8
+tags: paragraph arxiv_2411_04920
+title: arxiv_2411_04920_PARA_0055
+type: text/vnd.tiddlywiki
+
+For a given triple, we retrieve the top-5 web-page snippets for the search term <subject> <object> from a search engine API, then again perform LLM-based textual entailment to decide whether the given triple is entailed (entailed/plausible/implausible/false), given the snippets. We specifically adapt the prompt used by [adam2024traceable], extending it with the ``false'' level. Based on 1,000 samples, we find that on average, 31% of triples are entailed, 61% are plausible, 1% is implausible, and 7% are false.

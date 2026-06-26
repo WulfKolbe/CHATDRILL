@@ -1,0 +1,15 @@
+created: 20260625080847348
+modified: 20260625080847348
+page: 000
+parent_section: arxiv_2307_03122_H3
+tags: paragraph arxiv_2307_03122
+title: arxiv_2307_03122_PARA_0009
+type: text/vnd.tiddlywiki
+
+We experiment with the following parameterized mechanisms on the generated object lists to get a valid subset of triples.\\
+\textbf{Top-{{arxiv_2307_03122_FO0001||FO}}}: The most probable {{arxiv_2307_03122_FO0002||FO}} objects are selected.\\
+\textbf{Prob-{{arxiv_2307_03122_FO0003||FO}}}: Objects with a probability greater than or equal to {{arxiv_2307_03122_FO0004||FO}} are chosen.\\
+\textbf{Cumul-{{arxiv_2307_03122_FO0005||FO}}}: Retain all objects, in order of probability, whose summed probability is no larger than {{arxiv_2307_03122_FO0006||FO}}. In difference with Prob-{{arxiv_2307_03122_FO0007||FO}}, it would enable retaining candidates of similarly moderate probability. \\
+Count Probe:
+We probe the LM again to get an object count prediction for a \srpexample{\subject}{\relation}. A count probe could be as follows, \textit{``Italy borders a total of \mask{} countries''}. From the list of generated tokens, the highest-ranked integer type token (either in alphabetical or numerical form) is used to subset the original object list.\\
+Verification Probe: We probe the same LM again on each candidate object to factually verify the generated subject-relation-object \srotupleexample{s}{r}{o} triple. A verification probe could be as follows, ``Italy and France share a border? Answer: \mask''. We compare the relative probabilities of the \_yes versus \_no tokens in the masked position, using {{arxiv_2307_03122_FO0008||FO}}, with {{arxiv_2307_03122_FO0009||FO}} is a hyper-parameter, to determine the correctness of the original candidate object, France. All the original candidate objects satisfying the comparison condition are selected.

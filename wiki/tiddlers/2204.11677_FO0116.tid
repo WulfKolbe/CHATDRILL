@@ -1,0 +1,11 @@
+caption: a^3
+created: 20260625093448816
+displayMode: false
+latex: a^3
+latex_original: a^3
+modified: 20260625093448816
+tags: formula 2204.11677
+title: 2204.11677_FO0116
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

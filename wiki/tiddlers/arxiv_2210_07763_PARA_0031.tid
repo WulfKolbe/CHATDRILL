@@ -1,0 +1,9 @@
+created: 20260625080858062
+modified: 20260625080858062
+page: 000
+parent_section: arxiv_2210_07763_H2
+tags: paragraph arxiv_2210_07763
+title: arxiv_2210_07763_PARA_0031
+type: text/vnd.tiddlywiki
+
+is of encouraging quality, knowledge bases from LMs are inherently problematic, because their is no apparent way to trace assertions to specific sources, e.g., to understand assertion context, or to apply filters at document level.

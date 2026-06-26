@@ -1,0 +1,11 @@
+caption: \psi(k) {+} \psi(n)
+created: 20260625110956923
+displayMode: false
+latex: \psi(k) {+} \psi(n)
+latex_original: \psi(k) {+} \psi(n)
+modified: 20260625110956923
+tags: formula 2110.13883
+title: 2110.13883_FO0108
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

@@ -1,0 +1,11 @@
+created: 20260625093448815
+modified: 20260625093448815
+page: 000
+parent_section: 2204.11677_H18
+tags: paragraph 2204.11677
+title: 2204.11677_PARA_0222
+type: text/vnd.tiddlywiki
+
+It may seem that hard history selection can be generalized to the heterogeneous setting more easily, but we found that such an approach hurts
+end-to-end answering performance in preliminary experiments.
+We employ attention over conversation history in the QU phase, which can be seen as a soft history selection.

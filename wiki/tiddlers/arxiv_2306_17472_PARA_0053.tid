@@ -1,0 +1,17 @@
+created: 20260625080853252
+modified: 20260625080853252
+page: 000
+parent_section: arxiv_2306_17472_H10
+tags: paragraph arxiv_2306_17472
+title: arxiv_2306_17472_PARA_0053
+type: text/vnd.tiddlywiki
+
+In this context-based experiment, context sentences are introduced for assessing the capability of LMs to
+generate facts by exploiting context.
+Concretely, we traverse the sentences in Wikipedia for relevant entities and each context sentence is combined with a corresponding prompt to compose a new query. 
+Next, facts are retrieved or extracted by using different LMs.
+For duplicated outputs, we merge them and average the score.
+The experimental results are shown in Table (ref).
+We can see that adding context can remarkably improve the performances on MALT-Wikidata, e.g., BERT-large (4.7 {{arxiv_2306_17472_FO0029||FO}} 12.3) and GENRE (7.4 {{arxiv_2306_17472_FO0030||FO}} 18.9 ). 
+GENRE consistently outperforms other baselines in terms of F1 while QA mode can obtain very high recalls. 
+For TE methods, they are a workable approach while still lagging behind our framework.

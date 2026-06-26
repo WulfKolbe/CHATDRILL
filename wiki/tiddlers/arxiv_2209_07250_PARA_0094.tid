@@ -1,0 +1,9 @@
+created: 20260625080859570
+modified: 20260625080859570
+page: 000
+parent_section: arxiv_2209_07250_H12
+tags: paragraph arxiv_2209_07250
+title: arxiv_2209_07250_PARA_0094
+type: text/vnd.tiddlywiki
+
+The CNPs are evaluated based on the accuracy of the classified labels of Synonyms, Subgroups and Incomparables, measured as the ratio of correct predictions to the total predictions in each class.

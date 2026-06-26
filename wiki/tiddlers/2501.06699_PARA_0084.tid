@@ -1,0 +1,15 @@
+created: 20260625092952539
+modified: 20260625092952539
+page: 000
+parent_section: 2501.06699_H12
+tags: paragraph 2501.06699
+title: 2501.06699_PARA_0084
+type: text/vnd.tiddlywiki
+
+\parai{Collection} involves the acquisition and continuous updating of a corpus of 
+ web-pages over which users can search.
+ This is largely based on crawling the Web, but also involves subscribing to feeds (e.g., news, social media) and
+ importing information from databases (e.g., product catalogs).
+ These sources must be revisited intermittently in order to check for updates, with the frequency dependent on the importance and rate of change of the particular page.
+ Methods for spam control can block or remove malicious contents.
+ The collection process works near-real-time; for example, a new post on a social network will be known to the SE within minutes.

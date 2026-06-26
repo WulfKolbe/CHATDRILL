@@ -1,0 +1,9 @@
+created: 20260625080859569
+modified: 20260625080859569
+page: 000
+parent_section: arxiv_2209_07250_H1
+tags: paragraph arxiv_2209_07250
+title: arxiv_2209_07250_PARA_0022
+type: text/vnd.tiddlywiki
+
+In Figure (ref), 160 is the output to a SPARQL query which counts the number of songs by Lennon performed by The Beatles\footnote{\url{https://w.wiki/4XVq}}. The query translation, here performed by an expert user, is a challenge in itself, which is beyond the scope of this work. Nevertheless, for a user who is unaware of the composer duo Lennon-McCartney, would hardly doubt the output of 160 songs to the SPARQL query, which contains songs jointly written by Lennon with his co-band member.

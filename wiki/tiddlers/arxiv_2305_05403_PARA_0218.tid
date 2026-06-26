@@ -1,0 +1,9 @@
+created: 20260625080853723
+modified: 20260625080853723
+page: 000
+parent_section: arxiv_2305_05403_H24
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0218
+type: text/vnd.tiddlywiki
+
+The common insight from these studies is that KBs provide encouraging recall for utilizing them in QA systems, but are far from saturating the query sets, thus often motivating hybrid QA systems that combine KBs and text. At the same time,

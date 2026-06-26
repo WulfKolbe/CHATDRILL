@@ -1,0 +1,9 @@
+created: 20260625092952539
+modified: 20260625092952539
+page: 000
+parent_section: 2501.06699_H2
+tags: paragraph 2501.06699
+title: 2501.06699_PARA_0031
+type: text/vnd.tiddlywiki
+
+\parai{Synthesis} references the ability to return individual results that integrate information from multiple sources (addressing what some refer to as ``global queries''). KGs and LLMs are capable of returning answers synthesized from multiple sources. While SEs index diverse sources, they cannot synthesize information to answer user queries; thus, if the information a user seeks is not provided in one document, the user must integrate and synthesize the relevant information manually from multiple sources.

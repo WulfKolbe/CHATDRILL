@@ -1,0 +1,13 @@
+created: 20260625080929032
+modified: 20260625080929032
+page: 000
+parent_section: arxiv_2204_11677_H11
+tags: paragraph arxiv_2204_11677
+title: arxiv_2204_11677_PARA_0168
+type: text/vnd.tiddlywiki
+
+Documents are split into sentences using spaCy\footnote{https://spacy.io/api/sentencizer}.
+All tables and infoboxes originating from the retrieved Wikipedia pages together constitute the respective answering sources.
+We parse Wikipedia tables using WikiTables\footnote{https://github.com/bcicen/wikitables}, and concatenate entries in the obtained JSON-dictionary for verbalization.
+This procedure also includes conversions for tables with nested structure.
+Infoboxes are detected using Beautiful Soup\footnote{https://beautiful-soup-4.readthedocs.io/en/latest/}.

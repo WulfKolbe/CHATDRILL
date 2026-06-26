@@ -1,0 +1,12 @@
+created: 20260625080929032
+modified: 20260625080929032
+page: 000
+parent_section: arxiv_2204_11677_H5
+tags: paragraph arxiv_2204_11677
+title: arxiv_2204_11677_PARA_0113
+type: text/vnd.tiddlywiki
+
+to map the corresponding entity mentions
+(anchor texts) to KB-items.
+Wikipedia links are transformed to Wikidata IDs using a dictionary.
+Similarly, dates and years in evidences are identified and normalized to the standard KB format using simple patterns.

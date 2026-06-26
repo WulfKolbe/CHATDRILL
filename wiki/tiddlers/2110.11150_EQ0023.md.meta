@@ -1,0 +1,12 @@
+created: 20260626111149172
+displayMode: true
+equation_number: 
+kind: Equation
+latex: \begin{aligned} ||\bm{x^{(l)}} - \bm{x^{(l)}_{\epsilon}}||_2 & \leq ||\bm{h^{(l)}} - \bm{h^{(l)}_{\epsilon}}||_2 \\ & \leq || \left(\bm{W^{(l)}} - \bm{W^{(l)}_{\epsilon}}\right) \bm{x^{(l-1)}} ||_2 + ||\bm{b^{(l)}}- \bm{b^{(l)}_{\epsilon}}||_2 + ||\bm{W^{(l)}_{\epsilon}} \left(\bm{x^{(l-1)}} - \bm{x^{(l-1)}_{\epsilon}}\right)||_2\\ & \leq \epsilon_l \sqrt{m_{l}} \sup_{x \in {[-1,1]}^{n_0}} ||\bm{x}^{(l-1)}||_{1} + \epsilon_l \sqrt{m_{l}} + \left(||\bm{W^{(l)}}||_{\infty} + \epsilon_l \right) ||\left(\bm{x^{(l-1)}} - \bm{x^{(l-1)}_{\epsilon}}\right)||_2 \end{aligned}
+latex_original: \begin{aligned} ||\bm{x^{(l)}} - \bm{x^{(l)}_{\epsilon}}||_2 & \leq ||\bm{h^{(l)}} - \bm{h^{(l)}_{\epsilon}}||_2 \\ & \leq || \left(\bm{W^{(l)}} - \bm{W^{(l)}_{\epsilon}}\right) \bm{x^{(l-1)}} ||_2 + ||\bm{b^{(l)}}- \bm{b^{(l)}_{\epsilon}}||_2 + ||\bm{W^{(l)}_{\epsilon}} \left(\bm{x^{(l-1)}} - \bm{x^{(l-1)}_{\epsilon}}\right)||_2\\ & \leq \epsilon_l \sqrt{m_{l}} \sup_{x \in {[-1,1]}^{n_0}} ||\bm{x}^{(l-1)}||_{1} + \epsilon_l \sqrt{m_{l}} + \left(||\bm{W^{(l)}}||_{\infty} + \epsilon_l \right) ||\left(\bm{x^{(l-1)}} - \bm{x^{(l-1)}_{\epsilon}}\right)||_2 \end{aligned}
+modified: 20260626111149172
+page: 000
+refnum: 
+tags: equation 2110.11150
+title: 2110.11150_EQ0023
+type: text/markdown

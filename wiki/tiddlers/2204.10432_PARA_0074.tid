@@ -1,0 +1,9 @@
+created: 20260625093505870
+modified: 20260625093505870
+page: 000
+parent_section: 2204.10432_H20
+tags: paragraph 2204.10432
+title: 2204.10432_PARA_0074
+type: text/vnd.tiddlywiki
+
+Questionnaire model: In classifier-constrained methods, we trained a CNN for each of the nine symptom classifiers. We used filters of sizes {{2204.10432_FO0025||FO}}, and one filter for each size. Consequently, the max-pooling produces a vector of size {{2204.10432_FO0026||FO}}, which is then fed into the final linear layer for prediction. We apply {{2204.10432_FO0027||FO}} regularization specifically to the CNN kernels. The {{2204.10432_FO0028||FO}} weights were fine-tuned with three options [{{2204.10432_FO0029||FO}}, {{2204.10432_FO0030||FO}}, {{2204.10432_FO0031||FO}}].

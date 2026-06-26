@@ -1,0 +1,12 @@
+created: 20260625093047341
+modified: 20260625093047341
+page: 000
+parent_section: 2405.02732_H17
+tags: paragraph 2405.02732
+title: 2405.02732_PARA_0091
+type: text/vnd.tiddlywiki
+
+A significant difference to the Books data, however, is that all absolute values are substantially lower here (incl. the oracle). For example, the best R@P50 values (by {\em amp}) are
+around 30%, compared to almost 50% for the books experiment.
+The explanation clearly is that the dataset itself is even more challenging: the ground-truth lists of objects are even longer, with even more long-tail entities, and they are spread across a very large number of web pages---a situation as if
+all pages (about the same S) were concatenated into a very long, highly incoherent document).

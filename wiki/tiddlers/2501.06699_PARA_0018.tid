@@ -1,0 +1,10 @@
+created: 20260625092952539
+modified: 20260625092952539
+page: 000
+parent_section: 2501.06699_H1
+tags: paragraph 2501.06699
+title: 2501.06699_PARA_0018
+type: text/vnd.tiddlywiki
+
+While Turing laureates are prominent entities, other information requests refer to lesser-known ``long-tail'' topics.
+ Figure (ref) is a long-tail example, where the user asks for ACM Fellows from Latin America. The LLM response lists three people, none of whom is in the official list of ACM Fellows. The LLM reply even states that it ``searched 5 sites'', so it made use of fresh Web content (via Retrieval Augmented Generation (RAG), discussed later). The ground-truth is found on the ACM web site\footnote{See \url{https://awards.acm.org/fellows/award-recipients?year=&award=158&region=Latin+America}; retr.\ \today.}, which currently lists 4 Fellows. When shifting the question to {\em ACM Fellows from Europe}, the LLM returns five names, based on ``searching 6 sites''. All of these are correct, but when insisting for a complete list, no further names are given. The ACM web site currently lists 201 European Fellows.\footnote{See \url{https://awards.acm.org/fellows/award-recipients?year=&award=158&region=Europe&submit=Submit&isSpecialCategory=}; retr.\ \today.}

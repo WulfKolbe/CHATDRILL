@@ -1,0 +1,9 @@
+created: 20260625093231914
+modified: 20260625093231914
+page: 000
+parent_section: 2305.05403_H12
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0097
+type: text/vnd.tiddlywiki
+
+Usually, a counting predicate (such as numberOfChildren) links a subject to the number of objects of the corresponding enumerating predicate (hasChild in this case). However, a counting predicate may also concern the number of subjects of some enumerating predicate. For example, the enumerating predicate worksAt links a person to their workplace, but the counting predicate numberOfEmployees links the workplace to the number of people who work there. To deal with such cases, we assume that the KB contains, for each predicate {{2305.05403_FO0099||FO}}, also its inverse {{2305.05403_FO0100||FO}}, with all triples. In our example, we assume that the KB contains also the predicate worksAt{{2305.05403_FO0101||FO}} (which we call hasEmployee). Then numberOfEmployees is the counting predicate of the enumerating predicate hasEmployee.

@@ -1,0 +1,10 @@
+created: 20260625080931150
+modified: 20260625080931150
+page: 000
+parent_section: arxiv_2110_13883_H2
+tags: paragraph arxiv_2110_13883
+title: arxiv_2110_13883_PARA_0015
+type: text/vnd.tiddlywiki
+
+Mutual information estimation is a well studied problem for discrete, continuous and even discrete-continuous mixture data [marx:19:sci,valiant:11:sub-linear,gao:17:mixture,kozachenko:87:firstnn,kraskov:04:ksg,paninski:08:kernel,mandros:20:fdmixed,marx:21:myl]. Here, we focus on continuous data, for which a broad spectrum of MI estimators exists. Most common are estimators based on discretization [darbellay:99:adaptive-partitioning,marx:21:myl,koeman:14:cmi-forests], kernel density estimation [paninski:08:kernel,gao:17:lnn], and {{arxiv_2110_13883_FO0019||FO}}-nearest neighbor estimation [frenzel:07:fp,kozachenko:87:firstnn,kraskov:04:ksg].
+Recently, {{arxiv_2110_13883_FO0020||FO}}NN-based estimators have been established as state-of-the-art and can be computed efficiently, e.g. via the {{arxiv_2110_13883_FO0021||FO}}-D trie method [vejmelka:07:mi-fast-computation].

@@ -1,0 +1,10 @@
+created: 20260625080858063
+modified: 20260625080858063
+page: 000
+parent_section: arxiv_2210_07763_H8
+tags: paragraph arxiv_2210_07763
+title: arxiv_2210_07763_PARA_0071
+type: text/vnd.tiddlywiki
+
+We leverage a state-of-the-art sentence embeddings method, SentenceBert [sbert], to compute vector representations for all assertions and use the Hierarchical Agglomerative Clustering (HAC) algorithm for clustering.
+Clustering is performed on assertions of each subject-facet pair.

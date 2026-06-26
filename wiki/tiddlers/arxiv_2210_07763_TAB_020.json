@@ -1,0 +1,13 @@
+[
+    {
+        "title": "arxiv_2210_07763_TAB_020",
+        "text": "",
+        "type": "text/vnd.tiddlywiki",
+        "tags": "table arxiv_2210_07763",
+        "created": "20260625080858064",
+        "modified": "20260625080858064",
+        "page": "000",
+        "latex_code": "\\begin{tabular}{lcccccc}\n\\toprule\n & \\multirow{2}{*}{\\textbf{Food}} & \\multirow{2}{*}{\\textbf{Drinks}} & \\multirow{2}{*}{{\\begin{tabular}[c]{@{}r@{}}\\textbf{Clo-} \\\\ \\textbf{thing}\\end{tabular}}} & \\multirow{2}{*}{\\textbf{Rituals}} & \\multirow{2}{*}{{\\begin{tabular}[c]{@{}r@{}}\\textbf{Trad-} \\\\ \\textbf{itions}\\end{tabular}}} & \\cellcolor{gray!25} \\\\\n & & & & & & \\cellcolor{gray!25}\\multirow{-2}{*}{\\textbf{Avg.}} \\\\\n\\midrule\n\\textbf{GPT-resource} & 63.0 & 30.0 & 44.0 & 70.0 & \\textbf{84.0} & \\cellcolor{gray!25}58.2  \\\\\n\\textbf{\\textsc{Candle}{}} & \\textbf{85.0} & \\textbf{74.0} & \\textbf{62.0} & \\textbf{76.0} & 80.0 & \\cellcolor{gray!25}\\textbf{75.4} \\\\\n\\bottomrule\n\\end{tabular}",
+        "latex_original": "\\begin{tabular}{lcccccc}\n\\toprule\n & \\multirow{2}{*}{\\textbf{Food}} & \\multirow{2}{*}{\\textbf{Drinks}} & \\multirow{2}{*}{{\\begin{tabular}[c]{@{}r@{}}\\textbf{Clo-} \\\\ \\textbf{thing}\\end{tabular}}} & \\multirow{2}{*}{\\textbf{Rituals}} & \\multirow{2}{*}{{\\begin{tabular}[c]{@{}r@{}}\\textbf{Trad-} \\\\ \\textbf{itions}\\end{tabular}}} & \\cellcolor{gray!25} \\\\\n & & & & & & \\cellcolor{gray!25}\\multirow{-2}{*}{\\textbf{Avg.}} \\\\\n\\midrule\n\\textbf{GPT-resource} & 63.0 & 30.0 & 44.0 & 70.0 & \\textbf{84.0} & \\cellcolor{gray!25}58.2  \\\\\n\\textbf{\\systemname{}} & \\textbf{85.0} & \\textbf{74.0} & \\textbf{62.0} & \\textbf{76.0} & 80.0 & \\cellcolor{gray!25}\\textbf{75.4} \\\\\n\\bottomrule\n\\end{tabular}"
+    }
+]

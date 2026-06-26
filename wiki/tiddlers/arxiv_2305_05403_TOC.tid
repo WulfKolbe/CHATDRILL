@@ -1,0 +1,38 @@
+created: 20260625080853724
+format: fractal_xref
+modified: 20260625080853724
+tags: toc arxiv_2305_05403
+title: arxiv_2305_05403_TOC
+type: text/vnd.tiddlywiki
+
+** 1.1 [[Introduction|arxiv_2305_05403_H1]]
+** 1.2 [[Foundations|arxiv_2305_05403_H2]]
+*** 1.2.1 [[Knowledge Bases|arxiv_2305_05403_H3]]
+*** 1.2.2 [[Incompleteness|arxiv_2305_05403_H4]]
+*** 1.2.3 [[World Semantics|arxiv_2305_05403_H5]]
+*** 1.2.4 [[Completeness and Cardinality Metadata|arxiv_2305_05403_H6]]
+** 1.3 [[Predictive Recall Assessment|arxiv_2305_05403_H7]]
+*** 1.3.1 [[Recall of Entities|arxiv_2305_05403_H8]]
+*** 1.3.2 [[Recall of Statements|arxiv_2305_05403_H9]]
+*** 1.3.3 [[Summary|arxiv_2305_05403_H10]]
+** 1.4 [[Cardinalities from KBs and Text|arxiv_2305_05403_H11]]
+*** 1.4.1 [[Cardinality Information in KBs|arxiv_2305_05403_H12]]
+*** 1.4.2 [[Cardinality Information from Text|arxiv_2305_05403_H13]]
+*** 1.4.3 [[Summary|arxiv_2305_05403_H14]]
+** 1.5 [[Identifying Salient Negations|arxiv_2305_05403_H15]]
+*** 1.5.1 [[Negation in existing KBs|arxiv_2305_05403_H16]]
+*** 1.5.2 [[Salient Negations in Well-structured KBs|arxiv_2305_05403_H17]]
+*** 1.5.3 [[Salient negations in Loosely-structured KBs|arxiv_2305_05403_H18]]
+*** 1.5.4 [[Salient Negations in Text|arxiv_2305_05403_H19]]
+*** 1.5.5 [[Summary|arxiv_2305_05403_H20]]
+** 1.6 [[Relative Recall|arxiv_2305_05403_H21]]
+*** 1.6.1 [[Entity Recall Relative to other Entities|arxiv_2305_05403_H22]]
+*** 1.6.2 [[KB Recall Relative to other Resources|arxiv_2305_05403_H23]]
+*** 1.6.3 [[KB Recall Relative to Question Answering Needs|arxiv_2305_05403_H24]]
+*** 1.6.4 [[Summary|arxiv_2305_05403_H25]]
+** 1.7 [[Discussion and Conclusion|arxiv_2305_05403_H26]]
+*** 1.7.1 [[The Temporal Dimension of Completeness and Recall|arxiv_2305_05403_H27]]
+*** 1.7.2 [[The Impact of Large Language Models|arxiv_2305_05403_H28]]
+*** 1.7.3 [[Recommendations for KB Recall Assessment|arxiv_2305_05403_H29]]
+*** 1.7.4 [[Take-home Lessons|arxiv_2305_05403_H30]]
+*** 1.7.5 [[Challenges and Opportunities|arxiv_2305_05403_H31]]

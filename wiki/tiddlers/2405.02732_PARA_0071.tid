@@ -1,0 +1,15 @@
+created: 20260625093047341
+modified: 20260625093047341
+page: 000
+parent_section: 2405.02732_H15
+tags: paragraph 2405.02732
+title: 2405.02732_PARA_0071
+type: text/vnd.tiddlywiki
+
+\noindent{\bf L3X at Stage 1.} 
+All L3X configurations greatly improve recall, up to almost 85%.
+To calibrate these numbers, we also determined an oracle-based upper bound:
+given all retrieved passages (top-{{2405.02732_FO0055||FO}}=500),
+how many ground-truth objects do actually appear in at least one of these passages.
+For the books dataset, this oracle suggests a recall of 88%. So our results are very close to what can be spotted at all,
+with a reasonable retriever budget.

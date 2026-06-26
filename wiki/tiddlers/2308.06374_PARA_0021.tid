@@ -1,0 +1,9 @@
+created: 20260625093119694
+modified: 20260625093119694
+page: 000
+parent_section: 2308.06374_H5
+tags: paragraph 2308.06374
+title: 2308.06374_PARA_0021
+type: text/vnd.tiddlywiki
+
+KG construction is a complex task that demands collecting and integrating information from a wide array of sources, encompassing structured, semi-structured, and unstructured data. Traditional methods often rely on specific modules designed to process each data type in isolation and struggle when the content is diverse and heterogeneous in structure. However, LLMs are powerful NLP models trained on a broad spectrum of information sources, making them well-suited for knowledge extraction tasks. This section presents work that uses LLMs for knowledge extraction from various sources.

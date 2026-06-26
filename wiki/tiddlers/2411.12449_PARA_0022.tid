@@ -1,0 +1,15 @@
+created: 20260625093007936
+modified: 20260625093007936
+page: 000
+parent_section: 2411.12449_H3
+tags: paragraph 2411.12449
+title: 2411.12449_PARA_0022
+type: text/vnd.tiddlywiki
+
+To construct Neon, we process a large set of news streams from various internet sources. Each article is time-stamped according to its publication date, typically extracted from the source URL. The construction pipeline follows these steps:
+\squishlist
+ \item[1.] Entity identification: Each news story is preprocessed to extract only the main content, which is analyzed using an entity linking tool called NEMO [nemo]. This step annotates all named entity mentions in text, including co-references and additional information like dates and addresses, with a simple XML markup.
+ \item[2.] Sentence segmentation: The article content is segmented into sentences using a proprietary tool, similar to spaCy\footnote{\url{https://spacy.io/api/sentencizer}}, and entities identified in previous step are tracked within each sentence. 
+ \item[3.] Text chunking: The article’s main content is then split into overlapping chunks ({{2411.12449_FO0011||FO}}) of {{2411.12449_FO0012||FO}} sentences (where {{2411.12449_FO0013||FO}} is a hyperparameter). For indexing, each chunk ({{2411.12449_FO0014||FO}}) is represented as {{2411.12449_FO0015||FO}}, where {{2411.12449_FO0016||FO}} denotes a set of {{2411.12449_FO0017||FO}} sentences, {{2411.12449_FO0018||FO}} is the set of named entities identified within {{2411.12449_FO0019||FO}} and {{2411.12449_FO0020||FO}}, and {{2411.12449_FO0021||FO}} is the article's timestamp.
+ \item[4.] Chunk Deduplication: To manage paraphrased information across different chunks, near-duplicate chunks are filtered out using trigram representations and Jaccard similarity.
+\squishend

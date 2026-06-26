@@ -1,0 +1,14 @@
+created: 20260625080929321
+modified: 20260625080929321
+page: 000
+parent_section: arxiv_2204_10432_H5
+tags: paragraph arxiv_2204_10432
+title: arxiv_2204_10432_PARA_0021
+type: text/vnd.tiddlywiki
+
+!!! PHQ9
+
+ 
+One drawback of pattern-based classifiers is the inflexibility of pattern matching.
+The classifier-constrained methods relax the pattern-matching requirement by training a questionnaire model on the weakly-supervised data described in Section (ref).
+This results in models that remain grounded in the clinical questionnaire but are capable of generalizing beyond the pattern sets. The PHQ9 architecture is also comprised of a questionnaire model and a depression model.

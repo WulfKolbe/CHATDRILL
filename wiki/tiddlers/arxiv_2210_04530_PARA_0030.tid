@@ -1,0 +1,9 @@
+created: 20260625080858924
+modified: 20260625080858924
+page: 000
+parent_section: arxiv_2210_04530_H7
+tags: paragraph arxiv_2210_04530
+title: arxiv_2210_04530_PARA_0030
+type: text/vnd.tiddlywiki
+
+A clear limitation of our newly presented InfantBooks corpus is its small size. Even if we were to ramp up the number of books (496 currently), text length in such books is inherently small, so this corpus will size-wise never compete with popular general web corpora. We alleviated this problem by a solution involving fine-tuning LMs trained on general corpora, but it remains that the presented corpus is not suitable for direct extraction tasks.

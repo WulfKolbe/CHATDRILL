@@ -1,0 +1,12 @@
+created: 20260625080922310
+modified: 20260625080922310
+page: 000
+parent_section: arxiv_2208_09292_H16
+tags: paragraph arxiv_2208_09292
+title: arxiv_2208_09292_PARA_0089
+type: text/vnd.tiddlywiki
+
+\noindent
+Negation in knowledge bases. ConceptNet [conceptnet] allows the expression of negative statements using 6 pre-defined negative relations. We use these statements in our recall evaluation.
+The text-extracted Quasimodo [quasimodo] contains 350k negated statements (i.e., with negative polarity), yet many have quality issues due to problems with the data source or extraction pipeline. We filter these negated statements from the full KB and use them as a baseline in our experiments (i.e., Quasimodo\textsuperscript{neg}). On actively collecting interesting negations, recently, an inference model has been proposed to build a knowledge graph [Pan2016] with if-then commonsense contradictions [ANION]. Unlike our work, [ANION] focus on action-based statements and contradictions. For example, ``Wearing a mask is seen as responsible'' and ``Not wearing a mask is seen as carefree''. In terms of research problem and goal, the closest work to ours is NegatER [safavi-etal-2021-negater,negaterworkshop]. It proposes using LMs to discover meaningful negations. It fine-tunes the LM for statement truth classification and then uses similarity-based statement corruption to generate candidate negations. In the last step, these are ranked based on proximity to the LM's decision threshold, or a measure of model surprise. As our experiments show, although the methodology is interesting, 
+the taxonomy-unaware corruptions of positive statements is not enough to obtain informative negations. Other approaches that target salient negations in encyclopedic knowledge bases, such as Wikidata [WD] and Yago [YAGO], include statistical inferences [arnaout2020enriching,ARNAOUT2021100661,10.1145/3442442.3452339,10.14778/3476311.3476350] and text extractions [AKB,arnaout2020enriching]. Yet text extraction is an inherently noisy process, and statistical inference over well-structured encyclopedic data does not carry over to verbose and non-canonicalized textual statements like in commonsense.

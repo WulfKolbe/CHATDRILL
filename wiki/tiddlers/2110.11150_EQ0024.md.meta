@@ -1,0 +1,12 @@
+created: 20260626111149172
+displayMode: true
+equation_number: 
+kind: Equation
+latex: \begin{aligned} ||f(x)-f_{\epsilon}(x)||_2 & = ||\bm{x^{(L)}} - \bm{x^{(L)}_{\epsilon}}||_2 \\ & \leq \sum^L_{l=1} \epsilon_l \sqrt{m_{l}} \left(1+\sup_{x \in {[-1,1]}^{n_0}} ||\bm{x}^{(l-1)}||_{1}\right) \prod^L_{k=l+1} \left(||\bm{W}^{(l)}||_{\infty} + \epsilon/L \right) \leq L \frac{\epsilon}{L} = \epsilon, \end{aligned}
+latex_original: \begin{aligned} ||f(x)-f_{\epsilon}(x)||_2 & = ||\bm{x^{(L)}} - \bm{x^{(L)}_{\epsilon}}||_2 \\ & \leq \sum^L_{l=1} \epsilon_l \sqrt{m_{l}} \left(1+\sup_{x \in {[-1,1]}^{n_0}} ||\bm{x}^{(l-1)}||_{1}\right) \prod^L_{k=l+1} \left(||\bm{W}^{(l)}||_{\infty} + \epsilon/L \right) \leq L \frac{\epsilon}{L} = \epsilon, \end{aligned}
+modified: 20260626111149172
+page: 000
+refnum: 
+tags: equation 2110.11150
+title: 2110.11150_EQ0024
+type: text/markdown

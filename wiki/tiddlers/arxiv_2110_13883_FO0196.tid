@@ -1,0 +1,11 @@
+caption: \frac{1}{2} \rho_{i,k}^G
+created: 20260625080931152
+displayMode: false
+latex: \frac{1}{2} \rho_{i,k}^G
+latex_original: \frac{1}{2} \rho_{i,k}^G
+modified: 20260625080931152
+tags: formula arxiv_2110_13883
+title: arxiv_2110_13883_FO0196
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

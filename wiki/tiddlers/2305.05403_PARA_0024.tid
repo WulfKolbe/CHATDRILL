@@ -1,0 +1,13 @@
+created: 20260625093231913
+modified: 20260625093231913
+page: 000
+parent_section: 2305.05403_H4
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0024
+type: text/vnd.tiddlywiki
+
+We formalize the (in-)completeness of a KB by help of
+a hypothetical ideal KB {{2305.05403_FO0010||FO}}. This ideal KB contains
+all true statements about the domain of interest in the real world. \begin{revision} 
+Such an ideal KB is not an easy concept. 
+In the most naive conceptualization, {{2305.05403_FO0011||FO}} simply contains all statements that are true in reality, and that are expressible with a given set of predicates. This makes sense for relations that are sufficiently well-defined such as “sibling” or “place of birth”. However, for other relations (such as ``hobby'') this conceptualization may be ill-defined [what-do-we-actually-know]: while one of Albert Einstein’s hobbies was playing the violin, he might have had an unclear number of other “hobbies” (such as going for a walk, or eating chocolate). Thus, it is not clear what an ideal KB should contain for this relation. The same goes for entities: is anybody with a doctoral degree a scientist? Or do we could only people employed as scientists? What if a freelancing scientist makes an important discovery? This shows that we can posit the notion of the ideal KB only for well-defined sets of relations and entities: hobbies that are pursued in a registered association, scientists who are employed at a research institution, etc. While this comes at the expense of what can be targeted, many relations and sets of entities are sufficiently well-defined to establish completeness: all countries that are members of the United Nations; all mountains higher than 1000m in a given country; all universities of a given country that can deliver a doctoral degree; etc. In what follows, we shall focus on such domains where the ideal KB {{2305.05403_FO0012||FO}} can be reasonably established.

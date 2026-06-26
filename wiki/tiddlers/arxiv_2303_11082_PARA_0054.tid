@@ -1,0 +1,9 @@
+created: 20260625080853980
+modified: 20260625080853980
+page: 000
+parent_section: arxiv_2303_11082_H16
+tags: paragraph arxiv_2303_11082
+title: arxiv_2303_11082_PARA_0054
+type: text/vnd.tiddlywiki
+
+Conclusion. Given these qualitative examples and quantified numbers the model is capable of generalization as well as retrieval. But it is still unclear in what mixture and to what extent for example fact retrieval is possible. Regarding KBC both are beneficial. In case of precise retrieval, facts are addable automatically to an existing KB. In the case of generalization, which still achieves a high accuracy, human-in-a-loop procedures allow adding manually curated facts in a faster and cheaper way.

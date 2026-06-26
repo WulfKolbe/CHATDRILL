@@ -1,0 +1,11 @@
+caption: \psi(k) {+} \psi(n)
+created: 20260625080931151
+displayMode: false
+latex: \psi(k) {+} \psi(n)
+latex_original: \psi(k) {+} \psi(n)
+modified: 20260625080931151
+tags: formula arxiv_2110_13883
+title: arxiv_2110_13883_FO0108
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

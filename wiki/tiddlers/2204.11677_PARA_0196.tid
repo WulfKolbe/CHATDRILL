@@ -1,0 +1,11 @@
+created: 20260625093448815
+modified: 20260625093448815
+page: 000
+parent_section: 2204.11677_H16
+tags: paragraph 2204.11677
+title: 2204.11677_PARA_0196
+type: text/vnd.tiddlywiki
+
+The simple prepend baselines sometimes come surprisingly close, though, and perform better than the sophisticated rewriting or resolution methods.
+Nevertheless, it is noteworthy that SRs and question rewriting/resolution have clear advantages in terms of interpretability. When a user wonders what went wrong upon receiving an incorrect (if not outright embarrassing) answer,
+the system could show the CFG, SRs or the inferred complete questions as informative explanations -- helping the user to better understand and cope with the system's limitations and strengths.

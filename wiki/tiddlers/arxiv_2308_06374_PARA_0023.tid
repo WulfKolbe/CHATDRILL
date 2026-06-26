@@ -1,0 +1,9 @@
+created: 20260625080831230
+modified: 20260625080831230
+page: 000
+parent_section: arxiv_2308_06374_H5
+tags: paragraph arxiv_2308_06374
+title: arxiv_2308_06374_PARA_0023
+type: text/vnd.tiddlywiki
+
+General approaches, such as CG-MuAlign [Zhu2020] which employs Graph Neural Networks (GNNs) to perform multi-type entity alignment, leverages the neighborhood information and generalizes to unlabeled types, and REA [Pei20] which tackles the multi-lingual entity alignment problem by combining adversarial training with GNNs to cope with the problem of noisy labeled data provided as input.

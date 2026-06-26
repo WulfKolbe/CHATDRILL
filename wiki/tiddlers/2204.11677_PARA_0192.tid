@@ -1,0 +1,13 @@
+created: 20260625093448815
+modified: 20260625093448815
+page: 000
+parent_section: 2204.11677_H16
+tags: paragraph 2204.11677
+title: 2204.11677_PARA_0192
+type: text/vnd.tiddlywiki
+
+even for
+long queries.
+Subsequently, BM25 scoring serves
+as a necessary filter, to prune the evidence sets. Sizes of these evidence sets varied from {{2204.11677_FO0123||FO}}k evidences (\convinse) to {{2204.11677_FO0124||FO}}k (Prepend all), which
+would have posed efficiency challenges to the final answering stage had the BM25 filter not been applied.

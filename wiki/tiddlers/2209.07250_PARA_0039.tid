@@ -1,0 +1,9 @@
+created: 20260625093341705
+modified: 20260625093341705
+page: 000
+parent_section: 2209.07250_H2
+tags: paragraph 2209.07250
+title: 2209.07250_PARA_0039
+type: text/vnd.tiddlywiki
+
+It is recognized that just literally answering questions is often not sufficient for use cases. One line of work, [kacupaj2020vquanda], tackles this by returning comprehensive answer in full sentences, using templates. Another line, [krishna2021hurdles], concerns long form question answering, where the QA model retrieves multiple relevant documents to generate a whole answer paragraph. The ELI5 dataset by [fan2019eli5] contains diverse open-ended queries with supporting information from relevant web sources. While the setting is related, long form QA is concerned with generating textual answers evidenced on multiple documents, while we focus on answering count queries by consolidating counts and grounding them in instances.

@@ -1,0 +1,9 @@
+created: 20260625080831230
+modified: 20260625080831230
+page: 000
+parent_section: arxiv_2308_06374_H6
+tags: paragraph arxiv_2308_06374
+title: arxiv_2308_06374_PARA_0057
+type: text/vnd.tiddlywiki
+
+Biases in Triple Extraction Evaluation: LLMs may exhibit various types of biases; representation of the majority viewpoint being a common issue due to distributions prevalent within pretraining data [bender2021dangers], neglecting disagreements among multiple viewpoints (e.g. by majority voting) [davani2022dealing]. Prior works investigate individual factors (such as frequency) or LLM biases in other tasks [Mao-9881877], as well as knowledge retrieval [zhong2021factual].

@@ -1,0 +1,9 @@
+created: 20260625093242023
+modified: 20260625093242023
+page: 000
+parent_section: 2303.11082_H17
+tags: paragraph 2303.11082
+title: 2303.11082_PARA_0058
+type: text/vnd.tiddlywiki
+
+Since the prediction of facts non-existent to the KB is crucial for KB completion, we extracted plausible subject-relation pairs with non-existent objects in the KB. By probing the LM for these facts, we received actual novel facts previously unknown to the KB. Since the ground truth for these facts is missing, we performed a human evaluation. Annotators rated the LM's suggestions as highly correct. That showed a high potential for KB completion, either completely automated at a precision of up to {{2303.11082_FO0047||FO}} or as a strong recommender system for human-in-a-loop procedures. We demonstrated that in a human-in-a-loop procedure, LMs might reduce the costs for manually curated facts significantly, from approximately \$2 to \$0.4 per fact.

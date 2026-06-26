@@ -1,0 +1,9 @@
+created: 20260625080831230
+modified: 20260625080831230
+page: 000
+parent_section: arxiv_2308_06374_H5
+tags: paragraph arxiv_2308_06374
+title: arxiv_2308_06374_PARA_0024
+type: text/vnd.tiddlywiki
+
+Embedding-based entity alignment methods for KGs reduces the symbolic similarities between graph entities to a vector space in order to flatten the heterogeneity of graph components and facilitate reasoning [SunZHWCAL20]. Specifically, a total of 23 representative embedding alignment approaches are cross-compared in terms of performance but also are shown to require significant supervision in the labeling phase. Therefore, unsupervised methods and methods that cope with large-scale KGs are highly desirable in future research investigations.

@@ -1,0 +1,10 @@
+created: 20260625080853723
+modified: 20260625080853723
+page: 000
+parent_section: arxiv_2305_05403_H27
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0235
+type: text/vnd.tiddlywiki
+
+Given time-annotated completeness or recall metadata, an orthogonal question is how to interpret it after its latest validity time. For instance, if publications by Albert Einstein were complete in 2018, it is reasonable to assume that the same is the case in 2023. Yet no such conclusion should be drawn for books about Albert Einstein.
+Drawing this distinction means entering the realm of predicting the temporal stability of knowledge, a problem that comes with a dependence on domain knowledge, and which appears under-explored for both structured knowledge [decay,dikeoulias2019epitaph] and text [jatowt1].

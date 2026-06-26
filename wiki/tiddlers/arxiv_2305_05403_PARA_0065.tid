@@ -1,0 +1,9 @@
+created: 20260625080853721
+modified: 20260625080853721
+page: 000
+parent_section: arxiv_2305_05403_H8
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0065
+type: text/vnd.tiddlywiki
+
+is a technique for estimating the total estimation of animals in a certain terrain [mark-recapture]. For example, assume that a biologist wants to know the number {{arxiv_2305_05403_FO0063||FO}} of fish that live in a given pond. For illustration purposes (Figure (ref)), we assume a small number of fish, with {{arxiv_2305_05403_FO0064||FO}}. The biologist captures a number {{arxiv_2305_05403_FO0065||FO}} of fish, and marks them (e.g., with a color mark). Then she releases the fish back into the water (if possible quickly, to avoid that the number of live fish drops to {{arxiv_2305_05403_FO0066||FO}}). The next day, she recaptures a number of fish, and checks how many of them have marks. Let's say that only 40% of the captured fish is marked. Under the assumption that the ratio {{arxiv_2305_05403_FO0067||FO}} of marks in the recaptured population is the same as the ratio of marks in the entire population, the biologist can then estimate the total number of fish by the Petersen estimate as {{arxiv_2305_05403_FO0068||FO}} (which is {{arxiv_2305_05403_FO0069||FO}} in our example). This estimator has since been refined by a number of approaches [mark-recapture]. The question is now how this basic technique can be applied to KBs. It may be tempting to ``capture and release'' entities from the KB, but the technique works only if the entities are captured from the real world, not from the sample that has already been ``captured'' by the KB.

@@ -1,0 +1,16 @@
+created: 20260625080827137
+modified: 20260625080827137
+page: 000
+parent_section: arxiv_2405_02732_H14
+tags: paragraph arxiv_2405_02732
+title: arxiv_2405_02732_PARA_0067
+type: text/vnd.tiddlywiki
+
+We first present our findings on the books dataset,
+as this is the primary representative of
+our setting---see Subsections (ref) and (ref). Results for the web dataset are given in Subsection (ref).
+Due to space constraints,
+we restrict the presented experiments to the most notable configurations, with additional discussions on hyper-parameter sensitivity 
+and error cases in Subsections (ref) and (ref). 
+In all tables, the best value for a metric is in boldface,
+and row-wise best values are shaded.

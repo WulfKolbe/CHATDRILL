@@ -1,0 +1,17 @@
+[
+    {
+        "title": "2110.11150_REF_snip",
+        "text": "{{||CIT}} N. Lee, T. Ajanthan, and P. H. S. Torr. Snip: single-shot network pruning based on connection sensitivity. In International Conference on Learning Representations, 2019.",
+        "type": "text/markdown",
+        "tags": "reference bibentry bibtex 2110.11150",
+        "created": "20260626111149173",
+        "modified": "20260626111149173",
+        "kind": "reference",
+        "citekey": "snip",
+        "year": "2019",
+        "authors": "Namhoon Lee and\n               Thalaiyasingam Ajanthan and\n               Philip H. S. Torr",
+        "entry_type": "inproceedings",
+        "titlefield": "Snip: single-Shot Network Pruning based on Connection sensitivity",
+        "bibtex": "@inproceedings{snip,\n  author    = {Namhoon Lee and\n               Thalaiyasingam Ajanthan and\n               Philip H. S. Torr},\n  title     = {Snip: single-Shot Network Pruning based on Connection sensitivity},\n  booktitle = {International Conference on Learning Representations},\n  year      = {2019}\n}"
+    }
+]

@@ -1,0 +1,13 @@
+created: 20260625093156716
+modified: 20260625093156716
+page: 000
+parent_section: 2306.17472_H1
+tags: paragraph 2306.17472
+title: 2306.17472_PARA_0009
+type: text/vnd.tiddlywiki
+
+This paper devises a novel method for knowledge base completion (KBC),
+specifically geared to cope with long-tail entities.
+Although we will present experimental comparisons to prior works on
+relation extraction from text, we believe that ours is among the first works
+to successfully cope with the challenge of noise and ambiguity in the long tail.

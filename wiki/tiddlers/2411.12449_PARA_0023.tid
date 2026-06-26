@@ -1,0 +1,9 @@
+created: 20260625093007936
+modified: 20260625093007936
+page: 000
+parent_section: 2411.12449_H3
+tags: paragraph 2411.12449
+title: 2411.12449_PARA_0023
+type: text/vnd.tiddlywiki
+
+Once the set of news chunks is obtained, next we explain how information extraction (IE) techniques that employ LLMs are applied to each chunk to construct the Neon graph.

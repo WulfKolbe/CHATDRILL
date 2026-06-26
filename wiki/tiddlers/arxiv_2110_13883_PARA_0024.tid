@@ -1,0 +1,9 @@
+created: 20260625080931150
+modified: 20260625080931150
+page: 000
+parent_section: arxiv_2110_13883_H3
+tags: paragraph arxiv_2110_13883
+title: arxiv_2110_13883_PARA_0024
+type: text/vnd.tiddlywiki
+
+Next, let {{arxiv_2110_13883_FO0071||FO}} be the distance to the {{arxiv_2110_13883_FO0072||FO}}-th neighbor on the {{arxiv_2110_13883_FO0073||FO}} space using the maximum norm as defined above. We define the number of data points {{arxiv_2110_13883_FO0074||FO}} with a distance smaller than {{arxiv_2110_13883_FO0075||FO}} to point the {{arxiv_2110_13883_FO0076||FO}} in the {{arxiv_2110_13883_FO0077||FO}} subspace as {{arxiv_2110_13883_FO0078||FO}}, i.e.

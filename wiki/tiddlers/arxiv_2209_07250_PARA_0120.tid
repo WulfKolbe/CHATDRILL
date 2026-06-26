@@ -1,0 +1,9 @@
+created: 20260625080859570
+modified: 20260625080859570
+page: 000
+parent_section: arxiv_2209_07250_H21
+tags: paragraph arxiv_2209_07250
+title: arxiv_2209_07250_PARA_0120
+type: text/vnd.tiddlywiki
+
+In the case of snippet-answerable queries, the dependence of the baselines on KGs becomes clear. CoQEx performs the best followed by QAnswer and GoogleSDA. It should be noted that GoogleSDA might return list pages in the search result, such that if we were to scrape the contents of the list page, we would likely find correct instances. However,

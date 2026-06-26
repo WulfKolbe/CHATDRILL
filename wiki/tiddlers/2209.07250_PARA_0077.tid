@@ -1,0 +1,9 @@
+created: 20260625093341705
+modified: 20260625093341705
+page: 000
+parent_section: 2209.07250_H10
+tags: paragraph 2209.07250
+title: 2209.07250_PARA_0077
+type: text/vnd.tiddlywiki
+
+The queries which yield no automated ground truths (44% of all CoQuAD queries) come under the No direct answer category. As illustrated in Figure (ref), these queries only return ranked page snippets, due to the lack of any KG answer or featured snippet.

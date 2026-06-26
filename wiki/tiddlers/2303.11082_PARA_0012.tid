@@ -1,0 +1,10 @@
+created: 20260625093242023
+modified: 20260625093242023
+page: 000
+parent_section: 2303.11082_H2
+tags: paragraph 2303.11082
+title: 2303.11082_PARA_0012
+type: text/vnd.tiddlywiki
+
+An inherent design decision in KBC is the P/R trade-off -- academic projects are often open to trade these freely (e.g., via F-1 scores), while production environments are often very critically concerned with precision, e.g., Wikidata generally discouraging statistical inferences\footnote{There is often a terminological confusion here: Automated editing is omnipresent on Wikidata, but the bots performing them typically execute meticulously pre-defined edit and insertion tasks (e.g., based on other structured sources), not based on statistical inference.}, and industrial players likely using to a considerable degree human editing and verification [weikum-machine-knowledge].
+Although the P/R trade-off is in principle tunable via thresholds, the high-precision range is hardly investigated. For example in all of Rescal, TransE, and LAMA, the main results focus on metrics like hits@k, MRR, or AUC, which provide no bounds on precision.

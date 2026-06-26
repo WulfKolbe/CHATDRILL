@@ -1,0 +1,9 @@
+created: 20260625093105364
+modified: 20260625093105364
+page: 000
+parent_section: 2310.14771_H1
+tags: paragraph 2310.14771
+title: 2310.14771_PARA_0003
+type: text/vnd.tiddlywiki
+
+Recently, LMs have been purported as a promising source of structured knowledge. Starting from the seminal LAMA paper [petroni], a throve of works have explored how to better probe, train, or fine-tune these LMs [liu2021pre].

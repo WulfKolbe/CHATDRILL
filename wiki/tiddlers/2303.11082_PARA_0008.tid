@@ -1,0 +1,9 @@
+created: 20260625093242023
+modified: 20260625093242023
+page: 000
+parent_section: 2303.11082_H1
+tags: paragraph 2303.11082
+title: 2303.11082_PARA_0008
+type: text/vnd.tiddlywiki
+
+In this paper, we conduct a systematic analysis of LMs for KBC, where we focus on high precision ranges (90%). We evaluate by first using a new benchmark dataset \ourdataset{}, where we randomly sample facts from Wikidata (including many without any structured information, Wikipedia information, or English labels) and second by a manual evaluation on subject-relation pairs without object values, yet.

@@ -1,0 +1,16 @@
+created: 20260625093057255
+modified: 20260625093057255
+page: 000
+parent_section: 2311.01314_H7
+tags: paragraph 2311.01314
+title: 2311.01314_PARA_0049
+type: text/vnd.tiddlywiki
+
+For constructing user profiles from text, the simplest idea would be
+to concatenate all available reviews into a long token sequence.
+Two problems arise, though. 
+User reviews are a noisy mix of descriptive elements (e.g., ``the unusual murder weapon''), sentiment expressions (e.g., ``it was fun to read'') and
+personal but irrelevant statements (e.g., ``I read only on weekends'').
+Only the first aspect is helpful for content-based profiling (as the sentiment is already captured by user liking the book).
+Second, the entirety of user-provided text can be too long to be fully digested by the Transformer. Even when it would fit into the token budget, the computational and energy costs are quadratic in the number of input tokens. 
+Therefore, we tightly limit the tokens for each user's text profile to 128, and devise a suite of light-weight techniques for judiciously selecting the most informative pieces.

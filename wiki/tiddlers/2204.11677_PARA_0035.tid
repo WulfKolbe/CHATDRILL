@@ -1,0 +1,10 @@
+created: 20260625093448813
+modified: 20260625093448813
+page: 000
+parent_section: 2204.11677_H1
+tags: paragraph 2204.11677
+title: 2204.11677_PARA_0035
+type: text/vnd.tiddlywiki
+
+There has been substantial work on single-question QA over heterogeneous
+sources [xiong2019improving,chen2020open,hannan2020manymodalqa,oguz2021unikqa,sun2018open,sun2019pullnet,talmor2021multimodalqa,zhu2021tat], with complete questions as input. Among these, only O\u{g}uz et al. [oguz2021unikqa] and Ma et al. [ma2021open]

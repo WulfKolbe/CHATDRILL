@@ -1,0 +1,11 @@
+caption: b^{(l)}_{i} \sim U{([-\prod^l_{k=1}\sigma_{w,k}, \prod^l_{k=1}\sigma_{w,k}])}
+created: 20260625151931664
+displayMode: false
+latex: b^{(l)}_{i} \sim U{([-\prod^l_{k=1}\sigma_{w,k}, \prod^l_{k=1}\sigma_{w,k}])}
+latex_original: b^{(l)}_{i} \sim U{([-\prod^l_{k=1}\sigma_{w,k}, \prod^l_{k=1}\sigma_{w,k}])}
+modified: 20260625151931664
+tags: formula 2110.11150
+title: 2110.11150_FO0370
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

@@ -1,0 +1,11 @@
+created: 20260625093231915
+modified: 20260625093231915
+page: 000
+parent_section: 2305.05403_H18
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0174
+type: text/vnd.tiddlywiki
+
+\noindent
+The classifier (LM) then decides on the falseness of such candidate. Once the set of candidates is constructed, they are finally ranked using the fine-tuned LM by descending order of negative likelihood. Even though NegatER compiles lists of thematically-relevant negatives, one major limitation is that it generates many type inconsistent statements, due to the absence of a taxonomy, e.g., {{2305.05403_FO0143||FO}}\fact{horse rider}{isA}{pet}.
+\end{revision}

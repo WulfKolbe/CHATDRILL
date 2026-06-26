@@ -1,0 +1,9 @@
+created: 20260625093007936
+modified: 20260625093007936
+page: 000
+parent_section: 2411.12449_H3
+tags: paragraph 2411.12449
+title: 2411.12449_PARA_0033
+type: text/vnd.tiddlywiki
+
+\item[3.] Chunk Batching: Since {{2411.12449_FO0069||FO}} are predefined, the chunk context can be narrowed to focus on {{2411.12449_FO0070||FO}}, enabling multiple chunks to fit within a single prompt for extraction. Hence, retrieved chunks are partitioned into batches of size {{2411.12449_FO0071||FO}}.

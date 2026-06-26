@@ -1,0 +1,19 @@
+created: 20260625093057256
+modified: 20260625093057256
+page: 000
+parent_section: 2311.01314_H9
+tags: paragraph 2311.01314
+title: 2311.01314_PARA_0067
+type: text/vnd.tiddlywiki
+
+\vspace{0.1cm}
+\noindent{\bf Performance Metrics:}
+Following the literature, we report NDCG@5 (Normalized
+Discounted Cumulative Gain) with binary 0-or-1 gain and P@1 (precision at
+rank 1). We compute these by micro-averaging over all test items of all users.
+Macro-averaged results over users were not significantly different, hence they are not reported in the paper.
+NDCG@5 reflects the observations that users care only about a short list of
+top-N recommendations; P@1 is suitable for recommendations on mobile devices
+(with limited UI). We also measured other metrics, like NDCG@k for higher k,
+MRR and AUC. None of these provides any additional insight, so they are not
+reported here.

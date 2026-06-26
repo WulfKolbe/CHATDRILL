@@ -1,0 +1,9 @@
+created: 20260625093505870
+modified: 20260625093505870
+page: 000
+parent_section: 2204.10432_H13
+tags: paragraph 2204.10432
+title: 2204.10432_PARA_0060
+type: text/vnd.tiddlywiki
+
+We then evaluate our symptom classifiers on two settings (i.e., train on g1 \& test on g2, and train on g2 \& test on g1). The results shown in Table (ref) show that our symptom classifiers still achieve fairly high F1 scores in both settings. Note that, on some symptoms (e.g., concentration, fatigue), given a small coverage of patterns in g2, our models could still achieve good performance compared to models trained on the much larger data covered by g1. This suggests that the symptom classifiers can generalize beyond the specific patterns they were trained with.

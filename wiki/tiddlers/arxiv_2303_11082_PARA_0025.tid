@@ -1,0 +1,9 @@
+created: 20260625080853980
+modified: 20260625080853980
+page: 000
+parent_section: arxiv_2303_11082_H9
+tags: paragraph arxiv_2303_11082
+title: arxiv_2303_11082_PARA_0025
+type: text/vnd.tiddlywiki
+
+To realistically assess the usability of LMs for KBC, we created a large-scale dataset with random facts from Wikidata, without subject restrictions to pages such as Wikipedia. One must observe that, while \ourdataset{} is an unbiased sample from Wikidata's subject set per class, it is still biased towards reality, like Wikidata itself [wikidata_bias].

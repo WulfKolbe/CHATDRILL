@@ -1,0 +1,9 @@
+created: 20260625080930847
+modified: 20260625080930847
+page: 000
+parent_section: arxiv_2111_13611_H13
+tags: paragraph arxiv_2111_13611
+title: arxiv_2111_13611_PARA_0083
+type: text/vnd.tiddlywiki
+
+We experimentally validated the correctness of the above reasoning as follows. From the collection of relation extractions from the test dataset documents, we randomly sampled 69 pairs of claims for the same entity and relation, which had low support (i.e., extraction found only in one website). We then ordered the pairs by the coverage of the documents that did not express them, obtaining 69 claims with relatively higher coverage in non-expressing documents and 69 claims with relatively lower coverage.

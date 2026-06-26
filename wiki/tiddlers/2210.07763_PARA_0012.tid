@@ -1,0 +1,14 @@
+created: 20260625093308064
+modified: 20260625093308064
+page: 000
+parent_section: 2210.07763_H1
+tags: paragraph 2210.07763
+title: 2210.07763_PARA_0012
+type: text/vnd.tiddlywiki
+
+Language models (LMs) such as BERT [devlin2019bert] or GPT-3 [GPT3]
+are another form of machine-based CSK, including CCSK, in principle. However, all LM knowledge is in latent form,
+captured in learned values of billions of parameters. 
+Knowledge cannot be made explicit; we observe it only implicitly
+through the LM-based outputs in applications.
+The example of Fig. (ref)

@@ -1,0 +1,11 @@
+created: 20260625093505870
+modified: 20260625093505870
+page: 000
+parent_section: 2204.10432_H23
+tags: paragraph 2204.10432
+title: 2204.10432_PARA_0084
+type: text/vnd.tiddlywiki
+
+\paragraphHdNospace{Third-person pronouns.} 
+Users may attribute a condition to someone else, such as in ``he is easily distracted.''
+We identified posts of this kind by checking whether the closest pronoun to the positive pattern is third-person or first-person, and removing posts in the former category.

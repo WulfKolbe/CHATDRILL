@@ -1,0 +1,29 @@
+created: 20260625093057256
+modified: 20260625093057256
+page: 000
+parent_section: 2311.01314_H11
+tags: paragraph 2311.01314
+title: 2311.01314_PARA_0078
+type: text/vnd.tiddlywiki
+
+\item LLMRank 
+also performs poorly.
+Solely relying on the LLM's latent knowledge about books is not sufficient
+when coping with long-tail items.
+Popularity and position bias [hou2023large] further aggravate this adverse effect.
+To mitigate position bias,
+we ran a variant with smaller test sets of only 20 candidate {negative} items (per positive test item), as in the original setup of [hou2023large].
+This boosts the NDCG@5 for LLMRank from 4.8% to 23.5%, on GR-1k-rich in standard evaluation, which is still a large margin below CUP{{2311.01314_FO0027||FO}} reaching 38.3% (and similarly big gaps for the other dataset). 
+\item Between the three CUP configurations, we see a clear trend: 
+review-based user profiling ({{2311.01314_FO0028||FO}}) outperforms user profiles based on genres or categories ({{2311.01314_FO0029||FO}}), and simplifying item-side text to titles and tags alone by removing item description ({{2311.01314_FO0030||FO}}) performs worst.
+Remarkably, even CUP{{2311.01314_FO0031||FO}} is better than all the baselines. CUP{{2311.01314_FO0032||FO}} is ca. 5 percentage points better in NDCG@5 than the baselines.
+\item In search-based evaluation 
+(Table (ref)), 
+the absolute results are much lower, emphasizing the difficulty of this realistic mode. Still, the relative comparisons between methods are nearly identical to the results with standard evaluation. 
+Again, CUP{{2311.01314_FO0033||FO}} is the winner, with a clear margin.
+\item The absolute numbers on GR-1K-rich are generally higher, due to the different
+data characteristics. The gains by CUP{{2311.01314_FO0034||FO}} over the baselines and
+over the simpler CUP configurations are even more pronounced
+(e.g., outperforming BENEFICT{{2311.01314_FO0035||FO}} by 8 percentage points with
+standard evaluation).
+\squishend

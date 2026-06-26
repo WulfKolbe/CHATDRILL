@@ -1,0 +1,17 @@
+[
+    {
+        "title": "2110.11150_REF_grasp",
+        "text": "{{||CIT}} C. Wang, G. Zhang, and R. B. Grosse. Picking winning tickets before training by preserving gradient flow. In International Conference on Learning Representations, 2020.",
+        "type": "text/markdown",
+        "tags": "reference bibentry bibtex 2110.11150",
+        "created": "20260626111149173",
+        "modified": "20260626111149173",
+        "kind": "reference",
+        "citekey": "grasp",
+        "year": "2020",
+        "authors": "Chaoqi Wang and\n               Guodong Zhang and\n               Roger B. Grosse",
+        "entry_type": "inproceedings",
+        "titlefield": "Picking Winning Tickets Before Training by Preserving Gradient Flow",
+        "bibtex": "@inproceedings{grasp,\n  author    = {Chaoqi Wang and\n               Guodong Zhang and\n               Roger B. Grosse},\n  title     = {Picking Winning Tickets Before Training by Preserving Gradient Flow},\n  booktitle = {International Conference on Learning Representations},\n  year      = {2020}\n}"
+    }
+]

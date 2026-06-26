@@ -1,0 +1,13 @@
+created: 20260625093047341
+modified: 20260625093047341
+page: 000
+parent_section: 2405.02732_H10
+tags: paragraph 2405.02732
+title: 2405.02732_PARA_0049
+type: text/vnd.tiddlywiki
+
+The collection of support passages, for all SO with the same predicate P, can be utilized to learn an embedding for P cues, sort of a ``mini-LM'' for P.
+ The intuition is that support passages with indicative phrases, such as
+ ``life-or-death combat with'', ``deeply hates'' or
+ ``I will destroy you'' (in direct speech), can collectively encode a better signal for P.
+ To construct the classifier, we perform the following steps:

@@ -1,0 +1,11 @@
+caption: w^{(1)}_{ij} \mapsto \sigma_1 w^{(1)}_{ij}
+created: 20260626094813421
+displayMode: false
+latex: w^{(1)}_{ij} \mapsto \sigma_1 w^{(1)}_{ij}
+latex_original: w^{(1)}_{ij} \mapsto \sigma_1 w^{(1)}_{ij}
+modified: 20260626094813421
+tags: formula 2110.11150
+title: 2110.11150_FO0203
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

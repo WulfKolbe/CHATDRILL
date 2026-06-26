@@ -1,0 +1,9 @@
+created: 20260625080827350
+modified: 20260625080827350
+page: 000
+parent_section: arxiv_2311_01314_H12
+tags: paragraph arxiv_2311_01314
+title: arxiv_2311_01314_PARA_0082
+type: text/vnd.tiddlywiki
+
+We observe that the 128-token configuration has the lowest training cost: significantly less time per epoch than the other variants and fast convergence (reaching its best NDCG already after 15 epochs in ca. 3000 seconds). The 256- and 512-token models eventually reach higher NDCG, but only by a small margin and after much longer training time.

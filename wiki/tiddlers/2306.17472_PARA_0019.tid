@@ -1,0 +1,9 @@
+created: 20260625093156716
+modified: 20260625093156716
+page: 000
+parent_section: 2306.17472_H2
+tags: paragraph 2306.17472
+title: 2306.17472_PARA_0019
+type: text/vnd.tiddlywiki
+
+In parallel, other works studied biases and limitations of the LM-as-KB paradigm (e.g., [cao2021knowledgeable,DBLP:journals/tacl/ElazarKRRHSG21,razniewski2021language,jiang2020can]). In this work, we investigate the feasibility of leveraging LMs to complete real-world KBs, and mainly focus on long-tail facts.

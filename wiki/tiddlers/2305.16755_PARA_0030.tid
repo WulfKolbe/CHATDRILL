@@ -1,0 +1,10 @@
+created: 20260625093206654
+modified: 20260625093206654
+page: 000
+parent_section: 2305.16755_H3
+tags: paragraph 2305.16755
+title: 2305.16755_PARA_0030
+type: text/vnd.tiddlywiki
+
+\noindent
+\textbf{Effect of {{2305.16755_FO0002||FO}} Value on LLM's Few-shot Probe. } We examine the LLM using different numbers of samples, for in-context learning. We consider a subset of 5 entities (3 encyclopedic and 2 commonsense), and assess the performance of the few-shot ChatGPT using different values of {{2305.16755_FO0003||FO}}, with different salient:nonsalient ratios. Results are in Table (ref). Adding a small but equal number of salient and nonsalient samples (3:3) improves the correctness by 8%, compared to only adding salient samples (3:0), however, at the expense of their salience, which drops by by 14%. Adding only nonsalient samples (0:3) compromises both metrics. Finally, adding a larger but equal number of salient and nonsalient samples (10:10) does not result in any improvements.

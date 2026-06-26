@@ -1,0 +1,10 @@
+created: 20260625080930846
+modified: 20260625080930846
+page: 000
+parent_section: arxiv_2111_13611_H2
+tags: paragraph arxiv_2111_13611
+title: arxiv_2111_13611_PARA_0015
+type: text/vnd.tiddlywiki
+
+RE is the task of identifying the relation types between two entities that are mentioned together in a sentence or in proximity within a document (e.g., in the same paragraph).
+RE has a long history in NLP research [Mintz:ACL2009,Riedel:ECML2010], with a recent overview given by [Han2020]. State-of-the-art methods are based on deep neural networks trained via distant supervision [Lin:ACL2016,Zhang:EMNLP2017,Soares:ACL2019,Yao:ACL2019]. On the practical side, RE is available in several commercial APIs for information extraction from text. In our experiments, we make use of Rosette{\footnote{\url{https://rosette.com/}}} and Diffbot{\footnote{\url{https://www.diffbot.com/}}}. Our approach is agnostic to the choice of extractors, though; any RE tool can be plugged in.

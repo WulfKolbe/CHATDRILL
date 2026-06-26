@@ -1,0 +1,16 @@
+created: 20260625080804874
+modified: 20260625080804874
+page: 000
+parent_section: arxiv_2501_06699_H5
+tags: paragraph arxiv_2501_06699
+title: arxiv_2501_06699_PARA_0052
+type: text/vnd.tiddlywiki
+
+Per the old idiom, {``just because it's said doesn't make it true''}, much of the text on which LLMs are trained is not factual in nature. KGs as a curated source of structured knowledge can thus enhance LLMs in a variety of ways [DBLP:journals/tgdk/PanRKSCDJO0LBMB23,DBLP:journals/tkde/YangCLDW24], particularly for addressing complex (e.g., multi-hop or aggregation-based) factual questions.
+ This can involve 
+ pre-training and fine-tuning enhancements, or inference-time injection of factual knowledge. 
+ For training, the input data can be annotated or otherwise enriched with factual information from the KG (e.g., entity markup in text documents, injecting entity types etc.).
+ Another approach is to train both the LLM parameters and KG embeddings in a coupled manner
+ (see, e.g., [DBLP:conf/nips/YasunagaBR0MLL22]). For inference, the input prompts can be augmented by adding background knowledge. 
+ For example, when asking the LLM for ACM Fellows at US universities, it would be useful to inject triples from the KG, stating that ACM is an organization in the field of Computer Science and possibly even providing a list of US universities that large KGs should have.
+ Yet another, simple but effective, approach could be to check LLM outputs against KGs as a post-processing step for veracity assessment.

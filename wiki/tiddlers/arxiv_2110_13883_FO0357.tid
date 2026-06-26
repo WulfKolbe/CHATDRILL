@@ -1,0 +1,11 @@
+caption: \alpha \le 1
+created: 20260625080931152
+displayMode: false
+latex: \alpha \le 1
+latex_original: \alpha \le 1
+modified: 20260625080931152
+tags: formula arxiv_2110_13883
+title: arxiv_2110_13883_FO0357
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

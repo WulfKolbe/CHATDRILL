@@ -1,0 +1,13 @@
+created: 20260626094813420
+modified: 20260626094813420
+page: 000
+parent_section: 2110.11150_H21
+tags: paragraph 2110.11150
+title: 2110.11150_PARA_0079
+type: text/vnd.tiddlywiki
+
+with {{2110.11150_FO0222||FO}}. 
+{{2110.11150_FO0223||FO}} denotes the number of parameters in layer {{2110.11150_FO0013||FO}} that are smaller than {{2110.11150_FO0100||FO}} and {{2110.11150_FO0224||FO}}.
+Note that {{2110.11150_FO0225||FO}}. 
+The last inequality follows from the fact that all entries of the matrix {{2110.11150_FO0226||FO}} and of the vector {{2110.11150_FO0227||FO}} are bounded by {{2110.11150_FO0100||FO}} and maximally {{2110.11150_FO0228||FO}} of these entries are nonzero.
+Furthermore, {{2110.11150_FO0229||FO}} follows again from the fact that each entry of {{2110.11150_FO0226||FO}} is bounded by {{2110.11150_FO0100||FO}}.

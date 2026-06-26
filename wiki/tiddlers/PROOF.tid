@@ -1,0 +1,7 @@
+created: 20260626111149170
+modified: 20260626111149170
+tags: template
+title: PROOF
+type: text/vnd.tiddlywiki
+
+<div class="proof">{{!!text}}</div>

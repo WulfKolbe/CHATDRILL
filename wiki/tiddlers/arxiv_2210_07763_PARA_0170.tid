@@ -1,0 +1,10 @@
+created: 20260625080858063
+modified: 20260625080858063
+page: 000
+parent_section: arxiv_2210_07763_H25
+tags: paragraph arxiv_2210_07763
+title: arxiv_2210_07763_PARA_0170
+type: text/vnd.tiddlywiki
+
+We query the curie-001 model, with zero temperature and maximum length of 50 tokens.
+We only take the first generated sentence as output.

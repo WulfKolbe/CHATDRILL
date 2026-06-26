@@ -1,0 +1,11 @@
+created: 20260625080831230
+modified: 20260625080831230
+page: 000
+parent_section: arxiv_2308_06374_H6
+tags: paragraph arxiv_2308_06374
+title: arxiv_2308_06374_PARA_0041
+type: text/vnd.tiddlywiki
+
+To overcome these challenges, current research focuses on incorporating textual information available in the KGs to improve the KG embeddings, boost performance in downstream tasks, and to support ILP.
+The latent representation is learned from textual information using a variety of encoding models such as linear models, convolutional models, recurrent neural models, and LLMs and studied in [lu2020utilizing,pan2023unifying]. 
+In this work, we focus only on LLM-based methods.

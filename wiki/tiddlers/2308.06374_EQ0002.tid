@@ -1,0 +1,16 @@
+created: 20260625093119694
+displayMode: true
+equation_number: 
+kind: Equation
+latex: r_2: \mathtt{hasParent}(x, y)\Rightarrow{\exists}{v_1,v_2{\in}\mathbb{N}}~|~\mathtt{hasBirthYear}(x, v_1)\wedge \mathtt{hasBirthYear}(y, v_2);
+latex_original: r_2: \mathtt{hasParent}(x, y)\Rightarrow{\exists}{v_1,v_2{\in}\mathbb{N}}~|~\mathtt{hasBirthYear}(x, v_1)\wedge \mathtt{hasBirthYear}(y, v_2);
+latex_tex: r_2: \mathtt{hasParent}(x, y)\Rightarrow{\exists}{v_1,v_2{\in}\mathbb{N}}~|~\mathtt{hasBirthYear}(x, v_1)\wedge \mathtt{hasBirthYear}(y, v_2);
+modified: 20260625093119694
+page: 000
+refnum: 
+score_tex: 1.0
+tags: equation 2308.06374
+title: 2308.06374_EQ0002
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode=true />

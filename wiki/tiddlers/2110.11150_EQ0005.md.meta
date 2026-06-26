@@ -1,0 +1,12 @@
+created: 20260626111149172
+displayMode: true
+equation_number: 
+kind: Equation
+latex: \epsilon_l := \epsilon \left(L \sqrt{n_l k_{l,\text{max}}} \left(1+ \sup_{x \in {[-1,1]}^{n_0}} \norm{\bm{x}^{(l)}}_{1}\right)\right)^{-1} \left( \prod^L_{k=l+1} \left(\norm{\bm{W}^{(l)}}_{\infty} + \epsilon/L \right) \right)^{-1},
+latex_original: \epsilon_l := \epsilon \left(L \sqrt{n_l k_{l,\text{max}}} \left(1+ \sup_{x \in {[-1,1]}^{n_0}} \norm{\bm{x}^{(l)}}_{1}\right)\right)^{-1} \left( \prod^L_{k=l+1} \left(\norm{\bm{W}^{(l)}}_{\infty} + \epsilon/L \right) \right)^{-1},
+modified: 20260626111149172
+page: 000
+refnum: 
+tags: equation 2110.11150
+title: 2110.11150_EQ0005
+type: text/markdown

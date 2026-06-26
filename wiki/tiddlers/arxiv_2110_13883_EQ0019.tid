@@ -1,0 +1,14 @@
+created: 20260625080931153
+displayMode: true
+equation_number: 
+kind: Equation
+latex: \begin{aligned} I(P; \{ X',Y',Z' \}) &\ge h(X') {+} h(Y' \mid P) {+} h(Z' \mid P) {-} 3 \log \alpha \\ &= h(X') - \log \alpha \\ &= \frac{\alpha}{2} - \log \alpha \, . \end{aligned}
+latex_original: \begin{aligned} I(P; \{ X',Y',Z' \}) &\ge h(X') {+} h(Y' \mid P) {+} h(Z' \mid P) {-} 3 \log \alpha \\ &= h(X') - \log \alpha \\ &= \frac{\alpha}{2} - \log \alpha \, . \end{aligned}
+modified: 20260625080931153
+page: 000
+refnum: 
+tags: equation arxiv_2110_13883
+title: arxiv_2110_13883_EQ0019
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode=true />

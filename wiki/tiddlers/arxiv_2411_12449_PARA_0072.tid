@@ -1,0 +1,10 @@
+created: 20260625080805467
+modified: 20260625080805467
+page: 000
+parent_section: arxiv_2411_12449_H9
+tags: paragraph arxiv_2411_12449
+title: arxiv_2411_12449_PARA_0072
+type: text/vnd.tiddlywiki
+
+Retrieval Models.
+Recent research has focused on retrieval-augmented LLMs, which combine information from external sources with parametric models to improve the factuality of text generation [realm, NEURIPS2020_6b493230, asai2024selfrag]. But extensive study on entity-centric temporal RAG remain scarce. For instance, GraphRAG [edge2024localglobalgraphrag] builds entity KGs and generates summarizes for closely related entities to support query responses. While effective at capturing global dependencies, these summaries can overlook nuanced, temporally evolving entity-interactions that are critical for reliable temporal QA.

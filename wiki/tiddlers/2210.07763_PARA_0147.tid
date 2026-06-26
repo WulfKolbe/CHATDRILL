@@ -1,0 +1,11 @@
+created: 20260625093308065
+modified: 20260625093308065
+page: 000
+parent_section: 2210.07763_H16
+tags: paragraph 2210.07763
+title: 2210.07763_PARA_0147
+type: text/vnd.tiddlywiki
+
+We presented \systemname{}---an end-to-end methodology for automatically collecting cultural commonsense knowledge (CCSK) from broad web contents at scale. We executed \systemname{} on several cultural subjects and facets of culture and produce CCSK of high quality. Our experiments showed the superiority of the resulting CCSK collection over existing resources, which have limited coverage for this kind of knowledge, and also over methods based on prompting LMs. 
+Our work expands CSKG construction into a domain that has been largely ignored so far.
+Our data and code are accessible at \website{}.

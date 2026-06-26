@@ -1,0 +1,14 @@
+created: 20260625080931153
+displayMode: true
+equation_number: 
+kind: Equation
+latex: h^{\textsc{KSG}\xspace}(\ensuremath{\bm{X}}\xspace) = - \frac{1}{n} \sum_{i=1}^n \psi(n_{\ensuremath{\bm{x}}\xspace,i}+1) - \psi(n) - \log V_{\ensuremath{\bm{x}}\xspace_i} \, ,
+latex_original: h^{\ksg}(\Xg) = - \frac{1}{n} \sum_{i=1}^n \psi(n_{\xg,i}+1) - \psi(n) - \log V_{\xg_i} \, ,
+modified: 20260625080931153
+page: 000
+refnum: 
+tags: equation arxiv_2110_13883
+title: arxiv_2110_13883_EQ0006
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode=true />

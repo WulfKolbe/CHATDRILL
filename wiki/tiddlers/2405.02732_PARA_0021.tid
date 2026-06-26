@@ -1,0 +1,10 @@
+created: 20260625093047341
+modified: 20260625093047341
+page: 000
+parent_section: 2405.02732_H3
+tags: paragraph 2405.02732
+title: 2405.02732_PARA_0021
+type: text/vnd.tiddlywiki
+
+\item[3.] {\bf Batching} passages with (i) {\bf neo:} similar entities (including their aliases) 
+ identified through named entity overlap, and (ii) {\bf sim:} similar narratives via embeddings, to provide semantically coherent inputs to the LLM.

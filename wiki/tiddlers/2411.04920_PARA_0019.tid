@@ -1,0 +1,9 @@
+created: 20260625093027647
+modified: 20260625093027647
+page: 000
+parent_section: 2411.04920_H5
+tags: paragraph 2411.04920
+title: 2411.04920_PARA_0019
+type: text/vnd.tiddlywiki
+
+This process merges relation {{2411.04920_FO0001||FO}} into a more frequent relation {{2411.04920_FO0002||FO}}, selected as the one with the highest textual embedding similarity to {{2411.04920_FO0003||FO}} among all relations more frequent than {{2411.04920_FO0004||FO}}, if the similarity is greater than an adaptive threshold (defined in line 6 in Algorithm (ref)).

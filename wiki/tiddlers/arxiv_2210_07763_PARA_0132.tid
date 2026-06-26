@@ -1,0 +1,11 @@
+created: 20260625080858063
+modified: 20260625080858063
+page: 000
+parent_section: arxiv_2210_07763_H15
+tags: paragraph arxiv_2210_07763
+title: arxiv_2210_07763_PARA_0132
+type: text/vnd.tiddlywiki
+
+We use the GPT-3 davinci-002 model, 
+with temperature=0 and max\_length=16
+(see Appx. (ref) for prompt settings).

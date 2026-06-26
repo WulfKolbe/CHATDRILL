@@ -1,0 +1,11 @@
+caption: 1 \le i \le j \le n
+created: 20260625080931152
+displayMode: false
+latex: 1 \le i \le j \le n
+latex_original: 1 \le i \le j \le n
+modified: 20260625080931152
+tags: formula arxiv_2110_13883
+title: arxiv_2110_13883_FO0239
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

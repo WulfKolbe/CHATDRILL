@@ -1,0 +1,11 @@
+caption: I(\ensuremath{\bm{X}}\xspace;\ensuremath{\bm{Y}}\xspace) = I(\ensuremath{\tilde{\bm{X}}}\xspace,\ensuremath{\bm{E}_X}\xspace;\ensuremath{\tilde{\bm{Y}}}\xspace,\ensuremath{\bm{E}_Y}\xspace)
+created: 20260625110956923
+displayMode: false
+latex: I(\ensuremath{\bm{X}}\xspace;\ensuremath{\bm{Y}}\xspace) = I(\ensuremath{\tilde{\bm{X}}}\xspace,\ensuremath{\bm{E}_X}\xspace;\ensuremath{\tilde{\bm{Y}}}\xspace,\ensuremath{\bm{E}_Y}\xspace)
+latex_original: I(\Xg;\Yg) = I(\Xt,\Xn;\Yt,\Yn)
+modified: 20260625110956923
+tags: formula 2110.13883
+title: 2110.13883_FO0165
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

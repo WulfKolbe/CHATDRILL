@@ -1,0 +1,22 @@
+created: 20260625080930848
+format: fractal_xref
+modified: 20260625080930848
+tags: toc arxiv_2111_13611
+title: arxiv_2111_13611_TOC
+type: text/vnd.tiddlywiki
+
+** 1.1 [[Introduction|arxiv_2111_13611_H1]]
+** 1.2 [[Related Work|arxiv_2111_13611_H2]]
+** 1.3 [[Coverage Prediction|arxiv_2111_13611_H3]]
+** 1.4 [[Dataset Construction|arxiv_2111_13611_H4]]
+** 1.5 [[Approach|arxiv_2111_13611_H5]]
+** 1.6 [[Experiments|arxiv_2111_13611_H6]]
+*** 1.6.1 [[Setup|arxiv_2111_13611_H7]]
+*** 1.6.2 [[Results|arxiv_2111_13611_H8]]
+** 1.7 [[Analysis and Discussion|arxiv_2111_13611_H9]]
+** 1.8 [[Applications|arxiv_2111_13611_H10]]
+*** 1.8.1 [[Document Ranking for Relation Extraction|arxiv_2111_13611_H11]]
+*** 1.8.2 [[Budget-constrained Relation Extraction|arxiv_2111_13611_H12]]
+*** 1.8.3 [[Claim Refutation|arxiv_2111_13611_H13]]
+** 1.9 [[Conclusion|arxiv_2111_13611_H14]]
+*** 1.9.1 [[Acknowledgments|arxiv_2111_13611_H15]]

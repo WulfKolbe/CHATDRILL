@@ -1,0 +1,14 @@
+created: 20260626094813420
+modified: 20260626094813420
+page: 000
+parent_section: 2110.11150_H20
+tags: paragraph 2110.11150
+title: 2110.11150_PARA_0070
+type: text/vnd.tiddlywiki
+
+\end{theorem*}
+\begin{proof}
+First, let us focus on the distribution of a neuron {{2110.11150_FO0009||FO}} given all neurons of the previous layer with {{2110.11150_FO0208||FO}}.
+Since we assume that the weights and biases are distributed independently with zero mean, it follows that also the preactivation {{2110.11150_FO0209||FO}} has zero mean and variance {{2110.11150_FO0210||FO}}, where {{2110.11150_FO0211||FO}} is the variance operator.
+It is furthermore symmetric around zero so that a neuron {{2110.11150_FO0212||FO}} is projected to zero with probability {{2110.11150_FO0213||FO}} and otherwise follows the distribution of the positive preactivation {{2110.11150_FO0214||FO}}, where {{2110.11150_FO0215||FO}} denotes the delta distribution at {{2110.11150_FO0073||FO}} and {{2110.11150_FO0216||FO}} the random variable {{2110.11150_FO0217||FO}} conditional on {{2110.11150_FO0218||FO}}.
+In consequence, the squared neuron value {{2110.11150_FO0219||FO}} has expectation {{2110.11150_FO0220||FO}}.

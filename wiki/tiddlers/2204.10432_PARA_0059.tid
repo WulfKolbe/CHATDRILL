@@ -1,0 +1,9 @@
+created: 20260625093505870
+modified: 20260625093505870
+page: 000
+parent_section: 2204.10432_H13
+tags: paragraph 2204.10432
+title: 2204.10432_PARA_0059
+type: text/vnd.tiddlywiki
+
+To examine whether our symptom classifiers can generalize beyond pattern matching, we split each pattern set into two non-overlapping groups (g1, g2), which split the original dataset into two exclusive subsets. Because pattern distribution are uneven, the resulting subsets are sometimes imbalanced.

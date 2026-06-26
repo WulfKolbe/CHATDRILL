@@ -1,0 +1,11 @@
+caption: d_F(\ensuremath{\bm{x}}\xspace_i,\ensuremath{\bm{x}}\xspace_j) = d_F(\ensuremath{\bm{x}}\xspace_j,\ensuremath{\bm{x}}\xspace_i)
+created: 20260625110956924
+displayMode: false
+latex: d_F(\ensuremath{\bm{x}}\xspace_i,\ensuremath{\bm{x}}\xspace_j) = d_F(\ensuremath{\bm{x}}\xspace_j,\ensuremath{\bm{x}}\xspace_i)
+latex_original: d_F(\xg_i,\xg_j) = d_F(\xg_j,\xg_i)
+modified: 20260625110956924
+tags: formula 2110.13883
+title: 2110.13883_FO0261
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

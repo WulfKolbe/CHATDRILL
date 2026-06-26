@@ -1,0 +1,16 @@
+created: 20260625080929032
+modified: 20260625080929032
+page: 000
+parent_section: arxiv_2204_11677_H9
+tags: paragraph arxiv_2204_11677
+title: arxiv_2204_11677_PARA_0154
+type: text/vnd.tiddlywiki
+
+In such situations, conversations can easily go beyond five turns, making the understanding of
+the conversational flow even more challenging for the ConvQA system.
+Therefore, we collected {{arxiv_2204_11677_FO0084||FO}} additional conversations with ten turns (denoted \convmix-10T), to test the generalizability
+of ConvQA systems over longer conversations.
+On manual investigation, we found that there are naturally more topic drifts within these conversations.
+These {{arxiv_2204_11677_FO0085||FO}}k ({{arxiv_2204_11677_FO0086||FO}}) questions are only used
+as an additional test set
+to serve as a robustness check for pre-trained models.

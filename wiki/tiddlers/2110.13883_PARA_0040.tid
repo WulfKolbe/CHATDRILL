@@ -1,0 +1,10 @@
+created: 20260625110956922
+modified: 20260625110956922
+page: 000
+parent_section: 2110.13883_H4
+tags: paragraph 2110.13883
+title: 2110.13883_PARA_0040
+type: text/vnd.tiddlywiki
+
+In Line 2, we can omit {{2110.13883_FO0166||FO}} since {{2110.13883_FO0167||FO}}, {{2110.13883_FO0168||FO}} by definition. Due to the Markov chain structure, {{2110.13883_FO0169||FO}}, as well. Similarly, in Line 3 we can exploit that {{2110.13883_FO0170||FO}} and {{2110.13883_FO0171||FO}}.
+\end{proof}

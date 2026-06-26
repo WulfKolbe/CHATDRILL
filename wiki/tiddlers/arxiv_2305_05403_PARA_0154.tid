@@ -1,0 +1,9 @@
+created: 20260625080853722
+modified: 20260625080853722
+page: 000
+parent_section: arxiv_2305_05403_H15
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0154
+type: text/vnd.tiddlywiki
+
+We first review existing negative knowledge in open-world knowledge bases. We then show how salient negative statements can be automatically collected from within incomplete KBs, and via text extraction.

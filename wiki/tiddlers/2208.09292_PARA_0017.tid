@@ -1,0 +1,9 @@
+created: 20260625095716233
+modified: 20260625095716233
+page: 000
+parent_section: 2208.09292_H1
+tags: paragraph 2208.09292
+title: 2208.09292_PARA_0017
+type: text/vnd.tiddlywiki
+
+In a final step, the set of plausible candidates are ranked, using the fine-tuned LM, by descending order of negativeness (i.e., higher scores are more likely to be negative).

@@ -1,0 +1,9 @@
+created: 20260625080859570
+modified: 20260625080859570
+page: 000
+parent_section: arxiv_2209_07250_H32
+tags: paragraph arxiv_2209_07250
+title: arxiv_2209_07250_PARA_0152
+type: text/vnd.tiddlywiki
+
+The first query is our running example ``how many songs did john lennon write for the beatles'' where the information need is for songs by Lennon with an additional condition that these are for the Beatles band. The complexity of this question comes through the snippets which indicate that other band members (George Harrison, and Paul Mc-Cartney) also wrote songs and that there are songs co-written by the band members.

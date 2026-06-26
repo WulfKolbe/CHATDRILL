@@ -1,0 +1,10 @@
+created: 20260625093448814
+modified: 20260625093448814
+page: 000
+parent_section: 2204.11677_H9
+tags: paragraph 2204.11677
+title: 2204.11677_PARA_0143
+type: text/vnd.tiddlywiki
+
+\myparagraph{Initiating conversations} How a user initiates a conversation is a key conceptual challenge that needs to be overcome in creating good ConvQA benchmarks. One could, for example, provide users with passages or documents, and ask them to create a sequence of questions from there [choi2018quac,reddy2019coqa]. Alternatively, one could also provide annotators with some conversation from a benchmark so far, and request their continuation in some fashion [kaiser2021reinforcement]. Large-scale synthetic benchmarks would try to automate this as far as possible using rules and templates [saha2018complex]. In keeping with our philosophy of natural conversations, we asked users to start with an entity of their choice (instead of spoonfeeding them with one, which could be counterproductive if the user has no interest or knowledge about the provided entity). Real conversations between humans, or several search sessions, often start when users have queries about such seed or topical entities.
+With the first question initiating the conversation, we collected four follow-up questions (total of five turns) that build upon the ongoing conversational context.

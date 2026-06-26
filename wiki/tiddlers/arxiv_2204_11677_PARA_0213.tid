@@ -1,0 +1,9 @@
+created: 20260625080929033
+modified: 20260625080929033
+page: 000
+parent_section: arxiv_2204_11677_H17
+tags: paragraph arxiv_2204_11677
+title: arxiv_2204_11677_PARA_0213
+type: text/vnd.tiddlywiki
+
+\myparagraph{Slots in SR are vital} A systematic ablation study shows that each of the SR slots plays an important role -- see Table (ref). We blanked out the contents of the respective slots during retrieval, and proceeded with these weaker SRs to the answering phase. Question entities clearly are the most pivotal; answer types do not help much at retrieval time, but justify their importance during answering (a shared insight w.r.t. expected answer types in many QA models [saharoy2021question]). We also examined the effect of our proposed ordering of the SR slots (e.g. predicates first).

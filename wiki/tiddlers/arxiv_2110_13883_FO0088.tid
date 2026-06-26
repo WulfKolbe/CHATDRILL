@@ -1,0 +1,11 @@
+caption: 6
+created: 20260625080931151
+displayMode: false
+latex: 6
+latex_original: 6
+modified: 20260625080931151
+tags: formula arxiv_2110_13883
+title: arxiv_2110_13883_FO0088
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

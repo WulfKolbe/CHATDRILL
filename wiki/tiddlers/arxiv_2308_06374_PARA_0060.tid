@@ -1,0 +1,11 @@
+created: 20260625080831230
+modified: 20260625080831230
+page: 000
+parent_section: arxiv_2308_06374_H6
+tags: paragraph arxiv_2308_06374
+title: arxiv_2308_06374_PARA_0060
+type: text/vnd.tiddlywiki
+
+Prompt Engineering for Triple Extraction:
+Cao et al. [cao-etal-2021-knowledgeable] propose three paradigms for factual knowledge extraction from LLMs: prompt-based, case-based, and context-based. Results suggest the prompt-based retrieval is biased towards prompt structure. Prompt engineering [bach2022promptsource] aims to create prompts that efficiently elicit desired responses from LLMs for a specific task.
+However, a limited number of manually created prompts only reveal a portion of the model's encoded knowledge [jiang2020can], as the response can be influenced by the phrasing of the question. Thus, prompt engineering is a crucial part of knowledge retrieval from LLMs.

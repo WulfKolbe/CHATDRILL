@@ -1,0 +1,9 @@
+created: 20260625080929032
+modified: 20260625080929032
+page: 000
+parent_section: arxiv_2204_11677_H11
+tags: paragraph arxiv_2204_11677
+title: arxiv_2204_11677_PARA_0163
+type: text/vnd.tiddlywiki
+
+\convinse and all baselines run on the same data collections. As our knowledge base, we take the 31 January 2022 complete NTriples dump\footnote{\url{https://dumps.wikimedia.org/wikidatawiki/entities/}} of Wikidata, one of the largest and best curated KBs today. It consists of about {{arxiv_2204_11677_FO0087||FO}}B triples, consuming about {{arxiv_2204_11677_FO0088||FO}} TB disk space. We access the KB via the recently proposed \clocq [christmann2022beyond] interface, that reduces the memory overhead and efficiently returns KB-facts for queried entities.

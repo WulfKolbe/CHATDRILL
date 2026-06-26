@@ -1,0 +1,11 @@
+created: 20260625080804874
+modified: 20260625080804874
+page: 000
+parent_section: arxiv_2501_06699_H2
+tags: paragraph arxiv_2501_06699
+title: arxiv_2501_06699_PARA_0035
+type: text/vnd.tiddlywiki
+
+\parai{Fairness} refers to returning unbiased information. SEs, KGs and LLMs can all suffer from bias. While SEs and KGs present (potentially biased) content ``as is'', the situation is more troublesome for LLMs since they generate text. LLMs can then regurgitate and even amplify biases, prejudices and other harmful tropes found in their training corpora [DBLP:conf/ci2/KotekDS23]. While safeguards and 
+ mitigation steps can be applied 
+ to avoid generating objectionable content, such measures sometimes block legitimate studies of sensitive topics. While SEs are not generative, the content they index and return may be biased, and ranking measures may also introduce bias. KGs can also contain biased facts, or can be biased in terms of coverage [DBLP:conf/www/Demartini19], but this can be addressed over time via curation.

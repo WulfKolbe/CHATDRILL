@@ -1,0 +1,9 @@
+created: 20260625093231914
+modified: 20260625093231914
+page: 000
+parent_section: 2305.05403_H6
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0046
+type: text/vnd.tiddlywiki
+
+Various human-curated resources allow specifying completeness assertions in the spirit defined above, as shown in Figure (ref) (top). On the top left, one can see an assertion about the completeness of Argentinian Nobel laureates. This is an example of a typical join filter: the predicate wonAward needs to be joined with the predicate citizenOf. On the top right, we see a simpler assertion about cast members of a Movie. This corresponds to a selection like {{2305.05403_FO0047||FO}}.

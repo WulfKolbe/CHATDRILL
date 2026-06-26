@@ -1,0 +1,11 @@
+caption: h^{(l)}_{i} (b^{(l)}_{0,i}) = \prod^l_{m=1}\sigma_m b^{(l)}_{0,i}
+created: 20260625151931663
+displayMode: false
+latex: h^{(l)}_{i} (b^{(l)}_{0,i}) = \prod^l_{m=1}\sigma_m b^{(l)}_{0,i}
+latex_original: h^{(l)}_{i} (b^{(l)}_{0,i}) = \prod^l_{m=1}\sigma_m b^{(l)}_{0,i}
+modified: 20260625151931663
+tags: formula 2110.11150
+title: 2110.11150_FO0297
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

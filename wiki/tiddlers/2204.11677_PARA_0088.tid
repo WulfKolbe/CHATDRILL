@@ -1,0 +1,11 @@
+created: 20260625093448814
+modified: 20260625093448814
+page: 000
+parent_section: 2204.11677_H4
+tags: paragraph 2204.11677
+title: 2204.11677_PARA_0088
+type: text/vnd.tiddlywiki
+
+Expected answer types assist the answering model in detecting and eliminating spurious answer candidates [ziegler2017efficiency,saharoy2021question].
+In general, multiple types could be inferred here.
+The question predicate \struct{\textcolor{blue}{first meet}} alone could imply the answer type to be either \phrase{date} or \phrase{location}.

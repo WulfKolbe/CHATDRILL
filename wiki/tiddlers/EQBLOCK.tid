@@ -1,0 +1,7 @@
+created: 20260626111149170
+modified: 20260626111149170
+tags: template
+title: EQBLOCK
+type: text/vnd.tiddlywiki
+
+<div class="equation"><$latex text={{!!latex}} displayMode=true/> <span class="refnum">{{!!refnum}}</span></div>

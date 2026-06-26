@@ -1,0 +1,10 @@
+created: 20260625093527300
+modified: 20260625093527300
+page: 000
+parent_section: 2111.13611_H1
+tags: paragraph 2111.13611
+title: 2111.13611_PARA_0010
+type: text/vnd.tiddlywiki
+
+We further study the role of coverage prediction in two extrinsic use cases: KB construction and claim refutation. For KB construction, we show that coverage estimates by HERB are effective in ranking candidate documents and can substantially reduce the number of web pages one needs to process for building a reasonably complete KB. For the task of claim refutation (e.g., Tim Cook is the CEO of Microsoft), we show that coverage estimates for different documents can provide counter-evidence that can help to invalidate
+false statements obtained by RE systems.

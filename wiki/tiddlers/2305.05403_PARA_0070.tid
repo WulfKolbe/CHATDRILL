@@ -1,0 +1,9 @@
+created: 20260625093231914
+modified: 20260625093231914
+page: 000
+parent_section: 2305.05403_H8
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0070
+type: text/vnd.tiddlywiki
+
+show that the modified estimator is more conservative in its estimation of the total number of entities. Two experiments with a known ground truth were conducted: For ``UN-recognized countries'', the new estimator converges faster to the true number. For ``U.S. states'', the effect is less visible, most likely because they are easy to enumerate and are thus filled in one go.

@@ -1,0 +1,11 @@
+caption: \ensuremath{\langle{}\textit{Gandhi}, \textit{starsIn}, *\rangle}
+created: 20260625080853723
+displayMode: false
+latex: \ensuremath{\langle{}\textit{Gandhi}, \textit{starsIn}, *\rangle}
+latex_original: \mfact{\textit{Gandhi}}{\textit{starsIn}}{*}
+modified: 20260625080853723
+tags: formula arxiv_2305_05403
+title: arxiv_2305_05403_FO0047
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

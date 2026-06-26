@@ -1,0 +1,11 @@
+created: 20260625080929321
+modified: 20260625080929321
+page: 000
+parent_section: arxiv_2204_10432_H5
+tags: paragraph arxiv_2204_10432
+title: arxiv_2204_10432_PARA_0025
+type: text/vnd.tiddlywiki
+
+!!! PHQ9Plus
+
+ PHQ9Plus extends the PHQ9 method by appending an additional symptom (neuron) to the PHQ9 symptoms that form the questionnaire model. This neuron is connected to post embedding and produces a score for every post. Furthermore, we make this additional neuron trainable end-to-end to learn other signals similarly to PHQ9 symptoms. Doing that allows PHQ9Plus to learn from training data other depressive signals in addition to the PHQ9 symptoms. However, in return, it also risks incorporating undesirable shortcuts that harm the model's generalizability.

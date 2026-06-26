@@ -1,0 +1,12 @@
+created: 20260625093448815
+modified: 20260625093448815
+page: 000
+parent_section: 2204.11677_H12
+tags: paragraph 2204.11677
+title: 2204.11677_PARA_0175
+type: text/vnd.tiddlywiki
+
+\myparagraph{Question resolution} We use \quretec [voskarides2020query] as a question resolution baseline, treating context disambiguation as a term classification problem.
+A BERT-encoder is augmented with a term classification head,
+and predicts for each history term whether the word should
+be added to the current question.

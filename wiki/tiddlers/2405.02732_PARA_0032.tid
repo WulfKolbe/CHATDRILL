@@ -1,0 +1,9 @@
+created: 20260625093047341
+modified: 20260625093047341
+page: 000
+parent_section: 2405.02732_H6
+tags: paragraph 2405.02732
+title: 2405.02732_PARA_0032
+type: text/vnd.tiddlywiki
+
+To feed passages into the LLM, the default approach combines successive ranks into small batches, as determined by the (re-)ranker. Alternatively, we can group or batch passages [DBLP:conf/icde/FanHFC00024] based on coherent story structures to aid the LLM in extracting O values. We devise two criteria for this purpose and batch:

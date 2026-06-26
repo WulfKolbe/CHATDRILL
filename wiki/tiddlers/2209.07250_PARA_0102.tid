@@ -1,0 +1,9 @@
+created: 20260625093341705
+modified: 20260625093341705
+page: 000
+parent_section: 2209.07250_H17
+tags: paragraph 2209.07250
+title: 2209.07250_PARA_0102
+type: text/vnd.tiddlywiki
+
+In both CoQuAD and Natural Questions datasets Google\-SDA has a an RP above 90%, albeit for very low coverage, whereas QAnswer has a high coverage, more than 96% in all datasets with poor RP. {\mysystem} not only provides a high coverage, but also a decent RP, with the improved version increasing RP by 10% on CoQuAD. Except on the LCQuAD dataset, {\mysystem} provides a better trade-off than the baselines.

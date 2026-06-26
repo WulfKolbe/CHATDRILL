@@ -1,0 +1,20 @@
+created: 20260625093057255
+modified: 20260625093057255
+page: 000
+parent_section: 2311.01314_H1
+tags: paragraph 2311.01314
+title: 2311.01314_PARA_0011
+type: text/vnd.tiddlywiki
+
+The most promising approach for this regime is to harness {\em review texts} by users (e.g., [DBLP:conf/www/ChenZLM18,DBLP:conf/kdd/LiuLDCG19,DBLP:journals/corr/abs-2104-13030,DBLP:journals/csur/ZhangYST19]).
+In domains where users spend substantial time per item (e.g., books, travel destination), unlike short-attention-span items (e.g., music, video streams), users tend to leave detailed reviews expressing their interests and tastes, even with few interactions.
+This paper 
+presents a new framework to tackle 
+review-based recommendation
+with sparse data, long-tail users and items, and rich review texts, especially when computational resources are limited.
+We focus on the domain of books as a prime case for
+low interaction rates (i.e., users with few items) with high interaction efforts (i.e., value in user reviews), in combination with high diversity of user tastes (both across users and also per user). 
+Although this is not in the mainstream 
+business, we advocate 
+that long-tail users 
+should receive better service as well.

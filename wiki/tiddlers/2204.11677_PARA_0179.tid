@@ -1,0 +1,12 @@
+created: 20260625093448815
+modified: 20260625093448815
+page: 000
+parent_section: 2204.11677_H13
+tags: paragraph 2204.11677
+title: 2204.11677_PARA_0179
+type: text/vnd.tiddlywiki
+
+used
+as the answer in such cases. 
+Note that such KB-items may also be normalized strings, dates, years, or numbers.
+These normalized KB-items are compared to the gold answers in the benchmark for the computation of P@1.

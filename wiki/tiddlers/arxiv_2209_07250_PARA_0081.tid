@@ -1,0 +1,9 @@
+created: 20260625080859570
+modified: 20260625080859570
+page: 000
+parent_section: arxiv_2209_07250_H10
+tags: paragraph arxiv_2209_07250
+title: arxiv_2209_07250_PARA_0081
+type: text/vnd.tiddlywiki
+
+We then proceed by annotating the CoQuAD queries with binary variables indicating whether semantic qualifiers and instance explanations are necessary. For instance, the query ``how many novels did jane austen complete?'' would benefit from instances or CNPs which differentiate her finished and unfinished works or at least hint at the fact.

@@ -1,0 +1,9 @@
+created: 20260625080929033
+modified: 20260625080929033
+page: 000
+parent_section: arxiv_2204_11677_H16
+tags: paragraph arxiv_2204_11677
+title: arxiv_2204_11677_PARA_0197
+type: text/vnd.tiddlywiki
+
+Altogether, the absolute P@1 numbers still leave huge room for improvement. This shows that \convmix is indeed a challenging benchmark, with difficult user inputs where inferring the intent is hard, for example: \utterance{Which war is discussed in the book?} or \utterance{What was the final film he made?} (see Table (ref) for more examples).

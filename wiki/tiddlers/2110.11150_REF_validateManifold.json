@@ -1,0 +1,17 @@
+[
+    {
+        "title": "2110.11150_REF_validateManifold",
+        "text": "{{||CIT}} Z. Zhang, J. Jin, Z. Zhang, Y. Zhou, X. Zhao, J. Ren, J. Liu, L. Wu, R. Jin, and D. Dou. Validating the lottery ticket hypothesis with inertial manifold theory. In Advances in Neural Information Processing Systems, 2021.",
+        "type": "text/markdown",
+        "tags": "reference bibentry bibtex 2110.11150",
+        "created": "20260626111149173",
+        "modified": "20260626111149173",
+        "kind": "reference",
+        "citekey": "validateManifold",
+        "year": "2021",
+        "authors": "Zeru Zhang and Jiayin Jin and Zijie Zhang and Yang Zhou and Xin Zhao and Jiaxiang Ren and Ji Liu and Lingfei Wu and Ruoming Jin and Dejing Dou",
+        "entry_type": "inproceedings",
+        "titlefield": "Validating the Lottery Ticket Hypothesis with Inertial Manifold Theory",
+        "bibtex": "@inproceedings{validateManifold,\ntitle={Validating the Lottery Ticket Hypothesis with Inertial Manifold Theory},\nauthor={Zeru Zhang and Jiayin Jin and Zijie Zhang and Yang Zhou and Xin Zhao and Jiaxiang Ren and Ji Liu and Lingfei Wu and Ruoming Jin and Dejing Dou},\nbooktitle={Advances in Neural Information Processing Systems},\nyear={2021}\n}"
+    }
+]

@@ -1,0 +1,13 @@
+[
+    {
+        "title": "arxiv_2210_07763_TAB_015",
+        "text": "",
+        "type": "text/vnd.tiddlywiki",
+        "tags": "table arxiv_2210_07763",
+        "created": "20260625080858064",
+        "modified": "20260625080858064",
+        "page": "000",
+        "latex_code": "\\begin{tabular}{lccccc}\n    \\toprule\n    \n    \n    \n    \n    \n    \n    \\multirow{2}{*}{\\textbf{Method}} & \\multicolumn{3}{c}{\\textbf{Quality {[}0..2{]}}} & \\multirow{2}{*}{{\\begin{tabular}[c]{@{}r@{}}\\textbf{OFF} \\\\ \\textbf{(\\%)}\\end{tabular}}}  & \\multirow{2}{*}{\\textbf{LEN}} \\\\\n    \\cmidrule(lr){2-4}\n    & \\textbf{PLA} & \\textbf{COM} & \\textbf{DIS} \\\\\n    \\midrule\n    \\textbf{GPT-3}~\\cite{GPT3} & 1.26 &\t0.80 &\t0.73 & 1 & 81 \\\\\n    \\rowcolor{gray!25}\n    \\textbf{\\textsc{Candle}{}} &\t1.25 &\t\\textbf{0.89} &\t\\textbf{0.89} & 1 &\t75 \\\\\n    \\bottomrule\n    \\end{tabular}",
+        "latex_original": "\\begin{tabular}{lccccc}\n    \\toprule\n    \n    \n    \n    \n    \n    \n    \\multirow{2}{*}{\\textbf{Method}} & \\multicolumn{3}{c}{\\textbf{Quality {[}0..2{]}}} & \\multirow{2}{*}{{\\begin{tabular}[c]{@{}r@{}}\\textbf{OFF} \\\\ \\textbf{(\\%)}\\end{tabular}}}  & \\multirow{2}{*}{\\textbf{LEN}} \\\\\n    \\cmidrule(lr){2-4}\n    & \\textbf{PLA} & \\textbf{COM} & \\textbf{DIS} \\\\\n    \\midrule\n    \\textbf{GPT-3}~\\cite{GPT3} & 1.26 &\t0.80 &\t0.73 & 1 & 81 \\\\\n    \\rowcolor{gray!25}\n    \\textbf{\\systemname{}} &\t1.25 &\t\\textbf{0.89} &\t\\textbf{0.89} & 1 &\t75 \\\\\n    \\bottomrule\n    \\end{tabular}"
+    }
+]

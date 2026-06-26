@@ -1,0 +1,11 @@
+created: 20260625093448814
+modified: 20260625093448814
+page: 000
+parent_section: 2204.11677_H9
+tags: paragraph 2204.11677
+title: 2204.11677_PARA_0155
+type: text/vnd.tiddlywiki
+
+Thus, our complete benchmark \convmix (3000 conversations in total) is made up of subsets \convmix-5T (2800 conversations, 5 turns each)
+and
+\convmix-10T (200 conversations, 10 turns each).

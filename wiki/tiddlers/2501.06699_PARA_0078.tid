@@ -1,0 +1,11 @@
+created: 20260625092952539
+modified: 20260625092952539
+page: 000
+parent_section: 2501.06699_H11
+tags: paragraph 2501.06699
+title: 2501.06699_PARA_0078
+type: text/vnd.tiddlywiki
+
+LLMs capture contextual probabilities of tokens in the parameters of a large neural network, often following the Transformer architecture [DBLP:conf/nips/VaswaniSPUJGKP17].
+ The model parameters are computed by two stages of training: {\em unsupervised pre-training} and {\em supervised fine-tuning}.
+ LLMs can also benefit from inference-time (i.e., post-training) techniques, most notably, {\em prompt engineering} [DBLP:journals/csur/LiuYFJHN23] and {\em in-context learning} [DBLP:journals/corr/abs-2301-00234].

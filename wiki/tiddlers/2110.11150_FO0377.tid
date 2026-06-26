@@ -1,0 +1,11 @@
+caption: \lambda = \prod^{2L}_{l=1}\sigma^{-1}_{w,l}
+created: 20260625151931664
+displayMode: false
+latex: \lambda = \prod^{2L}_{l=1}\sigma^{-1}_{w,l}
+latex_original: \lambda = \prod^{2L}_{l=1}\sigma^{-1}_{w,l}
+modified: 20260625151931664
+tags: formula 2110.11150
+title: 2110.11150_FO0377
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

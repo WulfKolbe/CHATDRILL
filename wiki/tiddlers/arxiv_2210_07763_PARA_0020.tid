@@ -1,0 +1,10 @@
+created: 20260625080858062
+modified: 20260625080858062
+page: 000
+parent_section: arxiv_2210_07763_H1
+tags: paragraph arxiv_2210_07763
+title: arxiv_2210_07763_PARA_0020
+type: text/vnd.tiddlywiki
+
+steer away from overly generic assertions
+(which LMs like GPT-3 tend to generate) and favor assertions that set their subjects apart from others.

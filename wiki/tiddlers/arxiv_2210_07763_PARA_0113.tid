@@ -1,0 +1,9 @@
+created: 20260625080858063
+modified: 20260625080858063
+page: 000
+parent_section: arxiv_2210_07763_H13
+tags: paragraph arxiv_2210_07763
+title: arxiv_2210_07763_PARA_0113
+type: text/vnd.tiddlywiki
+
+\systemname{} outperforms all other resources on the number of base sentences. When turning to clusters, our resource still has significantly more assertions than Acharya et al. (which was constructed manually at small scale) and StereoKG (extracted from Reddit/Twitter questions). Quasimodo has comparable size with \systemname{}-cluster-reps for the country and religion domains and has more for the occupation domain.

@@ -1,0 +1,9 @@
+created: 20260625093341705
+modified: 20260625093341705
+page: 000
+parent_section: 2209.07250_H5
+tags: paragraph 2209.07250
+title: 2209.07250_PARA_0049
+type: text/vnd.tiddlywiki
+
+If there is at least one count extracted from the relevant document set, we consolidate the counts using either of the proposed consolidation methods defined in the Consolidate function (Lines 10-13), else the answer inference is empty (Line 15).

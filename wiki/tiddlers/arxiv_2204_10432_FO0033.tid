@@ -1,0 +1,11 @@
+caption: filter\_size = [2,3,4,5,6]
+created: 20260625080929322
+displayMode: false
+latex: filter\_size = [2,3,4,5,6]
+latex_original: filter\_size = [2,3,4,5,6]
+modified: 20260625080929322
+tags: formula arxiv_2204_10432
+title: arxiv_2204_10432_FO0033
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

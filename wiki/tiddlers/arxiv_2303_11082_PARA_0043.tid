@@ -1,0 +1,10 @@
+created: 20260625080853980
+modified: 20260625080853980
+page: 000
+parent_section: arxiv_2303_11082_H15
+tags: paragraph arxiv_2303_11082
+title: arxiv_2303_11082_PARA_0043
+type: text/vnd.tiddlywiki
+
+The key to KBC with LMs is the ability to predict missing facts. 
+Directly extracting empty subject-relation pairs from Wikidata is not possible, since Wikidata consists of existing facts {{arxiv_2303_11082_FO0034||FO}}. Also, randomly sampling an arbitrary subject to combine it with any relation would run the risk of violating our condition of plausible missing facts, where an object for a subject-relation pair exists (e.g. an implausible pair like (Albert Einstein, hasCapital,{{arxiv_2303_11082_FO0035||FO}}) has no object). Therefore, we will only sample subject-relation pairs, where the subject has a relation-compatible entity type. Thus, we compute relation-wise the most frequent subject entity type within a relation. When sampling subject-relation pairs with missing objects, the subject is conditioned on having the most frequent entity type. This ensures extracting plausible missing facts. We randomly sample {{arxiv_2303_11082_FO0036||FO}} missing facts per relation, {{arxiv_2303_11082_FO0037||FO}} missing facts in total.

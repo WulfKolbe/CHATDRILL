@@ -1,0 +1,17 @@
+created: 20260625093308064
+modified: 20260625093308064
+page: 000
+parent_section: 2210.07763_H1
+tags: paragraph 2210.07763
+title: 2210.07763_PARA_0017
+type: text/vnd.tiddlywiki
+
+The output of \systemname{} is a set of 1.1M CCSK assertions, organized into 60K coherent clusters. 
+The set is organized by 3 domains of interest --
+geography, religion, occupation --
+with a total of 386 instances, referred to as {\em subjects} (or cultural groups).
+Per subject, the assertions cover 5 
+{\em facets} of culture: food, drinks, clothing, rituals, traditions (for geography and religion) or behaviors (for occupations). 
+In addition, we also annotate each assertion with its salient concepts.
+Examples for the computed CCSK are shown in 
+Fig. (ref).

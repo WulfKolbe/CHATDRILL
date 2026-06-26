@@ -1,0 +1,11 @@
+caption: \mathtt{GT_{wikiweb}}
+created: 20260625080930847
+displayMode: false
+latex: \mathtt{GT_{wikiweb}}
+latex_original: \mathtt{GT_{wikiweb}}
+modified: 20260625080930847
+tags: formula arxiv_2111_13611
+title: arxiv_2111_13611_FO0051
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

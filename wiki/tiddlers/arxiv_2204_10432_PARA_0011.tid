@@ -1,0 +1,11 @@
+created: 20260625080929321
+modified: 20260625080929321
+page: 000
+parent_section: arxiv_2204_10432_H2
+tags: paragraph arxiv_2204_10432
+title: arxiv_2204_10432_PARA_0011
+type: text/vnd.tiddlywiki
+
+Natural language processing methods have been widely used for automatic mental health assessment.
+To support automated analyses of mental health related language, a variety of datasets have been proposed.
+[coppersmith-etal-2014-quantifying] focused on predicting depressed and PTSD users in Twitter, whereas [milne-etal-2016-clpsych,shing2018expert] and [zirikly2019clpsych] aimed to detect high risk and suicidal users from their ReachOut and Reddit posts, respectively. \citet[RSDD;][]{yates-etal-2017-depression}, \citet[SMHD;][]{cohan2018smhd}, and [Wolohan2018DetectingLT] investigated identifying depression and other mental health conditions from Reddit.

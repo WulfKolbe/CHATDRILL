@@ -1,0 +1,11 @@
+caption: n_{\ensuremath{\bm{y}}\xspace,i}^G
+created: 20260625110956924
+displayMode: false
+latex: n_{\ensuremath{\bm{y}}\xspace,i}^G
+latex_original: n_{\yg,i}^G
+modified: 20260625110956924
+tags: formula 2110.13883
+title: 2110.13883_FO0200
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

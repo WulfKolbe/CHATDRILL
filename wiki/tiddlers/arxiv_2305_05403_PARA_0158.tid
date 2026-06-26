@@ -1,0 +1,10 @@
+created: 20260625080853722
+modified: 20260625080853722
+page: 000
+parent_section: arxiv_2305_05403_H16
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0158
+type: text/vnd.tiddlywiki
+
+\begin{revision}
+As discussed above, we take a model-free approach here and leave the choice of what is salient to human annotators. We hypothesize only that frequency and unexpectedness are likely ingredients [taylor1978salience,racz2013salience] of their decision. Where human judgments cannot be obtained, one could resort to an automatically computed target metric like proposed in [klein2022identifying], though at the risk of optimizing for what can be conveniently computed, instead of what is truly salient. \end{revision}

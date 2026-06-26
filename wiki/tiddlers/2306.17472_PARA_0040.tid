@@ -1,0 +1,18 @@
+created: 20260625093156716
+modified: 20260625093156716
+page: 000
+parent_section: 2306.17472_H5
+tags: paragraph 2306.17472
+title: 2306.17472_PARA_0040
+type: text/vnd.tiddlywiki
+
+Many of the inferred SPO facts are indeed completely missing in Wikidata; so they are also not in the withheld ground-truth samples for the above evaluation. To estimate how many facts we could potentially add to the KG and how good our automatically inferred predictions are, we
+picked 25 samples for each relation, a total of 250 fact candidates, and asked human annotators to 
+assess their correctness. Over all relations, 
+this achieved an average precision of 61%.
+For the relation {\small\tt educated at},
+our method even has 76% precision, and this is
+a case where the KG has enormous gaps:
+out of 10M sampled entities of type {\small\tt Human},
+only 65% have facts for this relation.
+For this case, our KBC method collected 1.2M candidate facts,

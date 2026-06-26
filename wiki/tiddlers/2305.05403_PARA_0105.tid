@@ -1,0 +1,9 @@
+created: 20260625093231914
+modified: 20260625093231914
+page: 000
+parent_section: 2305.05403_H12
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0105
+type: text/vnd.tiddlywiki
+
+This approach works well for finding maximum cardinalities for functional predicates, for instance all humans have one birth year or all football matches have two teams, since these are more stable across entities of a class: majority of persons have one or two parents and very few have more than two. We will see how to tackle entity-variant cardinalities such as books by an author, or destinations of an airline, which can vary between entities, even those belonging to the same class in the next approach.

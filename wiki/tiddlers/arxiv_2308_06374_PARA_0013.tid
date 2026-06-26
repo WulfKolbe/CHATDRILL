@@ -1,0 +1,10 @@
+created: 20260625080831230
+modified: 20260625080831230
+page: 000
+parent_section: arxiv_2308_06374_H2
+tags: paragraph arxiv_2308_06374
+title: arxiv_2308_06374_PARA_0013
+type: text/vnd.tiddlywiki
+
+Bias, Fairness and Beyond: Critics argue that LLMs can perpetuate and amplify biases present in the training data, leading to biased outputs. LLMs may generate biased or prejudiced responses if the training data contains stereotypes or discriminatory information [Nadeem2020StereoSetMS, Leidinger2023WhichSA]. On the other hand, proponents argue that bias is not inherent to LLMs but reflects societal biases embedded in the data. They emphasize the importance of addressing bias in the training data and developing mitigation techniques [Sap2019TheRO, Plank2022TheO, Ranaldi2023ATT]. 
+A survey [Blodgett2020LanguageI] argued that ``bias'' in Natural Language Processing (NLP) systems took various conceptualizations without being critically engaged by practitioners.

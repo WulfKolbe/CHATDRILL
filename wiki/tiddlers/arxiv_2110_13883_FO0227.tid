@@ -1,0 +1,11 @@
+caption: i \in \{ 1,2 \}
+created: 20260625080931152
+displayMode: false
+latex: i \in \{ 1,2 \}
+latex_original: i \in \{ 1,2 \}
+modified: 20260625080931152
+tags: formula arxiv_2110_13883
+title: arxiv_2110_13883_FO0227
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

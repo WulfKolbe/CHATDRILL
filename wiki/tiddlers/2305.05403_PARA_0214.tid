@@ -1,0 +1,9 @@
+created: 20260625093231915
+modified: 20260625093231915
+page: 000
+parent_section: 2305.05403_H23
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0214
+type: text/vnd.tiddlywiki
+
+We have discussed three ways of estimating KB recall relative to other resources. Common among them is the challenge of how to compare pieces of knowledge: Statements in the reference resource may be differently worded or ambiguous, making finding a statement of equivalent semantics nontrivial. Moreover, semantic equivalence is necessarily an imprecise concept, requiring somewhat arbitrary decisions about the maximally accepted dissimilarity, as well as difficult technical decisions on how to actually measure semantic relatedness. A common technical solution currently is to represent the two statements to be compared in latent embedding space (e.g., [nguyen2021materialized] uses S-BERT [reimers2019sentence]), then use similarity metrics like cosine distance to decide whether two candidates are considered equivalent. Note that this problem even occurs in the most structured setting, KB-vs.-KB recall, since even if subjects and objects are disambiguated, predicate names are typically textual strings, like worksAt, employer, affiliatedWith.

@@ -1,0 +1,11 @@
+caption: Y=X + N
+created: 20260625080931152
+displayMode: false
+latex: Y=X + N
+latex_original: Y=X + N
+modified: 20260625080931152
+tags: formula arxiv_2110_13883
+title: arxiv_2110_13883_FO0311
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

@@ -1,0 +1,11 @@
+caption: \ensuremath{\bm{Y}}\xspace
+created: 20260625080931152
+displayMode: false
+latex: \ensuremath{\bm{Y}}\xspace
+latex_original: \Yg
+modified: 20260625080931152
+tags: formula arxiv_2110_13883
+title: arxiv_2110_13883_FO0341
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

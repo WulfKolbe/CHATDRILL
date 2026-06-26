@@ -1,0 +1,30 @@
+created: 20260625093057256
+modified: 20260625093057256
+page: 000
+parent_section: 2311.01314_H13
+tags: paragraph 2311.01314
+title: 2311.01314_PARA_0087
+type: text/vnd.tiddlywiki
+
+For insight on 
+specific groups of users and items, we split the 1000 users and their items into the following groups,
+reporting NDCG@5 
+for each
+group separately.
+Note that this refinement drills down on the test outputs; the training is unaffected. 
+\squishlist
+\item Items are split into {\bf unseen (u)} and {\bf seen (s)} items.
+Unseen test items have not been seen at training time. Seen test items appeared as positive training items for a different user.
+\item Users are split into groups based on 
+the {\large {{2311.01314_FO0036||FO}}}books-per-user distribution:
+\squishlist
+\item {\bf Sporadic (s)} users 
+are the lowest 50% with the least numbers of books. 
+For GR-1K-rich, this threshold is 13 books per user; for AM-1K-rich it is 5 (with means 6 and 3, resp.). 
+\item {\bf Regular (r)} users are those between the 50th percentile and 90th percentile, which is between 13 and 71 books per user for 
+GR-1K-rich, and between 5 and 20 for AM-1K-rich
+(with means 31 and 9, resp.).
+\item {\bf Bibliophilic (b)} users 
+are the highest 10%: above 75 {books per user} for GR-1K-rich and above 20 for AM-1K-rich (with means 156 and 43, resp.).
+\squishend
+\squishend

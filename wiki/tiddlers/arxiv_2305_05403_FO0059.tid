@@ -1,0 +1,11 @@
+caption: \frac{2}{37}\approx 5.4\%
+created: 20260625080853723
+displayMode: false
+latex: \frac{2}{37}\approx 5.4\%
+latex_original: \frac{2}{37}\approx 5.4\%
+modified: 20260625080853723
+tags: formula arxiv_2305_05403
+title: arxiv_2305_05403_FO0059
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

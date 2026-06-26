@@ -1,0 +1,11 @@
+caption: 5 \times 10^{-5}
+created: 20260625080929034
+displayMode: false
+latex: 5 \times 10^{-5}
+latex_original: 5 \times 10^{-5}
+modified: 20260625080929034
+tags: formula arxiv_2204_11677
+title: arxiv_2204_11677_FO0110
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

@@ -1,0 +1,9 @@
+created: 20260625093231915
+modified: 20260625093231915
+page: 000
+parent_section: 2305.05403_H23
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0210
+type: text/vnd.tiddlywiki
+
+A related analysis is provided in the context of the OPIEC project [gashteovski2018opiec], a corpus of open statements extracted from running an open information extraction system on the entire English Wikipedia. In [gashteovski2020aligning], the authors analyze the relation of OPIEC with DBpedia, in particular, to which degree OPIEC statements are expressible in DBpedia, and to which degree they are actually expressed. Since open information extraction provides a plausible approximation of relational statements contained in text, this evaluation can be seen as a relative recall evaluation of DBpedia w.r.t. Wikipedia. They provide several important insights: (i) 29% of open statements can be fully expressed in DBpedia, 29% partially (e.g., with a more specific or more generic predicate), 42% of open statements are not KB-expressible.\footnote{This aspect can also be considered another dimension of recall, called schema recall. This aspect is as also studied in [nakashole2012patty], where the authors find that popular KB schemata contain between 13-126 predicates of a sample of 163 predicates found in a few Wikipedia articles.} (ii) Adding more complex constructs, like conjunctions or even existential quantification into the KB increases its recall potential. (iii) When it comes to measuring the actual recall, they find that 18% of open statements are fully present in DBpedia, 23% partially present, 59% not at all.

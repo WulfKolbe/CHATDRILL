@@ -1,0 +1,11 @@
+created: 20260625080816564
+modified: 20260625080816564
+page: 000
+parent_section: arxiv_2411_04920_H5
+tags: paragraph arxiv_2411_04920
+title: arxiv_2411_04920_PARA_0041
+type: text/vnd.tiddlywiki
+
+have close meanings (i.e., cosine similarity between SentenceTransformers embeddings are greater than 0.85),
+and 
+(ii) 30% of their triples are exactly the same.

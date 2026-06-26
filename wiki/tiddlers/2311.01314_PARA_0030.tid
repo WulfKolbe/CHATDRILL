@@ -1,0 +1,12 @@
+created: 20260625093057255
+modified: 20260625093057255
+page: 000
+parent_section: 2311.01314_H2
+tags: paragraph 2311.01314
+title: 2311.01314_PARA_0030
+type: text/vnd.tiddlywiki
+
+The recent work of [DBLP:conf/acl/RamosRWFL24]
+generates user profiles by prompting LLMs like Llama, Mistral. 
+The profiles are used for rating prediction, not for ranking a larger pool of candidate items. 
+The method is designed for short reviews; text-rich book reviews are not considered.

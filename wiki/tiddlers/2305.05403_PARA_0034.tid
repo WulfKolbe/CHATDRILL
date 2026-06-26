@@ -1,0 +1,12 @@
+created: 20260625093231913
+modified: 20260625093231913
+page: 000
+parent_section: 2305.05403_H4
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0034
+type: text/vnd.tiddlywiki
+
+\begin{revision}
+The existing literature does not 
+use terminology consistently. It often uses the terms completeness and recall interchangeably, and utilizes others, such as coverage. For this survey, we strictly use completeness for the Boolean concept of whether the result of a selection condition on the available KB equals the result of the same selection on the ideal one, and recall for its generalization to the quantitative ratio of the two. 
+Formally, a separate notion of completeness is thus superfluous, yet we find the Boolean case frequent enough to indicate it separately.

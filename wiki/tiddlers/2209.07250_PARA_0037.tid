@@ -1,0 +1,9 @@
+created: 20260625093341705
+modified: 20260625093341705
+page: 000
+parent_section: 2209.07250_H2
+tags: paragraph 2209.07250
+title: 2209.07250_PARA_0037
+type: text/vnd.tiddlywiki
+
+In [enriching2018mirza], it is reported that 5%-10% of queries in popular QA datasets are count queries. Current text-based QA systems and datasets largely ignore consolidation over multiple documents, since the target is to produce a single answer span or document. QA systems are tested on reading comprehension datatsets, the most popular being SQuAD [rajpurkar2016squad], CoQA [reddy2019coqa] and more recent being DROP [dua2019drop], on open domain QA datatsets such as Natural Questions [kwiatkowski2019natural], TriviaQA [joshi2017triviaqa] and on KBs with datasets such as LC-QuAD 2.0 [dubey2019lc], WebQuestions [berant2013semantic] and QALD [qald]. Reading comprehension and open domain QA datasets are annotated with answer spans, while the datasets for KB-QA come with a single or a list of answers, but no further context. Multi-document-multi-hop reasoning datasets, in turn, focus on chaining evidence [dua2019drop,bauer2018commonsense].

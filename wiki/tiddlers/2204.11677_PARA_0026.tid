@@ -1,0 +1,13 @@
+created: 20260625093448813
+modified: 20260625093448813
+page: 000
+parent_section: 2204.11677_H1
+tags: paragraph 2204.11677
+title: 2204.11677_PARA_0026
+type: text/vnd.tiddlywiki
+
+requires complex reasoning efforts.
+For {{2204.11677_FO0017||FO}}, even with named entity disambiguation (NED) in conversations [shang2021entity,joko2021conversational], it is unlikely that the correct KB entity (\struct{Tyrion Lannister}) can be inferred, which means that the resulting answer search space [christmann2022beyond] will not have the answer.
+For {{2204.11677_FO0018||FO}}, answering via a KB requires a two-step lookup involving the first season, and then the corresponding release date.
+For {{2204.11677_FO0019||FO}}, a KB might have the details for each individual episode, but collecting this information and aggregating for the final answer can be quite cumbersome. 
+In contrast, the answers to these three questions are much more easily spotted in content of text documents, or Web tables.

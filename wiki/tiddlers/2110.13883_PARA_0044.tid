@@ -1,0 +1,9 @@
+created: 20260625110956922
+modified: 20260625110956922
+page: 000
+parent_section: 2110.13883_H6
+tags: paragraph 2110.13883
+title: 2110.13883_PARA_0044
+type: text/vnd.tiddlywiki
+
+To efficiently estimate mutual information from data generated according to Model (ref), we propose to first learn the embedded low-dimensional manifold of the joint space {{2110.13883_FO0186||FO}} via Geodesic Forests [madhyastha:20:gf], as described subsequently in Sec (ref), and then compute the local {{2110.13883_FO0187||FO}}NN distances from this representation. In other words, we aim to approximate the distance between two points via the length of its shortest path on the manifold, i.e. its geodesic distance.

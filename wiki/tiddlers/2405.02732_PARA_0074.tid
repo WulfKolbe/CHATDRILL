@@ -1,0 +1,15 @@
+created: 20260625093047341
+modified: 20260625093047341
+page: 000
+parent_section: 2405.02732_H15
+tags: paragraph 2405.02732
+title: 2405.02732_PARA_0074
+type: text/vnd.tiddlywiki
+
+\noindent{\bf Influence of Batching.}
+When combined with batching via {\em neo}
+or {\em sim}, L3X improves in precision, but loses recall, and eventually stays inferior to
+{\em amp} alone.
+While 
+unexpected, it is not counter-intuitive:
+{\em amp} operates iteratively, and judiciously picks its batch of passages in each round. So batching does help, but the big mileage already comes from the amplification of support passages.

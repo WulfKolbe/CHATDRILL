@@ -1,0 +1,13 @@
+created: 20260625080929032
+modified: 20260625080929032
+page: 000
+parent_section: arxiv_2204_11677_H4
+tags: paragraph arxiv_2204_11677
+title: arxiv_2204_11677_PARA_0077
+type: text/vnd.tiddlywiki
+
+Specifically, an SR is a 4-tuple holding a slot for each of:
+\squishlist
+\item Context entities (depicted in {\color{gray} gray} in Table 1), 
+\item Question entities (in {\color{red} red}), 
+\item Question

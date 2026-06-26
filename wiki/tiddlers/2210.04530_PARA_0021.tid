@@ -1,0 +1,10 @@
+created: 20260625093324945
+modified: 20260625093324945
+page: 000
+parent_section: 2210.04530_H5
+tags: paragraph 2210.04530
+title: 2210.04530_PARA_0021
+type: text/vnd.tiddlywiki
+
+We therefore decided to add new commonsense-related datasets, to better evaluate how much commonsense knowledge a language model contains. First, we used CSLB [cslb] that contains 20k basic properties about given subjects. The sentences are generally simpler than in OMCS. Second, we exploit 2.4k human-generated CSK sentences produced as evaluation data in the Quasimodo project [quasimodo,romero2020inside]. Finally, we exploited sentence sources of top statements web-extracted for the same KB, based on QA forums and search engine query logs. We here either masked the object or the predicate for all the sentences. 
+Table (ref) shows a sample of probes for each dataset. We also make public (link above) a sample of generations.

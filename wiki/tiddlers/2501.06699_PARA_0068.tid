@@ -1,0 +1,9 @@
+created: 20260625092952539
+modified: 20260625092952539
+page: 000
+parent_section: 2501.06699_H8
+tags: paragraph 2501.06699
+title: 2501.06699_PARA_0068
+type: text/vnd.tiddlywiki
+
+Finally, the fourth phase, which we call amalgamation, involves combining these technologies at a fundamental level. This might involve, for example, creating a combined neural representation of natural language and (factual) structured knowledge (with semantics), complemented with inverted indexes for search, database indexes and semantics for knowledge, and structured query languages for resolving complex factual requests. Key to this would be using consistent unambiguous tokens, for example, to align the tokens used to generate the text ``Turing award'' (per an LLM), to be able to query for those who have won such awards born in a certain region (per a KG), to be able to search for sources mentioning such winners (per an SE), etc. Such tokens could be further ``enriched'', for example, to associate them with datatypes, or to incorporate structured, semantic descriptions of tokens and how they interrelate. Another idea would be to explore ``dual neural knowledge'' whereby LLMs and KGs are applied for a dual encoding of popular entities, whereas KGs and SEs are used for long-tail information. Whatever the particular research direction, in this phase, the lines between SEs, KGs and LLMs become increasingly blurred, leading to an amalgam technology that aims to surpass the sum of its parts.

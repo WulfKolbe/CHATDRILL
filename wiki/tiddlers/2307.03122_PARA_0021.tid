@@ -1,0 +1,10 @@
+created: 20260625093145739
+modified: 20260625093145739
+page: 000
+parent_section: 2307.03122_H6
+tags: paragraph 2307.03122
+title: 2307.03122_PARA_0021
+type: text/vnd.tiddlywiki
+
+In Table (ref), each mechanism is evaluated on the candidate list generated using prompt templates shown in max-F1 column in Table (ref). However, by choosing a different set of prompts, a higher overall F1 score of 51.3% with a lower 59.9% max-F1 can be achieved by using the prob-{{2307.03122_FO0023||FO}} method. Table (ref) in Appendix gives more details. 
+This change in F1 scores shows the hardness of designing robust prompts.

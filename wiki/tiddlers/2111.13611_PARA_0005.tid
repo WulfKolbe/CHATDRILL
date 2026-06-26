@@ -1,0 +1,9 @@
+created: 20260625093527300
+modified: 20260625093527300
+page: 000
+parent_section: 2111.13611_H1
+tags: paragraph 2111.13611
+title: 2111.13611_PARA_0005
+type: text/vnd.tiddlywiki
+
+When applying RE at scale, for example, to populate or augment a knowledge base (KB), an RE system may have to process a huge number of input documents that differ widely in their coverage. As state-of-the-art extractors are based on heavy-duty neural networks [Lin:ACL2016,Zhang:EMNLP2017,Soares:ACL2019,Yao:ACL2019], processing all documents in a large corpus may be prohibitive and inefficient. Instead, prioritizing the input documents by identifying the best documents with high coverage could be effective. This is why coverage prediction is crucial for large-scale RE, but the problem has not been explored so far.

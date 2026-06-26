@@ -1,0 +1,11 @@
+caption: \forall x, y \; (\texttt{fatherOf}(y, x) \to \texttt{father}(y, x))
+created: 20260625080831231
+displayMode: false
+latex: \forall x, y \; (\texttt{fatherOf}(y, x) \to \texttt{father}(y, x))
+latex_original: \forall x, y \; (\texttt{fatherOf}(y, x) \to \texttt{father}(y, x))
+modified: 20260625080831231
+tags: formula arxiv_2308_06374
+title: arxiv_2308_06374_FO0014
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

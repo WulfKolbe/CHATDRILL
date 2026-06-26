@@ -1,0 +1,11 @@
+caption: X {\sim} \mathit{Unif}(0,1)
+created: 20260625080931152
+displayMode: false
+latex: X {\sim} \mathit{Unif}(0,1)
+latex_original: X {\sim} \mathit{Unif}(0,1)
+modified: 20260625080931152
+tags: formula arxiv_2110_13883
+title: arxiv_2110_13883_FO0348
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

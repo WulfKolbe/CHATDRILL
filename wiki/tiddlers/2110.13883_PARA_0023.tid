@@ -1,0 +1,11 @@
+created: 20260625110956922
+modified: 20260625110956922
+page: 000
+parent_section: 2110.13883_H3
+tags: paragraph 2110.13883
+title: 2110.13883_PARA_0023
+type: text/vnd.tiddlywiki
+
+where the distances measured on the subspaces, i.e. {{2110.13883_FO0061||FO}} and {{2110.13883_FO0062||FO}}, can be instantiated with any norm.
+Furthermore, it is possible to use different norms for the subspaces {{2110.13883_FO0063||FO}} and {{2110.13883_FO0064||FO}} [kraskov:04:ksg].
+In practice, both {{2110.13883_FO0065||FO}} and {{2110.13883_FO0066||FO}} are instantiated with the {{2110.13883_FO0067||FO}}-norm, and hence {{2110.13883_FO0068||FO}} reduces to the {{2110.13883_FO0069||FO}}-norm over the joint space {{2110.13883_FO0070||FO}}.

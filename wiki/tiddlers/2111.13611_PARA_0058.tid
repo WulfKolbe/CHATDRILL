@@ -1,0 +1,9 @@
+created: 20260625093527300
+modified: 20260625093527300
+page: 000
+parent_section: 2111.13611_H9
+tags: paragraph 2111.13611
+title: 2111.13611_PARA_0058
+type: text/vnd.tiddlywiki
+
+To investigate how strongly prediction depends on in-domain training data, we performed a stress test, where the train, validation and test set were split along domains (e.g., singers vs.\ entrepreneurs vs.\ politicians). Table (ref) shows the resulting F1-scores (%). For HERB, the average F1-score on the in-domain test set is {{2111.13611_FO0095||FO}}, while on the out-of-domain test set is {{2111.13611_FO0096||FO}}, i.e., there is no notable drop for the challenging domain-transfer case. We observe a minor drop for larger relations, while even increases are visible for the smallest two relations. This suggests that HERB learned generalizable features that are beneficial across domains.

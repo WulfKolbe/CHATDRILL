@@ -1,0 +1,9 @@
+created: 20260625093027647
+modified: 20260625093027647
+page: 000
+parent_section: 2411.04920_H12
+tags: paragraph 2411.04920
+title: 2411.04920_PARA_0074
+type: text/vnd.tiddlywiki
+
+The biggest challenge in our view is precision, both in terms of hallucinated entities, and triples. We do not expect that larger models alone will solve this problem, because the long tail, where hallucinations occur, would likely just be pushed farther, but remain difficult to delineate. Tuning the precision-recall tradeoff, for example, via more conservative prompts, or via thresholding based on elicited confidence values [xiongcan], might be a way forward.

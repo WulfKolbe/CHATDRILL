@@ -1,0 +1,9 @@
+created: 20260625110956922
+modified: 20260625110956922
+page: 000
+parent_section: 2110.13883_H18
+tags: paragraph 2110.13883
+title: 2110.13883_PARA_0096
+type: text/vnd.tiddlywiki
+
+For \ourmethod, we use projections with {{2110.13883_FO0383||FO}} number of dimensions, {{2110.13883_FO0384||FO}} trees, and {{2110.13883_FO0385||FO}} minimum number of points in a node to consider it for splitting. These parameters are suggested by the authors of geodesic forests [madhyastha:20:gf].

@@ -1,0 +1,17 @@
+[
+    {
+        "title": "2110.11150_REF_frankle2019lottery",
+        "text": "{{||CIT}} J. Frankle and M. Carbin. The lottery ticket hypothesis: Finding sparse, trainable neural networks. In International Conference on Learning Representations, 2019.",
+        "type": "text/markdown",
+        "tags": "reference bibentry bibtex 2110.11150",
+        "created": "20260626111149172",
+        "modified": "20260626111149172",
+        "kind": "reference",
+        "citekey": "frankle2019lottery",
+        "year": "2019",
+        "authors": "Frankle, Jonathan and Carbin, Michael",
+        "entry_type": "inproceedings",
+        "titlefield": "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks",
+        "bibtex": "@inproceedings{frankle2019lottery,\ntitle={The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks},\nauthor={Frankle, Jonathan and Carbin, Michael},\nbooktitle={International Conference on Learning Representations},\nyear={2019},\n}"
+    }
+]

@@ -1,0 +1,9 @@
+created: 20260625093341705
+modified: 20260625093341705
+page: 000
+parent_section: 2209.07250_H1
+tags: paragraph 2209.07250
+title: 2209.07250_PARA_0030
+type: text/vnd.tiddlywiki
+
+The present manuscript substantially extends a short paper by [ghosh2022answering] by a thorough analysis of the problem of count question answering. In particular, we analyse the characteristic of real count queries, and dissect the difficulty and tractability of each of the subproblems. The major extensions to the short paper are:

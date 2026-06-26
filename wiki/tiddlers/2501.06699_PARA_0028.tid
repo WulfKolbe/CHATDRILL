@@ -1,0 +1,9 @@
+created: 20260625092952539
+modified: 20260625092952539
+page: 000
+parent_section: 2501.06699_H2
+tags: paragraph 2501.06699
+title: 2501.06699_PARA_0028
+type: text/vnd.tiddlywiki
+
+\parai{Completeness} relates to the ability to return all relevant information from the base corpus. KGs are capable of returning a complete set of answers with respect to their content. SEs are also capable of generating a complete (though paginated) list of matching results from their indexes, though these may not represent a complete set of answers for a user's question. LLMs will often generate incomplete answers, even with respect to the corpus they were trained on (per Figure (ref)). For example, although music catalogs, personal websites and social media list many thousands of musicians who have covered Bob Dylan songs, it is virtually impossible to recall a near-complete list using SEs or LLMs alike. However, in the case of all three technologies, it is often unclear when results are (in)complete.

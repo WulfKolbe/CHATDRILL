@@ -1,0 +1,12 @@
+created: 20260625093242023
+modified: 20260625093242023
+page: 000
+parent_section: 2303.11082_H2
+tags: paragraph 2303.11082
+title: 2303.11082_PARA_0015
+type: text/vnd.tiddlywiki
+
+Two of the most popular benchmarks, both introduced in [bordes2013translating], are FB15k and WN18. The former contains statements for 15k extremely popular entities from Freebase, entities that already in 2013, when KBs were small, had at least 100 statements. The latter contains 41k entities from WordNet, yet these are linguistic concepts where WordNet is already the authoritative reference, and the potential for completion is small.
+DBP-5L is a popular multilingual dataset of 14k entities, yet it is collected by iterative graph neighbourhood expansion, so by design is biased towards popular (well-connected) entities. YAGO3-10 is another benchmark, that contains YAGO3 entities with at least 10 statements [dettmers2018convolutional].
+The recent CoDEx benchmark provides a much larger subset of Wikidata triples but again focuses on the more popular subjects, as even its hardest variant considers only entities with at least 5 statements [safavi2020codex]. The
+LAMA benchmark [petroni2020context] is based on the T-REx dataset, which in turn restricts the scope of subjects to those having a Wikipedia page. LAMA-UHN [poerner2020ebert] removes some surface correlations but does not remove the restriction to Wikipedia-known subjects. LM-KBC22 [singhania2022lm] provides a curated mix of popular and long-tail subjects, but not a random sample, and only a small set of 12 relations. In summary, all these benchmarks provide non-random subject sets, and by taking ground truth from existing KBs, necessarily can not evaluate a method's real KB completion potential. The PKGC work [pkgc] uses human evaluation to account for KB incompleteness, but also uses subjects from previous benchmarks focused on popular entities.

@@ -1,0 +1,14 @@
+created: 20260625080804874
+modified: 20260625080804874
+page: 000
+parent_section: arxiv_2501_06699_H1
+tags: paragraph arxiv_2501_06699
+title: arxiv_2501_06699_PARA_0016
+type: text/vnd.tiddlywiki
+
+Deployed LLMs are often invoked with prompt engineering or in-context learning in order to best shape the application inputs towards desired outputs.
+ Notable LLMs that are widely used include
+ the OpenAI family of GPT models, Google's PaLM
+ models, Huawei's PanGu series, Meta's Llama family, and more. 
+ LLM-based assistants such as Google Gemini or Bing Co-Pilot
+ are gaining popularity.

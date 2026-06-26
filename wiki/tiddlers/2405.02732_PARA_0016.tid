@@ -1,0 +1,12 @@
+created: 20260625093047341
+modified: 20260625093047341
+page: 000
+parent_section: 2405.02732_H2
+tags: paragraph 2405.02732
+title: 2405.02732_PARA_0016
+type: text/vnd.tiddlywiki
+
+\paragraph{Evidence and Factuality.}
+LLMs can be harnessed 
+to assess the factuality of statements (e.g., [DBLP:conf/emnlp/ManakulLG23,DBLP:conf/emnlp/MinKLLYKIZH23,DBLP:journals/corr/abs-2307-13528,DBLP:journals/corr/abs-2310-07521]). 
+These techniques leverage external sources, such as Wikipedia articles, which is infeasible in our setting, where the focus is on long-tail entities within long (fictional) books.

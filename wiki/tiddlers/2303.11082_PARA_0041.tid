@@ -1,0 +1,9 @@
+created: 20260625093242023
+modified: 20260625093242023
+page: 000
+parent_section: 2303.11082_H13
+tags: paragraph 2303.11082
+title: 2303.11082_PARA_0041
+type: text/vnd.tiddlywiki
+
+We found that using biased datasets lead to an overestimation of an LM's performance for fact prediction. To neither over- nor underestimate BERT's performance, we tested it on the large dataset \ourdataset{} and implemented improvements to increase BERT's performance and perform KBC with high precision later on. We have seen the model's vocabulary to be a bottleneck for its performance. When fine-tuning with vocabulary extension, the model's performance can be significantly improved for fact prediction.

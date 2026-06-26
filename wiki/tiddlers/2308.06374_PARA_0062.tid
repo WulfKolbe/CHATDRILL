@@ -1,0 +1,10 @@
+created: 20260625093119694
+modified: 20260625093119694
+page: 000
+parent_section: 2308.06374_H6
+tags: paragraph 2308.06374
+title: 2308.06374_PARA_0062
+type: text/vnd.tiddlywiki
+
+Automatic Prompt Engineer [zhou2023large] uses LLM models like InstructGPT [ouyang2022training] and instruction induction [honovich2022instruction] to generate instruction candidates which are then improved by proposing semantically similar instruction variants to achieve human-level performance.
+Zhou et al. [zhou2023large] investigate the ability of LLMs, such as GPT-3, to generate high-quality prompts for a variety of tasks.

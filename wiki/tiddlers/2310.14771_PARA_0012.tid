@@ -1,0 +1,9 @@
+created: 20260625093105364
+modified: 20260625093105364
+page: 000
+parent_section: 2310.14771_H2
+tags: paragraph 2310.14771
+title: 2310.14771_PARA_0012
+type: text/vnd.tiddlywiki
+
+For example in all of Rescal, TransE, and LAMA, the main results focus on metrics like hits@k, MRR, or AUC, which provide no bounds on precision.

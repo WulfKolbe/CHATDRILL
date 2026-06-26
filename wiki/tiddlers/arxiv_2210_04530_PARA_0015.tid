@@ -1,0 +1,9 @@
+created: 20260625080858924
+modified: 20260625080858924
+page: 000
+parent_section: arxiv_2210_04530_H4
+tags: paragraph arxiv_2210_04530
+title: arxiv_2210_04530_PARA_0015
+type: text/vnd.tiddlywiki
+
+Human associations and CSK resources contain a mix of salient but atypical assertions (lion attacks human), and typical but basic assertions (lion drinks water) [chalier2020joint]. To evaluate whether children's texts can help extract more typical assertions, we use PTLM prompting. Prompting is a standard procedure for extracting knowledge from masked-LMs [liu2021pre]. Given a relation of interest, e.g., ``LocatedAt'', one uses a generic textual pattern like ``{{arxiv_2210_04530_FO0002||FO}}entity{{arxiv_2210_04530_FO0003||FO}} can be found at [MASK]'', to obtain suggestions from an LM.

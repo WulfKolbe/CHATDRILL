@@ -1,0 +1,9 @@
+created: 20260625080858063
+modified: 20260625080858063
+page: 000
+parent_section: arxiv_2210_07763_H7
+tags: paragraph arxiv_2210_07763
+title: arxiv_2210_07763_PARA_0068
+type: text/vnd.tiddlywiki
+
+In our experiments, we use the BART model [lewis2019bart] finetuned on the MultiNLI dataset [williams-etal-2018-broad] for NLI tests\footnote{Model available at \url{https://huggingface.co/facebook/bart-large-mnli}}.

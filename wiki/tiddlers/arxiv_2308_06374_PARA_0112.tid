@@ -1,0 +1,12 @@
+created: 20260625080831231
+modified: 20260625080831231
+page: 000
+parent_section: arxiv_2308_06374_H9
+tags: paragraph arxiv_2308_06374
+title: arxiv_2308_06374_PARA_0112
+type: text/vnd.tiddlywiki
+
+Recently we have witnessed the success of models like GPT-4 [openai2023gpt4] in a multitude of NLP applications that involve multiple modalities and domain specific adaptations.
+While LLMs are often treated as generative models, they can be easily adopted in search and reasoning tasks in many tools and pipelines \footnote{E.g., \url{https://haystack.deepset.ai/}}.
+Nonetheless, as seen in the past all these specialized domains can better benefit from the inclusion of symbolic knowledge in machine methods [Alshahrani:NuroSym17].
+Here we focus on two distinct applications: (1) semantic image and video search and (2) technical document understanding.

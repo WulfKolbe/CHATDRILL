@@ -1,0 +1,11 @@
+caption: \mathit{H}
+created: 20260625095716234
+displayMode: false
+latex: \mathit{H}
+latex_original: \mathit{H}
+modified: 20260625095716234
+tags: formula 2208.09292
+title: 2208.09292_FO0078
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

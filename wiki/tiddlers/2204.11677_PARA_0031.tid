@@ -1,0 +1,11 @@
+created: 20260625093448813
+modified: 20260625093448813
+page: 000
+parent_section: 2204.11677_H1
+tags: paragraph 2204.11677
+title: 2204.11677_PARA_0031
+type: text/vnd.tiddlywiki
+
+Further, when specializing on a given source, methods often adopt source-specific design choices that do not generalize well [huang2018flowqa,guo2018dialog,christmann2019look].
+For example, representations of the conversational context, like KB subgraphs or text passages, are often specifically modeled for the knowledge repository at hand,
+making these heterogeneous sources apparently incompatible.

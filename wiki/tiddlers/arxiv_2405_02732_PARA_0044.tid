@@ -1,0 +1,12 @@
+created: 20260625080827137
+modified: 20260625080827137
+page: 000
+parent_section: arxiv_2405_02732_H9
+tags: paragraph arxiv_2405_02732
+title: arxiv_2405_02732_PARA_0044
+type: text/vnd.tiddlywiki
+
+While stage 1 needs to start the retrieval with S and P only, stage 2 has O candidates at its disposal.
+ This allows us to search the entire book for textual snippets that explicitly indicate SPO triples. For each SPO candidate, we retrieve the top-{{arxiv_2405_02732_FO0026||FO}} passages, termed the {\em support passages} for SPO.
+ Note that these are different from the support passages used by the {\em amp} method in stage 1,
+ as we now retrieve from scratch from the entire book.

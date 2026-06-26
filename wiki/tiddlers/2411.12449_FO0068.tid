@@ -1,0 +1,11 @@
+caption: s, o \in E'
+created: 20260625093007937
+displayMode: false
+latex: s, o \in E'
+latex_original: s, o \in E'
+modified: 20260625093007937
+tags: formula 2411.12449
+title: 2411.12449_FO0068
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

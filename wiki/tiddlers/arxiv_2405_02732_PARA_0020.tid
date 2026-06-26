@@ -1,0 +1,10 @@
+created: 20260625080827136
+modified: 20260625080827136
+page: 000
+parent_section: arxiv_2405_02732_H3
+tags: paragraph arxiv_2405_02732
+title: arxiv_2405_02732_PARA_0020
+type: text/vnd.tiddlywiki
+
+\item[2.] {\bf Re-ranking} passages by various criteria. We present two techniques to prioritize passages based on (i) {\bf num:} number of {\em named-entity mentions} in a passage, to leverage co-occurrences of multiple O values for the same predicate
+ (e.g., a passage about several friends), and (ii) {\bf amp:} pseudo-relevance feedback [DBLP:journals/ftir/Zhai08] to {\em amplify} signals from best passages to refine the prompt for the next round.

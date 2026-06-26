@@ -1,0 +1,17 @@
+created: 20260625092952539
+modified: 20260625092952539
+page: 000
+parent_section: 2501.06699_H1
+tags: paragraph 2501.06699
+title: 2501.06699_PARA_0021
+type: text/vnd.tiddlywiki
+
+While RAG combines paradigms for retrieving (SEs) and learning (LLMs) from unstructured data (i.e., text), another promising direction is to combine LLMs (and potentially RAG) with structured forms of data and knowledge. In this latter realm, Knowledge Graphs (KGs) have been gaining attention 
+ [DBLP:journals/csur/HoganBCdMGKGNNN21]. 
+ KGs use graph-based representations in order to structure, integrate, query and reason about diverse collections of data and knowledge. Starting with the Google Knowledge Graph in 2012, KGs have been adopted by a wide range of other companies in a variety of industries, such as Accenture, AirBnb, Amazon, Bloomberg, eBay, LinkedIn, Meta, Uber, and many more,
+ with applications like semantic search, recommendations, fraud detection, personal agents, risk assessment, etc.
+ Aside from enterprises, Open Knowledge Graphs, such as 
+ BabelNet ({\small\url{https://babelnet.org/}}) [DBLP:journals/ai/NavigliP12],
+ DBpedia ({\small\url{https://dbpedia.org/}}) [DBLP:conf/semweb/AuerBKLCI07], Wikidata ({\small\url{https://wikidata.org/}}) [DBLP:journals/cacm/VrandecicK14], 
+ and YAGO ({\small\url{https://yago-knowledge.org/}}) [DBLP:conf/www/SuchanekKW07],
+ are freely available online.

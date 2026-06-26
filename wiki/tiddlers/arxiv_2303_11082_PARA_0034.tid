@@ -1,0 +1,10 @@
+created: 20260625080853980
+modified: 20260625080853980
+page: 000
+parent_section: arxiv_2303_11082_H13
+tags: paragraph arxiv_2303_11082
+title: arxiv_2303_11082_PARA_0034
+type: text/vnd.tiddlywiki
+
+\noindent
+To investigate why BERT achieves low results, we perform a correlation analysis computing the Pearson correlation coefficient over {{arxiv_2303_11082_FO0013||FO}} in Figure (ref). We notice a negative correlation between {{arxiv_2303_11082_FO0014||FO}} and the object distribution entropy, meaning that a more uniform distribution makes the predictions harder. Furthermore, the number of unique objects is also negatively correlated with BERT's performance, i.e. fewer possible objects benefit the performance. The single valuedness, i.e. the relation-wise proportion of subject-relation pairs with only one object, shows a low but positive correlation. This indicates the performance is better on N:1 or 1:1 relations confirming the observation in [petroni]. The performance is also positively correlated with the number of objects in BERT's vocabulary, i.e. the more objects of a relation are covered by the LM's vocabulary, the better the performance. The vocabulary acts as a bottleneck, preventing the model from predicting facts.

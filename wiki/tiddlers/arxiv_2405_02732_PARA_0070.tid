@@ -1,0 +1,10 @@
+created: 20260625080827137
+modified: 20260625080827137
+page: 000
+parent_section: arxiv_2405_02732_H15
+tags: paragraph arxiv_2405_02732
+title: arxiv_2405_02732_PARA_0070
+type: text/vnd.tiddlywiki
+
+\noindent{\bf Baselines.} LLM-only methods perform poorly, even as a few-shot ensemble. Stage 1 recall saturates near 50%, 
+with AUC reaching ca. 20%.

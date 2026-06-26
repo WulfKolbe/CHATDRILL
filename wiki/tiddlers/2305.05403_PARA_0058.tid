@@ -1,0 +1,9 @@
+created: 20260625093231914
+modified: 20260625093231914
+page: 000
+parent_section: 2305.05403_H6
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0058
+type: text/vnd.tiddlywiki
+
+Completeness assertions may also be inferrable via constraints. Most notably, if a predicate is asserted to be functional, then, per subject, presence of one object indicates completeness. For example, if one birth place for Marie Curie is present, then birth places of Marie Curie are complete. Cardinality constraints, like every person has two parents, naturally extend this idea, and are in turn further extended by the cardinality assertions, which make this subject-specific.

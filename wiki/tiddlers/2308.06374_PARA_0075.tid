@@ -1,0 +1,11 @@
+created: 20260625093119694
+modified: 20260625093119694
+page: 000
+parent_section: 2308.06374_H7
+tags: paragraph 2308.06374
+title: 2308.06374_PARA_0075
+type: text/vnd.tiddlywiki
+
+Consider, for example, a rule where the relationships hasParent has been used, an LLM can be interrogated to identify whether hasParent between two entities refers more likely to the semantic meaning of being biologically descended or being owned or controlled.
+LLMs can be used to filter out candidate constraints, e.g., given their ability to mimic simple common sense reasoning, rules can be translated in the form of questions to the LLM, e.g., ``if X is child of Y is it true that the birth year of Y comes always before the birth year of X?''.
+Thus, an LLM can be used in support or replacement of a human annotator towards generated rules.

@@ -1,0 +1,9 @@
+created: 20260625080929032
+modified: 20260625080929032
+page: 000
+parent_section: arxiv_2204_11677_H4
+tags: paragraph arxiv_2204_11677
+title: arxiv_2204_11677_PARA_0097
+type: text/vnd.tiddlywiki
+
+Due to the potential dependence of a turn on multiple preceding ones, the CFG for a conversation may not strictly be a tree, but rather a directed acyclic graph (DAG).

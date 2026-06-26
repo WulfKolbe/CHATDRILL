@@ -1,0 +1,15 @@
+created: 20260625080827349
+modified: 20260625080827349
+page: 000
+parent_section: arxiv_2311_01314_H1
+tags: paragraph arxiv_2311_01314
+title: arxiv_2311_01314_PARA_0022
+type: text/vnd.tiddlywiki
+
+\vspace*{0.1cm}
+\noindent{\bf Contributions:}
+Salient contributions of this work are:
+i) a new framework, called CUP, for transformer-based recommenders that leverage 
+concise user profiles from reviews;
+ii) judicious techniques for selecting and encoding informative cues from long and noisy reviews;
+iii) comprehensive experiments with data-poor but text-rich users with highly diverse preferences.

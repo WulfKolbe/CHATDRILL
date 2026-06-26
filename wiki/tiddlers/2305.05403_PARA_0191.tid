@@ -1,0 +1,9 @@
+created: 20260625093231915
+modified: 20260625093231915
+page: 000
+parent_section: 2305.05403_H20
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0191
+type: text/vnd.tiddlywiki
+
+Wikinegata [arnaout2021wikinegata,arnaout2021negative] is a tool for browsing more than 600m negations about 0.5m Wikidata entities. It gives insights into the peer-based method [arnaout020enriching] where users can inspect different peers used to infer certain negations (see Figure (ref)). In commonsense KBs, the Uncommonsense system [arnaoutcikm2022] provide a similar experience about everyday concepts.

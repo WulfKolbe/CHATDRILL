@@ -1,0 +1,11 @@
+caption: \textsf{born in} \circ \textsf{part of} \sqsubseteq \textsf{born in}
+created: 20260625092952539
+displayMode: false
+latex: \textsf{born in} \circ \textsf{part of} \sqsubseteq \textsf{born in}
+latex_original: \textsf{born in} \circ \textsf{part of} \sqsubseteq \textsf{born in}
+modified: 20260625092952539
+tags: formula 2501.06699
+title: 2501.06699_FO0002
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

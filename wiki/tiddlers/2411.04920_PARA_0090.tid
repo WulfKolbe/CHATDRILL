@@ -1,0 +1,9 @@
+created: 20260625093027647
+modified: 20260625093027647
+page: 000
+parent_section: 2411.04920_H19
+tags: paragraph 2411.04920
+title: 2411.04920_PARA_0090
+type: text/vnd.tiddlywiki
+
+In Figure (ref), we plot the frequency of values for the year property. One can observe two things: 1) A steady increase of frequency with recency, likely mirroring the growth of web corpora over the years, which made more recent content overrepresented. 2) A sudden dropoff between 2023 (549 triples) and 2024 (75 triples), matching the self-declared knowledge cutoff of the GPT-4o-mini LLM.

@@ -1,0 +1,16 @@
+created: 20260625080831230
+modified: 20260625080831230
+page: 000
+parent_section: arxiv_2308_06374_H7
+tags: paragraph arxiv_2308_06374
+title: arxiv_2308_06374_PARA_0085
+type: text/vnd.tiddlywiki
+
+For a refinement task, usually there are quite a few existing examples in the original ontology.
+Therefore, a straightforward solution, which has been adopted by most current methods, is fine-tuning a Pre-trained Language Model such as BERT together with an attached classifier.
+One typical method is BERTSubs [chen2023contextual] which is to predict the subsumption relationship between two named concepts, or between one named concept and one complex concept. 
+It concatenates the corresponding texts of the two candidate concepts with special tokens as the input of a model composed of a pre-trained BERT and a logistic regression classifier, and fine-tunes the model with the existing subsumptions in the target ontology.
+For a named concept, the text could be either its name (label or synonym), or its name in combination with a textual description of its surrounding concepts; while for a complex concept, the text is its description (a.k.a. verbalisation). 
+Another typical work is [liu2020concept] which fine-tunes BERT and predicts the position to place in SNOMED CT for a new concept. 
+Note that there are also some language model-based methods in taxonomy curation, such as [shi2023subsumption] which fine-tunes BERT for taxonomy edge completion and GenTaxo [zeng2021enhancing] which fine-tunes a BERT variant named SciBERT for predicting positions that need new concepts. 
+They can be directly applied or easily extended to refine an ontology's concept hierarchies.

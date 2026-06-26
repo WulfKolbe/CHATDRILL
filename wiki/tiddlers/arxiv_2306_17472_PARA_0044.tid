@@ -1,0 +1,10 @@
+created: 20260625080853251
+modified: 20260625080853251
+page: 000
+parent_section: arxiv_2306_17472_H7
+tags: paragraph arxiv_2306_17472
+title: arxiv_2306_17472_PARA_0044
+type: text/vnd.tiddlywiki
+
+In the second stage, our method harnesses an LM pre-trained for entity disambiguation. Therefore, our methodology, in its current form, cannot predict objects that are not already known to that LM
+and its underlying KB.

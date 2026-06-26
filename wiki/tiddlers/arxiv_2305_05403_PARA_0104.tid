@@ -1,0 +1,9 @@
+created: 20260625080853722
+modified: 20260625080853722
+page: 000
+parent_section: arxiv_2305_05403_H12
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0104
+type: text/vnd.tiddlywiki
+
+Using Hoeffding's inequality constraint [hoeffding1994probability], a significant maximum cardinality of a class can be reliably mined for a given confidence level and a minimum likelihood threshold. The approach works top down, starting from the class going deeper into its subclasses and pruning very specific constraints for which Hoeffding's inequality would no longer hold true.

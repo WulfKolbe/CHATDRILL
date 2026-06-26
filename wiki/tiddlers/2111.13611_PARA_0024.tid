@@ -1,0 +1,10 @@
+created: 20260625093527300
+modified: 20260625093527300
+page: 000
+parent_section: 2111.13611_H3
+tags: paragraph 2111.13611
+title: 2111.13611_PARA_0024
+type: text/vnd.tiddlywiki
+
+\end{comment}
+The task thus takes the form of a classical prediction problem, either as a numerical coverage value or binarized class label. In Section (ref), we propose several heuristics and methods that can be used to predict coverage for a given document. To study this novel problem, we require evaluation data. The following section thus deals with the generation of a large and diverse document coverage dataset.

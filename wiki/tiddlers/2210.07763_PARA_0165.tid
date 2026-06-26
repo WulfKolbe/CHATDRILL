@@ -1,0 +1,9 @@
+created: 20260625093308065
+modified: 20260625093308065
+page: 000
+parent_section: 2210.07763_H23
+tags: paragraph 2210.07763
+title: 2210.07763_PARA_0165
+type: text/vnd.tiddlywiki
+
+We select the assertions for the domain country, and for each facet (food, drinks, clothing, traditions, rituals) we sample 100 assertions for crowdsourcing evaluation. Besides commonality (COM), plausibility (PLA) and distinctiveness (DIS), here we introduce one more evaluation metric, domain relevance (DOM), to measure if an assertion talks about the cultural facet of interest. Only when the DOM score

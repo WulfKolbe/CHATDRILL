@@ -1,0 +1,21 @@
+created: 20260625093156716
+modified: 20260625093156716
+page: 000
+parent_section: 2306.17472_H1
+tags: paragraph 2306.17472
+title: 2306.17472_PARA_0005
+type: text/vnd.tiddlywiki
+
+As an example, consider the late Canadian singer Lhasa de Sela.
+Wikidata solely covers basic biographic facts and selected awards,
+nothing about her music. However, text sources such as her Wikipedia article
+or other web pages provide expressive statements about her albums, songs,
+collaborations etc. For example, we would like to spot the facts that
+{{2306.17472_FO0001||FO}}Lhasa de Sela, collaboratedWith, Bratsch{{2306.17472_FO0002||FO}} and
+{{2306.17472_FO0003||FO}}Lhasa de Sela, performedSong, Anyone and Everyone{{2306.17472_FO0004||FO}}.
+Note that capturing these as SPO facts faces the challenge of
+having to capture and disambiguate multi-word names (``Lhasa de Sela'') and
+common-noun phrases (``anyone and everyone'').
+When trying to extract such statements via cloze questions or more refined prompts
+to LMs such as GPT-3 [brown2020language] or chatGPT, the outputs would often be ``Lhasa'', which is highly ambiguous,
+or ``everyone'', which is incomplete and impossible to interpret.

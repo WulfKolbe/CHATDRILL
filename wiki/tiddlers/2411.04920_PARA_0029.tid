@@ -1,0 +1,17 @@
+created: 20260625093027647
+modified: 20260625093027647
+page: 000
+parent_section: 2411.04920_H5
+tags: paragraph 2411.04920
+title: 2411.04920_PARA_0029
+type: text/vnd.tiddlywiki
+
+The classes 
+in the KB
+so far 
+do not form 
+a 
+coherent, or even 
+connected taxonomy, 
+as the knowledge elicitation process only expands named entities. 
+But we also cannot simply prompt for a complete taxonomy to put on top (e.g., following the approach by [funk2023towards]), because we need to include the existing classes.

@@ -1,0 +1,27 @@
+created: 20260625080827137
+modified: 20260625080827137
+page: 000
+parent_section: arxiv_2405_02732_H5
+tags: paragraph arxiv_2405_02732
+title: arxiv_2405_02732_PARA_0031
+type: text/vnd.tiddlywiki
+
+The {\em amp} technique works in two steps and iterates them as follows:
+ \squishlist
+ \item[1.] For each SP pair, we
+ consider the previously generated O values and the best {{arxiv_2405_02732_FO0007||FO}} support passages: those from which the LLM could extract 
+ the most objects (optionally weighted by extraction scores).
+ \item[2.] All passages in the current pool are re-ranked by the retriever's scoring model based on combining the original query (about S and P) with the selected support passages.
+ The now highest-ranking passages are then used for the next round of O extraction by prompting the LLM.
+ \squishend
+ Steps 1 and 2 are iterated in an alternating manner.
+ For scoring by the embedding-based (dense) retriever, the refined query is a convex combination of the original query embedding and the sum of the top-{{arxiv_2405_02732_FO0008||FO}} support passages' vectors: 
+ \vspace*{0.3cm}
+ \\
+ \vspace*{0.3cm}
+ {{arxiv_2405_02732_FO0009||FO}}\\
+ \noindent with 
+ embedding function 
+ {{arxiv_2405_02732_FO0010||FO}} and hyper-parameter {{arxiv_2405_02732_FO0011||FO}}. 
+ Algorithm (ref)
+ gives pseudo-code for {\em amp}.

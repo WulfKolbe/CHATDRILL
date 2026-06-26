@@ -1,0 +1,10 @@
+created: 20260625095716233
+modified: 20260625095716233
+page: 000
+parent_section: 2208.09292_H9
+tags: paragraph 2208.09292
+title: 2208.09292_PARA_0063
+type: text/vnd.tiddlywiki
+
+For all variants, {{2208.09292_FO0085||FO}} is set to 30, {{2208.09292_FO0086||FO}} to 50, {{2208.09292_FO0087||FO}} to 0.7, and {{2208.09292_FO0088||FO}} to 0.05. These hyperparameters are chosen based on a tuning task in Section (ref).
+ Moreover, we collect taxonomic siblings from WebIsALOD [webisalod] and order them using Wikipedia2Vec [wikipedia2vec]. We use SBERT [reimers-2019-sentence-bert] for sentence similarity checks and use BERT [BERT] for LM-based checks.

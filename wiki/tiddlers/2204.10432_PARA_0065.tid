@@ -1,0 +1,12 @@
+created: 20260625093505870
+modified: 20260625093505870
+page: 000
+parent_section: 2204.10432_H16
+tags: paragraph 2204.10432
+title: 2204.10432_PARA_0065
+type: text/vnd.tiddlywiki
+
+We can see in Table (ref) that prompted GPT-3 is consistently outperformed by our classifier-constrained methods, and the margin is often large. For example, among models trained on RSDD, the classifier-constrained model with CNN vectors achieves the highest F1 of 0.79 and 0.64 when tested on TRT and eRisk, respectively. GPT-3 performs worse with at least a 0.12 drop in F1. This result demonstrates that depression detection is still challenging for large few-shot learners, further highlighting our contributions of generalizable methods.
+However, we note that this setting has several limitations that prevent a completely fair comparison.
+Our methods have access to hundreds of posts, while GPT-3 has a limitation on the prompt length. In addition, prompt examples, which have high influence on the GPT-3 few-shot performance, need to be carefully selected and tuned. It is possible that we were unable to identify near-optimal prompts.
+Furthermore, it is difficult to know which posts or users should be prompted to GPT-3, so we opted to select randomly. Lifting this limitation would require a separate model to identify which posts should be used as input.

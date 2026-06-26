@@ -1,0 +1,13 @@
+created: 20260625093057256
+modified: 20260625093057256
+page: 000
+parent_section: 2311.01314_H9
+tags: paragraph 2311.01314
+title: 2311.01314_PARA_0073
+type: text/vnd.tiddlywiki
+
+We used the following hyperparameters for CUP configuration, obtained though grid search: 4e-5 as learning rate, 256 as batch size, 200 as FFN size.
+All methods were run on NVIDIA Quadro RTX 8000 GPU
+with 48 GB memory, and
+we implemented the models with PyTorch.
+\vspace{-0.3cm}

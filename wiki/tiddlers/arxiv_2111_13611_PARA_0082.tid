@@ -1,0 +1,9 @@
+created: 20260625080930847
+modified: 20260625080930847
+page: 000
+parent_section: arxiv_2111_13611_H13
+tags: paragraph arxiv_2111_13611
+title: arxiv_2111_13611_PARA_0082
+type: text/vnd.tiddlywiki
+
+We propose the following hypothesis: given that {{arxiv_2111_13611_FO0128||FO}} is asserted to have high coverage, we can conclude that any statement not mentioned in {{arxiv_2111_13611_FO0129||FO}} (like {{arxiv_2111_13611_FO0130||FO}}) is more likely false. In contrast, the low coverage of {{arxiv_2111_13611_FO0131||FO}} implies that {{arxiv_2111_13611_FO0132||FO}} is unlikely to contain all factual statements. Thus, {{arxiv_2111_13611_FO0133||FO}} not being found in {{arxiv_2111_13611_FO0134||FO}} is no indication that it could not be true.

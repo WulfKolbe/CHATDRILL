@@ -1,0 +1,9 @@
+created: 20260625093027647
+modified: 20260625093027647
+page: 000
+parent_section: 2411.04920_H13
+tags: paragraph 2411.04920
+title: 2411.04920_PARA_0079
+type: text/vnd.tiddlywiki
+
+In Table (ref), we compare GPT-4o-mini with GPT-4o and Llama 3.1 70B in terms of accuracy. All LLMs are evaluated on a similar-sized set of entities (20K). One can observe significant accuracy differences, consistent with the order of their (estimated) parameter size, and general benchmark results.

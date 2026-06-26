@@ -1,0 +1,9 @@
+created: 20260625093341705
+modified: 20260625093341705
+page: 000
+parent_section: 2209.07250_H19
+tags: paragraph 2209.07250
+title: 2209.07250_PARA_0116
+type: text/vnd.tiddlywiki
+
+In only 5% of the queries, where one SPARQL query returns the subset of the other, we find distinct relations indicating subgroups. For example ``albums'' in the query, ``how many elton john albums are there'' is interpreted as album in the first query and studio album in the second and ``mvps'' in ``how many mvps does kobe bryant have'' is interpreted as NBA Most Valuable Player Award in the first query and most valuable player award in the second.

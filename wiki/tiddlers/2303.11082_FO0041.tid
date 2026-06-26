@@ -1,0 +1,11 @@
+caption: 69\%
+created: 20260625093242024
+displayMode: false
+latex: 69\%
+latex_original: 69\%
+modified: 20260625093242024
+tags: formula 2303.11082
+title: 2303.11082_FO0041
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

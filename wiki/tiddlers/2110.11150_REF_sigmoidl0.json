@@ -1,0 +1,17 @@
+[
+    {
+        "title": "2110.11150_REF_sigmoidl0",
+        "text": "{{||CIT}} P. Savarese, H. Silva, and M. Maire. Winning the lottery with continuous sparsification. In Advances in Neural Information Processing Systems, volume 33, pages 11380--11390, 2020b.",
+        "type": "text/markdown",
+        "tags": "reference bibentry bibtex 2110.11150",
+        "created": "20260626111149173",
+        "modified": "20260626111149173",
+        "kind": "reference",
+        "citekey": "sigmoidl0",
+        "year": "2020",
+        "authors": "Savarese, Pedro and Silva, Hugo and Maire, Michael",
+        "entry_type": "inproceedings",
+        "titlefield": "Advances in Neural Information Processing Systems",
+        "bibtex": "@inproceedings{sigmoidl0,\n author = {Savarese, Pedro and Silva, Hugo and Maire, Michael},\n booktitle = {Advances in Neural Information Processing Systems},\n pages = {11380--11390},\n title = {Winning the Lottery with Continuous Sparsification},\n volume = {33},\n year = {2020}\n}"
+    }
+]

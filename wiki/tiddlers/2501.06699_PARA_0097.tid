@@ -1,0 +1,10 @@
+created: 20260625092952539
+modified: 20260625092952539
+page: 000
+parent_section: 2501.06699_H13
+tags: paragraph 2501.06699
+title: 2501.06699_PARA_0097
+type: text/vnd.tiddlywiki
+
+\parai{Search \& querying} involves extracting information from the KG relevant for a particular user or a particular task. KGs often contain text, which can be used to leverage search in a manner similar to SEs. However, the structure of KGs further permits evaluating database-style queries expressed in graph query languages, which include many features from relational databases (joins, aggregation, etc.) as well as querying arbitrary-length paths [DBLP:journals/csur/AnglesABHRV17]; for example, a regular path query such as:
+ \begin{center} \resizebox{!}{2.3ex}{

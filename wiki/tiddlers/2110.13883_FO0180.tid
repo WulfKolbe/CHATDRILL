@@ -1,0 +1,11 @@
+caption: \mathcal{O}\left(n^{-1 / \tilde{d}} \right)
+created: 20260625110956924
+displayMode: false
+latex: \mathcal{O}\left(n^{-1 / \tilde{d}} \right)
+latex_original: \mathcal{O}\left(n^{-1 / \tilde{d}} \right)
+modified: 20260625110956924
+tags: formula 2110.13883
+title: 2110.13883_FO0180
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

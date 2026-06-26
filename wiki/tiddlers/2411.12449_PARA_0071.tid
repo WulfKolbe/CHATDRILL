@@ -1,0 +1,10 @@
+created: 20260625093007936
+modified: 20260625093007936
+page: 000
+parent_section: 2411.12449_H9
+tags: paragraph 2411.12449
+title: 2411.12449_PARA_0071
+type: text/vnd.tiddlywiki
+
+KGs for Temporal QA. Temporal QA aims to generate answers for queries with time-specific constraints [saxena-etal-2021-question, mavromatis2022tempoqr]. KGs provide 
+structured and explainable information that can complement LLMs in answering questions. However, these approaches have limitations in handling evolving entity-specific temporal queries and mostly focus on temporal reasoning tasks [jia2024faithful, saxena-etal-2021-question]. Our work builds on these existing methods by introducing a novel way to incorporate entity-interactions from news streams into the QA process, thereby addressing the temporal and entity-specific challenges.

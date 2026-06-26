@@ -1,0 +1,9 @@
+created: 20260625110956922
+modified: 20260625110956922
+page: 000
+parent_section: 2110.13883_H4
+tags: paragraph 2110.13883
+title: 2110.13883_PARA_0042
+type: text/vnd.tiddlywiki
+
+In practice, this insight suggests a two-step procedure. In the first step, we aim to learn the low-dimensional manifold {{2110.13883_FO0181||FO}} from {{2110.13883_FO0182||FO}}, and in the second step, we estimate the mutual information between {{2110.13883_FO0183||FO}} and {{2110.13883_FO0184||FO}} from the distances on the learned manifold {{2110.13883_FO0185||FO}}. In the next section, we propose such an approach based on Geodesic Forests.

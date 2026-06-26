@@ -1,0 +1,11 @@
+caption: w_i = n_i / n
+created: 20260625080931152
+displayMode: false
+latex: w_i = n_i / n
+latex_original: w_i = n_i / n
+modified: 20260625080931152
+tags: formula arxiv_2110_13883
+title: arxiv_2110_13883_FO0229
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

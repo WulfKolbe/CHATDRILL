@@ -1,0 +1,10 @@
+created: 20260625093308064
+modified: 20260625093308064
+page: 000
+parent_section: 2210.07763_H1
+tags: paragraph 2210.07763
+title: 2210.07763_PARA_0022
+type: text/vnd.tiddlywiki
+
+Experimental evaluations show that the assertions in \systemname{} are of significantly higher quality than those from prior works.
+An extrinsic use case demonstrates that our CCSK can improve performance of GPT-3 in question answering.

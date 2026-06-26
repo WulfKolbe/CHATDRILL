@@ -1,0 +1,9 @@
+created: 20260625080853721
+modified: 20260625080853721
+page: 000
+parent_section: arxiv_2305_05403_H12
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0092
+type: text/vnd.tiddlywiki
+
+The most obvious way to obtain cardinality assertions from KBs would be to use aggregate queries. For example, to determine the number of children Marie Curie had, we can count the number of statements satisfying the selection condition, {{arxiv_2305_05403_FO0098||FO}},

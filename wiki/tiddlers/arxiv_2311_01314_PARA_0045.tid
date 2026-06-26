@@ -1,0 +1,15 @@
+created: 20260625080827349
+modified: 20260625080827349
+page: 000
+parent_section: arxiv_2311_01314_H6
+tags: paragraph arxiv_2311_01314
+title: arxiv_2311_01314_PARA_0045
+type: text/vnd.tiddlywiki
+
+\noindent{\bf Prediction for Ranking.}
+At test time, a prediction is made for user-item pairs.
+We encode the item description by running it through the trained network, and we compare it to the already learned user vector, which is based on the user's training-time reviews.
+The scores for different test items, computed by the final dot product, yield the ranking of the candidate items.
+This is a very efficient computation, following
+established practice in neural {IR} 
+[DBLP:series/synthesis/2021LinNY].

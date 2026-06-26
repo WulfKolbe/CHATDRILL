@@ -1,0 +1,9 @@
+created: 20260625080805467
+modified: 20260625080805467
+page: 000
+parent_section: arxiv_2411_12449_H1
+tags: paragraph arxiv_2411_12449
+title: arxiv_2411_12449_PARA_0012
+type: text/vnd.tiddlywiki
+
+These challenges are particularly acute in the news domain, where new content is generated rapidly, and producing reliable, grounded responses cannot solely depend on static, pretrained knowledge. Several studies have demonstrated that LLMs can perform well on domain-specific question answering tasks \citep[][inter alia]{NEURIPS2020_1457c0d6, kaddour2023}, including on popular news datasets. More recent approaches leverage LLMs through the retrieval-augmented generation (RAG) paradigm [realm, NEURIPS2020_6b493230, ram-etal-2023-context] to address some of the aforementioned limitations. By using trained retrievers to fetch relevant supporting documents, these methods aim to enhance the accuracy of generated responses. However, there has been relatively limited focus [ning-etal-2020-torque, si2023prompting, 10.5555/3666122.3668252] on systematically retrieving temporal text snippets for answering news-related questions.

@@ -1,0 +1,9 @@
+created: 20260625093527300
+modified: 20260625093527300
+page: 000
+parent_section: 2111.13611_H11
+tags: paragraph 2111.13611
+title: 2111.13611_PARA_0071
+type: text/vnd.tiddlywiki
+
+Relation extraction plays a pivotal role in KB construction. We show the relevance of coverage estimates for prioritizing among documents. Entities from our test dataset serve as subjects for RE. We select top {{2111.13611_FO0113||FO}} documents from the test dataset corpus by four different techniques. We compare the performance of each method by the total number of extracted RE tuples per subject and compute recall w.r.t.\ the Wikidata ground-truth.

@@ -1,0 +1,11 @@
+caption: \mathcal{G} = (E, T, R)
+created: 20260625080805467
+displayMode: false
+latex: \mathcal{G} = (E, T, R)
+latex_original: \mathcal{G} = (E, T, R)
+modified: 20260625080805467
+tags: formula arxiv_2411_12449
+title: arxiv_2411_12449_FO0001
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

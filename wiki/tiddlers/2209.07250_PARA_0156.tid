@@ -1,0 +1,9 @@
+created: 20260625093341706
+modified: 20260625093341706
+page: 000
+parent_section: 2209.07250_H32
+tags: paragraph 2209.07250
+title: 2209.07250_PARA_0156
+type: text/vnd.tiddlywiki
+
+The third query, ``how many languages are spoken in indonesia'' seems relatively simple with a popular entity ``Indonesia'', well-defined predicate ``spoken in'' and an answer type ``language'', but is a great example of high variance answers. The presence of the modifier ``estimated'' and multiple close numbers (653, 700, 709) in the CNPs highlight the fact that it may not be possible to have one true answer.

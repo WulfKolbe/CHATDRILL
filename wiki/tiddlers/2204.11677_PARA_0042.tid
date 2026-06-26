@@ -1,0 +1,10 @@
+created: 20260625093448814
+modified: 20260625093448814
+page: 000
+parent_section: 2204.11677_H1
+tags: paragraph 2204.11677
+title: 2204.11677_PARA_0042
+type: text/vnd.tiddlywiki
+
+We derive an intent-explicit structured representation (SR) that captures the complete information need. Table (ref) shows such an SR for {{2204.11677_FO0020||FO}} of our running example.
+SRs are frame-like structures for a question that contain designated slots for open-vocabulary lexical representations of entities in the conversational context (marked \textcolor{gray}{gray}) and the current question (\textcolor{red}{red}), relational predicates (\textcolor{blue}{blue}), and expected answer types (\textcolor{cyan}{cyan}).

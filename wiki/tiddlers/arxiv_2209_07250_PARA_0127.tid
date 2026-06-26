@@ -1,0 +1,11 @@
+created: 20260625080859570
+modified: 20260625080859570
+page: 000
+parent_section: arxiv_2209_07250_H24
+tags: paragraph arxiv_2209_07250
+title: arxiv_2209_07250_PARA_0127
+type: text/vnd.tiddlywiki
+
+i) CoQuAD and,
+ii) the popular general QA dataset SQuAD [rajpurkar2016squad] on different span selection thresholds in Figure (ref). Span selection works such that counts coming from spans with a model confidence above the threshold is used for aggregation. 
+As is expected, the precision goes up while the coverage decreases as the thresholds are set higher, since the model becomes more conservative on high confidence predictions. A threshold of 0.5 gives the best precision-coverage trade-off.

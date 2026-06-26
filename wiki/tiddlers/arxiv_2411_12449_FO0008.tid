@@ -1,0 +1,11 @@
+caption: R = (t,\texttt{NEI}(s, o))
+created: 20260625080805467
+displayMode: false
+latex: R = (t,\texttt{NEI}(s, o))
+latex_original: R = (t,\texttt{NEI}(s, o))
+modified: 20260625080805467
+tags: formula arxiv_2411_12449
+title: arxiv_2411_12449_FO0008
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

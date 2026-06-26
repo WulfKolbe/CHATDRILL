@@ -1,0 +1,12 @@
+created: 20260626111149172
+displayMode: true
+equation_number: 
+kind: Equation
+latex: \min_{\lambda > 0} \mathcal{L}(y, \lambda x^{(L)})
+latex_original: \min_{\lambda > 0} \mathcal{L}(y, \lambda x^{(L)})
+modified: 20260626111149172
+page: 000
+refnum: 
+tags: equation 2110.11150
+title: 2110.11150_EQ0008
+type: text/markdown

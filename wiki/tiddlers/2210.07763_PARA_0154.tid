@@ -1,0 +1,9 @@
+created: 20260625093308065
+modified: 20260625093308065
+page: 000
+parent_section: 2210.07763_H20
+tags: paragraph 2210.07763
+title: 2210.07763_PARA_0154
+type: text/vnd.tiddlywiki
+
+Based on tuning on small withheld data, we select the following values for hyperparameters and run \systemname{} on the C4 dataset with these settings.

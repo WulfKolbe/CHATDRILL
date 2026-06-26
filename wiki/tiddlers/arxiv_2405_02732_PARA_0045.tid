@@ -1,0 +1,9 @@
+created: 20260625080827137
+modified: 20260625080827137
+page: 000
+parent_section: arxiv_2405_02732_H9
+tags: paragraph arxiv_2405_02732
+title: arxiv_2405_02732_PARA_0045
+type: text/vnd.tiddlywiki
+
+To retrieve the support passages, we use the OpenAI text-embedding model to generate passage embeddings. These are compared against embeddings of the concatenated SPO strings, including SO alias names and paraphrases of P, using cosine similarity.

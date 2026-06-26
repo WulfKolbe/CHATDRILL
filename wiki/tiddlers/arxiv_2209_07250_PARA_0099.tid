@@ -1,0 +1,9 @@
+created: 20260625080859570
+modified: 20260625080859570
+page: 000
+parent_section: arxiv_2209_07250_H15
+tags: paragraph arxiv_2209_07250
+title: arxiv_2209_07250_PARA_0099
+type: text/vnd.tiddlywiki
+
+The candidate generation steps for answer inference and explanation uses two instances of a span prediction model [joshi2020SpanBERT]. The model for answer inference is trained on CoQuAD for 2 epochs, at a learning rate of {{arxiv_2209_07250_FO0032||FO}} using an Adam optimizer. An input datapoint for training consists of a query, a text segment and a text span containing the count answer (empty if no answer). We train over 3 seeds and report the average score on the test data. For getting the instances from the answer spans, we use the pre-trained SpaCy NER model\footnote{\url{https://spacy.io} on the en\_core\_web\_sm model.}. The model for answer explanation is trained on SQuAD 2.0.

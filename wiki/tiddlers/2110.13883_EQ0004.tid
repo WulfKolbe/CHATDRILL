@@ -1,0 +1,16 @@
+created: 20260625110956925
+displayMode: true
+equation_number: 
+kind: Equation
+latex: d(\ensuremath{\bm{z}}\xspace_i,\ensuremath{\bm{z}}\xspace_j)_{\max} = \max \{ d(\ensuremath{\bm{x}}\xspace_i, \ensuremath{\bm{x}}\xspace_j), d(\ensuremath{\bm{y}}\xspace_i, \ensuremath{\bm{y}}\xspace_j) \} \, ,
+latex_original: d(\zg_i,\zg_j)_{\max} = \max \{ d(\xg_i, \xg_j), d(\yg_i, \yg_j) \} \, ,
+latex_tex: d(\ensuremath{\bm{z}}\xspace_i,\ensuremath{\bm{z}}\xspace_j)_{\max} = \max \{ d(\ensuremath{\bm{x}}\xspace_i, \ensuremath{\bm{x}}\xspace_j), d(\ensuremath{\bm{y}}\xspace_i, \ensuremath{\bm{y}}\xspace_j) \} \, ,
+modified: 20260625110956925
+page: 000
+refnum: 
+score_tex: 1.0
+tags: equation 2110.13883
+title: 2110.13883_EQ0004
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode=true />

@@ -1,0 +1,11 @@
+caption: 3e^{-5}
+created: 20260625093341706
+displayMode: false
+latex: 3e^{-5}
+latex_original: 3e^{-5}
+modified: 20260625093341706
+tags: formula 2209.07250
+title: 2209.07250_FO0032
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

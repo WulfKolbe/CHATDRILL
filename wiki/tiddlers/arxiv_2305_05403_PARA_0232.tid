@@ -1,0 +1,10 @@
+created: 20260625080853723
+modified: 20260625080853723
+page: 000
+parent_section: arxiv_2305_05403_H27
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0232
+type: text/vnd.tiddlywiki
+
+Completeness and cardinality statements can be extended with information on their temporal validity. Darari et al. [darari2018completeness], for instance, introduced the notion of time-stamped completeness statements. These add a ``latest validity'' date to a completeness statement (which is typically, but not necessarily, the date of their creation). Examples are statements like ``Nobel Prize winners are complete until 2023'', or ``XYZ's publications are complete until 2018''.
+Similarly, Arnaout et al. [ARNAOUT2021100661] extended negative statements inference with a notion of temporal prefix, allowing to conclude, for instance, that unlike her 7 predecessors, the German chancellor Angela Merkel was not male.

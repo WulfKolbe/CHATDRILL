@@ -1,0 +1,9 @@
+created: 20260625093231915
+modified: 20260625093231915
+page: 000
+parent_section: 2305.05403_H18
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0176
+type: text/vnd.tiddlywiki
+
+On 200 randomly sampled concepts with their top-2 negations [arnaoutcikm2022], in a crowdsourcing task where workers are asked about the accuracy and interestingness of given negative statements, UnCommonSense achieves a precision of 75% and a salience of 50%, while NegatER achieves a similar precision of 74% but lower salience of 29%.

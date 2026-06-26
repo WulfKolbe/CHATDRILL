@@ -1,0 +1,12 @@
+created: 20260625093057255
+modified: 20260625093057255
+page: 000
+parent_section: 2311.01314_H5
+tags: paragraph 2311.01314
+title: 2311.01314_PARA_0041
+type: text/vnd.tiddlywiki
+
+The score for a user-item pair 
+is calculated by
+{{2311.01314_FO0009||FO}}
+with dot product {{2311.01314_FO0010||FO}} and sigmoid function {{2311.01314_FO0011||FO}}.

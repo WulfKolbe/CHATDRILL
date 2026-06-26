@@ -1,0 +1,16 @@
+created: 20260625110956925
+displayMode: true
+equation_number: 
+kind: Equation
+latex: \begin{aligned} P &= 5\pi + 3\pi R\,, \\ X &= \frac{P \cos(P)}{8\pi} + N_1\,,\\ Y &= \frac{P \sin(P)}{8\pi} + N_2\,,\\ Z &= \frac{P}{8\pi} + N_3 \, , \end{aligned}
+latex_original: \begin{aligned} P &= 5\pi + 3\pi R\,, \\ X &= \frac{P \cos(P)}{8\pi} + N_1\,,\\ Y &= \frac{P \sin(P)}{8\pi} + N_2\,,\\ Z &= \frac{P}{8\pi} + N_3 \, , \end{aligned}
+latex_tex: \begin{aligned} P &= 5\pi + 3\pi R\,, \\ X &= \frac{P \cos(P)}{8\pi} + N_1\,,\\ Y &= \frac{P \sin(P)}{8\pi} + N_2\,,\\ Z &= \frac{P}{8\pi} + N_3 \, , \end{aligned}
+modified: 20260625110956925
+page: 000
+refnum: 
+score_tex: 1.0
+tags: equation 2110.13883
+title: 2110.13883_EQ0017
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode=true />

@@ -1,0 +1,10 @@
+created: 20260625080929033
+modified: 20260625080929033
+page: 000
+parent_section: arxiv_2204_11677_H18
+tags: paragraph arxiv_2204_11677
+title: arxiv_2204_11677_PARA_0232
+type: text/vnd.tiddlywiki
+
+There has also been work on combining text and tables [chen2020hybridqa, chen2020open, zhu2021tat], or text, tables and images [talmor2021multimodalqa, hannan2020manymodalqa] for answering full-fledged questions.
+However, these approaches cannot easily be extended to a conversational setting with incomplete follow-up questions.

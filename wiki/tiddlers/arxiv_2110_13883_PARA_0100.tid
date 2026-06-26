@@ -1,0 +1,9 @@
+created: 20260625080931151
+modified: 20260625080931151
+page: 000
+parent_section: arxiv_2110_13883_H19
+tags: paragraph arxiv_2110_13883
+title: arxiv_2110_13883_PARA_0100
+type: text/vnd.tiddlywiki
+
+We provide a time comparison of all methods in Fig. (ref) for 10 repetitions. We observe that \ourmethod only takes {{arxiv_2110_13883_FO0389||FO}} times longer thank \ksg, independent of number of samples.

@@ -1,0 +1,9 @@
+created: 20260625080853721
+modified: 20260625080853721
+page: 000
+parent_section: arxiv_2305_05403_H8
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0071
+type: text/vnd.tiddlywiki
+
+target KBs where entities are not added dynamically. In such KBs, there is no sampling process from the real world. One way to obtain a lower bound for the true population size is to use Benford's Law [benford1938law]. Benford's Law says that in many real-world sets of numerical data, the

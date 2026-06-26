@@ -1,0 +1,16 @@
+created: 20260625092952539
+modified: 20260625092952539
+page: 000
+parent_section: 2501.06699_H9
+tags: paragraph 2501.06699
+title: 2501.06699_PARA_0071
+type: text/vnd.tiddlywiki
+
+SEs offer the broadest and freshest coverage and can provide precise results with tangible evidence, sometimes even for the long tail. However, SEs by themselves are inherently unable to integrate or synthesize results from multiple sources. 
+ KGs can reason over multitudinous facts and synthesize results derived from multiple sources in a precise, transparent and deterministic manner.
+ However, due to their quality standards and curation process, they have generally 
+ weaker coverage and freshness, and often lack the nuance and diversity captured by natural language collections. 
+ LLMs fall between SEs and KGs in terms of coverage and freshness,
+ and can also synthesize nuanced results from multiple sources.
+ However, they tend to 
+ perform poorly on long-tail topics, and are prone to imprecise or invalid outputs, lack of transparency and non-determinism.

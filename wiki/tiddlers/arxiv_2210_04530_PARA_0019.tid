@@ -1,0 +1,9 @@
+created: 20260625080858924
+modified: 20260625080858924
+page: 000
+parent_section: arxiv_2210_04530_H5
+tags: paragraph arxiv_2210_04530
+title: arxiv_2210_04530_PARA_0019
+type: text/vnd.tiddlywiki
+
+We next evaluate whether pre-training on children texts helps in two PTLM-based methods for CSK generation: (i) via prompting from a LM pretrained on those corpora (LAMA method) [petroni2019language], and (ii) via supervised learning, based on a LM fine-tuned on those corpora (COMET method) [hwang2020comet].

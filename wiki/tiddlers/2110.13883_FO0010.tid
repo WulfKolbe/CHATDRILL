@@ -1,0 +1,11 @@
+caption: \hat{h}(\ensuremath{\bm{X}}\xspace) = - \frac{1}{n} \sum_{i=1}^n \log \hat{f}_{\ensuremath{\bm{X}}\xspace}(\ensuremath{\bm{x}}\xspace_i)
+created: 20260625110956923
+displayMode: false
+latex: \hat{h}(\ensuremath{\bm{X}}\xspace) = - \frac{1}{n} \sum_{i=1}^n \log \hat{f}_{\ensuremath{\bm{X}}\xspace}(\ensuremath{\bm{x}}\xspace_i)
+latex_original: \hat{h}(\Xg) = - \frac{1}{n} \sum_{i=1}^n \log \hat{f}_{\Xg}(\xg_i)
+modified: 20260625110956923
+tags: formula 2110.13883
+title: 2110.13883_FO0010
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

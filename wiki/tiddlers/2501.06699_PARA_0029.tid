@@ -1,0 +1,10 @@
+created: 20260625092952539
+modified: 20260625092952539
+page: 000
+parent_section: 2501.06699_H2
+tags: paragraph 2501.06699
+title: 2501.06699_PARA_0029
+type: text/vnd.tiddlywiki
+
+\parai{Freshness} captures the degree to which the information returned is up-to-date. LLMs are costly to train and are only re-computed and released occasionally, limiting their usefulness when fresh data is needed about current events [DBLP:journals/corr/abs-2310-03214]. Furthermore, more recent events generally have less online content with which to train LLMs, further deepening the ``cold start'' problem. 
+ SEs have update policies that prioritize news feeds and social media; so this content is captured in near-real-time. Finally, KGs can be continuously updated, and out-of-date information can be explicitly deprecated. KGs can be equally up-to-date or more up-to-date than natural language sources when tapping into live structured data streams for events, relating for example to finance, lotteries, sports, weather, etc. However, where such streams are not available, or not used, the quality standards imposed by KGs may require additional curation, verification or expertise that creates an update lag versus other sources. For example, while the Wikidata KG has tens of thousands of users active in the past month, this pales in comparison to the number of users posting about current events on social media, meaning that Wikidata can lag behind, particularly for long-tail events.

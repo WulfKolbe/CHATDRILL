@@ -1,0 +1,16 @@
+created: 20260625092952539
+modified: 20260625092952539
+page: 000
+parent_section: 2501.06699_H4
+tags: paragraph 2501.06699
+title: 2501.06699_PARA_0051
+type: text/vnd.tiddlywiki
+
+The idea of combining LLMs with other technologies is not new.
+ Most notably, KGs have been leveraged by SEs for entity-centric queries, and recent LLMs are coupled with SE techniques for
+ RAG.
+ This is not a complete picture, though, and still
+ far from the full potential of cross-technology synergies.
+ Figure (ref) depicts a Venn diagram that 
+ highlights major directions towards potential synergies.
+ The following subsections discuss pairwise combinations first, and then provide ideas on three-way integration.

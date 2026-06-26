@@ -1,0 +1,9 @@
+created: 20260625080931150
+modified: 20260625080931150
+page: 000
+parent_section: arxiv_2110_13883_H17
+tags: paragraph arxiv_2110_13883
+title: arxiv_2110_13883_PARA_0083
+type: text/vnd.tiddlywiki
+
+In the following, we will first briefly recap the derivation of the ground truth of the mutual information for the linear uniform scenario and then explain the data generation, as well as, the derivation of the lower bounds for the ground truth for the Helix and Sphere data.

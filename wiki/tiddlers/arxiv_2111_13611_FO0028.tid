@@ -1,0 +1,11 @@
+caption: \mathrm{coverage}_{extr}(d,e,r)
+created: 20260625080930847
+displayMode: false
+latex: \mathrm{coverage}_{extr}(d,e,r)
+latex_original: \mathrm{coverage}_{extr}(d,e,r)
+modified: 20260625080930847
+tags: formula arxiv_2111_13611
+title: arxiv_2111_13611_FO0028
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

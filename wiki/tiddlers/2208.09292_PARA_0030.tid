@@ -1,0 +1,9 @@
+created: 20260625095716233
+modified: 20260625095716233
+page: 000
+parent_section: 2208.09292_H5
+tags: paragraph 2208.09292
+title: 2208.09292_PARA_0030
+type: text/vnd.tiddlywiki
+
+To produce a set of candidate negations, we query from the KB the set of positives about s as well as positives about its siblings. We subtract both sets to produce an initial set of candidates {{2208.09292_FO0009||FO}}:

@@ -1,0 +1,11 @@
+caption: I(\ensuremath{\tilde{\bm{X}}}\xspace;\ensuremath{\tilde{\bm{Y}}}\xspace)
+created: 20260625080931151
+displayMode: false
+latex: I(\ensuremath{\tilde{\bm{X}}}\xspace;\ensuremath{\tilde{\bm{Y}}}\xspace)
+latex_original: I(\Xt;\Yt)
+modified: 20260625080931151
+tags: formula arxiv_2110_13883
+title: arxiv_2110_13883_FO0119
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

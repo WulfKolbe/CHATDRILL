@@ -1,0 +1,10 @@
+created: 20260625080930846
+modified: 20260625080930846
+page: 000
+parent_section: arxiv_2111_13611_H2
+tags: paragraph arxiv_2111_13611
+title: arxiv_2111_13611_PARA_0019
+type: text/vnd.tiddlywiki
+
+Understanding and incorporating document coverage prediction into NLP-based information extraction is essential for several reasons.
+For resource-bounded KB construction, it is crucial to know which documents are most promising for extraction with limited budgets for crawling and RE processing and/or human annotation [ipeirotis-text-query-optimizer, wang2019midas]. For claim refutation, coverage estimates can help to assess statements as questionable if documents with high coverage do not support them. So far, claim evaluation systems mostly rely on textual cues about factuality or source credibility [Nakashole:ACL2014,Rashkin:EMNLP2017, Thorne:NAACL2018,Chen:NAACL2019].

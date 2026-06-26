@@ -1,0 +1,10 @@
+created: 20260625080929321
+modified: 20260625080929321
+page: 000
+parent_section: arxiv_2204_10432_H22
+tags: paragraph arxiv_2204_10432
+title: arxiv_2204_10432_PARA_0079
+type: text/vnd.tiddlywiki
+
+This section describes the data creation process for the questionnaire models, which consists of 9 symptom classifiers corresponding to 9 questions in the PHQ9 instrument (e.g., ``trouble falling or staying asleep?''). PHQ9 questions ask how often the patient experienced each symptom; we adapt this approach to our domain by classifying whether a given post contains a symptom.
+Given the lack of training data for this task, we collected regular expression patterns and used these patterns together with heuristics to construct training data (positive class and negative class) for each symptom.

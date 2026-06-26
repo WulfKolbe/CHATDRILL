@@ -1,0 +1,20 @@
+created: 20260625080804874
+modified: 20260625080804874
+page: 000
+parent_section: arxiv_2501_06699_H6
+tags: paragraph arxiv_2501_06699
+title: arxiv_2501_06699_PARA_0058
+type: text/vnd.tiddlywiki
+
+Major search engines have 
+ deployed
+ semantic search functionalities
+ by means of their back-end KGs, which allow for answering entity-centric queries with 
+ KG excerpts, sometimes called ``knowledge panels'' or ``knowledge cards''. For example, a keyword query ``Manuel Blum'' or ``Blum CMU'' may return the KG entity along with notable facts. 
+ Though SEs are increasingly leveraging KGs in order to improve search results, with Google's Knowledge Graph being a prominent example, there is much more that can be done in this space. For example, the results for multi-hop requests like ``Turing Award winners who work at US universities'' on modern SEs may return some relevant or prominent examples of entities, but the list will be patchy in comparison with what could be found via a structured query over a KG such as Wikidata.
+ Similar observations can be made about aggregation queries, such as ``number of Turing Award winners from Europe'', with better answers available via KGs than SEs.
+ Limitations in SE results can also be found in requests that feature both facts and text from webpages.
+ Consider the dynamic, multi-hop query
+ ``today's news stories about EU heads of government''. Current SEs return documents that contain ``EU'', ``European'', ``leaders'', but miss results about heads of government where those keywords are missing. 
+ Such results could be improved by interpreting ``EU heads of government'' as a type and asking the KG to enumerate 
+ instances of this type, that is, relevant politicians for which news stories can then be retrieved.

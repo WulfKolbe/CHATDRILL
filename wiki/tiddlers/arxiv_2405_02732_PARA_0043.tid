@@ -1,0 +1,10 @@
+created: 20260625080827137
+modified: 20260625080827137
+page: 000
+parent_section: arxiv_2405_02732_H8
+tags: paragraph arxiv_2405_02732
+title: arxiv_2405_02732_PARA_0043
+type: text/vnd.tiddlywiki
+
+\noindent where {{arxiv_2405_02732_FO0022||FO}} is an indicator variable set to 1 if O occurs in the output list {{arxiv_2405_02732_FO0023||FO}} for the i{{arxiv_2405_02732_FO0024||FO}} batch of passages, and zero otherwise. {{arxiv_2405_02732_FO0025||FO}} is the log probability.
+ This scoring serves as a simple baseline for pruning doubtful O values.

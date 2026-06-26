@@ -1,0 +1,11 @@
+caption: \rho > 0.5
+created: 20260625093505870
+displayMode: false
+latex: \rho > 0.5
+latex_original: \rho > 0.5
+modified: 20260625093505870
+tags: formula 2204.10432
+title: 2204.10432_FO0022
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

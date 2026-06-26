@@ -1,0 +1,12 @@
+created: 20260625093448815
+modified: 20260625093448815
+page: 000
+parent_section: 2204.11677_H15
+tags: paragraph 2204.11677
+title: 2204.11677_PARA_0184
+type: text/vnd.tiddlywiki
+
+McNemar's test was performed for binary variables like P@1, and the paired {{2204.11677_FO0112||FO}}-test otherwise, with {{2204.11677_FO0113||FO}}.
+All results are reported on the test set, except the ablation study, that was naturally conducted on the dev set.
+If not stated otherwise, we make use of gold answers for the previous turns in the conversation.
+For example, for answering {{2204.11677_FO0114||FO}} we assume gold answers {{2204.11677_FO0115||FO}}-{{2204.11677_FO0116||FO}} to be known.

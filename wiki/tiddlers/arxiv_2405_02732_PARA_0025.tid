@@ -1,0 +1,16 @@
+created: 20260625080827137
+modified: 20260625080827137
+page: 000
+parent_section: arxiv_2405_02732_H4
+tags: paragraph arxiv_2405_02732
+title: arxiv_2405_02732_PARA_0025
+type: text/vnd.tiddlywiki
+
+Long texts, like entire books, are chunked into short 
+ passages of 15 sentences, totaling up to 1000 characters. 
+ We construct all overlapping passages (i.e., sharing sentences), to
+ ensure that sentences with co-references stay implicitly connected to named entities in their proximity. 
+ Since books contain long pieces of direct speech, which may not mention all speakers' names explicitly, we further enrich each passage with {\em mentions of people and locations} from the {\em preceding}
+ 10 passages
+ by default. This metadata annotation ensures that useful named entity information from prior chunks is available within the current passage.
+ All person-person relations and the placeHasPerson relation can potentially benefit from this form of contextualization.

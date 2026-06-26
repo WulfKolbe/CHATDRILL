@@ -1,0 +1,18 @@
+created: 20260625095716233
+modified: 20260625095716233
+page: 000
+parent_section: 2208.09292_H1
+tags: paragraph 2208.09292
+title: 2208.09292_PARA_0010
+type: text/vnd.tiddlywiki
+
+\noindent
+Motivation. Commonsense knowledge (CSK) is crucial for robust AI applications such as question answering and chatbots. The purpose is to enrich machine knowledge with properties about everyday concepts (e.g., gorilla, pancake, newspaper). Such statements are acquired, organized and stored in structured knowledge bases (KBs) [Pan2016,DBLP:series/synthesis/2021Hogan,DBLP:journals/ftdb/WeikumDRS21]. 
+Large commonsense KBs (CSKBs) include ConceptNet [conceptnet], WebChild [webchild], 
+ATOMIC [atomic], 
+TransOMCS [DBLP:conf/ijcai/ZhangKSR20],
+and Ascent [ascent]. 
+These projects are almost exclusively focused on positive statements such as gorillas are mammals, black, and live in forests, expressed in the form of subject-relation-object triples, e.g., (gorilla, AtLocation, forest). This allows QA systems, for instance, to answer ``Where do gorillas live?''. 
+On the other hand, CSKBs hardly capture any negative statements
+such as ``gorillas are not territorial'' or ``gorillas are not carnivorous''. 
+By the Open-world Assumption (OWA) underlying most KBs, one cannot assume that an absent statement is invalid [FHPPW2006]; instead, its truth is simply unknown. While KB completion [WPKD2020,DPWQ+2019,Malaviya_Bhagavatula_Bosselut_Choi_2020] is an active research area, creating an ideal KB that fully represents real-world knowledge is elusive, especially for the case of commonsense assertions [DBLP:journals/ftdb/WeikumDRS21]. Therefore, QA over KBs cannot answer ``Are gorillas territorial?''.

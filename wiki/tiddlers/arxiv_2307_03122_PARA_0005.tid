@@ -1,0 +1,10 @@
+created: 20260625080847348
+modified: 20260625080847348
+page: 000
+parent_section: arxiv_2307_03122_H1
+tags: paragraph arxiv_2307_03122
+title: arxiv_2307_03122_PARA_0005
+type: text/vnd.tiddlywiki
+
+We probe LMs using existing prompting techniques and introduce new relation-specific prompts. The generated object lists are evaluated by their order, and our manual prompts result in higher-quality lists than the state-of-the-art automated methods. Our prompts outperform the best baseline, SoftPrompts, by ca. 5% points on the three most challenging relations (parts of chemical compounds, official languages of countries, instruments of musicians), while being competitive on the other four relations. While evaluating the output of selection mechanisms, our best approach achieves 54.1% precision, 50.8% recall, and 49.5% F1 score.
+These trends in scores demonstrate the difficulty of extracting complete knowledge from internal LMs representations.

@@ -1,0 +1,11 @@
+caption: h(Y_2 \mid Y_3' ) \ge h(Y_2\mid X_1,X_2, Y_3' )
+created: 20260625080931152
+displayMode: false
+latex: h(Y_2 \mid Y_3' ) \ge h(Y_2\mid X_1,X_2, Y_3' )
+latex_original: h(Y_2 \mid Y_3' ) \ge h(Y_2\mid X_1,X_2, Y_3' )
+modified: 20260625080931152
+tags: formula arxiv_2110_13883
+title: arxiv_2110_13883_FO0380
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

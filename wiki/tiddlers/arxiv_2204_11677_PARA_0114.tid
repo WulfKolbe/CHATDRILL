@@ -1,0 +1,15 @@
+created: 20260625080929032
+modified: 20260625080929032
+page: 000
+parent_section: arxiv_2204_11677_H5
+tags: paragraph arxiv_2204_11677
+title: arxiv_2204_11677_PARA_0114
+type: text/vnd.tiddlywiki
+
+We keep such {{arxiv_2204_11677_FO0058||FO}}entity mention, KB-item{{arxiv_2204_11677_FO0059||FO}} pairs for all evidences in memory, 
+as 
+this helps us later in grounding answers to the KB during evaluation (Sec. (ref)).
+For example, for the text evidence in Table (ref),
+\phrase{Tyrion} might link to the Wikipedia page of \struct{Tyrion Lannister}: so we add the pair
+{{arxiv_2204_11677_FO0060||FO}}\phrase{Tyrion}, \struct{Tyrion Lannister}{{arxiv_2204_11677_FO0061||FO}}
+as metadata to the corresponding evidence.

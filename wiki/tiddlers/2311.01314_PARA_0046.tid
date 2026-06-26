@@ -1,0 +1,29 @@
+created: 20260625093057255
+modified: 20260625093057255
+page: 000
+parent_section: 2311.01314_H6
+tags: paragraph 2311.01314
+title: 2311.01314_PARA_0046
+type: text/vnd.tiddlywiki
+
+\noindent{\bf Search-based Recommendation.}
+In a deployed system (as opposed to lab experiments with test samples), a typical usage mode would be
+search-based re-ranking: a user 
+provides context with a 
+keyphrase query or an example of a specific liked item,
+which can be thought of as query-by-example. 
+The user's expectation
+is to see a ranked list of recommended items that are similar to 
+her {search intent} 
+(as opposed to recommendations from all kinds of categories).
+The system achieves this by first computing 
+approximate matches 
+to the query 
+(i.e., similarity-search neighbors), and then
+re-ranking a shortlist of say top-100
+candidates.
+The CUP framework supports this mode, by using a
+light-weight BM25 retrieval model. 
+To evaluate the model in this mode without ground truth query-user-item triples, we search over all unlabeled items
+with the category and textual description of the positive {test} point at hand, and keeping the 
+top-100 highest scoring matches.

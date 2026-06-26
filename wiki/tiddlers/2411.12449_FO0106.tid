@@ -1,0 +1,11 @@
+caption: q' = \texttt{REFORM}(t_q, q)
+created: 20260625093007937
+displayMode: false
+latex: q' = \texttt{REFORM}(t_q, q)
+latex_original: q' = \texttt{REFORM}(t_q, q)
+modified: 20260625093007937
+tags: formula 2411.12449
+title: 2411.12449_FO0106
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

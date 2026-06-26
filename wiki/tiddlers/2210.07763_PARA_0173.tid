@@ -1,0 +1,9 @@
+created: 20260625093308065
+modified: 20260625093308065
+page: 000
+parent_section: 2210.07763_H25
+tags: paragraph 2210.07763
+title: 2210.07763_PARA_0173
+type: text/vnd.tiddlywiki
+
+We query the davinci-002 model with zero temperature and maximum length of 16 tokens. Answers are then manually mapped to the respective options. Example prompts are shown in Fig. (ref).

@@ -1,0 +1,9 @@
+created: 20260625093527300
+modified: 20260625093527300
+page: 000
+parent_section: 2111.13611_H8
+tags: paragraph 2111.13611
+title: 2111.13611_PARA_0057
+type: text/vnd.tiddlywiki
+
+Finally, we compare the results against human performance on identifying high-coverage documents. For each relation, {{2111.13611_FO0092||FO}} randomly sampled test documents were labeled as informative or uninformative for RE solely by reading the document. Averaged over all relations, humans obtained an F1 score of {{2111.13611_FO0093||FO}}, compared to HERB predictions reaching an average F1 of {{2111.13611_FO0094||FO}}, and all baselines were significantly inferior. The large gap between humans and learned predictors shows the hardness of the coverage prediction task and underlines the need for the presented research.

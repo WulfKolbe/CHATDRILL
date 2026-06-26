@@ -1,0 +1,10 @@
+created: 20260625080831230
+modified: 20260625080831230
+page: 000
+parent_section: arxiv_2308_06374_H7
+tags: paragraph arxiv_2308_06374
+title: arxiv_2308_06374_PARA_0086
+type: text/vnd.tiddlywiki
+
+Exploiting LLMs is a promising direction for ontology refinement, but it still needs much effort before they become practical tools. DeepOnto [he2023deeponto], which is a Python-based package that can support quite a few ontology engineering tasks, has already included some tools for ontology refinement and alignment using LLMs, but more development is needed to make it more accessible and to support generative LLMs like LLaMA and GPT-4.
+One obvious challenge is that those very recent generative LLMs have been rarely explored for ontology engineering. However, we think the following two research challenges are more fundamental:

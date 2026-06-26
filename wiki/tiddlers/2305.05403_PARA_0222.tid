@@ -1,0 +1,9 @@
+created: 20260625093231915
+modified: 20260625093231915
+page: 000
+parent_section: 2305.05403_H24
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0222
+type: text/vnd.tiddlywiki
+
+[razniewski2020structured] analyzes how KB utility has changed over time. The authors select questions from three search engine logs (AOL, Google, Bing queries), then use human annotation to find out the earliest time at which a KB (Wikidata and DBpedia) could answer these questions. For example, the question ``Where is Italian Job filmed?'' can be answered by Wikidata since October 15, 2015, when the property filming location on the entity Italian Job was added. Plotting the number of answerable queries over time turns out to show a steady increase for the time period from 2003 to 2020, with only minor slowing in recent years.

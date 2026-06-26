@@ -1,0 +1,11 @@
+caption: h^{(l)}_i = \sum_j w^{(l)}_{ij} x^{(l-1)}_j + b^{(l)}_i
+created: 20260626094813421
+displayMode: false
+latex: h^{(l)}_i = \sum_j w^{(l)}_{ij} x^{(l-1)}_j + b^{(l)}_i
+latex_original: h^{(l)}_i = \sum_j w^{(l)}_{ij} x^{(l-1)}_j + b^{(l)}_i
+modified: 20260626094813421
+tags: formula 2110.11150
+title: 2110.11150_FO0209
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

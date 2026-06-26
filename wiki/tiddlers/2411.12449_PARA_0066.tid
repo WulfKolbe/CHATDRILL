@@ -1,0 +1,9 @@
+created: 20260625093007936
+modified: 20260625093007936
+page: 000
+parent_section: 2411.12449_H8
+tags: paragraph 2411.12449
+title: 2411.12449_PARA_0066
+type: text/vnd.tiddlywiki
+
+\noindent Deviations from rating instructions. We observed that LLMs do not always adhere to the provided evaluation instructions. Despite the prompt clearly outlining the criteria for each 3-point Likert rating, the model occasionally generated ratings outside the intended range along with reasons for such ratings. We noticed a response that was assigned a rating of 3 when the model described it as somewhat relevant and responses with ratings of 5 and 9 when they were deemed fully reliable and relevant (ex.3 in Table (ref)).

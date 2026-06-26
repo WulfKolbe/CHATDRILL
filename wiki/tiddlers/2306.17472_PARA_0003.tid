@@ -1,0 +1,21 @@
+created: 20260625093156716
+modified: 20260625093156716
+page: 000
+parent_section: 2306.17472_H1
+tags: paragraph 2306.17472
+title: 2306.17472_PARA_0003
+type: text/vnd.tiddlywiki
+
+Knowledge base completion (KBC) is crucial
+to continuously enhance the scope and scale of large
+knowledge graphs (KGs). It is often cast into a link prediction
+task: infer an O(bject) argument for a given S(ubject)-P(redicate) pair.
+However, the task is focused on the KG itself as the only input,
+and thus largely bound to predict SPO facts that are also derivable by simple logical rules for inverse predicates, transitive predicates etc.
+[DBLP:conf/sigmod/AkramiSZHL20,DBLP:conf/acl/SunVSTY20]. To obtain truly new facts, more recent methods tap into
+large language models (LMs) that are learned from huge text collections,
+including all Wikipedia articles, news articles and more.
+The most promising approaches to this end generate cloze questions
+for knowledge acquisition and ask LMs to generate answers [petroni2019language].
+The LM input is often augmented with carefully crafted short prompts 
+(e.g., a relevant Wikipedia paragraph) [shin2020autoprompt,jiang2020can,DBLP:conf/naacl/QinE21].

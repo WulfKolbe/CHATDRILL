@@ -1,0 +1,10 @@
+created: 20260625093448814
+modified: 20260625093448814
+page: 000
+parent_section: 2204.11677_H2
+tags: paragraph 2204.11677
+title: 2204.11677_PARA_0065
+type: text/vnd.tiddlywiki
+
+\myparagraph{Knowledge base} A knowledge base is a set of facts, where each fact is 
+a \struct{<subject, predicate, object>} (SPO) triple, optionally augmented by \struct{<qualifier predicate, qualifier object>} pairs which specify additional information for the main triple (e.g. <\struct{Game of Thrones, cast member, Nikolaj Coster-Waldau; character role, Jaime Lannister}>). Subjects are entities (\struct{Game of Thrones)}, while objects can be entities, types (\struct{human}) or literals (constants such as numbers with or without units, dates like \struct{11 June 1969}, etc.). Predicates (\struct{cast member}) denote relationships.

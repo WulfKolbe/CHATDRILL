@@ -1,0 +1,16 @@
+created: 20260625093156716
+modified: 20260625093156716
+page: 000
+parent_section: 2306.17472_H10
+tags: paragraph 2306.17472
+title: 2306.17472_PARA_0052
+type: text/vnd.tiddlywiki
+
+In this context-free experiment, we aim to answer whether LMs can generate facts and various models are evaluated on MALT.
+The experimental results are shown in Table (ref). 
+We first observe all models perform poorly on MALT-Wikidata because it contains a large number of multi-token and long-tail entities. 
+Left-to-Right and Masked LMs have difficulties in dealing with these facts, even with the introduction of multi-token decoding.
+Moreover, we observe that GENRE outperforms other baselines consistently and this confirms the feasibility of the usage of LMED-as-LM. 
+Overall, a single query does not retrieve facts from LMs very effectively, and the reasons are twofold: 1) the capacity of LMs
+for storing world knowledge is limited by model size, i.e., LMs with tens or hundreds of billions of parameters can memorize all facts in Wikidata [heinzerling2021language]; 
+2) proper prompts are needed for a better recall, e.g., by additional information or prompt engineering.

@@ -1,0 +1,10 @@
+created: 20260625093505870
+modified: 20260625093505870
+page: 000
+parent_section: 2204.10432_H16
+tags: paragraph 2204.10432
+title: 2204.10432_PARA_0064
+type: text/vnd.tiddlywiki
+
+Recent work has demonstrated that GPT-3 is a strong few-shot learner [NEURIPS2020_1457c0d6]. Herein, we are interested in how well our classifier-constrained methods compare to the GPT-3 with prompted examples. 
+We prompt GPT-3 with four examples for each (positive, negative) class from one dataset (e.g., TRT) and evaluate on other datasets (e.g., RSDD, eRisk). Due to the high computational cost of GPT-3, we only evaluate on {{2204.10432_FO0023||FO}} positive samples and {{2204.10432_FO0024||FO}} negative samples from each dataset.

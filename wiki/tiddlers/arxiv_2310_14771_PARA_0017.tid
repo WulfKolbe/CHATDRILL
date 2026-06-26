@@ -1,0 +1,11 @@
+created: 20260625080830877
+modified: 20260625080830877
+page: 000
+parent_section: arxiv_2310_14771_H3
+tags: paragraph arxiv_2310_14771
+title: arxiv_2310_14771_PARA_0017
+type: text/vnd.tiddlywiki
+
+We consider the 41 relations from the LAMA paper [petroni].
+For automated evaluation and threshold finding, we employ the \wdknown{} dataset [veseli2023evaluating]. Unlike other KBC datasets, this one contains truly long-tail entities, by randomly sampling from Wikidata, a total of 4 million statements for 3 million subjects in 41 relations [petroni]. 
+Besides this dataset for automated evaluation, for the main results, we use manual evaluation on Wikidata entities that do not yet have the relations of interest. For this purpose, for each relation, we manually define a set of relevant subject types (e.g., software for developedBy), that allows us to query for subjects that miss a property.

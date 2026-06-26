@@ -1,0 +1,12 @@
+created: 20260625080853722
+modified: 20260625080853722
+page: 000
+parent_section: arxiv_2305_05403_H19
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0185
+type: text/vnd.tiddlywiki
+
+\begin{example}
+``The discovery of uranium is credited to Marie Curie'' is updated to ``The discovery of uranium is credited to Martin Heinrich Klaproth'' where the entity Marie Curie is replaced with Martin Heinrich Klaproth. The former is then considered a common mistake, i.e., an interesting negative statement.
+\end{example}
+To decide whether an update must be labeled as common factual mistake or one of the other categories, a number of heuristics are applied. These include (i) checking how often is sentence is being updated (to exclude controversial topics where different editors have different opinions); (ii) computing the edit distance between the entities (to exclude spelling corrections).

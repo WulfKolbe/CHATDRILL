@@ -1,0 +1,11 @@
+caption: \ensuremath{\mathit{cs}}\xspace
+created: 20260625110956924
+displayMode: false
+latex: \ensuremath{\mathit{cs}}\xspace
+latex_original: \CS
+modified: 20260625110956924
+tags: formula 2110.13883
+title: 2110.13883_FO0245
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

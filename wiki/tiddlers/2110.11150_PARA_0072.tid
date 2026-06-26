@@ -1,0 +1,10 @@
+created: 20260626094813420
+modified: 20260626094813420
+page: 000
+parent_section: 2110.11150_H20
+tags: paragraph 2110.11150
+title: 2110.11150_PARA_0072
+type: text/vnd.tiddlywiki
+
+This gives us the expected signal norm of an arbitrary layer conditioned on the previous layer. 
+We can use this relationship to also compute the average squared signal norm of the output layer, which is

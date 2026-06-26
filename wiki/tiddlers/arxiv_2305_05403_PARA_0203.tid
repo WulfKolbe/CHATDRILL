@@ -1,0 +1,11 @@
+created: 20260625080853722
+modified: 20260625080853722
+page: 000
+parent_section: arxiv_2305_05403_H22
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0203
+type: text/vnd.tiddlywiki
+
+Property ranking for relative recall assessment has thus been advanced in several ways: In [razniewski2017doctoral], text-based predictive models are proposed, which are trained on Wikipedia descriptions of entities, and that describe how likely a textual description is accompanied by a certain structured property in Wikidata. In an evaluation of pairwise property relevance predictions, this approach achieves up to 67% agreement with human annotators. Gleim et al.\ introduce SchemaTree [gleim2020schematree], a trie-based method for capturing property frequencies in the existing data, taking into account not just individual frequencies, but also frequencies of combinations, and fallbacks to base cases for rare combinations. 
+Issa et al.\ rely on association rule mining [issa2017assessing].
+Luggen et al. [luggen2021wiki2prop] propose a method based on multimodal Wikipedia embeddings, taking into account multilingual article descriptions as well as pictures. They train a multi-label neural classifier on these embeddings, for the task of predicting currently present properties in Wikidata, and find that this significantly outperforms previous approaches.

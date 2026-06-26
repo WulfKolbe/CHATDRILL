@@ -1,0 +1,17 @@
+[
+    {
+        "title": "2110.11150_REF_GlorotInit",
+        "text": "{{||CIT}} X. Glorot and Y. Bengio. Understanding the difficulty of training deep feedforward neural networks. In International Conference on Artificial Intelligence and Statistics, volume 9, pages 249--256, May 2010.",
+        "type": "text/markdown",
+        "tags": "reference bibentry bibtex 2110.11150",
+        "created": "20260626111149172",
+        "modified": "20260626111149172",
+        "kind": "reference",
+        "citekey": "GlorotInit",
+        "year": "2010",
+        "authors": "Glorot, Xavier and Bengio, Yoshua",
+        "entry_type": "inproceedings",
+        "titlefield": "Understanding the difficulty of training deep feedforward neural networks",
+        "bibtex": "@INPROCEEDINGS{GlorotInit,\n     author = {Glorot, Xavier and Bengio, Yoshua},\n      month = may,\n      title = {Understanding the difficulty of training deep feedforward neural networks},\n  booktitle = {International Conference on Artificial Intelligence and Statistics},\n     volume = {9},\n       year = {2010},\n      pages = {249-256}\n}"
+    }
+]

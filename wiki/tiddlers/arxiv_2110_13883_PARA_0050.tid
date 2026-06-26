@@ -1,0 +1,9 @@
+created: 20260625080931150
+modified: 20260625080931150
+page: 000
+parent_section: arxiv_2110_13883_H7
+tags: paragraph arxiv_2110_13883
+title: arxiv_2110_13883_PARA_0050
+type: text/vnd.tiddlywiki
+
+Instead of splitting on a random feature, GF computes {{arxiv_2110_13883_FO0209||FO}} sparse random projections of the feature space and splits on that 1D projection, which minimizes the fast-BIC criterium (see below). To generate sparse projections, GF samples a random projection matrix {{arxiv_2110_13883_FO0210||FO}}, where an entry {{arxiv_2110_13883_FO0211||FO}} is non-zero with probability {{arxiv_2110_13883_FO0212||FO}}, i.e. {{arxiv_2110_13883_FO0213||FO}}, and zero otherwise. The sparsity parameter {{arxiv_2110_13883_FO0214||FO}} is typically set to {{arxiv_2110_13883_FO0215||FO}}. Given projection matrix {{arxiv_2110_13883_FO0216||FO}}, the projected feature matrix is {{arxiv_2110_13883_FO0217||FO}}, from which we can extract {{arxiv_2110_13883_FO0218||FO}} one-dimensional features, which are each evaluated by the splitting criterion.

@@ -1,0 +1,9 @@
+created: 20260625110956922
+modified: 20260625110956922
+page: 000
+parent_section: 2110.13883_H3
+tags: paragraph 2110.13883
+title: 2110.13883_PARA_0022
+type: text/vnd.tiddlywiki
+
+Let {{2110.13883_FO0054||FO}} be the joint space spanned by {{2110.13883_FO0055||FO}} and {{2110.13883_FO0056||FO}}. For any two data points {{2110.13883_FO0057||FO}} and {{2110.13883_FO0058||FO}}, we define the distance between them as the maximum distance from their projections in {{2110.13883_FO0059||FO}} resp. {{2110.13883_FO0060||FO}},

@@ -1,0 +1,11 @@
+caption: \frac{d_2(\bm{s}_i,\bm{s}_j)}{c  (T + \epsilon)}
+created: 20260625080931152
+displayMode: false
+latex: \frac{d_2(\bm{s}_i,\bm{s}_j)}{c  (T + \epsilon)}
+latex_original: \frac{d_2(\bm{s}_i,\bm{s}_j)}{c  (T + \epsilon)}
+modified: 20260625080931152
+tags: formula arxiv_2110_13883
+title: arxiv_2110_13883_FO0288
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

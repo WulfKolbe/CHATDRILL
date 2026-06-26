@@ -1,0 +1,16 @@
+created: 20260625110956925
+displayMode: true
+equation_number: 
+kind: Equation
+latex: n_{\ensuremath{\bm{x}}\xspace,i}^G = \left| \left\{ \ensuremath{\bm{x}}\xspace_j \, : \, \ensuremath{d_G}\xspace(\ensuremath{\bm{x}}\xspace_i, \ensuremath{\bm{x}}\xspace_j) < \frac{1}{2} \rho_{i,k}^G, \, i \neq j \right\} \right| \, ,
+latex_original: n_{\xg,i}^G = \left| \left\{ \xg_j \, : \, \dgf(\xg_i, \xg_j) < \frac{1}{2} \rho_{i,k}^G, \, i \neq j \right\} \right| \, ,
+latex_tex: n_{\ensuremath{\bm{x}}\xspace,i}^G = \left| \left\{ \ensuremath{\bm{x}}\xspace_j \, : \, \ensuremath{d_G}\xspace(\ensuremath{\bm{x}}\xspace_i, \ensuremath{\bm{x}}\xspace_j) < \frac{1}{2} \rho_{i,k}^G, \, i \neq j \right\} \right| \, ,
+modified: 20260625110956925
+page: 000
+refnum: 
+score_tex: 1.0
+tags: equation 2110.13883
+title: 2110.13883_EQ0010
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode=true />

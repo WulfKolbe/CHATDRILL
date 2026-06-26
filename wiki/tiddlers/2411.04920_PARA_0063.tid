@@ -1,0 +1,15 @@
+created: 20260625093027647
+modified: 20260625093027647
+page: 000
+parent_section: 2411.04920_H9
+tags: paragraph 2411.04920
+title: 2411.04920_PARA_0063
+type: text/vnd.tiddlywiki
+
+observe a clear bias towards English-language nationalities: 
+the top-2 are
+American (119K) and
+British (35K),
+while the next 3 are French (18K), German (14K), and Japanese (11K), and Chinese and Indian only at 3K and 7K.
+This bias in \ourkb{} 
+is stronger than, e.g., in Wikidata [shaik2021analyzing], likely reflecting the (undisclosed) English-centric training corpus of GPT-4o-mini.

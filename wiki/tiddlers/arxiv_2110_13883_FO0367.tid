@@ -1,0 +1,11 @@
+caption: h(X',Y',Z' \mid P)
+created: 20260625080931152
+displayMode: false
+latex: h(X',Y',Z' \mid P)
+latex_original: h(X',Y',Z' \mid P)
+modified: 20260625080931152
+tags: formula arxiv_2110_13883
+title: arxiv_2110_13883_FO0367
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

@@ -1,0 +1,12 @@
+created: 20260625093231914
+modified: 20260625093231914
+page: 000
+parent_section: 2305.05403_H6
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0045
+type: text/vnd.tiddlywiki
+
+\noindent
+Completeness assertions can be naturally extended to select-project-join queries [motro]. For example, one would use a join to specify that the KB knows all the advisees of Physics Nobel Prize winners from the UK. Projections are also possible, e.g., to assert completeness of all subjects that have a VIAF ID, 
+but without recording the ID itself.
+Both joins and projections come with subtleties, particularly whether subqueries are evaluated on the available KB, or on the conceptual ideal resource {{2305.05403_FO0046||FO}}. Similarly, projections allow to collapse multiplicities of join queries, and completeness assertions on resulting sets or bags carry different semantics (\textit{Does the KB allow to reconstruct all Nobel Prize winners, or does it also allow to reconstruct how often each won the award?)}. We refer the reader to [razniewski2011completeness] for further detail.

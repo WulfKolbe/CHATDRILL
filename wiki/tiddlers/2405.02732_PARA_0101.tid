@@ -1,0 +1,10 @@
+created: 20260625093047341
+modified: 20260625093047341
+page: 000
+parent_section: 2405.02732_H19
+tags: paragraph 2405.02732
+title: 2405.02732_PARA_0101
+type: text/vnd.tiddlywiki
+
+To assess how well Stage 2 recovers {\em low-ranked} TPs, we identify the ranking cut-off for R@P50 and count the missing TPs below this threshold---i.e., those misclassified as false negatives.
+Even with our best methods, ca. 16% of all the ground-truth O values fall into the category of low-rank missing TPs.

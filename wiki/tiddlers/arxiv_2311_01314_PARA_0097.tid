@@ -1,0 +1,13 @@
+created: 20260625080827350
+modified: 20260625080827350
+page: 000
+parent_section: arxiv_2311_01314_H14
+tags: paragraph arxiv_2311_01314
+title: arxiv_2311_01314_PARA_0097
+type: text/vnd.tiddlywiki
+
+The second column shows 
+the {average} idf weight for the words in the 20-th percentile 
+of the word frequency distribution.
+We observe that the original reviews carry low idf weight, reflecting their verbose and noisy nature. In constrast, the generative profiles 
+select high-idf words as most informative cues.

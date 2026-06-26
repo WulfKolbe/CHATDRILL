@@ -1,0 +1,10 @@
+created: 20260625080929321
+modified: 20260625080929321
+page: 000
+parent_section: arxiv_2204_10432_H17
+tags: paragraph arxiv_2204_10432
+title: arxiv_2204_10432_PARA_0066
+type: text/vnd.tiddlywiki
+
+In Table (ref), we demonstrate approaches trained on TRT using text from an anonymized and paraphrased depressed user from the eRisk2018 dataset.
+We show the top two posts ranked by the drop in depression score when excluding each post. All models were able to produce correct labels with very high confidence. However, there is a clear difference in the posts that models rely primarily on for prediction. The PHQ9 (scores) model found highly relevant posts with convincing associated symptoms. For example, in the first post, the PHQ9 models found 3 symptoms, including ``anhedonia'', ``mood'' and ``self-esteem''. By looking at those posts and symptoms, mental health professionals could quickly understand the patient's circumstances and make further decisions.

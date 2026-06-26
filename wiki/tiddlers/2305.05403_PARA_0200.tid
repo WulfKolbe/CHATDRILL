@@ -1,0 +1,10 @@
+created: 20260625093231915
+modified: 20260625093231915
+page: 000
+parent_section: 2305.05403_H22
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0200
+type: text/vnd.tiddlywiki
+
+A second approach to the problem of relative recall is provided by Wikimedia's ORES machine learning platform [ores]. The Wikidata item quality module specifically assigns probabilities to entities belonging to one of 5 quality levels (A to E), subsuming, besides recall, several other quality dimensions such as completeness, references, sitelinks, media quality. The scores are also relative in the sense that good item quality has no inherent definition, but can only be understood in comparison with other good/bad items. ORES apparently employs supervised machine learning, based on a combination of content embeddings and latent features, yet its concrete working is only partially documented.
+We show example outputs of Recoin and ORES for Marie Curie, as of September 2023, in Figure (ref).

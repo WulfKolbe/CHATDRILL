@@ -1,0 +1,10 @@
+created: 20260625093448815
+modified: 20260625093448815
+page: 000
+parent_section: 2204.11677_H12
+tags: paragraph 2204.11677
+title: 2204.11677_PARA_0169
+type: text/vnd.tiddlywiki
+
+There are no prior works for ConvQA over heterogeneous sources. Thus, to compare the proposed \convinse pipeline with alternative choices, we adapt state-of-the-art question understanding (in this case, rewriting and resolution) methods from the IR and NLP literature.
+These serve as competitors for our SR generation phase. We then provide these baselines with exactly the same ERS and HA phases that \convinse has, to complete end-to-end QA pipelines.

@@ -1,0 +1,17 @@
+[
+    {
+        "title": "2110.11150_REF_li2017pruneconv",
+        "text": "{{||CIT}} H. Li, A. Kadav, I. Durdanovic, H. Samet, and H. P. Graf. Pruning filters for efficient convnets. In International Conference on Learning Representations, 2017.",
+        "type": "text/markdown",
+        "tags": "reference bibentry bibtex 2110.11150",
+        "created": "20260626111149173",
+        "modified": "20260626111149173",
+        "kind": "reference",
+        "citekey": "li2017pruneconv",
+        "year": "2017",
+        "authors": "Hao Li and\n               Asim Kadav and\n               Igor Durdanovic and\n               Hanan Samet and\n               Hans Peter Graf",
+        "entry_type": "inproceedings",
+        "titlefield": "Pruning Filters for Efficient ConvNets",
+        "bibtex": "@inproceedings{li2017pruneconv,\n  author    = {Hao Li and\n               Asim Kadav and\n               Igor Durdanovic and\n               Hanan Samet and\n               Hans Peter Graf},\n  title     = {Pruning Filters for Efficient ConvNets},\n  booktitle = {International Conference on Learning Representations},\n  year      = {2017},\n}"
+    }
+]

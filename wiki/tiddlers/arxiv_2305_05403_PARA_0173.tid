@@ -1,0 +1,11 @@
+created: 20260625080853722
+modified: 20260625080853722
+page: 000
+parent_section: arxiv_2305_05403_H18
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0173
+type: text/vnd.tiddlywiki
+
+\begin{example}
+\fact{horse}{isA}{pet} is replaced by the neighbor subject horse rider, resulting in the candidate negation {{arxiv_2305_05403_FO0142||FO}}\fact{elephant}{isA}{pet}.
+\end{example}

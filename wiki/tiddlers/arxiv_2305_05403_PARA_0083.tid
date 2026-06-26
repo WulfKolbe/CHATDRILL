@@ -1,0 +1,9 @@
+created: 20260625080853721
+modified: 20260625080853721
+page: 000
+parent_section: arxiv_2305_05403_H9
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0083
+type: text/vnd.tiddlywiki
+
+These signals can be combined as follows: We first add the simple signals as statements to the KB. For example, if Elvis Presley is known to be popular, we add \fact{Elvis\-Presley}{is}{popular} to the KB. If Elvis has won several awards, we add \fact{Elvis\-Presley}{moreThan{{arxiv_2305_05403_FO0089||FO}}}{won\-Award} for small {{arxiv_2305_05403_FO0090||FO}}. Then, we add the ground truth for some of the subjects. For example, if we know that Elvis Presley has won no more awards than those in the KB, we add \fact{Elvis\-Presley}{complete}{won\-Award} to the KB. Finally, we can use a rule-mining system (such as AMIE [amie]) to mine rules that predict this ground truth. Such a system can find, e.g., that popular people are usually complete on their awards, as in {{arxiv_2305_05403_FO0091||FO}}. These rules can then be used to predict completeness for other subjects, i.e., to predict whether Marie Curie has won more awards than those mentioned in the KB.

@@ -1,0 +1,12 @@
+created: 20260625093057255
+modified: 20260625093057255
+page: 000
+parent_section: 2311.01314_H2
+tags: paragraph 2311.01314
+title: 2311.01314_PARA_0028
+type: text/vnd.tiddlywiki
+
+\vspace{0.1cm}
+\noindent{\bf Exploiting Language Models:}
+Pre-trained LMs can be leveraged 
+to i) encode item-user signals into transformer-based embeddings, ii) infer recommended items from rich representations of review texts, or iii) implicitly incorporate the latent ``world knowledge'' of the LM.

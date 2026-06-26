@@ -1,0 +1,17 @@
+created: 20260625080858062
+modified: 20260625080858062
+page: 000
+parent_section: arxiv_2210_07763_H2
+tags: paragraph arxiv_2210_07763
+title: arxiv_2210_07763_PARA_0029
+type: text/vnd.tiddlywiki
+
+A few works have focused specifically on CCSK.
+An early approach by Anacleto et al. [Anacleto2006] gathers CSK from users from different cultures, entered via the Open Mind Common Sense portal. However, the work is limited to a few eating habits (time for meals, what do people eat in each meal?, food for party/Christmas) in 3 countries (Brazil, Mexico, USA), and without published data.
+Acharya et al.\ [acharya2020towards] embark on a similar manual effort towards building a cultural CSKG, limited to a few predefined predicates and answers from Amazon MTurk workers from USA and India.
+Shwartz [shwartz-2022-good] maps time expressions in 27 different languages to specific hours in the day, also using MTurk annotations. 
+StereoKG [stereokg] mines cultural stereotypes of 5 nationalities and 5 religion groups from Twitter and Reddit questions posted by their users, however, being without proper filtering, the method results in quite many noisy and inappropriate assertions. 
+GeoMLAMA [geomlama] defines 16 geo-diverse commonsense concepts (e.g., traffic rules, date formats, shower time) and use crowdsourcing to collect knowledge for 5 different countries in 5 corresponding languages. The dataset was used to probe multilingual pretrained language models, however, is not shared.
+Moving to computer vision, Liu et al. [liu-etal-2021-visually] and Yin et al. [yin-etal-2021-broaden] expand existing visual question answering datasets with images from different cultures rather than the Western world. 
+As a result, models trained on images from the old datasets (mostly images from Western cultures) perform poorly on the newly added images. 
+Our methodology is the first to utilize large text corpora, and it can extract CCSK in the form of natural-language sentences, for a wide range of cultural groups and facets.

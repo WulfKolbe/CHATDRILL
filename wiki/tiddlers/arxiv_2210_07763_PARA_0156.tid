@@ -1,0 +1,10 @@
+created: 20260625080858063
+modified: 20260625080858063
+page: 000
+parent_section: arxiv_2210_07763_H20
+tags: paragraph arxiv_2210_07763
+title: arxiv_2210_07763_PARA_0156
+type: text/vnd.tiddlywiki
+
+For assertion clustering (cf. Sec. (ref)), we use the SentenceBert model all-MiniLM-L6-v2 for computing sentence embeddings. For the HAC algortihm, we measure point-wise Euclidean distance of the normalized embeddings. Then, we use the Ward's linkage [Ward1963HierarchicalGT], with the maximal distance threshold set to 1.5. 
+In the few cases where input sets are larger, we truncate them at 50K sentences per subject-facet pair, since larger inputs only contain further redundancies, that are not worth the cubic effort of clustering. This concerns only 15 out of 386 subjects.

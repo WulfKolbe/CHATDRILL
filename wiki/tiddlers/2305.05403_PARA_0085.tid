@@ -1,0 +1,9 @@
+created: 20260625093231914
+modified: 20260625093231914
+page: 000
+parent_section: 2305.05403_H9
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0085
+type: text/vnd.tiddlywiki
+
+can also be used to spot incomplete areas of the KB. For example, assume that we encounter the sentence ``Marie Curie brought her daughters Irène and Eve to school''. Then we can conclude that Curie had at least two daughters. In common discourse, we would even assume that she had no other daughters, and in fact no other children at all (if she had other children, we would expect the speaker to convey that, e.g., by saying ``brought only her daughters to school''). This conclusion is an implicature, i.e., an information that is conveyed by an utterance (or text) even though it is not literally expressed [grice1975logic]. In what follows, let us consider a given sentence about a given subject and a given predicate, and let us assume a KB that is complete for that subject and predicate (e.g., Wikidata for popular subjects). If we use a simple open information extraction approach, we can extract the objects that the sentence mentions for the predicate, and compare them to the objects that the complete KB contains [razniewski2019coverage]. If the sentence mentions all objects, we consider it complete. In this way, we can build a training set of complete and incomplete sentences for a given predicate, and we can train a classifier on this set. This classifier can then be used to determine if some other sentence is complete, and if it is, we can determine if the subject of that sentence is complete in the KB.

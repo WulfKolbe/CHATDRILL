@@ -1,0 +1,9 @@
+created: 20260625093242023
+modified: 20260625093242023
+page: 000
+parent_section: 2303.11082_H1
+tags: paragraph 2303.11082
+title: 2303.11082_PARA_0009
+type: text/vnd.tiddlywiki
+
+Technically, we focus on the BERT language model [bert], and the Wikidata knowledge base. Although BERT has been superseded by newer LMs, its popularity is still matched only by the closed source GPT-3 and chatGPT models. Wikidata is by far the most prominent and comprehensive public KB, so evaluations against it provide the strongest yardstick.

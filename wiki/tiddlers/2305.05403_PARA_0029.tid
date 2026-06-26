@@ -1,0 +1,10 @@
+created: 20260625093231913
+modified: 20260625093231913
+page: 000
+parent_section: 2305.05403_H4
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0029
+type: text/vnd.tiddlywiki
+
+\begin{definition}[KB Completeness]
+Given a KB {{2305.05403_FO0030||FO}} and a selection condition {{2305.05403_FO0031||FO}}, we say that {{2305.05403_FO0032||FO}} is complete for {{2305.05403_FO0033||FO}} if

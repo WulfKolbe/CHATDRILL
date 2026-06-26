@@ -1,0 +1,9 @@
+created: 20260625080853722
+modified: 20260625080853722
+page: 000
+parent_section: arxiv_2305_05403_H18
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0175
+type: text/vnd.tiddlywiki
+
+[arnaoutcikm2022] identifies salient negations about target concepts (e.g., gorilla) in a KB by computing comparable concepts (e.g., zebra, lion) using external structured taxonomies (e.g., WebIsALOD [webisalod]) and latent similarity (e.g., Wikipedia embeddings [wikipedia2vec]). Similar to the peer-based negation inference method [arnaout020enriching], the PCWA is used to infer candidate negations (e.g, has no tail, is not territorial). A crucial difference is the technique used for checking the accuracy of candidate negations. As previously mentioned, the PCA would not be sufficient in loosely-structured KBs. Therefore, this work introduces different scrutiny steps to improve the accuracy of candidates. It performs semantic similarity checks (using [reimers2019sentence]) against the KB itself, and external source checks (using pretrained LMs). Semantic similarity also contributes in grouping negative phrases with the same meaning in order to boost their order in the final ranked list, i.e., the relaxed sibling frequency. The finally generated top-ranked negations are extended with provenances showing why certain negations are interesting. For example, gorilla has no tail, unlike other land mammals such as lions and zebras.

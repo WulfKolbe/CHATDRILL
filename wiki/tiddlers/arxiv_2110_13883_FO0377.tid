@@ -1,0 +1,11 @@
+caption: h(Y_3' \mid X_1,X_2) + h(Y_2\mid X_1,X_2, Y_3' ) + h(Y_1\mid X_1,X_2, Y_3', Y_2)
+created: 20260625080931152
+displayMode: false
+latex: h(Y_3' \mid X_1,X_2) + h(Y_2\mid X_1,X_2, Y_3' ) + h(Y_1\mid X_1,X_2, Y_3', Y_2)
+latex_original: h(Y_3' \mid X_1,X_2) + h(Y_2\mid X_1,X_2, Y_3' ) + h(Y_1\mid X_1,X_2, Y_3', Y_2)
+modified: 20260625080931152
+tags: formula arxiv_2110_13883
+title: arxiv_2110_13883_FO0377
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

@@ -1,0 +1,9 @@
+created: 20260625080858063
+modified: 20260625080858063
+page: 000
+parent_section: arxiv_2210_07763_H5
+tags: paragraph arxiv_2210_07763
+title: arxiv_2210_07763_PARA_0054
+type: text/vnd.tiddlywiki
+
+For the occupation domain, we simply use exact-phrase matching to detect candidates. Each occupation subject is enriched with its alternate names and its plural form to enhance coverage.

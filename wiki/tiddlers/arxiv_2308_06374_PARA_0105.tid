@@ -1,0 +1,11 @@
+created: 20260625080831231
+modified: 20260625080831231
+page: 000
+parent_section: arxiv_2308_06374_H9
+tags: paragraph arxiv_2308_06374
+title: arxiv_2308_06374_PARA_0105
+type: text/vnd.tiddlywiki
+
+Challenges and Opportunities: Commonsense knowledge, in particular, is genuinely open-ended, such that it depends on a number of considerations whether it makes sense to attempt to materialize relevant knowledge beforehand or rather invoke a (possibly slow) LLM on the fly.
+Commonsense knowledge may also differ substantially between different cultures [Nguyen2023]. This also leads to the question of what kinds of biases are acceptable.
+Finally, a long-term challenge is how to capture knowledge that is not easily expressed in language, e.g., how a robot ought to grasp different kinds of objects.

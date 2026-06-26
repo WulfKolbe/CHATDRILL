@@ -1,0 +1,10 @@
+created: 20260625110956922
+modified: 20260625110956922
+page: 000
+parent_section: 2110.13883_H1
+tags: paragraph 2110.13883
+title: 2110.13883_PARA_0010
+type: text/vnd.tiddlywiki
+
+In an ideal scenario, where we are given an iid sample {{2110.13883_FO0007||FO}}, and an unbiased estimator {{2110.13883_FO0008||FO}}, we could simply estimate {{2110.13883_FO0009||FO}} by individually estimating the differential entropies as {{2110.13883_FO0010||FO}}.
+In practice, such an unbiased density estimate is usually not available and state-of-the-art approaches instead resort to {{2110.13883_FO0011||FO}}NN based estimates of {{2110.13883_FO0012||FO}} [frenzel:07:fp,kozachenko:87:firstnn]. Simply put, those methods estimate the log-density locally around each point, e.g. by enclosing all its {{2110.13883_FO0013||FO}}NNs into a unit ball and computing its volume [grassberger:85:pre-ksg,kozachenko:87:firstnn].

@@ -1,0 +1,9 @@
+created: 20260625080853722
+modified: 20260625080853722
+page: 000
+parent_section: arxiv_2305_05403_H22
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0196
+type: text/vnd.tiddlywiki
+
+\problem{Relative Entity Recall Problem}{An entity {{arxiv_2305_05403_FO0144||FO}}, and a KB {{arxiv_2305_05403_FO0145||FO}}}{Determine the recall of {{arxiv_2305_05403_FO0146||FO}} for statements about {{arxiv_2305_05403_FO0147||FO}}, relative to related entities in {{arxiv_2305_05403_FO0148||FO}}.}

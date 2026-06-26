@@ -1,0 +1,12 @@
+created: 20260625093448815
+modified: 20260625093448815
+page: 000
+parent_section: 2204.11677_H18
+tags: paragraph 2204.11677
+title: 2204.11677_PARA_0231
+type: text/vnd.tiddlywiki
+
+\myparagraph{Heterogeneous answering}
+There has been work on combining text and KBs [xiong2019improving,sun2018open,sun2019pullnet,savenkov2016knowledge,xu2016question,pramanik2021uniqorn] for conventional QA with single self-contained questions.
+O\u{g}uz et al. [oguz2021unikqa] and Ma et al. [ma2021open] integrate tables as
+an additional type of information source.

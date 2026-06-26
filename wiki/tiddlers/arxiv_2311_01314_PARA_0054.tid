@@ -1,0 +1,12 @@
+created: 20260625080827350
+modified: 20260625080827350
+page: 000
+parent_section: arxiv_2311_01314_H8
+tags: paragraph arxiv_2311_01314
+title: arxiv_2311_01314_PARA_0054
+type: text/vnd.tiddlywiki
+
+\noindent{\bf Uniform random samples.}
+Under the closed world assumption (CWA), aka Selected Completely At Random, negative training points
+are sampled uniformly from all unlabeled data.
+This is a widely used standard technique.

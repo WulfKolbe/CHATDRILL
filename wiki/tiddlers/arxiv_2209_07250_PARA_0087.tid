@@ -1,0 +1,9 @@
+created: 20260625080859570
+modified: 20260625080859570
+page: 000
+parent_section: arxiv_2209_07250_H10
+tags: paragraph arxiv_2209_07250
+title: arxiv_2209_07250_PARA_0087
+type: text/vnd.tiddlywiki
+
+Most queries count entities in a simple relation to one named entity, i.e., the avg.\ query length is 6.40 words, with an average of 1.08 named entities per query. We found that 95% of the 322 queries returned non-empty answer types, with more than 200 unique phrases, for instance, sibling, movie, employee, nfl stadium, real estate agent, czech player. The queries spanned over 49 different relations.

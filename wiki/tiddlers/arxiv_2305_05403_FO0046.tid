@@ -1,0 +1,11 @@
+caption: K^i
+created: 20260625080853723
+displayMode: false
+latex: K^i
+latex_original: K^i
+modified: 20260625080853723
+tags: formula arxiv_2305_05403
+title: arxiv_2305_05403_FO0046
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

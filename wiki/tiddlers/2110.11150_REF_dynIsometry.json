@@ -1,0 +1,17 @@
+[
+    {
+        "title": "2110.11150_REF_dynIsometry",
+        "text": "{{||CIT}} J. Pennington, S. S. Schoenholz, and S. Ganguli. Resurrecting the sigmoid in deep learning through dynamical isometry: theory and practice. In Advances in Neural Information Processing Systems, 2017.",
+        "type": "text/markdown",
+        "tags": "reference bibentry bibtex 2110.11150",
+        "created": "20260626111149173",
+        "modified": "20260626111149173",
+        "kind": "reference",
+        "citekey": "dynIsometry",
+        "year": "2017",
+        "authors": "Jeffrey Pennington and\n               Samuel S. Schoenholz and\n               Surya Ganguli",
+        "entry_type": "inproceedings",
+        "titlefield": "Resurrecting the sigmoid in deep learning through dynamical isometry:\n               theory and practice",
+        "bibtex": "@inproceedings{dynIsometry,\n  author    = {Jeffrey Pennington and\n               Samuel S. Schoenholz and\n               Surya Ganguli},\n  title     = {Resurrecting the sigmoid in deep learning through dynamical isometry:\n               theory and practice},\n  booktitle = {Advances in Neural Information Processing Systems},\n  year      = {2017}\n}"
+    }
+]

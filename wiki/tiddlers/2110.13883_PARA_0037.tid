@@ -1,0 +1,9 @@
+created: 20260625110956922
+modified: 20260625110956922
+page: 000
+parent_section: 2110.13883_H4
+tags: paragraph 2110.13883
+title: 2110.13883_PARA_0037
+type: text/vnd.tiddlywiki
+
+Conditions {{2110.13883_FO0138||FO}}-{{2110.13883_FO0139||FO}} in Model (ref) are very light requirements. If Cond. 1 would be violated, our estimator could still detect that there is no shared information between {{2110.13883_FO0140||FO}} and {{2110.13883_FO0141||FO}}, but there would be little point in modeling the generative process from a manifold learning perspective. Similarly, Cond. 3 requires that all variables in the low-dimensional representation are contributing to the shared information about {{2110.13883_FO0142||FO}} and {{2110.13883_FO0143||FO}}. Any subsets of variables not fulfilling this requirement would be modeled within the individual factor. Last, Cond. 2 assures that {{2110.13883_FO0144||FO}} can be recovered from {{2110.13883_FO0145||FO}}, as shown in Proposition (ref). This is a standard assumption in manifold learning: the low-dimensional manifold can be modeled as a homeomorphism of the ambient space or a subspace of it [cayton:05:manifold-learning-algorithms].

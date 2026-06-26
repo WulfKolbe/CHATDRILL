@@ -1,0 +1,26 @@
+created: 20260625110956925
+format: fractal_xref
+modified: 20260625110956925
+tags: toc 2110.13883
+title: 2110.13883_TOC
+type: text/vnd.tiddlywiki
+
+** 1.1 [[Introduction|2110.13883_H1]]
+** 1.2 [[Related Work|2110.13883_H2]]
+** 1.3 [[Preliminaries|2110.13883_H3]]
+** 1.4 [[Mutual Information \& Manifold Learning|2110.13883_H4]]
+** 1.5 [[Geodesic Mutual Information Estimation|2110.13883_H5]]
+*** 1.5.1 [[Geodesic \ksg|2110.13883_H6]]
+*** 1.5.2 [[Geodesic Forests|2110.13883_H7]]
+*** 1.5.3 [[Approximate Geodesic Distances|2110.13883_H8]]
+** 1.6 [[Experiments|2110.13883_H9]]
+*** 1.6.1 [[Synthetic Data|2110.13883_H10]]
+*** 1.6.2 [[Simulation Study|2110.13883_H11]]
+*** 1.6.3 [[Helix|2110.13883_H12]]
+*** 1.6.4 [[Sphere|2110.13883_H13]]
+** 1.7 [[Discussion \& Conclusion|2110.13883_H14]]
+** 1.8 [[Acknowledgements|2110.13883_H15]]
+** 1.9 [[Supplementary Material|2110.13883_H16]]
+*** 1.9.1 [[Data Generation and MI Bounds|2110.13883_H17]]
+*** 1.9.2 [[Hyperparameter|2110.13883_H18]]
+*** 1.9.3 [[Additional Experiments|2110.13883_H19]]

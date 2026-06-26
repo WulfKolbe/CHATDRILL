@@ -1,0 +1,9 @@
+created: 20260625080858063
+modified: 20260625080858063
+page: 000
+parent_section: arxiv_2210_07763_H15
+tags: paragraph arxiv_2210_07763
+title: arxiv_2210_07763_PARA_0135
+type: text/vnd.tiddlywiki
+
+This shows that GPT-3, despite its hundred billions of parameters, still lacks socio-cultural knowledge for question answering, and external resources such as \systemname{} CCSK can help to alleviate this problem.

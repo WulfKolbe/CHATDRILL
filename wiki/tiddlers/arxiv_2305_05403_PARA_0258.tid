@@ -1,0 +1,10 @@
+created: 20260625080853723
+modified: 20260625080853723
+page: 000
+parent_section: arxiv_2305_05403_H31
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0258
+type: text/vnd.tiddlywiki
+
+Knowledge bases have received substantial attention in recent years, and while precision is usually in the focus of construction, understanding their recall remains a major challenge. In this survey we have systematized major avenues towards KB recall assessment, and outlined practical approaches and open challenges. 
+We hope this survey will inspire readers to reflect on KB quality from a new angle, and lead to more KB projects that systematically record and reflect on their recall.

@@ -1,0 +1,10 @@
+created: 20260625093341705
+modified: 20260625093341705
+page: 000
+parent_section: 2209.07250_H9
+tags: paragraph 2209.07250
+title: 2209.07250_PARA_0071
+type: text/vnd.tiddlywiki
+
+text segment ground truth by labelling answer spans returned by the count extractor [roy2015reasoning] as positive when the count lies within {{2209.07250_FO0029||FO}} from the ground truth. 
+There are around 800 queries with no positive snippets, which we do not discard, so the system is not forced to generate an answer. In the end we have {{2209.07250_FO0030||FO}} count queries with automated ground truth, and an average of {{2209.07250_FO0031||FO}} annotated text segments per query.

@@ -1,0 +1,10 @@
+created: 20260625080929321
+modified: 20260625080929321
+page: 000
+parent_section: arxiv_2204_10432_H2
+tags: paragraph arxiv_2204_10432
+title: arxiv_2204_10432_PARA_0015
+type: text/vnd.tiddlywiki
+
+Another problem is the black-box nature of model predictions which is a major hurdle in deploying AI models in clinical practice [mullenbach-etal-2018-explainable].
+In this work we aim at reducing this problem by proposing to ground depression assessment in a clinical questionnaire for measuring severity of depression.

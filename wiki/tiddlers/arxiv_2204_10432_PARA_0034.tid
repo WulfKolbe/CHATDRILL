@@ -1,0 +1,11 @@
+created: 20260625080929321
+modified: 20260625080929321
+page: 000
+parent_section: arxiv_2204_10432_H9
+tags: paragraph arxiv_2204_10432
+title: arxiv_2204_10432_PARA_0034
+type: text/vnd.tiddlywiki
+
+Given the lack of training data for this task, we collected regular expression patterns and heuristics to construct weakly-supervised training data for each of the symptoms.
+We describe the process succinctly here and provide additional details in the Appendix.
+We note that this weakly-supervised data is used only for training.

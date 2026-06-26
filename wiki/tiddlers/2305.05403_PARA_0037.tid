@@ -1,0 +1,10 @@
+created: 20260625093231914
+modified: 20260625093231914
+page: 000
+parent_section: 2305.05403_H5
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0037
+type: text/vnd.tiddlywiki
+
+\begin{example}
+Consider again Marie Curie. Consider the query ``Was Marie Curie a Polish citizen?''. Under both the OWA and the CWA, the answer would be ``Yes'', because the statement \fact{Marie Curie}{citizenship}{Polish} is in the KB. Now consider the query ``Was Mary Curie an Australian citizen?'' Under the CWA, given that no such statement is in the KB, the answer would be ``no''. Yet under the OWA, the statement could still be true in reality, so the answer would be ``Unknown''. Finally, consider the query for ``Nobel Peace Prize winners who are not US citizens''. Under the CWA, that query would return Marie Curie and many others. Under the OWA, this query would have to return the empty set, because for any winner, the KB could just be missing US citizenship.

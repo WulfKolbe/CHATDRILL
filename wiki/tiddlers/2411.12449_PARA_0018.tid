@@ -1,0 +1,15 @@
+created: 20260625093007936
+modified: 20260625093007936
+page: 000
+parent_section: 2411.12449_H1
+tags: paragraph 2411.12449
+title: 2411.12449_PARA_0018
+type: text/vnd.tiddlywiki
+
+\noindent
+The salient contributions of this work are:
+\squishlist
+\item[(i)] We formulate the problem of generating enhanced responses for temporal entity-centric queries.
+\item[(ii)] We present a novel approach for extracting openIE style entity-interactions tuples from news streams.
+\item[(iii)] We evaluate the generated answers using both automated LLM-based scoring and human evaluations on a diverse set of real-world queries, demonstrating significant improvements in response quality when incorporating Neon.
+\squishend

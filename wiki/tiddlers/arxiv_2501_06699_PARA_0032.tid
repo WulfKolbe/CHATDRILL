@@ -1,0 +1,11 @@
+created: 20260625080804874
+modified: 20260625080804874
+page: 000
+parent_section: arxiv_2501_06699_H2
+tags: paragraph arxiv_2501_06699
+title: arxiv_2501_06699_PARA_0032
+type: text/vnd.tiddlywiki
+
+\parai{Transparency} speaks of the ability to reproduce or otherwise understand how and why information is returned with respect to the base corpus. KGs are transparent, where the results provided for a query can be explained 
+ in terms of their derivation steps and (where available) underlying data provenance.
+ SEs are also transparent, though some aspects, like ranking algorithms, may be more opaque. LLMs, as black-box models, are largely opaque, meaning that it is difficult to understand how or why they generate particular responses, or what sources were used.

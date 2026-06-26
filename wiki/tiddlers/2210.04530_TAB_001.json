@@ -1,0 +1,13 @@
+[
+    {
+        "title": "2210.04530_TAB_001",
+        "text": "",
+        "type": "text/vnd.tiddlywiki",
+        "tags": "table 2210.04530",
+        "created": "20260625093324945",
+        "modified": "20260625093324945",
+        "page": "000",
+        "latex_code": "\\begin{tabular}{|l|Hl|l|l|}\n\\hline\n\\textbf{Corpus} & \\textbf{Size} & \\textbf{Avg.\\ doc.\\ len.} & \\textbf{Vocab.\\ size} & \\textbf{Readability (FRE)} \\\\\n\\hline\n\n\n\\textit{C4} & \\textit{20 sent. avg.} & \\textit{411 words} & \\textit{151k} & \\textit{60 (Standard)} \\\\\n\n\n\n\n\n\nCBT & 2721 sent. avg. (108 books) \\ & 57k words & 63k & 62 (Standard) \\\\\nC4-easy & 22 sentences in average & 317 words & 106k & 86 (Easy) \\\\\nInfantBooks & avg. 55 sent. avg. (496 books)\\ & 659 words & 18k & 91 (Very Easy) \\\\\n\\hline\n\\end{tabular}",
+        "latex_original": "\\begin{tabular}{|l|Hl|l|l|}\n\\hline\n\\textbf{Corpus} & \\textbf{Size} & \\textbf{Avg.\\ doc.\\ len.} & \\textbf{Vocab.\\ size} & \\textbf{Readability (FRE)} \\\\\n\\hline\n\n\n\\textit{C4} & \\textit{20 sent. avg.} & \\textit{411 words} & \\textit{151k} & \\textit{60 (Standard)} \\\\\n\n\n\n\n\n\nCBT & 2721 sent. avg. (108 books) \\ & 57k words & 63k & 62 (Standard) \\\\\nC4-easy & 22 sentences in average & 317 words & 106k & 86 (Easy) \\\\\nInfantBooks & avg. 55 sent. avg. (496 books)\\ & 659 words & 18k & 91 (Very Easy) \\\\\n\\hline\n\\end{tabular}"
+    }
+]

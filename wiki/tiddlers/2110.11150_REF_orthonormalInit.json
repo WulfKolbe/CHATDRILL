@@ -1,0 +1,17 @@
+[
+    {
+        "title": "2110.11150_REF_orthonormalInit",
+        "text": "{{||CIT}} A. M. Saxe, J. L. McClelland, and S. Ganguli. Exact solutions to the nonlinear dynamics of learning in deep linear neural networks. In International Conference on Learning Representations, 2014.",
+        "type": "text/markdown",
+        "tags": "reference bibentry bibtex 2110.11150",
+        "created": "20260626111149173",
+        "modified": "20260626111149173",
+        "kind": "reference",
+        "citekey": "orthonormalInit",
+        "year": "2014",
+        "authors": "Andrew M. Saxe and\n               James L. McClelland and\n               Surya Ganguli",
+        "entry_type": "inproceedings",
+        "titlefield": "Exact solutions to the nonlinear dynamics of learning in deep linear\n               neural networks",
+        "bibtex": "@inproceedings{orthonormalInit,\n  author    = {Andrew M. Saxe and\n               James L. McClelland and\n               Surya Ganguli},\n  title     = {Exact solutions to the nonlinear dynamics of learning in deep linear\n               neural networks},\n  booktitle = {International Conference on Learning Representations},\n  year      = {2014}\n}"
+    }
+]

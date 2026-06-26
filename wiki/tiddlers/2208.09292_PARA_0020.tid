@@ -1,0 +1,10 @@
+created: 20260625095716233
+modified: 20260625095716233
+page: 000
+parent_section: 2208.09292_H1
+tags: paragraph 2208.09292
+title: 2208.09292_PARA_0020
+type: text/vnd.tiddlywiki
+
+\noindent
+Approach and contributions. This paper presents the \uncommon{} method for identifying informative negations about concepts in CSKBs. For a target concept like gorilla, we first compute a set of comparable concepts (e.g., lion, zebra), by employing both structured taxonomies and latent similarity. Among these concepts, we postulate a Local Closed-world Assumption (LCWA) [galarraga2017predicting], and consider their positive statements that do not hold for the target concept as candidate negations (e.g, has tail, is territorial).

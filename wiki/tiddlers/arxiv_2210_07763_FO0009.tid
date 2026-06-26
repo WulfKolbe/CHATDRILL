@@ -1,0 +1,11 @@
+caption: Hypothesis
+created: 20260625080858064
+displayMode: false
+latex: Hypothesis
+latex_original: Hypothesis
+modified: 20260625080858064
+tags: formula arxiv_2210_07763
+title: arxiv_2210_07763_FO0009
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

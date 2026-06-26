@@ -1,0 +1,11 @@
+caption: \ensuremath{d_G}\xspace(\bm{s}_i,\bm{s}_j)
+created: 20260625080931152
+displayMode: false
+latex: \ensuremath{d_G}\xspace(\bm{s}_i,\bm{s}_j)
+latex_original: \dgf(\bm{s}_i,\bm{s}_j)
+modified: 20260625080931152
+tags: formula arxiv_2110_13883
+title: arxiv_2110_13883_FO0287
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

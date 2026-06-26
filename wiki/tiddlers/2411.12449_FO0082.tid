@@ -1,0 +1,11 @@
+caption: r_{so} = \texttt{NEI}(s, o)
+created: 20260625093007937
+displayMode: false
+latex: r_{so} = \texttt{NEI}(s, o)
+latex_original: r_{so} = \texttt{NEI}(s, o)
+modified: 20260625093007937
+tags: formula 2411.12449
+title: 2411.12449_FO0082
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

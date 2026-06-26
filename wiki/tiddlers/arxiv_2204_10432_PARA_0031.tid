@@ -1,0 +1,9 @@
+created: 20260625080929321
+modified: 20260625080929321
+page: 000
+parent_section: arxiv_2204_10432_H8
+tags: paragraph arxiv_2204_10432
+title: arxiv_2204_10432_PARA_0031
+type: text/vnd.tiddlywiki
+
+Different from RSDD and eRisk2018, TRT (Topic-Restricted-Text) was constructed based on community participation. Specifically, the depressed users were drawn from members of the /r/depression subreddit, and control users were sampled from the /r/AskReddit subreddit. Following the construction guideline described in [Wolohan2018DetectingLT] and discussion with the authors, we re-generated a version of TRT containing {{arxiv_2204_10432_FO0015||FO}} depressed users and {{arxiv_2204_10432_FO0016||FO}} control users.

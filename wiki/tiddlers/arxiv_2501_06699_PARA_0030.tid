@@ -1,0 +1,11 @@
+created: 20260625080804874
+modified: 20260625080804874
+page: 000
+parent_section: arxiv_2501_06699_H2
+tags: paragraph arxiv_2501_06699
+title: arxiv_2501_06699_PARA_0030
+type: text/vnd.tiddlywiki
+
+\parai{Generation} encapsulates the ability to derive custom, novel content from the base corpus in order to better address a user's information need. LLMs are generative by design, allowing text to be recursively generated from a starting prompt. KGs are not generative per se, though ontologies and rules can generate new knowledge via deductive reasoning, while knowledge graph embeddings and graph neural networks can generate new knowledge via inductive reasoning; techniques such as summarization are also generative in nature. SEs, 
+ by themselves,
+ are also not generative, and thus can only return base information to users largely ``as is''.

@@ -1,0 +1,15 @@
+created: 20260625080827350
+modified: 20260625080827350
+page: 000
+parent_section: arxiv_2311_01314_H9
+tags: paragraph arxiv_2311_01314
+title: arxiv_2311_01314_PARA_0060
+type: text/vnd.tiddlywiki
+
+Unlike in many prior works' experiments, often
+on movies, restaurants or mainstream products,
+the data in our experiments is much sparser regarding user-item interactions. 
+We design the evaluation as a {\em stress-test} experiment, with
+focus on text-rich
+users.
+With the focus on lightweight computation, we limited the input context to 128 tokens, hence the need for smart user profile extraction. Our experiments supports the choice of budget and architecture.

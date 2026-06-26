@@ -1,0 +1,9 @@
+created: 20260625093027647
+modified: 20260625093027647
+page: 000
+parent_section: 2411.04920_H11
+tags: paragraph 2411.04920
+title: 2411.04920_PARA_0068
+type: text/vnd.tiddlywiki
+
+To assess the consistency of LLM knowledge, we repeated the elicitation 100 times on the entity Vannevar Bush. From the perspective of knowledge volume consistency, the results primarily fall into two clusters: one comprising 52 runs with a mean of 21 triples (std = 1), and another with 32 runs averaging 38 triples (std = 6). The remaining 10 runs failed to parse. In terms of knowledge content consistency, within the first cluster, we observe 1,116 total triples and 79 unique ones, i.e., each triple is shared on average by 14 runs. The average overlap between the sets measured using an exact match set intersection is 0.67. Semantically, these numbers represent a lower bound only, as responses sometimes contain paraphrases.

@@ -1,0 +1,9 @@
+created: 20260625080929321
+modified: 20260625080929321
+page: 000
+parent_section: arxiv_2204_10432_H11
+tags: paragraph arxiv_2204_10432
+title: arxiv_2204_10432_PARA_0056
+type: text/vnd.tiddlywiki
+
+When the patterns are used to train a PHQ9 (scores) model, both F1 and AUC increase substantially, with the largest improvement of 0.13 F1 and 0.12 AUC in TRT. Methods using PHQ9 (vectors) perform slightly better than those using scores, but the latter is easier to interpret since each post is associated with a symptom score. Both perform well in comparison with the baselines despite the fact that they are constrained by the PHQ9 symptoms. The add-on neuron contributes significantly to the in-domain effectiveness of PHQ9Plus, which even outperforms BERT in several settings.

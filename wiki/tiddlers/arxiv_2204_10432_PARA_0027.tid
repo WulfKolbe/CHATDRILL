@@ -1,0 +1,10 @@
+created: 20260625080929321
+modified: 20260625080929321
+page: 000
+parent_section: arxiv_2204_10432_H6
+tags: paragraph arxiv_2204_10432
+title: arxiv_2204_10432_PARA_0027
+type: text/vnd.tiddlywiki
+
+In order to quantify the impact of this bottleneck, we also consider an unconstrained model that replace the questionnaire model in the previous methods by only a BERT encoder.
+This gives a loose upper bound on the classifier-constrained methods's performance since this approach has access to the raw BERT embeddings and thus can utilize more signals (even spurious ones) than those captured by the questionnaire model.

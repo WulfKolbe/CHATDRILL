@@ -1,0 +1,10 @@
+created: 20260625093505870
+modified: 20260625093505870
+page: 000
+parent_section: 2204.10432_H23
+tags: paragraph 2204.10432
+title: 2204.10432_PARA_0081
+type: text/vnd.tiddlywiki
+
+While pattern matching is fast and transparent, it is inflexible and may produce many false positives (FP).
+Below, we introduce the four most popular FP cases discovered in our analysis and the techniques we employed to mitigate them when constructing weakly-labeled training data.

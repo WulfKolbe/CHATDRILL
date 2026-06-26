@@ -1,0 +1,16 @@
+created: 20260625093047341
+modified: 20260625093047341
+page: 000
+parent_section: 2405.02732_H1
+tags: paragraph 2405.02732
+title: 2405.02732_PARA_0010
+type: text/vnd.tiddlywiki
+
+The salient contributions of this work are:
+(1) the new task of extracting a long list of objects for a given subject and 
+relation from long documents;
+(2) a methodology for this task, based on retrieval-augmented LLMs
+and combining IR techniques with LLM generation; 
+(3) experiments with new benchmarks, showing that L3X outperforms LLM-only baselines that rely on parametric memory from their pre-training, and providing an in-depth analysis of 
+strengths and limitations of different methods.
+The new datasets, code, and additional experimental results, will be open-sourced upon publication.

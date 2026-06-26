@@ -1,0 +1,10 @@
+created: 20260625093007936
+modified: 20260625093007936
+page: 000
+parent_section: 2411.12449_H6
+tags: paragraph 2411.12449
+title: 2411.12449_PARA_0050
+type: text/vnd.tiddlywiki
+
+Evaluation.
+Since our temporal QA task involves generating subjective responses for evolving news events, traditional evaluation methods prove challenging due to the absence of an established ground-truth dataset. To address this, we employed an automated evaluation framework that leverages LLMs, which have recently gained prominence [kocmi-federmann-2023-large, wan2024tntllmtextminingscale], even in news-related tasks [xu-etal-2023-instructscore, chiang-lee-2023-large], as an efficient means for output assessment. Our evaluation focuses on three key attributes: (1) Helpfulness, assessing the extent to which the response addresses the user's query by incorporating additional relevant entities---such as people, events and locations---beyond the primary subject; (2) Relevance, ensuring that the response is accurately aligned with the context of the query, delivering information that is specific to the date or time frame referenced; (3) Faithfulness, evaluating the extent to which the response is grounded in the supporting passages provided, relying exclusively on verifiable information from these sources to produce a trustworthy answer. Each attribute is rated on a 3-point Likert scale, in alignment with established practices in prior evaluation studies [wang2024helpsteer2opensourcedatasettraining, maddela-etal-2021-controllable].

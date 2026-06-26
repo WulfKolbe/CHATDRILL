@@ -1,0 +1,11 @@
+caption: I(\ensuremath{\bm{X}}\xspace;\ensuremath{\bm{Y}}\xspace) \ge 0
+created: 20260625080931151
+displayMode: false
+latex: I(\ensuremath{\bm{X}}\xspace;\ensuremath{\bm{Y}}\xspace) \ge 0
+latex_original: I(\Xg;\Yg) \ge 0
+modified: 20260625080931151
+tags: formula arxiv_2110_13883
+title: arxiv_2110_13883_FO0004
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

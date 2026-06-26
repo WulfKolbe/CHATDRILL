@@ -1,0 +1,11 @@
+created: 20260625093007936
+modified: 20260625093007936
+page: 000
+parent_section: 2411.12449_H1
+tags: paragraph 2411.12449
+title: 2411.12449_PARA_0015
+type: text/vnd.tiddlywiki
+
+This limitation is illustrated in Figure (ref), where we selected a random peak in the search interest plot. Without additional information sources and/or additional context, GPT-4 provides a generic response to the prompt ``(Date: August 31, 2023) Doja Cat''. However, we observe improvements in temporal relevance and accuracy through RAG mitigation when supporting snippets retrieved from news streams are incorporated into the LLM's prompt. Here, LLM still needs to reason and extract relevant information across these multiple snippets.
+As [liu-etal-2024-lost] note, both the size of the context and the positioning of relevant information within the context significantly impact model performance. Instead of directly augmenting chunks of information,
+we propose Neon (\underline{N}ews \underline{E}ntity Interacti\underline{ON}s) that captures interactions such as events and activities between entities in a more compact form (single sentences or propositions) and use these for enhanced response generation.

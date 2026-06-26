@@ -1,0 +1,10 @@
+created: 20260625080929032
+modified: 20260625080929032
+page: 000
+parent_section: arxiv_2204_11677_H7
+tags: paragraph arxiv_2204_11677
+title: arxiv_2204_11677_PARA_0134
+type: text/vnd.tiddlywiki
+
+for each evidence, the retriever returns the text span from the input question
+that

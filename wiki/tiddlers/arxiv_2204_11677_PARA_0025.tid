@@ -1,0 +1,10 @@
+created: 20260625080929031
+modified: 20260625080929031
+page: 000
+parent_section: arxiv_2204_11677_H1
+tags: paragraph arxiv_2204_11677
+title: arxiv_2204_11677_PARA_0025
+type: text/vnd.tiddlywiki
+
+Questions {{arxiv_2204_11677_FO0012||FO}} and {{arxiv_2204_11677_FO0013||FO}} can be answered more conveniently using KBs like Wikidata [vrandevcic2014wikidata], YAGO [suchanek2007yago], or DBpedia [auer2007dbpedia], that store factual world knowledge in compact RDF triples. However, answering {{arxiv_2204_11677_FO0014||FO}}, {{arxiv_2204_11677_FO0015||FO}} or {{arxiv_2204_11677_FO0016||FO}}
+via a KB

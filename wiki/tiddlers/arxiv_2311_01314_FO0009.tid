@@ -1,0 +1,11 @@
+caption: ~~ s^{ui} = \sigma(<t^u, t^i>) ~
+created: 20260625080827351
+displayMode: false
+latex: ~~ s^{ui} = \sigma(<t^u, t^i>) ~
+latex_original: ~~ s^{ui} = \sigma(<t^u, t^i>) ~
+modified: 20260625080827351
+tags: formula arxiv_2311_01314
+title: arxiv_2311_01314_FO0009
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

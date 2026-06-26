@@ -1,0 +1,14 @@
+created: 20260625093308065
+modified: 20260625093308065
+page: 000
+parent_section: 2210.07763_H25
+tags: paragraph 2210.07763
+title: 2210.07763_PARA_0172
+type: text/vnd.tiddlywiki
+
+We use the davinci-002 model and set temperature to 0.7 and maximum length to 512 tokens. For each facet and subject, we run the following prompt template for 10 times: \small Please write 20 short sentences about notable <facet> in
+<subject>. We query for 5 facets (food culture, drinking culture, clothing habits, rituals, traditions), and 210 subjects (196 countries and 14 religions).
+Table (ref)
+shows
+some example generations
+for the subject China and the facet ``clothing habits''.

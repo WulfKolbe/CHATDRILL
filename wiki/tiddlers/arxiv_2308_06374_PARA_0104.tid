@@ -1,0 +1,15 @@
+created: 20260625080831231
+modified: 20260625080831231
+page: 000
+parent_section: arxiv_2308_06374_H9
+tags: paragraph arxiv_2308_06374
+title: arxiv_2308_06374_PARA_0104
+type: text/vnd.tiddlywiki
+
+As both crowdsourcing and information extraction from text are likely to lead to incomplete knowledge, a key challenge is how to generalize beyond what has been collected.
+The WebBrain project explored neural knowledge graph completion [WebBrain2016] for better generalization. 
+COMET, short for COMmonsEnse Transformer [bosselut-etal-2019-comet], and the improved COMET-ATOMIC 2020 [Hwang2021COMETATOMIC2020], used existing data to fine-tune Transformer-based models.
+This line of work considers the original ConceptNet relations as well as reasoning-related knowledge pertaining to events, causes, and effects, e.g., what goals might have motivated 
+a person {{arxiv_2308_06374_FO0017||FO}} to leave an event without person {{arxiv_2308_06374_FO0018||FO}}.
+Recently, [west2021symbolic] shows how common-sense triples could be extracted from an LLM and use through distillation to transfer knowledge into a smaller LM, outperfoming the larger one.
+Overall, fine-tuned LLMs are found to outperform off-the-shelf LLMs, while also benefitting from the advances of the latter.

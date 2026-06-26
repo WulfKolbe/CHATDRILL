@@ -1,0 +1,14 @@
+created: 20260625095716234
+displayMode: true
+equation_number: 
+kind: Equation
+latex: \textit{strict}(\text{\texttt{s}}, \text{\texttt{f}}, \{x_{1}, x_{2},.., x_{\gamma}\}) = \frac{|\{x_{i} | (x_{i}, \text{\texttt{f}}) \in \text{KB}\}|}{\gamma}
+latex_original: \textit{strict}(\text{\texttt{s}}, \text{\texttt{f}}, \{x_{1}, x_{2},.., x_{\gamma}\}) = \frac{|\{x_{i} | (x_{i}, \text{\texttt{f}}) \in \text{KB}\}|}{\gamma}
+modified: 20260625095716234
+page: 000
+refnum: 
+tags: equation 2208.09292
+title: 2208.09292_EQ0002
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode=true />

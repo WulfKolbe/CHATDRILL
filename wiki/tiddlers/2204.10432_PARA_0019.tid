@@ -1,0 +1,13 @@
+created: 20260625093505869
+modified: 20260625093505869
+page: 000
+parent_section: 2204.10432_H2
+tags: paragraph 2204.10432
+title: 2204.10432_PARA_0019
+type: text/vnd.tiddlywiki
+
+[delahunty-etal-2019-passive] used a deep neural network to predict PHQ4 scores 
+using clinical data that contains patients' PHQ4 scores [gratch2014distress]. Our work does not require access to PHQ labeled clinical data, which can be hard to obtain at scale. Furthermore, Delahunty's approach generalizes poorly to social media data.
+[rinaldi2020predicting] predict depression based on screening interviews that rely on PHQ9 categories. In their setting, PHQ9 is a channel to retrieve the depressed label, but is not used for explainability. [yadav-etal-2020-identifying] propose a multitask learning framework that uses PHQ-9 and figurative language detection as auxiliary tasks.
+[lee-etal-2021-micromodels-efficient] contemporaneously propose a micromodel architecture that they apply to mental health assessment tasks.
+Our work shares several similarities with this approach, which uses micromodels that are similar to our symptom classifiers (questionnaire models).

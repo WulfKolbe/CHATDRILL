@@ -1,0 +1,10 @@
+created: 20260625080929031
+modified: 20260625080929031
+page: 000
+parent_section: arxiv_2204_11677_H1
+tags: paragraph arxiv_2204_11677
+title: arxiv_2204_11677_PARA_0052
+type: text/vnd.tiddlywiki
+
+verbalized [oguz2021unikqa,jia21complex,pramanik2021uniqorn] on-the-fly and run through a scoring model.
+The top-{{arxiv_2204_11677_FO0021||FO}} pieces of evidence are passed to the answering stage.

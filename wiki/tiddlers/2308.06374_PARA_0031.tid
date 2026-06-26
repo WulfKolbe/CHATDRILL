@@ -1,0 +1,12 @@
+created: 20260625093119694
+modified: 20260625093119694
+page: 000
+parent_section: 2308.06374_H5
+tags: paragraph 2308.06374
+title: 2308.06374_PARA_0031
+type: text/vnd.tiddlywiki
+
+Among all the table processing tasks, semantic table annotation which matches table data to KG components (e.g., table column to KG class, table cell to KG entity, inter-column relationship to KG property) can be directly applied to extract knowledge for KG construction and population [liu2022tabular,jimenez2020semtab].
+There have been several attempts that use LLMs for these tasks.
+Doduo [suhara2022annotating] serializes a table into a sequence of tokens and trains BERT for predicting column types and inter-column relationships.
+Korini et al. [korini2023column] prompts ChatGPT to annotate semantic column types. When task-specific samples for demonstration are minimal or absent, ChatGPT achieves similar performance RoBERTa model. Although some attention has been given to utilizing LLMs for tabular data processing and KG construction, there is still much room for investigation, especially towards the following challenges:

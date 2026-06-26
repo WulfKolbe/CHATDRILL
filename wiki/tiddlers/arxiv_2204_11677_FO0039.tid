@@ -1,0 +1,11 @@
+caption: \langle q^1, a^1 \rangle
+created: 20260625080929033
+displayMode: false
+latex: \langle q^1, a^1 \rangle
+latex_original: \langle q^1, a^1 \rangle
+modified: 20260625080929033
+tags: formula arxiv_2204_11677
+title: arxiv_2204_11677_FO0039
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

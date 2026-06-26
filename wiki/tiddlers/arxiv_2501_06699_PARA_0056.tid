@@ -1,0 +1,14 @@
+created: 20260625080804874
+modified: 20260625080804874
+page: 000
+parent_section: arxiv_2501_06699_H6
+tags: paragraph arxiv_2501_06699
+title: arxiv_2501_06699_PARA_0056
+type: text/vnd.tiddlywiki
+
+LLMs have the capability to enrich SE functionality on both the user-input side and the way results are presented
+ [DBLP:journals/corr/abs-2308-07107]. 
+ On the input side, LLMs provide users with natural-language dialogue that humans appreciate, particularly for explanations, planning and advice. Queries are seamlessly derived from the user's utterances, based on the LLM's skills in language generation, such as paraphrasing. 
+ This setting also paves the way for conversational IR [DBLP:journals/ftir/ZamaniTDR23], where users interactively explore certain topics.
+ The processing of search requests can be also supported by LLMs, leveraging their inherent language skills to help find more matches to search queries and compute better relevance scores for individual results. 
+ On the output presentation, LLMs can generate more direct answers from top-ranked results or overview-style summaries of the topics that the user wants to explore. These may even come with suggestions to the user on how to proceed further, in a human-friendly conversational manner.

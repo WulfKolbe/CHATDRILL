@@ -1,0 +1,12 @@
+created: 20260625080931150
+modified: 20260625080931150
+page: 000
+parent_section: arxiv_2110_13883_H8
+tags: paragraph arxiv_2110_13883
+title: arxiv_2110_13883_PARA_0062
+type: text/vnd.tiddlywiki
+
+In essence, we can compute {{arxiv_2110_13883_FO0287||FO}} in a straight forward manner. To compute the local distances, i.e. {{arxiv_2110_13883_FO0288||FO}}, we need to set {{arxiv_2110_13883_FO0289||FO}} to refer to the maximum distance between two points in the subspace {{arxiv_2110_13883_FO0290||FO}}, and recompute {{arxiv_2110_13883_FO0291||FO}} for each pair {{arxiv_2110_13883_FO0292||FO}}. To compute {{arxiv_2110_13883_FO0293||FO}} for a subspace {{arxiv_2110_13883_FO0294||FO}}, we first need to recompute all leave assignments. That is, given a tree {{arxiv_2110_13883_FO0295||FO}}, we assign each point {{arxiv_2110_13883_FO0296||FO}} to that leaf in {{arxiv_2110_13883_FO0297||FO}}, to which it would be assigned, 
+if projected onto {{arxiv_2110_13883_FO0298||FO}}.
+After reassigning the leaves, we can compute {{arxiv_2110_13883_FO0299||FO}} as above.
+Based on the above procedure, we can compute {{arxiv_2110_13883_FO0300||FO}} and {{arxiv_2110_13883_FO0301||FO}} for each pair {{arxiv_2110_13883_FO0302||FO}} and use these distances to compute our \ourmethod estimator as described in Sec. (ref).

@@ -1,0 +1,10 @@
+created: 20260625080858062
+modified: 20260625080858062
+page: 000
+parent_section: arxiv_2210_07763_H2
+tags: paragraph arxiv_2210_07763
+title: arxiv_2210_07763_PARA_0026
+type: text/vnd.tiddlywiki
+
+Earlier projects, e.g., Cyc [lenat1995cyc] and ConceptNet [liu2004conceptnet], construct commonsense knowledge graphs (CSKGs) based on large-scale human annotations.
+Crowdsourcing CSKG construction has been revived in the ATOMIC project [atomic,comet-atomic-2020]. CSK extraction from texts has been researched in WebChild [webchild], TupleKB [tuplekb], Quasimodo [quasimodo], ASER [zhang2020aser,ZHANG2022103740], TransOMCS [transomcs], GenericsKB [bhakthavatsalam2020genericskb], and Ascent [ascent,ascentpp].

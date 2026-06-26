@@ -1,0 +1,10 @@
+created: 20260625093448815
+modified: 20260625093448815
+page: 000
+parent_section: 2204.11677_H12
+tags: paragraph 2204.11677
+title: 2204.11677_PARA_0171
+type: text/vnd.tiddlywiki
+
+a simple yet tough-to-beat baseline in almost all ConvQA tasks [qu2019bert,christmann2019look,vakulenko2021question,kaiser2021reinforcement],
+and so we investigate the same here as well. Specifically, we consider four variants: i) add only the initial turn {{2204.11677_FO0089||FO}}, as it often establishes the topic of the conversation (Prepend init); ii) add only the previous turn {{2204.11677_FO0090||FO}}, as it sets immediate context for the current information need (Prepend prev); iii) add both initial and previous turns (Prepend init+prev); and iv) add all turns {{2204.11677_FO0091||FO}} (Prepend all).

@@ -1,0 +1,10 @@
+created: 20260625110956922
+modified: 20260625110956922
+page: 000
+parent_section: 2110.13883_H7
+tags: paragraph 2110.13883
+title: 2110.13883_PARA_0054
+type: text/vnd.tiddlywiki
+
+For an ordered sequence, we can reduce the runtime complexity, to determine the best split point, to {{2110.13883_FO0235||FO}}. Hence, even for an unordered sequence, we obtain a runtime in {{2110.13883_FO0236||FO}} by sorting, which is still faster than the original fast-BIC computation.
+To achieve this speed-up, we use an elegant trick developed for segmentation. As derived by Terzi [terzi:06:segmentation], we can compute the empirical variance {{2110.13883_FO0237||FO}} for an arbitrary segment {{2110.13883_FO0238||FO}}, with {{2110.13883_FO0239||FO}} as

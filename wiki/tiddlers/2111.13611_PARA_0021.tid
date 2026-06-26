@@ -1,0 +1,9 @@
+created: 20260625093527300
+modified: 20260625093527300
+page: 000
+parent_section: 2111.13611_H3
+tags: paragraph 2111.13611
+title: 2111.13611_PARA_0021
+type: text/vnd.tiddlywiki
+
+We take an entity-centric perspective, and view RE methods as functions mapping document-entity-relation tuples onto the set of objects found in the document. Formally, given a document {{2111.13611_FO0011||FO}}, an entity {{2111.13611_FO0012||FO}}, a relation {{2111.13611_FO0013||FO}}, a ground truth {{2111.13611_FO0014||FO}} of objects that stand in relation {{2111.13611_FO0015||FO}} with {{2111.13611_FO0016||FO}}, and a relation extraction method {{2111.13611_FO0017||FO}}, the document coverage of {{2111.13611_FO0018||FO}} for {{2111.13611_FO0019||FO}} applying {{2111.13611_FO0020||FO}} is defined as:

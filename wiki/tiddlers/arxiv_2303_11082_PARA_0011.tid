@@ -1,0 +1,11 @@
+created: 20260625080853980
+modified: 20260625080853980
+page: 000
+parent_section: arxiv_2303_11082_H2
+tags: paragraph arxiv_2303_11082
+title: arxiv_2303_11082_PARA_0011
+type: text/vnd.tiddlywiki
+
+Knowledge base construction is a field with considerable history. One prominent approach is by human curation, as done e.g., in the seminal CYC project [lenat1995cyc], and this is also the backbone of today's most prominent public KB, Wikidata [wikidata].
+Another popular paradigm is the extraction from semi-structured resources, as pursued in Yago and DBpedia [yago,dbpedia]. Extraction from free text has also been explored (e.g., NELL [nell]). 
+A popular paradigm has been embedding-based link prediction, e.g., via tensor factorization like Rescal [nickel2011three], and KG embeddings like TransE [bordes2013translating].

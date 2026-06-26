@@ -1,0 +1,9 @@
+created: 20260625080853723
+modified: 20260625080853723
+page: 000
+parent_section: arxiv_2305_05403_H28
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0237
+type: text/vnd.tiddlywiki
+
+Recently, large language models (LLMs) such as Bert [bert], (chat-)GPT [radford2019language], and LLaMA [touvron2023llama] have significantly impacted natural language processing. This impact has extended to knowledge-intensive tasks, and specifically also to knowledge bases [pan2023large,kbs-and-llms]. Although completeness and recall research has yet to capitalize on these advances, there are several ways by which LLMs are likely to impact this area.

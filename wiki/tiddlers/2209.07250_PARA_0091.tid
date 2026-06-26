@@ -1,0 +1,10 @@
+created: 20260625093341705
+modified: 20260625093341705
+page: 000
+parent_section: 2209.07250_H12
+tags: paragraph 2209.07250
+title: 2209.07250_PARA_0091
+type: text/vnd.tiddlywiki
+
+Since we deal with non-canonicalized surface forms of instances, we maintained a list of aliases, obtained from Wikidata, for the annotated prominent instances. 
+An instance is relevant if its length-normalized Levenshtein distance [navarro2001guided] from any of the aliases is less than 0.1.

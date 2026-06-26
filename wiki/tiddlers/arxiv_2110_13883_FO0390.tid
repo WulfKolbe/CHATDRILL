@@ -1,0 +1,11 @@
+caption: \{0, 100,200,...,600\}
+created: 20260625080931152
+displayMode: false
+latex: \{0, 100,200,...,600\}
+latex_original: \{0, 100,200,...,600\}
+modified: 20260625080931152
+tags: formula arxiv_2110_13883
+title: arxiv_2110_13883_FO0390
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

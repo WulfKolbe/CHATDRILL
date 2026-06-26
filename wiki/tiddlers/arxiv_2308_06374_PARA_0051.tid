@@ -1,0 +1,11 @@
+created: 20260625080831230
+modified: 20260625080831230
+page: 000
+parent_section: arxiv_2308_06374_H6
+tags: paragraph arxiv_2308_06374
+title: arxiv_2308_06374_PARA_0051
+type: text/vnd.tiddlywiki
+
+Traditionally, retrieval and reasoning of relational knowledge have both relied on symbolic knowledge bases 
+{[10.1007/978-3-319-25007-6_28]}, that often are constructed using supervised extraction techniques applied to unstructured corpora, e.g. Web archives [journals/semweb/YuGFLRD19,tempelmeier2018inferring]. More recently, self-supervised LLMs have been investigated for their ability to directly retrieve relational knowledge [zhou2023large] from their parameters, e.g. through question answering, prompting through the use of cloze-style questions [heinzerling-inui-2021-language,sachan-etal-2021-syntax] or statement scoring [tamborrino2020pre]. 
+In this context, the ability of LLMs to retrieve, infer and generalize relational knowledge is seen as a crucial indicator of their capacity to understand and interpret natural language. Even though a range of terms are used in that context, e.g. fact or knowledge retrieval as well as knowledge inference, we refer to the task of accessing relational knowledge from LLM parameters as knowledge retrieval.

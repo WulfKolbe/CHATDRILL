@@ -1,0 +1,10 @@
+created: 20260625080929321
+modified: 20260625080929321
+page: 000
+parent_section: arxiv_2204_10432_H21
+tags: paragraph arxiv_2204_10432
+title: arxiv_2204_10432_PARA_0078
+type: text/vnd.tiddlywiki
+
+To evaluate the performance of our weakly-supervised symptom classifiers, we prepared 900 examples manually labeled by three annotators. 
+The labeled samples were randomly selected posts containing carefully selected keywords (e.g., keywords that are close to positive patterns - ``sleep`` in ``can't sleep``) to avoid including too many easy true negatives. The labeling process involved three annotators. The first annotator labeled all 100 instances, and the second annotator re-labeled 50 of them. If the agreement on twice-labeled examples was weak ({{arxiv_2204_10432_FO0042||FO}}), the second annotator would continue to annotate the remaining 50 examples. The third annotator adjudicated label disagreements between the first two annotators.

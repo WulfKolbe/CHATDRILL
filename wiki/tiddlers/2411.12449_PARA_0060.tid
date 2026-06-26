@@ -1,0 +1,9 @@
+created: 20260625093007936
+modified: 20260625093007936
+page: 000
+parent_section: 2411.12449_H7
+tags: paragraph 2411.12449
+title: 2411.12449_PARA_0060
+type: text/vnd.tiddlywiki
+
+The Pearson correlation between human assessments and few-shot prompt-based automated evaluations showed weak positive correlations: 0.24 (helpfulness), 0.12 (relevance), and 0.19 (faithfulness). Inter-annotator reliability, measured on the overlapping 10% of the responses from 3 annotators using Krippendorff's alpha, indicated strong agreement with scores of 0.71 (helpfulness), 0.77 (relevance), and 0.61 (faithfulness).

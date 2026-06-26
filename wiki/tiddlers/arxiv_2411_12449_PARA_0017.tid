@@ -1,0 +1,9 @@
+created: 20260625080805467
+modified: 20260625080805467
+page: 000
+parent_section: arxiv_2411_12449_H1
+tags: paragraph arxiv_2411_12449
+title: arxiv_2411_12449_PARA_0017
+type: text/vnd.tiddlywiki
+
+We test the effectiveness of Neon by collecting 3,000 real-world queries from the Bing search engine on specific dates for 50 sampled entities. These entities were chosen with various considerations in mind, including demographic diversity, the balance between popular and long-tail entities, and a mix of person and organization-type entities, as explained further in Section (ref). To perform temporal QA generation, we augment the LLM prompts with retrieved Neon tuples (illustrative examples provided in Table (ref)). Since answers to temporal queries can be subjective, and LLMs have proven to be effective evaluators [liu-etal-2023-g, wang2024helpsteer2opensourcedatasettraining], particularly on downstream tasks within the news domain [xu-etal-2023-instructscore, chiang-lee-2023-large], we employ LLMs to automatically assess the quality of responses on a 3-point Likert scale. We also corroborate the automatic evaluations through human assessment. Our experiments reveal that integrating Neon entity-interactions into LLM prompts improves the temporal relevance and overall quality of the answers.

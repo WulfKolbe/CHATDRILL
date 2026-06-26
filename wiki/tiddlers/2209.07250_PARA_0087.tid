@@ -1,0 +1,9 @@
+created: 20260625093341705
+modified: 20260625093341705
+page: 000
+parent_section: 2209.07250_H10
+tags: paragraph 2209.07250
+title: 2209.07250_PARA_0087
+type: text/vnd.tiddlywiki
+
+Most queries count entities in a simple relation to one named entity, i.e., the avg.\ query length is 6.40 words, with an average of 1.08 named entities per query. We found that 95% of the 322 queries returned non-empty answer types, with more than 200 unique phrases, for instance, sibling, movie, employee, nfl stadium, real estate agent, czech player. The queries spanned over 49 different relations.

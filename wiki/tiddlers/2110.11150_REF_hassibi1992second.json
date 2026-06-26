@@ -1,0 +1,17 @@
+[
+    {
+        "title": "2110.11150_REF_hassibi1992second",
+        "text": "{{||CIT}} B. Hassibi and D. G. Stork. Second order derivatives for network pruning: Optimal brain surgeon. In International Conference on Neural Information Processing Systems, 1992.",
+        "type": "text/markdown",
+        "tags": "reference bibentry bibtex 2110.11150",
+        "created": "20260626111149172",
+        "modified": "20260626111149172",
+        "kind": "reference",
+        "citekey": "hassibi1992second",
+        "year": "1992",
+        "authors": "Hassibi, Babak and Stork, David G.",
+        "entry_type": "inproceedings",
+        "titlefield": "Second Order Derivatives for Network Pruning: Optimal Brain Surgeon",
+        "bibtex": "@inproceedings{hassibi1992second,\nauthor = {Hassibi, Babak and Stork, David G.},\ntitle = {Second Order Derivatives for Network Pruning: Optimal Brain Surgeon},\nyear = {1992},\nbooktitle = {International Conference on Neural Information Processing Systems}\n}"
+    }
+]

@@ -1,0 +1,11 @@
+caption: ^{\prime j}_i
+created: 20260625080922311
+displayMode: false
+latex: ^{\prime j}_i
+latex_original: ^{\prime j}_i
+modified: 20260625080922311
+tags: formula arxiv_2208_09292
+title: arxiv_2208_09292_FO0053
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

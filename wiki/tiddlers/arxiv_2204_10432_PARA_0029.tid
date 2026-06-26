@@ -1,0 +1,9 @@
+created: 20260625080929321
+modified: 20260625080929321
+page: 000
+parent_section: arxiv_2204_10432_H8
+tags: paragraph arxiv_2204_10432
+title: arxiv_2204_10432_PARA_0029
+type: text/vnd.tiddlywiki
+
+The three datasets selected for experiments are RSDD [yates-etal-2017-depression], eRisk2018 [losada2016test] and TRT [Wolohan2018DetectingLT]. The RSDD (Reddit Self-reported Depression Diagnosis) dataset was constructed from Reddit posts and contains approximately {{arxiv_2204_10432_FO0011||FO}} self-reported diagnosed users and {{arxiv_2204_10432_FO0012||FO}} matched control users.

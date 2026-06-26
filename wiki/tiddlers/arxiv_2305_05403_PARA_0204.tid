@@ -1,0 +1,9 @@
+created: 20260625080853722
+modified: 20260625080853722
+page: 000
+parent_section: arxiv_2305_05403_H22
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0204
+type: text/vnd.tiddlywiki
+
+The discussed approaches mostly treat entities as sets of properties - distinguishing just whether a property is present or not, but not taking into account how many values are present. For example, even though one award for Einstein is listed in a KB, the KB could be missing many others. Disregarding this aspect is pragmatically motivated by the partial completeness assumption (see Section (ref)): the presence of one value per property likely implies presence of all values. At the same time, extensions towards explicit regard for multi-valued properties would be desirable. A second limitation is inherent to all relative measures: Relative measures may appear good even for bad items, if the comparison is even worse, and vice versa. There is no firm link to the notion of recall from the previous sections, as, even if an entity is well-covered compared with related entities, no strong deductions about its recall, relative to the real world, are possible.

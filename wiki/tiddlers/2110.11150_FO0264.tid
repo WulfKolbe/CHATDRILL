@@ -1,0 +1,11 @@
+caption: |I| \geq C \log\left(\frac{1}{\min\left(\delta_l, \epsilon_l\right)} \right)
+created: 20260626094813422
+displayMode: false
+latex: |I| \geq C \log\left(\frac{1}{\min\left(\delta_l, \epsilon_l\right)} \right)
+latex_original: |I| \geq C \log\left(\frac{1}{\min\left(\delta_l, \epsilon_l\right)} \right)
+modified: 20260626094813422
+tags: formula 2110.11150
+title: 2110.11150_FO0264
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

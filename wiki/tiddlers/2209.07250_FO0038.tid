@@ -1,0 +1,11 @@
+caption: \alpha=0\%
+created: 20260625093341706
+displayMode: false
+latex: \alpha=0\%
+latex_original: \alpha=0\%
+modified: 20260625093341706
+tags: formula 2209.07250
+title: 2209.07250_FO0038
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

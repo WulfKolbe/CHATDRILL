@@ -1,0 +1,9 @@
+created: 20260625093231913
+modified: 20260625093231913
+page: 000
+parent_section: 2305.05403_H1
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0009
+type: text/vnd.tiddlywiki
+
+\noindent This survey presents the methods that the recent literature has developed to address these problems. For example, several formalisms have been developed to specify the extent of the knowledge in a KB, including the possibility to make negative statements, or to specify metadata on completeness. Knowledge engineers can record that they entered all winners of the Nobel Prize in Physics into Wikidata, or mark prominent Physicists who did not win it. If such a manual marking is not possible, there are also methods to infer the completeness of a KB automatically. For example, it is possible to spot phrases such as ``the Nobel Prize in Physics was awarded to 218 individuals'', and to compare this count with the number of entities in the KB. It is also possible to draw conclusions about the completeness of a KB from the growth or near-stagnation of a set of entities in the KB, from the overlap between sets of Nobel Prize winners from different random samples, or from different KBs. One can also observe that most winners hold academic degrees, and so flag entities without an alma mater as likely incomplete. The knowledge engineer thus has a growing repository of methods at hand to tackle the problem of incompleteness, and this is what the present survey covers.

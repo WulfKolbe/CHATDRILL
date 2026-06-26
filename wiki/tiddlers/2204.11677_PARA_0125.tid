@@ -1,0 +1,15 @@
+created: 20260625093448814
+modified: 20260625093448814
+page: 000
+parent_section: 2204.11677_H7
+tags: paragraph 2204.11677
+title: 2204.11677_PARA_0125
+type: text/vnd.tiddlywiki
+
+Consider this example:
+\begin{Snugshade}
+ \utterance{{{2204.11677_FO0066||FO}}: Who played Jaime Lannister in GoT?}\\
+ \indent {{2204.11677_FO0067||FO}}: \struct{Nikolaj Coster-Waldau}\\
+ \indent \utterance{{{2204.11677_FO0068||FO}}: What about the dwarf?}
+\end{Snugshade}
+\noindent It is

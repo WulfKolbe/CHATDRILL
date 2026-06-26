@@ -1,0 +1,12 @@
+created: 20260625080929032
+modified: 20260625080929032
+page: 000
+parent_section: arxiv_2204_11677_H5
+tags: paragraph arxiv_2204_11677
+title: arxiv_2204_11677_PARA_0104
+type: text/vnd.tiddlywiki
+
+For text-corpus evidences, we take an entity-centric view of Wikipedia:
+for each of the disambiguated entities from \clocq, we retrieve the corresponding Wikipedia page.
+For example, for the SR {{arxiv_2204_11677_FO0054||FO}} \struct{\textcolor{gray}{GoT} | \textcolor{red}{Jaime Lannister} | \textcolor{blue}{who played} | \textcolor{cyan}{human}} {{arxiv_2204_11677_FO0055||FO}}, we would consider the Wikipedia pages for \struct{Jaime Lannister}, \struct{Game of Thrones (TV Series)}, \struct{Game of Thrones (A Song of Ice and Fire)},
+and so on (\clocq allows for multiple disambiguations per question token).

@@ -1,0 +1,11 @@
+caption: \tau
+created: 20260625080922310
+displayMode: false
+latex: \tau
+latex_original: \tau
+modified: 20260625080922310
+tags: formula arxiv_2208_09292
+title: arxiv_2208_09292_FO0022
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

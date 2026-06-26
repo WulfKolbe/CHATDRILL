@@ -1,0 +1,10 @@
+created: 20260625093007936
+modified: 20260625093007936
+page: 000
+parent_section: 2411.12449_H7
+tags: paragraph 2411.12449
+title: 2411.12449_PARA_0059
+type: text/vnd.tiddlywiki
+
+Human Assessment.
+To better understand and validate the automated evaluation results, we conducted a human assessment focusing on our 3 evaluation attributes. Annotators rated 100 randomly sampled responses across all methods using a 3-point Likert scale. To ensure consistency, annotators were provided with detailed descriptions of each attribute, method-specific supporting documents included in the LLM prompt for temporal QA, and examples illustrating each attribute-scale combination. External searches were disallowed, and ratings were based solely on the reformulated query, supporting documents, and LLM-generated responses.

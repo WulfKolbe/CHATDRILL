@@ -1,0 +1,12 @@
+created: 20260625093527301
+modified: 20260625093527301
+page: 000
+parent_section: 2111.13611_H12
+tags: paragraph 2111.13611
+title: 2111.13611_PARA_0077
+type: text/vnd.tiddlywiki
+
+In the experiment described here, we simulate this setting, comparing
+standard RE by SSAN against HERB-enhanced RE where HERB prioritizes documents for RE by SSAN. We assume a budget of 10 minutes of processing time and give both methods 100 candidate documents. 
+SSAN selects documents randomly and processes them until it runs out of time.
+HERB+SSAN sorts documents by HERB scores for high coverage and then lets SSAN process them in this order. The time for HERB itself is part of the 10-minute budget for the HERB+SSAN method.

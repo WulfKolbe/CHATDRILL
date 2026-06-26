@@ -1,0 +1,10 @@
+created: 20260625093308064
+modified: 20260625093308064
+page: 000
+parent_section: 2210.07763_H2
+tags: paragraph 2210.07763
+title: 2210.07763_PARA_0032
+type: text/vnd.tiddlywiki
+
+In this work, we leverage pre-trained LMs as sub-modules in our system to help with cultural facet classification and assertion clustering.
+We also show that our method can produce more

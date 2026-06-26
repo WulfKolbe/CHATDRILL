@@ -1,0 +1,10 @@
+created: 20260625093119694
+modified: 20260625093119694
+page: 000
+parent_section: 2308.06374_H7
+tags: paragraph 2308.06374
+title: 2308.06374_PARA_0081
+type: text/vnd.tiddlywiki
+
+Rule 2: {{2308.06374_FO0013||FO}}
+This rule states that for all individuals x and y, if there exists a 'biologicalChild' relationship between x and y, then y is the father of x.

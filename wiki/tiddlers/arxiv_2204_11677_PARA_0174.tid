@@ -1,0 +1,9 @@
+created: 20260625080929032
+modified: 20260625080929032
+page: 000
+parent_section: arxiv_2204_11677_H12
+tags: paragraph arxiv_2204_11677
+title: arxiv_2204_11677_PARA_0174
+type: text/vnd.tiddlywiki
+
+The model is fine-tuned on \convmix, using the {{arxiv_2204_11677_FO0092||FO}}full history, current question{{arxiv_2204_11677_FO0093||FO}}-pairs as input, and the respective completed questions (available in the benchmark) as the gold label.

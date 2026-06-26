@@ -1,0 +1,10 @@
+created: 20260625080853721
+modified: 20260625080853721
+page: 000
+parent_section: arxiv_2305_05403_H3
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0017
+type: text/vnd.tiddlywiki
+
+\begin{example}
+As a running example, consider a KB with biographical data about scientists. An excerpt of this KB is shown in Table (ref), in a Wikidata-style layout, where the subject of all statements is shown at the top (Marie Curie), and predicates and objects are shown in tabular form below. This KB contains a diverse set of statements, linking entities with other entities, as well as with literals, and containing multiple objects for some predicates but not for all.

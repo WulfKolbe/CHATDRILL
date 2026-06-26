@@ -1,0 +1,11 @@
+created: 20260625080805467
+modified: 20260625080805467
+page: 000
+parent_section: arxiv_2411_12449_H7
+tags: paragraph arxiv_2411_12449
+title: arxiv_2411_12449_PARA_0054
+type: text/vnd.tiddlywiki
+
+Tables (ref) and (ref) presents the main results, comparing system performance across temporal and generic retrieval strategies using a 3-point Likert scale
+across the evaluation attributes and an average across the 3 scores. WebRAG is invariant to retrieval strategy since Bing 
+combines aspects of both temporal and generic retrieval. Best scores are highlighted, while second-best scores are boldfaced.

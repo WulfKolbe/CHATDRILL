@@ -1,0 +1,11 @@
+caption: \epsilon < \frac{1}{8}
+created: 20260625151931663
+displayMode: false
+latex: \epsilon < \frac{1}{8}
+latex_original: \epsilon < \frac{1}{8}
+modified: 20260625151931663
+tags: formula 2110.11150
+title: 2110.11150_FO0283
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

@@ -1,0 +1,10 @@
+created: 20260625093341705
+modified: 20260625093341705
+page: 000
+parent_section: 2209.07250_H20
+tags: paragraph 2209.07250
+title: 2209.07250_PARA_0118
+type: text/vnd.tiddlywiki
+
+We identify some challenges which can be tackled to improve instance explanations from text.
+The low precision scores of {\mysystem} can be attributed to i) noise due to non-entity terms recognized as entities ii) alternate human-readable surface forms like the ``European Union'' as the group with which ``South Korea'' has a foreign trade agreement with instead of the specific group name ``European Free Trade Association'', iii) entities satisfying a more general criteria, for instance returning other airports from Vietnam when asked for airports in Ho Chi Minh City, iii) local or generalized surface forms, for instance ``Himalayan rivers'' referring to the group of rivers in India originating from the Himalayan mountain range instead of specifically naming the rivers. These errors are specific to texts and are difficult to overcome without human annotation.

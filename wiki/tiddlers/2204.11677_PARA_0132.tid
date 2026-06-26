@@ -1,0 +1,11 @@
+created: 20260625093448814
+modified: 20260625093448814
+page: 000
+parent_section: 2204.11677_H7
+tags: paragraph 2204.11677
+title: 2204.11677_PARA_0132
+type: text/vnd.tiddlywiki
+
+\myparagraph{Implementation}
+Based on this idea, we create data for training the QU model as follows:
+starting with the complete question {{2204.11677_FO0073||FO}}, we retrieve all evidences

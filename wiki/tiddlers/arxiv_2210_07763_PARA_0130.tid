@@ -1,0 +1,9 @@
+created: 20260625080858063
+modified: 20260625080858063
+page: 000
+parent_section: arxiv_2210_07763_H15
+tags: paragraph arxiv_2210_07763
+title: arxiv_2210_07763_PARA_0130
+type: text/vnd.tiddlywiki
+
+Augmenting LMs input with additional contexts retrieved from knowledge bases has been a popular approach to question answering (QA) [guu2020realm,petroni2020context], which shows that although LMs store information in billions of parameters, they still lack knowledge to answer knowledge-intensive questions, e.g., ``What is the appropriate color to wear at a Hindu funeral?''

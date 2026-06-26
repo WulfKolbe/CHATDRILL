@@ -1,0 +1,10 @@
+created: 20260625093047341
+modified: 20260625093047341
+page: 000
+parent_section: 2405.02732_H8
+tags: paragraph 2405.02732
+title: 2405.02732_PARA_0041
+type: text/vnd.tiddlywiki
+
+To scrutinize the candidate objects O for a given SP and eliminate false positives, we devise several techniques.
+ The key idea is to identify passages that clearly reflect SPO triples, and use these {\em support passages} to rank and prune O values, and also learn embeddings for the P predicates.

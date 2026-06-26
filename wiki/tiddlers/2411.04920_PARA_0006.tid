@@ -1,0 +1,11 @@
+created: 20260625093027647
+modified: 20260625093027647
+page: 000
+parent_section: 2411.04920_H2
+tags: paragraph 2411.04920
+title: 2411.04920_PARA_0006
+type: text/vnd.tiddlywiki
+
+Since the emergence of LLMs, the question of how much these models know has frequently been raised [petroni-etal-2019-language,roberts-etal-2020-much,jiang-etal-2020-know,singhania2022lm,veseli2023evaluating,sun-etal-2024-head,wu2024towards].
+So far, the widely adopted approach is to sample a domain of interest, e.g., question-answer pairs from a common benchmark, or triples from Wikidata, transiently probe the LLM, and compute the fraction that the LLM can correctly answer/complete. 
+This is prone to ``availability bias'' [kahnemann] since we do not get a comprehensive view of the LLM knowledge outside the focus of existing benchmarks.

@@ -1,0 +1,11 @@
+caption: \neg st
+created: 20260625093231916
+displayMode: false
+latex: \neg st
+latex_original: \neg st
+modified: 20260625093231916
+tags: formula 2305.05403
+title: 2305.05403_FO0015
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

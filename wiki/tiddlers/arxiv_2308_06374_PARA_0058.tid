@@ -1,0 +1,11 @@
+created: 20260625080831230
+modified: 20260625080831230
+page: 000
+parent_section: arxiv_2308_06374_H6
+tags: paragraph arxiv_2308_06374
+title: arxiv_2308_06374_PARA_0058
+type: text/vnd.tiddlywiki
+
+With respect to the interpretation, reliability and generalisability of knowledge retrieval, several studies [branco-etal-2021-shortcutted,cao-etal-2021-knowledgeable] investigate whether LLMs actually learn transferable generalisations or only exploit incidental shortcuts in the data. 
+[cao-etal-2021-knowledgeable] explore biases in three different knowledge retrieval paradigms, namely prompt-based retrieval, case-based analogy, context-based inference, finding that decent performance of existing knowledge retrieval baselines tends to be driven by biased prompts that overfit to artefacts in the data, guide the LLM towards correct entity types or unintentionally leak correct answers or additional constraints applicable to the correct answer. 
+In a similar context, [du2022shortcut] discuss the shortcut learning behaviour arising due to skewed training datasets, the model, or the fine-tuning process. [schramowski2022large] demonstrate an intriguing similarity between human cognitive biases and those exhibited by LLMs. Using insights from psychology, they analyse the learning and decision-making processes of black-box models to reveal their biases towards right-and-wrong for decision-making.

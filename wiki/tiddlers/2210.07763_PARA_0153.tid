@@ -1,0 +1,10 @@
+created: 20260625093308065
+modified: 20260625093308065
+page: 000
+parent_section: 2210.07763_H19
+tags: paragraph 2210.07763
+title: 2210.07763_PARA_0153
+type: text/vnd.tiddlywiki
+
+\systemname{} adopts the GenericsKB rules. However, as GenericsKB only deals with general concepts (e.g., ``tree'', ``bird'', etc.), some of the rules are not applicable for the cultural subjects that can be named entities. Hence, depending on the subjects and facets, we adaptively modify the rules (by dropping some of them) so that we will not miss out valuable assertions. For instance, for geography, the has-no-determiners-as-first-word rule will filter out valuable assertions such as \stmt{The Chinese use chopsticks to eat their food} or \stmt{The currywurst is a traditional German fast food dish}, and it must be dropped. In another situation, when exploring the ``traditions'' facet, the remove-past-tense-verb-roots rule would be too aggressive as it rejects assertions about past traditions. 
+The rule that rejects sentences with PERSON entities can be used for the geography and occupation subjects, but must not be used for religions, because it will filter out sentences about Buddha or Jesus Christ. Full details are in the published code base\footnote{\url{https://github.com/cultural-csk/candle/blob/main/candle/pipeline/component_generic_sentence_filter.py}}.

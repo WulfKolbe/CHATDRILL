@@ -1,0 +1,12 @@
+created: 20260625093105364
+modified: 20260625093105364
+page: 000
+parent_section: 2310.14771_H2
+tags: paragraph 2310.14771
+title: 2310.14771_PARA_0009
+type: text/vnd.tiddlywiki
+
+KB construction has a considerable history.
+One prominent approach is by human curation, as done e.g., in the seminal Cyc project [lenat1995cyc], and this is also the backbone of today's most prominent public KB, Wikidata [wikidata].
+Another popular paradigm is the extraction from semi-structured resources, as pursued in Yago and DBpedia [yago,dbpedia]. Extraction from free text has also been explored (e.g., NELL [nell]). 
+A popular paradigm has been embedding-based link prediction, e.g., via tensor factorization like Rescal [nickel2011three], and KG embeddings like TransE [bordes2013translating].

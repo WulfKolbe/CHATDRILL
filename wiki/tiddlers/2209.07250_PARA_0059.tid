@@ -1,0 +1,9 @@
+created: 20260625093341705
+modified: 20260625093341705
+page: 000
+parent_section: 2209.07250_H7
+tags: paragraph 2209.07250
+title: 2209.07250_PARA_0059
+type: text/vnd.tiddlywiki
+
+Beyond classifying count answer contexts, showing relevant sample instances is an important step towards explainability. To this end, we aim to identify entities that are among the ones counted in the query using Algorithm (ref).

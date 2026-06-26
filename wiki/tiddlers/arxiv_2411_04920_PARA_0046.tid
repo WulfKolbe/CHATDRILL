@@ -1,0 +1,9 @@
+created: 20260625080816564
+modified: 20260625080816564
+page: 000
+parent_section: arxiv_2411_04920_H6
+tags: paragraph arxiv_2411_04920
+title: arxiv_2411_04920_PARA_0046
+type: text/vnd.tiddlywiki
+
+We require a total of 2,200 batches to prompt the LLM up to BFS-depth 10, which corresponded to 5.8M prompted entities, of which for 2.9M a non-empty answer was returned. The whole process took 27 hours, and including trial runs, constructing \ourkb\ cost us a total of \$3,500 for

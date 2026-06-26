@@ -1,0 +1,10 @@
+created: 20260625080922310
+modified: 20260625080922310
+page: 000
+parent_section: arxiv_2208_09292_H9
+tags: paragraph arxiv_2208_09292
+title: arxiv_2208_09292_PARA_0058
+type: text/vnd.tiddlywiki
+
+Data Source: Ascent CSKB.
+We use Ascent++ [ascentpp] as our input CSKB (in the following just called Ascent). This choice is motivated by the fact that computing negations benefits from richer input sets (i.e, high statement-recall per concept). In comparison, in ConceptNet, the most prominent CSKB, has 23 statements per concept on average. Ascent, on the other hand, has 256. Moreover, Ascent contains 2m assertions for 23k subjects. We restrict our evaluation to the 8k primary subjects and disregard aspects and subgroups.

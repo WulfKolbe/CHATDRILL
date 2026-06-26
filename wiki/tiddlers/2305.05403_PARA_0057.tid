@@ -1,0 +1,9 @@
+created: 20260625093231914
+modified: 20260625093231914
+page: 000
+parent_section: 2305.05403_H6
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0057
+type: text/vnd.tiddlywiki
+
+Given complex KB queries and metadata about completeness, a natural question is to deduce whether and which parts of the query answer are implied to be complete (or in the case of negation operations, correct). This problem has received extensive attention in database research [motro,levy1996obtaining,denecker2008towards,razniewski2011completeness,lang2014partial,savkovic2013complete,razniewski2015identifying], as well as knowledge base research [darari2013completeness,darari2018completeness]. Approaches either take a deductive route (a query result is complete, if certain conditions are met) [levy1996obtaining,razniewski2011completeness,darari2013completeness], or inductively propagate metadata through query operators [motro,lang2014partial,razniewski2015identifying], with computational complexity mirroring or exceeding the complexity of query answering.

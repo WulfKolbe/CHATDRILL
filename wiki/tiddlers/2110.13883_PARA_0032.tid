@@ -1,0 +1,12 @@
+created: 20260625110956922
+modified: 20260625110956922
+page: 000
+parent_section: 2110.13883_H4
+tags: paragraph 2110.13883
+title: 2110.13883_PARA_0032
+type: text/vnd.tiddlywiki
+
+To rigorously define the problem setting, we write down our assumptions about the data generative process as a structural causal model [pearl:09:causalitybook].
+Simply put, 
+we assume that our observed variables {{2110.13883_FO0120||FO}} and {{2110.13883_FO0121||FO}} are both generated from a shared variable {{2110.13883_FO0122||FO}} and individual variables {{2110.13883_FO0123||FO}} and {{2110.13883_FO0124||FO}} that are independent of {{2110.13883_FO0125||FO}} and independent of each other (see Figure (ref)). 
+Further, we assume that the information that {{2110.13883_FO0126||FO}} contains about {{2110.13883_FO0127||FO}} is first passed through {{2110.13883_FO0128||FO}}. Accordingly, the information that {{2110.13883_FO0129||FO}} has about {{2110.13883_FO0130||FO}} is processed through the path {{2110.13883_FO0131||FO}}. We chose this model to reason about the shared information of {{2110.13883_FO0132||FO}} and {{2110.13883_FO0133||FO}} in terms of {{2110.13883_FO0134||FO}}, which is assumed to be low-dimensional.

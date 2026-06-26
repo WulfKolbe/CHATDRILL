@@ -1,0 +1,13 @@
+[
+    {
+        "title": "2110.11150_TAB_001",
+        "text": "",
+        "type": "text/markdown",
+        "tags": "table 2110.11150",
+        "created": "20260626111149172",
+        "modified": "20260626111149172",
+        "page": "000",
+        "latex_code": "\\begin{tabular}{ r |  l  c  r  c} \n \\toprule\n  & Initialization & \\% Acc.& \\# Param. & Sparsity\\\\\n \\midrule\n Target $f$ & He & 97.96 & 18697 &\\\\ \n Appr. $f_{\\epsilon}$ & Orthogonal & 97.98 & 106192 & 0.0027\\\\\n Appr. $f_{\\epsilon}$ & Uniform & 97.94 & 112157  & 0.0029\\\\\n Appr. $f_{\\epsilon}$ & Normal & 97.96 & 121153  & 0.0031\\\\\n \\bottomrule\n\\end{tabular}",
+        "latex_original": "\\begin{tabular}{ r |  l  c  r  c} \n \\toprule\n  & Initialization & \\% Acc.& \\# Param. & Sparsity\\\\\n \\midrule\n Target $f$ & He & 97.96 & 18697 &\\\\ \n Appr. $f_{\\epsilon}$ & Orthogonal & 97.98 & 106192 & 0.0027\\\\\n Appr. $f_{\\epsilon}$ & Uniform & 97.94 & 112157  & 0.0029\\\\\n Appr. $f_{\\epsilon}$ & Normal & 97.96 & 121153  & 0.0031\\\\\n \\bottomrule\n\\end{tabular}"
+    }
+]

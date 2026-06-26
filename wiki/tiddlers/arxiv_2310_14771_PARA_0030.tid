@@ -1,0 +1,9 @@
+created: 20260625080830877
+modified: 20260625080830877
+page: 000
+parent_section: arxiv_2310_14771_H4
+tags: paragraph arxiv_2310_14771
+title: arxiv_2310_14771_PARA_0030
+type: text/vnd.tiddlywiki
+
+In Table (ref) (middle) we show the impact of using examples without an answer. The result is unsystematic, with notable gains in several relations, but some losses in others. Further research on calibrating model confidences seems important [jiang2021can,sneha-repl4nlp].

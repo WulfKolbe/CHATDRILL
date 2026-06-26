@@ -1,0 +1,11 @@
+caption: \neg\exists o
+created: 20260625093231916
+displayMode: false
+latex: \neg\exists o
+latex_original: \neg\exists o
+modified: 20260625093231916
+tags: formula 2305.05403
+title: 2305.05403_FO0134
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

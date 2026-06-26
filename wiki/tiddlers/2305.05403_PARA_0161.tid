@@ -1,0 +1,9 @@
+created: 20260625093231915
+modified: 20260625093231915
+page: 000
+parent_section: 2305.05403_H17
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0161
+type: text/vnd.tiddlywiki
+
+Famous KBs such as Wikidata, YAGO, and DBpedia consist of well-canonicalized statements (with minimal ambiguity), i.e., the A-box, and are accompanied with manually crafted schemas (aka the T-box). The following approaches discover interesting negations about entities by relying on positive statements from well-structured KBs.

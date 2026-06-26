@@ -1,0 +1,13 @@
+created: 20260625093047341
+modified: 20260625093047341
+page: 000
+parent_section: 2405.02732_H21
+tags: paragraph 2405.02732
+title: 2405.02732_PARA_0104
+type: text/vnd.tiddlywiki
+
+In the absence of suitable datasets, we constructed a new benchmark resource---limited in scale, though. Expanding the dataset would be useful
+, however, scaling up the benchmark for books poses a major challenge. On one hand, for popular books, data for ground truth construction is readily available, but these books are likely well captured in the model's parametric memory
+from pre-training.
+On the other hand, we could consider books in the long tail of popularity or brand-new books, but this incurs high cost to obtain ground truth, 
+requiring end-to-end reading and great diligence for annotations.

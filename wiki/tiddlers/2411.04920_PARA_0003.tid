@@ -1,0 +1,10 @@
+created: 20260625093027647
+modified: 20260625093027647
+page: 000
+parent_section: 2411.04920_H1
+tags: paragraph 2411.04920
+title: 2411.04920_PARA_0003
+type: text/vnd.tiddlywiki
+
+To enable comprehensive insights into LLM knowledge, we propose to extensively materialize the knowledge of LLMs into a KB (see Table (ref)). General-world KBs like Wikidata [wikidata], Yago [yago] and DBpedia [dbpedia] are important and long-standing backbones for AI applications, yet have seen little innovation in the last years, and have only been constructed manually, or by scraping semistructured web content [machine-knowledge].
+In particular, we propose to use recursive graph exploration to obtain comprehensive (named-entity-centric) LLM knowledge, and to consolidate it via LLM-based entity disambiguation, class and relation canonicalization, and taxonomy induction (see Figure (ref)). This proposal faces several challenges:

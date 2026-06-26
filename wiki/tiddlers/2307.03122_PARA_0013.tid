@@ -1,0 +1,10 @@
+created: 20260625093145739
+modified: 20260625093145739
+page: 000
+parent_section: 2307.03122_H4
+tags: paragraph 2307.03122
+title: 2307.03122_PARA_0013
+type: text/vnd.tiddlywiki
+
+We reuse the best prompts reported by each prompting baseline, which are tuned on much larger data.
+We probe BERT [devlin-etal-2019-bert] on each \srpexample{s}{r} and generate the {{2307.03122_FO0015||FO}} most probable candidate objects. The generated list is post-processed to remove stopwords and other type-irrelevant objects depending on the relation type, only to retain sensible candidate objects. Our dataset is split into train, dev, and test, with 100/{{2307.03122_FO0016||FO}}50/50 subjects per relation, for tuning and estimating parameters in the selection mechanisms.

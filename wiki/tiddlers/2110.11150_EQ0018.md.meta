@@ -1,0 +1,12 @@
+created: 20260626111149172
+displayMode: true
+equation_number: 
+kind: Equation
+latex: \mathbb{E}\left(||\bm{x^{(l)}}||^2_2 ~\bigg|~ ||\bm{x^{(l-1)}}||^2_2 \right) = \sum^{n_l}_{i=1}\mathbb{E}\left( \left(x^{(l)}_i\right)^2 ~\bigg|~ ||\bm{x^{(l-1)}}||^2_2 \right) = \frac{n_l}{2} \left(\sigma^2_{w,l} ||\bm{x^{(l-1)}}||^2 + \sigma^2_{b,l} \right).
+latex_original: \mathbb{E}\left(||\bm{x^{(l)}}||^2_2 ~\bigg|~ ||\bm{x^{(l-1)}}||^2_2 \right) = \sum^{n_l}_{i=1}\mathbb{E}\left( \left(x^{(l)}_i\right)^2 ~\bigg|~ ||\bm{x^{(l-1)}}||^2_2 \right) = \frac{n_l}{2} \left(\sigma^2_{w,l} ||\bm{x^{(l-1)}}||^2 + \sigma^2_{b,l} \right).
+modified: 20260626111149172
+page: 000
+refnum: 
+tags: equation 2110.11150
+title: 2110.11150_EQ0018
+type: text/markdown

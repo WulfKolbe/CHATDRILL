@@ -1,0 +1,10 @@
+created: 20260625080827350
+modified: 20260625080827350
+page: 000
+parent_section: arxiv_2311_01314_H9
+tags: paragraph arxiv_2311_01314
+title: arxiv_2311_01314_PARA_0072
+type: text/vnd.tiddlywiki
+
+For comparison, we also configure a simpler variant, {\bf CUP{{arxiv_2311_01314_FO0020||FO}}}, which uses genre tags from the user's training items as the user text. 
+To observe the effect of item metadata, we further restrict this variant to use only the item title and genre as item text, denoted as CUP{{arxiv_2311_01314_FO0021||FO}}.

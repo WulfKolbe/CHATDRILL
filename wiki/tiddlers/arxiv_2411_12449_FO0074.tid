@@ -1,0 +1,11 @@
+caption: C_B = \{C_{1...k}, \dots, C_{n-k+1...n}\}
+created: 20260625080805468
+displayMode: false
+latex: C_B = \{C_{1...k}, \dots, C_{n-k+1...n}\}
+latex_original: C_B = \{C_{1...k}, \dots, C_{n-k+1...n}\}
+modified: 20260625080805468
+tags: formula arxiv_2411_12449
+title: arxiv_2411_12449_FO0074
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

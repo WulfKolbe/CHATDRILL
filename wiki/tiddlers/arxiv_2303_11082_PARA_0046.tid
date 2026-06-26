@@ -1,0 +1,9 @@
+created: 20260625080853980
+modified: 20260625080853980
+page: 000
+parent_section: arxiv_2303_11082_H15
+tags: paragraph arxiv_2303_11082
+title: arxiv_2303_11082_PARA_0046
+type: text/vnd.tiddlywiki
+
+We also self-annotated the 350 missing facts with ground truth and evidence links. Along with ground truth annotations, we annotated if the subject was known to English (en) Wikipedia; if the ground truth consists of more than one word; if the ground truth is in BERT's vocabulary, the position of the found evidence in Google search results and the search link used to find the ground truth. Furthermore, we rated each prediction using the same five-value scale as mturk annotators. We and mturk annotators reach an agreement of {{arxiv_2303_11082_FO0041||FO}} given the five-value scale and an agreement of {{arxiv_2303_11082_FO0042||FO}} given the upper categories true (true, plausible) and false (unknown, implausible, false).

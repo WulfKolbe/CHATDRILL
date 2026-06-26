@@ -1,0 +1,9 @@
+created: 20260625093341705
+modified: 20260625093341705
+page: 000
+parent_section: 2209.07250_H2
+tags: paragraph 2209.07250
+title: 2209.07250_PARA_0033
+type: text/vnd.tiddlywiki
+
+State-of-the-art systems typically approach QA via the machine reading paradigm [karpukhin2020dense,joshi2020SpanBERT,sanh2019distilbert,chen2017reading,dua2019drop], where the systems find the best answer in a given passage. The retriever-reader approach in open-domain QA uses several text segments

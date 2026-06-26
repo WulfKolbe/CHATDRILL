@@ -1,0 +1,17 @@
+[
+    {
+        "title": "2110.11150_REF_srinivas2016gendropout",
+        "text": "{{||CIT}} S. Srinivas and R. V. Babu. Generalized dropout. CoRR, abs/1611.06791, 2016.",
+        "type": "text/markdown",
+        "tags": "reference bibentry bibtex 2110.11150",
+        "created": "20260626111149173",
+        "modified": "20260626111149173",
+        "kind": "reference",
+        "citekey": "srinivas2016gendropout",
+        "year": "2016",
+        "authors": "Suraj Srinivas and\n               R. Venkatesh Babu",
+        "entry_type": "article",
+        "titlefield": "Generalized Dropout",
+        "bibtex": "@article{srinivas2016gendropout,\n  author    = {Suraj Srinivas and\n               R. Venkatesh Babu},\n  title     = {Generalized Dropout},\n  journal   = {CoRR},\n  volume    = {abs/1611.06791},\n  year      = {2016},\n}"
+    }
+]

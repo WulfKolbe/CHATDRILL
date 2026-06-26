@@ -1,0 +1,9 @@
+caption: \rho = \left(\sum_l ||\bm{W}^{(l)}_{\epsilon}||_0 \right)/\left(\sum_l  ||\bm{W}^{(l)}_{0}||_0 \right)
+created: 20260626111149171
+displayMode: false
+latex: \rho = \left(\sum_l ||\bm{W}^{(l)}_{\epsilon}||_0 \right)/\left(\sum_l  ||\bm{W}^{(l)}_{0}||_0 \right)
+latex_original: \rho = \left(\sum_l ||\bm{W}^{(l)}_{\epsilon}||_0 \right)/\left(\sum_l  ||\bm{W}^{(l)}_{0}||_0 \right)
+modified: 20260626111149171
+tags: formula 2110.11150
+title: 2110.11150_FO0024
+type: text/markdown

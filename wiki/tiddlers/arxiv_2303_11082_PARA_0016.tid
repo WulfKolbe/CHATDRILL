@@ -1,0 +1,9 @@
+created: 20260625080853980
+modified: 20260625080853980
+page: 000
+parent_section: arxiv_2303_11082_H4
+tags: paragraph arxiv_2303_11082
+title: arxiv_2303_11082_PARA_0016
+type: text/vnd.tiddlywiki
+
+Established KBs like Wikidata store a large number of facts of the form (subject, relation, object). However, such KBs still suffer from incompleteness, which limits their applicability. KBC tries to counteract this incompleteness and describes the task of predicting missing facts for a KB. KBC is often split into subtasks, such as predicting the relation, subject, or object slots in triples. In the following, we focus on the most prominent object slot filling task, i.e. predicting an object for a subject-relation pair without an object so far. Identifying plausible subject-relation pairs is another important task, as not every combination qualifies, e.g., (Albert Einstein, hasCapital,{{arxiv_2303_11082_FO0001||FO}} ) has no object.

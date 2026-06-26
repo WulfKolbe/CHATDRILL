@@ -1,0 +1,10 @@
+created: 20260625080929033
+modified: 20260625080929033
+page: 000
+parent_section: arxiv_2204_11677_H19
+tags: paragraph arxiv_2204_11677
+title: arxiv_2204_11677_PARA_0235
+type: text/vnd.tiddlywiki
+
+extending conversational QA into a heterogeneous retrieval problem is a useful contribution to the community.
+The proposed \convmix benchmark, with thousands of real-user conversations, will

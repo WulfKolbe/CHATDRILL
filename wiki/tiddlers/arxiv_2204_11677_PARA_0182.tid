@@ -1,0 +1,11 @@
+created: 20260625080929033
+modified: 20260625080929033
+page: 000
+parent_section: arxiv_2204_11677_H15
+tags: paragraph arxiv_2204_11677
+title: arxiv_2204_11677_PARA_0182
+type: text/vnd.tiddlywiki
+
+We run \convinse and the baselines on the test set of \convmix (combined test sets of -5T and -10T), and report results in Tables (ref) and (ref). 
+All metrics are micro-averaged over each conversational question that the systems handle, i.e. we measure the performance at a question-level.
+Throughout this section, best performing variants in columns are marked in bold. An asterisk (*) denotes statistical significance of

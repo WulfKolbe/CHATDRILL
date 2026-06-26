@@ -1,0 +1,10 @@
+created: 20260625093119694
+modified: 20260625093119694
+page: 000
+parent_section: 2308.06374_H5
+tags: paragraph 2308.06374
+title: 2308.06374_PARA_0022
+type: text/vnd.tiddlywiki
+
+Entity resolution (also known as entity matching, entity linking or entity alignment) is the process of linking pieces of information occurring in multiple heterogeneous datasets and referring to the same world entity [Elmagarmid07,fellegi69,2021Papadakis]. 
+Past research has focused on developing the methodologies and similarity measures among entities represented by flat structured data. However, entity resolution for semi-structured data for KGs is a fairly recent topic with significantly less attention. Approaches for entity alignment can be split into general vs embedding-based categories.

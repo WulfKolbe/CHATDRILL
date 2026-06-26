@@ -1,0 +1,9 @@
+created: 20260625093007936
+modified: 20260625093007936
+page: 000
+parent_section: 2411.12449_H8
+tags: paragraph 2411.12449
+title: 2411.12449_PARA_0067
+type: text/vnd.tiddlywiki
+
+\noindent Response lengths correlate with Likert scores. We analyzed whether longer temporal responses tend to receive higher Likert scores by examining the correlation between ratings and response length (measured in characters). Our analyses (see Table (ref) in the Appendix for more details) reveal the following trends: (i) in case of helpfulness and relevance, both mean and median response lengths increase with higher ratings, particularly for NewsRAG, indicating that longer responses are more likely to receive higher scores. (ii) for faithfulness, while mean and median response lengths do not consistently increase with higher ratings, NewsRAG shows a clear positive correlation between longer responses and higher ratings.

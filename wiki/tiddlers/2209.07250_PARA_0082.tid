@@ -1,0 +1,10 @@
+created: 20260625093341705
+modified: 20260625093341705
+page: 000
+parent_section: 2209.07250_H10
+tags: paragraph 2209.07250
+title: 2209.07250_PARA_0082
+type: text/vnd.tiddlywiki
+
+We found that indeed helpful semantic qualifiers for KG-answerable queries is necessary in around 8% of the queries. In snippet-answerable queries and queries with no direct answers, semantic qualifiers are desirable in more than 81.3% of the cases. As far as instance explanations are concerned, they are desirable in all KG-answerable queries and in 80.8% of the snippet-answerable queries. We already see a gap between the desired explanatory evidence and what is available when no consolidation is performed.
+In Section (ref), we further report on these answer modes in light of the predictions made by {\mysystem} to see whether this gap can be reduced.

@@ -1,0 +1,13 @@
+created: 20260625080804874
+modified: 20260625080804874
+page: 000
+parent_section: arxiv_2501_06699_H7
+tags: paragraph arxiv_2501_06699
+title: arxiv_2501_06699_PARA_0061
+type: text/vnd.tiddlywiki
+
+Regarding
+ Tables (ref) and (ref), such research would broaden the coverage and expressivity of KGs, 
+ expanding the scope of requests they can answer.
+ As an example, recall the multi-hop query about winners of ACM awards (not just the Turing Award, but all official ACM awards).
+ Even if such queries are not exactly mainstream from the view of a major SE or LLM stakeholder, there is value in supporting specialized analysts, journalists and data scientists.

@@ -1,0 +1,16 @@
+created: 20260625093308066
+displayMode: true
+equation_number: 
+kind: Equation
+latex: IDF(cls) = \frac{\sum_{cls' \in CLS}size(cls')}{\sum_{cls' \in CLS}size(cls') \times \sigma(cls,cls')}
+latex_original: IDF(cls) = \frac{\sum_{cls' \in CLS}size(cls')}{\sum_{cls' \in CLS}size(cls') \times \sigma(cls,cls')}
+latex_tex: IDF(cls) = \frac{\sum_{cls' \in CLS}size(cls')}{\sum_{cls' \in CLS}size(cls') \times \sigma(cls,cls')}
+modified: 20260625093308066
+page: 000
+refnum: 
+score_tex: 1.0
+tags: equation 2210.07763
+title: 2210.07763_EQ0002
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode=true />

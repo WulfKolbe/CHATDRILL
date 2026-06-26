@@ -1,0 +1,9 @@
+created: 20260625080853722
+modified: 20260625080853722
+page: 000
+parent_section: arxiv_2305_05403_H17
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0167
+type: text/vnd.tiddlywiki
+
+[ARNAOUT2021100661] is an extension of the previous method where KB qualifiers such as temporal statements are leveraged to obtain better peer entities and provide negations with explanations. In this order-oriented method, one input entity can receive multiple peer groups. For instance, 3 separate peer groups for Max Planck are winners of the Nobel Prize in Physics, winners of Copley Medal, and alumni of Ludwig Maximilian University of Munich. In addition to peering, ranking also accounts for the proximity between the input and peer entities.

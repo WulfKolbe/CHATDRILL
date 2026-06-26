@@ -1,0 +1,12 @@
+created: 20260625080853722
+modified: 20260625080853722
+page: 000
+parent_section: arxiv_2305_05403_H17
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0165
+type: text/vnd.tiddlywiki
+
+Negations at this point are only candidates. Due the KB's incompleteness, each candidate could be true in the real world, and just be missing from the KB. The peer-based method requires the candidates statements to satisfy the partial completeness assumption (the subject has at least one other object for that property [amie,AMIEP]) in order to be considered for the final set. In particular, if some awards are listed for the subject Stephen Hawking then the list of awards is assumed to be complete, and any missing award is absent due to its falseness. 
+\begin{example}
+We know that Hawking has won other awards such as the Oskar Klein Medal and has children including Lucy Hawking, but we know nothing about his hobbies. Therefore, the candidate statement {{arxiv_2305_05403_FO0130||FO}}\fact{Stephen Hawking}{hasHobby}{reading} is discarded.
+\end{example}

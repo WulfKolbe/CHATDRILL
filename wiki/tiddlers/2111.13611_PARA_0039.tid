@@ -1,0 +1,10 @@
+created: 20260625093527300
+modified: 20260625093527300
+page: 000
+parent_section: 2111.13611_H4
+tags: paragraph 2111.13611
+title: 2111.13611_PARA_0039
+type: text/vnd.tiddlywiki
+
+We analyzed the quality of the DoCo dataset by comparing automatic relation extractions to extractions given by human annotators.
+A sample of {{2111.13611_FO0058||FO}} documents was selected, {{2111.13611_FO0059||FO}} per relation, with half from the high-coverage range and the rest from the low-coverage range. Each document was annotated with all correct tuples for the document's main subject entity.

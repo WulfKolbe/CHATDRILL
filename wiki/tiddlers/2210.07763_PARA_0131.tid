@@ -1,0 +1,10 @@
+created: 20260625093308065
+modified: 20260625093308065
+page: 000
+parent_section: 2210.07763_H15
+tags: paragraph 2210.07763
+title: 2210.07763_PARA_0131
+type: text/vnd.tiddlywiki
+
+We use GPT-3 as QA agent, and compare its performance in 3 settings: (1) when only the questions are given, and when questions and their related contexts retrieved from (2) \systemname{} or (3) GPT-resource (cf.\ Sec. (ref)) are given to the LM. For questions, we collect cultural knowledge quizzes from multiple websites, which results in 500 multiple-choice questions, each with 2-5 answer options (only one of them is correct). 
+For context retrieval, we use the the SentenceBert all-mpnet-base-v2 model, and for each question, retrieve the two most similar assertions from \systemname{}-cluster-reps and GPT-resource.

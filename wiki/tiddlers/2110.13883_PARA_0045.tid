@@ -1,0 +1,9 @@
+created: 20260625110956922
+modified: 20260625110956922
+page: 000
+parent_section: 2110.13883_H6
+tags: paragraph 2110.13883
+title: 2110.13883_PARA_0045
+type: text/vnd.tiddlywiki
+
+More specifically, we approximate {{2110.13883_FO0188||FO}} and {{2110.13883_FO0189||FO}} in Eq. (ref) with geodesic distances {{2110.13883_FO0190||FO}} and {{2110.13883_FO0191||FO}} obtained via marginalization (see Sec. (ref)) from the Geodesic Forest trained on {{2110.13883_FO0192||FO}}. To compute the distances on the joint space {{2110.13883_FO0193||FO}}, we follow the \ksg approach [kraskov:04:ksg] and stick to the maximum between the distances on {{2110.13883_FO0194||FO}} and {{2110.13883_FO0195||FO}}. Thus, we define {{2110.13883_FO0196||FO}} as the distance to the {{2110.13883_FO0197||FO}}th neighbor on the joint space {{2110.13883_FO0198||FO}} and obtain {{2110.13883_FO0199||FO}} as

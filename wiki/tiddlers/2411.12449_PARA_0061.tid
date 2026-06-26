@@ -1,0 +1,9 @@
+created: 20260625093007936
+modified: 20260625093007936
+page: 000
+parent_section: 2411.12449_H7
+tags: paragraph 2411.12449
+title: 2411.12449_PARA_0061
+type: text/vnd.tiddlywiki
+
+A drill-down analysis of the ratings revealed that automated and human scores matched approximately 50% of the time. Discrepancies in the remaining cases often stemmed from mismatches in timestamps across the query, supporting passages, and LLM responses. Automated evaluations consistently assigned a score of 0 in these cases, whereas human annotators used common-sense reasoning and contextual understanding of the dates to assign scores of 1 or 2. Addressing this limitation in automated evaluation is a goal for future work. In particular, such mismatches were less frequent in samples from \textsc{Neon({{2411.12449_FO0138||FO}})}.

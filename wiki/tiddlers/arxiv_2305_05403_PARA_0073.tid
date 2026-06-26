@@ -1,0 +1,9 @@
+created: 20260625080853721
+modified: 20260625080853721
+page: 000
+parent_section: arxiv_2305_05403_H8
+tags: paragraph arxiv_2305_05403
+title: arxiv_2305_05403_PARA_0073
+type: text/vnd.tiddlywiki
+
+digit ``1'' appears in roughly 30% of the cases, the digit ``2'' in 18% of the cases, and the digit {{arxiv_2305_05403_FO0080||FO}} in {{arxiv_2305_05403_FO0081||FO}} percent of the cases. This applies in particular to quantities that grow exponentially (such as the population of a city), because a quantity to which a multiplicative factor is applied repeatedly will run through the leading digit ``1'' more often than through the other digits. To apply this technique to KBs [soulet2018representativeness], the target class has to have a numerical predicate, e.g., the population size for cities, the length for rivers, the price for products, etc.

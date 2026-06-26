@@ -1,0 +1,13 @@
+created: 20260625080827350
+modified: 20260625080827350
+page: 000
+parent_section: arxiv_2311_01314_H9
+tags: paragraph arxiv_2311_01314
+title: arxiv_2311_01314_PARA_0061
+type: text/vnd.tiddlywiki
+
+We further
+enforce the {\em difficulty of predictions} when items belong to groups with high relatedness within a group, 
+by constraining disjointedness of authors per user in training and evaluation set.
+Thus, we rule out the near-trivial case of
+predicting that a user likes a certain book given that another book by the same author has been used for training.

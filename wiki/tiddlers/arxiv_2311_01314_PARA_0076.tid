@@ -1,0 +1,19 @@
+created: 20260625080827350
+modified: 20260625080827350
+page: 000
+parent_section: arxiv_2311_01314_H11
+tags: paragraph arxiv_2311_01314
+title: arxiv_2311_01314_PARA_0076
+type: text/vnd.tiddlywiki
+
+Table (ref)
+shows the results for the AM-1K-rich and GR-1K-rich data,
+comparing our default configuration CUP{{arxiv_2311_01314_FO0022||FO}}
+against all baselines, for the two different ways of sampling negative training points. 
+Results with statistical significance over the 
+BENEFICT{{arxiv_2311_01314_FO0023||FO}} baseline,
+by a paired t-test with p-value {{arxiv_2311_01314_FO0024||FO}} 0.05, are marked with an asterisk.
+Bonferroni correction for multi-hypotheses testing is applied, reducing the 
+test level
+of each pairwise comparison to 0.005.
+We make the following key observations:

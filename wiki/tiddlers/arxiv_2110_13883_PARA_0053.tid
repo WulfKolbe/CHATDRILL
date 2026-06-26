@@ -1,0 +1,11 @@
+created: 20260625080931150
+modified: 20260625080931150
+page: 000
+parent_section: arxiv_2110_13883_H7
+tags: paragraph arxiv_2110_13883
+title: arxiv_2110_13883_PARA_0053
+type: text/vnd.tiddlywiki
+
+where {{arxiv_2110_13883_FO0229||FO}} is the probability of a data point being assigned to cluster {{arxiv_2110_13883_FO0230||FO}}.
+Given an ordered one-dimensional sequence {{arxiv_2110_13883_FO0231||FO}}, such that {{arxiv_2110_13883_FO0232||FO}}, we can compute the optimal split point in {{arxiv_2110_13883_FO0233||FO}} time, since we need to obtain for each of the potential {{arxiv_2110_13883_FO0234||FO}} cut-points the variances for both clusters.
+We can, however, compute it even faster.

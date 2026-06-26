@@ -1,0 +1,18 @@
+created: 20260625080929031
+modified: 20260625080929031
+page: 000
+tags: paragraph arxiv_2204_11677
+title: arxiv_2204_11677_PARA_0012
+type: text/vnd.tiddlywiki
+
+\newcommand{\squishlist}{
+ \begin{list}{{{arxiv_2204_11677_FO0001||FO}}}{ 
+ \setlength{\itemsep}{0pt}
+ \setlength{\parsep}{1pt}
+ \setlength{\topsep}{1pt}
+ \setlength{\partopsep}{0pt}
+ \setlength{\leftmargin}{1.5em}
+ \setlength{\labelwidth}{1em}
+ \setlength{\labelsep}{0.5em} 
+ } 
+}

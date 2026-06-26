@@ -1,0 +1,12 @@
+created: 20260625092952539
+modified: 20260625092952539
+page: 000
+parent_section: 2501.06699_H2
+tags: paragraph 2501.06699
+title: 2501.06699_PARA_0038
+type: text/vnd.tiddlywiki
+
+\parai{Efficiency} refers to the low consumption of resources (time, memory, energy, etc.) for addressing a particular request. SEs and KGs index their content, allowing for efficient retrieval. In the case of KGs, more complex queries -- such as path queries, queries with many joins, etc. -- may require more resources to evaluate. Nevertheless, with a good query optimizer and a query of moderate complexity, the execution time is usually in the order of seconds (or less).
+ LLMs process user inputs not by retrieval, but by inference, making even simple requests (e.g., ``What is the capital of Venezuela?'')
+ relatively costly to process in terms of time, energy and computational resources [DBLP:conf/hpec/SamsiZMLMJBKTG23].
+ Moreover, the inference utilizes a large GPU platform with massive parallelism, whereas most KG queries are handled on a single CPU core. Comparable user requests are thus orders of magnitude more expensive to address with a contemporary LLM in terms of computational and environmental costs.

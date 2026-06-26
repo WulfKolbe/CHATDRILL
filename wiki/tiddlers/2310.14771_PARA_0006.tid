@@ -1,0 +1,10 @@
+created: 20260625093105364
+modified: 20260625093105364
+page: 000
+parent_section: 2310.14771_H1
+tags: paragraph 2310.14771
+title: 2310.14771_PARA_0006
+type: text/vnd.tiddlywiki
+
+In this paper, we conduct a systematic analysis of the KB completion potential of GPT, 
+where we focus on high precision. We evaluate by employing (i) a recent KB completion benchmark, \wdknown{}, [veseli2023evaluating], which randomly samples facts from Wikidata

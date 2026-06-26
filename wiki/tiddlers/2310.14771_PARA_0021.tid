@@ -1,0 +1,11 @@
+created: 20260625093105364
+modified: 20260625093105364
+page: 000
+parent_section: 2310.14771_H3
+tags: paragraph 2310.14771
+title: 2310.14771_PARA_0021
+type: text/vnd.tiddlywiki
+
+listed
+in the appendix. Specifically for GPT-3, we follow the prompt setup of [cohen2023crawling], which is based on an instruction-free prompt entirely consisting of 8 randomly sampled and manually checked examples. In the default setting, all example subjects have at least one object. 
+Since none of the GPT models achieved precision >90% and we can only threshold GPT-3 for high precision, we focus on the largest GPT-3 model (text-davinci-003) in the following. We experimented with three variations for prompting this model:

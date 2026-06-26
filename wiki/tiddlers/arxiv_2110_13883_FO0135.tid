@@ -1,0 +1,11 @@
+caption: \ensuremath{\tilde{\bm{Z}}}\xspace, \ensuremath{\bm{E}_X}\xspace, \ensuremath{\bm{E}_Y}\xspace
+created: 20260625080931151
+displayMode: false
+latex: \ensuremath{\tilde{\bm{Z}}}\xspace, \ensuremath{\bm{E}_X}\xspace, \ensuremath{\bm{E}_Y}\xspace
+latex_original: \Zt, \Xn, \Yn
+modified: 20260625080931151
+tags: formula arxiv_2110_13883
+title: arxiv_2110_13883_FO0135
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

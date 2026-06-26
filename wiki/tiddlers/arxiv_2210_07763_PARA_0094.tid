@@ -1,0 +1,11 @@
+created: 20260625080858063
+modified: 20260625080858063
+page: 000
+parent_section: arxiv_2210_07763_H11
+tags: paragraph arxiv_2210_07763
+title: arxiv_2210_07763_PARA_0094
+type: text/vnd.tiddlywiki
+
+In \systemname{}, we use the broad web as knowledge source, because of its diversity and coverage, which are important for long-tail subjects. Besides the benefits, the most challenging problem when processing web contents is the tremendous amount of noise, offensive materials, incorrect information etc., hence, choosing a corpus that has been chiefly cleaned is beneficial.
+We choose the Colossal Clean Crawled Corpus (C4) [t5] as our input, a cleaned version of the Common Crawl corpus, created by applying filters such as deduplication, English-language text detection, removing pages containing source code, offensive language, too little content, etc. We use the C4.En split, which contains 365M English articles, each with text content and source URL.
+Before passing it to our system, we preprocessed all C4 documents using spaCy, which took 2 days on our cluster of 6K CPU cores.

@@ -1,0 +1,12 @@
+created: 20260625093156716
+modified: 20260625093156716
+page: 000
+parent_section: 2306.17472_H3
+tags: paragraph 2306.17472
+title: 2306.17472_PARA_0026
+type: text/vnd.tiddlywiki
+
+The first stage yields a scored list
+of candidates in the form of pairs (``O'', {{2306.17472_FO0015||FO}}) with an entity name and a Wikipedia sentence {{2306.17472_FO0016||FO}}.
+In the corroboration stage, the candidates are fed into a second LM for re-ranking and pruning false positives. Specifically, we employ the generative entity disambiguation model GENRE [de2020autoregressive], which in turn is based on BART [lewis2020bart] and fine-tuned on BLINK [wu2020scalable] and AIDA [hoffart2011robust].
+We construct the input by the template:

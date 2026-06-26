@@ -1,0 +1,9 @@
+created: 20260625080931150
+modified: 20260625080931150
+page: 000
+parent_section: arxiv_2110_13883_H1
+tags: paragraph arxiv_2110_13883
+title: arxiv_2110_13883_PARA_0006
+type: text/vnd.tiddlywiki
+
+Quantifying the strength of a dependence between two continuous random variables is an essential task in data science [wang:09:divergence]. Due to its non-parametric nature, and hence its ability to measure complex non-linear dependencies, mutual information is ideal for this task [cover:06:elements], which is why it is routinely applied for challenging settings such as gene network inference.

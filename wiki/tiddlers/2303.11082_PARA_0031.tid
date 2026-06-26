@@ -1,0 +1,10 @@
+created: 20260625093242023
+modified: 20260625093242023
+page: 000
+parent_section: 2303.11082_H13
+tags: paragraph 2303.11082
+title: 2303.11082_PARA_0031
+type: text/vnd.tiddlywiki
+
+\noindent
+ In Table (ref) we report {{2303.11082_FO0012||FO}} values achieved by BERT's predictions on our dataset \ourdataset{} in comparison to LAMA-T-REx. On \ourdataset{} the LM achieves significantly lower values (marked in bold) suggesting a more realistic assessment of BERT's fact prediction ability by \ourdataset{}. Only the relations nativeLanguage, spokenLanguage,off\-icialLanguage show a smaller decrease and therefore stable results.

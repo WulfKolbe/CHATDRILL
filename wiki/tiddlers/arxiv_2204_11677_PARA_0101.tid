@@ -1,0 +1,11 @@
+created: 20260625080929032
+modified: 20260625080929032
+page: 000
+parent_section: arxiv_2204_11677_H5
+tags: paragraph arxiv_2204_11677
+title: arxiv_2204_11677_PARA_0101
+type: text/vnd.tiddlywiki
+
+For evidences from the KB, we make use of \clocq [christmann2022beyond] (available publicly at \url{https://clocq.mpi-inf.mpg.de/}), which is a recent method for retrieving relevant KB-facts and providing top-{{arxiv_2204_11677_FO0053||FO}} disambiguations (mappings to KB-items) for relevant cue words (entity, predicate, and type mentions), given an explicit user question.
+Since questions are treated as keyword queries, the SR can directly be fed into \clocq (removing the separator `|' during retrieval).
+KB-facts are verbalized [oguz2021unikqa,jia21complex,pramanik2021uniqorn], separating the individual constituents of a fact by a comma.

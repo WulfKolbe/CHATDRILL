@@ -1,0 +1,10 @@
+created: 20260625080858063
+modified: 20260625080858063
+page: 000
+parent_section: arxiv_2210_07763_H4
+tags: paragraph arxiv_2210_07763
+title: arxiv_2210_07763_PARA_0051
+type: text/vnd.tiddlywiki
+
+\systemname{} consists of 6 modules (see Fig. (ref)). Throughout the system, step by step, we reduce a large input corpus (which could contain billions of documents, mostly noisy) into high-quality clusters of CCSK assertions for the given subjects and facets.
+Each cluster in the output is also accompanied by a representative sentence and an interestingness score. We next elaborate on each module.

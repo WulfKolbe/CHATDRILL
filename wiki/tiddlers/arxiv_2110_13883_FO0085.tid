@@ -1,0 +1,11 @@
+caption: <  \frac{1}{2} \rho_{i,k}
+created: 20260625080931151
+displayMode: false
+latex: <  \frac{1}{2} \rho_{i,k}
+latex_original: <  \frac{1}{2} \rho_{i,k}
+modified: 20260625080931151
+tags: formula arxiv_2110_13883
+title: arxiv_2110_13883_FO0085
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

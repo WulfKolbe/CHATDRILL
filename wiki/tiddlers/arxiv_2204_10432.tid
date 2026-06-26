@@ -1,0 +1,20 @@
+caption: arxiv_2204_10432
+created: 20260625080929322
+modified: 20260625080929322
+tags: document bibtex arxiv_2204_10432
+title: arxiv_2204_10432
+type: text/vnd.tiddlywiki
+
+! arxiv_2204_10432
+
+* Total Pages: 0
+* Total Sections: 24
+* Total Paragraphs: 92
+* Total Equations: 0
+* Total Formulas: 42
+
+!! Top-level Sections
+
+<$list filter="[tag[section]arxiv_2204_10432]!has[parent_section]] [tag[section]parent_section[arxiv_2204_10432]]" variable="sec">
+  * <$link to=<<sec>>><<sec>></$link>
+</$list>

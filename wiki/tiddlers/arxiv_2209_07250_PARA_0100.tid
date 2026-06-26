@@ -1,0 +1,9 @@
+created: 20260625080859570
+modified: 20260625080859570
+page: 000
+parent_section: arxiv_2209_07250_H17
+tags: paragraph arxiv_2209_07250
+title: arxiv_2209_07250_PARA_0100
+type: text/vnd.tiddlywiki
+
+Table (ref) shows the answer inference performance of {\mysystem} against the baselines on different datasets. We improve upon [ghosh2022answering] by using a

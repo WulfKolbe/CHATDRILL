@@ -1,0 +1,23 @@
+created: 20260625093341705
+modified: 20260625093341705
+page: 000
+parent_section: 2209.07250_H2
+tags: paragraph 2209.07250
+title: 2209.07250_PARA_0036
+type: text/vnd.tiddlywiki
+
+Attempts have also been made to improve recall by hybrid QA over text and KB, yet without specific consideration of counts [lu2019answering,xu2016hybrid,saha2020question].
+Search engines can answer simple count queries from their underlying KBs, if present, a trait which we exploit to create our CoQuAD dataset (Section (ref)). But more often they return informative text snippets, similar to QA-over-text systems.
+The basic Lennon query has a highest-ranked Google snippet with
+``more than 150'' when given the telegraphic input
+``number of songs by John Lennon'' and
+``almost 200'' when given the full-fledged question
+``how many songs did John Lennon write''. For the latter case,
+the top-ranked snippet talks about the composer duo
+``John Lennon and Paul McCartney''. 
+When refining the query by qualifiers, this already puzzling
+situation becomes even more complex with ``84.55 of 209 songs'' being ranked first followed by varying counts such as ``18 Beatles songs'' 
+(co-written with McCartney) 
+and ``61'' 
+(written separately). 
+Because of the lack of consolidation, the onus is on the user to decide whether there are multiple correct answers across text segments.

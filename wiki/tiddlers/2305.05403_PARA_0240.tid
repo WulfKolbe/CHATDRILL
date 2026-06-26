@@ -1,0 +1,10 @@
+created: 20260625093231915
+modified: 20260625093231915
+page: 000
+parent_section: 2305.05403_H28
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0240
+type: text/vnd.tiddlywiki
+
+LLMs are especially strong in generalizable linguistic tasks that do not require instance-specific knowledge. In the context of recall assessment, one such task concerns the estimation of whether a textual extraction context implies completeness, or not (see Section (ref)). For example, chatGPT can give convincing answers to the following examples that come with very subtle linguistic nuances: 
+\begin{center}

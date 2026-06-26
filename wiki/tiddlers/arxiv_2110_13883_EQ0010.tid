@@ -1,0 +1,14 @@
+created: 20260625080931153
+displayMode: true
+equation_number: 
+kind: Equation
+latex: n_{\ensuremath{\bm{x}}\xspace,i}^G = \left| \left\{ \ensuremath{\bm{x}}\xspace_j \, : \, \ensuremath{d_G}\xspace(\ensuremath{\bm{x}}\xspace_i, \ensuremath{\bm{x}}\xspace_j) < \frac{1}{2} \rho_{i,k}^G, \, i \neq j \right\} \right| \, ,
+latex_original: n_{\xg,i}^G = \left| \left\{ \xg_j \, : \, \dgf(\xg_i, \xg_j) < \frac{1}{2} \rho_{i,k}^G, \, i \neq j \right\} \right| \, ,
+modified: 20260625080931153
+page: 000
+refnum: 
+tags: equation arxiv_2110_13883
+title: arxiv_2110_13883_EQ0010
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode=true />

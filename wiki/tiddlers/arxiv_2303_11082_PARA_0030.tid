@@ -1,0 +1,9 @@
+created: 20260625080853980
+modified: 20260625080853980
+page: 000
+parent_section: arxiv_2303_11082_H12
+tags: paragraph arxiv_2303_11082
+title: arxiv_2303_11082_PARA_0030
+type: text/vnd.tiddlywiki
+
+We want to check if BERT's fact prediction ability goes at least beyond just predicting statistically common objects, e.g. English for spokenLanguage. Therefore, we try two distribution-based baselines: random and majority vote. We compute relation-specific object distributions based on a relations ground truth data. In the case of a majority vote, we assign the most probable object to each fact and in the case of random, we assign a random object from the distribution. Additionally, we compare BERT to a relation extraction (RE) baseline and use the Rosette Text Analytics\footnote{\url{https://www.rosette.com/capability/relationship-extractor/\#tech-specs}} relation extractor. Given a text snippet, the relation extractor can extract up to 17 relations. For the intersection of these 17 and our 41 relations, we subsampled relation-wise 200 facts from \ourdataset{} and align each fact with text. For text alignments, we consider two different source types: web texts and Wikipedia pages to cover facts with Wikipedia-unknown and Wikipedia-known subjects. Per relation, we align 100 facts with web texts, i.e. top 10 Google search results after googling the subject of a fact and 100 facts with wikipages, i.e. the summary of a subject's Wikipedia page. We get 200 facts with text alignments per relation headquarteredIn and citizenOf, 400 in total.

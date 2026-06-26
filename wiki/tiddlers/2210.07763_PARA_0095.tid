@@ -1,0 +1,9 @@
+created: 20260625093308065
+modified: 20260625093308065
+page: 000
+parent_section: 2210.07763_H11
+tags: paragraph 2210.07763
+title: 2210.07763_PARA_0095
+type: text/vnd.tiddlywiki
+
+We collect CCSK for subjects from 3 cultural domains: geography (272 subjects), religions (14 subjects) and occupations (100 subjects). For geography, we split into 4 sub-domains: countries, continents, geopolitical regions (e.g., Middle East, Southeast Asia, etc.) and US states, which were collected from the GeoNames database\footnote{\url{http://www.geonames.org/}}, which also provides alias names. We further enriched these aliases with demonyms from Wikipedia\footnote{\url{https://en.wikipedia.org/wiki/Demonym}}.

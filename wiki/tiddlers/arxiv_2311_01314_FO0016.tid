@@ -1,0 +1,11 @@
+caption: _{kwT5}
+created: 20260625080827351
+displayMode: false
+latex: _{kwT5}
+latex_original: _{kwT5}
+modified: 20260625080827351
+tags: formula arxiv_2311_01314
+title: arxiv_2311_01314_FO0016
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

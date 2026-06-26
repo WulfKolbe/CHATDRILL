@@ -1,0 +1,20 @@
+caption: arxiv_2501_06699
+created: 20260625080804875
+modified: 20260625080804875
+tags: document bibtex arxiv_2501_06699
+title: arxiv_2501_06699
+type: text/vnd.tiddlywiki
+
+! arxiv_2501_06699
+
+* Total Pages: 0
+* Total Sections: 13
+* Total Paragraphs: 98
+* Total Equations: 0
+* Total Formulas: 2
+
+!! Top-level Sections
+
+<$list filter="[tag[section]arxiv_2501_06699]!has[parent_section]] [tag[section]parent_section[arxiv_2501_06699]]" variable="sec">
+  * <$link to=<<sec>>><<sec>></$link>
+</$list>

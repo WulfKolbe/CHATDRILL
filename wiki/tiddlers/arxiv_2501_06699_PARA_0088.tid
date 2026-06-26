@@ -1,0 +1,11 @@
+created: 20260625080804874
+modified: 20260625080804874
+page: 000
+parent_section: arxiv_2501_06699_H12
+tags: paragraph arxiv_2501_06699
+title: arxiv_2501_06699_PARA_0088
+type: text/vnd.tiddlywiki
+
+\parai{Ranking} scores matching documents in terms of their likelihood to be of interest to the user. This is based on 
+ various factors such as relevance to the search (as determined during the matching phase), prominence, recency, click-through rates, and others.
+ Modern SEs will often use machine learning models to combine different features into a final ranking of documents presented to users.

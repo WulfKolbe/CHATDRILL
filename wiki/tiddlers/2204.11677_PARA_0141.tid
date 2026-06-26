@@ -1,0 +1,9 @@
+created: 20260625093448814
+modified: 20260625093448814
+page: 000
+parent_section: 2204.11677_H9
+tags: paragraph 2204.11677
+title: 2204.11677_PARA_0141
+type: text/vnd.tiddlywiki
+
+\myparagraph{Limitations of existing ConvQA benchmarks} Notable efforts at ConvQA benchmarking like QuAC [choi2018quac] (text), CoQA [reddy2019coqa] (text), SQA [iyyer2017search] (tables), ConvQuestions [christmann2019look] (KB), and CSQA [saha2018complex] (KB) assume a single answering source. Rather than the easier option of artificially augmenting any of these with heterogeneous inputs,

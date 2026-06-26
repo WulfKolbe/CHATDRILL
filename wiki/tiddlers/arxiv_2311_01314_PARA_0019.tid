@@ -1,0 +1,12 @@
+created: 20260625080827349
+modified: 20260625080827349
+page: 000
+parent_section: arxiv_2311_01314_H1
+tags: paragraph arxiv_2311_01314
+title: arxiv_2311_01314_PARA_0019
+type: text/vnd.tiddlywiki
+
+On top of the transformer, we place feed-forward layers, which provide controllable fine-tuning for the downstream recommendation task.
+The 
+prediction scores for user-item pairs
+yield the per-user ranking of items.

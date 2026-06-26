@@ -1,0 +1,13 @@
+created: 20260625093505869
+modified: 20260625093505869
+page: 000
+parent_section: 2204.10432_H1
+tags: paragraph 2204.10432
+title: 2204.10432_PARA_0002
+type: text/vnd.tiddlywiki
+
+Given the significance of mental health as a public health challenge [51109334-209f-4220-b5de-bfad08259c34], much work has investigated approaches for detecting mental health conditions using social media text [yates-etal-2017-depression,Coppersmith2018NaturalLP,shing2020prioritization,harrigian-etal-2021-state].
+Such approaches could be used by at-risk users and their clinicians to monitor behavioral changes (e.g., by monitoring changes in the presence of symptoms related to depression as treatment progresses.
+These approaches generally rely on datasets consisting of users with self-reported diagnoses (e.g., based on a statement like ``I was just diagnosed with depression'') for training and evaluation \citep[e.g.,][]{yates-etal-2017-depression, cohan2018smhd}.
+Despite promising results on these tasks, related work argues that assessing depression and suicidal behavior is difficult in practical settings and even experienced clinicians frequently struggle to correctly interpret signals [Coppersmith2018NaturalLP].
+Furthermore, recent work has found that models trained on particular mental health datasets do not always generalize to others.

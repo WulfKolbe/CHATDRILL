@@ -1,0 +1,9 @@
+created: 20260625093007936
+modified: 20260625093007936
+page: 000
+parent_section: 2411.12449_H3
+tags: paragraph 2411.12449
+title: 2411.12449_PARA_0031
+type: text/vnd.tiddlywiki
+
+\item[1. ] Target Pair Selection: Begin with a target set of subjects {{2411.12449_FO0062||FO}}, s.t. {{2411.12449_FO0063||FO}}. Then identify co-occurring entity pairs {{2411.12449_FO0064||FO}}, where {{2411.12449_FO0065||FO}}, within all news chunks with prominent TF-IDF scores. These pairs become the target set for interaction extraction.

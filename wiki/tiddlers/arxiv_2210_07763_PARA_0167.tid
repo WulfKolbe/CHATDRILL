@@ -1,0 +1,12 @@
+created: 20260625080858063
+modified: 20260625080858063
+page: 000
+parent_section: arxiv_2210_07763_H23
+tags: paragraph arxiv_2210_07763
+title: arxiv_2210_07763_PARA_0167
+type: text/vnd.tiddlywiki
+
+It can be seen that \systemname{} maintains good quality on all evaluation metrics. 
+Notably, scores for the DOM metric are consistently high for all facets, suggesting that the enhanced techniques for zero-shot classification work well on our data.
+Interestingly, the facet drinks outperforms all other facets on 3 of the 4 metrics (DOM, PLA and COM), especially for PLA, its score is significantly higher than others.
+Assertions for drinks and rituals are also more distinctive than for other facets.

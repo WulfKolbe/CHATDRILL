@@ -1,0 +1,11 @@
+created: 20260625093308064
+modified: 20260625093308064
+page: 000
+parent_section: 2210.07763_H1
+tags: paragraph 2210.07763
+title: 2210.07763_PARA_0007
+type: text/vnd.tiddlywiki
+
+Structured knowledge, often stored in knowledge graphs (KGs) [hoganetal,weikum2020machine], is a key asset for many AI applications, including search, question answering, and conversational bots. KGs cover factual knowledge about notable entities such as singers, songs, cities, sports teams, etc. However, even large-scale KGs deployed in practice hardly touch on the dimension of commonsense knowledge (CSK): properties of everyday objects, behaviors of humans, and more. 
+Some projects, such as ConceptNet [speer2017conceptnet], Atomic [atomic], and Ascent++ [ascentpp] have compiled large sets of CSK assertions, but are solely focused on ``universal CSK'': assertions that are agreed upon by almost all people and are thus viewed as ``globally true''.
+What is missing, though, is that CSK must often be viewed in the {\em context of specific social or cultural groups}: the world view of a European teenager does not necessarily agree with those of an American business person or a Far-East-Asian middle-aged factory worker.

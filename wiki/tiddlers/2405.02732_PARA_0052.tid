@@ -1,0 +1,10 @@
+created: 20260625093047341
+modified: 20260625093047341
+page: 000
+parent_section: 2405.02732_H10
+tags: paragraph 2405.02732
+title: 2405.02732_PARA_0052
+type: text/vnd.tiddlywiki
+
+Finally, each candidate O for a given SP is classified by whether its own support-passage vector is closer to the {{2405.02732_FO0051||FO}} or the {{2405.02732_FO0052||FO}} vector, in terms of cosine distance,
+ leading to acceptance or rejection, respectively.

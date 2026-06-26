@@ -1,0 +1,11 @@
+caption: E' \subset E
+created: 20260625080805467
+displayMode: false
+latex: E' \subset E
+latex_original: E' \subset E
+modified: 20260625080805467
+tags: formula arxiv_2411_12449
+title: arxiv_2411_12449_FO0020
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

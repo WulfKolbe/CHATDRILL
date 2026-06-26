@@ -1,0 +1,9 @@
+created: 20260625080827137
+modified: 20260625080827137
+page: 000
+parent_section: arxiv_2405_02732_H19
+tags: paragraph arxiv_2405_02732
+title: arxiv_2405_02732_PARA_0100
+type: text/vnd.tiddlywiki
+
+\noindent{\bf Missing True Positives in the Low Ranks.} Majority of TPs are in the higher ranks. These are followed by a long tail, with mostly FPs but sprinkled with TPs at lower ranks.

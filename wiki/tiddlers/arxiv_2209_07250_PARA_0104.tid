@@ -1,0 +1,9 @@
+created: 20260625080859570
+modified: 20260625080859570
+page: 000
+parent_section: arxiv_2209_07250_H17
+tags: paragraph arxiv_2209_07250
+title: arxiv_2209_07250_PARA_0104
+type: text/vnd.tiddlywiki
+
+it can be argued that as the LCQuAD queries are created from question templates which in turn are generated from SPARQL templates, the semantic gap between the natural language query and its KG counterpart is much lower. This aids QAnswer and hinders natural language document retrievers used in the other baselines. The fact that {\mysystem} has the lowest coverage in LCQuAD among all datasets also backs this hypothesis.

@@ -1,0 +1,11 @@
+created: 20260625093047341
+modified: 20260625093047341
+page: 000
+parent_section: 2405.02732_H1
+tags: paragraph 2405.02732
+title: 2405.02732_PARA_0008
+type: text/vnd.tiddlywiki
+
+Since we are solving a new task, we curated two datasets, covering fiction books and web documents, respectively. The books dataset, which is our primary target, consists of 11 books or book series, with a total of 16,000 pages. It addresses 8 relations of long-tailed nature (incl. friends, opponents, placeHasPerson etc.).
+The second dataset comprises ca. 10 million web documents sampled from the C4 corpus [dodge-etal-2021-documenting], focusing on 3 long-tailed factual relations (hasCEO, hasSubsidiary, and isMemberOf). 
+Here, for each SP pair, we need to tap into many thousands of pages, which can be conceptualized as a single long text.

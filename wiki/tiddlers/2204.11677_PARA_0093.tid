@@ -1,0 +1,11 @@
+created: 20260625093448814
+modified: 20260625093448814
+page: 000
+parent_section: 2204.11677_H4
+tags: paragraph 2204.11677
+title: 2204.11677_PARA_0093
+type: text/vnd.tiddlywiki
+
+The SR generation is implemented by fine-tuning a pre-trained sequence generation model. 
+We tried BART [lewis2020bart] and T5 [raffel2020exploring] in preliminary experiments,
+and found BART to perform

@@ -1,0 +1,16 @@
+created: 20260625093119694
+modified: 20260625093119694
+page: 000
+parent_section: 2308.06374_H5
+tags: paragraph 2308.06374
+title: 2308.06374_PARA_0030
+type: text/vnd.tiddlywiki
+
+Extracting knowledge from tabular data like databases, Web tables and CSV files is a common way for KG construction.
+For tables whose semantics (meta information) are already known, heuristic rules can be defined and used to transform their data into KG facts.
+However, real-world tables often have unclear semantics with important meta information, such as table name and column header, not clearly defined. Meanwhile, the original data usually need to be retrieved, explored, integrated and curated, before expected knowledge can be extracted. 
+In recent years, Transformer-based LMs have been investigated for processing tables especially their textual contents. 
+They can be applied to table vector representation as a foundation of other prediction tasks [vogel2023towards]. 
+TURL [deng2022turl] is a typical method of table representation learning that uses BERT [devlin2018bert] and has been applied in several tasks such as cell filling, column type annotation, and relation extraction.
+Similarly, RPT [tang2020rpt] uses BERT and GPT to pre-train a table representation model. 
+Starmie [fan2022semantics] transforms columns into sequences using a template and fine-tunes BERT with a contrast learning framework using unionable and not unionable column pairs as samples.

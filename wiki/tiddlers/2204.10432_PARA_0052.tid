@@ -1,0 +1,9 @@
+created: 20260625093505869
+modified: 20260625093505869
+page: 000
+parent_section: 2204.10432_H11
+tags: paragraph 2204.10432
+title: 2204.10432_PARA_0052
+type: text/vnd.tiddlywiki
+
+Depression detection results in dataset-transfer evaluation are shown in non-gray blocks in Table (ref). Unlike standard within-dataset evaluations, this scenario requires methods trained on one dataset to generalize to other (highly similar) datasets. While all datasets consider the same social media platform, their dataset construction methodologies differ, and thus, they are likely to contain different dataset artifacts. Unconstraind methods have the flexibility to learn shortcuts induced by these artifacts, which can lead to poor generalization beyond the training corpus. This effect is observed in the results of the unconstrained model: as summarized in Figure (ref), BERT is outperformed by our PHQ9 (scores, vectors) or even pattern-based methods in many dataset-transfer settings.

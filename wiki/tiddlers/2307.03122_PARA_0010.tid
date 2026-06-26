@@ -1,0 +1,9 @@
+created: 20260625093145739
+modified: 20260625093145739
+page: 000
+parent_section: 2307.03122_H4
+tags: paragraph 2307.03122
+title: 2307.03122_PARA_0010
+type: text/vnd.tiddlywiki
+
+The seven diverse multi-valued relations appearing in LAMA benchmark [petroni-etal-2019-language] are chosen. For each relation, approx. {{2307.03122_FO0010||FO}} subjects and a complete list of objects from the popular Wikidata KB [Vrandei2014WikidataAF] are sampled. The subjects were picked based on popularity, measured using Wikidata ID and count of Twitter followers for person-type subjects\footnote{\href{https://github.com/snehasinghania/multi_valued_slot_filling}{https://github.com/snehasinghania/multi\_valued\_slot\_filling}}.

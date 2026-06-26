@@ -1,0 +1,14 @@
+[
+    {
+        "title": "2411.04920_DIA_0002",
+        "text": "<$image source={{!!canonical_uri}} width={{!!width}} height={{!!height}}/>",
+        "type": "text/vnd.tiddlywiki",
+        "tags": "diagram tikz 2411.04920",
+        "created": "20260625093027648",
+        "modified": "20260625093027648",
+        "page": "000",
+        "latex_code": "\\begin{tikzpicture}\n    \\pie[sum=auto, after number=K, radius=2]{\n    281/Person, \n    66/film, \n    56/Company, \n    46/video game, \n    43/album, \n    37/museum, \n    33/fictional character,\n    32/character, \n    31/City,\n    30/song\n    \n    \n    \n    }\n\\end{tikzpicture}",
+        "latex_original": "\\begin{tikzpicture}\n    \\pie[sum=auto, after number=K, radius=2]{\n    281/Person, \n    66/film, \n    56/Company, \n    46/video game, \n    43/album, \n    37/museum, \n    33/fictional character,\n    32/character, \n    31/City,\n    30/song\n    \n    \n    \n    }\n\\end{tikzpicture}",
+        "caption": "The 10 most frequent classes in \\ourkb, which make up 21.5\\% of all entities."
+    }
+]

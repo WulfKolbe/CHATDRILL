@@ -1,0 +1,11 @@
+caption: \ensuremath{\bm{Y}}\xspace \in \mathbb{R}^{d_{\ensuremath{\bm{Y}}\xspace}}
+created: 20260625080931151
+displayMode: false
+latex: \ensuremath{\bm{Y}}\xspace \in \mathbb{R}^{d_{\ensuremath{\bm{Y}}\xspace}}
+latex_original: \Yg \in \mathbb{R}^{d_{\Yg}}
+modified: 20260625080931151
+tags: formula arxiv_2110_13883
+title: arxiv_2110_13883_FO0002
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

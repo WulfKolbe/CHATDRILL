@@ -1,0 +1,9 @@
+created: 20260625093341705
+modified: 20260625093341705
+page: 000
+parent_section: 2209.07250_H9
+tags: paragraph 2209.07250
+title: 2209.07250_PARA_0067
+type: text/vnd.tiddlywiki
+
+We automatically obtain count ground truth by collecting structured answers from the same search engine. Executing each query on Google, we scrape knowledge graph (KG) answers and featured snippets, using an off-the-shelf QA extraction model [sanh2019distilbert] to obtain best answers from the latter.

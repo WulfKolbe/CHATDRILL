@@ -1,0 +1,9 @@
+created: 20260625093308064
+modified: 20260625093308064
+page: 000
+parent_section: 2210.07763_H3
+tags: paragraph 2210.07763
+title: 2210.07763_PARA_0046
+type: text/vnd.tiddlywiki
+
+Since natural language often allows to express similar assertions in many different ways, and web harvesting naturally leads to discovering similar assertions multiple times, we employ clustering as an essential component in our approach.

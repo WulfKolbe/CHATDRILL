@@ -1,0 +1,9 @@
+created: 20260625093119694
+modified: 20260625093119694
+page: 000
+parent_section: 2308.06374_H8
+tags: paragraph 2308.06374
+title: 2308.06374_PARA_0091
+type: text/vnd.tiddlywiki
+
+Using factual knowledge from KGs to pre-train LLMs has also infused structured knowledge [Moiseev2022SKILLSK]. This integration of KGs with LLMs, along with efficient prompts, has made it convenient to inject world knowledge and incorporate new evolving information into language models [Santos2022KnowledgePI]. Additionally, knowledge expressed in high-resource language KBs has been transferred into LMs tuned for low-resource languages [Zhou2021PrixLMPF, Liu2021LearningDR].

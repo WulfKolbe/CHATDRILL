@@ -1,0 +1,9 @@
+created: 20260625093231915
+modified: 20260625093231915
+page: 000
+parent_section: 2305.05403_H23
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0209
+type: text/vnd.tiddlywiki
+
+In the Aristo TupleKB project [mishra2017domain], recall of an automatically constructed science KB is compared with information contained in scientific texts. For this recall assessment, Mishra et al.\ assemble a corpus of 1.2M sentences from elementary science textbooks, Wikipedia, and dictionaries, from which they automatically extract relational statements. They can then quantify the ``science recall'' of a KB by measuring which fraction of these statements is contained in a KB. This is done for 5 KBs (WebChild, NELL, ConceptNet, ReVerb-15M, TupleKB). Since predicate names in the KBs vary, this analysis is restricted to 20 general predicates, which are manually mapped to a wider set of surface names. Also, for subject and object match, only headwords are considered. Under these relaxed conditions, the science recall of these KBs is found to be between 0.1% and 23.2%.

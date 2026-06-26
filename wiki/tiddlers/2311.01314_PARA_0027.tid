@@ -1,0 +1,15 @@
+created: 20260625093057255
+modified: 20260625093057255
+page: 000
+parent_section: 2311.01314_H2
+tags: paragraph 2311.01314
+title: 2311.01314_PARA_0027
+type: text/vnd.tiddlywiki
+
+Recent work by [DBLP:conf/acl/RamosRWFL24,DBLP:conf/wsdm/TorbatiTW24] takes advantage of large language models to generate short user profiles from 
+reviews and item descriptions. Our framework subsumes this approach as a special case.
+The brand-new work of [DongFangLauw:WSDM2025] 
+includes reviews 
+in learning a model 
+over a shared latent space. 
+In contrast, our framework makes user profiles explicit before feeding them into the recommender, giving the user a chance to inspect and edit this personal data.

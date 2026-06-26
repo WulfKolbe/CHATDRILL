@@ -1,0 +1,10 @@
+created: 20260625093145739
+modified: 20260625093145739
+page: 000
+parent_section: 2307.03122_H7
+tags: paragraph 2307.03122
+title: 2307.03122_PARA_0025
+type: text/vnd.tiddlywiki
+
+In this work, we evaluate using LM's internal representation for materializing factual knowledge on multi-valued relations. We utilize existing prompt engineering techniques and propose new prompts tailored for multi-valued relations.
+The suggested selection mechanism approaches help to filter out valid triples. Our detailed analysis of the model's performance highlights the limitations of using zero-shot probing for the multi-valued slot-filling task. Future work could aim to improve overall precision and recall and measure the impact of using LMs to fill gaps in KBs.

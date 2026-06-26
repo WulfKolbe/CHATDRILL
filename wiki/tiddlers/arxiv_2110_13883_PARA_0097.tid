@@ -1,0 +1,9 @@
+created: 20260625080931151
+modified: 20260625080931151
+page: 000
+parent_section: arxiv_2110_13883_H18
+tags: paragraph arxiv_2110_13883
+title: arxiv_2110_13883_PARA_0097
+type: text/vnd.tiddlywiki
+
+In case of \lnn, we use the suggested setting, which is {{arxiv_2110_13883_FO0386||FO}} neighbours for MI estimation and evaluate {{arxiv_2110_13883_FO0387||FO}}, as well as {{arxiv_2110_13883_FO0388||FO}}, for bandwidth prediction for the kernel density estimation.

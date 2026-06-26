@@ -1,0 +1,9 @@
+created: 20260625093119694
+modified: 20260625093119694
+page: 000
+parent_section: 2308.06374_H8
+tags: paragraph 2308.06374
+title: 2308.06374_PARA_0092
+type: text/vnd.tiddlywiki
+
+Furthermore, grounding knowledge from KGs to pre-train LMs has shown improvements in performance on generation and QA tasks [Chen2020KGPTKP, Ribeiro2020InvestigatingPL, Ouz2020UniKQAUR]. In another approach, [verga2020facts] proposed an interpretable neuro-symbolic KB, where the memory consists of vector representations of entities and relations from an existing KB. These representations are augmented to an LM during pre-training and fine-tuning, enabling the model to excel in knowledge-intensive QA tasks.

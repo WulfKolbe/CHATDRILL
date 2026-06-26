@@ -1,0 +1,10 @@
+created: 20260625093105364
+modified: 20260625093105364
+page: 000
+parent_section: 2310.14771_H1
+tags: paragraph 2310.14771
+title: 2310.14771_PARA_0005
+type: text/vnd.tiddlywiki
+
+It is also important to keep in mind the scale of KBs: Wikidata currently contains around 100 million entities and 1.2B statements. The cost of producing such KBs is massive. An estimate from 2018 sets the cost per statement at 2 \$ for manually curated statement, and 1 ct for automatically extracted ones [paulheim]. 
+Thus, even small additions in relative terms might correspond to massive gains in absolute numbers. For example, even by the lower estimate of 1 ct/statement, adding one statement to just 1% of Wikidata humans would come at a cost of 100,000 \$.

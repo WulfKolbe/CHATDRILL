@@ -1,0 +1,12 @@
+created: 20260625093505870
+modified: 20260625093505870
+page: 000
+parent_section: 2204.10432_H18
+tags: paragraph 2204.10432
+title: 2204.10432_PARA_0068
+type: text/vnd.tiddlywiki
+
+In this work, we propose a spectrum of methods for depression detection that are constrained by the presence of PHQ9 symptoms.
+In our experiments on the three datasets, we find these methods to perform well compared to strong baselines while generalizing better to similar datasets. 
+This can be viewed as a proof-of-concept demonstrating that grounding depression predictions in PHQ9 can improve the generalizability of depression detection and the interpretability of the model.
+While this research focuses only on depression detection, the idea of constraining models to consider only relevant causes may be applied to a wider range of tasks, including detection of other mental health conditions with diagnostic questionnaires.

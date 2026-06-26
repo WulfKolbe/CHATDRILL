@@ -1,0 +1,9 @@
+created: 20260625093105364
+modified: 20260625093105364
+page: 000
+parent_section: 2310.14771_H6
+tags: paragraph 2310.14771
+title: 2310.14771_PARA_0037
+type: text/vnd.tiddlywiki
+
+In terms of reproducibility, it should be noted that our results are tied to a closed-source commercial API. Although GPT-3/4/chatGPT are widely used in research and industry, and OpenAI has announced plans to keep stable model versions online, long-term reproducibility is not ensured, and the internal workings of GPT are publicly not known.

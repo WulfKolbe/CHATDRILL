@@ -1,0 +1,13 @@
+created: 20260625080929032
+modified: 20260625080929032
+page: 000
+parent_section: arxiv_2204_11677_H1
+tags: paragraph arxiv_2204_11677
+title: arxiv_2204_11677_PARA_0058
+type: text/vnd.tiddlywiki
+
+\vspace*{0.2cm}
+\myparagraph{Contributions} Our salient contributions are the following:
+\squishlist
+ \item The paper proposes \convinse, the first end-to-end method for ConvQA over heterogeneous sources.
+ \item It introduces structured representations to capture user intents in a structured and explainable manner, a key element for seamless answering over a mixture of heterogeneous sources.

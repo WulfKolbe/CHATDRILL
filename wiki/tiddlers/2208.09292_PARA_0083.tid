@@ -1,0 +1,10 @@
+created: 20260625095716233
+modified: 20260625095716233
+page: 000
+parent_section: 2208.09292_H14
+tags: paragraph 2208.09292
+title: 2208.09292_PARA_0083
+type: text/vnd.tiddlywiki
+
+In another extrinsic case, we test the effect \uncommon{} in a trivia-quiz use case. Similar to the entity summarization experiment, users (in this case players) are shown a list of negations about a concept. However, this time, they havs
+e to guess the concept that these negative trivia facts are describing, out of 3 concept. To make it challenging, 2 of the options (i.e., distractors) are chosen from the sibling list of the correct concept-answer. To produce lists of trivia facts, we consider the same methods from Section (ref) and produce top negations for each concept-method pair.

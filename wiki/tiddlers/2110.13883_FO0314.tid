@@ -1,0 +1,11 @@
+caption: I(X;Y) = h(Y) - h(Z) = \frac{\alpha}{2} - \log \alpha
+created: 20260625110956924
+displayMode: false
+latex: I(X;Y) = h(Y) - h(Z) = \frac{\alpha}{2} - \log \alpha
+latex_original: I(X;Y) = h(Y) - h(Z) = \frac{\alpha}{2} - \log \alpha
+modified: 20260625110956924
+tags: formula 2110.13883
+title: 2110.13883_FO0314
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

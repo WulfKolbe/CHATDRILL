@@ -1,0 +1,9 @@
+created: 20260625080816564
+modified: 20260625080816564
+page: 000
+parent_section: arxiv_2411_04920_H11
+tags: paragraph arxiv_2411_04920
+title: arxiv_2411_04920_PARA_0066
+type: text/vnd.tiddlywiki
+
+The notion and definition of LLM knowledge itself is controversial [fierro2024defining]. We adopt here the term knowledge base because it is common in the field, but would consider the term belief base equally appropriate. In terms of the definitions of knowledge that are introduced by [fierro2024defining], we find that our output falls into the minimalistic sui-generis (g-knowledge) category, as our KB contains false as well as inconsistent statements. Beyond the reported errors, e.g., in many cases, spouse relations are not symmetrically represented (see ``enabled analyses'' below).

@@ -1,0 +1,9 @@
+created: 20260625080930846
+modified: 20260625080930846
+page: 000
+parent_section: arxiv_2111_13611_H2
+tags: paragraph arxiv_2111_13611
+title: arxiv_2111_13611_PARA_0020
+type: text/vnd.tiddlywiki
+
+For question answering over knowledge bases, it is important to know whether a KB can be relied upon in terms of complete answer sets [darari2013completeness, hopkinson2018demand,DBLP:journals/corr/abs-2001-04425]. Current coverage estimation techniques for KBs do this analysis only post-hoc after the KB is fully constructed [galarraga2017predicting, luggen2019non], losing access to valuable information from extraction time.

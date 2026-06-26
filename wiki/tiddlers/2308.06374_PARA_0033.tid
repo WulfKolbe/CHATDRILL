@@ -1,0 +1,15 @@
+created: 20260625093119694
+modified: 20260625093119694
+page: 000
+parent_section: 2308.06374_H5
+tags: paragraph 2308.06374
+title: 2308.06374_PARA_0033
+type: text/vnd.tiddlywiki
+
+For example,
+\begin{inparaenum}[(1)]
+\item Named Entity Recognition (NER) and Entity Linking, as mentioned in Section (ref), involve identifying and categorizing named entities (such as persons, organizations, and locations) in text and linking (more in Section (ref)) them to KGs. 
+\item Relation extraction focuses on identifying and classifying relationships between entities, with LLMs that leverage zero-shot and few-shot in-context learning techniques [Wei2023ZeroShotIE, Li2023EvaluatingCI]. 
+\item Event extraction aims to detect and classify events mentioned in the text, including their participants and attributes [wadden-etal-2019-entity, Zhang2023COFFEEAC].
+\item Semantic Role Labeling (SRL) involves identifying the roles played by entities in a sentence, such as the subject, object and predicate [Shi2019SimpleBM, zhong-chen-2021-frustratingly].
+\end{inparaenum}

@@ -1,0 +1,13 @@
+created: 20260625080804874
+modified: 20260625080804874
+page: 000
+parent_section: arxiv_2501_06699_H2
+tags: paragraph arxiv_2501_06699
+title: arxiv_2501_06699_PARA_0025
+type: text/vnd.tiddlywiki
+
+In this section we compare the strengths and limitations of SEs, KGs and LLMs. Similar analyses 
+ have been presented
+ for KGs and LLMs [DBLP:journals/tgdk/PanRKSCDJO0LBMB23,DBLP:journals/corr/abs-2306-08302]; here we introduce SEs and a suite of new issues in our comparison. 
+ Table (ref) provides an overview of the pros and cons of SEs, KGs and LLMs 
+ along various dimensions. When discussing the strengths and limitations of LLMs, we consider LLMs in isolation. Combinations of technologies (e.g., RAG) will be discussed later.

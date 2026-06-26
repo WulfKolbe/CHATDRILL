@@ -1,0 +1,11 @@
+caption: \bm{W}^{(1)}\in\mathbb{R}^{n_1 \times 1}
+created: 20260626094813421
+displayMode: false
+latex: \bm{W}^{(1)}\in\mathbb{R}^{n_1 \times 1}
+latex_original: \bm{W}^{(1)}\in\reals^{n_1 \times 1}
+modified: 20260626094813421
+tags: formula 2110.11150
+title: 2110.11150_FO0177
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

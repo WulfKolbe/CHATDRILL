@@ -1,0 +1,9 @@
+created: 20260625093231914
+modified: 20260625093231914
+page: 000
+parent_section: 2305.05403_H6
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0052
+type: text/vnd.tiddlywiki
+
+\noindent Cardinality assertions can be used to infer recall for a given selection condition by computing the division from Definition (ref), {{2305.05403_FO0055||FO}}. Moreover, in the special case where {{2305.05403_FO0056||FO}}, they can be used to infer completeness.

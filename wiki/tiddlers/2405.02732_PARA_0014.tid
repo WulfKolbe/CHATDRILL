@@ -1,0 +1,17 @@
+created: 20260625093047341
+modified: 20260625093047341
+page: 000
+parent_section: 2405.02732_H2
+tags: paragraph 2405.02732
+title: 2405.02732_PARA_0014
+type: text/vnd.tiddlywiki
+
+\vspace*{-0.1cm}
+\paragraph{LLMs as Knowledge Bases.}
+[petroni-etal-2019-language] showed that 
+LLM prompts can generate facts of knowledge-base style. 
+The approach has been expanded
+and refined in various ways (e.g., [DBLP:journals/tacl/JiangXAN20,shin-etal-2020-autoprompt,DBLP:conf/naacl/QinE21,DBLP:conf/www/ChenZXDYTHSC22]). 
+These aim at precision, 
+disregarding recall and the long tail.
+Recent studies indicate that LLMs have major problems in dealing with long tail facts [DBLP:conf/emnlp/VeseliRKW23,DBLP:journals/corr/abs-2308-10168,singhania-etal-2023-extracting,DBLP:conf/icml/KandpalDRWR23].

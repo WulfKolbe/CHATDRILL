@@ -1,0 +1,11 @@
+caption: 70^{\text{th}}
+created: 20260625093007937
+displayMode: false
+latex: 70^{\text{th}}
+latex_original: 70^{\text{th}}
+modified: 20260625093007937
+tags: formula 2411.12449
+title: 2411.12449_FO0130
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

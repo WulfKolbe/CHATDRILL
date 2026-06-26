@@ -1,0 +1,17 @@
+[
+    {
+        "title": "2110.11150_REF_HeInit",
+        "text": "{{||CIT}} K. He, X. Zhang, S. Ren, and J. Sun. Delving deep into rectifiers: Surpassing human-level performance on imagenet classification. In Proceedings of the IEEE international conference on computer vision, pages 1026--1034, 2015.",
+        "type": "text/markdown",
+        "tags": "reference bibentry bibtex 2110.11150",
+        "created": "20260626111149172",
+        "modified": "20260626111149172",
+        "kind": "reference",
+        "citekey": "HeInit",
+        "year": "2015",
+        "authors": "He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian",
+        "entry_type": "inproceedings",
+        "titlefield": "Delving deep into rectifiers: Surpassing human-level performance on imagenet classification",
+        "bibtex": "@inproceedings{HeInit,\n  title={Delving deep into rectifiers: Surpassing human-level performance on imagenet classification},\n  author={He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian},\n  booktitle={Proceedings of the IEEE international conference on computer vision},\n  pages={1026--1034},\n  year={2015}\n}"
+    }
+]

@@ -1,0 +1,9 @@
+created: 20260625093231915
+modified: 20260625093231915
+page: 000
+parent_section: 2305.05403_H25
+tags: paragraph 2305.05403
+title: 2305.05403_PARA_0227
+type: text/vnd.tiddlywiki
+
+Relative recall w.r.t.\ use cases provides clear metrics of how a KB is faring downstream, and this is advantageous if a KB is built with a primary use case in mind. This strength is however often also a challenge, since often, KB construction is a longitudinal, cross-functional endevaour [machine-knowledge-survey], where use cases are moving targets.

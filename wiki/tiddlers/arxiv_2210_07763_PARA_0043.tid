@@ -1,0 +1,10 @@
+created: 20260625080858062
+modified: 20260625080858062
+page: 000
+parent_section: arxiv_2210_07763_H3
+tags: paragraph arxiv_2210_07763
+title: arxiv_2210_07763_PARA_0043
+type: text/vnd.tiddlywiki
+
+\begin{definition*}[Cultural commonsense knowledge assertion]
+Given a subject {{arxiv_2210_07763_FO0001||FO}} and a facet {{arxiv_2210_07763_FO0002||FO}}, a CCSK assertion is a triple {{arxiv_2210_07763_FO0003||FO}} where sent is a natural-language sentence

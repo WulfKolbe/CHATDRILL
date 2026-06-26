@@ -1,0 +1,11 @@
+caption: \hat{N}=M/r
+created: 20260625080853723
+displayMode: false
+latex: \hat{N}=M/r
+latex_original: \hat{N}=M/r
+modified: 20260625080853723
+tags: formula arxiv_2305_05403
+title: arxiv_2305_05403_FO0068
+type: text/vnd.tiddlywiki
+
+<$latex text={{!!latex}} displayMode={{!!displayMode}} />

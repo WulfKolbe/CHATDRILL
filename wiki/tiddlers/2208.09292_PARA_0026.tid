@@ -1,0 +1,9 @@
+created: 20260625095716233
+modified: 20260625095716233
+page: 000
+parent_section: 2208.09292_H3
+tags: paragraph 2208.09292
+title: 2208.09292_PARA_0026
+type: text/vnd.tiddlywiki
+
+We present \uncommon{}, a method for automatically identifying informative negative knowledge about everyday concepts. \uncommon{} first retrieves comparable concepts for a target concept s by exploiting embeddings and taxonomic relations between these concepts. Over the positive knowledge about these comparable concepts, a local closed-world assumption (LCWA) [galarraga2017predicting] is made. These relevant positives are then considered as potential informative negations for s. Consequently, these candidates might contain many false negatives and nonfactual statements. This is followed by an inspection step, where we use KB-based and LM-based checks to measure the plausibility of candidates. Finally, to measure informativeness, the remaining candidates are scored using relative frequency. An overview is shown in Figure (ref).

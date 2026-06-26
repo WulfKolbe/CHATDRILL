@@ -1,0 +1,9 @@
+created: 20260625110956922
+modified: 20260625110956922
+page: 000
+parent_section: 2110.13883_H1
+tags: paragraph 2110.13883
+title: 2110.13883_PARA_0009
+type: text/vnd.tiddlywiki
+
+where {{2110.13883_FO0003||FO}} refers to the natural logarithm. Although the differential entropy of a random variable can be negative, the chain rule does still apply for differential entropy, and hence {{2110.13883_FO0004||FO}} with equality if and only if {{2110.13883_FO0005||FO}} is independent of {{2110.13883_FO0006||FO}} [cover:06:elements].

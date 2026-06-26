@@ -1,0 +1,10 @@
+created: 20260625080805467
+modified: 20260625080805467
+page: 000
+parent_section: arxiv_2411_12449_H9
+tags: paragraph arxiv_2411_12449
+title: arxiv_2411_12449_PARA_0069
+type: text/vnd.tiddlywiki
+
+Information Extraction.
+Extracting structured information from unstructured text has been a central focus of NLP research [han-etal-2020-data]. A key task in IE is relation extraction (RE), which identifies relationships between entities using named entity recognition, entity linking, and relational classification. Accurate relation identification, however, requires deep semantic understanding of context and is often constrained by the fixed relation types in traditional classifier-based RE methods [ma-etal-2023-dreeam].

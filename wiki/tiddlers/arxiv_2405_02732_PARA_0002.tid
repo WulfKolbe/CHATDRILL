@@ -1,0 +1,11 @@
+created: 20260625080827136
+modified: 20260625080827136
+page: 000
+parent_section: arxiv_2405_02732_H1
+tags: paragraph arxiv_2405_02732
+title: arxiv_2405_02732_PARA_0002
+type: text/vnd.tiddlywiki
+
+Motivation and Problem.
+Information extraction (IE, for short) is the methodology for distilling structured information out of unstructured texts. Specifically, relation extraction aims to yield subject-predicate-object ({\em SPO}) triples where S and O are named entities that stand in a certain relation P.
+State-of-the-art methods are based on neural learning, and perform well in terms of precision but with limited recall [HanGLPYXLLZS20]. Recently, large language models (LLM) have been studied for this task, with emphasis on long-tail facts, yet they exhibit similar deficits in recall [DBLP:conf/icml/KandpalDRWR23, DBLP:conf/emnlp/VeseliRKW23, DBLP:journals/corr/abs-2308-10168]. Moreover, most methods are designed to operate only on single passages, as classifiers or sequence taggers.
