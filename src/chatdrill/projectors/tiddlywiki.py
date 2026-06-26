@@ -22,6 +22,7 @@ citations, and simple spoken refs ("the code above") — all become transclusion
 """
 from __future__ import annotations
 
+import hashlib
 import re
 from collections import defaultdict
 from datetime import datetime, timezone
@@ -33,6 +34,38 @@ from .providers import for_source
 _STOP = {"the", "a", "an", "of", "for", "to", "in", "on", "and", "or", "with",
          "is", "are", "how", "what", "why", "do", "i", "my", "me", "please"}
 _GENERIC = {"", "new chat", "untitled", "(untitled)", "chat"}
+
+# Store code as RAW text with the tiddler `type` set to the language MIME, so the
+# wiki shows it as a proper (browser-highlighted) code tiddler — not a field.
+LANG_MIME = {
+    "python": "text/x-python", "py": "text/x-python",
+    "javascript": "application/javascript", "js": "application/javascript",
+    "typescript": "application/typescript", "ts": "application/typescript",
+    "tsx": "application/typescript", "jsx": "application/javascript",
+    "json": "application/json", "bash": "text/x-sh", "sh": "text/x-sh",
+    "shell": "text/x-sh", "console": "text/x-sh", "html": "text/html",
+    "css": "text/css", "scss": "text/css", "sql": "text/x-sql",
+    "c": "text/x-csrc", "h": "text/x-csrc", "cpp": "text/x-c++src",
+    "java": "text/x-java", "go": "text/x-go", "rust": "text/x-rustsrc",
+    "rs": "text/x-rustsrc", "ruby": "text/x-ruby", "rb": "text/x-ruby",
+    "php": "application/x-httpd-php", "xml": "application/xml",
+    "yaml": "text/x-yaml", "yml": "text/x-yaml", "toml": "text/x-toml",
+    "latex": "text/x-latex", "tex": "text/x-latex", "markdown": "text/markdown",
+    "md": "text/markdown", "lua": "text/x-lua", "kotlin": "text/x-kotlin",
+    "swift": "text/x-swift", "r": "text/x-rsrc", "awk": "text/plain",
+}
+
+
+def _mime(lang: str | None) -> str:
+    return LANG_MIME.get((lang or "").lower(), "text/plain")
+
+
+def _sha1(s: str) -> str:
+    return hashlib.sha1(s.encode("utf-8")).hexdigest()[:12]
+
+
+_SYMBOL = re.compile(
+    r"\b(?:def|class|interface|type|function|func|fn|const|struct|enum)\s+([A-Za-z_]\w*)")
 
 
 def _camel(s: str, words: int = 3) -> str:
@@ -88,26 +121,44 @@ class _Builder:
         self.suffix = f"{self.prov.label} {_bibtag(self.bibkey)}"
         self.out: list[dict] = []
         self.n: dict[str, int] = defaultdict(int)
-        self.code_titles: list[str] = []          # code tiddlers, for the chat-root index
+        self.code_titles: list[tuple] = []        # (title, lang, lines, caption)
         self.source_urls: list[str] = []          # provider Sources section
+        self.cur_ex = 0                            # exchange context for code comments
+        self.cur_query = ""
 
     # -- low level --
-    def _tid(self, title: str, text: str, type_tag: str, **fields) -> str:
-        # Everything is native text/markdown — code as ```fences```, math as
-        # $…$/$$…$$, links as [text](url). No widgets, no field references, so
-        # multi-line content and `}}` inside code are safe.
-        t = {"title": title, "tags": f"{type_tag} {self.suffix}",
-             "type": "text/markdown", "text": text}
+    def _tid(self, title: str, text: str, type_tag: str, *, type="text/markdown",
+             comment: str = "", **fields) -> str:
+        # text/markdown by default; code tiddlers pass their language MIME. A
+        # git/svn-style `comment` header field is added to every tiddler.
+        t = {"title": title, "tags": f"{type_tag} {self.suffix}", "type": type,
+             "text": text}
+        if comment:
+            t["comment"] = comment
         t.update({k: str(v) for k, v in fields.items() if v is not None})
         self.out.append(t)
         return title
 
+    def _code_caption(self, code: str, lang: str | None) -> str:
+        m = _SYMBOL.search(code)
+        if m:
+            return m.group(1)
+        first = next((ln.strip() for ln in code.splitlines() if ln.strip()), "")
+        return first[:48] or f"{lang or 'code'} snippet"
+
     def add_code(self, code: str, lang: str | None) -> str:
-        """A standalone code tiddler — a native markdown fenced block (the code
-        body lives in the TEXT, never a field, so newlines and `}}` are fine)."""
+        """A standalone code tiddler: RAW code in TEXT, `type` = the language MIME
+        (so the wiki shows it as a highlighted code tiddler), with metadata + a
+        git/svn-style comment in FIELDS. `}}` and newlines are safe (not a field,
+        not markdown)."""
         title = f"{self.bibkey}_CODE{self.n['CODE']:03d}"; self.n["CODE"] += 1
-        self._tid(title, f"```{lang or ''}\n{code}\n```", "code", lang=lang or "")
-        self.code_titles.append((title, lang or "?", len(code.splitlines())))
+        lines = len(code.splitlines())
+        caption = self._code_caption(code, lang)
+        comment = f"ex{self.cur_ex} · {' '.join(self.cur_query.split())[:80]}"
+        self._tid(title, code, "code", type=_mime(lang), comment=comment,
+                  lang=lang or "", lines=lines, sha1=_sha1(code),
+                  exchange=self.cur_ex, caption=caption)
+        self.code_titles.append((title, lang or "?", lines, caption))
         return title
 
     # -- markdown rendering of a turn --
@@ -125,13 +176,14 @@ class _Builder:
         return re.sub(r"\[(\d{1,3})\]", repl, text)
 
     def render_segments(self, segments, sources: list[str]) -> str:
-        """Render a turn as native markdown: code segments become fenced blocks
-        transcluded from their own tiddler ({{title}}); prose gets math/citation
-        normalization. No `||TPL` templates, no field references."""
+        """Render a turn as native markdown. A code segment becomes a compact
+        reference — `{{title||CODEREF}}` shows a LINK to the (separately stored)
+        code tiddler plus its descriptive fields; prose gets math/citation
+        normalization."""
         parts: list[str] = []
         for seg in segments:
             if seg.kind == "code":
-                parts.append(f"{{{{{self.add_code(seg.text, seg.lang)}}}}}")
+                parts.append(f"{{{{{self.add_code(seg.text, seg.lang)}||CODEREF}}}}")
             else:
                 t = self._normalize_math(seg.text)
                 t = self._sub_citations(t, sources)
@@ -152,13 +204,21 @@ def build_tiddlers(model: ChatModel) -> list[dict]:
     b = _Builder(model)
     out = b.out
 
+    # CODEREF template — a compact reference: link to the code tiddler + fields.
+    out.append({"title": "CODEREF", "tags": "$:/tags/chatdrill/template",
+                "type": "text/vnd.tiddlywiki",
+                "text": "<$link to=<<currentTiddler>>>''{{!!caption}}''</$link>"
+                        " · //{{!!lang}}, {{!!lines}} lines// — {{!!comment}}"})
+
     # preamble (per provider)
     out.append({"title": f"{b.bibkey}_preamble",
                 "tags": f"preamble {b.suffix}", "type": "text/markdown",
+                "comment": f"{b.prov.label} chat conventions",
                 "text": b.prov.preamble})
 
     ex_links = []
     for ex in model.exchanges:
+        b.cur_ex, b.cur_query = ex.index, ex.query.content   # context for code comments
         # answer: strip the Sources block (perplexity) → citation links + Sources section
         sources: list[str] = []
         if ex.answer is None:
@@ -176,20 +236,22 @@ def build_tiddlers(model: ChatModel) -> list[dict]:
         ex_title = b._tid(
             f"{b.bibkey}_EX{ex.index:04d}",
             f"## Question\n\n{q_text}\n\n## Answer ⟨{ex.model or '?'}{lat}⟩\n\n{a_text}",
-            "exchange", index=ex.index, model=ex.model or "",
-            answered=str(ex.answered).lower(),
+            "exchange", comment=f"ex{ex.index} · {' '.join(ex.query.content.split())[:80]}",
+            index=ex.index, model=ex.model or "", answered=str(ex.answered).lower(),
             **({"latency_s": ex.latency_ms // 1000} if ex.latency_ms is not None else {}))
         ex_links.append(f"* {{{{{ex_title}}}}}")
 
-    # code tiddlers (created during rendering) and virtual-file tiddlers → index links
-    code_links = [f"* [[{t}]] — `{lang}`, {lines} lines"
-                  for t, lang, lines in b.code_titles]
+    # code tiddlers (created during rendering) → CODEREF index links
+    code_links = [f"* {{{{{t}||CODEREF}}}}" for t, *_ in b.code_titles]
+    # virtual files → typed code tiddlers (raw code in text + language MIME)
     file_links = []
     for vf in model.virtual_files:
         title = f"{b.bibkey}_FILE{b.n['FILE']:03d}"; b.n["FILE"] += 1
-        b._tid(title, f"```{vf.lang or ''}\n{vf.content}\n```", "file",
-               path=vf.path, lang=vf.lang or "", revisions=vf.revisions)
-        file_links.append(f"* [[{vf.path}|{title}]] — `{vf.lang or '?'}` ({vf.revisions}×)")
+        b._tid(title, vf.content, "file", type=_mime(vf.lang),
+               comment=f"reconstructed {vf.path} · {vf.revisions} revision(s)",
+               path=vf.path, lang=vf.lang or "", caption=vf.path,
+               lines=len(vf.content.splitlines()), revisions=vf.revisions)
+        file_links.append(f"* {{{{{title}||CODEREF}}}}")
 
     urls = sorted({a.content for a in model.artifacts if a.kind == "url"})
 
@@ -214,6 +276,9 @@ def build_tiddlers(model: ChatModel) -> list[dict]:
     out.insert(0,
                {"title": b.bibkey, "tags": f"chat {b.suffix}",
                 "type": "text/markdown", "text": "\n".join(body),
+                "comment": f"{b.prov.label} · {chat_title(model)} · "
+                           f"{len(model.exchanges)} exchanges",
+                "caption": chat_title(model),
                 "source": model.source, "chat_id": model.id,
                 "provider": b.prov.label, "models": ", ".join(model.models),
                 "exchanges": str(len(model.exchanges))})

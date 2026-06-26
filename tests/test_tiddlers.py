@@ -36,32 +36,44 @@ def test_bibkey_provider_date_title():
     assert bibkey(m).startswith("Pplx20231003_")
 
 
-def test_native_markdown_references():
-    tids = build_tiddlers(_model())
-    by = {t["title"]: t for t in tids}
+def test_code_stored_raw_with_language_type():
     bk = bibkey(_model())
-    ex = by[f"{bk}_EX0000"]["text"]
-    assert f"{{{{{bk}_CODE000}}}}" in ex                # code → PLAIN {{title}} transclusion
-    assert "||CODE" not in ex and "||FO" not in ex      # no field-based templates
-    assert "$E=mc^2$" in ex                             # \(...\) normalized to inline $
-    assert "[\\[1\\]](https://matplotlib.org)" in ex    # [1] → markdown citation link
-    # the code tiddler holds the code as a fenced BLOCK in its text (not a field)
+    by = {t["title"]: t for t in build_tiddlers(_model())}
     code = by[f"{bk}_CODE000"]
-    assert code["text"].startswith("```python\n") and "code" not in code  # no `code` field
+    # RAW code in TEXT (no ``` fence, no `code` field), type = the language MIME
+    assert code["type"] == "text/x-python"
+    assert code["text"].startswith("import matplotlib") and "```" not in code["text"]
     assert "x={1}}" in code["text"]                     # `}}` inside code is intact
+    assert "code" not in code                            # never a field
+    # metadata + a git/svn-style comment live in FIELDS
+    assert code["lang"] == "python" and int(code["lines"]) >= 1 and code["sha1"]
+    assert code["caption"] and code["comment"].startswith("ex0 ·")
 
 
-def test_no_templates_preamble_present():
+def test_exchange_uses_coderef_and_normalizes_math():
+    bk = bibkey(_model())
+    by = {t["title"]: t for t in build_tiddlers(_model())}
+    ex = by[f"{bk}_EX0000"]["text"]
+    assert f"{{{{{bk}_CODE000||CODEREF}}}}" in ex        # compact link+desc reference
+    assert "$E=mc^2$" in ex                              # \(...\) → inline $
+    assert "[\\[1\\]](https://matplotlib.org)" in ex     # [1] → markdown citation link
+
+
+def test_coderef_template_present_others_gone():
     titles = {t["title"] for t in build_tiddlers(_model())}
-    assert {"CODE", "FO", "EQ", "URL", "CIT"} & titles == set()   # templates gone
+    assert "CODEREF" in titles                           # the one reference template
+    assert {"CODE", "FO", "EQ", "URL", "CIT"} & titles == set()
     assert f"{bibkey(_model())}_preamble" in titles
 
 
-def test_everything_is_markdown():
-    tids = build_tiddlers(_model())
-    assert {t["type"] for t in tids} == {"text/markdown"}
-    by = {t["title"]: t for t in tids}
-    assert by[f"{bibkey(_model())}_EX0000"]["text"].startswith("## Question")
+def test_comment_field_on_every_kind():
+    bk = bibkey(_model())
+    by = {t["title"]: t for t in build_tiddlers(_model())}
+    assert by[bk]["comment"]                              # chat root
+    assert by[f"{bk}_EX0000"]["comment"].startswith("ex0 ·")   # exchange
+    assert by[f"{bk}_CODE000"]["comment"]                # code
+    # prose tiddlers stay markdown; code carries its language MIME
+    assert by[f"{bk}_EX0000"]["type"] == "text/markdown"
 
 
 def test_integrity_no_dangling():
