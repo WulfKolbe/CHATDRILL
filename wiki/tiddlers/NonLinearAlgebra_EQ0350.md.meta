@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-188.jpg?height=160&width=987&top_left_y=644&top_left_x=625
+created: 20260701062953708
+displayMode: true
+equation_number: (12.18)
+height: 160
+kind: Equation
+latex: f(x)-\lambda=\left(\begin{array}{lll} x^{2} & x & 1 \end{array}\right)\left(\begin{array}{ccc} 3 & 2 & \mu-6 \\ 2 & -2 \mu & 0 \\ \mu-6 & 0 & -\lambda \end{array}\right)\left(\begin{array}{c} x^{2} \\ x \\ 1 \end{array}\right) .
+modified: 20260701062953708
+page: 188
+refnum: 12.18
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0350
+top_left_x: 625
+top_left_y: 644
+type: text/markdown
+width: 987

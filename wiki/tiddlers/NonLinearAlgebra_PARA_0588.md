@@ -1,0 +1,5 @@
+
+
+This is equivalent to the statement we wanted to prove! 
+
+Our next aim is to relate matroids with the geometry of special subva rieties of Grassmannians. We recall that one of the possible definitions of  a Grassmannian {{NonLinearAlgebra_FO1035||FO}} is an orbit of {{NonLinearAlgebra_FO2592||FO}} under the  action of the group of {{NonLinearAlgebra_FO0510||FO}} invertible matrices {{NonLinearAlgebra_FO2116||FO}}. While the Grass mannian is an orbit of the big group {{NonLinearAlgebra_FO2116||FO}}, we may ask how smaller groups  act on {{NonLinearAlgebra_FO1035||FO}}. In particular, consider the torus {{NonLinearAlgebra_FO2593||FO}} of diagonal  matrices. This torus acts on {{NonLinearAlgebra_FO2594||FO}} and on {{NonLinearAlgebra_FO1035||FO}}. However, in general  {{NonLinearAlgebra_FO1035||FO}} is not an orbit of {{NonLinearAlgebra_FO1567||FO}} or even a closure of an orbit of {{NonLinearAlgebra_FO1567||FO}}. Indeed, we

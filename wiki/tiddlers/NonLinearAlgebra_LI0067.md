@@ -1,0 +1,1 @@
+Here \(d\) is an integer that is usually much smaller than \(n\) and \(K\) is a field

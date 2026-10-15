@@ -1,0 +1,8 @@
+caption: f\left(x_{0}, x_{1}, \ldots, x_{n}\right)=\sum_{i=1}^{s} x_{0}^{\operatorname{deg}(f)-\operatorname{deg}\left(h_{i} g_{i}\right)} \cdot h_{i}\left(\frac{x_{1}}{x_{0}}, \ldots, \frac{x_{n}}{x_{0}}\right) \cdot g_{i}\left(\frac{x_{1}}{x_{0}}, \ldots, \frac{x_{n}}{x_{0}}\right)
+created: 20260701062953688
+displayMode: false
+latex: f\left(x_{0}, x_{1}, \ldots, x_{n}\right)=\sum_{i=1}^{s} x_{0}^{\operatorname{deg}(f)-\operatorname{deg}\left(h_{i} g_{i}\right)} \cdot h_{i}\left(\frac{x_{1}}{x_{0}}, \ldots, \frac{x_{n}}{x_{0}}\right) \cdot g_{i}\left(\frac{x_{1}}{x_{0}}, \ldots, \frac{x_{n}}{x_{0}}\right)
+modified: 20260701062953688
+tags: formula NonLinearAlgebra
+title: NonLinearAlgebra_FO0490
+type: text/markdown

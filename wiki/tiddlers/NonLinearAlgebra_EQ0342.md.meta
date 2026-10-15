@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-186.jpg?height=182&width=751&top_left_y=519&top_left_x=687
+created: 20260701062953708
+displayMode: true
+equation_number: (12.12)
+height: 182
+kind: Equation
+latex: K=\left\{(x, y, z) \in \mathbb{R}^{3}:\left[\begin{array}{llll} 1 & x & y & z \\ x & 1 & x & y \\ y & x & 1 & x \\ z & y & x & 1 \end{array}\right] \succeq 0\right\}
+modified: 20260701062953708
+page: 186
+refnum: 12.12
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0342
+top_left_x: 687
+top_left_y: 519
+type: text/markdown
+width: 751

@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-091.jpg?height=137&width=863&top_left_y=1370&top_left_x=629
+created: 20260701062953705
+displayMode: true
+equation_number: 
+height: 137
+kind: Equation
+latex: 0=\prod_{i=1}^{r}\left(B_{i}-1\right)^{m_{i}}=\prod_{i=1}^{r}(-1)^{m_{i}}= \pm 1, \quad \text { i.e. } 1 \in I
+modified: 20260701062953705
+page: 091
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0139
+top_left_x: 629
+top_left_y: 1370
+type: text/markdown
+width: 863

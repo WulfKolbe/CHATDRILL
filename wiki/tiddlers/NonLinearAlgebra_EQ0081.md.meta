@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-057.jpg?height=132&width=1051&top_left_y=1130&top_left_x=537
+created: 20260701062953705
+displayMode: true
+equation_number: 
+height: 132
+kind: Equation
+latex: I=Q \cap \bigcap_{\substack{a+b+c \equiv 0 \\ \bmod 4}}\left\langle x-i^{a}, y-i^{b}, z-i^{c}\right\rangle \quad \text { in } \mathbb{C}[x, y, z]
+modified: 20260701062953705
+page: 057
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0081
+top_left_x: 537
+top_left_y: 1130
+type: text/markdown
+width: 1051

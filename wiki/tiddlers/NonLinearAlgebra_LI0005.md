@@ -1,0 +1,1 @@
+\(I=\langle x\rangle\) is prime but not maximal.

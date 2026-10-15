@@ -1,0 +1,1 @@
+For \(n=1\), computing the reduced Gröbner basis means computing

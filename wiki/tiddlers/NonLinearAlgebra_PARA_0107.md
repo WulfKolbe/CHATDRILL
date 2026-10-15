@@ -1,0 +1,7 @@
+
+
+Each of these three roots is an algebraic number over {{NonLinearAlgebra_FO0613||FO}}. We wrote them  a Puiseux series. If we think of {{NonLinearAlgebra_FO0612||FO}} as a very small positive quantity then  {{NonLinearAlgebra_FO0618||FO}} and {{NonLinearAlgebra_FO0619||FO}}. The exponents {{NonLinearAlgebra_FO0620||FO}} and 1 tell us the  asymptotic behavior. They are known as tropical solutions; cf. Chapter 7. 
+
+We have seen that solving a polynomial equation {{NonLinearAlgebra_FO0598||FO}} amounts to  decomposing the principal ideal {{NonLinearAlgebra_FO0597||FO}}, i.e. presenting it as an intersection  of simpler ideals. The situation is analogous for systems of polynomials in  {{NonLinearAlgebra_FO0065||FO}} variables, i.e. ideals {{NonLinearAlgebra_FO0153||FO}}, where {{NonLinearAlgebra_FO0621||FO}}. Suppose now  that {{NonLinearAlgebra_FO0001||FO}} is algebraically closed and assume that {{NonLinearAlgebra_FO0299||FO}} is zero-dimensional.  This means that the quotient ring {{NonLinearAlgebra_FO0172||FO}} is a finite-dimensional vector  space over {{NonLinearAlgebra_FO0001||FO}}. A basis is given by the standard monomials for a given  monomial order. The number of standard monomials is an upper bound for  the cardinality of {{NonLinearAlgebra_FO0299||FO}}. Equality holds if and only if {{NonLinearAlgebra_FO0038||FO}} is radical. 
+
+In the next subsection we will decompose our zero-dimensional ideal {{NonLinearAlgebra_FO0038||FO}} as

@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-112.jpg?height=164&width=1086&top_left_y=2290&top_left_x=515
+created: 20260701062953706
+displayMode: true
+equation_number: 
+height: 164
+kind: Equation
+latex: \mathbf{z}=\left(\begin{array}{ccc} t+1 & -1+t & 2 t \\ t & 1 & 1+t \\ 1 & t & 1+t \end{array}\right) \quad \text { and } \quad \mathbf{z}^{\prime}=\left(\begin{array}{ccc} 1 & 2 & t \\ 2 & 4 & 5 t \\ 3 t & 6 t & 7 \end{array}\right)
+modified: 20260701062953706
+page: 112
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0201
+top_left_x: 515
+top_left_y: 2290
+type: text/markdown
+width: 1086

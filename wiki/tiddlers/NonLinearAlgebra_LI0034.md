@@ -1,0 +1,1 @@
+How to best certify that the real variety \(\mathcal{V}_{\mathbb{R}}(I)\) is empty?

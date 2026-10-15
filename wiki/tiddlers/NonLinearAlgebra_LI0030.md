@@ -1,0 +1,1 @@
+Subtract from it a proper subvariety \(X_{1}\).

@@ -1,0 +1,1 @@
+If \(K=\mathbb{R}\) then its image is the set of nonnegative real numbers. In

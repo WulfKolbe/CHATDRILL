@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-157.jpg?height=170&width=1191&top_left_y=872&top_left_x=466
+created: 20260701062953707
+displayMode: true
+equation_number: 
+height: 170
+kind: Equation
+latex: \begin{array}{lcc} \chi_{(3,0,0)} & = & t_{1}^{3}+t_{1}^{2} t_{2}+t_{1} t_{2}^{2}+t_{2}^{3}+t_{1}^{2} t_{3}+t_{1} t_{2} t_{3}+t_{2}^{2} t_{3}+t_{1} t_{3}^{2}+t_{2} t_{3}^{2}+t_{3}^{3} \\ \chi_{(2,1,0)} & = & \left(t_{1}+t_{2}\right)\left(t_{1}+t_{3}\right)\left(t_{2}+t_{3}\right) \\ \chi_{(1,1,1)} & = & t_{1} t_{2} t_{3} \end{array}
+modified: 20260701062953707
+page: 157
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0286
+top_left_x: 466
+top_left_y: 872
+type: text/markdown
+width: 1191

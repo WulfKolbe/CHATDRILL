@@ -1,0 +1,3 @@
+
+
+The set {{NonLinearAlgebra_FO1465||FO}} is closed under tropical scalar multiplication: if {{NonLinearAlgebra_FO1466||FO}}  and {{NonLinearAlgebra_FO1467||FO}} then {{NonLinearAlgebra_FO1468||FO}} is also in {{NonLinearAlgebra_FO1465||FO}}. We can thus identify {{NonLinearAlgebra_FO1465||FO}} with  its image in the quotient space {{NonLinearAlgebra_FO1469||FO}}. Here {{NonLinearAlgebra_FO1470||FO}}. This  space is called the tropical projective torus; cf. [29, Section 1.4]. We saw  that every eigenvector of the matrix {{NonLinearAlgebra_FO0511||FO}} is also an eigenvector of the matrix  {{NonLinearAlgebra_FO1471||FO}} and vice versa. Hence the eigenspace {{NonLinearAlgebra_FO1465||FO}} is equal to

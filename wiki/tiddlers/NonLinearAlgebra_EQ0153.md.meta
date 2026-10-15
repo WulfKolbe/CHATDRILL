@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-096.jpg?height=115&width=963&top_left_y=1720&top_left_x=580
+created: 20260701062953705
+displayMode: true
+equation_number: 
+height: 115
+kind: Equation
+latex: 1+\frac{1}{(-f(\mathbf{x}))^{d}} \cdot\left(g_{1}(\mathbf{x})^{2}+g_{2}(\mathbf{x})^{2}+\cdots+g_{r}(\mathbf{x})^{2}\right)=0
+modified: 20260701062953705
+page: 096
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0153
+top_left_x: 580
+top_left_y: 1720
+type: text/markdown
+width: 963

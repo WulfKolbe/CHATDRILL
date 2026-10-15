@@ -1,0 +1,1 @@
+{{||CIT}} [38] L. Manivel: Symmetric Functions, Schubert Polynomials and Degeneracy Loci.

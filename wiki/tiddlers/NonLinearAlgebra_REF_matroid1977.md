@@ -1,0 +1,1 @@
+{{||CIT}} [57] N. White: The basis monomial ring of a matroid, Advances in Math. 24 (1977) 292-297.

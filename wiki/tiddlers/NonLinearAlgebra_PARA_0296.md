@@ -1,0 +1,3 @@
+
+
+Here {{NonLinearAlgebra_FO1422||FO}} is the symmetric group of permutations of {{NonLinearAlgebra_FO1421||FO}}. Evaluating  the tropical determinant means solving the classical assignment problem  of combinatorial optimization. Imagine a company that has {{NonLinearAlgebra_FO0015||FO}} jobs and {{NonLinearAlgebra_FO0015||FO}}  workers, and each job needs to be assigned to exactly one of the workers.  Let {{NonLinearAlgebra_FO0690||FO}} be the cost of assigning job {{NonLinearAlgebra_FO0121||FO}} to worker {{NonLinearAlgebra_FO0123||FO}}. The company wishes to  find the cheapest assignment {{NonLinearAlgebra_FO0755||FO}}. The optimal total cost equals

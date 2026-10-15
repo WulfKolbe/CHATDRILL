@@ -1,0 +1,3 @@
+
+
+In this section we work in a tensor product {{NonLinearAlgebra_FO1873||FO}} of finite dimensional vector spaces {{NonLinearAlgebra_FO1874||FO}} over a field {{NonLinearAlgebra_FO0001||FO}}. We sometimes identify {{NonLinearAlgebra_FO1875||FO}},  and thus {{NonLinearAlgebra_FO1876||FO}}. A tensor {{NonLinearAlgebra_FO1567||FO}} in this space has  rank one if it is the outer product of {{NonLinearAlgebra_FO0251||FO}} vectors, i.e. {{NonLinearAlgebra_FO1821||FO}}. In  coordinates, this means that the entries of {{NonLinearAlgebra_FO1567||FO}} factor as

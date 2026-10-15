@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-014.jpg?height=112&width=1168&top_left_y=1884&top_left_x=476
+created: 20260701062953704
+displayMode: true
+equation_number: 
+height: 112
+kind: Equation
+latex: I=\left\langle\frac{\partial f}{\partial x}, \frac{\partial f}{\partial y}, \frac{\partial f}{\partial x}\right\rangle=\langle x y-z, x z-y, y z-x\rangle \quad \subset \quad \mathbb{R}[x, y, z]
+modified: 20260701062953704
+page: 014
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0012
+top_left_x: 476
+top_left_y: 1884
+type: text/markdown
+width: 1168

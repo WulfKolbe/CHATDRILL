@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-081.jpg?height=216&width=949&top_left_y=1804&top_left_x=588
+created: 20260701062953705
+displayMode: true
+equation_number: 
+height: 216
+kind: Equation
+latex: \begin{gathered} \left(a v_{1}+b v_{2}+c v_{3}+d v_{4}\right) \wedge\left(e v_{1}+f v_{2}+g v_{3}+h v_{4}\right)= \\ (a f-b e) v_{1} \wedge v_{2}+(a g-c e) v_{1} \wedge v_{3}+(a h-d e) v_{1} \wedge v_{4} \\ +(b g-c f) v_{2} \wedge v_{3}+(b h-d f) v_{2} \wedge v_{4}+(c h-d g) v_{3} \wedge v_{4} \end{gathered}
+modified: 20260701062953705
+page: 081
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0131
+top_left_x: 588
+top_left_y: 1804
+type: text/markdown
+width: 949

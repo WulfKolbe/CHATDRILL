@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-059.jpg?height=76&width=738&top_left_y=2264&top_left_x=693
+created: 20260701062953705
+displayMode: true
+equation_number: 
+height: 76
+kind: Equation
+latex: \sqrt{J}=\langle x, y\rangle \cap\langle z, w\rangle=\langle x w, x z, y w, y z\rangle
+modified: 20260701062953705
+page: 059
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0090
+top_left_x: 693
+top_left_y: 2264
+type: text/markdown
+width: 738

@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-140.jpg?height=68&width=965&top_left_y=1604&top_left_x=627
+created: 20260701062953706
+displayMode: true
+equation_number: (9.13)
+height: 68
+kind: Equation
+latex: \operatorname{Det}(T)=\left(a_{0} d_{1}-a_{1} d_{0}\right)^{2}\left(b_{0} e_{1}-b_{1} e_{0}\right)^{2}\left(c_{0} f_{1}-c_{1} f_{0}\right)^{2} .
+modified: 20260701062953706
+page: 140
+refnum: 9.13
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0257
+top_left_x: 627
+top_left_y: 1604
+type: text/markdown
+width: 965

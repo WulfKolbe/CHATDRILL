@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-105.jpg?height=81&width=861&top_left_y=1224&top_left_x=631
+created: 20260701062953705
+displayMode: true
+equation_number: 
+height: 81
+kind: Equation
+latex: D_{G}^{\odot r} \quad=\quad D_{G}^{\odot(r-1)} \odot D_{G} \quad \text { for } r=2, \ldots, n-1
+modified: 20260701062953705
+page: 105
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0180
+top_left_x: 631
+top_left_y: 1224
+type: text/markdown
+width: 861

@@ -1,0 +1,3 @@
+
+
+Instead of thinking about the polynomials themselves, we consider the ideal  they generate, {{NonLinearAlgebra_FO0296||FO}}, and we define {{NonLinearAlgebra_FO0297||FO}}. A  subset of {{NonLinearAlgebra_FO0298||FO}} is a variety if it has the form {{NonLinearAlgebra_FO0299||FO}} for some ideal {{NonLinearAlgebra_FO0153||FO}}.  Given any ideal {{NonLinearAlgebra_FO0153||FO}}, by Hilbert's Basis Theorem 1.14, we can always

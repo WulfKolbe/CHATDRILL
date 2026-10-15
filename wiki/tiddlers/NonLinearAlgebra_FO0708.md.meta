@@ -1,0 +1,8 @@
+caption: (I: a)=\bigcap_{i=1}^{k}\left(q_{i}: a\right)=\bigcap_{a \neq q_{j}}\left(q_{j}: a\right)
+created: 20260701062953690
+displayMode: false
+latex: (I: a)=\bigcap_{i=1}^{k}\left(q_{i}: a\right)=\bigcap_{a \neq q_{j}}\left(q_{j}: a\right)
+modified: 20260701062953690
+tags: formula NonLinearAlgebra
+title: NonLinearAlgebra_FO0708
+type: text/markdown

@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-049.jpg?height=207&width=1286&top_left_y=560&top_left_x=429
+created: 20260701062953704
+displayMode: true
+equation_number: 
+height: 207
+kind: Equation
+latex: \begin{gathered} I=Q \cap\langle z-1, y-1, x-1\rangle \cap\langle z-1, y+1, x+1\rangle \cap\left\langle z-1, x+y, y^{2}+1\right\rangle \\ \cap\langle z+1, y-1, x+1\rangle \cap\langle z+1, y+1, x-1\rangle \cap\left\langle z+1, x-y, y^{2}+1\right\rangle \\ \cap\left\langle y-1, x+z, z^{2}+1\right\rangle \cap\left\langle y+1, x-z, z^{2}+1\right\rangle \\ \cap\left\langle y-z, x+1, z^{2}+1\right\rangle \cap\left\langle x-1, y+z, z^{2}+1\right\rangle \end{gathered}
+modified: 20260701062953704
+page: 049
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0061
+top_left_x: 429
+top_left_y: 560
+type: text/markdown
+width: 1286

@@ -1,0 +1,1 @@
+The other three irreducible components have dimension 9 and they are

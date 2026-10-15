@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-187.jpg?height=115&width=682&top_left_y=1937&top_left_x=721
+created: 20260701062953708
+displayMode: true
+equation_number: (12.17)
+height: 115
+kind: Equation
+latex: \begin{aligned} & \text { Maximize } \lambda \text { subject to }(G, \lambda) \text { satisfying } \\ & \text { the linear equations }(12.15) \text { and } G \succeq 0 \text {. } \end{aligned}
+modified: 20260701062953708
+page: 187
+refnum: 12.17
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0349
+top_left_x: 721
+top_left_y: 1937
+type: text/markdown
+width: 682

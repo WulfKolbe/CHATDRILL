@@ -1,0 +1,1 @@
+If \(V_{1}, V_{2}\) are representations with characters \(\chi_{1}, \chi_{2}\) then their tensor

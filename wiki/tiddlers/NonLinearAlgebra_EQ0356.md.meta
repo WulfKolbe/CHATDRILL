@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-195.jpg?height=145&width=1161&top_left_y=863&top_left_x=483
+created: 20260701062953708
+displayMode: true
+equation_number: 
+height: 145
+kind: Equation
+latex: P:=\left\{x \in \mathbb{R}^{n}: x=\sum_{i=1}^{k} \lambda_{i} p_{i} \text { for some real } \lambda_{1}, \ldots, \lambda_{k} \geq 0, \sum_{i=1}^{k} \lambda_{i}=1\right\}
+modified: 20260701062953708
+page: 195
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0356
+top_left_x: 483
+top_left_y: 863
+type: text/markdown
+width: 1161

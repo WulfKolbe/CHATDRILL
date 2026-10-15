@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-052.jpg?height=104&width=807&top_left_y=1164&top_left_x=657
+created: 20260701062953704
+displayMode: true
+equation_number: 
+height: 104
+kind: Equation
+latex: \begin{aligned} a \in \operatorname{rad}(I) \Longleftrightarrow \exists n: a^{n} \in I \Longleftrightarrow \exists n \forall i: a^{n} \in q_{i} & \Longleftrightarrow a \in p . \end{aligned}
+modified: 20260701062953704
+page: 052
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0072
+top_left_x: 657
+top_left_y: 1164
+type: text/markdown
+width: 807

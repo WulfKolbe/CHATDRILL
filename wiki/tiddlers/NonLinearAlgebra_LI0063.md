@@ -1,0 +1,1 @@
+The highest weight vector \(e_{1} e_{1}=e_{1} \otimes e_{1}\) of \(S^{2}(U)\) is invariant with

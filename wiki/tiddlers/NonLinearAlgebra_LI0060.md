@@ -1,0 +1,1 @@
+Identity \((1)(2)(3)\) with the Young diagram \(\begin{aligned} & \square \\ & \square \\ & \square \text {; }\end{aligned}\)

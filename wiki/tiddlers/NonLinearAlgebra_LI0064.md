@@ -1,0 +1,1 @@
+The highest weight vector \(e_{1} \wedge e_{2}=\frac{1}{2}\left(e_{1} \otimes e_{2}-e_{2} \otimes e_{1}\right)\) of \(\wedge^{2}(U)\)

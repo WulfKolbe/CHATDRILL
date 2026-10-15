@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-013.jpg?height=121&width=1101&top_left_y=1405&top_left_x=509
+created: 20260701062953704
+displayMode: true
+equation_number: 
+height: 121
+kind: Equation
+latex: \begin{aligned} I \cap J & =\left\langle(x-1)(x+2)^{3}\right\rangle & I J & =\left\langle(x-1)(x+2)^{4}\right\rangle \\ I+J & =\langle x+2\rangle & I: J & =\left\langle(x+2)^{2}\right\rangle \end{aligned}
+modified: 20260701062953704
+page: 013
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0010
+top_left_x: 509
+top_left_y: 1405
+type: text/markdown
+width: 1101

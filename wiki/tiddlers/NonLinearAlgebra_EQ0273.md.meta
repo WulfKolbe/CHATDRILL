@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-151.jpg?height=121&width=469&top_left_y=1353&top_left_x=827
+created: 20260701062953707
+displayMode: true
+equation_number: 
+height: 121
+kind: Equation
+latex: G \ni a \rightarrow\left(\begin{array}{ll} 1 & a \\ 0 & 1 \end{array}\right) \in \mathrm{GL}(2)
+modified: 20260701062953707
+page: 151
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0273
+top_left_x: 827
+top_left_y: 1353
+type: text/markdown
+width: 469

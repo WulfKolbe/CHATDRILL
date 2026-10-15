@@ -1,0 +1,1 @@
+<$image source={{!!canonical_uri}} width={{!!width}} height={{!!height}}/>

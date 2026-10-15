@@ -1,0 +1,1 @@
+The elementary symmetric polynomials \(\mathcal{F}=\{x+y+z, x y+x z+\)

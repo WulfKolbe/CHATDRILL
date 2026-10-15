@@ -1,0 +1,94 @@
+# Invitation to Nonlinear Algebra
+
+*NonLinearAlgebra*
+
+- Pages: 213
+- Sections: 82
+- Paragraphs: 629
+- Equations: 385
+- Formulas: 2689
+
+## Top-level Sections
+
+- <$link to="NonLinearAlgebra_H1">Bernd Sturmfels</$link>
+- <$link to="NonLinearAlgebra_H2">Contents</$link>
+- <$link to="NonLinearAlgebra_H3">Preface</$link>
+- <$link to="NonLinearAlgebra_H4">Chapter 1</$link>
+- <$link to="NonLinearAlgebra_H5">1.1. Ideals</$link>
+- <$link to="NonLinearAlgebra_H6">1.2. Gröbner Bases</$link>
+- <$link to="NonLinearAlgebra_H7">1.3. Dimension and Degree</$link>
+- <$link to="NonLinearAlgebra_H8">Exercises</$link>
+- <$link to="NonLinearAlgebra_H9">Chapter 2</$link>
+- <$link to="NonLinearAlgebra_H10">Varieties</$link>
+- <$link to="NonLinearAlgebra_H11">2.1. Affine varieties</$link>
+- <$link to="NonLinearAlgebra_H12">2.2. Projective varieties</$link>
+- <$link to="NonLinearAlgebra_H13">2.3. Geometry in Low Dimensions</$link>
+- <$link to="NonLinearAlgebra_H14">Exercises</$link>
+- <$link to="NonLinearAlgebra_H15">Chapter 3</$link>
+- <$link to="NonLinearAlgebra_H16">Solving and</$link>
+- <$link to="NonLinearAlgebra_H17">3.1. Zero-dimensional Ideals</$link>
+- <$link to="NonLinearAlgebra_H18">3.2. Primary Decomposition</$link>
+- <$link to="NonLinearAlgebra_H19">3.3. Linear PDE with Constant Coefficients</$link>
+- <$link to="NonLinearAlgebra_H20">Exercises</$link>
+- <$link to="NonLinearAlgebra_H21">Chapter 4</$link>
+- <$link to="NonLinearAlgebra_H22">Mapping and</$link>
+- <$link to="NonLinearAlgebra_H23">4.1. Elimination</$link>
+- <$link to="NonLinearAlgebra_H24">4.2. Implicitization</$link>
+- <$link to="NonLinearAlgebra_H25">4.3. The Image of a Polynomial Map</$link>
+- <$link to="NonLinearAlgebra_H26">Exercises</$link>
+- <$link to="NonLinearAlgebra_H27">Chapter 5</$link>
+- <$link to="NonLinearAlgebra_H28">Linear Spaces and</$link>
+- <$link to="NonLinearAlgebra_H29">5.1. Coordinates for Linear Spaces</$link>
+- <$link to="NonLinearAlgebra_H30">5.2. Plücker Relations</$link>
+- <$link to="NonLinearAlgebra_H31">5.3. Schubert Calculus</$link>
+- <$link to="NonLinearAlgebra_H32">Exercises</$link>
+- <$link to="NonLinearAlgebra_H33">Chapter 6</$link>
+- <$link to="NonLinearAlgebra_H34">Nullstellensätze</$link>
+- <$link to="NonLinearAlgebra_H35">6.1. Certificates for Infeasibility</$link>
+- <$link to="NonLinearAlgebra_H36">6.2. Hilbert's Nullstellensatz</$link>
+- <$link to="NonLinearAlgebra_H37">6.3. Let's Get Real</$link>
+- <$link to="NonLinearAlgebra_H38">Exercises</$link>
+- <$link to="NonLinearAlgebra_H39">Chapter 7</$link>
+- <$link to="NonLinearAlgebra_H40">Tropical Algebra</$link>
+- <$link to="NonLinearAlgebra_H41">7.1. Arithmetic and Valuations</$link>
+- <$link to="NonLinearAlgebra_H42">7.2. Linear Algebra</$link>
+- <$link to="NonLinearAlgebra_H43">7.3. Tropical Varieties</$link>
+- <$link to="NonLinearAlgebra_H44">Exercises</$link>
+- <$link to="NonLinearAlgebra_H45">Chapter 8</$link>
+- <$link to="NonLinearAlgebra_H46">Toric Varieties</$link>
+- <$link to="NonLinearAlgebra_H47">8.1. The Affine Story</$link>
+- <$link to="NonLinearAlgebra_H48">8.2. Varieties from Polytopes</$link>
+- <$link to="NonLinearAlgebra_H49">8.3. The World is Toric</$link>
+- <$link to="NonLinearAlgebra_H50">Exercises</$link>
+- <$link to="NonLinearAlgebra_H51">Chapter 9</$link>
+- <$link to="NonLinearAlgebra_H52">Tensors</$link>
+- <$link to="NonLinearAlgebra_H53">9.1. Eigenvectors</$link>
+- <$link to="NonLinearAlgebra_H54">9.2. Tensor Rank</$link>
+- <$link to="NonLinearAlgebra_H55">9.3. Matrix Multiplication</$link>
+- <$link to="NonLinearAlgebra_H56">Exercises</$link>
+- <$link to="NonLinearAlgebra_H57">Chapter 10</$link>
+- <$link to="NonLinearAlgebra_H58">Representation Theory</$link>
+- <$link to="NonLinearAlgebra_H59">10.1. Irreducible Representations</$link>
+- <$link to="NonLinearAlgebra_H60">10.2. Schur-Weyl Duality</$link>
+- <$link to="NonLinearAlgebra_H61">10.3. Exploiting Symmetry</$link>
+- <$link to="NonLinearAlgebra_H62">Exercises</$link>
+- <$link to="NonLinearAlgebra_H63">Chapter 11</$link>
+- <$link to="NonLinearAlgebra_H64">Invariant Theory</$link>
+- <$link to="NonLinearAlgebra_H65">11.1. Finite Groups</$link>
+- <$link to="NonLinearAlgebra_H66">11.2. Classical Invariant Theory</$link>
+- <$link to="NonLinearAlgebra_H67">11.3. Geometric Invariant Theory</$link>
+- <$link to="NonLinearAlgebra_H68">Exercises</$link>
+- <$link to="NonLinearAlgebra_H69">Chapter 12</$link>
+- <$link to="NonLinearAlgebra_H70">Semidefinite</$link>
+- <$link to="NonLinearAlgebra_H71">12.1. Spectrahedra</$link>
+- <$link to="NonLinearAlgebra_H72">12.2. Optimization and Duality</$link>
+- <$link to="NonLinearAlgebra_H73">12.3. Sums of Squares</$link>
+- <$link to="NonLinearAlgebra_H74">Exercises</$link>
+- <$link to="NonLinearAlgebra_H75">Chapter 13</$link>
+- <$link to="NonLinearAlgebra_H76">Combinatorics</$link>
+- <$link to="NonLinearAlgebra_H77">13.1. Matroids</$link>
+- <$link to="NonLinearAlgebra_H78">13.2. Lattice Polytopes</$link>
+- <$link to="NonLinearAlgebra_H79">13.3. Generating Functions</$link>
+- <$link to="NonLinearAlgebra_H80">Exercises</$link>
+- <$link to="NonLinearAlgebra_H81">Bibliography</$link>
+- <$link to="NonLinearAlgebra_H82">Index</$link>

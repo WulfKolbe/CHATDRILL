@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-113.jpg?height=72&width=1047&top_left_y=1967&top_left_x=541
+created: 20260701062953706
+displayMode: true
+equation_number: 
+height: 72
+kind: Equation
+latex: \mathbb{R}^{2} \rightarrow \mathbb{R},(x, y) \mapsto 1 \oplus 2 \odot x \oplus 3 \odot y \oplus 6 \odot x y \oplus 10 \odot x y^{\odot 2}
+modified: 20260701062953706
+page: 113
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0203
+top_left_x: 541
+top_left_y: 1967
+type: text/markdown
+width: 1047

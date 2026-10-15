@@ -1,0 +1,1 @@
+If \(K=\mathbb{C}\) then the squaring map is surjective.

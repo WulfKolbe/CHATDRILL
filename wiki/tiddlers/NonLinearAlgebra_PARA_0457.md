@@ -1,0 +1,15 @@
+
+{{NonLinearAlgebra_FO2105||FO}}, so {{NonLinearAlgebra_FO2106||FO}}. Finally, for {{NonLinearAlgebra_FO2107||FO}}, we get the one  dimensional representation where {{NonLinearAlgebra_FO2096||FO}} is the {{NonLinearAlgebra_FO0290||FO}}-matrix with entry {{NonLinearAlgebra_FO2108||FO}},  so we have {{NonLinearAlgebra_FO2109||FO}}. The latter gives the trivial representation  when restricted to {{NonLinearAlgebra_FO2015||FO}}. 
+
+Let {{NonLinearAlgebra_FO2017||FO}} be any representation of {{NonLinearAlgebra_FO2007||FO}}. We fix the lexicographic order on  the set of weights {{NonLinearAlgebra_FO0127||FO}} that occur in {{NonLinearAlgebra_FO2017||FO}}. Of particular importance is the highest  weight. The corresponding eigenvectors {{NonLinearAlgebra_FO2083||FO}} in (10.3) are called highest  weight vectors. They span the highest weight space. In Example 10.15,  the highest weight is {{NonLinearAlgebra_FO2110||FO}}, and a highest weight vector is the  monomial {{NonLinearAlgebra_FO2111||FO}}. In Example 10.16, the highest weight is {{NonLinearAlgebra_FO2112||FO}},  and a highest weight vector is {{NonLinearAlgebra_FO2113||FO}}. In both cases, the highest weight  space is 1 -dimensional. We note that the highest weight vector does not  depend on {{NonLinearAlgebra_FO0015||FO}}, provided it exists (e.g. {{NonLinearAlgebra_FO2114||FO}} in the exterior power case). 
+
+Example 10.17 (Adjoint representation). The space {{NonLinearAlgebra_FO2115||FO}} of {{NonLinearAlgebra_FO0510||FO}}  matrices {{NonLinearAlgebra_FO0563||FO}} forms a representation of {{NonLinearAlgebra_FO2116||FO}} under the action by conju gation, where {{NonLinearAlgebra_FO2117||FO}}. This is the adjoint representation.  The weights, known as roots in this case, are {{NonLinearAlgebra_FO2118||FO}} with the highest weight  {{NonLinearAlgebra_FO2119||FO}}. If we restrict it to {{NonLinearAlgebra_FO2120||FO}} we have {{NonLinearAlgebra_FO2121||FO}} and the  highest weight becomes {{NonLinearAlgebra_FO2122||FO}}. Again, the highest weight space  is 1-dimensional. 
+
+The following result provides a characterization of irreducible represen tations. 
+
+Proposition 10.18. Every irreducible representation of {{NonLinearAlgebra_FO2120||FO}} is deter mined (up to isomorphism) by its highest weight, and the highest weight  space is 1 -dimensional. A weight {{NonLinearAlgebra_FO2123||FO}} is the highest weight  for some irreducible representation if and only if {{NonLinearAlgebra_FO2124||FO}}. 
+
+Proof. For the proof we refer to [{{NonLinearAlgebra_22||CIT}}, {{NonLinearAlgebra_Chapter_15||CIT}}]. 
+Here is a combinatorial tool for building irreducible representations from  highest weights: 
+
+Definition 10.19. A Young diagram with {{NonLinearAlgebra_FO0592||FO}}-rows is a nonincreasing se quence of {{NonLinearAlgebra_FO0592||FO}} positive integers. It is usually presented in the following graph ical form, e.g. for a sequence {{NonLinearAlgebra_FO2125||FO}} :

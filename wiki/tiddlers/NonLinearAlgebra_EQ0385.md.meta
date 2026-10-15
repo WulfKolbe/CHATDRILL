@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-205.jpg?height=106&width=757&top_left_y=1095&top_left_x=683
+created: 20260701062953708
+displayMode: true
+equation_number: (13.1)
+height: 106
+kind: Equation
+latex: \frac{\operatorname{vol} P-\epsilon}{d!} q^{d}-C \leq h_{P}(q) \leq \frac{\operatorname{vol} P+\epsilon}{d!} q^{d}+C,
+modified: 20260701062953708
+page: 205
+refnum: 13.1
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0385
+top_left_x: 683
+top_left_y: 1095
+type: text/markdown
+width: 757

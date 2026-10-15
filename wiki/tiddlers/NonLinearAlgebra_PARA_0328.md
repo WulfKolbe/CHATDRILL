@@ -1,0 +1,5 @@
+
+
+What are the tropical zeros of this tropical polynomial? 
+(6) Let {{NonLinearAlgebra_FO1161||FO}} be the directed graph on {{NonLinearAlgebra_FO0015||FO}} nodes with edge weights {{NonLinearAlgebra_FO1550||FO}}  for {{NonLinearAlgebra_FO1551||FO}}. Compute the tropical powers {{NonLinearAlgebra_FO1552||FO}} of the matrix  {{NonLinearAlgebra_FO1407||FO}} for {{NonLinearAlgebra_FO1553||FO}}. What are their tropical ranks? Interpret the  entries of these matrices in terms of paths. 
+(7) Take the graph {{NonLinearAlgebra_FO1161||FO}} from above with {{NonLinearAlgebra_FO1554||FO}}. Compute the powers {{NonLinearAlgebra_FO1555||FO}} of  the matrix {{NonLinearAlgebra_FO1542||FO}} for {{NonLinearAlgebra_FO1556||FO}}. What are their ranks? Interpret the entries in  terms of paths. Verify equation (7.10).

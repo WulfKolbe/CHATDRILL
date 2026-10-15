@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-201.jpg?height=134&width=637&top_left_y=1420&top_left_x=743
+created: 20260701062953708
+displayMode: true
+equation_number: 
+height: 134
+kind: Equation
+latex: H S(z)=\sum_{q=0}^{\infty}\left|q \Delta \cap \mathbb{Z}^{n}\right| z^{q}=\frac{1}{(1-z)^{n}}
+modified: 20260701062953708
+page: 201
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0375
+top_left_x: 743
+top_left_y: 1420
+type: text/markdown
+width: 637

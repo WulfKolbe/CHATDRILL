@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-106.jpg?height=119&width=789&top_left_y=2221&top_left_x=666
+created: 20260701062953705
+displayMode: true
+equation_number: 
+height: 119
+kind: Equation
+latex: \begin{gathered} a_{i_{1} i_{2}}+z_{i_{2}} \geq \gamma+z_{i_{1}}, a_{i_{2} i_{3}}+z_{i_{3}} \geq \gamma+z_{i_{2}} \\ a_{i_{3} i_{4}}+z_{i_{4}} \geq \gamma+z_{i_{3}}, \ldots, a_{i_{k} i_{1}}+z_{i_{1}} \geq \gamma+z_{i_{k}} \end{gathered}
+modified: 20260701062953705
+page: 106
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0186
+top_left_x: 666
+top_left_y: 2221
+type: text/markdown
+width: 789

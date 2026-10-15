@@ -1,0 +1,5 @@
+
+(2) Any variety can be uniquely decomposed as a union of irreducible  varieties - Proposition 3.7. 
+
+The algebraic notion of an ideal connects the first (number-theoretic)  fact and the second (geometric) fact. Indeed, any integer {{NonLinearAlgebra_FO0015||FO}} can be identified  with the ideal {{NonLinearAlgebra_FO0643||FO}} in the ring {{NonLinearAlgebra_FO0025||FO}}. The elements of {{NonLinearAlgebra_FO0643||FO}} are the integer multiples  of {{NonLinearAlgebra_FO0015||FO}}. The ideal {{NonLinearAlgebra_FO0643||FO}} is prime in {{NonLinearAlgebra_FO0025||FO}} if and only if {{NonLinearAlgebra_FO0015||FO}} is a prime number. We can  restate fact (1) in terms of intersections of powers of prime ideals as follows: 
+(1') Every nonzero ideal {{NonLinearAlgebra_FO0644||FO}} has a unique decomposition

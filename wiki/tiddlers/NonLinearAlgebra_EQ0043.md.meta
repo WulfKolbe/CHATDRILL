@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-030.jpg?height=72&width=789&top_left_y=2118&top_left_x=666
+created: 20260701062953704
+displayMode: true
+equation_number: 
+height: 72
+kind: Equation
+latex: f^{*}: \mathbb{R}[x, y] /\left\langle y-x^{2}\right\rangle \rightarrow \mathbb{R}[z], x \mapsto z, y \mapsto z^{2}
+modified: 20260701062953704
+page: 030
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0043
+top_left_x: 666
+top_left_y: 2118
+type: text/markdown
+width: 789

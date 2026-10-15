@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-060.jpg?height=119&width=1058&top_left_y=2337&top_left_x=537
+created: 20260701062953705
+displayMode: true
+equation_number: 
+height: 119
+kind: Equation
+latex: \left(\begin{array}{rrrr} a_{11} & a_{21} & -b_{21} & -b_{22} \\ a_{12} & a_{22} & b_{11} & b_{12} \end{array}\right) \quad \text { and } \quad\left(\begin{array}{rrrr} b_{11} & b_{21} & -c_{21} & -c_{22} \\ b_{12} & b_{22} & c_{11} & c_{12} \end{array}\right) .
+modified: 20260701062953705
+page: 060
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0095
+top_left_x: 537
+top_left_y: 2337
+type: text/markdown
+width: 1058

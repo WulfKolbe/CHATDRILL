@@ -1,0 +1,6 @@
+
+give one point. That one point is represented by the element 1 in the coho mology ring. Our discussion is summarized by the following relations that  hold in the cohomology ring of the Grassmannian {{NonLinearAlgebra_FO1084||FO}} of lines in {{NonLinearAlgebra_FO0201||FO}} : 
+{{NonLinearAlgebra_FO1153||FO}}. 
+Recall that multiplication represents intersection and sum represents union.  The fact that the Schubert classes {{NonLinearAlgebra_FO1149||FO}} form a basis for the cohomology ring  means that the class {{NonLinearAlgebra_FO1154||FO}} of any subvariety {{NonLinearAlgebra_FO0959||FO}} is an {{NonLinearAlgebra_FO0112||FO}}-linear combination of the  {{NonLinearAlgebra_FO1149||FO}}. Finding that linear combination for a given {{NonLinearAlgebra_FO0959||FO}} is similar to computing  the degree of a subvariety in {{NonLinearAlgebra_FO0469||FO}}, as discussed at the end of Chapter 1 . 
+
+We now have a conceptual framework for studying enumerative questions  like How many lines pass through four general lines in {{NonLinearAlgebra_FO0201||FO}} ? The set of such  lines is a finite subset in {{NonLinearAlgebra_FO1084||FO}}. It is the intersection of four hypersurfaces,  all of the form {{NonLinearAlgebra_FO1122||FO}}. Since intersections are represented by multiplication in  the cohomology ring, the following formal computation reveals the answer:

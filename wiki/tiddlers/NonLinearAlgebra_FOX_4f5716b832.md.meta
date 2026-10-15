@@ -1,0 +1,8 @@
+caption: (B \odot \mathbf{x})_{i}= \min _{l}\left(B_{i l}+x_{l}\right)=\min _{l}\left(B_{i l}+B_{l j}^{+}\right) \geq B_{i j}^{+}=x_{i}
+created: 20260701062953711
+displayMode: false
+latex: (B \odot \mathbf{x})_{i}= \min _{l}\left(B_{i l}+x_{l}\right)=\min _{l}\left(B_{i l}+B_{l j}^{+}\right) \geq B_{i j}^{+}=x_{i}
+modified: 20260701062953711
+tags: formula synthetic NonLinearAlgebra
+title: NonLinearAlgebra_FOX_4f5716b832
+type: text/markdown

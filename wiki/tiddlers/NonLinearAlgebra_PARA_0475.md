@@ -1,0 +1,5 @@
+
+
+The new map is represented by an {{NonLinearAlgebra_FO2194||FO}} matrix. This is still far  from a square matrix. The next idea is to consider an equivariant projection:  {{NonLinearAlgebra_FO2195||FO}}. Landsberg and Ottaviani find a subspace of {{NonLinearAlgebra_FO2196||FO}}  on which {{NonLinearAlgebra_FO2191||FO}} composed with the above projection becomes injective. This  is also achieved via representation theory-for a more combinatorial proof  we refer to 34. 
+
+First, one identifies {{NonLinearAlgebra_FO2197||FO}} and {{NonLinearAlgebra_FO2198||FO}} with the space of  homogeneous polynomials of degree {{NonLinearAlgebra_FO0113||FO}} in two variables. We have a natural  multiplication map: {{NonLinearAlgebra_FO2199||FO}}. By Schur's Lemma, or  simply by dualizing the map above, we obtain a {{NonLinearAlgebra_FO2200||FO}} dimensional subspace  {{NonLinearAlgebra_FO2201||FO}} inside {{NonLinearAlgebra_FO2196||FO}}. A direct computation reveals that indeed the induced  map:

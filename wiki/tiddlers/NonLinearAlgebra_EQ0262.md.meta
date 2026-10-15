@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-143.jpg?height=145&width=601&top_left_y=2307&top_left_x=762
+created: 20260701062953707
+displayMode: true
+equation_number: (\9.15\)
+height: 145
+kind: Equation
+latex: M_{a, b, c}=\sum_{i=1, j=1, k=1}^{a, b, c} \mathbf{e}_{i j} \otimes \mathbf{f}_{j k} \otimes \mathbf{g}_{i k} .
+modified: 20260701062953707
+page: 143
+refnum: \9.15\
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0262
+top_left_x: 762
+top_left_y: 2307
+type: text/markdown
+width: 601

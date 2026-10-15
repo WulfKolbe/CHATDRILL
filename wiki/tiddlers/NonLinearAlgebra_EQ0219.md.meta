@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-127.jpg?height=188&width=427&top_left_y=1267&top_left_x=848
+created: 20260701062953706
+displayMode: true
+equation_number: (8.5)
+height: 188
+kind: Equation
+latex: \Sigma=\left[\begin{array}{llll} \sigma_{1} & \sigma_{0} & \sigma_{0} & \sigma_{0} \\ \sigma_{0} & \sigma_{2} & \sigma_{0} & \sigma_{0} \\ \sigma_{0} & \sigma_{0} & \sigma_{3} & \sigma_{0} \\ \sigma_{0} & \sigma_{0} & \sigma_{0} & \sigma_{4} \end{array}\right]
+modified: 20260701062953706
+page: 127
+refnum: 8.5
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0219
+top_left_x: 848
+top_left_y: 1267
+type: text/markdown
+width: 427

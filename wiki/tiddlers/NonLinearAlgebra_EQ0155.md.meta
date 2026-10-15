@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-097.jpg?height=70&width=1114&top_left_y=642&top_left_x=543
+created: 20260701062953705
+displayMode: true
+equation_number: (\6.6\)
+height: 70
+kind: Equation
+latex: a_{1} \cdot f_{1}+\cdots+a_{r} \cdot f_{r}+b_{1}^{2} \cdot g_{1}+\cdots+b_{s}^{2} \cdot f_{s}=-1 \quad \text { in } \quad \mathbb{R}[\mathbf{x}] .
+modified: 20260701062953705
+page: 097
+refnum: \6.6\
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0155
+top_left_x: 543
+top_left_y: 642
+type: text/markdown
+width: 1114

@@ -1,0 +1,1 @@
+all \(i_{q}\) 's are distinct,

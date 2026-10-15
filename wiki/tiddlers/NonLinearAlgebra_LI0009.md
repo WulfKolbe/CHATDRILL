@@ -1,0 +1,1 @@
+the degree lexicographic order: we set \(\mathbf{a} \prec_{\text {deglex }} \mathbf{b}\) if either \(|\mathbf{a}|<|\mathbf{b}|\),

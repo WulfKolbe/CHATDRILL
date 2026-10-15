@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-185.jpg?height=222&width=884&top_left_y=567&top_left_x=623
+created: 20260701062953708
+displayMode: true
+equation_number: 
+height: 222
+kind: Equation
+latex: \begin{gathered} 2 x_{12}+2 x_{13}+u=2 x_{13}+2 x_{23}+v=0 \text { and } \\ \left(\begin{array}{ccc} 1 & x & x+y \\ x & 1 & y \\ x+y & y & 1 \end{array}\right) \cdot\left(\begin{array}{lll} x_{11} & x_{12} & x_{13} \\ x_{12} & x_{22} & x_{23} \\ x_{13} & x_{23} & x_{33} \end{array}\right)=\left(\begin{array}{lll} 0 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \end{array}\right) . \end{gathered}
+modified: 20260701062953708
+page: 185
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0341
+top_left_x: 623
+top_left_y: 567
+type: text/markdown
+width: 884

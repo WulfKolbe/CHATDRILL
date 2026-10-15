@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-138.jpg?height=141&width=1064&top_left_y=1250&top_left_x=526
+created: 20260701062953706
+displayMode: true
+equation_number: 
+height: 141
+kind: Equation
+latex: \prod_{i=1}^{d} \frac{\left(\widehat{z}_{i}\right)^{n_{i}}-z_{i}^{n_{i}}}{\widehat{z}_{i}-z_{i}} \quad \text { where } \quad \widehat{z_{i}}=z_{1}+\cdots+z_{i-1}+z_{i+1}+\cdots+z_{d}
+modified: 20260701062953706
+page: 138
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0248
+top_left_x: 526
+top_left_y: 1250
+type: text/markdown
+width: 1064

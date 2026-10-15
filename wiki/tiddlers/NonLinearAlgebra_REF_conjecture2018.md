@@ -1,0 +1,1 @@
+{{||CIT}} [47] Y. Shitov: A counterexample to Comon's conjecture, SIAM Journal on Applied Alge- bra and Geometry 2 (2018) 428-443.

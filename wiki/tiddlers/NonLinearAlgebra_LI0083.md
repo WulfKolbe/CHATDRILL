@@ -1,0 +1,1 @@
+\(\left\{i_{1}, \ldots, i_{s}\right\}\) is an independent set in \(M\).

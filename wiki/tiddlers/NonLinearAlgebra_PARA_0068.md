@@ -1,0 +1,5 @@
+
+
+Proof. Suppose {{NonLinearAlgebra_FO0320||FO}} is prime and {{NonLinearAlgebra_FO0321||FO}}. If {{NonLinearAlgebra_FO0322||FO}} then  there exists {{NonLinearAlgebra_FO0323||FO}} and {{NonLinearAlgebra_FO0324||FO}} such that {{NonLinearAlgebra_FO0325||FO}}. Therefore, {{NonLinearAlgebra_FO0326||FO}}.  For any {{NonLinearAlgebra_FO0327||FO}} we know that {{NonLinearAlgebra_FO0328||FO}} vanishes on {{NonLinearAlgebra_FO0329||FO}} and {{NonLinearAlgebra_FO0330||FO}}, hence on {{NonLinearAlgebra_FO0315||FO}}.  Thus {{NonLinearAlgebra_FO0331||FO}}. As {{NonLinearAlgebra_FO0320||FO}} is prime, we have {{NonLinearAlgebra_FO0332||FO}}. we conclude that  {{NonLinearAlgebra_FO0333||FO}}. By Exercise 2, this implies {{NonLinearAlgebra_FO0334||FO}}. 
+
+For the converse, suppose that {{NonLinearAlgebra_FO0315||FO}} is irreducible and {{NonLinearAlgebra_FO0331||FO}}. Hence

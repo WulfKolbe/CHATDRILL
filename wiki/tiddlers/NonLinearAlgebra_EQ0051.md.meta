@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-036.jpg?height=111&width=1288&top_left_y=2341&top_left_x=433
+created: 20260701062953704
+displayMode: true
+equation_number: 
+height: 111
+kind: Equation
+latex: \left(\begin{array}{llll} a_{31} & a_{41} & a_{11} a_{31}+a_{21} a_{32}+a_{31} a_{33}+a_{34} a_{41} & a_{11} a_{41}+a_{21} a_{42}+a_{31} a_{43}+a_{41} a_{44} \\ a_{32} & a_{42} & a_{12} a_{31}+a_{22} a_{32}+a_{32} a_{33}+a_{34} a_{42} & a_{12} a_{41}+a_{22} a_{42}+a_{32} a_{43}+a_{42} a_{44} \end{array}\right) .
+modified: 20260701062953704
+page: 036
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0051
+top_left_x: 433
+top_left_y: 2341
+type: text/markdown
+width: 1288

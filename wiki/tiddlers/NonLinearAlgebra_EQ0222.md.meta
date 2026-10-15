@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-128.jpg?height=127&width=1135&top_left_y=1190&top_left_x=494
+created: 20260701062953706
+displayMode: true
+equation_number: 
+height: 127
+kind: Equation
+latex: \begin{aligned} \pi_{0}=\frac{1}{2}\left(r_{0}+r_{1}\right), \pi_{1}=\frac{1}{2}\left(r_{0}-r_{1}\right), \alpha_{0}=\frac{1}{2}\left(a_{0}+a_{1}\right), \alpha_{1}=\frac{1}{2}\left(a_{0}-a_{1}\right), \\ \beta_{0}=\frac{1}{2}\left(b_{0}+b_{1}\right), \beta_{1}=\frac{1}{2}\left(b_{0}-b_{1}\right), \gamma_{0}=\frac{1}{2}\left(c_{0}+c_{1}\right), \gamma_{1}=\frac{1}{2}\left(c_{0}-c_{1}\right), \end{aligned}
+modified: 20260701062953706
+page: 128
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0222
+top_left_x: 494
+top_left_y: 1190
+type: text/markdown
+width: 1135

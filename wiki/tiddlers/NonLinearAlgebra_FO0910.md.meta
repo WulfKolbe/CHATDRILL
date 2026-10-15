@@ -1,0 +1,8 @@
+caption: \left(\begin{array}{ccccc}z_{11} & z_{12} & z_{13} & z_{14} & z_{15} \\ z_{21} & z_{22} & z_{23} & z_{24} & z_{25}\end{array}\right)
+created: 20260701062953692
+displayMode: false
+latex: \left(\begin{array}{ccccc}z_{11} & z_{12} & z_{13} & z_{14} & z_{15} \\ z_{21} & z_{22} & z_{23} & z_{24} & z_{25}\end{array}\right)
+modified: 20260701062953692
+tags: formula NonLinearAlgebra
+title: NonLinearAlgebra_FO0910
+type: text/markdown

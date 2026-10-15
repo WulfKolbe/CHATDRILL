@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-059.jpg?height=263&width=1118&top_left_y=1222&top_left_x=502
+created: 20260701062953705
+displayMode: true
+equation_number: 
+height: 263
+kind: Equation
+latex: \begin{aligned} & g_{00}=\frac{1}{4}\left(f_{00}+f_{01}+f_{10}+f_{11}\right)=1+\frac{\delta^{2}}{2} x^{2}+\frac{\epsilon^{2}}{2} y^{2}+\cdots \\ & g_{01}=\frac{1}{4 \epsilon}\left(f_{00}-f_{01}+f_{10}-f_{11}\right)=y+\frac{\delta^{2}}{2} x^{2} y+\frac{\epsilon^{2}}{6} y^{3}+\cdots \\ & g_{10}=\frac{1}{4 \delta}\left(f_{00}+f_{01}-f_{10}-f_{11}\right)=x+\frac{\delta^{2}}{6} x^{3}+\frac{\epsilon^{2}}{2} x y^{2}+\cdots \\ & g_{11}=\frac{1}{4 \epsilon \delta}\left(f_{00}-f_{01}-f_{10}+f_{11}\right)=x y+\frac{\delta^{2}}{6} x^{3} y+\frac{\epsilon^{2}}{6} x y^{3}+\cdots \end{aligned}
+modified: 20260701062953705
+page: 059
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0088
+top_left_x: 502
+top_left_y: 1222
+type: text/markdown
+width: 1118

@@ -1,0 +1,1 @@
+{{||CIT}} [51] B. Sturmfels: Algorithms in Invariant Theory, Texts and Monographs in Symbolic Computation. Springer-Verlag, Vienna, 1993.

@@ -1,0 +1,6 @@
+
+equals zero, unless {{NonLinearAlgebra_FO2048||FO}}. Hence, {{NonLinearAlgebra_FO2049||FO}}. In particular, by dimension  count, {{NonLinearAlgebra_FO2050||FO}}. Analogously {{NonLinearAlgebra_FO2051||FO}}, i.e. the multiplicities do not depend  on the decomposition. Further, the composition {{NonLinearAlgebra_FO2052||FO}} is an isomorphism  if {{NonLinearAlgebra_FO2048||FO}} and is zero if {{NonLinearAlgebra_FO2053||FO}}. It follows that {{NonLinearAlgebra_FO2054||FO}}. Thus, the identity  maps isotypic components to (the same) isotypic components. 
+
+Our next aim is to understand the irreducible representations of a given  group {{NonLinearAlgebra_FO1161||FO}}. The following definition provides us with the most important tool. 
+
+Definition 10.12 (Character). Let {{NonLinearAlgebra_FO2055||FO}} be a representation  of {{NonLinearAlgebra_FO1161||FO}}. The character {{NonLinearAlgebra_FO2056||FO}} of {{NonLinearAlgebra_FO2017||FO}} is the function {{NonLinearAlgebra_FO2057||FO}} obtained by  composing {{NonLinearAlgebra_FO2017||FO}} with the trace function {{NonLinearAlgebra_FO2058||FO}} :

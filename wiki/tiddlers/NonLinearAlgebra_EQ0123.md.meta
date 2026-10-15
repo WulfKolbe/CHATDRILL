@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-073.jpg?height=147&width=1206&top_left_y=1031&top_left_x=455
+created: 20260701062953705
+displayMode: true
+equation_number: 
+height: 147
+kind: Equation
+latex: Z=\left[\begin{array}{cc} z_{11} & z_{12} \\ z_{21} & z_{22} \\ z_{31} & z_{32} \end{array}\right] \mapsto X=\left[\begin{array}{ccc} z_{11}^{2}+z_{12}^{2} & z_{11} z_{21}+z_{12} z_{22} & z_{11} z_{31}+z_{12} z_{32} \\ z_{11} z_{21}+z_{12} z_{22} & z_{21}^{2}+z_{22}^{2} & z_{21} z_{31}+z_{22} z_{32} \\ z_{11} z_{31}+z_{12} z_{32} & z_{21} z_{31}+z_{22} z_{32} & z_{31}^{2}+z_{32}^{2} \end{array}\right]
+modified: 20260701062953705
+page: 073
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0123
+top_left_x: 455
+top_left_y: 1031
+type: text/markdown
+width: 1206

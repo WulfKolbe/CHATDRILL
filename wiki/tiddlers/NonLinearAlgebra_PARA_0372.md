@@ -1,0 +1,3 @@
+
+
+Let {{NonLinearAlgebra_FO1773||FO}} be the join of {{NonLinearAlgebra_FO1663||FO}} with {{NonLinearAlgebra_FO1766||FO}}. This is a 13 -dimensional toric variety  of degree 24 in {{NonLinearAlgebra_FO1774||FO}}. It is defined by the same ideal {{NonLinearAlgebra_FO1660||FO}} but now in 27 variables.  We replace these by the entries of a {{NonLinearAlgebra_FO1775||FO}} tensor {{NonLinearAlgebra_FO1776||FO}} as follows:

@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-026.jpg?height=59&width=1163&top_left_y=1937&top_left_x=481
+created: 20260701062953704
+displayMode: true
+equation_number: (2.1)
+height: 59
+kind: Equation
+latex: \mathcal{V}\left(f_{1}, \ldots, f_{k}\right):=\left\{\mathbf{p}=\left(p_{1}, \ldots, p_{n}\right) \in K^{n}: f_{1}(\mathbf{p})=\cdots=f_{k}(\mathbf{p})=0\right\} .
+modified: 20260701062953704
+page: 026
+refnum: 2.1
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0035
+top_left_x: 481
+top_left_y: 1937
+type: text/markdown
+width: 1163

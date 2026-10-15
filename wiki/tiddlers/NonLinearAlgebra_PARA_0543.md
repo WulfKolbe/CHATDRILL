@@ -1,0 +1,5 @@
+
+
+The black points on the sextic correspond to lines that are tangent at black  points of the cubic, and similarly for the red points. Moreover, the convex  set enclosed by the red sextic on the right in Figure 1 is dual, in the sense  of convexity, to the spectahedron on the left. 
+
+The polynomials in 12.6 and 12.7 have degree three and six respec tively, confirming what was asserted in the caption to Figure 1. A random  line {{NonLinearAlgebra_FO0530||FO}} will meet the curve in three (left) or six (right) complex points. Con sider the point {{NonLinearAlgebra_FO0402||FO}} on the other side that is dual to {{NonLinearAlgebra_FO0530||FO}}, that is points of {{NonLinearAlgebra_FO0530||FO}}  correspond to lines through {{NonLinearAlgebra_FO0402||FO}}. There are three (right) or six (left) complex  lines through {{NonLinearAlgebra_FO0402||FO}} that are tangent to the curve.

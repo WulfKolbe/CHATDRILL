@@ -1,0 +1,1 @@
+subsets \(S\) of variables such that \(\prod_{x \in S} x \notin \operatorname{rad} \operatorname{rad}_{\prec}\left(I_{P}\right)\) form a sim-

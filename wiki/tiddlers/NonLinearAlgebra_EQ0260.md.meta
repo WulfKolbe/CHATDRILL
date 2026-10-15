@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-142.jpg?height=72&width=645&top_left_y=1826&top_left_x=739
+created: 20260701062953706
+displayMode: true
+equation_number: 
+height: 72
+kind: Equation
+latex: \operatorname{det}(B)^{2} \cdot \operatorname{det}\left(A \cdot B^{-1} C-C \cdot B^{-1} A\right)
+modified: 20260701062953706
+page: 142
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0260
+top_left_x: 739
+top_left_y: 1826
+type: text/markdown
+width: 645

@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-167.jpg?height=137&width=600&top_left_y=1374&top_left_x=760
+created: 20260701062953707
+displayMode: true
+equation_number: 
+height: 137
+kind: Equation
+latex: I=I^{*}=\left(\sum_{j=1}^{m} f_{j} I_{j}\right)^{*}=\sum_{j=1}^{m} f_{j}^{*} I_{j} .
+modified: 20260701062953707
+page: 167
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0308
+top_left_x: 760
+top_left_y: 1374
+type: text/markdown
+width: 600

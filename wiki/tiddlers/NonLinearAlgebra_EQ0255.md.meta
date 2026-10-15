@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-140.jpg?height=184&width=1194&top_left_y=618&top_left_x=489
+created: 20260701062953706
+displayMode: true
+equation_number: 
+height: 184
+kind: Equation
+latex: \begin{aligned} & \frac{1}{\epsilon}\left(\left(\mathbf{e}_{0}+\epsilon \mathbf{e}_{1}\right) \otimes\left(\mathbf{e}_{0}+\epsilon \mathbf{e}_{1}\right) \otimes\left(\mathbf{e}_{0}+\epsilon \mathbf{e}_{1}\right)-\mathbf{e}_{0} \otimes \mathbf{e}_{0} \otimes \mathbf{e}_{0}\right)= \\ & \quad W+\epsilon\left(\mathbf{e}_{1} \otimes \mathbf{e}_{1} \otimes \mathbf{e}_{0}+\mathbf{e}_{1} \otimes \mathbf{e}_{0} \otimes \mathbf{e}_{1}+\mathbf{e}_{0} \otimes \mathbf{e}_{1} \otimes \mathbf{e}_{1}\right)+\epsilon^{2} \mathbf{e}_{1} \otimes \mathbf{e}_{1} \otimes \mathbf{e}_{1} . \end{aligned}
+modified: 20260701062953706
+page: 140
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0255
+top_left_x: 489
+top_left_y: 618
+type: text/markdown
+width: 1194

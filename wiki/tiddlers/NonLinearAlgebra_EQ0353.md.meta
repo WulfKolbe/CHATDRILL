@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-189.jpg?height=76&width=974&top_left_y=2380&top_left_x=631
+created: 20260701062953708
+displayMode: true
+equation_number: (12.20)
+height: 76
+kind: Equation
+latex: \sigma_{11} \sigma_{22}>\sigma_{12}^{2}, \sigma_{22} \sigma_{33}>\sigma_{23}^{2}, \sigma_{33} \sigma_{44}>\sigma_{34}^{2}, \sigma_{11} \sigma_{44}>\sigma_{14}^{2}
+modified: 20260701062953708
+page: 189
+refnum: 12.20
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0353
+top_left_x: 631
+top_left_y: 2380
+type: text/markdown
+width: 974

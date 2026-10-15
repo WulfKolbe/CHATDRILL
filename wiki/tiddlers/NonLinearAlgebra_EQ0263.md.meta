@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-144.jpg?height=341&width=791&top_left_y=1634&top_left_x=666
+created: 20260701062953707
+displayMode: true
+equation_number: (9.16)
+height: 341
+kind: Equation
+latex: \begin{aligned} M_{2}= & \left(\mathbf{e}_{11}+\mathbf{e}_{22}\right) \otimes\left(\mathbf{f}_{11}+\mathbf{f}_{22}\right) \otimes\left(\mathbf{g}_{11}+\mathbf{g}_{22}\right) \\ & +\left(\mathbf{e}_{21}+\mathbf{e}_{22}\right) \otimes \mathbf{f}_{11} \otimes\left(\mathbf{g}_{21}-\mathbf{g}_{22}\right) \\ & +\mathbf{e}_{11} \otimes\left(\mathbf{f}_{12}-\mathbf{f}_{22}\right) \otimes\left(\mathbf{g}_{12}+\mathbf{g}_{22}\right) \\ & +\mathbf{e}_{22} \otimes\left(\mathbf{f}_{21}-\mathbf{f}_{11}\right) \otimes\left(\mathbf{g}_{11}+\mathbf{g}_{21}\right) \\ & +\left(\mathbf{e}_{11}+\mathbf{e}_{12}\right) \otimes \mathbf{f}_{22} \otimes\left(\mathbf{g}_{12}-\mathbf{g}_{11}\right) \\ & +\left(\mathbf{e}_{21}-\mathbf{e}_{11}\right) \otimes\left(\mathbf{f}_{11}+\mathbf{f}_{12}\right) \otimes \mathbf{g}_{22} \\ & +\left(\mathbf{e}_{12}-\mathbf{e}_{22}\right) \otimes\left(\mathbf{f}_{21}+\mathbf{f}_{22}\right) \otimes \mathbf{g}_{11} \end{aligned}
+modified: 20260701062953707
+page: 144
+refnum: 9.16
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0263
+top_left_x: 666
+top_left_y: 1634
+type: text/markdown
+width: 791

@@ -1,0 +1,1 @@
+Young diagrams contained in a \(k \times(n-k)\) rectangle.

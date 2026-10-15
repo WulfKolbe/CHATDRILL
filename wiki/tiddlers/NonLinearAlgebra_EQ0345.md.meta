@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-186.jpg?height=63&width=927&top_left_y=2251&top_left_x=657
+created: 20260701062953708
+displayMode: true
+equation_number: (12.13)
+height: 63
+kind: Equation
+latex: \text { Maximize } \lambda \text { such that } f(\mathbf{x})-\lambda \geq 0 \text { for all } \mathbf{x} \in \mathbb{R}^{n} \text {. }
+modified: 20260701062953708
+page: 186
+refnum: 12.13
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0345
+top_left_x: 657
+top_left_y: 2251
+type: text/markdown
+width: 927

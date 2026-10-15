@@ -1,0 +1,5 @@
+
+
+The most basic scenario in elimination arises when {{NonLinearAlgebra_FO0069||FO}} variables are elim inated from a system of {{NonLinearAlgebra_FO0925||FO}} equations. One expects the result to be a  single equation in the coefficients of that system. We saw this for {{NonLinearAlgebra_FO0351||FO}}  in Examples 4.4 and 4.10. The theory of resultants is custom-taylored to  predict the eliminant in such cases. We set this up over the field {{NonLinearAlgebra_FO0004||FO}} as follows. 
+
+Let {{NonLinearAlgebra_FO0926||FO}} and fix a general inhomogeneous polynomial {{NonLinearAlgebra_FO0595||FO}}  of degree {{NonLinearAlgebra_FO0927||FO}} in {{NonLinearAlgebra_FO0928||FO}}. This polynomial has {{NonLinearAlgebra_FO0929||FO}} unknown coefficients  {{NonLinearAlgebra_FO0930||FO}}, one for each monomial {{NonLinearAlgebra_FO0931||FO}} of degree {{NonLinearAlgebra_FO0932||FO}}. The total number of unknown  coefficients equals {{NonLinearAlgebra_FO0933||FO}}. We write {{NonLinearAlgebra_FO0934||FO}} for the resulting  polynomial ring in {{NonLinearAlgebra_FO0903||FO}} variables. Inside this ring we consider the ideal

@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-134.jpg?height=165&width=1116&top_left_y=517&top_left_x=562
+created: 20260701062953706
+displayMode: true
+equation_number: (9.4)
+height: 165
+kind: Equation
+latex: B=2 u x+3 u y+5 u z+3 v x+7 v y+11 v z=\left(\begin{array}{ll} u & v \end{array}\right)\left(\begin{array}{ccc} 2 & 3 & 5 \\ 3 & 7 & 11 \end{array}\right)\left(\begin{array}{l} x \\ y \\ z \end{array}\right)
+modified: 20260701062953706
+page: 134
+refnum: 9.4
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0235
+top_left_x: 562
+top_left_y: 517
+type: text/markdown
+width: 1116

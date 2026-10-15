@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-028.jpg?height=70&width=1189&top_left_y=758&top_left_x=468
+created: 20260701062953704
+displayMode: true
+equation_number: 
+height: 70
+kind: Equation
+latex: W=W \cap \mathcal{V}(f g)=W \cap(\mathcal{V}(f) \cup \mathcal{V}(g))=(W \cap \mathcal{V}(f)) \cup(W \cap \mathcal{V}(g)) .
+modified: 20260701062953704
+page: 028
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0039
+top_left_x: 468
+top_left_y: 758
+type: text/markdown
+width: 1189

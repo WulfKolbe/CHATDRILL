@@ -1,0 +1,1 @@
+\(B_{2}\) by adding to it \(A_{1}\) and subtracting \(A_{2}\).

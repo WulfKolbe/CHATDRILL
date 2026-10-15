@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-133.jpg?height=171&width=807&top_left_y=648&top_left_x=659
+created: 20260701062953706
+displayMode: true
+equation_number: 
+height: 171
+kind: Equation
+latex: \nabla Q=\left(\begin{array}{l} \partial Q / \partial x \\ \partial Q / \partial y \\ \partial Q / \partial z \end{array}\right)=2 \cdot\left(\begin{array}{ccc} 2 & 3 & 5 \\ 3 & 7 & 11 \\ 5 & 11 & 23 \end{array}\right)\left(\begin{array}{l} x \\ y \\ z \end{array}\right)
+modified: 20260701062953706
+page: 133
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0232
+top_left_x: 659
+top_left_y: 648
+type: text/markdown
+width: 807

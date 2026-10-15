@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-182.jpg?height=109&width=725&top_left_y=1847&top_left_x=700
+created: 20260701062953707
+displayMode: true
+equation_number: (12.8)
+height: 109
+kind: Equation
+latex: \begin{aligned} & \text { Minimize }\langle C, X\rangle \text { subject to }\left\langle A_{1}, X\right\rangle=b_{1} \text {, } \\ & \left\langle A_{2}, X\right\rangle=b_{2}, \ldots,\left\langle A_{s}, X\right\rangle=b_{s} \text { and } X \succeq 0 \text {. } \end{aligned}
+modified: 20260701062953707
+page: 182
+refnum: 12.8
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0336
+top_left_x: 700
+top_left_y: 1847
+type: text/markdown
+width: 725

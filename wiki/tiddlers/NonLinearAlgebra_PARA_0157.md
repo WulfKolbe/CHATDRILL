@@ -1,0 +1,5 @@
+
+
+Finally, the last associated prime of {{NonLinearAlgebra_FO0038||FO}} is the ideal {{NonLinearAlgebra_FO0829||FO}}.  Thus Ass( {{NonLinearAlgebra_FO0038||FO}} ) consists of six primes, and all are minimal. Using the computer  algebra system of their choice, the reader now ought to check that our ideal  {{NonLinearAlgebra_FO0038||FO}} is indeed equal to the intersection of these six prime ideals. 
+
+Geometrically, we are studying a variety {{NonLinearAlgebra_FO0299||FO}} in the affine space {{NonLinearAlgebra_FO0830||FO}}. It  is the solution set of four cubic equations. We found that {{NonLinearAlgebra_FO0299||FO}} is the union  of six irreducible components. Three of them are linear spaces of dimension  8. The other three irreducible components have dimension 9 and they are  not linear spaces. Their degrees are 4,4 and 8 respectively. In response to  the original linear algebra question, the six irreducible components of {{NonLinearAlgebra_FO0299||FO}}  correspond to the following six scenarios for a triple of {{NonLinearAlgebra_FO0286||FO}}-matrices:

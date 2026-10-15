@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-201.jpg?height=123&width=482&top_left_y=2333&top_left_x=820
+created: 20260701062953708
+displayMode: true
+equation_number: 
+height: 123
+kind: Equation
+latex: \operatorname{MHS}_{C}(\mathbf{x})=\frac{\kappa_{C}(\mathbf{x})}{\prod_{i=1}^{d}\left(1-\mathbf{x}^{\mathbf{c}_{\mathbf{i}}}\right)},
+modified: 20260701062953708
+page: 201
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0377
+top_left_x: 820
+top_left_y: 2333
+type: text/markdown
+width: 482

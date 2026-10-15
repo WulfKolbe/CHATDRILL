@@ -1,0 +1,1 @@
+More generally prove that if a prime ideal contains an intersection

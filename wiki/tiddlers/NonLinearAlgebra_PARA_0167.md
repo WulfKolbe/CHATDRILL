@@ -1,0 +1,7 @@
+
+
+Example {{NonLinearAlgebra_FO0850||FO}}. The image of the hyperbola {{NonLinearAlgebra_FO0851||FO}}  under the projection {{NonLinearAlgebra_FO0852||FO}} from the plane to the {{NonLinearAlgebra_FO0064||FO}}-axis equals {{NonLinearAlgebra_FOX_479c704135||FO}}. This is not a variety in {{NonLinearAlgebra_FO0392||FO}}. Note that the image will be closed if,  prior to projecting, we first perform a change of coordinates. For instance if  we replace {{NonLinearAlgebra_FO0317||FO}} by the hyperbola {{NonLinearAlgebra_FO0853||FO}} then {{NonLinearAlgebra_FO0854||FO}}. 
+
+By definition, the Zariski closure {{NonLinearAlgebra_FO0855||FO}} of the image is a variety in {{NonLinearAlgebra_FO0848||FO}}. It  is the smallest variety containing {{NonLinearAlgebra_FO0849||FO}}. We call the variety {{NonLinearAlgebra_FO0855||FO}} the closed  image of {{NonLinearAlgebra_FO0317||FO}} under the map {{NonLinearAlgebra_FO0856||FO}}. The next theorem characterizes its ideal. 
+
+Theorem 4.2. Let {{NonLinearAlgebra_FO0153||FO}} be an ideal and {{NonLinearAlgebra_FO0442||FO}} its variety in {{NonLinearAlgebra_FO0298||FO}},  where {{NonLinearAlgebra_FO0001||FO}} is an algebraically closed field. Then its closed image in {{NonLinearAlgebra_FO0848||FO}} is the  variety {{NonLinearAlgebra_FO0857||FO}} defined by the elimination ideal

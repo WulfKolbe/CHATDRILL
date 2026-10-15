@@ -1,0 +1,1 @@
+Tensors of rank at most \(r\) may not form a closed set.

@@ -1,0 +1,1 @@
+In each case, is the map \(\operatorname{Spec}(K[x]) \rightarrow \operatorname{Spec}(K[x])\) surjective?

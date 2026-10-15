@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-139.jpg?height=119&width=895&top_left_y=1482&top_left_x=663
+created: 20260701062953706
+displayMode: true
+equation_number: (9.10)
+height: 119
+kind: Equation
+latex: V_{1}^{*} \rightarrow V_{2} \otimes V_{3}, \quad \mathbf{e}_{i}^{*} \mapsto\left(t_{i j k}\right)_{j, k}=\sum_{j, k} t_{i j k} \cdot \mathbf{f}_{j} \otimes \mathbf{g}_{k}
+modified: 20260701062953706
+page: 139
+refnum: 9.10
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0252
+top_left_x: 663
+top_left_y: 1482
+type: text/markdown
+width: 895

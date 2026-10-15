@@ -1,0 +1,1 @@
+the lexicographic ordering: we set \(\mathbf{a} \prec_{\text {lex }} \mathbf{b}\) if the leftmost non-zero

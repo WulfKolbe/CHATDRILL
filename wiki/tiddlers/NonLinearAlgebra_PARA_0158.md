@@ -1,0 +1,3 @@
+Each of the six irreducible components {{NonLinearAlgebra_FO0299||FO}} is a rational variety, and it  admits a nice polynomial parametrization. Using Lemma 3.23, we can then  write down all exponential solutions to the four partial differential equations,  like (3.7), that are given by {{NonLinearAlgebra_FO0038||FO}}. The solutions come in six families. 
+
+The solutions contributed by the first irreducible component {{NonLinearAlgebra_FO0831||FO}}  0 \} are the functions {{NonLinearAlgebra_FO0832||FO}} that do not depend on the matrix {{NonLinearAlgebra_FO0511||FO}}. The  solutions contributed by the last irreducible component have the form

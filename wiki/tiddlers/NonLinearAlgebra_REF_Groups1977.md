@@ -1,0 +1,1 @@
+{{||CIT}} [45] J.P. Serre: Linear Representations of Finite Groups, Graduate Texts in Mathematics, 42, Springer-Verlag, New York-Heidelberg, 1977

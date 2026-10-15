@@ -1,0 +1,8 @@
+caption: B^{+} \odot \mathbf{x}= B \odot \mathbf{x} \oplus B^{2} \odot \mathbf{x} \oplus \cdots \oplus B^{n} \odot \mathbf{x}=B \odot \mathbf{x}
+created: 20260701062953711
+displayMode: false
+latex: B^{+} \odot \mathbf{x}= B \odot \mathbf{x} \oplus B^{2} \odot \mathbf{x} \oplus \cdots \oplus B^{n} \odot \mathbf{x}=B \odot \mathbf{x}
+modified: 20260701062953711
+tags: formula synthetic NonLinearAlgebra
+title: NonLinearAlgebra_FOX_7d0e2f639a
+type: text/markdown

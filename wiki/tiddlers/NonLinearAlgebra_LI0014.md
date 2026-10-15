@@ -1,0 +1,1 @@
+This input is a curve in the \((y, z)\)-plane parametrized by two cubics

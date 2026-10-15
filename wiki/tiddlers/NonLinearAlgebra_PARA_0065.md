@@ -1,0 +1,6 @@
+
+find a finite set of generators. By Exercise 1, the definition of {{NonLinearAlgebra_FO0299||FO}} does not  depend on the choice of generators of {{NonLinearAlgebra_FO0038||FO}}. 
+
+Remark 2.1. Two distinct ideals may define the same variety. For instance,  for two non-constant polynomials {{NonLinearAlgebra_FO0300||FO}} and {{NonLinearAlgebra_FO0301||FO}}, the ideal {{NonLinearAlgebra_FO0302||FO}} is strictly  contained in {{NonLinearAlgebra_FO0303||FO}}, but they define the same variety in  (2.1). Chapter 6 on the Nullstellensätze deals with this issue for fields {{NonLinearAlgebra_FO0001||FO}}  that are either algebraically closed, like the complex numbers {{NonLinearAlgebra_FO0304||FO}}, or  real closed, like the reals {{NonLinearAlgebra_FO0003||FO}}. 
+
+Algebraic geometry is the study of the geometry of varieties. As in  many branches of mathematics, one considers the basic, irreducible building  blocks for the objects of study. A variety {{NonLinearAlgebra_FO0299||FO}} is called irreducible if it  cannot be written as a union of proper subvarieties in {{NonLinearAlgebra_FO0298||FO}}. In symbols, {{NonLinearAlgebra_FO0299||FO}}  is irreducible if and only if, for any ideals {{NonLinearAlgebra_FO0054||FO}} and {{NonLinearAlgebra_FO0305||FO}} in {{NonLinearAlgebra_FO0021||FO}} we have

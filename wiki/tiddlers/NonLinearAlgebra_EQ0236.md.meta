@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-134.jpg?height=117&width=665&top_left_y=900&top_left_x=730
+created: 20260701062953706
+displayMode: true
+equation_number: (\9.5\)
+height: 117
+kind: Equation
+latex: \nabla B=\left(\left(\frac{\partial B}{\partial u}, \frac{\partial B}{\partial v}\right),\left(\frac{\partial B}{\partial x}, \frac{\partial B}{\partial y}, \frac{\partial B}{\partial z}\right)\right)
+modified: 20260701062953706
+page: 134
+refnum: \9.5\
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0236
+top_left_x: 730
+top_left_y: 900
+type: text/markdown
+width: 665

@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-202.jpg?height=314&width=968&top_left_y=913&top_left_x=577
+created: 20260701062953708
+displayMode: true
+equation_number: 
+height: 314
+kind: Equation
+latex: \begin{gathered} \mathrm{MHS}_{C}(\mathbf{x})=\sum_{c \in C \cap \mathbb{Z}^{n}} \mathbf{x}^{c}=\sum_{p \in P \cap \mathbb{Z}^{n}} \mathbf{x}^{p}\left(\prod_{i=1}^{d}\left(\sum_{s_{i}=0}^{\infty} \mathbf{x}^{s_{i} c_{i}}\right)\right)= \\ \sum_{p \in P \cap \mathbb{Z}^{n}} \mathbf{x}^{p}\left(\prod_{i=1}^{d} \frac{1}{1-\mathbf{x}^{c_{i}}}\right)=\frac{\sum_{p \in P \cap \mathbb{Z}^{n}} \mathbf{x}^{p}}{\prod_{i=1}^{d}\left(1-\mathbf{x}^{c_{i}}\right)} \end{gathered}
+modified: 20260701062953708
+page: 202
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0379
+top_left_x: 577
+top_left_y: 913
+type: text/markdown
+width: 968

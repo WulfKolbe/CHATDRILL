@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-196.jpg?height=136&width=577&top_left_y=1209&top_left_x=773
+created: 20260701062953708
+displayMode: true
+equation_number: 
+height: 136
+kind: Equation
+latex: r(A)=\min _{B \subset A}\left\{|A \backslash B|+\sum_{i=1}^{k} r_{i}(B)\right\}
+modified: 20260701062953708
+page: 196
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0361
+top_left_x: 773
+top_left_y: 1209
+type: text/markdown
+width: 577

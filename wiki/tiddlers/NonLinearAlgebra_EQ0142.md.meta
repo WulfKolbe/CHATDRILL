@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-093.jpg?height=77&width=949&top_left_y=910&top_left_x=588
+created: 20260701062953705
+displayMode: true
+equation_number: 
+height: 77
+kind: Equation
+latex: \sqrt{I}=\left\langle x_{1} x_{3}, x_{1} x_{4}, x_{2} x_{3}, x_{2} x_{4}\right\rangle=\left\langle x_{1}, x_{2}\right\rangle \cap\left\langle x_{3}, x_{4}\right\rangle .
+modified: 20260701062953705
+page: 093
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0142
+top_left_x: 588
+top_left_y: 910
+type: text/markdown
+width: 949

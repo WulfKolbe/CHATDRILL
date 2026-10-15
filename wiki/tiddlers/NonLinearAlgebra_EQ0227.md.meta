@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-128.jpg?height=162&width=989&top_left_y=2294&top_left_x=612
+created: 20260701062953706
+displayMode: true
+equation_number: (8.6)
+height: 162
+kind: Equation
+latex: \left(\begin{array}{lllllllll} y_{111} & y_{112} & y_{113} & y_{122} & y_{123} & y_{133} & z_{1 ; 12} & z_{1 ; 13} & z_{1 ; 23} \\ y_{112} & y_{122} & y_{123} & y_{222} & y_{223} & y_{233} & z_{2 ; 12} & z_{2 ; 13} & z_{2 ; 23} \\ y_{113} & y_{123} & y_{133} & y_{223} & y_{233} & y_{333} & z_{3 ; 12} & z_{3 ; 13} & z_{3 ; 23} \end{array}\right) .
+modified: 20260701062953706
+page: 128
+refnum: 8.6
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0227
+top_left_x: 612
+top_left_y: 2294
+type: text/markdown
+width: 989

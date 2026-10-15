@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-129.jpg?height=112&width=929&top_left_y=623&top_left_x=597
+created: 20260701062953706
+displayMode: true
+equation_number: (\8.7\)
+height: 112
+kind: Equation
+latex: \begin{aligned} y_{i j k} & =\sigma_{k i j}+\sigma_{i k j}+\sigma_{i j k}+\sigma_{k j i}+\sigma_{j k i}+\sigma_{j i k} \\ z_{k ; i j} & =\frac{1}{2}\left(\sigma_{k i j}+\sigma_{i k j}+\sigma_{i j k}\right)-\frac{1}{2}\left(\sigma_{k j i}+\sigma_{j k i}+\sigma_{j i k}\right) \end{aligned}
+modified: 20260701062953706
+page: 129
+refnum: \8.7\
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0228
+top_left_x: 597
+top_left_y: 623
+type: text/markdown
+width: 929

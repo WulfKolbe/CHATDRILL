@@ -1,0 +1,1 @@
+Prove that morphisms of two representations are closed under tak-

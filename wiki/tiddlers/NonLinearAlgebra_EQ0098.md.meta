@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-064.jpg?height=46&width=733&top_left_y=2049&top_left_x=696
+created: 20260701062953705
+displayMode: true
+equation_number: 
+height: 46
+kind: Equation
+latex: \mathcal{V}(I)=\left\{\mathbf{p} \in K^{n}: f(\mathbf{p})=0 \text { for all } f \in I\right\} .
+modified: 20260701062953705
+page: 064
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0098
+top_left_x: 696
+top_left_y: 2049
+type: text/markdown
+width: 733

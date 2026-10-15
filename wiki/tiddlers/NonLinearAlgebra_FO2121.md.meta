@@ -1,0 +1,8 @@
+caption: t_{n}^{-1}=\prod_{i=1}^{n-1} t_{i}
+created: 20260701062953700
+displayMode: false
+latex: t_{n}^{-1}=\prod_{i=1}^{n-1} t_{i}
+modified: 20260701062953700
+tags: formula NonLinearAlgebra
+title: NonLinearAlgebra_FO2121
+type: text/markdown

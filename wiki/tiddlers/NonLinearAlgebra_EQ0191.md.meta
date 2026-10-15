@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-108.jpg?height=68&width=798&top_left_y=588&top_left_x=661
+created: 20260701062953706
+displayMode: true
+equation_number: 
+height: 68
+kind: Equation
+latex: \operatorname{Eig}(A)=\left\{\mathbf{x} \in \mathbb{R}^{n}: A \odot \mathbf{x}=\lambda(A) \odot \mathbf{x}\right\} .
+modified: 20260701062953706
+page: 108
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0191
+top_left_x: 661
+top_left_y: 588
+type: text/markdown
+width: 798

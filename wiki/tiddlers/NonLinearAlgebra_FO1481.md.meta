@@ -1,0 +1,8 @@
+caption: \operatorname{Eig}(A)=\operatorname{Eig}(B)=\left\{c \odot(0,0,3)^{T}: c \in \mathbb{R}\right\}=\left\{(c, c, c+3)^{T}: c \in \mathbb{R}\right\}
+created: 20260701062953696
+displayMode: false
+latex: \operatorname{Eig}(A)=\operatorname{Eig}(B)=\left\{c \odot(0,0,3)^{T}: c \in \mathbb{R}\right\}=\left\{(c, c, c+3)^{T}: c \in \mathbb{R}\right\}
+modified: 20260701062953696
+tags: formula NonLinearAlgebra
+title: NonLinearAlgebra_FO1481
+type: text/markdown

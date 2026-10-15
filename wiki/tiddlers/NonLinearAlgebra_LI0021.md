@@ -1,0 +1,1 @@
+\(n=3\) with further assumption that \(h_{I}(1)=4\).

@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-184.jpg?height=164&width=929&top_left_y=2290&top_left_x=597
+created: 20260701062953708
+displayMode: true
+equation_number: 
+height: 164
+kind: Equation
+latex: A_{1}=-\left(\begin{array}{ccc} 0 & 1 & 1 \\ 1 & 0 & 0 \\ 1 & 0 & 0 \end{array}\right) \quad \text { and } \quad A_{2}=-\left(\begin{array}{ccc} 0 & 0 & 1 \\ 0 & 0 & 1 \\ 1 & 1 & 0 \end{array}\right) .
+modified: 20260701062953708
+page: 184
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0340
+top_left_x: 597
+top_left_y: 2290
+type: text/markdown
+width: 929

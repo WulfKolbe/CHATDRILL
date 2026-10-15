@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-047.jpg?height=164&width=970&top_left_y=2288&top_left_x=575
+created: 20260701062953704
+displayMode: true
+equation_number: 
+height: 164
+kind: Equation
+latex: \begin{aligned} & u_{1}=-\epsilon^{-2}+1+\epsilon^{2}+\epsilon^{3}+2 \epsilon^{4}+3 \epsilon^{5}+5 \epsilon^{6}+10 \epsilon^{7}+\cdots \\ & u_{2}=-1-\epsilon-3 \epsilon^{3}+3 \epsilon^{4}-16 \epsilon^{5}+32 \epsilon^{6}-121 \epsilon^{7}+\cdots \\ & u_{3}=\epsilon-\epsilon^{2}+2 \epsilon^{3}-5 \epsilon^{4}+13 \epsilon^{5}-37 \epsilon^{6}+111 \epsilon^{7}+\cdots \end{aligned}
+modified: 20260701062953704
+page: 047
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0057
+top_left_x: 575
+top_left_y: 2288
+type: text/markdown
+width: 970

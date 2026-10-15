@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-139.jpg?height=128&width=819&top_left_y=1078&top_left_x=653
+created: 20260701062953706
+displayMode: true
+equation_number: (\9.9\)
+height: 128
+kind: Equation
+latex: K^{\prod_{i \in I} n_{i}}=\bigotimes_{i \in I} V_{i}^{*} \longrightarrow \bigotimes_{i \in[d] \backslash I} V_{i}=K^{\prod_{i \in[d] \backslash I} n_{i}}
+modified: 20260701062953706
+page: 139
+refnum: \9.9\
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0251
+top_left_x: 653
+top_left_y: 1078
+type: text/markdown
+width: 819

@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-107.jpg?height=68&width=1060&top_left_y=2268&top_left_x=569
+created: 20260701062953706
+displayMode: true
+equation_number: (7.8)
+height: 68
+kind: Equation
+latex: \text { Maximize } \gamma \text { subject to } a_{i j}+v_{j} \geq \gamma+v_{i} \text { for all } 1 \leq i, j \leq n \text {. }
+modified: 20260701062953706
+page: 107
+refnum: 7.8
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0190
+top_left_x: 569
+top_left_y: 2268
+type: text/markdown
+width: 1060

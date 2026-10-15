@@ -1,0 +1,4 @@
+
+where {{NonLinearAlgebra_FO1883||FO}} are respectively bases of {{NonLinearAlgebra_FO1884||FO}}. This is the case  {{NonLinearAlgebra_FO1885||FO}} in 9.9 . We think of 9.10 as an {{NonLinearAlgebra_FO1886||FO}} matrix. The transpose  of this matrix is the {{NonLinearAlgebra_FO1887||FO}} matrix that corresponds to {{NonLinearAlgebra_FO1888||FO}} in (9.9).  Thus, a three-way tensor has three distinct flattenings, up to transposing. 
+
+We conclude that rank one tensors behave in a very nice way. However,  arbitrary tensors exhibit rather strange properties. Recall that the rank of  a tensor {{NonLinearAlgebra_FO1567||FO}} is the minimal {{NonLinearAlgebra_FO0243||FO}} such that {{NonLinearAlgebra_FO1567||FO}} is the sum of {{NonLinearAlgebra_FO0243||FO}} rank one tensors.  For instance, the three-way tensors of rank {{NonLinearAlgebra_FO0868||FO}} are the tensors of the form

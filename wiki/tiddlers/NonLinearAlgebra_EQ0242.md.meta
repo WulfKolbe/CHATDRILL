@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-135.jpg?height=140&width=609&top_left_y=2273&top_left_x=756
+created: 20260701062953706
+displayMode: true
+equation_number: (\9.7\)
+height: 140
+kind: Equation
+latex: T=\sum_{i_{1}, \ldots, i_{d}=1}^{n} t_{i_{1} i_{2} \cdots i_{d}} \cdot x_{i_{1}} x_{i_{2}} \cdots x_{i_{d}}
+modified: 20260701062953706
+page: 135
+refnum: \9.7\
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0242
+top_left_x: 756
+top_left_y: 2273
+type: text/markdown
+width: 609

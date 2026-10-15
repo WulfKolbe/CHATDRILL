@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-156.jpg?height=162&width=598&top_left_y=1955&top_left_x=762
+created: 20260701062953707
+displayMode: true
+equation_number: 
+height: 162
+kind: Equation
+latex: \chi_{\lambda}(\mathbf{t})=\frac{\operatorname{det}\left(t_{i}^{\lambda_{j}+n-j}\right)_{1 \leq i, j \leq n}}{\operatorname{det}\left(t_{i}^{n-j}\right)_{1 \leq i, j \leq n}}
+modified: 20260701062953707
+page: 156
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0284
+top_left_x: 762
+top_left_y: 1955
+type: text/markdown
+width: 598

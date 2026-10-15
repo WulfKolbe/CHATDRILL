@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-080.jpg?height=235&width=590&top_left_y=1396&top_left_x=775
+created: 20260701062953705
+displayMode: true
+equation_number: (5.1)
+height: 235
+kind: Equation
+latex: \left[\left.\begin{array}{cccc} 1 & 0 & \ldots & 0 \\ 0 & 1 & \ldots & 0 \\ \vdots & & \ddots & \vdots \\ 0 & \ldots & 0 & 1 \end{array} \right\rvert\, \quad \mathbb{A}\right]
+modified: 20260701062953705
+page: 080
+refnum: 5.1
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0129
+top_left_x: 775
+top_left_y: 1396
+type: text/markdown
+width: 590

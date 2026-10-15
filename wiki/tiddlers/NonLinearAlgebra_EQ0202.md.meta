@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-113.jpg?height=78&width=723&top_left_y=1016&top_left_x=700
+created: 20260701062953706
+displayMode: true
+equation_number: (7.10)
+height: 78
+kind: Equation
+latex: D_{G}^{\odot(n-1)}=\left(\operatorname{val}\left(A_{G}\right)\right)^{\odot(n-1)}=\operatorname{val}\left(A_{G}^{n-1}\right)
+modified: 20260701062953706
+page: 113
+refnum: 7.10
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0202
+top_left_x: 700
+top_left_y: 1016
+type: text/markdown
+width: 723

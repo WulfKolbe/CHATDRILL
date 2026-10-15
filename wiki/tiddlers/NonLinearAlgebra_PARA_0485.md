@@ -1,0 +1,5 @@
+# Invariant Theory
+
+ 
+
+What is geometry? An answer to this question was proposed by Felix Klein's  Erlanger Programm. According to Klein, a quantity is geometric if it is in variant under the action of an underlying group of transformations. Thus, in  short, geometry is invariant theory. For example, Euclidean geometry is the  study of quantities, expressed in the coordinates of points, that are invari ant under the Euclidean group. From the modern point of view, invariant  theory can be seen as a branch of representation theory. However, that view  does not do justice to the tremendous utility of invariant theory for dealing  with geometric objects. In particular, in algebraic geometry, invariants are  used to construct quotients of algebraic varieties modulo groups that act on  them. This results in a concise description of orbit spaces. The study of  such spaces is called Geometric Invariant Theory. Our aim in this chapter  is to give a first introduction to this theory, starting with actions by finite  groups.

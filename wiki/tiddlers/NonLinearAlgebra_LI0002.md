@@ -1,0 +1,1 @@
+a zero divisor if there exists \(0 \neq g \in R\) such that \(g f=0\).

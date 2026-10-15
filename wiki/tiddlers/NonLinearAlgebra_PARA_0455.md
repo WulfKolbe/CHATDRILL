@@ -1,0 +1,4 @@
+
+where {{NonLinearAlgebra_FO2080||FO}} takes {{NonLinearAlgebra_FO2081||FO}} to {{NonLinearAlgebra_FO2082||FO}} for {{NonLinearAlgebra_FO2083||FO}}. The isotypic components  {{NonLinearAlgebra_FO2084||FO}} for the {{NonLinearAlgebra_FO1567||FO}}-action are called weight spaces. The characters {{NonLinearAlgebra_FO0127||FO}} of {{NonLinearAlgebra_FO1567||FO}} for  which {{NonLinearAlgebra_FO2085||FO}} are called weights. 
+
+Remark 10.14. Let {{NonLinearAlgebra_FO1567||FO}} be the torus of diagonal matrices {{NonLinearAlgebra_FO2086||FO}}  in {{NonLinearAlgebra_FO2014||FO}}. If {{NonLinearAlgebra_FO1784||FO}} is a character of {{NonLinearAlgebra_FO2014||FO}} then its restriction to {{NonLinearAlgebra_FO1567||FO}} is the function  {{NonLinearAlgebra_FO2087||FO}}. Here {{NonLinearAlgebra_FO2058||FO}} denotes the trace of a (large) square  matrix. The restricted character {{NonLinearAlgebra_FO2088||FO}} equals

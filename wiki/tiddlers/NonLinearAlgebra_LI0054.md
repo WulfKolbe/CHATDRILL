@@ -1,0 +1,1 @@
+\(S_{n}\) - the group of permutations of a set with \(n\) elements; this is an

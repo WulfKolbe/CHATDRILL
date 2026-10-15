@@ -1,0 +1,8 @@
+caption: h_{I}(q)=\binom{n+q-1}{n-1}-\binom{n+q-e-1}{n-1}
+created: 20260701062953687
+displayMode: false
+latex: h_{I}(q)=\binom{n+q-1}{n-1}-\binom{n+q-e-1}{n-1}
+modified: 20260701062953687
+tags: formula NonLinearAlgebra
+title: NonLinearAlgebra_FO0212
+type: text/markdown

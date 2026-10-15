@@ -1,0 +1,1 @@
+Figure 6. Two pictures showing a real torus, that is homeomorphic to the elliptic curve. The left picture presents the torus as {{NonLinearAlgebra_FO0577||FO}}. The right one is the familiar figure we know from topology. The two thickened circles, on both pictures, correspond to the real part of the curve.

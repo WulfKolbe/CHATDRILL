@@ -1,0 +1,5 @@
+
+
+Here is another question that can be answered by Schubert calculus: How  many lines are simultaneously tangent to four general quadratic surfaces in  {{NonLinearAlgebra_FO0201||FO}} ? Suppose a given quadric {{NonLinearAlgebra_FO0777||FO}} in {{NonLinearAlgebra_FO0201||FO}} is represented as a symmetric {{NonLinearAlgebra_FO0518||FO}}  matrix. Let {{NonLinearAlgebra_FO1155||FO}} be the symmetric {{NonLinearAlgebra_FO1156||FO}} matrix with entries given by the  {{NonLinearAlgebra_FO0286||FO}} minors of the matrix representing {{NonLinearAlgebra_FO0777||FO}}. The condition for a line to be  tangent to {{NonLinearAlgebra_FO0777||FO}} is expressed by the vanishing of the quadratic form {{NonLinearAlgebra_FO1157||FO}}  in the Plücker coordinates {{NonLinearAlgebra_FO1158||FO}} of that line. This defines  a threefold in {{NonLinearAlgebra_FO1084||FO}} and the cohomology class of that threefold is {{NonLinearAlgebra_FO1159||FO}}. 
+
+We conclude that the number of lines that are tangent to four given  general quadrics in {{NonLinearAlgebra_FO0201||FO}} is equal to

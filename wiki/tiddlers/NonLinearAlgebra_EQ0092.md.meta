@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-060.jpg?height=119&width=729&top_left_y=734&top_left_x=696
+created: 20260701062953705
+displayMode: true
+equation_number: 
+height: 119
+kind: Equation
+latex: \frac{\partial^{2} f}{\partial x \partial w}=\frac{\partial^{2} f}{\partial x \partial z}+\frac{\partial^{2} f}{\partial y \partial w}=\frac{\partial^{2} f}{\partial y \partial z}=0 .
+modified: 20260701062953705
+page: 060
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0092
+top_left_x: 696
+top_left_y: 734
+type: text/markdown
+width: 729

@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-112.jpg?height=106&width=1252&top_left_y=524&top_left_x=431
+created: 20260701062953706
+displayMode: true
+equation_number: 
+height: 106
+kind: Equation
+latex: \begin{aligned} & \operatorname{tropdet}(\mathbf{x})= x_{11} \odot x_{22} \odot x_{33} \oplus x_{11} \odot x_{23} \odot x_{32} \oplus x_{12} \odot x_{21} \odot x_{33} \\ & \oplus x_{12} \odot x_{23} \odot x_{31} \oplus x_{13} \odot x_{21} \odot x_{32} \oplus x_{13} \odot x_{22} \odot x_{31} \end{aligned} .
+modified: 20260701062953706
+page: 112
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0199
+top_left_x: 431
+top_left_y: 524
+type: text/markdown
+width: 1252

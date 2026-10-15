@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-129.jpg?height=188&width=441&top_left_y=1980&top_left_x=842
+created: 20260701062953706
+displayMode: true
+equation_number: 
+height: 188
+kind: Equation
+latex: A=\left(\begin{array}{lllll} 0 & 0 & 1 & 1 & 1 \\ 0 & 1 & 0 & 1 & 1 \\ 0 & 0 & 0 & 2 & 3 \\ 1 & 1 & 1 & 1 & 1 \end{array}\right)
+modified: 20260701062953706
+page: 129
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0229
+top_left_x: 842
+top_left_y: 1980
+type: text/markdown
+width: 441

@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-023.jpg?height=117&width=1157&top_left_y=2339&top_left_x=483
+created: 20260701062953704
+displayMode: true
+equation_number: 
+height: 117
+kind: Equation
+latex: \begin{array}{llc} h_{I}(q)=h_{\operatorname{in} \prec(I)}(q) & = & \left|\mathcal{S}_{\prec}(I)_{\leq q}\right|-\left|\mathcal{S}_{\prec}(I)_{\leq q-1}\right| \\ & =\operatorname{dim}\left(K[\mathbf{x}]_{\leq q} / I_{\leq q}\right)-\operatorname{dim}\left(K[\mathbf{x}]_{\leq q-1} / I_{\leq q-1}\right) . \end{array}
+modified: 20260701062953704
+page: 023
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0032
+top_left_x: 483
+top_left_y: 2339
+type: text/markdown
+width: 1157

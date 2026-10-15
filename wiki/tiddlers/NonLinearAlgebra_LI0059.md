@@ -1,0 +1,1 @@
+We have \(\chi_{V}(e)=\operatorname{dim} V\), where \(e \in G\) is the neutral element.

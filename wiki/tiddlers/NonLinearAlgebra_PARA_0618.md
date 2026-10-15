@@ -1,0 +1,2 @@
+
+(2) The (unique) primary ideal corresponding to a minimal prime of  {{NonLinearAlgebra_FO2682||FO}} has degree equal to the normalized volume of the associated  simplex in {{NonLinearAlgebra_FO2331||FO}}.

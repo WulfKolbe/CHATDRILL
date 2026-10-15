@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-106.jpg?height=119&width=770&top_left_y=1310&top_left_x=676
+created: 20260701062953705
+displayMode: true
+equation_number: 
+height: 119
+kind: Equation
+latex: \lambda \odot\binom{v_{1}}{v_{2}}=\binom{\lambda \odot v_{1}}{\lambda \odot v_{2}}=\binom{\lambda+v_{1}}{\lambda+v_{2}} .
+modified: 20260701062953705
+page: 106
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0185
+top_left_x: 676
+top_left_y: 1310
+type: text/markdown
+width: 770

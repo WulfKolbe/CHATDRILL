@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-175.jpg?height=145&width=1066&top_left_y=1074&top_left_x=580
+created: 20260701062953707
+displayMode: true
+equation_number: (11.14)
+height: 145
+kind: Equation
+latex: \begin{aligned} & \left(x_{111} x_{222}-x_{212} x_{121}\right)^{2}+x_{121} x_{222} x_{112}^{2}+x_{111} x_{212} x_{122}^{2}+x_{121} x_{222} x_{211}^{2} \\ & \quad+x_{111} x_{212} x_{221}^{2}-\left(x_{122}+x_{221}\right)\left(x_{112}+x_{211}\right)\left(x_{111} x_{222}+x_{212} x_{121}\right) \\ & \quad+2 x_{111} x_{122} x_{212} x_{221}+2 x_{112} x_{121} x_{211} x_{222} . \end{aligned}
+modified: 20260701062953707
+page: 175
+refnum: 11.14
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0326
+top_left_x: 580
+top_left_y: 1074
+type: text/markdown
+width: 1066

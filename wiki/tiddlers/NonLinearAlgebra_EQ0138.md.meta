@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-091.jpg?height=130&width=435&top_left_y=1001&top_left_x=844
+created: 20260701062953705
+displayMode: true
+equation_number: 
+height: 130
+kind: Equation
+latex: f\left(x_{n}\right)=\prod_{i=1}^{r}\left(x_{n}-b_{i}\right)^{m_{i}}
+modified: 20260701062953705
+page: 091
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0138
+top_left_x: 844
+top_left_y: 1001
+type: text/markdown
+width: 435

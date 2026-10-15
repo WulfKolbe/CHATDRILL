@@ -1,0 +1,1 @@
+Their gradients \(\nabla Q\) and \(\nabla B\) specify the linear maps one usually

@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-140.jpg?height=99&width=1084&top_left_y=870&top_left_x=519
+created: 20260701062953706
+displayMode: true
+equation_number: 
+height: 99
+kind: Equation
+latex: \lim _{\epsilon \rightarrow 0} \frac{1}{\epsilon}\left(\left(\mathbf{e}_{0}+\epsilon \mathbf{e}_{1}\right) \otimes\left(\mathbf{e}_{0}+\epsilon \mathbf{e}_{1}\right) \otimes\left(\mathbf{e}_{0}+\epsilon \mathbf{e}_{1}\right)-\mathbf{e}_{0} \otimes \mathbf{e}_{0} \otimes \mathbf{e}_{0}\right)=W .
+modified: 20260701062953706
+page: 140
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0256
+top_left_x: 519
+top_left_y: 870
+type: text/markdown
+width: 1084

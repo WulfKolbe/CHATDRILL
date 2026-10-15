@@ -1,0 +1,3 @@
+
+
+If {{NonLinearAlgebra_FO0610||FO}} then the resultant {{NonLinearAlgebra_FO0976||FO}} is more difficult to  compute, and there does not always exists a formula as the determinant  whose entries are linear expressions in the coefficients of {{NonLinearAlgebra_FO0977||FO}}.  In some cases, however, such formulas are available in the literature. For  instance, Sylvester already gave such a formula for {{NonLinearAlgebra_FO0978||FO}} and {{NonLinearAlgebra_FO0979||FO}}.  A considerable body of information on matrix formulas for resultants can  be found in the excellent book by Gel'fand, Kapranov and Zelevinsky [24]

@@ -1,0 +1,12 @@
+
+
+Another presentation is suggested in Exercise 13. 
+Example 9.23. Consider the tensor {{NonLinearAlgebra_FO1945||FO}} that represents multiplication of  {{NonLinearAlgebra_FO0286||FO}} matrices. Fixing the ordered basis ( {{NonLinearAlgebra_FO1946||FO}} ) for {{NonLinearAlgebra_FO1947||FO}},  we can write {{NonLinearAlgebra_FO1945||FO}} explicitly as a {{NonLinearAlgebra_FO1948||FO}} tensor with entries in {{NonLinearAlgebra_FO1949||FO}}. Among  the 64 entries in this tensor, there are precisely eight ones and 56 zeros. 
+
+The rank one decomposition of the tensor {{NonLinearAlgebra_FO1935||FO}} given in 9.15 can be  interpreted as an algorithm for computing the product of the two matrices: 
+- To carry out matrix multiplication, one needs to add {{NonLinearAlgebra_FO1950||FO}} partial  results labelled by {{NonLinearAlgebra_FO1951||FO}} in {{NonLinearAlgebra_FO1952||FO}}. 
+- In step {{NonLinearAlgebra_FO1951||FO}} one performs one multiplication. Namely, one mul tiplies the {{NonLinearAlgebra_FO1409||FO}}-th entry of the first matrix with the {{NonLinearAlgebra_FO1953||FO}}-th entry  of the second. The result is stored in the {{NonLinearAlgebra_FO1954||FO}}-th entry of the third. 
+
+This is the familiar classical algorithm for multiplying two matrices. It  performs {{NonLinearAlgebra_FO1955||FO}} additions and {{NonLinearAlgebra_FO1950||FO}} multiplications. For {{NonLinearAlgebra_FO1956||FO}}, its  running time is {{NonLinearAlgebra_FO1424||FO}}. We note that the number of multiplications is exactly  equal to the number of rank one tensors appearing in the decomposition. 
+
+What if we present {{NonLinearAlgebra_FO1935||FO}} in a different way? Could it be that the number  of multiplications we need is smaller than {{NonLinearAlgebra_FO1950||FO}}. Equivalently, is the rank of  {{NonLinearAlgebra_FO1935||FO}} smaller than {{NonLinearAlgebra_FO1950||FO}} ? Half a century ago, Volker Strassen set out on the  quest to prove that this is not possible. He quickly realized that the case  of arbitrary {{NonLinearAlgebra_FO1031||FO}} is extremely hard and focused on the first nontrivial case  {{NonLinearAlgebra_FO1957||FO}}. For that tensor, he discovered a most surprising formula:

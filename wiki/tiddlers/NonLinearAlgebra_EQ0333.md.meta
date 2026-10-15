@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-181.jpg?height=151&width=807&top_left_y=1972&top_left_x=657
+created: 20260701062953707
+displayMode: true
+equation_number: (12.5)
+height: 151
+kind: Equation
+latex: \mathcal{S}=\left\{(x, y) \in \mathbb{R}^{3}:\left(\begin{array}{ccc} 1 & x & x+y \\ x & 1 & y \\ x+y & y & 1 \end{array}\right) \succeq 0\right\} .
+modified: 20260701062953707
+page: 181
+refnum: 12.5
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0333
+top_left_x: 657
+top_left_y: 1972
+type: text/markdown
+width: 807

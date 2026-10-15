@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-081.jpg?height=123&width=1284&top_left_y=1607&top_left_x=431
+created: 20260701062953705
+displayMode: true
+equation_number: 
+height: 123
+kind: Equation
+latex: \left[\begin{array}{llll} a & b & c & d \\ e & f & g & h \end{array}\right] \mapsto(a f-b e: a g-c e: a h-d e: b g-c f: b h-d f: c h-d g) \in \mathbb{P}^{5}
+modified: 20260701062953705
+page: 081
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0130
+top_left_x: 431
+top_left_y: 1607
+type: text/markdown
+width: 1284

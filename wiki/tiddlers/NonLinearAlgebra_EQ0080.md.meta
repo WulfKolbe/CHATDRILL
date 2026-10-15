@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-057.jpg?height=231&width=1093&top_left_y=507&top_left_x=553
+created: 20260701062953705
+displayMode: true
+equation_number: (3.4)
+height: 231
+kind: Equation
+latex: \begin{gathered} 1, x, y, z, x^{2}, y^{2}, z^{2}, x^{3}+6 y z, y^{3}+6 x z, z^{3}+6 x y, x^{4}+y^{4}+z^{4}+24 x y z, \\ \exp (x-y-z), \exp (x+y+z), \exp (-x-y+z), \exp (-x+y-z), \\ \exp (x-i y+i z), \exp (x+i y-i z), \exp (-x-i y-i z), \exp (-x+i y+i z), \\ \exp (i x-y+i z), \exp (i x+y-i z), \exp (i x-i y+z), \exp (i x+i y-z), \\ \exp (-i x-y-i z), \exp (-i x+y+i z), \exp (-i x-i y-z), \exp (-i x+i y+z) . \end{gathered}
+modified: 20260701062953705
+page: 057
+refnum: 3.4
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0080
+top_left_x: 553
+top_left_y: 507
+type: text/markdown
+width: 1093

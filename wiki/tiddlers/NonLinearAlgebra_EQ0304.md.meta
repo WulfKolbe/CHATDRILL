@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-166.jpg?height=113&width=957&top_left_y=777&top_left_x=631
+created: 20260701062953707
+displayMode: true
+equation_number: (11.3)
+height: 113
+kind: Equation
+latex: G=\left\{\left(\begin{array}{ll} 1 & 0 \\ 0 & 1 \end{array}\right),\left(\begin{array}{rr} -1 & 0 \\ 0 & -1 \end{array}\right),\left(\begin{array}{rr} 0 & 1 \\ -1 & 0 \end{array}\right),\left(\begin{array}{rr} 0 & -1 \\ 1 & 0 \end{array}\right)\right\} .
+modified: 20260701062953707
+page: 166
+refnum: 11.3
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0304
+top_left_x: 631
+top_left_y: 777
+type: text/markdown
+width: 957

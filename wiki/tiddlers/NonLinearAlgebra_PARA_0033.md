@@ -1,0 +1,7 @@
+
+
+Remark 1.11. Fix a monomial order {{NonLinearAlgebra_FO0132||FO}} and let {{NonLinearAlgebra_FO0114||FO}} be any nonempty subset  of {{NonLinearAlgebra_FO0107||FO}}. Then {{NonLinearAlgebra_FO0114||FO}} has a unique minimal element with respect to {{NonLinearAlgebra_FO0132||FO}}. To show  this, we apply Dickson's Lemma as in Corollary 1.9. Our set {{NonLinearAlgebra_FO0114||FO}} has a finite,  nonempty subset of minimal elements in the componentwise order on {{NonLinearAlgebra_FO0107||FO}}.  This finite subset is linearly ordered by {{NonLinearAlgebra_FO0132||FO}}. We select its minimal element. 
+
+We now fix a monomial order {{NonLinearAlgebra_FO0132||FO}}. Given any nonzero polynomial {{NonLinearAlgebra_FOX_dd710ed3da||FO}}, its initial monomial in {{NonLinearAlgebra_FO0149||FO}} is the {{NonLinearAlgebra_FO0132||FO}}-largest monomial {{NonLinearAlgebra_FO0109||FO}} among those  that appear in {{NonLinearAlgebra_FO0029||FO}} with non-zero coefficient. To illustrate this for the orders  above, let {{NonLinearAlgebra_FO0033||FO}} with variable order {{NonLinearAlgebra_FO0150||FO}} : Fix the polynomial {{NonLinearAlgebra_FOX_21c465ba9b||FO}}. Then in {{NonLinearAlgebra_FO0151||FO}} and in {{NonLinearAlgebra_FO0152||FO}}. 
+
+For any ideal {{NonLinearAlgebra_FO0153||FO}}, we define the initial ideal of {{NonLinearAlgebra_FO0038||FO}} with respect to a  given monomial order {{NonLinearAlgebra_FO0132||FO}} as follows:

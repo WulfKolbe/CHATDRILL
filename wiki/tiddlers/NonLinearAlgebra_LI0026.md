@@ -1,0 +1,1 @@
+this is often represented by putting directed arrows on the boundary as in

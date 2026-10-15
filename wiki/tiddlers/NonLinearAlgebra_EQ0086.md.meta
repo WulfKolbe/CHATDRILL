@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-059.jpg?height=119&width=527&top_left_y=872&top_left_x=799
+created: 20260701062953705
+displayMode: true
+equation_number: 
+height: 119
+kind: Equation
+latex: \frac{\partial^{2} f}{\partial x^{2}}=\delta^{2} f \quad \text { and } \quad \frac{\partial^{2} f}{\partial y^{2}}=\epsilon^{2} f .
+modified: 20260701062953705
+page: 059
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0086
+top_left_x: 799
+top_left_y: 872
+type: text/markdown
+width: 527

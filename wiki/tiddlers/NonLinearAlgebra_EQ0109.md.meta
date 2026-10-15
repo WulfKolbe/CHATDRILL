@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-069.jpg?height=156&width=1164&top_left_y=562&top_left_x=476
+created: 20260701062953705
+displayMode: true
+equation_number: 
+height: 156
+kind: Equation
+latex: \begin{gathered} I \cap K[\mathbf{x}]=\left\langle x_{12} x_{34}-x_{13} x_{24}+x_{14} x_{23}, x_{12} x_{35}-x_{13} x_{25}+x_{15} x_{23}\right. \\ x_{12} x_{45}-x_{14} x_{25}+x_{15} x_{24}, x_{13} x_{45}-x_{14} x_{35}+x_{15} x_{34} \\ \left.x_{23} x_{45}-x_{24} x_{35}+x_{25} x_{34}\right\rangle \end{gathered}
+modified: 20260701062953705
+page: 069
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0109
+top_left_x: 476
+top_left_y: 562
+type: text/markdown
+width: 1164

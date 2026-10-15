@@ -1,0 +1,1 @@
+To carry out matrix multiplication, one needs to add \(a b c\) partial

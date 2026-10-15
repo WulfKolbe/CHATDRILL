@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-128.jpg?height=201&width=1108&top_left_y=747&top_left_x=504
+created: 20260701062953706
+displayMode: true
+equation_number: 
+height: 201
+kind: Equation
+latex: \begin{array}{lll} p_{000}=\pi_{0} \alpha_{0} \beta_{0} \gamma_{0}+\pi_{1} \alpha_{1} \beta_{1} \gamma_{1}, & p_{001}=\pi_{0} \alpha_{0} \beta_{0} \gamma_{1}+\pi_{1} \alpha_{1} \beta_{1} \gamma_{0}, \\ p_{010}=\pi_{0} \alpha_{0} \beta_{1} \gamma_{0}+\pi_{1} \alpha_{1} \beta_{0} \gamma_{1}, & p_{011}=\pi_{0} \alpha_{0} \beta_{1} \gamma_{1}+\pi_{1} \alpha_{1} \beta_{0} \gamma_{0}, \\ p_{100}=\pi_{0} \alpha_{1} \beta_{0} \gamma_{0}+\pi_{1} \alpha_{0} \beta_{1} \gamma_{1}, & p_{101}=\pi_{0} \alpha_{1} \beta_{0} \gamma_{1}+\pi_{1} \alpha_{0} \beta_{1} \gamma_{0}, \\ p_{110}=\pi_{0} \alpha_{1} \beta_{1} \gamma_{0}+\pi_{1} \alpha_{0} \beta_{0} \gamma_{1}, & p_{111}=\pi_{0} \alpha_{1} \beta_{1} \gamma_{1}+\pi_{1} \alpha_{0} \beta_{0} \gamma_{0} . \end{array}
+modified: 20260701062953706
+page: 128
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0221
+top_left_x: 504
+top_left_y: 747
+type: text/markdown
+width: 1108

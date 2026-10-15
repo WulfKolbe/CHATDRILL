@@ -1,0 +1,1 @@
+Add back \(X_{2}\) - a proper subvariety of \(X_{1}\), etc.

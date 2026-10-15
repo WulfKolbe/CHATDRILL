@@ -1,0 +1,8 @@
+
+{{NonLinearAlgebra_FO1161||FO}} is a connected group like {{NonLinearAlgebra_FO2233||FO}}. Its variety describes the action of the  group. The elimination ideal {{NonLinearAlgebra_FO2350||FO}} is also radical (resp. prime). Its  variety contains pairs of points in {{NonLinearAlgebra_FO0317||FO}} that lie in the same {{NonLinearAlgebra_FO1161||FO}}-orbit. 
+
+Theorem 11.12 (Derksen's Algorithm). The ideal {{NonLinearAlgebra_FO2253||FO}} of the nullcone is the  image in {{NonLinearAlgebra_FO0021||FO}} of the elimination ideal {{NonLinearAlgebra_FO2350||FO}} under the substitution  {{NonLinearAlgebra_FO2351||FO}}. From any finite list of ideal generators of {{NonLinearAlgebra_FO2253||FO}}, algebra generators for  the invariant ring {{NonLinearAlgebra_FO2232||FO}} are found via Corollary 11.8. 
+
+Proof. Let {{NonLinearAlgebra_FO0038||FO}} be any homogeneous invariant of positive degree. Then {{NonLinearAlgebra_FOX_368428444c||FO}} modulo the ideal {{NonLinearAlgebra_FO2348||FO}} that defines the group action. There fore, {{NonLinearAlgebra_FO2352||FO}} lies in the elimination ideal {{NonLinearAlgebra_FO2350||FO}}, and we find  {{NonLinearAlgebra_FO2353||FO}} in the ideal that is obtained by substituting {{NonLinearAlgebra_FO2351||FO}}. This proves that  {{NonLinearAlgebra_FO2253||FO}} is contained in the ideal that is computed by Derksen's Algorithm. For  the converse direction, we refer to the argument given in the proof of [14,  Theorem 3.1]. 
+
+Example {{NonLinearAlgebra_FO2354||FO}}. Consider the 3-dimensional space {{NonLinearAlgebra_FO2355||FO}}  of binary quadrics

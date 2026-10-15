@@ -1,0 +1,1 @@
+Compute the closed image \(X_{0}\).

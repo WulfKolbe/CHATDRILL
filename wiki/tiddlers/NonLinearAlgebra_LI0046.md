@@ -1,0 +1,1 @@
+Real tensors of bounded real border rank form semialgebraic sets.

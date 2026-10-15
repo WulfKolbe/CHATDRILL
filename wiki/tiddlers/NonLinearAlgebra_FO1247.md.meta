@@ -1,0 +1,8 @@
+caption: x_{11}^{3}+2 x_{11} x_{12} x_{21}+x_{12} x_{21} x_{22}+2 x_{11} x_{13} x_{31}+x_{12} x_{23} x_{31}+x_{13} x_{21} x_{32}+x_{13} x_{31} x_{33}
+created: 20260701062953694
+displayMode: false
+latex: x_{11}^{3}+2 x_{11} x_{12} x_{21}+x_{12} x_{21} x_{22}+2 x_{11} x_{13} x_{31}+x_{12} x_{23} x_{31}+x_{13} x_{21} x_{32}+x_{13} x_{31} x_{33}
+modified: 20260701062953694
+tags: formula NonLinearAlgebra
+title: NonLinearAlgebra_FO1247
+type: text/markdown

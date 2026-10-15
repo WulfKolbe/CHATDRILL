@@ -1,0 +1,17 @@
+# Exercises
+
+ 
+(1) Fix a complete flag in {{NonLinearAlgebra_FO0469||FO}}. Construct a bijection between: 
+- subvarieties of {{NonLinearAlgebra_FO1035||FO}} that consist of {{NonLinearAlgebra_FO1160||FO}} that intersect each  element of the flag in at most the given dimension, and 
+- Young diagrams contained in a {{NonLinearAlgebra_FO1071||FO}} rectangle. 
+
+Either the codimension or the dimension of the subvariety in {{NonLinearAlgebra_FO1035||FO}}  should equal the number of boxes in the corresponding Young diagram. 
+(2) Let {{NonLinearAlgebra_FO1161||FO}} be a subgroup of the general linear group {{NonLinearAlgebra_FO1064||FO}}, and let {{NonLinearAlgebra_FO1162||FO}}  be a variety such that the action of {{NonLinearAlgebra_FO1161||FO}} on {{NonLinearAlgebra_FO0317||FO}} restricts to {{NonLinearAlgebra_FO0285||FO}}. Prove that  if {{NonLinearAlgebra_FO0064||FO}} is a smooth point of {{NonLinearAlgebra_FO0285||FO}} and {{NonLinearAlgebra_FO1163||FO}}, then {{NonLinearAlgebra_FO1164||FO}} is also a smooth point. 
+(3) Consider the inclusion {{NonLinearAlgebra_FO1165||FO}}. Using Plücker coordi nates, describe the locus of pairs of lines {{NonLinearAlgebra_FO1166||FO}} such  that {{NonLinearAlgebra_FO1167||FO}} intersects {{NonLinearAlgebra_FO1168||FO}} in {{NonLinearAlgebra_FO0201||FO}}. Hint: Present both lines as {{NonLinearAlgebra_FO1089||FO}} matrices.  Note that two lines in {{NonLinearAlgebra_FO0201||FO}} intersect if and only if they do not span the  whole ambient space. Apply Laplace expansion of the determinant. 
+(4) For a variety {{NonLinearAlgebra_FO0475||FO}}, one considers a subset of {{NonLinearAlgebra_FO1169||FO}} of  {{NonLinearAlgebra_FO1170||FO}}. This is known as the Fano variety of {{NonLinearAlgebra_FO0592||FO}}-dimensional subspaces  of {{NonLinearAlgebra_FO0285||FO}}. Fix a nondegenerate quadric {{NonLinearAlgebra_FO1171||FO}}. Describe the Fano variety  of lines in it. Hint: One may solve this exercise either theoretically or  using algebra software. Also Figure 1 gives a hint about the answer. 
+(5) How many real lines in 3 -space can be simultaneously tangent to four  given spheres? 
+(6) The two lines incident to four given real lines in {{NonLinearAlgebra_FO0201||FO}} can be either real or  complex. In the latter case they form a complex conjugate pair. Write  down a polynomial in the {{NonLinearAlgebra_FO1172||FO}} Plücker coordinates of four given  lines whose sign distinguishes the two cases. 
+(7) How many lines in {{NonLinearAlgebra_FO0201||FO}} are simultaneously incident to two given lines and  tangent to two given quadratic surfaces? 
+(8) Consider the set of all lines in {{NonLinearAlgebra_FO0201||FO}} that are tangent to the cubic Fermat  surface {{NonLinearAlgebra_FO1173||FO}}. This set is an irreducible hypersurface  in the Grassmannian {{NonLinearAlgebra_FO1084||FO}}. Compute a polynomial in {{NonLinearAlgebra_FO1174||FO}}  that defines this hypersurface. 
+(9) Find a minimal generating set for the ideal of the Grassmannian {{NonLinearAlgebra_FO1175||FO}}. 
+(10) Prove that the determinant of a skew-symmetric {{NonLinearAlgebra_FO0510||FO}}-matrix is zero if  {{NonLinearAlgebra_FO0015||FO}} is odd, and it is the square of a polynomial when {{NonLinearAlgebra_FO0015||FO}} is even.

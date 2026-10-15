@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-105.jpg?height=89&width=798&top_left_y=507&top_left_x=661
+created: 20260701062953705
+displayMode: true
+equation_number: (7.4)
+height: 89
+kind: Equation
+latex: d_{i j}^{(r)}=\min \left\{d_{i k}^{(r-1)}+d_{k j}: k=1,2, \ldots, n\right\}
+modified: 20260701062953705
+page: 105
+refnum: 7.4
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0178
+top_left_x: 661
+top_left_y: 507
+type: text/markdown
+width: 798

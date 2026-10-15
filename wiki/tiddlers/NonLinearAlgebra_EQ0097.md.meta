@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-061.jpg?height=164&width=1284&top_left_y=1506&top_left_x=429
+created: 20260701062953705
+displayMode: true
+equation_number: 
+height: 164
+kind: Equation
+latex: \begin{gathered} f(A, B, C)=\exp \left[r_{1} s_{1} a_{11}+r_{1} s_{2} a_{12}+r_{2} s_{1} a_{21}+r_{2} s_{2} a_{22}+\left(t_{11} u_{2}-s_{2} t_{12}\right) b_{11}\right. \\ +\left(s_{2} t_{21}-t_{11} u_{1}\right) b_{12}+\left(s_{1} t_{12}-t_{22} u_{2}\right) b_{21}+\left(t_{22} u_{1}-s_{1} t_{21}\right) b_{22} \\ \left.+u_{1} v_{1} c_{11}+u_{1} v_{2} c_{12}+u_{2} v_{1} c_{21}+u_{2} v_{2} c_{22}\right] \end{gathered}
+modified: 20260701062953705
+page: 061
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0097
+top_left_x: 429
+top_left_y: 1506
+type: text/markdown
+width: 1284

@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-097.jpg?height=123&width=1086&top_left_y=1190&top_left_x=558
+created: 20260701062953705
+displayMode: true
+equation_number: (\6.7\)
+height: 123
+kind: Equation
+latex: a_{1} \cdot f_{1}+\cdots+a_{r} \cdot f_{r}+\sum_{\nu \in\{0,1\}^{s}}\left(\sum_{j} b_{j \nu}\right)^{2} \cdot g_{1}^{\nu_{1}} \cdots g_{s}^{\nu_{s}}=-1 .
+modified: 20260701062953705
+page: 097
+refnum: \6.7\
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0156
+top_left_x: 558
+top_left_y: 1190
+type: text/markdown
+width: 1086

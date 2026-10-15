@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-069.jpg?height=263&width=759&top_left_y=880&top_left_x=681
+created: 20260701062953705
+displayMode: true
+equation_number: 
+height: 263
+kind: Equation
+latex: X=\left(\begin{array}{ccccc} 0 & x_{12} & x_{13} & x_{14} & x_{15} \\ -x_{12} & 0 & x_{23} & x_{24} & x_{25} \\ -x_{13} & -x_{23} & 0 & x_{34} & x_{35} \\ -x_{14} & -x_{24} & -x_{34} & 0 & x_{45} \\ -x_{15} & -x_{25} & -x_{35} & -x_{45} & 0 \end{array}\right) .
+modified: 20260701062953705
+page: 069
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0110
+top_left_x: 681
+top_left_y: 880
+type: text/markdown
+width: 759

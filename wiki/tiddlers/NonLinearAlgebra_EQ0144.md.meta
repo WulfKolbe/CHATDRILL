@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-093.jpg?height=132&width=843&top_left_y=1774&top_left_x=640
+created: 20260701062953705
+displayMode: true
+equation_number: 
+height: 132
+kind: Equation
+latex: \sum_{i=1}^{r} g_{i}(\mathbf{x}, y) \cdot f_{i}(\mathbf{x})+h(\mathbf{x}, y) \cdot(y f(\mathbf{x})-1)=1
+modified: 20260701062953705
+page: 093
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0144
+top_left_x: 640
+top_left_y: 1774
+type: text/markdown
+width: 843

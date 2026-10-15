@@ -1,0 +1,3 @@
+
+
+It turns out that characters of all irreducible representations of {{NonLinearAlgebra_FO1161||FO}} are or thonormal with respect to this scalar product. For details we refer to Serre's  book [{{NonLinearAlgebra_REF_Groups1977||CIT}}, {{NonLinearAlgebra_Chapter_2||CIT}}]. In particular, the characters of irreducible represen tations are linearly independent elements in {{NonLinearAlgebra_FO2070||FO}}. Hence, we can find the  multiplicities {{NonLinearAlgebra_FO2044||FO}} in the isotypic decomposition {{NonLinearAlgebra_FO2071||FO}} by decomposing  the character:

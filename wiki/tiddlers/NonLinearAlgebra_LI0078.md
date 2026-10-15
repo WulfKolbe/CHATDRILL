@@ -1,0 +1,1 @@
+\(r(A) \leq r(A \cup\{b\}) \leq r(A)+1\) for all \(A \subset E, x \in E\).

@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-098.jpg?height=76&width=1263&top_left_y=2178&top_left_x=433
+created: 20260701062953705
+displayMode: true
+equation_number: 
+height: 76
+kind: Equation
+latex: \sqrt[\mathbb{R}]{I}=\sqrt{J}=\langle x-1, y-1\rangle \cap\langle x-1, y+1\rangle \cap\langle x+1, y-1\rangle \cap\langle x+1, y+1\rangle .
+modified: 20260701062953705
+page: 098
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0161
+top_left_x: 433
+top_left_y: 2178
+type: text/markdown
+width: 1263

@@ -1,0 +1,7 @@
+
+
+This expression is a polynomial for {{NonLinearAlgebra_FO0240||FO}}. More precisely, the Hilbert  function {{NonLinearAlgebra_FO0203||FO}} coincides with the Hilbert polynomial {{NonLinearAlgebra_FO0241||FO}} for all {{NonLinearAlgebra_FO0008||FO}} that  exceed {{NonLinearAlgebra_FO0242||FO}}. This number is the degree of the least common multiple  of all generators of {{NonLinearAlgebra_FO0038||FO}}. 
+
+Remark 1.26. The inclusion-exclusion principle carried out in the proof  of Theorem 1.25 is a powerful idea, but it also hints at possible simplifica tions. We wrote the numerator polynomial {{NonLinearAlgebra_FO0224||FO}} and the Hilbert polynomial  {{NonLinearAlgebra_FO0241||FO}} as an alternating sum of {{NonLinearAlgebra_FO0237||FO}} terms. However, in most applications  {{NonLinearAlgebra_FO0243||FO}} is much larger than {{NonLinearAlgebra_FO0015||FO}}, and the vast majorities of terms will cancel each  other. Doing the correct bookkeeping leads us the the topic of minimal  free resolutions of monomial ideals. This is a main theme in a subject area  known as combinatorial commutative algebra. Yes, please google this. 
+
+Example 1.27. Let {{NonLinearAlgebra_FO0091||FO}} and consider the monomial ideal

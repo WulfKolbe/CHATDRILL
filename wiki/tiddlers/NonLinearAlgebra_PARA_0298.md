@@ -1,0 +1,5 @@
+
+
+In classical arithmetic, the complexity of evaluating determinants and  permanents differs greatly. The determinant of an {{NonLinearAlgebra_FO0510||FO}} matrix can be com puted in {{NonLinearAlgebra_FO1424||FO}} steps, namely by Gaussian elimination, while computing the  permanent of an {{NonLinearAlgebra_FO0510||FO}} matrix is a hard problem. Leslie Valiant proved that  computing permanents is {{NonLinearAlgebra_FO1425||FO}}-complete. In tropical arithmetic, computing  the permanent is easier, thanks to the Hungarian Algorithm. We can think  of this algorithm as a certain tropicalization of Gaussian Elimination. 
+
+Eigenvectors and eigenvalues of square matrices are central to linear  algebra. The same is true in tropical linear algebra. We fix an {{NonLinearAlgebra_FO0510||FO}}-matrix  {{NonLinearAlgebra_FO1178||FO}} over {{NonLinearAlgebra_FO1426||FO}}. An eigenvalue of {{NonLinearAlgebra_FO0511||FO}} is a real number {{NonLinearAlgebra_FO0387||FO}} such that

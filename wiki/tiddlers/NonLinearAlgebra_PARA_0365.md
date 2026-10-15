@@ -1,0 +1,3 @@
+
+
+Phylogenetics. Group-based models in phylogenetics are varieties that  become toric after a linear change of coordinates. The nonlinear algebra of  this transformation was pioneered in [54. For the relevant background from  molecular biology we refer to [{{NonLinearAlgebra_REF_Pachter2005||CIT}}, {{NonLinearAlgebra_Chapter_4||CIT}}]. The following case study is  taken from [{{NonLinearAlgebra_REF_Sturmfels2005||CIT}}, {{NonLinearAlgebra_Example_3||CIT}}]. The Jukes-Cantor model for the claw tree {{NonLinearAlgebra_FO1759||FO}}  is a model for three binary random variables. Its eight joint probabilities are

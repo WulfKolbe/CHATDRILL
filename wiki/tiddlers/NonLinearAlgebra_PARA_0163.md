@@ -1,0 +1,5 @@
+# Mapping and  Projecting
+
+ 
+
+A frequently encountered challenge is to compute the image of a polynomial  map. Such an image need not be an algebraic variety. However, a natural  outer approximation of the image is given by its Zariski closure. The Zariski  closure of the image is a variety, described by the polynomials that vanish  on it. In this chapter we show how this variety can be found by eliminating  variables. Gröbner bases and resultants serve as our primary tools. Further,  we provide theorems that allow us to understand the difference between the  image and its closure. The answer we obtain depends heavily on the setting,  whether we work over the complex numbers {{NonLinearAlgebra_FO0006||FO}} or over the real numbers {{NonLinearAlgebra_FO0005||FO}},  and whether the given polynomials are homogeneous or nonhomogeneous.

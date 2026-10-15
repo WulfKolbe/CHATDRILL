@@ -1,0 +1,2 @@
+
+know how to do this using Calculus. However, we here present the SDP  approach. The linear equations 12.15) have a one-dimensional space of so lutions. Introducing a parameter {{NonLinearAlgebra_FO2488||FO}} for that line, the solutions can be written  as

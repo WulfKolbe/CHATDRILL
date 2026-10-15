@@ -1,0 +1,2 @@
+
+implies that the quotient ring is a product of fields. Namely, we have an  isomorphism {{NonLinearAlgebra_FO0098||FO}}. It takes each polynomial  modulo {{NonLinearAlgebra_FO0038||FO}} to its residue classes modulo in the intersectands in (1.3).

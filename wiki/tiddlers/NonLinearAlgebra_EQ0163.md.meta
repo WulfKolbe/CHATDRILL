@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-100.jpg?height=61&width=879&top_left_y=1798&top_left_x=623
+created: 20260701062953705
+displayMode: true
+equation_number: 
+height: 61
+kind: Equation
+latex: x \oplus y:=\min (x, y) \quad \text { and } \quad x \odot y:=x+y .
+modified: 20260701062953705
+page: 100
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0163
+top_left_x: 623
+top_left_y: 1798
+type: text/markdown
+width: 879

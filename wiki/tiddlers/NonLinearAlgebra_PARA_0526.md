@@ -1,0 +1,15 @@
+# Exercises
+
+ 
+(1) Let {{NonLinearAlgebra_FO1161||FO}} be the symmetry group of the square {{NonLinearAlgebra_FO2383||FO}} in the plane {{NonLinearAlgebra_FO0307||FO}}. This  is an order 8 subgroup in {{NonLinearAlgebra_FO2384||FO}}. List all eight matrices. Determine  the invariant ring {{NonLinearAlgebra_FO2385||FO}}. 
+(2) Let {{NonLinearAlgebra_FO1161||FO}} be the symmetry group of the regular 3-cube, as a subgroup of  {{NonLinearAlgebra_FO2386||FO}}. How many matrices are in {{NonLinearAlgebra_FO1161||FO}}, and what are their characteristic  polynomials? Determine the Molien series (11.7) of this group. What  does it tell you about the invariant ring? 
+(3) Fix {{NonLinearAlgebra_FO1554||FO}}. Let {{NonLinearAlgebra_FO2387||FO}} denote the number of monomials in the expansion  of the power sum {{NonLinearAlgebra_FO2238||FO}} in terms of the elementary symmetric functions  {{NonLinearAlgebra_FO2388||FO}}. Compute {{NonLinearAlgebra_FO2387||FO}} for some small values, say {{NonLinearAlgebra_FO2389||FO}}.  Guess a formula for {{NonLinearAlgebra_FO2387||FO}}. Can you prove it? 
+(4) Show that Noether's Degree Bound is always tight for finite cyclic groups. 
+(5) Find a subgroup of {{NonLinearAlgebra_FO2390||FO}} that has order 15. Compute the invariant  ring. 
+(6) Let {{NonLinearAlgebra_FO1567||FO}} be the group of {{NonLinearAlgebra_FO0035||FO}} diagonal matrices with determinant 1 ,  acting on the space {{NonLinearAlgebra_FO2335||FO}} of ternary cubics. This group is the  torus {{NonLinearAlgebra_FO2391||FO}}. Determine the invariant ring {{NonLinearAlgebra_FO2392||FO}}. Do you see any  relationship to the invariants in Example 11.11? 
+(7) Let {{NonLinearAlgebra_FO2393||FO}} be the alternating group of order {{NonLinearAlgebra_FO2394||FO}}. Its elements are the  even permutation matrices. Determine the invariant ring {{NonLinearAlgebra_FO2232||FO}}. 
+(8) List all 103 monomials of the invariant {{NonLinearAlgebra_FO2338||FO}} of ternary cubics in Exam ple 11.11. Give an explicit formula, in terms of {{NonLinearAlgebra_FO2395||FO}}, for the  discriminant and the j-invariant. 
+(9) Consider the action of {{NonLinearAlgebra_FO2396||FO}} on the space {{NonLinearAlgebra_FO2397||FO}} of sym metric {{NonLinearAlgebra_FO0035||FO}}-matrices. The entries of the {{NonLinearAlgebra_FO1156||FO}} matrix {{NonLinearAlgebra_FO2398||FO}} are qua dratic forms in {{NonLinearAlgebra_FO2399||FO}}. Write this matrix explicitly, similarly  to (11.9). What is the invariant ring? 
+(10) Using Derksen's Algorithm, determine the invariant ring for binary quar tics {{NonLinearAlgebra_FO2400||FO}}. How many minimal generators does this ring have? 
+(11) The rotation group {{NonLinearAlgebra_FO2401||FO}} acts by left multiplication on the space of  {{NonLinearAlgebra_FO0286||FO}}-matrices. Determine the invariant ring. 
+(12) Is the invariant ring of every matrix group {{NonLinearAlgebra_FO2291||FO}} finitely gen erated?

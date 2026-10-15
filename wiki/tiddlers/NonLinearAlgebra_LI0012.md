@@ -1,0 +1,1 @@
+For linear polynomials, running Buchberger's algorithm amounts

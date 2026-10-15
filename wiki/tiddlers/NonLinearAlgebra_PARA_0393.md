@@ -1,0 +1,5 @@
+
+
+The problem of tensor decomposition is the following. We wish to express  a given tensor {{NonLinearAlgebra_FO1567||FO}} as a sum of rank 1 tensors, using as few summands as  possible. That minimal number of rank 1 summands needed to represent {{NonLinearAlgebra_FO1567||FO}}  is the rank of {{NonLinearAlgebra_FO1567||FO}}. We will discuss this topic in detail in the next section. 
+
+An {{NonLinearAlgebra_FO1822||FO}}-tensor {{NonLinearAlgebra_FO1816||FO}} is called symmetric if it is un changed under permuting the indices. The space {{NonLinearAlgebra_FO1823||FO}} of such sym metric tensors has dimension {{NonLinearAlgebra_FO1824||FO}}. It is identified with the space of  homogeneous polynomials of degree {{NonLinearAlgebra_FO0251||FO}} in {{NonLinearAlgebra_FO0015||FO}} variables, written as

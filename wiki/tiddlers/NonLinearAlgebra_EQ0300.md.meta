@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-165.jpg?height=70&width=1346&top_left_y=966&top_left_x=466
+created: 20260701062953707
+displayMode: true
+equation_number: 
+height: 70
+kind: Equation
+latex: f\left(x_{\pi_{1}}, x_{\pi_{2}}, \ldots, x_{\pi_{n}}\right)=f\left(x_{1}, x_{2}, \ldots, x_{n}\right) \quad \text { for all permutations } \pi \text { of }\{1,2, \ldots, n\} .
+modified: 20260701062953707
+page: 165
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0300
+top_left_x: 466
+top_left_y: 966
+type: text/markdown
+width: 1346

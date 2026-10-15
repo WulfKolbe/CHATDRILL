@@ -1,0 +1,1 @@
+Maximal, prime and primary ideals are proper. In other words, the ring {{NonLinearAlgebra_FO0022||FO}}  itself is an ideal in {{NonLinearAlgebra_FO0022||FO}}, but it is neither maximal, nor prime, nor primary.

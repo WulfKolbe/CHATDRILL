@@ -1,0 +1,8 @@
+caption: \left\langle x_{11}+x_{22}+x_{33}, x_{11} x_{22}+x_{11} x_{33}-x_{12} x_{21}-x_{13} x_{31}+x_{22} x_{33}-x_{23} x_{32}, \operatorname{det}(X)\right\rangle
+created: 20260701062953694
+displayMode: false
+latex: \left\langle x_{11}+x_{22}+x_{33}, x_{11} x_{22}+x_{11} x_{33}-x_{12} x_{21}-x_{13} x_{31}+x_{22} x_{33}-x_{23} x_{32}, \operatorname{det}(X)\right\rangle
+modified: 20260701062953694
+tags: formula NonLinearAlgebra
+title: NonLinearAlgebra_FO1249
+type: text/markdown

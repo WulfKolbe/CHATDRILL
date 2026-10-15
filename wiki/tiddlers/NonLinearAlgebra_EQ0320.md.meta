@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-173.jpg?height=120&width=1200&top_left_y=1589&top_left_x=457
+created: 20260701062953707
+displayMode: true
+equation_number: 
+height: 120
+kind: Equation
+latex: \begin{gathered} \mathcal{J}_{G}=\left\langle\sigma_{11}^{2} x_{1}+\sigma_{11} \sigma_{21} x_{2}+\sigma_{21}^{2} x_{3}-y_{1}, \sigma_{12}^{2} x_{1}+\sigma_{12} \sigma_{22} x_{2} \sigma_{22}^{2} x_{3}-y_{3}\right. \\ \left.2 \sigma_{11} \sigma_{12} x_{1}+\left(\sigma_{11} \sigma_{22}+\sigma_{12} \sigma_{21}\right) x_{2}+2 \sigma_{21} \sigma_{22} x_{3}-y_{2}\right\rangle \end{gathered}
+modified: 20260701062953707
+page: 173
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0320
+top_left_x: 457
+top_left_y: 1589
+type: text/markdown
+width: 1200

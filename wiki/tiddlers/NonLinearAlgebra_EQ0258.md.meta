@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-140.jpg?height=102&width=1004&top_left_y=2144&top_left_x=558
+created: 20260701062953706
+displayMode: true
+equation_number: 
+height: 102
+kind: Equation
+latex: T=\frac{1}{2}\left(\left(\mathbf{e}_{1}+i \mathbf{e}_{0}\right)^{\otimes 3}+\left(\mathbf{e}_{1}-i \mathbf{e}_{0}\right)^{\otimes 3}\right)=\mathbf{e}_{1} \otimes \mathbf{e}_{1} \otimes \mathbf{e}_{1}-W .
+modified: 20260701062953706
+page: 140
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0258
+top_left_x: 558
+top_left_y: 2144
+type: text/markdown
+width: 1004

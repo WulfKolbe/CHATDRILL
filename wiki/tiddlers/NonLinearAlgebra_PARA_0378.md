@@ -1,0 +1,5 @@
+# Tensors
+
+ 
+
+Tensors are ubiquitous in many different branches of modern mathematics.  They are higher dimensional analogs of matrices. Just as matrices are basic  objects in linear algebra, tensors are fundamental for nonlinear algebra. One  reason they appear so late in this book is that we already saw them in  disguise: homogeneous polynomials are symmetric tensors. In this chapter  we show that basic attributes of matrices, like eigenvectors and rank, can be  defined also for tensors. HowAnnever, their behavior is far more interesting  now. We also discuss applications of tensors, with focus on a central open  algorithmic problem: how fast can one multiply two matrices? As always,  linear algebra is our door to nonlinear algebra. Further, the new nonlinear  tools will be applied to revisit fundamental questions in linear algebra.

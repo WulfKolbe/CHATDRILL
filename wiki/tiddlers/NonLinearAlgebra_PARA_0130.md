@@ -1,0 +1,6 @@
+
+(Here, if {{NonLinearAlgebra_FO0102||FO}} then {{NonLinearAlgebra_FO0725||FO}} equals the ring {{NonLinearAlgebra_FO0022||FO}}.) By definition, {{NonLinearAlgebra_FOX_e00b8c4de9||FO}}, and thus {{NonLinearAlgebra_FO0726||FO}}. However, {{NonLinearAlgebra_FO0727||FO}}, thus {{NonLinearAlgebra_FO0728||FO}}. We  have the inclusions {{NonLinearAlgebra_FO0729||FO}}, which are in  fact equalities. The last equation follows from the previous paragraph. 
+
+Definition 3.17. The associated primes of an ideal {{NonLinearAlgebra_FO0038||FO}} are the radicals of the  primary ideals appearing in a minimal primary decomposition. Equivalently,  these are the prime ideals of the form {{NonLinearAlgebra_FO0705||FO}} for some element {{NonLinearAlgebra_FO0703||FO}} of the  ring. If the ring is Noetherian, these are the prime ideals of the form {{NonLinearAlgebra_FO0730||FO}}. 
+
+Before going further, let us discuss the geometric meaning of the as sociated primes. If {{NonLinearAlgebra_FO0685||FO}} then {{NonLinearAlgebra_FO0731||FO}}. Thus, every  component in the irreducible decomposition of the variety {{NonLinearAlgebra_FO0299||FO}} corresponds  to one of the associated primes of {{NonLinearAlgebra_FO0038||FO}}. However, the converse is not true.

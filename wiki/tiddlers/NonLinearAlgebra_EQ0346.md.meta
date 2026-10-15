@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-186.jpg?height=63&width=1069&top_left_y=2389&top_left_x=584
+created: 20260701062953708
+displayMode: true
+equation_number: (12.14)
+height: 63
+kind: Equation
+latex: \text { Maximize } \lambda \text { such that } f(\mathbf{x})-\lambda \quad \text { is a sum of squares in } \mathbb{R}[\mathbf{x}] \text {. }
+modified: 20260701062953708
+page: 186
+refnum: 12.14
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0346
+top_left_x: 584
+top_left_y: 2389
+type: text/markdown
+width: 1069

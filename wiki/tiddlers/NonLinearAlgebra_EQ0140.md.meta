@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-092.jpg?height=253&width=884&top_left_y=517&top_left_x=620
+created: 20260701062953705
+displayMode: true
+equation_number: (6.1)
+height: 253
+kind: Equation
+latex: \begin{gathered} g_{1} f_{1}+g_{2} f_{2}+g_{3} f_{3}=1 \\ \text { where } g_{1}=\frac{895}{756} x^{2}-\frac{6263}{2160} x-\frac{2617}{2520} y+\frac{4327}{1008} \\ g_{2}=\frac{5191}{3780} x^{2}+\frac{358}{945} x y-\frac{6907}{3024} x-\frac{2123}{15120} y+\frac{3823}{7560} \\ \text { and } g_{3}=-\frac{179}{420} x^{2}-\frac{716}{945} x y+\frac{1453}{1080} x-\frac{716}{945} y+\frac{13771}{7560} \end{gathered}
+modified: 20260701062953705
+page: 092
+refnum: 6.1
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0140
+top_left_x: 620
+top_left_y: 517
+type: text/markdown
+width: 884

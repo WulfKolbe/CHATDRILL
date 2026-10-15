@@ -1,0 +1,1 @@
+subvarieties of \(G(k, n)\) that consist of \(l \in G(k, n)\) that intersect each

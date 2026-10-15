@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-021.jpg?height=80&width=1013&top_left_y=2030&top_left_x=554
+created: 20260701062953704
+displayMode: true
+equation_number: (1.4)
+height: 80
+kind: Equation
+latex: h_{I}(q)=\binom{n+q-1}{n-1}-\binom{n+q-e_{1}-1}{n-1}-\binom{n+q-e_{1}-1}{n-1}+\binom{n+q-e_{12}-1}{n-1} .
+modified: 20260701062953704
+page: 021
+refnum: 1.4
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0023
+top_left_x: 554
+top_left_y: 2030
+type: text/markdown
+width: 1013

@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-179.jpg?height=70&width=1221&top_left_y=2270&top_left_x=451
+created: 20260701062953707
+displayMode: true
+equation_number: (12.1)
+height: 70
+kind: Equation
+latex: \mathcal{L}=\left\{X \in \operatorname{Sym}_{2}\left(\mathbb{R}^{n}\right):\left\langle A_{1}, X\right\rangle=b_{1},\left\langle A_{2}, X\right\rangle=b_{2}, \ldots,\left\langle A_{s}, X\right\rangle=b_{s}\right\} .
+modified: 20260701062953707
+page: 179
+refnum: 12.1
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0327
+top_left_x: 451
+top_left_y: 2270
+type: text/markdown
+width: 1221

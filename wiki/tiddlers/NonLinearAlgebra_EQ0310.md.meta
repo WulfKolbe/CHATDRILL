@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-168.jpg?height=132&width=835&top_left_y=1190&top_left_x=646
+created: 20260701062953707
+displayMode: true
+equation_number: (11.6)
+height: 132
+kind: Equation
+latex: \sum_{d=0}^{\infty} \operatorname{dim}_{K}\left(K[\mathbf{x}]_{d}^{G}\right) z^{d}=\frac{1}{|G|} \sum_{\sigma \in G} \frac{1}{\operatorname{det}(\mathrm{id}-z \sigma)} .
+modified: 20260701062953707
+page: 168
+refnum: 11.6
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0310
+top_left_x: 646
+top_left_y: 1190
+type: text/markdown
+width: 835

@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-187.jpg?height=74&width=596&top_left_y=1568&top_left_x=764
+created: 20260701062953708
+displayMode: true
+equation_number: (12.16)
+height: 74
+kind: Equation
+latex: f(\mathbf{x})-\lambda=\left(H \mathbf{x}^{[p]}\right)^{T} \cdot\left(H \mathbf{x}^{[p]}\right)
+modified: 20260701062953708
+page: 187
+refnum: 12.16
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0348
+top_left_x: 764
+top_left_y: 1568
+type: text/markdown
+width: 596

@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-137.jpg?height=139&width=516&top_left_y=777&top_left_x=844
+created: 20260701062953706
+displayMode: true
+equation_number: 
+height: 139
+kind: Equation
+latex: \frac{(d-1)^{n}-1}{d-2}=\sum_{i=0}^{n-1}(d-1)^{i}
+modified: 20260701062953706
+page: 137
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0245
+top_left_x: 844
+top_left_y: 777
+type: text/markdown
+width: 516

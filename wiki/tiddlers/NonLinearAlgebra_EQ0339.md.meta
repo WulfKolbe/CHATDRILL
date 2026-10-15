@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-184.jpg?height=128&width=635&top_left_y=1804&top_left_x=743
+created: 20260701062953708
+displayMode: true
+equation_number: 
+height: 128
+kind: Equation
+latex: \operatorname{rank}\left(C-\sum_{i=1}^{s} x_{i} A_{i}\right)+\operatorname{rank}(X) \leq n .
+modified: 20260701062953708
+page: 184
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0339
+top_left_x: 743
+top_left_y: 1804
+type: text/markdown
+width: 635

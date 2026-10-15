@@ -1,0 +1,3 @@
+
+
+We next consider the notion of the tropical determinant. Fix an {{NonLinearAlgebra_FO0510||FO}}  matrix {{NonLinearAlgebra_FO0689||FO}}. As there is no negation in tropical arithmetic, we define  this determinant as the tropical sum over the tropical diagonal products  obtained by taking all {{NonLinearAlgebra_FO0753||FO}} permutations {{NonLinearAlgebra_FO0856||FO}} of {{NonLinearAlgebra_FO1421||FO}} :

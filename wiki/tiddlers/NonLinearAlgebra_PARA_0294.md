@@ -1,0 +1,5 @@
+
+
+From this it follows, by induction on {{NonLinearAlgebra_FO0243||FO}}, that {{NonLinearAlgebra_FO1415||FO}} equals the entry in row {{NonLinearAlgebra_FO0121||FO}}  and column {{NonLinearAlgebra_FO0123||FO}} of the {{NonLinearAlgebra_FO0510||FO}} matrix {{NonLinearAlgebra_FO1418||FO}}. Indeed, the right hand side of the  recursive formula is the tropical product of row {{NonLinearAlgebra_FO0121||FO}} of {{NonLinearAlgebra_FO1419||FO}} and column {{NonLinearAlgebra_FO0123||FO}}  of {{NonLinearAlgebra_FO1407||FO}}, which is the {{NonLinearAlgebra_FO1409||FO}} entry of {{NonLinearAlgebra_FO1418||FO}}. In particular, {{NonLinearAlgebra_FO1417||FO}} is the entry in  row {{NonLinearAlgebra_FO0121||FO}} and column {{NonLinearAlgebra_FO0123||FO}} of {{NonLinearAlgebra_FO1420||FO}}. This proves the claim. 
+
+The above algorithm belongs to what is known as Dynamic Programming  in Computer Science. For us, it means performing the matrix multiplication

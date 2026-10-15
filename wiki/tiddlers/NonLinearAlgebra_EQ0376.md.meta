@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-201.jpg?height=108&width=399&top_left_y=1824&top_left_x=863
+created: 20260701062953708
+displayMode: true
+equation_number: 
+height: 108
+kind: Equation
+latex: \operatorname{MHS}_{C}(\mathbf{x})=\sum_{c \in C \cap \mathbb{Z}^{n}} \mathbf{x}^{c}
+modified: 20260701062953708
+page: 201
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0376
+top_left_x: 863
+top_left_y: 1824
+type: text/markdown
+width: 399

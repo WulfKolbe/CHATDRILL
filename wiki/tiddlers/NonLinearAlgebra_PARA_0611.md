@@ -1,0 +1,5 @@
+
+
+It counts the number of lattice points in dilations of {{NonLinearAlgebra_FO0546||FO}}. It is known as  the Ehrhart polynomial of {{NonLinearAlgebra_FO0546||FO}} and indeed it coincides with a polynomial for  {{NonLinearAlgebra_FO2644||FO}}. 
+
+Proof. The only nontrivial statement is that {{NonLinearAlgebra_FO2627||FO}} is equal to a polynomial  for all positive integers {{NonLinearAlgebra_FO0008||FO}}. By induction on {{NonLinearAlgebra_FO2645||FO}} and by triangulating {{NonLinearAlgebra_FO0546||FO}} it is  enough to prove the statement when {{NonLinearAlgebra_FO0546||FO}} is a simplex with vertices {{NonLinearAlgebra_FO2646||FO}}.  Let {{NonLinearAlgebra_FO2647||FO}} for {{NonLinearAlgebra_FO2648||FO}} and {{NonLinearAlgebra_FO2649||FO}} for {{NonLinearAlgebra_FO2650||FO}}. As in the  proof of Lemma 13.18 we have:

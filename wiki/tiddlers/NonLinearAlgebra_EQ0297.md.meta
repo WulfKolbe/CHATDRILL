@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-161.jpg?height=117&width=585&top_left_y=979&top_left_x=769
+created: 20260701062953707
+displayMode: true
+equation_number: 
+height: 117
+kind: Equation
+latex: n^{2}\binom{2 n-1}{n-1} /\binom{2 n-2}{n-1}=2 n^{2}-n
+modified: 20260701062953707
+page: 161
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0297
+top_left_x: 769
+top_left_y: 979
+type: text/markdown
+width: 585

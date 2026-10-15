@@ -1,0 +1,1 @@
+Prove that the kernel, image and cokernel of \(f\) are also representa-

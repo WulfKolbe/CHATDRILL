@@ -1,0 +1,9 @@
+
+
+Example 12.14. The determinant function takes on all values between 0  and 1 on the spectrahedron {{NonLinearAlgebra_FO0174||FO}} in (12.5). The value 1 is attained only by  the identity matrix, for {{NonLinearAlgebra_FO2494||FO}}. This point is therefore the analytic  center of {{NonLinearAlgebra_FO0174||FO}}. 
+
+We close by relating spectrahedra and their analytic centers to statistics.  Every positive definite {{NonLinearAlgebra_FO0510||FO}} matrix {{NonLinearAlgebra_FO2495||FO}} is the covariance matrix of a  multivariate normal distribution. Its inverse {{NonLinearAlgebra_FO2496||FO}} is the concentration matrix  of that distribution. 
+
+A Gaussian graphical model is specified by requiring that some off diagonal entries of {{NonLinearAlgebra_FO2496||FO}} are zero. These entries correspond to the non-edges  of the graph. Maximum likelihood estimation for this graphical model trans lates into a matrix completion problem. Suppose that {{NonLinearAlgebra_FO0436||FO}} is the sample co variance matrix of a given data set. We regard {{NonLinearAlgebra_FO0436||FO}} as a partial matrix, with  visible entries only on the diagonal and on the edges of the graph. One  considers the set of all completions of the non-edge entries that make the  matrix {{NonLinearAlgebra_FO0436||FO}} positive definite. The set of all these completions is a spectrahe dron. Maximum likelihood estimate for the data {{NonLinearAlgebra_FO0436||FO}} in the graphical model  amounts to maximizing the logarithm of the determinant. We hence seek to  compute the analytic center of the spectrahedron of all completions. 
+
+Example 12.15 (Positive definite matrix completion). Suppose that the  eight entries {{NonLinearAlgebra_FO2497||FO}} in the following symmetric {{NonLinearAlgebra_FO0518||FO}}-matrix are visible, but the  entries {{NonLinearAlgebra_FO0064||FO}} and {{NonLinearAlgebra_FO0385||FO}} are unknown:

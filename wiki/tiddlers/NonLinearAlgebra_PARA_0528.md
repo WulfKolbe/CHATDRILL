@@ -1,0 +1,5 @@
+# Semidefinite  Programming
+
+ 
+
+The transition from linear algebra to nonlinear algebra has a natural coun terpart in convex optimization, namely the passage from linear programming  to semidefinite programming. This transition is the topic of this chapter.  Linear programming concerns the solution of linear systems of inequalities,  and the optimization of linear functions subject to linear constraints. The  feasible region is a convex polyhedron, and the optimal solutions form a face  of that polyhedron. In semidefinite programming we work in the space of  symmetric {{NonLinearAlgebra_FO0510||FO}}-matrices. The inequality constraints now stipulate that  some linear combination of matrices be positive semidefinite. The feasible  region given by such constraints is a closed convex set, known as a spectra hedron. We again wish to optimize a linear function. The condition for a  polynomial to be a sum of squares may be regarded as a semidefinite pro gram. This furnishes a connection to the real Nullstellensatz (Chapter 6),  thereby establishing semidefinite programming as a key tool for computing  in real algebraic geometry.

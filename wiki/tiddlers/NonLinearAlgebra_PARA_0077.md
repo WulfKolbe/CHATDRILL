@@ -1,0 +1,21 @@
+
+{{NonLinearAlgebra_FO0415||FO}} is semi-algebraic if it can be described as the solutions of a finite  system of polynomial inequalities (both {{NonLinearAlgebra_FO0416||FO}} and {{NonLinearAlgebra_FO0417||FO}} ) or a finite union of such. 
+
+Remark 2.13. Every constructible subset of {{NonLinearAlgebra_FO0418||FO}} is semi-algebraic, but the  converse is not true. See below. The complement of a constructible set is  constructible, and the complement of a semi-algebraic set is semi-algebraic. 
+
+Example 2.14. Take {{NonLinearAlgebra_FO0091||FO}} and {{NonLinearAlgebra_FO0003||FO}}. The singleton {{NonLinearAlgebra_FO0419||FO}}  is constructible and hence so is {{NonLinearAlgebra_FO0420||FO}}. The orthant  {{NonLinearAlgebra_FO0421||FO}} and {{NonLinearAlgebra_FO0422||FO}} is semi-algebraic. But it is not con structible, because the Euclidean closure of a constructible set is a variety.  Its complement {{NonLinearAlgebra_FO0423||FO}} or {{NonLinearAlgebra_FO0424||FO}} is also semi-algebraic.  Can you write {{NonLinearAlgebra_FO0425||FO}} as set of solutions to a finite list of polynomial inequalities? 
+
+The two most important invariants of a variety {{NonLinearAlgebra_FO0317||FO}} in {{NonLinearAlgebra_FO0298||FO}} are its dimension  and its degree. We defined these in Section 1.3, via the ideal {{NonLinearAlgebra_FO0426||FO}}. 
+
+Example 2.15. Let {{NonLinearAlgebra_FO0317||FO}} be a linear subspace of {{NonLinearAlgebra_FO0298||FO}}. The dimension of {{NonLinearAlgebra_FO0317||FO}} as a  variety equals its dimension as a linear space. The degree of {{NonLinearAlgebra_FO0317||FO}} is one. Indeed,  we may assume {{NonLinearAlgebra_FO0427||FO}} where {{NonLinearAlgebra_FO0428||FO}}. The result  follows from Example 1.22 because {{NonLinearAlgebra_FO0429||FO}}. 
+
+We note an important property of dimension. If {{NonLinearAlgebra_FO0430||FO}} then {{NonLinearAlgebra_FOX_6f40cae5eb||FO}}. The inequality is strict if {{NonLinearAlgebra_FO0431||FO}} is irreducible. The latter is not easy  to prove from the definition we gave. It helps to consult a textbook in com mutative algebra for alternative (but equivalent) definitions of dimension. 
+
+Here is a method for computing the dimension of a variety {{NonLinearAlgebra_FO0299||FO}}. We use  that {{NonLinearAlgebra_FO0432||FO}} is a union of linear spaces in {{NonLinearAlgebra_FO0298||FO}}, for any monomial order {{NonLinearAlgebra_FO0132||FO}}. 
+(1) Compute a Gröbner basis of {{NonLinearAlgebra_FO0038||FO}} and hence the monomial ideal in {{NonLinearAlgebra_FO0176||FO}}. 
+(2) Let {{NonLinearAlgebra_FO0433||FO}} monomials that generate in {{NonLinearAlgebra_FO0169||FO}}. Find the smallest  (with respect to cardinality) set of variables {{NonLinearAlgebra_FO0434||FO}} such  that every monomial generator {{NonLinearAlgebra_FO0435||FO}} is divisible by some variable in {{NonLinearAlgebra_FO0436||FO}}. 
+(3) The cardinality {{NonLinearAlgebra_FO0251||FO}} of {{NonLinearAlgebra_FO0436||FO}} is dimension of both {{NonLinearAlgebra_FO0432||FO}} and {{NonLinearAlgebra_FO0299||FO}}. 
+
+The second most important invariant of a variety {{NonLinearAlgebra_FO0437||FO}} is  the degree. We now provide its geometric interpretation. Suppose {{NonLinearAlgebra_FO0001||FO}} is  algebraically closed. A general subspace {{NonLinearAlgebra_FO0438||FO}} with {{NonLinearAlgebra_FO0439||FO}}  intersects {{NonLinearAlgebra_FO0317||FO}} in finitely many points. This is the degree of {{NonLinearAlgebra_FO0317||FO}}. Indeed, this  follows inductively by the fact that a general linear polynomial is not a zero divisor in {{NonLinearAlgebra_FO0440||FO}}. Hence, adding it {{NonLinearAlgebra_FO0038||FO}} changes the Hilbert function in such a  way that the dimension drops by one and the degree remains the same. If  {{NonLinearAlgebra_FO0441||FO}} and {{NonLinearAlgebra_FO0038||FO}} is radical then the degree is the cardinality of {{NonLinearAlgebra_FO0442||FO}}. 
+
+Some points on a variety are singular, like the four nodes of the cubic  surface in Figure 1. Our aim is now to discuss singularities in general. We

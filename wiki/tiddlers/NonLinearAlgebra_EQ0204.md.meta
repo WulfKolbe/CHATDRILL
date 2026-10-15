@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-117.jpg?height=78&width=635&top_left_y=756&top_left_x=743
+created: 20260701062953706
+displayMode: true
+equation_number: 
+height: 78
+kind: Equation
+latex: \mathbf{x}^{\mathbf{b}}=x_{1}^{b_{1}} x_{2}^{b_{2}} \cdots x_{n}^{b_{n}}, \quad \text { where } \mathbf{b} \in \mathbb{Z}^{n}
+modified: 20260701062953706
+page: 117
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0204
+top_left_x: 743
+top_left_y: 756
+type: text/markdown
+width: 635

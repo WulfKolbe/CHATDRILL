@@ -1,0 +1,8 @@
+caption: \mathbb{R} \rightarrow \mathbb{R}, x \mapsto 1 \oplus 2 \odot x \oplus 3 \odot x^{\odot 2} \oplus 6 \odot x^{\odot 3} \oplus 10 \odot x^{\odot 4}
+created: 20260701062953711
+displayMode: false
+latex: \mathbb{R} \rightarrow \mathbb{R}, x \mapsto 1 \oplus 2 \odot x \oplus 3 \odot x^{\odot 2} \oplus 6 \odot x^{\odot 3} \oplus 10 \odot x^{\odot 4}
+modified: 20260701062953711
+tags: formula synthetic NonLinearAlgebra
+title: NonLinearAlgebra_FOX_b2429380e5
+type: text/markdown

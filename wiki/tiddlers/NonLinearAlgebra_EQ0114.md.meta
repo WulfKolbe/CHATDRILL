@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-070.jpg?height=287&width=1133&top_left_y=1731&top_left_x=498
+created: 20260701062953705
+displayMode: true
+equation_number: 
+height: 287
+kind: Equation
+latex: \left(\begin{array}{c} f_{1} \\ f_{2} \\ \vdots \\ f_{m} \\ f_{m+1} \end{array}\right)=\left(\begin{array}{ccccc} x_{1,1} & x_{1,2} & \cdots & x_{1, m} & x_{1, m+1} \\ x_{2,1} & x_{2,2} & \cdots & x_{2, m} & x_{2, m+1} \\ \vdots & \vdots & \ddots & \vdots & \vdots \\ x_{m, 1} & x_{m, 2} & \cdots & x_{m, m} & x_{m, m+1} \\ x_{m+1,1} & x_{m+1,2} & \cdots & x_{m+1, m} & x_{m+1, m+1} \end{array}\right)\left(\begin{array}{c} z_{1} \\ z_{2} \\ \vdots \\ z_{m} \\ 1 \end{array}\right) .
+modified: 20260701062953705
+page: 070
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0114
+top_left_x: 498
+top_left_y: 1731
+type: text/markdown
+width: 1133

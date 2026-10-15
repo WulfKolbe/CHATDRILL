@@ -1,0 +1,1 @@
+the radical of a principal ideal is principal;

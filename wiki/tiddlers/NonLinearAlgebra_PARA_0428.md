@@ -1,0 +1,2 @@
+
+(13) Linear maps from {{NonLinearAlgebra_FO1019||FO}} to {{NonLinearAlgebra_FO0431||FO}} are identified with tensors in {{NonLinearAlgebra_FO1992||FO}}. The  composition of linear maps in {{NonLinearAlgebra_FO1993||FO}} may be regarded as a map

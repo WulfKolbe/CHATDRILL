@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-172.jpg?height=257&width=1303&top_left_y=648&top_left_x=429
+created: 20260701062953707
+displayMode: true
+equation_number: 
+height: 257
+kind: Equation
+latex: \begin{aligned} & I_{4}= x_{0}^{4}-8 x_{0}^{2} x_{4} x_{9}-8 x_{0}^{2} x_{5} x_{7}-8 x_{0}^{2} x_{6} x_{8}-216 x_{0} x_{1} x_{2} x_{3}+24 x_{0} x_{1} x_{7} x_{9} \\ &+24 x_{0} x_{2} x_{5} x_{8}+24 x_{0} x_{3} x_{4} x_{6}+24 x_{0} x_{4} x_{7} x_{8}+24 x_{0} x_{5} x_{6} x_{9} \\ &+144 x_{1} x_{2} x_{8} x_{9}+144 x_{1} x_{3} x_{6} x_{7}-48 x_{1} x_{6} x_{9}^{2}-48 x_{1} x_{7}^{2} x_{8}+144 x_{2} x_{3} x_{4} x_{5} \\ &- 48 x_{2} x_{4} x_{8}^{2}-48 x_{2} x_{5}^{2} x_{9}-48 x_{3} x_{4}^{2} x_{7}-48 x_{3} x_{5} x_{6}^{2}+16 x_{4}^{2} x_{9}^{2} \\ &-16 x_{4} x_{5} x_{7} x_{9}-16 x_{4} x_{6} x_{8} x_{9}+16 x_{5}^{2} x_{7}^{2}-16 x_{5} x_{6} x_{7} x_{8}+16 x_{6}^{2} x_{8}^{2} . \end{aligned}
+modified: 20260701062953707
+page: 172
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0316
+top_left_x: 429
+top_left_y: 648
+type: text/markdown
+width: 1303

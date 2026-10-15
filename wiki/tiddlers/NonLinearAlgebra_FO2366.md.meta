@@ -1,0 +1,8 @@
+caption: \operatorname{Hex}(\mathbf{x})=x_{112} x_{122}-x_{122} x_{121}+x_{121} x_{221}-x_{221} x_{211}+x_{211} x_{212}-x_{212} x_{112}
+created: 20260701062953702
+displayMode: false
+latex: \operatorname{Hex}(\mathbf{x})=x_{112} x_{122}-x_{122} x_{121}+x_{121} x_{221}-x_{221} x_{211}+x_{211} x_{212}-x_{212} x_{112}
+modified: 20260701062953702
+tags: formula NonLinearAlgebra
+title: NonLinearAlgebra_FO2366
+type: text/markdown

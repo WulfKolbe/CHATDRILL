@@ -1,0 +1,1 @@
+{{||CIT}} [54] B. Sturmfels and S. Sullivant: Toric ideals of phylogenetic invariants, Journal of Computational Biology 12 (2005) 204-228.

@@ -1,0 +1,8 @@
+caption: x_{11} \geq 0, x_{22} \geq 0, x_{33} \geq 0, x_{11} x_{22} \geq x_{12} x_{21}, x_{11} x_{33} \geq x_{13} x_{31}, x_{22} x_{33} \geq x_{22} x_{31}
+created: 20260701062953692
+displayMode: false
+latex: x_{11} \geq 0, x_{22} \geq 0, x_{33} \geq 0, x_{11} x_{22} \geq x_{12} x_{21}, x_{11} x_{33} \geq x_{13} x_{31}, x_{22} x_{33} \geq x_{22} x_{31}
+modified: 20260701062953692
+tags: formula NonLinearAlgebra
+title: NonLinearAlgebra_FO0987
+type: text/markdown

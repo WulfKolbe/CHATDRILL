@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-055.jpg?height=74&width=1142&top_left_y=1624&top_left_x=489
+created: 20260701062953705
+displayMode: true
+equation_number: 
+height: 74
+kind: Equation
+latex: I=\langle x\rangle \cap\langle y\rangle \cap\langle z\rangle \cap\left\langle x^{2}, y^{2}\right\rangle \cap\left\langle x^{2}, z^{2}\right\rangle \cap\left\langle y^{2}, z^{2}\right\rangle \cap\left\langle x^{3}, y^{3}, z^{3}\right\rangle
+modified: 20260701062953705
+page: 055
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0078
+top_left_x: 489
+top_left_y: 1624
+type: text/markdown
+width: 1142

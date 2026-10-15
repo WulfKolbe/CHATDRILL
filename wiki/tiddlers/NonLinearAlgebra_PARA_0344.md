@@ -1,0 +1,5 @@
+
+
+Each of these nine binomials vanishes under the substitution {{NonLinearAlgebra_FO1614||FO}}. Using  the methods in Section 4.2, we can check that {{NonLinearAlgebra_FO1603||FO}} is the desired prime ideal.  The toric variety {{NonLinearAlgebra_FO0285||FO}} has dimension 3 and it lives in the affine space {{NonLinearAlgebra_FO1613||FO}}. 
+
+The ideal {{NonLinearAlgebra_FO1603||FO}} is homogeneous. Each of the nine binomials in 8.1 is  homogeneous. This comes from the fact that the matrix {{NonLinearAlgebra_FO0511||FO}} has column sums  {{NonLinearAlgebra_FO1615||FO}}. Geometrically speaking, the threefold {{NonLinearAlgebra_FO0285||FO}} is a cone in {{NonLinearAlgebra_FO1613||FO}}.  We can therefore also regard {{NonLinearAlgebra_FO0285||FO}} as a surface in the projective space {{NonLinearAlgebra_FO1616||FO}}. That  surface is nonsingular and it has degree six. This passage from appropriate  matrices {{NonLinearAlgebra_FO0511||FO}} to projective toric varieties will be our theme in Section 8.2.

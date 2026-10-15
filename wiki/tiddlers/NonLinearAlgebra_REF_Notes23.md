@@ -1,0 +1,1 @@
+{{||CIT}} [59] R. Vakil: The Rising Sea: Foundations Of Algebraic Geometry Notes, available at http://math.stanford.edu/~vakil/216blog/index.html.

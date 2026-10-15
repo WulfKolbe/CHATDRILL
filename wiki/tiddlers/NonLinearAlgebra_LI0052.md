@@ -1,0 +1,1 @@
+GL \((V)=\mathrm{GL}(\operatorname{dim} V)\) - the group of linear isomorphisms of a

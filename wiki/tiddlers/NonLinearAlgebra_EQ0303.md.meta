@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-165.jpg?height=133&width=1189&top_left_y=1634&top_left_x=472
+created: 20260701062953707
+displayMode: true
+equation_number: (11.2)
+height: 133
+kind: Equation
+latex: \begin{aligned} k E_{k} & =\sum_{i=1}^{k}(-1)^{i-1} E_{k-i} P_{i} \\ \text { and } \quad P_{k} & =(-1)^{k-1} k E_{k}+\sum_{i=1}^{k-1}(-1)^{k-1-i} E_{k-i} P_{i} \quad \text { for } 1 \leq k \leq n \end{aligned}
+modified: 20260701062953707
+page: 165
+refnum: 11.2
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0303
+top_left_x: 472
+top_left_y: 1634
+type: text/markdown
+width: 1189

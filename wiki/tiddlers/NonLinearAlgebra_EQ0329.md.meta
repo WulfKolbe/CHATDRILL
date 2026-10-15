@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-180.jpg?height=67&width=940&top_left_y=797&top_left_x=640
+created: 20260701062953707
+displayMode: true
+equation_number: (12.3)
+height: 67
+kind: Equation
+latex: \mathcal{L}=\left\{A_{0}+x_{1} A_{1}+\cdots+x_{s} A_{s}:\left(x_{1}, \ldots, x_{s}\right) \in \mathbb{R}^{s}\right\},
+modified: 20260701062953707
+page: 180
+refnum: 12.3
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0329
+top_left_x: 640
+top_left_y: 797
+type: text/markdown
+width: 940

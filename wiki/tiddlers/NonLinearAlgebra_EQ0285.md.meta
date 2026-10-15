@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-157.jpg?height=177&width=1111&top_left_y=571&top_left_x=507
+created: 20260701062953707
+displayMode: true
+equation_number: 
+height: 177
+kind: Equation
+latex: \chi_{\lambda}(\mathbf{t})=\frac{1}{\left(t_{1}-t_{2}\right)\left(t_{1}-t_{3}\right)\left(t_{2}-t_{3}\right)} \cdot \operatorname{det}\left(\begin{array}{ccc} t_{1}^{\lambda_{1}+2} & t_{1}^{\lambda_{2}+1} & t_{1}^{\lambda_{3}} \\ t_{2}^{\lambda_{1}+2} & t_{2}^{\lambda_{2}+1} & t_{2}^{\lambda_{3}} \\ t_{3}^{\lambda_{1}+2} & t_{3}^{\lambda_{2}+1} & t_{3}^{\lambda_{3}} \end{array}\right) .
+modified: 20260701062953707
+page: 157
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0285
+top_left_x: 507
+top_left_y: 571
+type: text/markdown
+width: 1111

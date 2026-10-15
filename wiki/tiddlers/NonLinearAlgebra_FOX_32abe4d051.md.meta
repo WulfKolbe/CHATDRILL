@@ -1,0 +1,8 @@
+caption: \mathrm{Mat}_{a, b} \times \mathrm{Mat}_{b, c} \rightarrow \mathrm{Mat}_{a, c}
+created: 20260701062953711
+displayMode: false
+latex: \mathrm{Mat}_{a, b} \times \mathrm{Mat}_{b, c} \rightarrow \mathrm{Mat}_{a, c}
+modified: 20260701062953711
+tags: formula synthetic NonLinearAlgebra
+title: NonLinearAlgebra_FOX_32abe4d051
+type: text/markdown

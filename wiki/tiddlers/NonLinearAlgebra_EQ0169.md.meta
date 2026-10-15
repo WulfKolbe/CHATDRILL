@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-101.jpg?height=141&width=914&top_left_y=996&top_left_x=603
+created: 20260701062953705
+displayMode: true
+equation_number: 
+height: 141
+kind: Equation
+latex: x \odot \infty=\infty \quad \text { and } \quad x \oplus 0= \begin{cases}0 & \text { if } x \geq 0 \\ x & \text { if } x<0\end{cases}
+modified: 20260701062953705
+page: 101
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0169
+top_left_x: 603
+top_left_y: 996
+type: text/markdown
+width: 914

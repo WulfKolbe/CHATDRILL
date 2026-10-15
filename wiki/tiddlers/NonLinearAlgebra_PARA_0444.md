@@ -1,0 +1,2 @@
+
+where {{NonLinearAlgebra_FO2041||FO}} if and only if {{NonLinearAlgebra_FO2042||FO}}. The subrepresentations {{NonLinearAlgebra_FO2043||FO}} are  called isotypic components. The number {{NonLinearAlgebra_FO2044||FO}} is the multiplicity of the irre ducible representation {{NonLinearAlgebra_FO2045||FO}} in {{NonLinearAlgebra_FO0317||FO}}.

@@ -1,0 +1,8 @@
+caption: \mathbf{x} \leq B \odot \mathbf{x}=B^{+} \odot \mathbf{x} \leq \mathbf{x}
+created: 20260701062953695
+displayMode: false
+latex: \mathbf{x} \leq B \odot \mathbf{x}=B^{+} \odot \mathbf{x} \leq \mathbf{x}
+modified: 20260701062953695
+tags: formula NonLinearAlgebra
+title: NonLinearAlgebra_FO1461
+type: text/markdown

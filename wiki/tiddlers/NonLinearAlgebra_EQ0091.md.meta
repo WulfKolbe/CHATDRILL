@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-060.jpg?height=69&width=736&top_left_y=509&top_left_x=693
+created: 20260701062953705
+displayMode: true
+equation_number: 
+height: 69
+kind: Equation
+latex: J=\langle x, y\rangle \cap\langle z, w\rangle \cap\left(J+\langle x, y, z, w\rangle^{3}\right)
+modified: 20260701062953705
+page: 060
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0091
+top_left_x: 693
+top_left_y: 509
+type: text/markdown
+width: 736

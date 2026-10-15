@@ -1,0 +1,3 @@
+
+
+Consider the set of all pairs ( {{NonLinearAlgebra_FO2489||FO}} ) such that the {{NonLinearAlgebra_FO0035||FO}} matrix in (12.18) is  positive semidefinite. This set is a cubic spectrahedron in the plane {{NonLinearAlgebra_FO0307||FO}}, just  like that shown on the left in (1). We seek to maximize {{NonLinearAlgebra_FO0387||FO}} over all points in  that cubic spectrahedron. The optimal point equals {{NonLinearAlgebra_FO2490||FO}}.  Substituting this into the matrix in 12.18 we obtain a positive definite  matrix of rank 2. This can be factored as {{NonLinearAlgebra_FO2483||FO}}, where {{NonLinearAlgebra_FO2294||FO}} has format  {{NonLinearAlgebra_FO0844||FO}}. The resulting representation (12.16) as a sum of two squares equals

@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-166.jpg?height=70&width=1043&top_left_y=1196&top_left_x=588
+created: 20260701062953707
+displayMode: true
+equation_number: (11.4)
+height: 70
+kind: Equation
+latex: K\left[x_{1}, x_{2}\right]^{G}=K\left[I_{1}, I_{2}, I_{3}\right] \simeq K\left[y_{1}, y_{2}, y_{3}\right] /\left\langle y_{1}^{2} y_{2}-4 y_{2}^{2}-y_{3}^{2}\right\rangle .
+modified: 20260701062953707
+page: 166
+refnum: 11.4
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0306
+top_left_x: 588
+top_left_y: 1196
+type: text/markdown
+width: 1043

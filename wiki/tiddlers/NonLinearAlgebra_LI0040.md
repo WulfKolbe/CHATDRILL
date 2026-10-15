@@ -1,0 +1,1 @@
+Rectangular matrices \(B\) represent bilinear forms.

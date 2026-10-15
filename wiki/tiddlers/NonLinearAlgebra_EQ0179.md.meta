@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-105.jpg?height=154&width=1108&top_left_y=648&top_left_x=489
+created: 20260701062953705
+displayMode: true
+equation_number: (7.4)
+height: 154
+kind: Equation
+latex: \begin{aligned} d_{i j}^{(r)} & =d_{i 1}^{(r-1)} \odot d_{1 j} \oplus d_{i 2}^{(r-1)} \odot d_{2 j} \oplus \cdots \oplus d_{i n}^{(r-1)} \odot d_{n j} \\ & =\left(d_{i 1}^{(r-1)}, d_{i 2}^{(r-1)}, \ldots, d_{i n}^{(r-1)}\right) \odot\left(d_{1 j}, d_{2 j}, \ldots, d_{n j}\right)^{T} \end{aligned}
+modified: 20260701062953705
+page: 105
+refnum: 7.4
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0179
+top_left_x: 489
+top_left_y: 648
+type: text/markdown
+width: 1108

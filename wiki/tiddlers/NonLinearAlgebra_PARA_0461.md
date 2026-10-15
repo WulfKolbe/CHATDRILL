@@ -1,0 +1,4 @@
+
+
+If {{NonLinearAlgebra_FO0387||FO}} has less than {{NonLinearAlgebra_FO0015||FO}} rows, we extend it by zeros. 
+We can find the decomposition (10.1) of a representation {{NonLinearAlgebra_FO0317||FO}} into irre ducibles by writing the character {{NonLinearAlgebra_FO2140||FO}} as linear combination of Schur func tions {{NonLinearAlgebra_FO2137||FO}} with nonnegative integer coefficients {{NonLinearAlgebra_FO2044||FO}}. These coefficients are the  multiplicities. This expression is unique because the Schur polynomials form  a {{NonLinearAlgebra_FO0025||FO}}-linear basis for the ring of symmetric polynomials in {{NonLinearAlgebra_FO0015||FO}} variables.

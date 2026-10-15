@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-202.jpg?height=143&width=805&top_left_y=607&top_left_x=659
+created: 20260701062953708
+displayMode: true
+equation_number: 
+height: 143
+kind: Equation
+latex: P:=\left\{x \in C: x=\sum_{i=1}^{d} \lambda_{i} c_{i}, 0 \leq \lambda_{1}, \ldots, \lambda_{d}<1\right\}
+modified: 20260701062953708
+page: 202
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0378
+top_left_x: 659
+top_left_y: 607
+type: text/markdown
+width: 805

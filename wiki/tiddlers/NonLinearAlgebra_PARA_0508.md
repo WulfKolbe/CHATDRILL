@@ -1,0 +1,3 @@
+
+
+For {{NonLinearAlgebra_FO2323||FO}}, the determinant of this {{NonLinearAlgebra_FO0518||FO}}-matrix equals ( {{NonLinearAlgebra_FOX_4ccb55f81f||FO}}. The {{NonLinearAlgebra_FO1161||FO}}-action on {{NonLinearAlgebra_FO0317||FO}} is given by {{NonLinearAlgebra_FO2324||FO}} where {{NonLinearAlgebra_FO0064||FO}} is  the column vector {{NonLinearAlgebra_FO2325||FO}}. One invariant under this action is the  discriminant of the binary cubic {{NonLinearAlgebra_FO2326||FO}}, which is

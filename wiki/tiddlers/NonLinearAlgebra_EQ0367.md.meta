@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-198.jpg?height=70&width=1438&top_left_y=1714&top_left_x=429
+created: 20260701062953708
+displayMode: true
+equation_number: 
+height: 70
+kind: Equation
+latex: \left(e_{1}+e_{2}+e_{3}+e_{4}\right) \wedge\left(e_{1}+2 e_{2}+3 e_{3}+4 e_{4}\right)=e_{1} \wedge e_{2}+2 e_{1} \wedge e_{3}+3 e_{1} \wedge e_{4}+e_{2} \wedge e_{3}+2 e_{2} \wedge e_{4}+e_{3} \wedge e_{4} .
+modified: 20260701062953708
+page: 198
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0367
+top_left_x: 429
+top_left_y: 1714
+type: text/markdown
+width: 1438

@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-112.jpg?height=164&width=852&top_left_y=2056&top_left_x=635
+created: 20260701062953706
+displayMode: true
+equation_number: 
+height: 164
+kind: Equation
+latex: \mathbf{u}=\left(\begin{array}{lll} 0 & 0 & 1 \\ 1 & 0 & 0 \\ 0 & 1 & 0 \end{array}\right) \quad \text { and } \quad \mathbf{u}^{\prime}=\left(\begin{array}{lll} 0 & 0 & 1 \\ 0 & 0 & 1 \\ 1 & 1 & 0 \end{array}\right) .
+modified: 20260701062953706
+page: 112
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0200
+top_left_x: 635
+top_left_y: 2056
+type: text/markdown
+width: 852

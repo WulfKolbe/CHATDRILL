@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-011.jpg?height=162&width=875&top_left_y=2294&top_left_x=623
+created: 20260701062953704
+displayMode: true
+equation_number: (1.1)
+height: 162
+kind: Equation
+latex: f=\operatorname{det}\left(\begin{array}{ccc} 1 & x & y \\ x & 1 & z \\ y & z & 1 \end{array}\right)=2 x y z-x^{2}-y^{2}-z^{2}+1
+modified: 20260701062953704
+page: 011
+refnum: 1.1
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0002
+top_left_x: 623
+top_left_y: 2294
+type: text/markdown
+width: 875

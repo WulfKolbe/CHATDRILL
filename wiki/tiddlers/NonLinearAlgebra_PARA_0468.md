@@ -1,0 +1,3 @@
+
+where the sum is over all Young diagrams with precisely {{NonLinearAlgebra_FO0015||FO}} boxes. 
+When {{NonLinearAlgebra_FO0091||FO}} and {{NonLinearAlgebra_FO2164||FO}} we obtain {{NonLinearAlgebra_FO2165||FO}}, as there  are only two irreducible representations of {{NonLinearAlgebra_FO2166||FO}}, both 1 -dimensional. This  recovers the fact every {{NonLinearAlgebra_FO0510||FO}} matrix is uniquely the sum of a symmetric  matrix and a skew-symmetric matrix. The {{NonLinearAlgebra_FO2166||FO}} action on the matrix space

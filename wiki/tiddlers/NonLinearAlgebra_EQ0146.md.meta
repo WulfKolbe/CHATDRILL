@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-093.jpg?height=138&width=473&top_left_y=2247&top_left_x=825
+created: 20260701062953705
+displayMode: true
+equation_number: 
+height: 138
+kind: Equation
+latex: \sum_{i=1}^{r} p_{i}(\mathbf{x}) \cdot f_{i}(\mathbf{x})=f(\mathbf{x})^{m}
+modified: 20260701062953705
+page: 093
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0146
+top_left_x: 825
+top_left_y: 2247
+type: text/markdown
+width: 473

@@ -1,0 +1,2 @@
+
+{{NonLinearAlgebra_FO0251||FO}}-dimensional tensor {{NonLinearAlgebra_FO1567||FO}} in {{NonLinearAlgebra_FO1856||FO}}. It corresponds to a multilinear form.  The singular vector tuples of {{NonLinearAlgebra_FO1567||FO}} are the fixed points of the gradient map

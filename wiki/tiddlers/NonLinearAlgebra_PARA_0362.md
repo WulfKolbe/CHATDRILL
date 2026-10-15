@@ -1,0 +1,5 @@
+
+
+The columns of {{NonLinearAlgebra_FO0511||FO}} are labeled {{NonLinearAlgebra_FO1749||FO}}. These are our coordinates for  {{NonLinearAlgebra_FO0915||FO}}. The polytope {{NonLinearAlgebra_FO1661||FO}} is the second hypersimplex of dimension 4.  It has f-vector {{NonLinearAlgebra_FO1750||FO}} but it is not self-dual. Its toric ideal {{NonLinearAlgebra_FO1660||FO}} has 10  quadratic generators {{NonLinearAlgebra_FO1751||FO}}, and {{NonLinearAlgebra_FO1663||FO}} is a fourfold of degree 11 in {{NonLinearAlgebra_FO0915||FO}}. 
+
+This toric variety of the second hypersimplex of dimension {{NonLinearAlgebra_FO0069||FO}} arises when  studying Gaussian distributions on {{NonLinearAlgebra_FO0343||FO}} with structured covariance matrix {{NonLinearAlgebra_FO1752||FO}}.  Consider the model given by prescribing all off-diagonal entries to be equal.  Thus, for {{NonLinearAlgebra_FO1753||FO}}, we are interested in the linear space of symmetric matrices

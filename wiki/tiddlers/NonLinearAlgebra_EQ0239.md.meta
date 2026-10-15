@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-134.jpg?height=198&width=843&top_left_y=1884&top_left_x=655
+created: 20260701062953706
+displayMode: true
+equation_number: 
+height: 198
+kind: Equation
+latex: \begin{aligned} \nabla B: \mathbb{P}^{n-1} \times \mathbb{P}^{m-1} \longrightarrow \mathbb{P}^{m-1} \times \mathbb{P}^{n-1} \\ \quad(\mathbf{x}, \mathbf{y}) \mapsto\left(\left(\frac{\partial B}{\partial x_{1}}, \ldots, \frac{\partial B}{\partial x_{n}}\right),\left(\frac{\partial B}{\partial y_{1}}, \ldots \frac{\partial B}{\partial y_{m}}\right)\right) \end{aligned}
+modified: 20260701062953706
+page: 134
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0239
+top_left_x: 655
+top_left_y: 1884
+type: text/markdown
+width: 843

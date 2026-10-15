@@ -1,0 +1,8 @@
+caption: \left(V_{1}^{*} \otimes V_{2}\right)^{*} \otimes\left(V_{2}^{*} \otimes V_{3}\right)^{*} \otimes\left(V_{1}^{*} \otimes V_{3}\right)=\left(V_{1} \otimes V_{1}^{*}\right) \otimes\left(V_{2} \otimes V_{2}^{*}\right) \otimes\left(V_{3} \otimes V_{3}^{*}\right)
+created: 20260701062953699
+displayMode: false
+latex: \left(V_{1}^{*} \otimes V_{2}\right)^{*} \otimes\left(V_{2}^{*} \otimes V_{3}\right)^{*} \otimes\left(V_{1}^{*} \otimes V_{3}\right)=\left(V_{1} \otimes V_{1}^{*}\right) \otimes\left(V_{2} \otimes V_{2}^{*}\right) \otimes\left(V_{3} \otimes V_{3}^{*}\right)
+modified: 20260701062953699
+tags: formula NonLinearAlgebra
+title: NonLinearAlgebra_FO1995
+type: text/markdown

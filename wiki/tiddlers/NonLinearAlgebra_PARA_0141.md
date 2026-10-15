@@ -1,0 +1,3 @@
+
+
+This decomposition is obtained by refining the primary decomposition over  the rational numbers {{NonLinearAlgebra_FO0004||FO}} shown in Example 3.6. The 16 ideals in the intersec tion on the right hand side are maximal and hence prime. They correspond  to the 16 exponential solutions in (3.4). The ideal {{NonLinearAlgebra_FO0777||FO}} is primary to the max imal ideal {{NonLinearAlgebra_FO0778||FO}}. Since all associated primes are minimal, by  Theorem 3.21, this primary ideal is uniquely determined from {{NonLinearAlgebra_FO0038||FO}} :

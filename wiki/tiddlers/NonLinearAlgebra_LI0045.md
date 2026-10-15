@@ -1,0 +1,1 @@
+A real tensor can have smaller rank when seen as a complex tensor.

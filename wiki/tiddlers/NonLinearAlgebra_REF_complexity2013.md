@@ -1,0 +1,1 @@
+{{||CIT}} [48] AV. Smirnov: The bilinear complexity and practical algorithms for matrix multiplica- tion, Computational Mathematics and Mathematical Physics 53 (2013) 1781-1795.

@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-106.jpg?height=121&width=1273&top_left_y=1130&top_left_x=431
+created: 20260701062953705
+displayMode: true
+equation_number: 
+height: 121
+kind: Equation
+latex: \left(\begin{array}{ll} a_{11} & a_{12} \\ a_{21} & a_{22} \end{array}\right) \odot\binom{v_{1}}{v_{2}}=\binom{a_{11} \odot v_{1} \oplus a_{12} \odot v_{2}}{a_{21} \odot v_{1} \oplus a_{22} \odot v_{2}}=\binom{\min \left\{a_{11}+v_{1}, a_{12}+v_{2}\right\}}{\min \left\{a_{21}+v_{1}, a_{22}+v_{2}\right\}} .
+modified: 20260701062953705
+page: 106
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0184
+top_left_x: 431
+top_left_y: 1130
+type: text/markdown
+width: 1273

@@ -1,0 +1,5 @@
+
+
+Hilbert polynomial of the ideal {{NonLinearAlgebra_FO0038||FO}}, such that {{NonLinearAlgebra_FO0227||FO}} for all values of  the integer {{NonLinearAlgebra_FO0008||FO}} that are sufficiently large. 
+
+Proof. We prove this result by counting monomials using inclusion-exclusion,  as hinted at in the three examples above. Let {{NonLinearAlgebra_FO0228||FO}} be the mono mials that minimally generate {{NonLinearAlgebra_FO0038||FO}}. For any subset {{NonLinearAlgebra_FO0229||FO}} of the index set {{NonLinearAlgebra_FO0230||FO}},  we write {{NonLinearAlgebra_FO0231||FO}} for the least common multiple of the set {{NonLinearAlgebra_FO0232||FO}}, and we  set {{NonLinearAlgebra_FO0233||FO}}. This includes the empty set {{NonLinearAlgebra_FO0234||FO}}, for which {{NonLinearAlgebra_FO0235||FO}}  and {{NonLinearAlgebra_FO0236||FO}}. The desired numerator polynomial 1.4 can be written as an  alternating sum of {{NonLinearAlgebra_FO0237||FO}} powers of {{NonLinearAlgebra_FO0192||FO}} :

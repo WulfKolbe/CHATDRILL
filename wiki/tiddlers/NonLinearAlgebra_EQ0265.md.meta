@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-147.jpg?height=63&width=534&top_left_y=1001&top_left_x=794
+created: 20260701062953707
+displayMode: true
+equation_number: 
+height: 63
+kind: Equation
+latex: \operatorname{Mat}_{a, b} \times \operatorname{Mat}_{b, c} \times \operatorname{Mat}_{c, a} \rightarrow K .
+modified: 20260701062953707
+page: 147
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0265
+top_left_x: 794
+top_left_y: 1001
+type: text/markdown
+width: 534

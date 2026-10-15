@@ -1,0 +1,1 @@
+The initial form \(\mathrm{in}_{\mathbf{u}}(f)\) is not a unit in \(K\left[\mathbf{x}^{ \pm}\right]\).

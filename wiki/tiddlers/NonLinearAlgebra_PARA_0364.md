@@ -1,0 +1,7 @@
+
+
+This function is convex in the concentration matrix {{NonLinearAlgebra_FO1754||FO}}. For that  reason, we study the variety of matrices {{NonLinearAlgebra_FO0001||FO}} whose inverse has structure (8.5).  This is a non-linear projective variety of dimension {{NonLinearAlgebra_FO0069||FO}} in {{NonLinearAlgebra_FO1755||FO}}. Defining  polynomials are obtained by equating off-diagonal entries in the adjoint of  {{NonLinearAlgebra_FO0001||FO}}. These are complicated expressions with many terms of degree {{NonLinearAlgebra_FO1756||FO}}. 
+
+We find that this is a toric variety, after the linear change of coordinates 
+{{NonLinearAlgebra_FO1757||FO}}. 
+For any {{NonLinearAlgebra_FO0069||FO}}, this is the reduced Laplacian matrix of the complete graph on  {{NonLinearAlgebra_FO0925||FO}} nodes. It follows from [56, Theorem 1.2] that the variety of matrices  {{NonLinearAlgebra_FO0001||FO}} whose inverse is constant outside the diagonal equals the toric variety  of the second hypersimplex. Using the coordinates {{NonLinearAlgebra_FO1758||FO}}, the inverse of the  matrix {{NonLinearAlgebra_FO1752||FO}} in (8.5) satisfies the ten quadratic binomials in {{NonLinearAlgebra_FO1660||FO}}. The article [56]  establishes this toric structure for a larger class of Gaussian models, one for  each rooted tree, thus contributing to likelihood inference for such models.

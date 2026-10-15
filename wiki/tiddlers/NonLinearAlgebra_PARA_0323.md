@@ -1,0 +1,3 @@
+Figure 1. Combinatorial structure of the tropical hypersurface that is defined by the tropical {{NonLinearAlgebra_FO0035||FO}}-determinant. 
+
+The six triangles represent matrices {{NonLinearAlgebra_FO1499||FO}} where the minimum of the six  terms in tropdet(u) is attained by two permutations in {{NonLinearAlgebra_FO0200||FO}} with the same  sign. The nine squares on the right in Figure 1 are glued to form a torus.  These represent matrices {{NonLinearAlgebra_FO1537||FO}} where the minimum is attained by two permu tations in {{NonLinearAlgebra_FO0200||FO}} with opposite signs. Concrete examples for the two cases are

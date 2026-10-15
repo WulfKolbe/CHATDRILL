@@ -1,0 +1,2 @@
+
+where {{NonLinearAlgebra_FO0224||FO}} is polynomial with integer coefficients and {{NonLinearAlgebra_FO0225||FO}}. There  exists a polynomial HP in one unknown {{NonLinearAlgebra_FO0008||FO}} of degree {{NonLinearAlgebra_FO0226||FO}}, known as the

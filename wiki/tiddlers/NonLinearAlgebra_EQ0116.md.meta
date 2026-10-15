@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-071.jpg?height=216&width=745&top_left_y=517&top_left_x=691
+created: 20260701062953705
+displayMode: true
+equation_number: (4.3)
+height: 216
+kind: Equation
+latex: \operatorname{Res}\left(f_{1}, f_{2}\right)=\operatorname{det}\left(\begin{array}{cccc} x_{11} & x_{12} & x_{13} & 0 \\ 0 & x_{11} & x_{12} & x_{13} \\ x_{21} & x_{22} & x_{23} & 0 \\ 0 & x_{21} & x_{22} & x_{23} \end{array}\right)
+modified: 20260701062953705
+page: 071
+refnum: 4.3
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0116
+top_left_x: 691
+top_left_y: 517
+type: text/markdown
+width: 745

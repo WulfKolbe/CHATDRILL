@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-166.jpg?height=121&width=789&top_left_y=1609&top_left_x=666
+created: 20260701062953707
+displayMode: true
+equation_number: (11.5)
+height: 121
+kind: Equation
+latex: *: K[\mathbf{x}] \rightarrow K[\mathbf{x}]^{G}, \quad f \mapsto f^{*}:=\frac{1}{|G|} \sum_{\sigma \in G} \sigma f .
+modified: 20260701062953707
+page: 166
+refnum: 11.5
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0307
+top_left_x: 666
+top_left_y: 1609
+type: text/markdown
+width: 789

@@ -1,0 +1,1 @@
+In step \((i, j, k)\) one performs one multiplication. Namely, one mul-

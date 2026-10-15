@@ -1,0 +1,1 @@
+(Uniform matroid) Let \(E\) be a finite set and \(k \leq|E|\). Let \(\mathfrak{I}\) be the

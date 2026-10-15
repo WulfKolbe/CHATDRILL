@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-143.jpg?height=66&width=1011&top_left_y=1847&top_left_x=556
+created: 20260701062953707
+displayMode: true
+equation_number: 
+height: 66
+kind: Equation
+latex: \operatorname{Hom}\left(\operatorname{Mat}_{a, b} \times \operatorname{Mat}_{b, c}, \operatorname{Mat}_{a, c}\right)=\operatorname{Mat}_{a, b}^{*} \otimes \operatorname{Mat}_{b, c}^{*} \otimes \operatorname{Mat}_{a, c} .
+modified: 20260701062953707
+page: 143
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0261
+top_left_x: 556
+top_left_y: 1847
+type: text/markdown
+width: 1011

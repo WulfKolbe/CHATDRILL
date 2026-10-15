@@ -1,0 +1,1 @@
+How to compute the ideal \(\mathcal{I}\left(\mathcal{V}_{\mathbb{R}}(I)\right)\) from generators of \(I\) ?

@@ -1,0 +1,8 @@
+caption: A=\left(\begin{array}{lll}3 & 1 & 4 \\ 1 & 3 & 2 \\ 4 & 4 & 3\end{array}\right) \Rightarrow \lambda(A)=1 \Rightarrow B=\left(\begin{array}{lll}2 & 0 & 3 \\ 0 & 2 & 1 \\ 3 & 3 & 2\end{array}\right) \Rightarrow B^{+}=\left(\begin{array}{lll}0 & 0 & 1 \\ 0 & 0 & 1 \\ 3 & 3 & 2\end{array}\right)
+created: 20260701062953696
+displayMode: false
+latex: A=\left(\begin{array}{lll}3 & 1 & 4 \\ 1 & 3 & 2 \\ 4 & 4 & 3\end{array}\right) \Rightarrow \lambda(A)=1 \Rightarrow B=\left(\begin{array}{lll}2 & 0 & 3 \\ 0 & 2 & 1 \\ 3 & 3 & 2\end{array}\right) \Rightarrow B^{+}=\left(\begin{array}{lll}0 & 0 & 1 \\ 0 & 0 & 1 \\ 3 & 3 & 2\end{array}\right)
+modified: 20260701062953696
+tags: formula NonLinearAlgebra
+title: NonLinearAlgebra_FO1479
+type: text/markdown

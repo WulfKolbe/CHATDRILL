@@ -1,0 +1,5 @@
+
+
+The curve and its convex hull are shown on the left in Figure 2. The two  endpoints, {{NonLinearAlgebra_FO2465||FO}} and {{NonLinearAlgebra_FO2466||FO}}, correspond to rank  1 matrices. All other points on the curve have rank 2 . To construct the  Toeplitz spectrahedron geometrically, we form the cone from each endpoint  over the cosine curve, and we intersect these two quadratic cones. The two  cones intersect along this curve and the line through the endpoints of the  cosine curve. 
+
+Shown on the right in Figure 2 is the convex body {{NonLinearAlgebra_FO1532||FO}} dual to the Toeplitz  spectrahedron {{NonLinearAlgebra_FO0001||FO}}. It is the set of trigonometric polynomials {{NonLinearAlgebra_FOX_7242df75bf||FO}} that are nonnegative on {{NonLinearAlgebra_FO2467||FO}}. This convex body {{NonLinearAlgebra_FO1532||FO}}  is not a spectrahedron because it has a non-exposed edge, that is an edge  which is not an intersection of {{NonLinearAlgebra_FO1532||FO}} with a kernel of a linear form that is  nonnegative on {{NonLinearAlgebra_FO1532||FO}} (cf. [4, Exercise 6.13]).

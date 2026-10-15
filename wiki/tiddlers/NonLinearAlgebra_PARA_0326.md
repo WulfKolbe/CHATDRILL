@@ -1,0 +1,3 @@
+
+
+Indeed, the {{NonLinearAlgebra_FO1409||FO}} entry of {{NonLinearAlgebra_FO1544||FO}} is the generating function for all paths. To  be precise, this entry is the Puiseux polynomial {{NonLinearAlgebra_FO1545||FO}}, where {{NonLinearAlgebra_FO1546||FO}} is the  number of paths from node {{NonLinearAlgebra_FO0121||FO}} to node {{NonLinearAlgebra_FO0123||FO}} in the graph {{NonLinearAlgebra_FO1161||FO}} that have length {{NonLinearAlgebra_FO1547||FO}}.

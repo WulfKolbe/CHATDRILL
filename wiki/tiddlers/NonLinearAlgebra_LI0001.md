@@ -1,0 +1,1 @@
+a nilpotent if \(f^{m}=0\) for some positive integer \(m\),

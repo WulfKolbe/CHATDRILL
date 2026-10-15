@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-187.jpg?height=71&width=551&top_left_y=1130&top_left_x=786
+created: 20260701062953708
+displayMode: true
+equation_number: (12.15)
+height: 71
+kind: Equation
+latex: f(\mathbf{x})-\lambda=\left(\mathbf{x}^{[p]}\right)^{T} \cdot G \cdot \mathbf{x}^{[p]} .
+modified: 20260701062953708
+page: 187
+refnum: 12.15
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0347
+top_left_x: 786
+top_left_y: 1130
+type: text/markdown
+width: 551

@@ -1,0 +1,8 @@
+caption: \operatorname{val}(\mathbf{z})=\left(\operatorname{val}\left(z_{1}\right), \ldots, \operatorname{val}\left(z_{n}\right)\right) \in \mathbb{Q}^{n}
+created: 20260701062953696
+displayMode: false
+latex: \operatorname{val}(\mathbf{z})=\left(\operatorname{val}\left(z_{1}\right), \ldots, \operatorname{val}\left(z_{n}\right)\right) \in \mathbb{Q}^{n}
+modified: 20260701062953696
+tags: formula NonLinearAlgebra
+title: NonLinearAlgebra_FO1501
+type: text/markdown

@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-056.jpg?height=119&width=982&top_left_y=1998&top_left_x=610
+created: 20260701062953705
+displayMode: true
+equation_number: (3.3)
+height: 119
+kind: Equation
+latex: \frac{\partial^{3} f}{\partial x^{3}}=\frac{\partial^{2} f}{\partial y \partial z} \quad \text { and } \quad \frac{\partial^{3} f}{\partial y^{3}}=\frac{\partial^{2} f}{\partial x \partial z} \quad \text { and } \quad \frac{\partial^{3} f}{\partial z^{3}}=\frac{\partial^{2} f}{\partial x \partial y} .
+modified: 20260701062953705
+page: 056
+refnum: 3.3
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0079
+top_left_x: 610
+top_left_y: 1998
+type: text/markdown
+width: 982

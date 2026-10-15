@@ -1,0 +1,1 @@
+{{||CIT}} [49] F. Sottile: Toric ideals, real toric varieties, and the moment map, Topics in Algebraic Geometry and Geometric Modeling. Contemporary Mathematics 334, 2003.

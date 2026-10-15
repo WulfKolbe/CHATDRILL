@@ -1,0 +1,8 @@
+caption: \operatorname{rad}(I: a)=\bigcap_{i=1}^{k} \operatorname{rad}\left(q_{i}: a\right)= \bigcap_{a \notin q_{j}} \operatorname{rad}\left(q_{j}: a\right)
+created: 20260701062953711
+displayMode: false
+latex: \operatorname{rad}(I: a)=\bigcap_{i=1}^{k} \operatorname{rad}\left(q_{i}: a\right)= \bigcap_{a \notin q_{j}} \operatorname{rad}\left(q_{j}: a\right)
+modified: 20260701062953711
+tags: formula synthetic NonLinearAlgebra
+title: NonLinearAlgebra_FOX_120f1e63f0
+type: text/markdown

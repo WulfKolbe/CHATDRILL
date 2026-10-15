@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-119.jpg?height=113&width=1043&top_left_y=1894&top_left_x=597
+created: 20260701062953706
+displayMode: true
+equation_number: (8.1)
+height: 113
+kind: Equation
+latex: \begin{gathered} \left\langle y_{1} y_{3}-y_{2} y_{7}, y_{1} y_{4}-y_{7}^{2}, y_{1} y_{5}-y_{6} y_{7}, y_{2} y_{4}-y_{3} y_{7}, y_{2} y_{5}-y_{7}^{2}\right. \\ \left.y_{2} y_{6}-y_{1} y_{7}, y_{3} y_{5}-y_{4} y_{7}, y_{3} y_{6}-y_{7}^{2}, y_{4} y_{6}-y_{5} y_{7}\right\rangle \end{gathered}
+modified: 20260701062953706
+page: 119
+refnum: 8.1
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0210
+top_left_x: 597
+top_left_y: 1894
+type: text/markdown
+width: 1043

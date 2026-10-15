@@ -1,0 +1,1 @@
+\(\mathbf{a} \preceq \mathbf{b}\) implies \(\mathbf{a}+\mathbf{c} \preceq \mathbf{b}+\mathbf{c}\).

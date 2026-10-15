@@ -1,0 +1,12 @@
+
+
+See [12, Proposition 12.2.3] for a formal statement for normal toric varieties.  The algebraic moment map {{NonLinearAlgebra_FO1717||FO}} factors through the quotient map (8.3). 
+
+Theorem 8.23. The restriction of the algebraic moment map {{NonLinearAlgebra_FO1717||FO}} to the  nonnegative toric variety {{NonLinearAlgebra_FO1712||FO}} is a homeomorphism onto the polytope {{NonLinearAlgebra_FO0546||FO}}. 
+
+Proof. This is found in many sources. One of them is [49, Theorem 8.4]. 
+Corollary 8.24. If the linear system of equations {{NonLinearAlgebra_FO1718||FO}} has a nonnegative  solution {{NonLinearAlgebra_FO1719||FO}} then it has unique solution {{NonLinearAlgebra_FO1720||FO}} in the toric variety {{NonLinearAlgebra_FO1663||FO}}. 
+
+Proof. Here we identify {{NonLinearAlgebra_FO1663||FO}} with the affine cone over the projective toric  variety defined by the {{NonLinearAlgebra_FO1575||FO}} matrix {{NonLinearAlgebra_FO0511||FO}}. The algebraic moment map {{NonLinearAlgebra_FO1717||FO}} lifts  uniquely, by scaling, to a homeomorphism from this affine cone to the cone  {{NonLinearAlgebra_FO0533||FO}} over the polytope {{NonLinearAlgebra_FO0546||FO}}. The system {{NonLinearAlgebra_FO1718||FO}} has a nonnegative solution if  and only if {{NonLinearAlgebra_FO0127||FO}} lies in {{NonLinearAlgebra_FO0533||FO}}. In this case, the point {{NonLinearAlgebra_FO0127||FO}} has a unique preimage {{NonLinearAlgebra_FOX_f7d09a504c||FO}} under the moment map. This preimage is the desired solution. 
+
+Example 8.25. Let {{NonLinearAlgebra_FO0511||FO}} be the {{NonLinearAlgebra_FO1721||FO}} matrix for the polytope {{NonLinearAlgebra_FOX_0b96698737||FO}} as in Examples 8.18 and 8.21. This matrix {{NonLinearAlgebra_FO0511||FO}} represents the  linear map that takes an {{NonLinearAlgebra_FO1691||FO}} matrix {{NonLinearAlgebra_FO1708||FO}} to its vector {{NonLinearAlgebra_FO0127||FO}} of row and column  sums. The polytopes {{NonLinearAlgebra_FO1722||FO}} are known as transportation  polytopes. The points in the {{NonLinearAlgebra_FO1723||FO}} are the {{NonLinearAlgebra_FO1691||FO}} matrices {{NonLinearAlgebra_FO1708||FO}}  of rank one. In this case, Corollary 8.24 has the following interpretation:  Every transportation polytopes contains a unique rank one matrix {{NonLinearAlgebra_FO1720||FO}}.

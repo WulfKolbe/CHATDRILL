@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-086.jpg?height=124&width=835&top_left_y=1241&top_left_x=672
+created: 20260701062953705
+displayMode: true
+equation_number: 
+height: 124
+kind: Equation
+latex: \begin{aligned} & {\left[X_{3}\right]^{4}=\left(\left[X_{3}\right]\left[X_{3}\right]\right)^{2}=\left(\left[X_{2}\right]+\left[X_{2^{\prime}}\right]\right)^{2}=} \\ & {\left[X_{2}\right]^{2}+2\left[X_{2}\right]\left[X_{2^{\prime}}\right]+\left[X_{2^{\prime}}\right]^{2}=1+2 \cdot 0+1=\mathbf{2} .} \end{aligned}
+modified: 20260701062953705
+page: 086
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0136
+top_left_x: 672
+top_left_y: 1241
+type: text/markdown
+width: 835

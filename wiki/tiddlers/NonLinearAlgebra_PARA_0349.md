@@ -1,0 +1,9 @@
+
+
+We then take {{NonLinearAlgebra_FO1668||FO}}, and we associate the projective toric variety  {{NonLinearAlgebra_FO1669||FO}} with the polytope {{NonLinearAlgebra_FO0546||FO}}. This variety lives in {{NonLinearAlgebra_FO1664||FO}} where {{NonLinearAlgebra_FO1670||FO}}. 
+
+The class of varieties {{NonLinearAlgebra_FO1663||FO}} is strictly larger than the class of varieties {{NonLinearAlgebra_FO1671||FO}}.  The reason is that {{NonLinearAlgebra_FO0511||FO}} can be a proper subset of {{NonLinearAlgebra_FO1672||FO}}, However, the  projective toric varieties of most interest to us are {{NonLinearAlgebra_FO1671||FO}} for some polytope {{NonLinearAlgebra_FO0546||FO}}. 
+
+Example 8.18. The Veronese variety and the Segre variety from classical  algebraic geometry are two prominent examples of projective toric varieties. 
+
+We write {{NonLinearAlgebra_FO1673||FO}} for the standard ( {{NonLinearAlgebra_FO0113||FO}} )-simplex, whose vertices are the  unit vectors {{NonLinearAlgebra_FO1674||FO}}. Fix {{NonLinearAlgebra_FO1675||FO}} and {{NonLinearAlgebra_FO1676||FO}}. Then {{NonLinearAlgebra_FO1668||FO}}  consists of the nonnegative integer vectors with coordinate sum {{NonLinearAlgebra_FO0592||FO}}. Hence  {{NonLinearAlgebra_FO1677||FO}}. The toric variety {{NonLinearAlgebra_FO1671||FO}} is the {{NonLinearAlgebra_FO0592||FO}}-th Veronese embedding of  {{NonLinearAlgebra_FO1034||FO}}. It has dimension {{NonLinearAlgebra_FO0113||FO}} and degree {{NonLinearAlgebra_FO1678||FO}} in {{NonLinearAlgebra_FO1664||FO}}. Its toric ideal {{NonLinearAlgebra_FO1660||FO}}  consists of the polynomial relations among all monomials of degree {{NonLinearAlgebra_FO0592||FO}} in {{NonLinearAlgebra_FO0015||FO}}  variables. For instance, if {{NonLinearAlgebra_FO1679||FO}} then there are ten such monomials:

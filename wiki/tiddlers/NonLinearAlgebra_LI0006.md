@@ -1,0 +1,1 @@
+\((0,0, \ldots, 0) \preceq \mathbf{a}\);

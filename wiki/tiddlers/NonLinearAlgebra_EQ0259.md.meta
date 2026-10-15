@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-141.jpg?height=130&width=586&top_left_y=1604&top_left_x=766
+created: 20260701062953706
+displayMode: true
+equation_number: (9.14)
+height: 130
+kind: Equation
+latex: \sigma_{k}(X):=\overline{\bigcup_{p_{1}, \ldots, p_{k} \in X}\left\langle p_{1}, \ldots, p_{k}\right\rangle}
+modified: 20260701062953706
+page: 141
+refnum: 9.14
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0259
+top_left_x: 766
+top_left_y: 1604
+type: text/markdown
+width: 586

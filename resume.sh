@@ -1,1 +1,1 @@
-claude --resume e38ca21e-ac39-4316-b4a3-d3fff5457c42 --dangerously-skip-permissions
+claude --resume 8ded7785-3303-4448-9c1f-809f95ca90c3 --dangerously-skip-permissions

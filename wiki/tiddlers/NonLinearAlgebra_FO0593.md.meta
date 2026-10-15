@@ -1,0 +1,8 @@
+caption: \sum_{\mathbf{a}:|\mathbf{a}|=\mathbf{k}} c_{\mathbf{a}} x^{\mathbf{a}}
+created: 20260701062953689
+displayMode: false
+latex: \sum_{\mathbf{a}:|\mathbf{a}|=\mathbf{k}} c_{\mathbf{a}} x^{\mathbf{a}}
+modified: 20260701062953689
+tags: formula NonLinearAlgebra
+title: NonLinearAlgebra_FO0593
+type: text/markdown

@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-028.jpg?height=124&width=1136&top_left_y=2109&top_left_x=534
+created: 20260701062953704
+displayMode: true
+equation_number: (2.2)
+height: 124
+kind: Equation
+latex: \begin{array}{ccc} \mathbb{R}^{m} \times \mathbb{R}^{m} & \rightarrow & \mathbb{R}^{m^{2}} \\ \left(p_{1}, \ldots, p_{m}, q_{1}, \ldots, q_{m}\right) & \mapsto & \left(p_{1} q_{1}, p_{1} q_{2}, \ldots, p_{1} q_{m}, p_{2} q_{1}, \ldots, p_{m} q_{m}\right) . \end{array}
+modified: 20260701062953704
+page: 028
+refnum: 2.2
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0040
+top_left_x: 534
+top_left_y: 2109
+type: text/markdown
+width: 1136

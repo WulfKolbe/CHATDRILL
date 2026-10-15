@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-035.jpg?height=117&width=473&top_left_y=1628&top_left_x=827
+created: 20260701062953704
+displayMode: true
+equation_number: 
+height: 117
+kind: Equation
+latex: \left(\begin{array}{ccccc} x_{0} & x_{1} & x_{2} & \cdots & x_{n-1} \\ x_{1} & x_{2} & x_{3} & \cdots & x_{n} \end{array}\right) .
+modified: 20260701062953704
+page: 035
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0050
+top_left_x: 827
+top_left_y: 1628
+type: text/markdown
+width: 473

@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-035.jpg?height=132&width=923&top_left_y=648&top_left_x=601
+created: 20260701062953704
+displayMode: true
+equation_number: 
+height: 132
+kind: Equation
+latex: f\left(1, x_{1}, \ldots, x_{n}\right)=\sum_{i=1}^{s} h_{i}\left(x_{1}, \ldots, x_{n}\right) g_{i}\left(x_{1}, \ldots, x_{n}\right),
+modified: 20260701062953704
+page: 035
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0048
+top_left_x: 601
+top_left_y: 648
+type: text/markdown
+width: 923

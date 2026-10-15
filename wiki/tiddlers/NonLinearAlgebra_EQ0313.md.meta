@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-171.jpg?height=192&width=1208&top_left_y=537&top_left_x=455
+created: 20260701062953707
+displayMode: true
+equation_number: (11.9)
+height: 192
+kind: Equation
+latex: \phi(\sigma)=\left(\begin{array}{cccc} \sigma_{11}^{3} & \sigma_{11}^{2} \sigma_{12} & \sigma_{11} \sigma_{12}^{2} & \sigma_{12}^{3} \\ 3 \sigma_{11}^{2} \sigma_{21} & \sigma_{11}^{2} \sigma_{22}+2 \sigma_{11} \sigma_{12} \sigma_{21} & \sigma_{12}^{2} \sigma_{21}+2 \sigma_{11} \sigma_{12} \sigma_{22} & 3 \sigma_{12}^{2} \sigma_{22} \\ 3 \sigma_{11} \sigma_{21}^{2} & \sigma_{12} \sigma_{21}^{2}+2 \sigma_{11} \sigma_{21} \sigma_{22} & \sigma_{11} \sigma_{22}^{2}+2 \sigma_{12} \sigma_{21} \sigma_{22} & 3 \sigma_{12} \sigma_{22}^{2} \\ \sigma_{21}^{3} & \sigma_{21}^{2} \sigma_{22} & \sigma_{21} \sigma_{22}^{2} & \sigma_{22}^{3} \end{array}\right)
+modified: 20260701062953707
+page: 171
+refnum: 11.9
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0313
+top_left_x: 455
+top_left_y: 537
+type: text/markdown
+width: 1208

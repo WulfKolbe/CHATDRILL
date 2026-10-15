@@ -1,0 +1,1 @@
+{{||CIT}} [55] B. Sturmfels and C. Uhler: Multivariate Gaussian, semidefinite matrix completion, and convex algebraic geometry, Ann. Inst. Statist. Math. 62 (2010) 603-638.

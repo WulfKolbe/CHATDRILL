@@ -1,0 +1,1 @@
+the variety \(\mathcal{V}\left(\operatorname{rad}\left(\operatorname{in}_{\prec}\left(I_{P}\right)\right)\right)\) is the union of (coordinate) vector sub-

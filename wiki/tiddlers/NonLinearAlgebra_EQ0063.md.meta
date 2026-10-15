@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-049.jpg?height=67&width=1127&top_left_y=1014&top_left_x=500
+created: 20260701062953704
+displayMode: true
+equation_number: 
+height: 67
+kind: Equation
+latex: \left\langle x-1, y+z, z^{2}+1\right\rangle=\langle x-1, y-i, z+i\rangle \cap\langle x-1, y+i, z-i\rangle .
+modified: 20260701062953704
+page: 049
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0063
+top_left_x: 500
+top_left_y: 1014
+type: text/markdown
+width: 1127

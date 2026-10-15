@@ -1,0 +1,1 @@
+{{||CIT}} [44] L. Qi, H. Chen and Y. Chen: Tensor Eigenvalues and their Applications, Advances in Mechanics and Mathematics, Springer-Verlag, New York, 2018.

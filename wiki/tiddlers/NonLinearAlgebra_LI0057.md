@@ -1,0 +1,1 @@
+If \(g_{1}\) and \(g_{2}\) are conjugate elements of \(G\), then \(\chi\left(g_{1}\right)=\chi\left(g_{2}\right)\) for

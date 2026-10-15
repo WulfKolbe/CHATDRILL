@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-189.jpg?height=214&width=583&top_left_y=1671&top_left_x=769
+created: 20260701062953708
+displayMode: true
+equation_number: (12.19)
+height: 214
+kind: Equation
+latex: \Sigma=\left(\begin{array}{cccc} \sigma_{11} & \sigma_{12} & x & \sigma_{14} \\ \sigma_{12} & \sigma_{22} & \sigma_{23} & y \\ x & \sigma_{23} & \sigma_{33} & \sigma_{34} \\ \sigma_{14} & y & \sigma_{34} & \sigma_{44} \end{array}\right) .
+modified: 20260701062953708
+page: 189
+refnum: 12.19
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0352
+top_left_x: 769
+top_left_y: 1671
+type: text/markdown
+width: 583

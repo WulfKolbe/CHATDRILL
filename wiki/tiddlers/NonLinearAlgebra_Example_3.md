@@ -1,0 +1,1 @@
+*Citation placeholder for* `Example 3`

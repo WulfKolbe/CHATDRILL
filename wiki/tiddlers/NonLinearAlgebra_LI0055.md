@@ -1,0 +1,1 @@
+consider all maps from (resp. to) this object into (resp. from) an-

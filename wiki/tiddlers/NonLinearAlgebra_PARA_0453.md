@@ -1,0 +1,3 @@
+
+
+The reader should make sure to check these functions are orthonormal with  respect to the inner product (10.2). In fact, one builds the character table  of a finite group by exploiting the orthonormality of the columns. In this  manner, one obtains the {{NonLinearAlgebra_FO0867||FO}} character table for {{NonLinearAlgebra_FO2076||FO}} and the {{NonLinearAlgebra_FO2077||FO}} character  table for {{NonLinearAlgebra_FO2078||FO}}.

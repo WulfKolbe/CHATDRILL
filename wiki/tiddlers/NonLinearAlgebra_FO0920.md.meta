@@ -1,0 +1,8 @@
+caption: f=x_{000}+x_{100} z_{1}+x_{010} z_{2}+x_{001} z_{3}+x_{110} z_{1} z_{2}+x_{101} z_{1} z_{3}+x_{011} z_{2} z_{3}+x_{111} z_{1} z_{2} z_{3}
+created: 20260701062953692
+displayMode: false
+latex: f=x_{000}+x_{100} z_{1}+x_{010} z_{2}+x_{001} z_{3}+x_{110} z_{1} z_{2}+x_{101} z_{1} z_{3}+x_{011} z_{2} z_{3}+x_{111} z_{1} z_{2} z_{3}
+modified: 20260701062953692
+tags: formula NonLinearAlgebra
+title: NonLinearAlgebra_FO0920
+type: text/markdown

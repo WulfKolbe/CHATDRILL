@@ -1,0 +1,5 @@
+
+
+To see that {{NonLinearAlgebra_FO0038||FO}} is primary, we assume that {{NonLinearAlgebra_FO0652||FO}} and {{NonLinearAlgebra_FO0653||FO}}. Then {{NonLinearAlgebra_FO0698||FO}}  for some {{NonLinearAlgebra_FO0699||FO}}. Since {{NonLinearAlgebra_FO0700||FO}} and {{NonLinearAlgebra_FO0701||FO}} is primary, {{NonLinearAlgebra_FO0702||FO}}.  Hence {{NonLinearAlgebra_FO0654||FO}} for some {{NonLinearAlgebra_FO0015||FO}}. 
+
+Lemma 3.14 suggests that, given any primary decomposition {{NonLinearAlgebra_FO0685||FO}},  we aggregate the {{NonLinearAlgebra_FO0345||FO}} 's with the same radical and replace them by their inter section. The result is still a primary decomposition of {{NonLinearAlgebra_FO0038||FO}}. This motivates the  following definition. A minimal primary decomposition is a representation

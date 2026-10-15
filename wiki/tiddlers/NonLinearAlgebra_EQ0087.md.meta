@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-059.jpg?height=76&width=912&top_left_y=1044&top_left_x=605
+created: 20260701062953705
+displayMode: true
+equation_number: 
+height: 76
+kind: Equation
+latex: f_{i j}:=\exp \left((-1)^{i} \delta x+(-1)^{j} \epsilon y\right) \quad \text { where } i, j \in\{0,1\}
+modified: 20260701062953705
+page: 059
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0087
+top_left_x: 605
+top_left_y: 1044
+type: text/markdown
+width: 912

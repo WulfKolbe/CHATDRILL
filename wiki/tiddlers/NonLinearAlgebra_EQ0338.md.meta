@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-184.jpg?height=129&width=1071&top_left_y=1216&top_left_x=586
+created: 20260701062953708
+displayMode: true
+equation_number: (12.11)
+height: 129
+kind: Equation
+latex: \left\langle A_{1}, X\right\rangle=b_{1}, \ldots,\left\langle A_{s}, X\right\rangle=b_{s} \quad \text { and } \quad\left(C-\sum_{i=1}^{s} x_{i} A_{i}\right) \cdot X=0 .
+modified: 20260701062953708
+page: 184
+refnum: 12.11
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0338
+top_left_x: 586
+top_left_y: 1216
+type: text/markdown
+width: 1071

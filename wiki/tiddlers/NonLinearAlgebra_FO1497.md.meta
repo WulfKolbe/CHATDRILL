@@ -1,0 +1,8 @@
+caption: \operatorname{val}\left(c_{i}\right) \odot \mathbf{u}^{\odot \mathbf{a}_{i}}=\operatorname{val}\left(c_{i}\right) \odot u_{1}^{\odot a_{i 1}} \odot \cdots \odot u_{n}^{\odot a_{i n}}=\operatorname{val}\left(c_{i}\right)+a_{i 1} u_{1}+\cdots+a_{i n} u_{n}
+created: 20260701062953696
+displayMode: false
+latex: \operatorname{val}\left(c_{i}\right) \odot \mathbf{u}^{\odot \mathbf{a}_{i}}=\operatorname{val}\left(c_{i}\right) \odot u_{1}^{\odot a_{i 1}} \odot \cdots \odot u_{n}^{\odot a_{i n}}=\operatorname{val}\left(c_{i}\right)+a_{i 1} u_{1}+\cdots+a_{i n} u_{n}
+modified: 20260701062953696
+tags: formula NonLinearAlgebra
+title: NonLinearAlgebra_FO1497
+type: text/markdown

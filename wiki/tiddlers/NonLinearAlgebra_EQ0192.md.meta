@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-108.jpg?height=68&width=675&top_left_y=949&top_left_x=724
+created: 20260701062953706
+displayMode: true
+equation_number: 
+height: 68
+kind: Equation
+latex: \operatorname{Eig}(B)=\left\{\mathbf{x} \in \mathbb{R}^{n}: B \odot \mathbf{x}=\mathbf{x}\right\}
+modified: 20260701062953706
+page: 108
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0192
+top_left_x: 724
+top_left_y: 949
+type: text/markdown
+width: 675

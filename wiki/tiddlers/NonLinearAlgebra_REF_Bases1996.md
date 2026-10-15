@@ -1,0 +1,1 @@
+{{||CIT}} [52] B. Sturmfels: Gröbner Bases and Convex Polytopes, American Math. Soc., 1996.

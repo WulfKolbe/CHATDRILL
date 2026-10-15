@@ -1,0 +1,1 @@
+Here is another ideal we saw earlier: \(\mathcal{F}=\{x y-z, x z-y, y z-x\}\)

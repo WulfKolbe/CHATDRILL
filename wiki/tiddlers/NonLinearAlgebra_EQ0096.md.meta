@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-061.jpg?height=158&width=938&top_left_y=988&top_left_x=588
+created: 20260701062953705
+displayMode: true
+equation_number: 
+height: 158
+kind: Equation
+latex: \begin{gathered} \operatorname{rank}(A)=0 \quad \text { or } \quad \operatorname{rank}(B)=0 \quad \text { or } \quad \operatorname{rank}(C)=0 \quad \text { or } \\ \operatorname{rank}(A)=\operatorname{rank}(B)=1 \quad \text { or } \quad \operatorname{rank}(B)=\operatorname{rank}(C)=1 \\ \text { or } \operatorname{rank}(A)=\operatorname{rank}(C)=1 \end{gathered}
+modified: 20260701062953705
+page: 061
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0096
+top_left_x: 588
+top_left_y: 988
+type: text/markdown
+width: 938

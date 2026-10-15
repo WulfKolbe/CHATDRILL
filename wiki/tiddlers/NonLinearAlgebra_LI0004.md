@@ -1,0 +1,1 @@
+\(I=\langle x(x-1)\rangle\) is radical but not primary,

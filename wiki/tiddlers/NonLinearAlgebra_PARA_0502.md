@@ -1,0 +1,3 @@
+
+
+This agrees with the Hilbert series of the ring on the right in (11.4), where  {{NonLinearAlgebra_FO2283||FO}} and {{NonLinearAlgebra_FO2284||FO}}. We see that every element of the  ring can be uniquely represented as a polynomial in {{NonLinearAlgebra_FO2285||FO}} and {{NonLinearAlgebra_FO2286||FO}} or {{NonLinearAlgebra_FO2287||FO}} times  such a polynomial. One says that the ring is a free module with basis {{NonLinearAlgebra_FO2288||FO}}  over {{NonLinearAlgebra_FO2289||FO}}. This explains the numerator and denominator on the left of  (11.7), and it proves that {{NonLinearAlgebra_FO2290||FO}} do indeed generate {{NonLinearAlgebra_FO2232||FO}}.

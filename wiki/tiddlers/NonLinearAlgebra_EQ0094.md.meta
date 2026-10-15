@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-060.jpg?height=119&width=1118&top_left_y=1929&top_left_x=560
+created: 20260701062953705
+displayMode: true
+equation_number: (\3.7\)
+height: 119
+kind: Equation
+latex: \frac{\partial^{3} f}{\partial a_{11} \partial b_{11} \partial c_{11}}+\frac{\partial^{3} f}{\partial a_{12} \partial b_{21} \partial c_{11}}+\frac{\partial^{3} f}{\partial a_{11} \partial b_{12} \partial c_{21}}+\frac{\partial^{3} f}{\partial a_{12} \partial b_{22} \partial c_{21}}=0
+modified: 20260701062953705
+page: 060
+refnum: \3.7\
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0094
+top_left_x: 560
+top_left_y: 1929
+type: text/markdown
+width: 1118

@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-128.jpg?height=106&width=1170&top_left_y=1568&top_left_x=476
+created: 20260701062953706
+displayMode: true
+equation_number: 
+height: 106
+kind: Equation
+latex: \begin{aligned} & y_{000}=r_{0} a_{0} b_{0} c_{0}, \quad y_{001}=r_{1} a_{0} b_{0} c_{1}, \quad y_{010}=r_{1} a_{0} b_{1} c_{0}, \quad y_{011}=r_{0} a_{0} b_{1} c_{1}, \\ & y_{100}=r_{1} a_{1} b_{0} c_{0}, \quad y_{101}=r_{0} a_{1} b_{0} c_{1}, \quad y_{110}=r_{0} a_{1} b_{1} c_{0}, \quad y_{111}=r_{1} a_{1} b_{1} c_{1} . \end{aligned}
+modified: 20260701062953706
+page: 128
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0224
+top_left_x: 476
+top_left_y: 1568
+type: text/markdown
+width: 1170

@@ -1,0 +1,8 @@
+caption: \left\{\mathbf{y} \in X: y_{i} \neq 0 \Longleftrightarrow \mathbf{a}_{i} \in F\right\}
+created: 20260701062953697
+displayMode: false
+latex: \left\{\mathbf{y} \in X: y_{i} \neq 0 \Longleftrightarrow \mathbf{a}_{i} \in F\right\}
+modified: 20260701062953697
+tags: formula NonLinearAlgebra
+title: NonLinearAlgebra_FO1645
+type: text/markdown

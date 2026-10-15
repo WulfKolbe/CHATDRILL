@@ -1,0 +1,3 @@
+
+
+The picture on the right in Figure 1 shows the dual curve. This lives in  the dual plane whose points ( {{NonLinearAlgebra_FO2430||FO}} ) represent the lines {{NonLinearAlgebra_FOX_3ef20759ab||FO}} in {{NonLinearAlgebra_FO0307||FO}}. The points in the dual curve correspond to lines {{NonLinearAlgebra_FO1634||FO}} that are tangent  to the original curve. The dual curve has degree six, and its equation is  computed by the following ideal computation in {{NonLinearAlgebra_FO2431||FO}} :

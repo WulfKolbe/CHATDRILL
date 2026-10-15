@@ -1,0 +1,11 @@
+
+
+The first ideal corresponds to the real zero 2 , while the second to the pair of  complex zeros {{NonLinearAlgebra_FO0121||FO}} and {{NonLinearAlgebra_FO0605||FO}}. Such factorizations are easy to find in a computer  algebra systems. What if we now replace the given polynomial by {{NonLinearAlgebra_FOX_498747e943||FO}} ? How does the ideal {{NonLinearAlgebra_FO0606||FO}} decompose in {{NonLinearAlgebra_FO0607||FO}} ? And in {{NonLinearAlgebra_FO0608||FO}} ? 
+
+Polynomials of degree {{NonLinearAlgebra_FO0069||FO}} in one variable can have up to {{NonLinearAlgebra_FO0069||FO}} zeros. The  number {{NonLinearAlgebra_FO0069||FO}} can be large. Often we are not interested in all the zeros, but  only in specific ones. For instance, we might only be interested in solutions  that are real and positive. This restriction is very important for many  applications, e.g. in statistics where the solutions represent probabilities. 
+
+Example 3.2. Let {{NonLinearAlgebra_FO0609||FO}}, where {{NonLinearAlgebra_FO0610||FO}}. The variety {{NonLinearAlgebra_FO0299||FO}}  consists of {{NonLinearAlgebra_FO0069||FO}} complex points but only one of them is real and positive.  Thus, {{NonLinearAlgebra_FO0611||FO}} is a singleton. This follows from Descartes' Rule of Signs,  which states that the number of positive real solutions is bounded above by  the number of sign alternations in the coefficient sequence. If {{NonLinearAlgebra_FO0069||FO}} is even then  there is also one negative solution. 
+
+In many applications one encounters polynomials whose coefficients de pend on parameters. For instance, let {{NonLinearAlgebra_FO0612||FO}} be an unknown that represents a  small positive real number. Let {{NonLinearAlgebra_FO0613||FO}} be the field of rational functions in  that unknown and {{NonLinearAlgebra_FO0614||FO}} its algebraic closure. Elements in {{NonLinearAlgebra_FO0001||FO}} can be  expressed as series in {{NonLinearAlgebra_FO0612||FO}} with rational exponents. These are known as Puiseux  series. This is analogous to the floating point expansion of numbers in {{NonLinearAlgebra_FO0005||FO}}. 
+
+Example 3.3. The polynomial {{NonLinearAlgebra_FO0615||FO}} is irreducible in {{NonLinearAlgebra_FO0616||FO}}.  It factors into three linear factors {{NonLinearAlgebra_FO0617||FO}} in {{NonLinearAlgebra_FO0063||FO}}, where

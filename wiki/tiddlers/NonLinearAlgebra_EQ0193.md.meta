@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-108.jpg?height=163&width=1215&top_left_y=1374&top_left_x=455
+created: 20260701062953706
+displayMode: true
+equation_number: 
+height: 163
+kind: Equation
+latex: A=\left(\begin{array}{lll} 3 & 4 & 4 \\ 4 & 3 & 4 \\ 4 & 4 & 3 \end{array}\right) \quad \Rightarrow \quad \lambda(A)=3 \quad \Rightarrow \quad B=B^{+}=B_{0}^{+}=\left(\begin{array}{lll} 0 & 1 & 1 \\ 1 & 0 & 1 \\ 1 & 1 & 0 \end{array}\right) .
+modified: 20260701062953706
+page: 108
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0193
+top_left_x: 455
+top_left_y: 1374
+type: text/markdown
+width: 1215

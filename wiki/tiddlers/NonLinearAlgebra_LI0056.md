@@ -1,0 +1,1 @@
+If \(V=\bigoplus V_{i}\) then \(\chi_{V}=\sum \chi_{V_{i}}\).

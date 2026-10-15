@@ -1,0 +1,5 @@
+
+
+The resulting variety {{NonLinearAlgebra_FO1778||FO}} is the universal variety of third-order signature  tensors of arbitrary paths in {{NonLinearAlgebra_FO0034||FO}}. Such tensors play an important role in  stochastic analysis, especially in the Hairer-Lyons theory of rough paths. 
+
+A natural generalization of the universal variety is the rough Veronese  variety which was studied and shown to be toric by Colmenarejo et al. in {{NonLinearAlgebra_FO1779||FO}}.  This variety is a variant of the classical Veronese variety, but adapted to the  study of rough paths. For an introduction to this theory we see [{{NonLinearAlgebra_9||CIT}}, {{NonLinearAlgebra_Section_1||CIT}}]  and the references therein. Returning to the example above, in the notation  of [{{NonLinearAlgebra_9||CIT}}, {{NonLinearAlgebra_Section_2||CIT}}], we have {{NonLinearAlgebra_FO1780||FO}} and {{NonLinearAlgebra_FO1781||FO}}.  The equations defining these varieties are obtained by substituting (8.7) into  (8.6). This {{NonLinearAlgebra_FO1782||FO}} matrix has rank {{NonLinearAlgebra_FO1783||FO}} for the signatures of all paths in {{NonLinearAlgebra_FO0034||FO}}.

@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-095.jpg?height=119&width=1243&top_left_y=2337&top_left_x=438
+created: 20260701062953705
+displayMode: true
+equation_number: 
+height: 119
+kind: Equation
+latex: x^{4} y^{2}+x^{2} y^{4}+1-3 x^{2} y^{2}=\frac{\left[x^{2}+y^{2}+1\right] \cdot x^{2} y^{2}\left(x^{2}+y^{2}-2\right)^{2}+\left(x^{2}-y^{2}\right)^{2}}{\left(x^{2}+y^{2}\right)^{2}} .
+modified: 20260701062953705
+page: 095
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0150
+top_left_x: 438
+top_left_y: 2337
+type: text/markdown
+width: 1243

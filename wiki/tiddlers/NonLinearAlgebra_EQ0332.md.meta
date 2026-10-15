@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-180.jpg?height=162&width=770&top_left_y=2088&top_left_x=676
+created: 20260701062953707
+displayMode: true
+equation_number: 
+height: 162
+kind: Equation
+latex: \mathcal{S}=\left\{(x, y, z) \in \mathbb{R}^{3}:\left(\begin{array}{ccc} 1 & x & y \\ x & 1 & z \\ y & z & 1 \end{array}\right) \succeq 0\right\} .
+modified: 20260701062953707
+page: 180
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0332
+top_left_x: 676
+top_left_y: 2088
+type: text/markdown
+width: 770

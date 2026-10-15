@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-052.jpg?height=68&width=937&top_left_y=2208&top_left_x=595
+created: 20260701062953704
+displayMode: true
+equation_number: (3.2)
+height: 68
+kind: Equation
+latex: \left\langle x^{2}, x y\right\rangle=\langle x\rangle \cap\langle x, y\rangle^{2}=\langle x\rangle \cap\left\langle x^{2}, y\right\rangle \quad \subset \quad \mathbb{C}[x, y]
+modified: 20260701062953704
+page: 052
+refnum: 3.2
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0074
+top_left_x: 595
+top_left_y: 2208
+type: text/markdown
+width: 937

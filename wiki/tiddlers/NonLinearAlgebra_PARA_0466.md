@@ -1,0 +1,9 @@
+
+
+The first summand is the symmetric tensors, the last summand is the an tisymmetric tensors, and the middle summand consists of two copies of the  adjoint representation (Example 10.17). 
+
+The irreducible representations {{NonLinearAlgebra_FO2136||FO}} of {{NonLinearAlgebra_FO2145||FO}} come together with nice  algebraic varieties. The group {{NonLinearAlgebra_FO2145||FO}} acts also on the projective space  {{NonLinearAlgebra_FO2146||FO}}. The letter action has unique closed orbit, namely the orbit of  the highest weight vector. Particular examples are: 
+(1) The orbit of {{NonLinearAlgebra_FO2147||FO}}. This is the {{NonLinearAlgebra_FO0592||FO}}-th Veronese em bedding of {{NonLinearAlgebra_FO2148||FO}}. 
+(2) The orbit of {{NonLinearAlgebra_FO2149||FO}} is the Grassmannian {{NonLinearAlgebra_FO2150||FO}}  in its Plücker embedding. Here {{NonLinearAlgebra_FO2151||FO}} as in Example 10.16. 
+
+This result provides us with a unified approach to homogeneous varieties.  It could be also used to build some of the representations. Fix a Young  diagram {{NonLinearAlgebra_FO0387||FO}} and let {{NonLinearAlgebra_FO2152||FO}} be a Young diagram where each row is scaled by {{NonLinearAlgebra_FO0592||FO}}.  Given the homogeneous variety {{NonLinearAlgebra_FO0285||FO}} in {{NonLinearAlgebra_FO2146||FO}} we can take the {{NonLinearAlgebra_FO0592||FO}}-th Veronese  map {{NonLinearAlgebra_FO2153||FO}} of this projective space and the linear span of {{NonLinearAlgebra_FO2154||FO}} is {{NonLinearAlgebra_FO2155||FO}}. A  special case of this construction is point (1) above where {{NonLinearAlgebra_FO2156||FO}}.

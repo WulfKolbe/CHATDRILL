@@ -1,0 +1,1 @@
+Page 187 of *NonLinearAlgebra*.

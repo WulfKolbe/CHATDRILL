@@ -1,0 +1,1 @@
+{{||CIT}} [39] M. Marshall: Positive polynomials and sums of squares, Mathematical Surveys and Monographs, 146, American Mathematical Society, Providence, RI, 2008.

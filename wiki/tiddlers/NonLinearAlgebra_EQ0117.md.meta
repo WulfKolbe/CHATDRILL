@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-071.jpg?height=590&width=1213&top_left_y=979&top_left_x=453
+created: 20260701062953705
+displayMode: true
+equation_number: 
+height: 590
+kind: Equation
+latex: \text { Syl }_{d_{1}, d_{2}}=\left(\begin{array}{cccccccc} x_{11} & x_{12} & \cdots & x_{1, d_{1}+1} & 0 & \cdots & 0 & 0 \\ 0 & x_{11} & x_{12} & \ddots & x_{1, d_{1}+1} & 0 & \cdots & 0 \\ \vdots & \ddots & \ddots & \ddots & \cdots & \ddots & \ddots & \vdots \\ 0 & \cdots & 0 & x_{11} & x_{12} & \cdots & x_{1, d_{1}+1} & 0 \\ 0 & 0 & \cdots & 0 & x_{11} & x_{12} & \cdots & x_{1, d_{1}+1} \\ x_{21} & x_{22} & \cdots & x_{2, d_{2}+1} & 0 & \cdots & 0 & 0 \\ 0 & x_{21} & x_{22} & \ddots & x_{2, d_{2}+1} & 0 & \cdots & 0 \\ \vdots & \ddots & \ddots & \ddots & \cdots & \ddots & \ddots & \vdots \\ 0 & \cdots & 0 & x_{21} & x_{22} & \cdots & x_{2, d_{2}+1} & 0 \\ 0 & 0 & \cdots & 0 & x_{21} & x_{22} & \cdots & x_{2, d_{2}+1} \end{array}\right)
+modified: 20260701062953705
+page: 071
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0117
+top_left_x: 453
+top_left_y: 979
+type: text/markdown
+width: 1213

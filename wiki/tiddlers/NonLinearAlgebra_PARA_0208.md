@@ -1,0 +1,5 @@
+## 5.1. Coordinates for Linear Spaces
+
+ 
+
+Let {{NonLinearAlgebra_FO0317||FO}} be a vector space of dimension {{NonLinearAlgebra_FO0015||FO}} over a field {{NonLinearAlgebra_FO0001||FO}}. In Chapter 2 we  constructed the projective space {{NonLinearAlgebra_FO0454||FO}}. Its points are the 1 -dimensional sub spaces of {{NonLinearAlgebra_FO0317||FO}}. We note that {{NonLinearAlgebra_FO0454||FO}} is the key example of a compact algebraic  variety when {{NonLinearAlgebra_FO0304||FO}}. Our aim is to generalize this construction from lines to  subspaces of arbitrary dimension {{NonLinearAlgebra_FO0592||FO}}. We will construct a projective variety  {{NonLinearAlgebra_FO1032||FO}} whose points correspond bijectively to {{NonLinearAlgebra_FO0592||FO}}-dimensional subspaces of  {{NonLinearAlgebra_FO0317||FO}}. This variety is called the Grassmannian, after the 19th century mathe matician Hermann Grassmann. If {{NonLinearAlgebra_FO1033||FO}} then we use the notations {{NonLinearAlgebra_FO1034||FO}}  for the projective space {{NonLinearAlgebra_FO0454||FO}}, and {{NonLinearAlgebra_FO1035||FO}} for the Grassmannian {{NonLinearAlgebra_FO1032||FO}}.

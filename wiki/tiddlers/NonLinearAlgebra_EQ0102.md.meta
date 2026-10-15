@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-066.jpg?height=203&width=1038&top_left_y=975&top_left_x=554
+created: 20260701062953705
+displayMode: true
+equation_number: 
+height: 203
+kind: Equation
+latex: \begin{aligned} J= & \left\langle x_{14} x_{15} x_{23} x_{25} x_{34}-x_{13} x_{15} x_{24} x_{25} x_{34}-x_{14} x_{15} x_{23} x_{24} x_{35}\right. \\ & +x_{13} x_{14} x_{24} x_{25} x_{35}+x_{12} x_{15} x_{24} x_{34} x_{35}-x_{12} x_{14} x_{25} x_{34} x_{35} \\ & +x_{13} x_{15} x_{23} x_{24} x_{45}-x_{13} x_{14} x_{23} x_{25} x_{45}-x_{12} x_{15} x_{23} x_{34} x_{45} \\ & \left.+x_{12} x_{13} x_{25} x_{34} x_{45}+x_{12} x_{14} x_{23} x_{35} x_{45}-x_{12} x_{13} x_{24} x_{35} x_{45}\right\rangle . \end{aligned}
+modified: 20260701062953705
+page: 066
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0102
+top_left_x: 554
+top_left_y: 975
+type: text/markdown
+width: 1038

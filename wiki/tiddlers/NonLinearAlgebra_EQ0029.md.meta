@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-022.jpg?height=100&width=873&top_left_y=2294&top_left_x=625
+created: 20260701062953704
+displayMode: true
+equation_number: 
+height: 100
+kind: Equation
+latex: \mathrm{HP}_{I}(q)=\frac{g}{(d-1)!} q^{d-1}+\text { lower order terms in } q
+modified: 20260701062953704
+page: 022
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0029
+top_left_x: 625
+top_left_y: 2294
+type: text/markdown
+width: 873

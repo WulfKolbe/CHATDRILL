@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-153.jpg?height=123&width=543&top_left_y=640&top_left_x=792
+created: 20260701062953707
+displayMode: true
+equation_number: (10.2)
+height: 123
+kind: Equation
+latex: \left\langle\chi_{1}, \chi_{2}\right\rangle:=\frac{1}{|G|} \sum_{g \in G} \chi_{1}(g) \overline{\chi_{2}(g)}
+modified: 20260701062953707
+page: 153
+refnum: 10.2
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0279
+top_left_x: 792
+top_left_y: 640
+type: text/markdown
+width: 543

@@ -1,0 +1,8 @@
+caption: G(k, n)=\left\{\left[v_{1} \wedge \cdots \wedge v_{k}\right] \in \mathbb{P}\left(\bigwedge^{k} V\right): v_{1}, \ldots, v_{k} \in V\right.
+created: 20260701062953693
+displayMode: false
+latex: G(k, n)=\left\{\left[v_{1} \wedge \cdots \wedge v_{k}\right] \in \mathbb{P}\left(\bigwedge^{k} V\right): v_{1}, \ldots, v_{k} \in V\right.
+modified: 20260701062953693
+tags: formula NonLinearAlgebra
+title: NonLinearAlgebra_FO1057
+type: text/markdown

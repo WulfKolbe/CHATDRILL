@@ -1,0 +1,5 @@
+# Representation Theory
+
+ 
+
+Symmetry is the key to many applications and computations. While this is  true across the mathematical sciences, it is especially pertinent in nonlinear  algebra. In its most basic form, symmetry is expressed via the action of  a group acting linearly on a vector space. The study of such actions is  the subject of representation theory. For instance, the symmetric group on  {{NonLinearAlgebra_FO0455||FO}} letters acts on {{NonLinearAlgebra_FO0015||FO}}-dimensional space by the rotations and reflections  that fix a regular {{NonLinearAlgebra_FO0015||FO}}-simplex. The map that takes each group element to  its associated {{NonLinearAlgebra_FO0510||FO}} matrix is the representation of the group. The matrix  representations of the groups we study here can be simultaneously block diagonalized. The blocks are irreducible representations. Identifying these  blocks is tantamount for exploiting symmetry in explicit computations. Our  objective in this chapter is to give a first introduction to representation  theory.

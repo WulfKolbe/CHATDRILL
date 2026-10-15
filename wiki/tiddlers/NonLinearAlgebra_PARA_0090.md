@@ -1,0 +1,5 @@
+Figure 2. Six topological ovals in {{NonLinearAlgebra_FO0527||FO}} with shaded interiors. It is possi- ble to cut out the interior of the lower right oval from the square and glue together the remaining antipodal points on the boundary. This shows that indeed the complement of the interior of the oval is the Möbius strip. 
+
+Theorem 2.26. Let {{NonLinearAlgebra_FO0533||FO}} be a smooth curve of degree {{NonLinearAlgebra_FO0251||FO}} in the projective  plane {{NonLinearAlgebra_FO0529||FO}}. If {{NonLinearAlgebra_FO0304||FO}} then {{NonLinearAlgebra_FO0533||FO}} is an orientable surface of genus {{NonLinearAlgebra_FO0539||FO}}.  If {{NonLinearAlgebra_FO0003||FO}} then {{NonLinearAlgebra_FO0533||FO}} is a curve with at most {{NonLinearAlgebra_FO0540||FO}} connected components. If {{NonLinearAlgebra_FO0251||FO}}  is even then all components are ovals. If {{NonLinearAlgebra_FO0251||FO}} is odd then one component is a  pseudoline but all others are ovals. 
+
+Let us illustrate the above theorem for {{NonLinearAlgebra_FO0541||FO}}, i.e. {{NonLinearAlgebra_FO0542||FO}}. For example  consider a cubic curve given in its Weierstrass form:

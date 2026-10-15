@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-072.jpg?height=287&width=1225&top_left_y=1136&top_left_x=449
+created: 20260701062953705
+displayMode: true
+equation_number: 
+height: 287
+kind: Equation
+latex: \operatorname{det}\left[\begin{array}{ccccc} -1 & 0 & -4 & x_{1} & 0 \\ 0 & -1 & 0 & -4 & x_{1} \\ -1 & 0 & x_{2}+3 & 0 & 0 \\ 0 & -1 & 0 & x_{2}+3 & 0 \\ 0 & 0 & -1 & 0 & x_{2}+3 \end{array}\right]=x_{2}^{3}-x_{1}^{2}+17 x_{2}^{2}+91 x_{2}+147
+modified: 20260701062953705
+page: 072
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0121
+top_left_x: 449
+top_left_y: 1136
+type: text/markdown
+width: 1225

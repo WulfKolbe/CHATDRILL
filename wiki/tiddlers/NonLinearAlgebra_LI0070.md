@@ -1,0 +1,1 @@
+If \(I, J \in \mathfrak{I}\) and \(|I|<|J|\) then there exists \(j \in J\) such that \(I \cup\{j\} \in \mathfrak{I}\).

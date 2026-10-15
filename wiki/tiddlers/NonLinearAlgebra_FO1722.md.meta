@@ -1,0 +1,8 @@
+caption: \left\{\mathbf{y} \in \mathbb{R}_{\geq 0}^{n_{1} \times n_{2}}: A \mathbf{y}=\mathbf{b}\right\}
+created: 20260701062953697
+displayMode: false
+latex: \left\{\mathbf{y} \in \mathbb{R}_{\geq 0}^{n_{1} \times n_{2}}: A \mathbf{y}=\mathbf{b}\right\}
+modified: 20260701062953697
+tags: formula NonLinearAlgebra
+title: NonLinearAlgebra_FO1722
+type: text/markdown

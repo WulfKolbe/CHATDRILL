@@ -1,0 +1,7 @@
+
+
+Distributing the three terms of the factor {{NonLinearAlgebra_FO1270||FO}}, we see that the  right hand side is a sum of four squares of rational functions. This shows  that {{NonLinearAlgebra_FO1269||FO}} is nonnegative. However, it is not a sum of squares in {{NonLinearAlgebra_FO0077||FO}}.  Suppose it were equal to {{NonLinearAlgebra_FO1271||FO}} where {{NonLinearAlgebra_FO0595||FO}} are polynomials. None of the  {{NonLinearAlgebra_FO0595||FO}} 's may contain a monomial {{NonLinearAlgebra_FO1272||FO}} or {{NonLinearAlgebra_FO1273||FO}} for {{NonLinearAlgebra_FO1274||FO}} - otherwise the largest  such {{NonLinearAlgebra_FO0251||FO}} contributes positively to the coefficient of {{NonLinearAlgebra_FO1275||FO}} in {{NonLinearAlgebra_FO1269||FO}}. We have  {{NonLinearAlgebra_FO1276||FO}}, where {{NonLinearAlgebra_FO1277||FO}} have all terms of degree {{NonLinearAlgebra_FO1278||FO}} and {{NonLinearAlgebra_FO1279||FO}}.  The coefficient -3 of {{NonLinearAlgebra_FO1280||FO}} in {{NonLinearAlgebra_FO1269||FO}} would then be equal to {{NonLinearAlgebra_FO1281||FO}}. 
+
+We shall derive Artin's Theorem 6.10 as a special case from the following  more general statement. Theorem 6.12 is the real number analogue to the  weak form of the Nullstellensatz which was established in Theorem 6.1. 
+
+Theorem 6.12. Let {{NonLinearAlgebra_FO0038||FO}} be an ideal in {{NonLinearAlgebra_FO1262||FO}} whose variety {{NonLinearAlgebra_FO1263||FO}} is empty.  Then -1 is a sum of squares of polynomials modulo {{NonLinearAlgebra_FO0038||FO}}, i.e. we have

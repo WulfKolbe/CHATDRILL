@@ -1,0 +1,5 @@
+# Linear Spaces and  Grassmannians
+
+ 
+
+In previous chapters we saw the construction of projective space. We ar gued that in many applications projective varieties are preferable to affine  varieties. Points in a projective space correspond to lines through the ori gin in the underlying vector space. In this chapter we replace lines with  higher-dimensional linear subspaces. The role of the projective space is  now played by a Grassmannian. This is a smooth projective variety whose  points correspond to linear subspaces of a fixed dimension. For instance,  the Grassmannian of lines in projective 3 -space is 4 -dimensional variety. Its  subvarieties represent families of lines. Counting lines that satisfy a certain  property (e.g. lying on a cubic surface) leads us to enumerative algebraic  geometry, a subject in which Grassmannians play a fundamental role.

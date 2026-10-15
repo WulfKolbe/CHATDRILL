@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-174.jpg?height=142&width=565&top_left_y=610&top_left_x=779
+created: 20260701062953707
+displayMode: true
+equation_number: (11.12)
+height: 142
+kind: Equation
+latex: x_{i j k} \mapsto \sum_{r=1}^{2} \sum_{s=1}^{2} \sum_{t=1}^{2} x_{r s t} \sigma_{r i} \sigma_{s j} \sigma_{t k} .
+modified: 20260701062953707
+page: 174
+refnum: 11.12
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0323
+top_left_x: 779
+top_left_y: 610
+type: text/markdown
+width: 565

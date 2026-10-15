@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-106.jpg?height=64&width=633&top_left_y=953&top_left_x=745
+created: 20260701062953705
+displayMode: true
+equation_number: (7.7)
+height: 64
+kind: Equation
+latex: A \odot \mathbf{v}=\lambda \odot \mathbf{v} \quad \text { for some } \mathbf{v} \in \mathbb{R}^{n} .
+modified: 20260701062953705
+page: 106
+refnum: 7.7
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0183
+top_left_x: 745
+top_left_y: 953
+type: text/markdown
+width: 633

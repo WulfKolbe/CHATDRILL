@@ -1,0 +1,10 @@
+
+
+This shows that the optimal value of the minimization problem 12.8 is an  upper bound for the optimal value of the maximization problem (12.9). If  the equality is attained by a pair ( {{NonLinearAlgebra_FO2437||FO}} ) of feasible solutions then {{NonLinearAlgebra_FO0285||FO}} must  be optimal for 12.8 and {{NonLinearAlgebra_FO0064||FO}} must be optimal for 12.9 . 
+
+There is also Strong Duality Theorem which states that, under suitable  hypotheses, the duality gap {{NonLinearAlgebra_FO2438||FO}} must attain the value zero for  some feasible pair ( {{NonLinearAlgebra_FO2437||FO}} ). These hypotheses are always satisfied for diagonal  matrices, and we recover the Duality Theorem for Linear Programming as a  special case. Interior point methods for Linear Programming are numerical  algorithms that start at an interior point of the feasible polyhedron and  create a path from that point towards an optimal vertex. The same class of  algorithms works for Semidefinite Programming. These run in polynomial  time and are well-behaved in practice. 
+
+Semidefinite Programming has a much larger expressive power than Lin ear Programming. Many more problems can be phrased as an SDP. We  illustrate this with a simple example. 
+
+Example 12.7 (The largest eigenvalue). Let {{NonLinearAlgebra_FO0511||FO}} be a real symmetric {{NonLinearAlgebra_FOX_0706192bc9||FO}} matrix, and consider the problem of computing its largest eigenvalue  {{NonLinearAlgebra_FO2439||FO}}. We would like to solve this without having to write down the  characteristic polynomial and extract its roots. Let {{NonLinearAlgebra_FO2440||FO}} be the identity  matrix and consider the SDP problems 12.8 and 12.9 with {{NonLinearAlgebra_FO2441||FO}} and  {{NonLinearAlgebra_FO2442||FO}}. They are 
+(12.8) Minimize trace {{NonLinearAlgebra_FO2443||FO}} subject to {{NonLinearAlgebra_FO2444||FO}}.

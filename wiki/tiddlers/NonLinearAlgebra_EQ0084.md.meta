@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-058.jpg?height=62&width=1137&top_left_y=809&top_left_x=539
+created: 20260701062953705
+displayMode: true
+equation_number: (3.5)
+height: 62
+kind: Equation
+latex: p_{\mathbf{u}}\left(x_{1}, \ldots, x_{n}\right)=\mathbf{x}^{\mathbf{u}}+\text { higher order terms, where } \mathbf{x}^{\mathbf{u}} \text { runs over } \mathcal{S} .
+modified: 20260701062953705
+page: 058
+refnum: 3.5
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0084
+top_left_x: 539
+top_left_y: 809
+type: text/markdown
+width: 1137

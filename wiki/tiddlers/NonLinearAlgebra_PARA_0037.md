@@ -1,0 +1,16 @@
+
+
+Since {{NonLinearAlgebra_FO0175||FO}} is not in {{NonLinearAlgebra_FO0171||FO}}, it lies in the initial ideal in {{NonLinearAlgebra_FO0176||FO}}. Hence there exists  {{NonLinearAlgebra_FO0177||FO}} with {{NonLinearAlgebra_FO0178||FO}}. Each monomial in {{NonLinearAlgebra_FO0179||FO}} other than {{NonLinearAlgebra_FO0175||FO}} is smaller with  respect to {{NonLinearAlgebra_FO0132||FO}}, so it lies in the {{NonLinearAlgebra_FO0001||FO}}-span of {{NonLinearAlgebra_FO0171||FO}} modulo {{NonLinearAlgebra_FO0038||FO}}. Hence {{NonLinearAlgebra_FO0175||FO}} has the  same property. This is a contradiction. 
+
+Software for Gröbner bases rests on Buchberger's Algorithm [10, §2.7].  This is implemented in all major computer algebra systems. It takes as  its input a monomial order {{NonLinearAlgebra_FO0132||FO}} and a finite set {{NonLinearAlgebra_FO0052||FO}} of polynomials in {{NonLinearAlgebra_FO0021||FO}}.  The output of Buchberger's Algorithm is the unique reduced Gröbner basis  {{NonLinearAlgebra_FO0154||FO}} for the ideal {{NonLinearAlgebra_FO0180||FO}} with respect to {{NonLinearAlgebra_FO0132||FO}}. Experimenting with such an  implementation is an essential step for any student in nonlinear algebra. 
+
+In what follows we present some examples of input-output pairs {{NonLinearAlgebra_FO0181||FO}}  for {{NonLinearAlgebra_FO0033||FO}}. Here we take the lexicographic monomial order with {{NonLinearAlgebra_FO0150||FO}}. 
+
+Example 1.18. A computer algebra system, like Maple, Mathematica,  Magma, Macaulay2, or Singular, transforms the input {{NonLinearAlgebra_FO0182||FO}} into  its reduced Gröbner basis {{NonLinearAlgebra_FO0154||FO}}. The initial monomials are always underlined: 
+- For {{NonLinearAlgebra_FO0102||FO}}, computing the reduced Gröbner basis means computing  the greatest common divisor of the input polynomials: 
+{{NonLinearAlgebra_FO0183||FO}},  {{NonLinearAlgebra_FO0184||FO}}. 
+- For linear polynomials, running Buchberger's algorithm amounts  to Gaussian elimination: For {{NonLinearAlgebra_FOX_25163cd23f||FO}}, the reduced Gröbner basis is found  to be {{NonLinearAlgebra_FO0185||FO}}. 
+- Here is another ideal we saw earlier: {{NonLinearAlgebra_FO0186||FO}}  yields {{NonLinearAlgebra_FO0187||FO}}. There are precisely five  standard monomials: {{NonLinearAlgebra_FO0188||FO}}. This is consistent  with Example 1.7, where we saw that {{NonLinearAlgebra_FO0052||FO}} has five zeros in {{NonLinearAlgebra_FO0189||FO}}. 
+- This input is a curve in the {{NonLinearAlgebra_FO0190||FO}}-plane parametrized by two cubics  in one variable {{NonLinearAlgebra_FO0064||FO}}. We write this as {{NonLinearAlgebra_FO0191||FO}}.  The Gröbner basis has the implicit equation of this curve as its  second element: {{NonLinearAlgebra_FOX_5bad12c471||FO}}. 
+- Let {{NonLinearAlgebra_FO0192||FO}} be the sum of {{NonLinearAlgebra_FO0193||FO}} and {{NonLinearAlgebra_FO0194||FO}}. We encode this in the  set {{NonLinearAlgebra_FO0195||FO}}. The real number {{NonLinearAlgebra_FO0196||FO}}  is algebraic of degree 12 over {{NonLinearAlgebra_FO0004||FO}}. Its minimal polynomial is the first  element in the Gröbner basis {{NonLinearAlgebra_FOX_9f9f693cab||FO}}. 
+- The elementary symmetric polynomials {{NonLinearAlgebra_FOX_aedecf9675||FO}} have the reduced Gröbner basis {{NonLinearAlgebra_FO0197||FO}}

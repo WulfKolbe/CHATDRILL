@@ -1,0 +1,7 @@
+
+
+We claim that {{NonLinearAlgebra_FO0264||FO}} is a {{NonLinearAlgebra_FO0001||FO}}-vector space basis for the quotient space  {{NonLinearAlgebra_FO0265||FO}}. It is linearly independent since no {{NonLinearAlgebra_FO0001||FO}}-linear combination of  {{NonLinearAlgebra_FO0171||FO}} lies in {{NonLinearAlgebra_FO0038||FO}}. But, given that {{NonLinearAlgebra_FO0132||FO}} is degree compatible, it also spans because  taking the normal form of a polynomial modulo the Gröbner basis can only  decrease the total degree. 
+
+Remark 1.33. The function that associates to {{NonLinearAlgebra_FO0008||FO}} the dimension of the quo tient space {{NonLinearAlgebra_FO0266||FO}} is known as the affine Hilbert function. We will  see its relations to the Hilbert function, as in Definition 1.20, in Chapter 2,  after introducing projective varieties and homogenization. 
+
+Definition 1.34. Given any ideal {{NonLinearAlgebra_FO0038||FO}} in a polynomial ring {{NonLinearAlgebra_FO0021||FO}}, we define  its Hilbert function {{NonLinearAlgebra_FO0202||FO}} to be that of its initial ideal in {{NonLinearAlgebra_FO0169||FO}}, where {{NonLinearAlgebra_FO0132||FO}} is any  degree-compatible term order. For all {{NonLinearAlgebra_FO0267||FO}} we have

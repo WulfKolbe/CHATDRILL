@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-198.jpg?height=110&width=1170&top_left_y=1160&top_left_x=474
+created: 20260701062953708
+displayMode: true
+equation_number: 
+height: 110
+kind: Equation
+latex: T \ni\left(t_{1}, \ldots, t_{n}\right) \rightarrow\left(t_{i_{1}} \cdots t_{i_{k}} \operatorname{det}\left(\left(N_{p}\right)_{i_{1}, \ldots, i_{k}}\right)\right)_{1 \leq i_{1}<\cdots<i_{k} \leq n} \in \mathbb{P}\left(\bigwedge^{k} \mathbb{C}^{n}\right)
+modified: 20260701062953708
+page: 198
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0365
+top_left_x: 474
+top_left_y: 1160
+type: text/markdown
+width: 1170

@@ -1,0 +1,5 @@
+
+
+This corresponds to the graphical model of the four-cycle {{NonLinearAlgebra_FO2498||FO}}.  Given visible entries {{NonLinearAlgebra_FO2497||FO}}, we consider the set of pairs {{NonLinearAlgebra_FO2499||FO}} that make {{NonLinearAlgebra_FO1752||FO}}  positive definite. This is the interior of a planar spectrahedron {{NonLinearAlgebra_FO2500||FO}} bounded  by a quartic curve. The MLE is the analytic center of {{NonLinearAlgebra_FO2500||FO}}. 
+
+One is also interested in conditions on the {{NonLinearAlgebra_FO2497||FO}} such that {{NonLinearAlgebra_FO2501||FO}} is non empty. When can we find {{NonLinearAlgebra_FO2499||FO}} that make {{NonLinearAlgebra_FO1752||FO}} positive definite? A necessary  condition is that the diagonal entries {{NonLinearAlgebra_FO2502||FO}} and the four visible principal {{NonLinearAlgebra_FO0286||FO}}  minors are positive:

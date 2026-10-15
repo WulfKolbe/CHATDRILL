@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-123.jpg?height=134&width=708&top_left_y=2320&top_left_x=706
+created: 20260701062953706
+displayMode: true
+equation_number: (8.2)
+height: 134
+kind: Equation
+latex: \mathbb{P}_{\mathbb{C}}^{p-1} \rightarrow \mathbb{R}^{n}, \quad \mathbf{y} \mapsto \frac{1}{\sum_{i=1}^{p}\left|y_{i}\right|} \sum_{i=1}^{p}\left|y_{i}\right| \cdot \mathbf{a}_{i} .
+modified: 20260701062953706
+page: 123
+refnum: 8.2
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0213
+top_left_x: 706
+top_left_y: 2320
+type: text/markdown
+width: 708

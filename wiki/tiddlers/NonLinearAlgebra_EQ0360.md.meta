@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-196.jpg?height=136&width=620&top_left_y=919&top_left_x=749
+created: 20260701062953708
+displayMode: true
+equation_number: 
+height: 136
+kind: Equation
+latex: \mathfrak{I}:=\left\{I \subset E: I=\bigcup_{i=1}^{k} I_{i} \text { for } I_{i} \in \mathfrak{I}_{i}\right\}
+modified: 20260701062953708
+page: 196
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0360
+top_left_x: 749
+top_left_y: 919
+type: text/markdown
+width: 620

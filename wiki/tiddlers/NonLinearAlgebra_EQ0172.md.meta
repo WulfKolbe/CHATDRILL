@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-102.jpg?height=171&width=1240&top_left_y=1877&top_left_x=438
+created: 20260701062953705
+displayMode: true
+equation_number: 
+height: 171
+kind: Equation
+latex: \begin{gathered} t^{-1}-3 t-9 t^{3}-54 t^{5}+2 t^{6}-405 t^{7}+18 t^{8}-3402 t^{9}+180 t^{10}-30618 t^{11}+\cdots \\ 3 t+9 t^{3}-\frac{2}{3} t^{4}+54 t^{5}-2 t^{6}+\frac{10931}{27} t^{7}-18 t^{8}+3402 t^{9}-\frac{43756}{243} t^{10}+30618 t^{11}+\cdots \\ \frac{2}{3} t^{4}+\frac{4}{27} t^{7}+\frac{16}{243} t^{10}-\frac{8}{81} t^{12}+\frac{80}{2187} t^{13}-\frac{80}{729} t^{15}+\frac{448}{19683} t^{16}-\frac{224}{2187} t^{18}+\cdots \end{gathered}
+modified: 20260701062953705
+page: 102
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0172
+top_left_x: 438
+top_left_y: 1877
+type: text/markdown
+width: 1240

@@ -1,0 +1,15 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-041.jpg?height=746&width=764&top_left_y=494&top_left_x=678
+caption: A cone \(z y^{2}-x^{3}-x z^{2}=0\) over an elliptic curve, as in Figure 4 . The grey sphere represents the projective space \(\mathbb{P}_{\mathbb{R}}^{2}\), where we have to identify the antipodal points. The intersection of the surface with the sphere has three connected components. Two of them are identified, when we identify the antipodal points. These two components correspond to the oval - indeed cutting it out of the sphere, separates it into two pieces, even after identifying antipodal points. The other component corresponds to a pseudoline. It does not separate a sphere after identifying the antipodal points. The points on the blue curve \(C\) in Figure 4 correspond to pairs of antipodal points on the blue curve in this picture with one exception. This curve has one more pair of antipodal points - these are represented by a thickened blue point. Indeed, the line through that point is parallel to the grey plane in Figure 4 This point corresponds to the unique point of the projective curve that does not belong to the affine chart given by \(z=1\). It is precisely \(z=0, x=0\), \(y=1\).
+created: 20260701062953708
+height: 746
+kind: Figure
+latex_code: 
+modified: 20260701062953708
+page: 041
+refnum: 5
+tags: diagram NonLinearAlgebra
+title: NonLinearAlgebra_DIA_0005
+top_left_x: 678
+top_left_y: 494
+type: text/markdown
+width: 764

@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-093.jpg?height=137&width=496&top_left_y=2010&top_left_x=813
+created: 20260701062953705
+displayMode: true
+equation_number: 
+height: 137
+kind: Equation
+latex: \sum_{i=1}^{r} g_{i}\left(\mathbf{x}, \frac{1}{f(\mathbf{x})}\right) \cdot f_{i}(\mathbf{x})=1
+modified: 20260701062953705
+page: 093
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0145
+top_left_x: 813
+top_left_y: 2010
+type: text/markdown
+width: 496

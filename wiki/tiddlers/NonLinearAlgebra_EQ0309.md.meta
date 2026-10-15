@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-167.jpg?height=136&width=871&top_left_y=2058&top_left_x=627
+created: 20260701062953707
+displayMode: true
+equation_number: 
+height: 136
+kind: Equation
+latex: \begin{aligned} S_{d}(\mathbf{u}, \mathbf{x}) & =\left[\left(u_{1} x_{1}+\cdots+u_{n} x_{n}\right)^{d}\right]^{*} \\ & =\frac{1}{|G|} \sum_{\sigma \in G}\left[u_{1}\left(\sigma x_{1}\right)+\cdots+u_{n}\left(\sigma x_{n}\right)\right]^{d} \end{aligned}
+modified: 20260701062953707
+page: 167
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0309
+top_left_x: 627
+top_left_y: 2058
+type: text/markdown
+width: 871

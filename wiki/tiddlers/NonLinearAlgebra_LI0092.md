@@ -1,0 +1,1 @@
+if a product \(m\) of distinct variables does not belong to rad in \(\prec\left(I_{P}\right)\),

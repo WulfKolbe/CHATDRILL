@@ -1,0 +1,8 @@
+caption: \left(a_{i_{0} i_{1}}+a_{i_{1} i_{2}}+\cdots+a_{i_{k-1} i_{k}}\right) / k
+created: 20260701062953695
+displayMode: false
+latex: \left(a_{i_{0} i_{1}}+a_{i_{1} i_{2}}+\cdots+a_{i_{k-1} i_{k}}\right) / k
+modified: 20260701062953695
+tags: formula NonLinearAlgebra
+title: NonLinearAlgebra_FO1434
+type: text/markdown

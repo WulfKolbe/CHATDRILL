@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-168.jpg?height=119&width=936&top_left_y=1727&top_left_x=644
+created: 20260701062953707
+displayMode: true
+equation_number: (11.7)
+height: 119
+kind: Equation
+latex: \frac{1+z^{4}}{\left(1-z^{2}\right)\left(1-z^{4}\right)}=1+z^{2}+3 z^{4}+3 z^{6}+5 z^{8}+\cdots
+modified: 20260701062953707
+page: 168
+refnum: 11.7
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0311
+top_left_x: 644
+top_left_y: 1727
+type: text/markdown
+width: 936

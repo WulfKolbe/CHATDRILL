@@ -1,0 +1,7 @@
+
+already know that {{NonLinearAlgebra_FO1035||FO}} has dimension {{NonLinearAlgebra_FO1076||FO}} which may be much larger  than {{NonLinearAlgebra_FO0015||FO}}. Let us fix a point {{NonLinearAlgebra_FO2595||FO}}. The questions that motivate us are: 
+- What is the {{NonLinearAlgebra_FO1567||FO}}-orbit of {{NonLinearAlgebra_FO0402||FO}} ? 
+- What is the closure of this orbit? 
+- How can we describe this variety? 
+
+A beautiful answer was provided by Gelfand, Goresky, MacPherson and  Serganova [23. The point {{NonLinearAlgebra_FO2596||FO}} represents a {{NonLinearAlgebra_FO0592||FO}}  dimensional subspace {{NonLinearAlgebra_FO2597||FO}} in {{NonLinearAlgebra_FO0806||FO}}. We may present the vectors  {{NonLinearAlgebra_FO2598||FO}} as a {{NonLinearAlgebra_FO1038||FO}} matrix {{NonLinearAlgebra_FO2599||FO}}. From Chapter 5 we know that the coor dinates of {{NonLinearAlgebra_FO2600||FO}}, are given by maximal minors of {{NonLinearAlgebra_FO2599||FO}}. How does a  point {{NonLinearAlgebra_FO2601||FO}} act on {{NonLinearAlgebra_FO0402||FO}} ? In general, {{NonLinearAlgebra_FO1355||FO}} acts on the coordinate  indexed by {{NonLinearAlgebra_FO2602||FO}} rescaling it by {{NonLinearAlgebra_FO2603||FO}}. Hence, the orbit of {{NonLinearAlgebra_FO0402||FO}} is  the image of the map:

@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-022.jpg?height=136&width=768&top_left_y=1130&top_left_x=678
+created: 20260701062953704
+displayMode: true
+equation_number: (1.5)
+height: 136
+kind: Equation
+latex: h_{I}(q)=\sum_{\tau \subseteq\{1,2, \ldots, r\}}(-1)^{|\tau|}\binom{n+q-e_{\tau}-1}{n-1}
+modified: 20260701062953704
+page: 022
+refnum: 1.5
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0026
+top_left_x: 678
+top_left_y: 1130
+type: text/markdown
+width: 768

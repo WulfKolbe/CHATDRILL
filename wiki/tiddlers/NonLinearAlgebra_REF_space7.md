@@ -1,0 +1,1 @@
+{{||CIT}} [43] J. Plücker: On a new geometry of space, Proceedings of the Royal Society of London 14 (1865) 53-58.

@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-022.jpg?height=67&width=1191&top_left_y=1925&top_left_x=466
+created: 20260701062953704
+displayMode: true
+equation_number: 
+height: 67
+kind: Equation
+latex: I=\langle x\rangle \cap\langle y\rangle \cap\langle x, y\rangle^{r+1}=\left\langle x^{r} y, x^{r-1} y^{2}, x^{r-2} y^{3}, \ldots, x^{2} y^{r-1}, x y^{r}\right\rangle .
+modified: 20260701062953704
+page: 022
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0027
+top_left_x: 466
+top_left_y: 1925
+type: text/markdown
+width: 1191

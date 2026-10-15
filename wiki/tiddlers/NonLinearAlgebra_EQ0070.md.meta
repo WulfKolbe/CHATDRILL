@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-051.jpg?height=68&width=981&top_left_y=1546&top_left_x=569
+created: 20260701062953704
+displayMode: true
+equation_number: 
+height: 68
+kind: Equation
+latex: \{x \in R: b x=0\}=: \operatorname{Ann}(b) \subseteq \operatorname{Ann}\left(b^{2}\right) \subseteq \operatorname{Ann}\left(b^{3}\right) \subseteq \ldots
+modified: 20260701062953704
+page: 051
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0070
+top_left_x: 569
+top_left_y: 1546
+type: text/markdown
+width: 981

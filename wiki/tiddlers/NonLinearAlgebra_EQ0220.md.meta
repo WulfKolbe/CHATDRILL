@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-127.jpg?height=67&width=1103&top_left_y=1525&top_left_x=509
+created: 20260701062953706
+displayMode: true
+equation_number: (8.5)
+height: 67
+kind: Equation
+latex: \ell(\Sigma)=-\log \operatorname{det}(\Sigma)-\operatorname{trace}\left(S \Sigma^{-1}\right)=\log \operatorname{det}(K)-\operatorname{trace}(S K)
+modified: 20260701062953706
+page: 127
+refnum: 8.5
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0220
+top_left_x: 509
+top_left_y: 1525
+type: text/markdown
+width: 1103

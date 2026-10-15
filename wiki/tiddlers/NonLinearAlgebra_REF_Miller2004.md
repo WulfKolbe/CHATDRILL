@@ -1,0 +1,1 @@
+{{||CIT}} [40] E. Miller and B. Sturmfels: Combinatorial Commutative Algebra, Graduate Texts in Mathematics, Springer Verlag, New York, 2004.

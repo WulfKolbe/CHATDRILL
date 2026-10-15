@@ -1,0 +1,1 @@
+the degree reverse lexicographic order: we set \(\mathbf{a} \prec_{\text {revlex }} \mathbf{b}\) if either

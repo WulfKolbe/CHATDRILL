@@ -1,0 +1,8 @@
+caption: K=\left[\begin{array}{cccc}y_{01}+y_{12}+y_{13}+y_{14} & -y_{12} & -y_{13} & -y_{14} \\ -y_{12} & y_{02}+y_{12}+y_{23}+y_{24} & -y_{23} & -y_{24} \\ -y_{13} & -y_{23} & y_{03}+y_{13}+y_{23}+y_{34} & -y_{34} \\ -y_{14} & -y_{24} & -y_{34} & y_{04}+y_{14}+y_{24}+y_{34}\end{array}\right]
+created: 20260701062953697
+displayMode: false
+latex: K=\left[\begin{array}{cccc}y_{01}+y_{12}+y_{13}+y_{14} & -y_{12} & -y_{13} & -y_{14} \\ -y_{12} & y_{02}+y_{12}+y_{23}+y_{24} & -y_{23} & -y_{24} \\ -y_{13} & -y_{23} & y_{03}+y_{13}+y_{23}+y_{34} & -y_{34} \\ -y_{14} & -y_{24} & -y_{34} & y_{04}+y_{14}+y_{24}+y_{34}\end{array}\right]
+modified: 20260701062953697
+tags: formula NonLinearAlgebra
+title: NonLinearAlgebra_FO1757
+type: text/markdown

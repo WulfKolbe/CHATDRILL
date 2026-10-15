@@ -1,0 +1,1 @@
+the radical of a monomial ideal is a monomial ideal.

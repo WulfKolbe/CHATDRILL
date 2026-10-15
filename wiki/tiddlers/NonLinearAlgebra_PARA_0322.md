@@ -1,0 +1,3 @@
+
+
+Thus {{NonLinearAlgebra_FO1535||FO}} is set of all {{NonLinearAlgebra_FO0035||FO}}-matrices {{NonLinearAlgebra_FO1529||FO}} such that this minimum  is attained twice. For such a matrix, there is more than one optimal assign ment of the three workers to the three jobs in (7.5). The set {{NonLinearAlgebra_FO1535||FO}} is a  polyhedral fan of dimension 8 . It is a cone with apex {{NonLinearAlgebra_FO1536||FO}} over  the 2 -dimensional polyhedral complex shown in Figure 1.

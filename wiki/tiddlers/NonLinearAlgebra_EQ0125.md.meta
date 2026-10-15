@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-074.jpg?height=72&width=893&top_left_y=859&top_left_x=614
+created: 20260701062953705
+displayMode: true
+equation_number: 
+height: 72
+kind: Equation
+latex: \operatorname{image}(f)=\left(\mathbb{C}^{3} \backslash \mathcal{V}\left(x_{1} x_{2} x_{2}\right)\right) \cup \mathcal{V}\left(x_{1} x_{2}, x_{1} x_{3}, x_{2} x_{3}\right)
+modified: 20260701062953705
+page: 074
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0125
+top_left_x: 614
+top_left_y: 859
+type: text/markdown
+width: 893

@@ -1,0 +1,15 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-040.jpg?height=746&width=764&top_left_y=494&top_left_x=678
+caption: The cone \(z y^{2}-x^{3}-x z^{2}=0\) over an elliptic curve. The irreducible variety is depicted in yellow and blue according to two connected components in the real projective space. We intersect the cone with the grey plane given by \(z=1\). This corresponds to the affine chart, and the blue curve \(C\) we obtain is exactly the same as in Figure 3.
+created: 20260701062953708
+height: 746
+kind: Figure
+latex_code: 
+modified: 20260701062953708
+page: 040
+refnum: 4
+tags: diagram NonLinearAlgebra
+title: NonLinearAlgebra_DIA_0004
+top_left_x: 678
+top_left_y: 494
+type: text/markdown
+width: 764

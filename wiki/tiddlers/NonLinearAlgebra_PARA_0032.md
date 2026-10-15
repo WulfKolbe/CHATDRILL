@@ -1,0 +1,3 @@
+
+
+Throughout this book we specify a monomial order by giving the name of  the order and how the variables are sorted. For instance, we might say: "let  {{NonLinearAlgebra_FO0132||FO}} denote the degree lexicographic order on {{NonLinearAlgebra_FO0019||FO}} given by {{NonLinearAlgebra_FO0148||FO}} ".  Further choices of monomial orderings can be obtained by assigning positive  weights to the variables. See [10, Exercise 11 in §2.4]. We also note that  any monomial order is a refinement of the coordinatewise partial order on  {{NonLinearAlgebra_FO0107||FO}} :

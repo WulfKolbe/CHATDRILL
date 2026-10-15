@@ -1,0 +1,7 @@
+
+
+The supports of the matrices {{NonLinearAlgebra_FO1538||FO}} and {{NonLinearAlgebra_FO1539||FO}} match the  labels of the corresponding 2-cells in Figure 1. The matrix {{NonLinearAlgebra_FO1499||FO}} has support  {{NonLinearAlgebra_FO1540||FO}}, which labels the bottom triangle on the left. The matrix {{NonLinearAlgebra_FO1499||FO}} has  support {{NonLinearAlgebra_FO1541||FO}}, which labels the middle left square on the right. 
+
+We close with a remark on lifting Proposition 7.8 from tropical algebra  to algebra over the field {{NonLinearAlgebra_FO1356||FO}}. Given a directed graph {{NonLinearAlgebra_FO1161||FO}} with rational  edge weights {{NonLinearAlgebra_FO1404||FO}}, we now define a new adjacency matrix {{NonLinearAlgebra_FO1542||FO}}. The entry of  {{NonLinearAlgebra_FO1542||FO}} in row {{NonLinearAlgebra_FO0121||FO}} and column {{NonLinearAlgebra_FO0123||FO}} equals {{NonLinearAlgebra_FO1543||FO}} if {{NonLinearAlgebra_FO1409||FO}} is an edge of {{NonLinearAlgebra_FO1161||FO}}, and 0 otherwise. 
+
+By construction, the valuation of the matrix {{NonLinearAlgebra_FO1542||FO}} is the adjacency matrix  {{NonLinearAlgebra_FO1407||FO}} seen earlier in Section 7.1. Moreover, the tropical matrix power in 7.3)  is the valuation of the corresponding power of the classical matrix {{NonLinearAlgebra_FO1542||FO}} :

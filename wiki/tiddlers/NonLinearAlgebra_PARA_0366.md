@@ -1,0 +1,3 @@
+
+
+Here {{NonLinearAlgebra_FO1760||FO}} and {{NonLinearAlgebra_FO1761||FO}} give the root distribution. The other model param eters {{NonLinearAlgebra_FO1762||FO}} and {{NonLinearAlgebra_FO1763||FO}} are the transition probabilities  from the root to the three leaves. Since all parameters are nonnegative, the  model is a 4-dimensional semialgebraic subset of the probability simplex {{NonLinearAlgebra_FO1764||FO}}.  The Fourier transform gives a change of coordinates in the parameter space,

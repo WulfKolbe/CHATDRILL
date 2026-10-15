@@ -1,0 +1,3 @@
+
+
+The boundary of {{NonLinearAlgebra_FO0174||FO}} consists of all points {{NonLinearAlgebra_FO2425||FO}} where the matrix has de terminant zero and its nonzero eigenvalues are positive. The determinant is  a polynomial of degree three in {{NonLinearAlgebra_FO0879||FO}}, so the boundary lies in cubic surface  in {{NonLinearAlgebra_FO0034||FO}}. This cubic surface also contains points where the three eigenvalues

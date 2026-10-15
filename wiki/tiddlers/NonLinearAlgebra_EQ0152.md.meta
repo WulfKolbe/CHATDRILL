@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-096.jpg?height=70&width=1076&top_left_y=1473&top_left_x=562
+created: 20260701062953705
+displayMode: true
+equation_number: (6.4)
+height: 70
+kind: Equation
+latex: 1+p_{1}(\mathbf{x}, y)^{2}+p_{2}(\mathbf{x}, y)^{2}+\cdots+p_{r}(\mathbf{x}, y)^{2}+h(\mathbf{x}, y) g(\mathbf{x}, y)=0 .
+modified: 20260701062953705
+page: 096
+refnum: 6.4
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0152
+top_left_x: 562
+top_left_y: 1473
+type: text/markdown
+width: 1076

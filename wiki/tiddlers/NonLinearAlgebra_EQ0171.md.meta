@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-101.jpg?height=71&width=987&top_left_y=1839&top_left_x=571
+created: 20260701062953705
+displayMode: true
+equation_number: 
+height: 71
+kind: Equation
+latex: (x \oplus y)^{3}=x^{3} \oplus x^{2} y \oplus x y^{2} \oplus y^{3}=x^{3} \oplus y^{3}
+modified: 20260701062953705
+page: 101
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0171
+top_left_x: 571
+top_left_y: 1839
+type: text/markdown
+width: 987

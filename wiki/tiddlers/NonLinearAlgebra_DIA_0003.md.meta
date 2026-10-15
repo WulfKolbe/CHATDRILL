@@ -1,0 +1,15 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-038.jpg?height=454&width=736&top_left_y=1044&top_left_x=693
+caption: Six topological ovals in \(\mathbb{P}_{\mathbb{R}}^{2}\) with shaded interiors. It is possible to cut out the interior of the lower right oval from the square and glue together the remaining antipodal points on the boundary. This shows that indeed the complement of the interior of the oval is the Möbius strip.
+created: 20260701062953708
+height: 454
+kind: Figure
+latex_code: 
+modified: 20260701062953708
+page: 038
+refnum: 2
+tags: diagram NonLinearAlgebra
+title: NonLinearAlgebra_DIA_0003
+top_left_x: 693
+top_left_y: 1044
+type: text/markdown
+width: 736

@@ -1,0 +1,5 @@
+
+
+This is a canonical isomorphism. We write {{NonLinearAlgebra_FO1935||FO}} for the element in the  tensor space on the right hand side. This special three-way tensor is the  matrix multiplication tensor. To simplify notation we write {{NonLinearAlgebra_FO1936||FO}}  for the tensor that represents the multiplication of two square matrices. 
+
+Let {{NonLinearAlgebra_FO1937||FO}} and {{NonLinearAlgebra_FO1938||FO}} be the standard bases of the spaces {{NonLinearAlgebra_FO1939||FO}},  Mat {{NonLinearAlgebra_FO1940||FO}} and Mat {{NonLinearAlgebra_FO1941||FO}}. Thus {{NonLinearAlgebra_FO1942||FO}} is the {{NonLinearAlgebra_FO1943||FO}} matrix whose entries are zero except  for a one in row {{NonLinearAlgebra_FO0121||FO}} and column {{NonLinearAlgebra_FO0592||FO}}. The other two bases are dual to such matrix  units. The matrix multiplication tensor has the following representation:

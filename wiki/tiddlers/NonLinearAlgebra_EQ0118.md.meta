@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-071.jpg?height=123&width=779&top_left_y=1766&top_left_x=691
+created: 20260701062953705
+displayMode: true
+equation_number: 
+height: 123
+kind: Equation
+latex: \begin{aligned} f_{1}(z) & =x_{11} z^{d_{1}}+\cdots+x_{1, d_{1}} z+x_{1, d_{1}+1} \\ \text { and } \quad f_{2}(z) & =x_{21} z^{d_{2}}+\cdots+x_{2, d_{2}} z+x_{2, d_{2}+1} \end{aligned}
+modified: 20260701062953705
+page: 071
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0118
+top_left_x: 691
+top_left_y: 1766
+type: text/markdown
+width: 779

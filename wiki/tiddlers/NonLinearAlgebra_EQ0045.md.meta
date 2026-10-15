@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-033.jpg?height=276&width=661&top_left_y=895&top_left_x=730
+created: 20260701062953704
+displayMode: true
+equation_number: 
+height: 276
+kind: Equation
+latex: \operatorname{rank}\left(\begin{array}{ccc} \frac{\partial f_{1}}{\partial x_{1}} & \cdots & \frac{\partial f_{1}}{\partial x_{n}} \\ \frac{\partial f_{2}}{\partial x_{1}} & \cdots & \frac{\partial f_{2}}{\partial x_{n}} \\ \vdots & \ddots & \vdots \\ \frac{\partial f_{k}}{\partial x_{1}} & \cdots & \frac{\partial f_{k}}{\partial x_{n}} \end{array}\right)(p)<n-d
+modified: 20260701062953704
+page: 033
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0045
+top_left_x: 730
+top_left_y: 895
+type: text/markdown
+width: 661

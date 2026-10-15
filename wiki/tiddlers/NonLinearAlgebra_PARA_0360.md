@@ -1,0 +1,5 @@
+
+
+The variety {{NonLinearAlgebra_FO1665||FO}} is a threefold of degree 13 in {{NonLinearAlgebra_FO1616||FO}}. The underlying  {{NonLinearAlgebra_FO1743||FO}} matrix {{NonLinearAlgebra_FO0511||FO}} is found with the integer linear algebra method in the proof  of Theorem 8.10. The polytope {{NonLinearAlgebra_FO1661||FO}} is a triangular prism. One  triangle face is {{NonLinearAlgebra_FO1744||FO}} with vertices labeled by {{NonLinearAlgebra_FO1741||FO}}. The other triangle  face is {{NonLinearAlgebra_FO1745||FO}} with vertices {{NonLinearAlgebra_FO1746||FO}} and centroid {{NonLinearAlgebra_FO1747||FO}}. The underlined cubic  generates the moduli ideal, which identifies the toric dynamical systems. 
+
+The mathematical theory of chemical reaction network systems with  mass action kinetics is an important domain of application for nonlinear  algebra. For an introduction we refer to the text book by Dickenstein and  Feliu [17. The term "toric dynamical systems" was coined in the article

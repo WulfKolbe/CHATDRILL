@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-109.jpg?height=69&width=1153&top_left_y=2202&top_left_x=485
+created: 20260701062953706
+displayMode: true
+equation_number: (\7.9\)
+height: 69
+kind: Equation
+latex: \operatorname{trop}(f)=\operatorname{val}\left(c_{1}\right) \odot \mathbf{x}^{\odot \mathbf{a}_{1}} \oplus \operatorname{val}\left(c_{2}\right) \odot \mathbf{x}^{\odot \mathbf{a}_{2}} \oplus \cdots \oplus \operatorname{val}\left(c_{s}\right) \odot \mathbf{x}^{\odot \mathbf{a}_{s}}
+modified: 20260701062953706
+page: 109
+refnum: \7.9\
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0196
+top_left_x: 485
+top_left_y: 2202
+type: text/markdown
+width: 1153

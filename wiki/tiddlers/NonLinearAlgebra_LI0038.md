@@ -1,0 +1,1 @@
+The point \(\mathbf{u}\) is a tropical zero of \(\operatorname{trop}(f)\).

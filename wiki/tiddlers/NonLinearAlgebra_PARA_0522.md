@@ -1,0 +1,7 @@
+
+
+One checks by computation that the substitution (11.12) maps the hexagon  invariant {{NonLinearAlgebra_FO2367||FO}} to itself times the third power of {{NonLinearAlgebra_FO2368||FO}}.  Similary, the hyperdeterminant {{NonLinearAlgebra_FO2369||FO}} transforms to itself times {{NonLinearAlgebra_FO2370||FO}}.  Hence both are invariant when {{NonLinearAlgebra_FO2371||FO}}. 
+
+Invariants can be used to test whether two tensors lie in the same orbit.  Here is a concrete example. We write our {{NonLinearAlgebra_FO0918||FO}} tensors as vectors in {{NonLinearAlgebra_FO2372||FO}}  as follows: {{NonLinearAlgebra_FO2373||FO}}. The following two  tensors appear in the theory of signatures of paths. It is of interest to know  whether their {{NonLinearAlgebra_FO1161||FO}}-orbits agree up to scaling: 
+{{NonLinearAlgebra_FO2374||FO}} and {{NonLinearAlgebra_FO2375||FO}}. 
+The two polynomials in Example 11.14 are relative invariants of the GL(2)  action on the tensor space {{NonLinearAlgebra_FO2372||FO}}. The following rational function is an absolute  invariant. It is homogeneous of degree zero, so it represents an invariant  rational function on the projective space {{NonLinearAlgebra_FO1766||FO}} :

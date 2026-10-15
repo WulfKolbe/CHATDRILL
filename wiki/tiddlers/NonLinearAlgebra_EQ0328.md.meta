@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-180.jpg?height=132&width=682&top_left_y=511&top_left_x=721
+created: 20260701062953707
+displayMode: true
+equation_number: (12.2)
+height: 132
+kind: Equation
+latex: \langle A, X\rangle:=\operatorname{trace}(A X)=\sum_{i=1}^{n} \sum_{j=1}^{n} a_{i j} x_{i j} .
+modified: 20260701062953707
+page: 180
+refnum: 12.2
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0328
+top_left_x: 721
+top_left_y: 511
+type: text/markdown
+width: 682

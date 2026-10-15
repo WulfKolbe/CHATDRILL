@@ -1,0 +1,1 @@
+every binomial in the ideal corresponds to an integral relation

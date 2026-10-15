@@ -1,0 +1,1 @@
+Symmetric matrices \(Q\) represent quadratic forms.

@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-105.jpg?height=115&width=910&top_left_y=1516&top_left_x=605
+created: 20260701062953705
+displayMode: true
+equation_number: (7.5)
+height: 115
+kind: Equation
+latex: \operatorname{tropdet}(X):=\bigoplus_{\pi \in S_{n}} x_{1 \pi(1)} \odot x_{2 \pi(2)} \odot \cdots \odot x_{n \pi(n)}
+modified: 20260701062953705
+page: 105
+refnum: 7.5
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0181
+top_left_x: 605
+top_left_y: 1516
+type: text/markdown
+width: 910

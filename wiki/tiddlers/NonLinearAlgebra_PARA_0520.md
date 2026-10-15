@@ -1,0 +1,2 @@
+
+{{NonLinearAlgebra_FO2365||FO}} is a {{NonLinearAlgebra_FO0286||FO}}-matrix in {{NonLinearAlgebra_FO1161||FO}} then {{NonLinearAlgebra_FO2278||FO}} acts by performing the  following substitution in each polynomial on {{NonLinearAlgebra_FO0021||FO}} :

@@ -1,0 +1,8 @@
+caption: \sum_{q=2}^{\min (k, n-k)}\binom{k}{q}\binom{n-k}{q}
+created: 20260701062953693
+displayMode: false
+latex: \sum_{q=2}^{\min (k, n-k)}\binom{k}{q}\binom{n-k}{q}
+modified: 20260701062953693
+tags: formula NonLinearAlgebra
+title: NonLinearAlgebra_FO1074
+type: text/markdown

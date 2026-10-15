@@ -1,0 +1,1 @@
+{{||CIT}} [50] S. Sullivant: Algebraic Statistics, Graduate Studies in Mathematics 194, American Mathematical Society, Providence, 2019.

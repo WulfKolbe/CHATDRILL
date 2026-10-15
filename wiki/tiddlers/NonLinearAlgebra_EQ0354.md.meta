@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-190.jpg?height=233&width=1306&top_left_y=551&top_left_x=429
+created: 20260701062953708
+displayMode: true
+equation_number: 
+height: 233
+kind: Equation
+latex: \begin{gathered} \sigma_{33}^{2} \sigma_{44}^{2} \sigma_{12}^{4}-2 \sigma_{22} \sigma_{33}^{2} \sigma_{44} \sigma_{12}^{2} \sigma_{14}^{2}-2 \sigma_{11} \sigma_{33} \sigma_{44}^{2} \sigma_{12}^{2} \sigma_{23}^{2}-2 \sigma_{11} \sigma_{22} \sigma_{33} \sigma_{44} \sigma_{14}^{2} \sigma_{23}^{2} \\ +4 \sigma_{33} \sigma_{44} \sigma_{12}^{2} \sigma_{14}^{2} \sigma_{23}^{2}+\sigma_{11}^{2} \sigma_{44}^{2} \sigma_{23}^{4}+8 \sigma_{11} \sigma_{22} \sigma_{33} \sigma_{44} \sigma_{12} \sigma_{14} \sigma_{23} \sigma_{34}-4 \sigma_{33} \sigma_{44} \sigma_{12}^{3} \sigma_{14} \sigma_{23} \sigma_{34} \\ -4 \sigma_{22} \sigma_{33} \sigma_{12} \sigma_{14}^{3} \sigma_{23} \sigma_{34}+\sigma_{22}^{2} \sigma_{33}^{2} \sigma_{14}^{4}-4 \sigma_{11} \sigma_{44} \sigma_{12} \sigma_{14} \sigma_{23}^{3} \sigma_{34}-2 \sigma_{11} \sigma_{22} \sigma_{33} \sigma_{44} \sigma_{12}^{2} \sigma_{34}^{2} \\ -2 \sigma_{11} \sigma_{22}^{2} \sigma_{33} \sigma_{14}^{2} \sigma_{34}^{2}+4 \sigma_{22} \sigma_{33} \sigma_{12}^{2} \sigma_{14}^{2} \sigma_{34}^{2}-2 \sigma_{11}^{2} \sigma_{22} \sigma_{44} \sigma_{23}^{2} \sigma_{34}^{2}+4 \sigma_{11} \sigma_{44} \sigma_{12}^{2} \sigma_{23}^{2} \sigma_{34}^{2} \\ +4 \sigma_{11} \sigma_{22} \sigma_{14}^{2} \sigma_{23}^{2} \sigma_{34}^{2}-4 \sigma_{11} \sigma_{22} \sigma_{12} \sigma_{14} \sigma_{23} \sigma_{34}^{3}+\sigma_{11}^{2} \sigma_{22}^{2} \sigma_{34}^{4} \end{gathered}
+modified: 20260701062953708
+page: 190
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0354
+top_left_x: 429
+top_left_y: 551
+type: text/markdown
+width: 1306

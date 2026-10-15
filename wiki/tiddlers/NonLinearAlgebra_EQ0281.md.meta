@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-154.jpg?height=108&width=308&top_left_y=930&top_left_x=906
+created: 20260701062953707
+displayMode: true
+equation_number: (10.3)
+height: 108
+kind: Equation
+latex: W=\bigoplus_{\mathbf{b} \in \mathbb{Z}^{n}} W_{\mathbf{b}}^{a_{\mathbf{b}}},
+modified: 20260701062953707
+page: 154
+refnum: 10.3
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0281
+top_left_x: 906
+top_left_y: 930
+type: text/markdown
+width: 308

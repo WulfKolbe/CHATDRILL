@@ -1,0 +1,2 @@
+
+equation with the extra variable {{NonLinearAlgebra_FO1091||FO}}. We conclude that the Grassmannian  {{NonLinearAlgebra_FO1084||FO}} is the hypersurface in {{NonLinearAlgebra_FO1087||FO}} that is defined by the Plücker quadric

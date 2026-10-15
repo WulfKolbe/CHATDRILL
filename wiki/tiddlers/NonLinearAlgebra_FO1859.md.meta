@@ -1,0 +1,8 @@
+caption: \left(\left(x_{1}: x_{2}\right),\left(y_{1}: y_{2}\right),\left(z_{1}: z_{2}\right)\right) \quad \mapsto \quad\left(\left(y_{1} z_{1}: y_{2} z_{2}\right),\left(x_{1} z_{1}: x_{2} z_{2}\right),\left(x_{1} y_{1}: x_{2} y_{2}\right)\right)
+created: 20260701062953698
+displayMode: false
+latex: \left(\left(x_{1}: x_{2}\right),\left(y_{1}: y_{2}\right),\left(z_{1}: z_{2}\right)\right) \quad \mapsto \quad\left(\left(y_{1} z_{1}: y_{2} z_{2}\right),\left(x_{1} z_{1}: x_{2} z_{2}\right),\left(x_{1} y_{1}: x_{2} y_{2}\right)\right)
+modified: 20260701062953698
+tags: formula NonLinearAlgebra
+title: NonLinearAlgebra_FO1859
+type: text/markdown

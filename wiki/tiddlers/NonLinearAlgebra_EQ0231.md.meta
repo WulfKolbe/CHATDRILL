@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-132.jpg?height=156&width=639&top_left_y=2193&top_left_x=743
+created: 20260701062953706
+displayMode: true
+equation_number: (\9.2\)
+height: 156
+kind: Equation
+latex: Q=\left(\begin{array}{lll} x & y & z \end{array}\right)\left(\begin{array}{ccc} 2 & 3 & 5 \\ 3 & 7 & 11 \\ 5 & 11 & 23 \end{array}\right)\left(\begin{array}{l} x \\ y \\ z \end{array}\right) .
+modified: 20260701062953706
+page: 132
+refnum: \9.2\
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0231
+top_left_x: 743
+top_left_y: 2193
+type: text/markdown
+width: 639

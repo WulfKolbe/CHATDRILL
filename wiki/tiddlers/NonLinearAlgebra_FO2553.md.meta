@@ -1,0 +1,8 @@
+caption: p_{A}:=\sum_{e \in A} b_{e} \in \mathbb{R}^{|E|}
+created: 20260701062953703
+displayMode: false
+latex: p_{A}:=\sum_{e \in A} b_{e} \in \mathbb{R}^{|E|}
+modified: 20260701062953703
+tags: formula NonLinearAlgebra
+title: NonLinearAlgebra_FO2553
+type: text/markdown

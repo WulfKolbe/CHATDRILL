@@ -1,0 +1,1 @@
+If \(I \in \mathfrak{I}\) and \(J \subset I\), then \(J \in \mathfrak{I}\).

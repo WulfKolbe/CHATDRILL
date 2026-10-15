@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-203.jpg?height=138&width=377&top_left_y=1061&top_left_x=872
+created: 20260701062953708
+displayMode: true
+equation_number: 
+height: 138
+kind: Equation
+latex: h(q)=\sum_{i=0}^{d-1} a_{i} f(q-i)
+modified: 20260701062953708
+page: 203
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0382
+top_left_x: 872
+top_left_y: 1061
+type: text/markdown
+width: 377

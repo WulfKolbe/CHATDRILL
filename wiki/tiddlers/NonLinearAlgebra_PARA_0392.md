@@ -1,0 +1,11 @@
+
+
+Here {{NonLinearAlgebra_FO1812||FO}} and {{NonLinearAlgebra_FO1813||FO}} are orthogonal matrices. The formulas above  are known as the spectral decomposition and the singular value de composition. These objects are usually defined for {{NonLinearAlgebra_FO0003||FO}}. 
+
+In the age of Big Data, the role of matrices is increasingly played by  tensors, that is, multidimensional arrays of numbers. Principal component  analysis tells us that the eigenvectors of a covariance matrix {{NonLinearAlgebra_FO1814||FO}} give  directions in which the data {{NonLinearAlgebra_FO0425||FO}} is most spread. One hopes to identify similar  features for tensor data. This has encouraged engineers and scientists to  spice up their linear algebra tool box with a pinch of algebraic geometry. 
+
+The spectral theory of tensors is the theme of the following discussion.  This theory was pioneered around 2005 by Lek-Heng Lim and Liqun Qi. We  refer to the textbook {{NonLinearAlgebra_FO1815||FO}} for background and context. Our aim is to gener alize familiar notions, such as rank, eigenvectors and singular vectors, from  matrices to tensors. Specifically, we address the following two questions.  The answers to these two questions are provided in Examples 9.7 and 9.13. 
+
+Question 9.3. How many eigenvectors does a {{NonLinearAlgebra_FO1775||FO}}-tensor have? 
+Question 9.4. How many singular vector triples does a {{NonLinearAlgebra_FO1775||FO}}-tensor have? 
+A tensor is a {{NonLinearAlgebra_FO0251||FO}}-dimensional array {{NonLinearAlgebra_FO1816||FO}}. Here the entries  {{NonLinearAlgebra_FO1817||FO}} are elements in the ground field {{NonLinearAlgebra_FO0001||FO}}. The set of all tensors of for mat {{NonLinearAlgebra_FO1818||FO}} form a vector space of dimension {{NonLinearAlgebra_FO1819||FO}} over {{NonLinearAlgebra_FO0001||FO}}.  For {{NonLinearAlgebra_FO1820||FO}} we get vectors and matrices. A tensor has rank 1 if it is the  outer product of {{NonLinearAlgebra_FO0251||FO}} vectors, written {{NonLinearAlgebra_FO1821||FO}}, or, in coordinates,

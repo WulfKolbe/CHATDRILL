@@ -1,0 +1,3 @@
+
+
+An affine toric varieties {{NonLinearAlgebra_FO1602||FO}} for which {{NonLinearAlgebra_FO0436||FO}} is saturated (in  the lattice {{NonLinearAlgebra_FO1576||FO}} it generates) is called normal. For the algebraic definition  of normality see [{{NonLinearAlgebra_REF_ref1||CIT}}, {{NonLinearAlgebra_Chapter_5||CIT}}]. Nonnormal varieties are always singular.  For curves, the two notions coincide. Example 8.6 displays one normal  (i.e. smooth) curve and one nonnormal (i.e. singular) curve, seen in Figure1.

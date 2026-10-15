@@ -1,0 +1,1 @@
+{{||CIT}} [42] L. Pachter and B. Sturmfels: Algebraic Statistics for Computational Biology, Cam- bridge University Press, 2005.

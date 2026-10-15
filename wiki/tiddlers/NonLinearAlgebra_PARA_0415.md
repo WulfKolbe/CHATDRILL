@@ -1,0 +1,3 @@
+
+
+Note that this tensor is real. By substituting its coefficients into the formula  for the hyperdeterminant in Example 4.10, we find that {{NonLinearAlgebra_FO1903||FO}}.  Corollary 9.18 implies that the real rank of {{NonLinearAlgebra_FO1567||FO}} is {{NonLinearAlgebra_FO1278||FO}}. Thus the tensor {{NonLinearAlgebra_FO1567||FO}} has  the property that its complex rank is strictly smaller than its real rank.

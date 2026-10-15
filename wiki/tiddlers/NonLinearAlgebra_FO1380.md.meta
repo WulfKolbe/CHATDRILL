@@ -1,0 +1,8 @@
+caption: \operatorname{trop}(f g)(a)=\operatorname{val}((f g)(u))=\operatorname{val}(f(u))+\operatorname{val}(g(u))=\operatorname{trop}(f)(a) \odot \operatorname{trop}(g)(a)
+created: 20260701062953695
+displayMode: false
+latex: \operatorname{trop}(f g)(a)=\operatorname{val}((f g)(u))=\operatorname{val}(f(u))+\operatorname{val}(g(u))=\operatorname{trop}(f)(a) \odot \operatorname{trop}(g)(a)
+modified: 20260701062953695
+tags: formula NonLinearAlgebra
+title: NonLinearAlgebra_FO1380
+type: text/markdown

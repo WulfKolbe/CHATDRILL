@@ -1,0 +1,5 @@
+
+
+Young diagram would not represent the adjoint representation, however the  highest weight vector would be the same. 
+
+Proposition 10.18 tells us that the irreducible representations of {{NonLinearAlgebra_FO2037||FO}}  are in bijection with the Young diagrams with at most {{NonLinearAlgebra_FO0113||FO}} rows. Rep resentations of GL( {{NonLinearAlgebra_FO0015||FO}} ) are not very different: first, every irreducible repre sentation {{NonLinearAlgebra_FO0317||FO}} of {{NonLinearAlgebra_FO2007||FO}} is also an irreducible representation of {{NonLinearAlgebra_FO2037||FO}}, so it  has a corresponding Young diagram {{NonLinearAlgebra_FO0387||FO}}. However, different representations  of {{NonLinearAlgebra_FO2007||FO}} give the same representation of {{NonLinearAlgebra_FO2037||FO}} if they differ by a power of  the determinant. Precisely, consider a representation {{NonLinearAlgebra_FO2129||FO}}  with associated Young diagram {{NonLinearAlgebra_FO0387||FO}}. We have the following representations of  {{NonLinearAlgebra_FO2007||FO}} for any {{NonLinearAlgebra_FO2130||FO}} :

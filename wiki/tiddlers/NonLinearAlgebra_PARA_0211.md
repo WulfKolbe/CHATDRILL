@@ -1,0 +1,4 @@
+
+of {{NonLinearAlgebra_FO0592||FO}} linearly independent vectors may be transformed by an invertible linear  map to any other such set. Hence, {{NonLinearAlgebra_FO1032||FO}} is an orbit under the action of  {{NonLinearAlgebra_FO1064||FO}} on {{NonLinearAlgebra_FO1059||FO}}. In fact, {{NonLinearAlgebra_FO1032||FO}} is the unique closed orbit in this space. 
+
+Projective algebraic varieties that are orbits of linear algebraic groups  are called homogeneous, the Grassmannians being prominent examples. Ho mogeneous varieties are always smooth. Indeed, any algebraic variety always  contains a smooth point and an action of a group must take a smooth point  to a smooth point - a version of this statement is given in Exercise 2.

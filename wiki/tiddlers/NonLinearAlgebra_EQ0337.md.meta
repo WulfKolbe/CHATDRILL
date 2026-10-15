@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-183.jpg?height=137&width=1189&top_left_y=1142&top_left_x=466
+created: 20260701062953707
+displayMode: true
+equation_number: (12.10)
+height: 137
+kind: Equation
+latex: 0 \leq\left\langle C-\sum_{i=1}^{s} x_{i} A_{i}, X\right\rangle=\langle C, X\rangle-\sum_{i=1}^{s} x_{i} \cdot\left\langle A_{i}, X\right\rangle=\langle C, X\rangle-b^{T} x
+modified: 20260701062953707
+page: 183
+refnum: 12.10
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0337
+top_left_x: 466
+top_left_y: 1142
+type: text/markdown
+width: 1189

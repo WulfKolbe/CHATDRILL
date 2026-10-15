@@ -1,0 +1,1 @@
+{{||CIT}} [56] B. Sturmfels, C. Uhler and P. Zwiernik: Brownian motion tree models are toric, arXiv:1902.09905.

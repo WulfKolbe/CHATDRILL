@@ -1,0 +1,1 @@
+If \(K=\mathbb{F}_{p}\) and \(p \neq 2\), then the image is a proper subset of \(K^{1}\). It

@@ -1,0 +1,1 @@
+\(B_{1}\) by subtracting from it a set \(A_{1} \subset B_{1} \backslash B_{2}\) and adding to it

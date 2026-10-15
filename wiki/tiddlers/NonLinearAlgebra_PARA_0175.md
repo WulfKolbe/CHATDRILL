@@ -1,0 +1,3 @@
+
+
+This Gröbner basis equals

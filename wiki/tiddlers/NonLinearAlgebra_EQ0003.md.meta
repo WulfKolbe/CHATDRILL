@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-012.jpg?height=117&width=944&top_left_y=706&top_left_x=588
+created: 20260701062953704
+displayMode: true
+equation_number: 
+height: 117
+kind: Equation
+latex: \frac{\partial f}{\partial x}=2 y z-2 x, \quad \frac{\partial f}{\partial y}=2 x z-2 y, \quad \frac{\partial f}{\partial z}=2 x y-2 z .
+modified: 20260701062953704
+page: 012
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0003
+top_left_x: 588
+top_left_y: 706
+type: text/markdown
+width: 944

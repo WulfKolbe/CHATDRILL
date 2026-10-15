@@ -1,0 +1,8 @@
+caption: \left(\mathbf{x}^{[p]}\right)^{T} \cdot G \cdot \mathbf{x}^{[p]}
+created: 20260701062953702
+displayMode: false
+latex: \left(\mathbf{x}^{[p]}\right)^{T} \cdot G \cdot \mathbf{x}^{[p]}
+modified: 20260701062953702
+tags: formula NonLinearAlgebra
+title: NonLinearAlgebra_FO2477
+type: text/markdown

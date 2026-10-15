@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-151.jpg?height=130&width=624&top_left_y=689&top_left_x=749
+created: 20260701062953707
+displayMode: true
+equation_number: 
+height: 130
+kind: Equation
+latex: \tilde{\pi}(v)=\frac{1}{|G|} \sum_{g \in G} \rho(g)_{\mid W} \circ \pi \circ \rho(g)^{-1}
+modified: 20260701062953707
+page: 151
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0272
+top_left_x: 749
+top_left_y: 689
+type: text/markdown
+width: 624

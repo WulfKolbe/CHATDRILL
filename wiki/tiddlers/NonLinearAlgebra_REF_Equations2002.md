@@ -1,0 +1,1 @@
+{{||CIT}} [53] B. Sturmfels: Solving Systems of Polynomial Equations, CBMS Regional Conference Series in Mathematics 97, American Mathematical Society, Providence, RI, 2002.

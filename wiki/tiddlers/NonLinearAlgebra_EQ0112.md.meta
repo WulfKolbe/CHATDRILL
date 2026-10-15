@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-069.jpg?height=147&width=1275&top_left_y=2099&top_left_x=425
+created: 20260701062953705
+displayMode: true
+equation_number: 
+height: 147
+kind: Equation
+latex: \begin{aligned} x_{110}^{2} x_{001}^{2}+ & x_{100}^{2} x_{011}^{2}+x_{010}^{2} x_{101}^{2}+x_{000}^{2} x_{111}^{2}+4 x_{000} x_{110} x_{011} x_{101}+4 x_{010} x_{100} x_{001} x_{111} \\ & -2 x_{100} x_{110} x_{001} x_{011}-2 x_{010} x_{110} x_{001} x_{101}-2 x_{010} x_{100} x_{011} x_{101} \\ & -2 x_{000} x_{110} x_{001} x_{111}-2 x_{000} x_{100} x_{011} x_{111}-2 x_{000} x_{010} x_{101} x_{111} \end{aligned}
+modified: 20260701062953705
+page: 069
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0112
+top_left_x: 425
+top_left_y: 2099
+type: text/markdown
+width: 1275

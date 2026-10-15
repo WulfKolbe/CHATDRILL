@@ -1,0 +1,1 @@
+{{||CIT}} [46] I. Shafarevich: Basic Algebraic Geometry. 1. Varieties in Projective Space, Translated from the 1988 Russian edition and with notes by Miles Reid. (1994).

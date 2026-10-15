@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-104.jpg?height=132&width=1094&top_left_y=644&top_left_x=498
+created: 20260701062953705
+displayMode: true
+equation_number: (7.2)
+height: 132
+kind: Equation
+latex: \begin{aligned} \left(u_{1}, u_{2}, u_{3}\right) \odot\left(v_{1}, v_{2}, v_{3}\right)^{\mathrm{T}} & =u_{1} \odot v_{1} \oplus u_{2} \odot v_{2} \oplus u_{3} \odot v_{3} \\ & =\min \left\{u_{1}+v_{1}, u_{2}+v_{2}, u_{3}+v_{3}\right\} \end{aligned}
+modified: 20260701062953705
+page: 104
+refnum: 7.2
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0175
+top_left_x: 498
+top_left_y: 644
+type: text/markdown
+width: 1094

@@ -1,0 +1,1 @@
+We have \(\emptyset \in \mathfrak{I}\).

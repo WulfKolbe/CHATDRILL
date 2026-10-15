@@ -1,0 +1,7 @@
+# Solving and  Decomposing
+
+ 
+
+Solving systems of polynomial equations is a key task in nonlinear algebra.  But, what does it mean to solve such a system? How should the solutions  be presented? The answer to this question depends on the dimension of  the variety of solutions. If the variety is zero-dimensional then it consists  of finitely many points in {{NonLinearAlgebra_FO0298||FO}} and we aim to list each point explicitly. If  {{NonLinearAlgebra_FO0003||FO}} or {{NonLinearAlgebra_FO0304||FO}} then this is usually done by displaying a floating point  approximation to each of the {{NonLinearAlgebra_FO0015||FO}} coordinates of a solution. 
+
+If the solution variety has positive dimension then it has infinitely many  points and we cannot list them all. In that case, the answer consists of a  description of each irreducible component. Algebraically, this leads us to  the topic of primary decomposition. If the given ideal is not radical then its  constituents are primary ideals and we distinguish between minimal primes  and embedded primes. To some readers, these objects may seem unnatural  at first. However, they become quite natural in the setting of linear partial  differential equations with constant coefficients.

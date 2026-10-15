@@ -1,0 +1,1 @@
+\(0 \leq r(A)\) for all \(A \subset E\) and \(r(\emptyset)=0\).

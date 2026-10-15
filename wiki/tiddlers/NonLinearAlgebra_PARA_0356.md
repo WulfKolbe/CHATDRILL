@@ -1,0 +1,5 @@
+
+
+Example 8.26 is an instance of a general construction in algebraic statis tics. Projective toric varieties {{NonLinearAlgebra_FO1663||FO}} correspond to a class of statistical models,  referred to as toric models in [42] and as log-linear models in [50]. The in verse moment map {{NonLinearAlgebra_FO1732||FO}} is the maximum likelihood estimator for the model  {{NonLinearAlgebra_FO1712||FO}}. Given a point {{NonLinearAlgebra_FO0127||FO}} in the model polytope {{NonLinearAlgebra_FO1661||FO}}, the estimate  {{NonLinearAlgebra_FO1733||FO}} is the Birch point in {{NonLinearAlgebra_FO1712||FO}}. This distribution best explains the data  with sufficient statistic b. See [42, Proposition 1.9] and [50, Corollary 7.3.9]. 
+
+Toric varieties are ubiquitous in applications. One explanation for this  is the following observation which connects this chapter to the previous one.

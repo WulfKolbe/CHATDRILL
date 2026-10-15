@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-021.jpg?height=119&width=571&top_left_y=1869&top_left_x=777
+created: 20260701062953704
+displayMode: true
+equation_number: 
+height: 119
+kind: Equation
+latex: \mathrm{HS}_{I}(z)=\frac{1-z^{e_{1}}-z^{e_{2}}+z^{e_{12}}}{(1-z)^{n}}
+modified: 20260701062953704
+page: 021
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0022
+top_left_x: 777
+top_left_y: 1869
+type: text/markdown
+width: 571

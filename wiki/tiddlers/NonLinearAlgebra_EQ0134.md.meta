@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-082.jpg?height=69&width=944&top_left_y=1274&top_left_x=644
+created: 20260701062953705
+displayMode: true
+equation_number: (5.3)
+height: 69
+kind: Equation
+latex: \underline{p_{i l} p_{j k}}-p_{i k} p_{j l}+p_{i j} p_{k l} \quad \text { for } \quad 1 \leq i<j<k<l \leq n .
+modified: 20260701062953705
+page: 082
+refnum: 5.3
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0134
+top_left_x: 644
+top_left_y: 1274
+type: text/markdown
+width: 944

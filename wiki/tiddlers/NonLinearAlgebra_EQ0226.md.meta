@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-128.jpg?height=111&width=854&top_left_y=1980&top_left_x=635
+created: 20260701062953706
+displayMode: true
+equation_number: 
+height: 111
+kind: Equation
+latex: \begin{gathered} y_{i j k}=a_{i} a_{j} a_{k} \quad \text { for } \quad 1 \leq i \leq j \leq k \leq 3, \\ z_{k ; i j}=a_{k} b_{i j} \quad \text { for } \quad k=1,2,3 \text { and } 1 \leq i<j \leq 3 . \end{gathered}
+modified: 20260701062953706
+page: 128
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0226
+top_left_x: 635
+top_left_y: 1980
+type: text/markdown
+width: 854

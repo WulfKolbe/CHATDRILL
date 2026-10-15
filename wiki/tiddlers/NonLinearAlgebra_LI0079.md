@@ -1,0 +1,1 @@
+for all \(A, B \subset E\) we have \(r(A \cup B)+r(A \cap B) \leq r(A)+r(B)\).

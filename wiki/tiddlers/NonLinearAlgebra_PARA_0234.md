@@ -1,0 +1,5 @@
+# Nullstellensätze
+
+ 
+
+The German noun Nullstellensatz refers to a theorem that characterizes the  existence of a zero ( {{NonLinearAlgebra_FO1182||FO}} Nullstelle) for a system of polynomials. The classical  version, due to Hilbert, works over algebraically closed fields. It says that the  nonexistence of zeros is equivalent to the existence of a partition of unity  for the given polynomials. A more general version furnishes a bijection  between varieties and radical ideals. In this chapter we also discuss the  analogous results over the field of real numbers. Here the main results are  the real Nullstellensatz and the Positivstellensatz. These furnish criteria for  polynomial equations and inequalities to have no real solutions. This leads  us to real radical ideals and their characterization via sums of squares.

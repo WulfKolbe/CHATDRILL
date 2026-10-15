@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-165.jpg?height=132&width=944&top_left_y=1190&top_left_x=640
+created: 20260701062953707
+displayMode: true
+equation_number: (11.1)
+height: 132
+kind: Equation
+latex: \left(z+x_{1}\right)\left(z+x_{2}\right) \cdots\left(z+x_{n}\right) \quad=\quad z^{n}+\sum_{i=1}^{n} E_{i}(\mathbf{x}) z^{n-i}
+modified: 20260701062953707
+page: 165
+refnum: 11.1
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0301
+top_left_x: 640
+top_left_y: 1190
+type: text/markdown
+width: 944

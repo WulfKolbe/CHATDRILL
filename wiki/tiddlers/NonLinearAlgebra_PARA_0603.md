@@ -1,0 +1,7 @@
+## 13.3. Generating Functions
+
+ 
+
+In this section we introduce multivariate generating functions that are given  by rational functions. The key example is multigraded Hilbert series. We  discuss methods for computing them, and we explore connections to regular  triangulations. In particular, we discuss the Ehrhart series. 
+
+We start with the familiar example of the polynomial ring {{NonLinearAlgebra_FO0021||FO}}. From  Chapter 8 we know we may interpret it as a semigroup algebra {{NonLinearAlgebra_FO2626||FO}}.  How to interpret the Hilbert function {{NonLinearAlgebra_FO2627||FO}} introduced in Chapter 1)? As the  monomials of degree {{NonLinearAlgebra_FO0251||FO}} form a basis of {{NonLinearAlgebra_FO2628||FO}} the {{NonLinearAlgebra_FO2629||FO}} equals the number  of lattice points in the semigroup that belong to the hyperplane {{NonLinearAlgebra_FO2630||FO}}  defined by {{NonLinearAlgebra_FO2631||FO}}. Let {{NonLinearAlgebra_FO2331||FO}} be the standard simplex, i.e. the convex hull  of basis vectors. We note that the Hilbert function counts the number of  lattice points in dilations of {{NonLinearAlgebra_FO2331||FO}}, precisely {{NonLinearAlgebra_FO2632||FO}}. Further, for the  Hilbert series we obtain

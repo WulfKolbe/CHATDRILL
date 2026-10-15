@@ -1,0 +1,6 @@
+
+{{NonLinearAlgebra_FO2167||FO}} is transposition, which acts trivially on {{NonLinearAlgebra_FO2168||FO}} and changes the sign on  {{NonLinearAlgebra_FO2169||FO}}. 
+
+The case {{NonLinearAlgebra_FO0033||FO}} is the first interesting one. The three irreducible rep resentations {{NonLinearAlgebra_FO2161||FO}} of {{NonLinearAlgebra_FO0200||FO}} in Example 10.13 correspond to the three outer sum mands in (10.4). Note that {{NonLinearAlgebra_FO2170||FO}} for {{NonLinearAlgebra_FO2171||FO}}. The middle sum mand in 10.4 is the 16 -dimensional space {{NonLinearAlgebra_FO2172||FO}}. 
+
+By Schur-Weyl duality, the multiplicity of {{NonLinearAlgebra_FO2136||FO}} in {{NonLinearAlgebra_FO2163||FO}} equals the di mension of {{NonLinearAlgebra_FO2161||FO}}. This provides us with a method for defining {{NonLinearAlgebra_FO2161||FO}}. Consider the  decomposition of {{NonLinearAlgebra_FO2163||FO}} as a GL( {{NonLinearAlgebra_FO2162||FO}} ) representation, into isotypic components.  Here the {{NonLinearAlgebra_FO2173||FO}} can be found using Schur functions:

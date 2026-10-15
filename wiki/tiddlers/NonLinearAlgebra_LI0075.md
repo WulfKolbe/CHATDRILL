@@ -1,0 +1,1 @@
+For all \(B_{1}, B_{2} \in \mathfrak{B}, b_{2} \in B_{2} \backslash B_{1}\) there exists \(b_{1} \in B_{1} \backslash B_{2}\) such that

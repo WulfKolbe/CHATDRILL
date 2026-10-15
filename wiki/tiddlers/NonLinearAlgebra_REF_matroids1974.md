@@ -1,0 +1,1 @@
+{{||CIT}} [58] D.R. Woodall: An exchange theorem for bases of matroids, J. Combin. Theory Ser. B 16 (1974) 227-228.

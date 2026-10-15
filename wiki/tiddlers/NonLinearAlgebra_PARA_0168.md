@@ -1,0 +1,5 @@
+
+
+If {{NonLinearAlgebra_FO0038||FO}} is radical or prime then the elimination ideal {{NonLinearAlgebra_FO0054||FO}} has the same property. 
+
+Proof. If {{NonLinearAlgebra_FO0054||FO}} is not a prime ideal then there exist polynomials {{NonLinearAlgebra_FO0029||FO}} and {{NonLinearAlgebra_FO0060||FO}} in  {{NonLinearAlgebra_FO0858||FO}} such that {{NonLinearAlgebra_FO0859||FO}} but {{NonLinearAlgebra_FO0860||FO}}. The same polynomials show  that {{NonLinearAlgebra_FO0038||FO}} is not prime. Similarly if {{NonLinearAlgebra_FO0054||FO}} is not radical then there exists {{NonLinearAlgebra_FO0029||FO}} in  {{NonLinearAlgebra_FO0858||FO}} and {{NonLinearAlgebra_FO0861||FO}} such that {{NonLinearAlgebra_FO0862||FO}} but {{NonLinearAlgebra_FO0863||FO}}. The same {{NonLinearAlgebra_FO0029||FO}} shows  that {{NonLinearAlgebra_FO0054||FO}} is not radical. Similar reasoning shows that all ideal {{NonLinearAlgebra_FO0153||FO}} satisfy

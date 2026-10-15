@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-165.jpg?height=76&width=854&top_left_y=1426&top_left_x=635
+created: 20260701062953707
+displayMode: true
+equation_number: (11.2)
+height: 76
+kind: Equation
+latex: P_{j}(\mathbf{x})=x_{1}^{j}+x_{2}^{j}+\cdots+x_{n}^{j} \quad \text { for } j=1,2, \ldots, n .
+modified: 20260701062953707
+page: 165
+refnum: 11.2
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0302
+top_left_x: 635
+top_left_y: 1426
+type: text/markdown
+width: 854

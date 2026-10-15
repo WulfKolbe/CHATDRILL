@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-104.jpg?height=199&width=1073&top_left_y=846&top_left_x=575
+created: 20260701062953705
+displayMode: true
+equation_number: (7.2)
+height: 199
+kind: Equation
+latex: \begin{aligned} & \left(u_{1}, u_{2}, u_{3}\right)^{T} \odot\left(v_{1}, v_{2}, v_{3}\right) \\ & =\left(\begin{array}{llll} u_{1} \odot v_{1} & u_{1} \odot v_{2} & u_{1} \odot v_{3} \\ u_{2} \odot v_{1} & u_{2} \odot v_{2} & u_{2} \odot v_{3} \\ u_{3} \odot v_{1} & u_{3} \odot v_{2} & u_{3} \odot v_{3} \end{array}\right)=\left(\begin{array}{lll} u_{1}+v_{1} & u_{1}+v_{2} & u_{1}+v_{3} \\ u_{2}+v_{1} & u_{2}+v_{2} & u_{2}+v_{3} \\ u_{3}+v_{1} & u_{3}+v_{2} & u_{3}+v_{3} \end{array}\right) \end{aligned}
+modified: 20260701062953705
+page: 104
+refnum: 7.2
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0176
+top_left_x: 575
+top_left_y: 846
+type: text/markdown
+width: 1073

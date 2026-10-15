@@ -1,0 +1,1 @@
+\(I=\left\langle x^{2}\right\rangle\) is primary but not radical,

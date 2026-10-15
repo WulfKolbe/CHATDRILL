@@ -1,0 +1,9 @@
+# Preface
+
+ 
+
+This book grew out of the lecture notes for a graduate course we taught  during the Summer Semester 2018 at the Max-Planck Institute (MPI) for  Mathematics in the Sciences in Leipzig, Germany. This was part of the gen eral lecture series (called Ringvorlesung in German) which is offered biannu ally by the International Max-Planck Research School (IMPRS). The aim  of our course was to introduce the theme of Nonlinear Algebra, which is also  the name of the research group that started at MPI Leipzig in early 2017. 
+
+Linear algebra is the foundation of much of mathematics, particularly  in applied mathematics. Numerical linear algebra is the basis of scientific  computing, and its importance for the sciences and engineering can hardly  be overestimated. The ubiquity of linear algebra masks the fairly recent  growth of nonlinear models across the mathematical sciences. There has  been a proliferation of methods based on systems of multivariate polynomial  equations and inequalities. This is fueled by recent theoretical advances, ef ficient software, and an increased awareness of these tools. At the heart  of this lies algebraic geometry, but there are links to many other branches,  such as combinatorics, algebraic topology, commutative algebra, convex and  discrete geometry, tensors and multilinear algebra, number theory, represen tation theory, and symbolic and numerical computation. Application areas  include optimization, statistics, complexity theory, among many others. 
+
+Nonlinear algebra is not simply a rebranding of algebraic geometry. It  is a recognition that a focus on computation and applications, and the the oretical needs that this requires, results in a body of inquiry that is comple mentary to the existing curriculum. The term nonlinear algebra is intended  to capture these trends, and to be more friendly to applied scientists. A spe cial research semester with that title, held in the fall of 2018 at the Institute

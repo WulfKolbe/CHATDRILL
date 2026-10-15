@@ -1,0 +1,8 @@
+caption: I_{6}=x_{0}^{6}-12 x_{0}^{4} x_{4} x_{9}-12 x_{0}^{4} x_{5} x_{7}-12 x_{0}^{4} x_{6} x_{8}+540 x_{0}^{3} x_{1} x_{2} x_{3}+\cdots+96 x_{5} x_{6}^{2} x_{7} x_{8}^{2}-64 x_{6}^{3} x_{8}^{3}
+created: 20260701062953701
+displayMode: false
+latex: I_{6}=x_{0}^{6}-12 x_{0}^{4} x_{4} x_{9}-12 x_{0}^{4} x_{5} x_{7}-12 x_{0}^{4} x_{6} x_{8}+540 x_{0}^{3} x_{1} x_{2} x_{3}+\cdots+96 x_{5} x_{6}^{2} x_{7} x_{8}^{2}-64 x_{6}^{3} x_{8}^{3}
+modified: 20260701062953701
+tags: formula NonLinearAlgebra
+title: NonLinearAlgebra_FO2340
+type: text/markdown

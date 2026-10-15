@@ -1,0 +1,7 @@
+
+
+This map is well-defined because the image is invariant under scaling the  vector {{NonLinearAlgebra_FO1708||FO}}, and {{NonLinearAlgebra_FO1709||FO}} is always positive. Its image is precisely the polytope  {{NonLinearAlgebra_FO0546||FO}}, since we are taking arbitrary convex combinations of the points {{NonLinearAlgebra_FO1511||FO}} in {{NonLinearAlgebra_FO0418||FO}}. 
+
+Definition 8.22. The algebraic moment map {{NonLinearAlgebra_FO1710||FO}} is defined as  the restriction of 8.2 from the ambient space {{NonLinearAlgebra_FO1705||FO}} to the toric variety {{NonLinearAlgebra_FO1663||FO}}.  We write {{NonLinearAlgebra_FO1711||FO}} for the subset of real points in {{NonLinearAlgebra_FO1663||FO}}. Its subset of nonnegative  resp. positive points is denoted by {{NonLinearAlgebra_FO1712||FO}} resp. {{NonLinearAlgebra_FO1713||FO}}. These are semialge braic sets in the real projective space {{NonLinearAlgebra_FO1714||FO}}. To be precise, the positive toric  variety {{NonLinearAlgebra_FO1713||FO}} consists of all positive solutions, up to scale, of the binomial  equations in {{NonLinearAlgebra_FO1660||FO}}, and similarly for the nonnegative toric variety {{NonLinearAlgebra_FO1712||FO}}. 
+
+The complex projective toric variety {{NonLinearAlgebra_FO1663||FO}} maps naturally onto its non negative part {{NonLinearAlgebra_FO1712||FO}} under the coordinatewise absolute value map

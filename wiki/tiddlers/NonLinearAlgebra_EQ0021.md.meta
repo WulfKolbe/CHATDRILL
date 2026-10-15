@@ -1,0 +1,16 @@
+canonical_uri: https://cdn.mathpix.com/cropped/87f2174a-02a4-4cd2-919e-c35745da92ae-021.jpg?height=138&width=1138&top_left_y=1119&top_left_x=491
+created: 20260701062953704
+displayMode: true
+equation_number: 
+height: 138
+kind: Equation
+latex: \mathrm{HS}_{I}(z)=\frac{1-z^{e}}{(1-z)^{n}}=\sum_{q=0}^{\infty}\left[\binom{n+q-1}{n-1}-\binom{n+q-e-1}{n-1}\right] z^{q}
+modified: 20260701062953704
+page: 021
+refnum: 
+tags: equation NonLinearAlgebra
+title: NonLinearAlgebra_EQ0021
+top_left_x: 491
+top_left_y: 1119
+type: text/markdown
+width: 1138
